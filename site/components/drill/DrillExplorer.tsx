@@ -168,6 +168,57 @@ function Row({
   );
 }
 
+/* Reference line: a budget category. Deliberately reads as DATA, not a button —
+   flat, muted, no hover, thin bar. It does not drill. */
+function RefRow({ label, usd, maxUsd }: { label: string; usd: number; maxUsd: number }) {
+  return (
+    <div className="px-1 py-1.5">
+      <div className="flex items-baseline justify-between gap-3">
+        <span className="text-sm text-ink/90">{label}</span>
+        <span className="shrink-0 font-mono text-xs text-fog">{fmtUsd(usd)}</span>
+      </div>
+      <div className="mt-1 h-1 overflow-hidden rounded-full bg-rule/30">
+        <div
+          className="h-full rounded-full bg-[#2a78d6]/50"
+          style={{ width: `${Math.max(0.5, (usd / maxUsd) * 100)}%` }}
+        />
+      </div>
+    </div>
+  );
+}
+
+/* Action line: a live path deeper. Reads unmistakably as a button — poppy
+   border, chevron, hover, "keep following". */
+function FollowRow({
+  label,
+  hint,
+  selected,
+  onClick,
+}: {
+  label: string;
+  hint?: string;
+  selected?: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "flex w-full items-center justify-between gap-3 rounded-md border px-3 py-2.5 text-left transition-colors",
+        selected
+          ? "border-poppy bg-poppy/[0.08]"
+          : "border-poppy/40 bg-poppy/[0.03] hover:bg-poppy/[0.08]"
+      )}
+    >
+      <span>
+        <span className="text-sm font-medium text-ink">{label}</span>
+        {hint && <span className="mt-0.5 block text-xs text-fog">{hint}</span>}
+      </span>
+      <span className="shrink-0 font-mono text-xs text-poppy-deep">keep following →</span>
+    </button>
+  );
+}
+
 function Terminator({ flag, children }: { flag: "trail_ends_here" | "masked" | "category_only"; children: React.ReactNode }) {
   return (
     <div className="mt-2 rounded-md border border-dark-zone/30 px-3 py-2.5 text-sm text-fog [background-image:repeating-linear-gradient(45deg,transparent,transparent_5px,rgba(87,83,78,0.07)_5px,rgba(87,83,78,0.07)_10px)]">
@@ -393,8 +444,11 @@ export function DrillExplorer({
         <LevelCard
           step={3}
           title={`${dept.title} — ${fmtUsd(dept.total_usd)}`}
-          subtitle="Where it sits in the budget: fund mix and program lines."
+          subtitle="What the budget assigns this department, and how to follow the money past the budget."
         >
+          <div className="text-xs font-semibold uppercase tracking-wide text-fog">
+            What the budget buys
+          </div>
           {Object.keys(dept.funds_by_class).length > 0 &&
             (() => {
               // bars are drawn from POSITIVE components only; negative fund
@@ -437,15 +491,28 @@ export function DrillExplorer({
                 </div>
               );
             })()}
-          {dept.programs.slice(0, 10).map((p) => (
-            <Row
-              key={`${p.program_code}-${p.title}`}
-              label={p.title}
-              usd={p.usd}
-              maxUsd={dept.programs[0]?.usd ?? 1}
-              color="#2a78d6"
-            />
-          ))}
+          <div className="mt-1">
+            {dept.programs.slice(0, 10).map((p) => (
+              <RefRow
+                key={`${p.program_code}-${p.title}`}
+                label={p.title}
+                usd={p.usd}
+                maxUsd={dept.programs[0]?.usd ?? 1}
+              />
+            ))}
+          </div>
+          {dept.programs.length > 10 && (
+            <p className="mt-1 text-xs text-fog">
+              The 10 largest of {dept.programs.length} program lines — all are in the{" "}
+              <a
+                href={agencySeg ? `/data/agencies/${agencySeg.cd}.json` : "/data/"}
+                className="underline underline-offset-2 hover:text-ink"
+              >
+                published data
+              </a>
+              .
+            </p>
+          )}
           {compDoc && compDoc !== "loading" && compDoc !== "error"
             ? (() => {
                 const c = compDoc.data.state_by_org_cd[dept.org_cd];
@@ -460,128 +527,128 @@ export function DrillExplorer({
                     </div>
                     <p className="mt-0.5 text-xs text-fog">
                       {fmtUsd(c.wages_usd)} in wages + {fmtUsd(c.benefits_usd)} in retirement &amp;
-                      health benefits ({compDoc.data.year}). Payroll is money the department spends
-                      that never shows up in the vendor checkbook.
+                      health benefits ({compDoc.data.year}).
                     </p>
                   </div>
                 );
               })()
             : null}
-          {dept.programs.length > 10 && (
-            <p className="mt-1 text-xs text-fog">
-              Showing the 10 largest of {dept.programs.length} program lines — all are in the{" "}
-              <a
-                href={agencySeg ? `/data/agencies/${agencySeg.cd}.json` : "/data/"}
-                className="underline underline-offset-2 hover:text-ink"
-              >
-                published data
-              </a>
-              .
-            </p>
-          )}
+          <p className="mt-2 text-xs text-fog">
+            These are the budget&apos;s own categories — the deepest the budget itself goes. To
+            follow the money past the budget, use the paths below.
+          </p>
 
-          {isCountyFlowDept(dept.title) && (
-            <div className="mt-3">
-              <Row
-                label="Follow it to the counties: where realignment money lands"
-                usd={dept.total_usd}
-                maxUsd={dept.total_usd}
-                color="#b98300"
-                selected={!!countiesSeg}
-                valueLabel="keep following →"
-                onClick={() =>
-                  setPath([
-                    ...path.filter(
-                      (s) =>
-                        s.kind !== "counties" &&
-                        s.kind !== "plans" &&
-                        s.kind !== "checkbook" &&
-                        s.kind !== "vendor" &&
-                        s.kind !== "recovered"
-                    ),
-                    { kind: "counties" },
-                  ])
-                }
-              />
-            </div>
-          )}
+          {(() => {
+            const actions: React.ReactNode[] = [];
+            if (DEPT_PLAN_HOP[dept.org_cd])
+              actions.push(
+                <FollowRow
+                  key="plans"
+                  label={DEPT_PLAN_HOP[dept.org_cd]}
+                  selected={!!plansSeg}
+                  onClick={() =>
+                    setPath([
+                      ...path.filter(
+                        (s) =>
+                          s.kind !== "plans" &&
+                          s.kind !== "counties" &&
+                          s.kind !== "checkbook" &&
+                          s.kind !== "vendor" &&
+                          s.kind !== "recovered"
+                      ),
+                      { kind: "plans" },
+                    ])
+                  }
+                />
+              );
+            if (isCountyFlowDept(dept.title))
+              actions.push(
+                <FollowRow
+                  key="counties"
+                  label="Follow it to the counties — where realignment money lands"
+                  selected={!!countiesSeg}
+                  onClick={() =>
+                    setPath([
+                      ...path.filter(
+                        (s) =>
+                          s.kind !== "counties" &&
+                          s.kind !== "plans" &&
+                          s.kind !== "checkbook" &&
+                          s.kind !== "vendor" &&
+                          s.kind !== "recovered"
+                      ),
+                      { kind: "counties" },
+                    ])
+                  }
+                />
+              );
+            if (isK12Dept(dept.org_cd))
+              actions.push(
+                <FollowRow
+                  key="districts"
+                  label="Follow it to the school districts"
+                  selected={!!districtsSeg}
+                  onClick={() =>
+                    setPath([
+                      ...path.filter(
+                        (s) =>
+                          s.kind !== "districts" &&
+                          s.kind !== "counties" &&
+                          s.kind !== "plans" &&
+                          s.kind !== "checkbook" &&
+                          s.kind !== "vendor" &&
+                          s.kind !== "recovered"
+                      ),
+                      { kind: "districts" },
+                    ])
+                  }
+                />
+              );
+            if (vendorDept)
+              actions.push(
+                <FollowRow
+                  key="checkbook"
+                  label="Open the checkbook — who actually got paid"
+                  hint={`${vendorDept.checkbook_coverage_pct ?? "?"}% of the budget is visible as named vendor payments`}
+                  selected={!!checkbookSeg}
+                  onClick={() =>
+                    setPath([
+                      ...path.filter(
+                        (s) =>
+                          s.kind !== "checkbook" &&
+                          s.kind !== "vendor" &&
+                          s.kind !== "recovered" &&
+                          s.kind !== "plans" &&
+                          s.kind !== "counties"
+                      ),
+                      { kind: "checkbook", orgCd: dept.org_cd },
+                    ])
+                  }
+                />
+              );
+            return (
+              <div className="mt-4 border-t border-rule pt-3">
+                <div className="text-xs font-semibold uppercase tracking-wide text-poppy">
+                  Follow the money further ↓
+                </div>
+                <div className="mt-2 space-y-2">
+                  {actions.length > 0 ? (
+                    actions
+                  ) : vendorsDoc === "loading" ? (
+                    <p className="text-sm text-fog">Checking what&apos;s traceable…</p>
+                  ) : (
+                    <Terminator flag="category_only">
+                      This department&apos;s spending isn&apos;t traced any deeper in public data —
+                      the budget categories above are as far as the record goes here.
+                    </Terminator>
+                  )}
+                </div>
+              </div>
+            );
+          })()}
 
-          {isK12Dept(dept.org_cd) && (
-            <div className="mt-3">
-              <Row
-                label="Follow it to the school districts"
-                usd={dept.total_usd}
-                maxUsd={dept.total_usd}
-                color="#b98300"
-                selected={!!districtsSeg}
-                valueLabel="keep following →"
-                onClick={() =>
-                  setPath([
-                    ...path.filter(
-                      (s) =>
-                        s.kind !== "districts" &&
-                        s.kind !== "counties" &&
-                        s.kind !== "plans" &&
-                        s.kind !== "checkbook" &&
-                        s.kind !== "vendor" &&
-                        s.kind !== "recovered"
-                    ),
-                    { kind: "districts" },
-                  ])
-                }
-              />
-            </div>
-          )}
-
-          {DEPT_PLAN_HOP[dept.org_cd] && (
-            <div className="mt-3">
-              <Row
-                label={DEPT_PLAN_HOP[dept.org_cd]}
-                usd={dept.total_usd}
-                maxUsd={dept.total_usd}
-                color="#1e7f4f"
-                selected={!!plansSeg}
-                valueLabel="keep following →"
-                onClick={() =>
-                  setPath([
-                    ...path.filter(
-                      (s) =>
-                        s.kind !== "plans" &&
-                        s.kind !== "counties" &&
-                        s.kind !== "checkbook" &&
-                        s.kind !== "vendor" &&
-                        s.kind !== "recovered"
-                    ),
-                    { kind: "plans" },
-                  ])
-                }
-              />
-            </div>
-          )}
-
-          {vendorDept ? (
-            <div className="mt-3">
-              <Row
-                label="Open the checkbook: who actually got paid"
-                sub={`${vendorDept.checkbook_coverage_pct ?? "?"}% of budget visible`}
-                usd={vendorDept.vendor_total_usd}
-                maxUsd={dept.total_usd}
-                color="#1e7f4f"
-                selected={!!checkbookSeg}
-                onClick={() =>
-                  setPath([
-                    ...path.filter(
-                      (s) =>
-                        s.kind !== "checkbook" &&
-                        s.kind !== "vendor" &&
-                        s.kind !== "recovered" &&
-                        s.kind !== "plans" &&
-                        s.kind !== "counties"
-                    ),
-                    { kind: "checkbook", orgCd: dept.org_cd },
-                  ])
-                }
-              />
+          {vendorDept && (
+            <div className="mt-2">
               {dept.total_usd - vendorDept.vendor_total_usd > 0 ? (
                 <Terminator flag="trail_ends_here">
                   The other {fmtUsd(dept.total_usd - vendorDept.vendor_total_usd)} never appears
@@ -596,17 +663,6 @@ export function DrillExplorer({
                 </Terminator>
               )}
             </div>
-          ) : vendorsDoc === "loading" ? (
-            <p className="mt-3 text-sm text-fog">Checking the checkbook…</p>
-          ) : vendorsDoc === "error" ? (
-            <div className="mt-3">
-              <FetchError what="the checkbook data" />
-            </div>
-          ) : (
-            <Terminator flag="category_only">
-              No vendor-level checkbook data for this department — budget categories are as deep
-              as the public record goes here.
-            </Terminator>
           )}
         </LevelCard>
       )}

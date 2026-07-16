@@ -31,7 +31,7 @@ test("six-hop drill: HHS -> DHCS -> checkbook -> AHP -> BHCIP, then vendor switc
 
   // hop 3: DHCS
   await page.getByRole("button", { name: /State Department of Health Care Services/ }).click();
-  await expect(page.getByText(/0\.7% of budget visible/)).toBeVisible();
+  await expect(page.getByText(/0\.7% of the budget is visible/)).toBeVisible();
   await expect(page.getByText(/never appears\s+in the checkbook/)).toBeVisible();
 
   // payroll nested in the department level (the biggest checkbook exclusion)
@@ -89,10 +89,10 @@ test("breadcrumb rewind truncates the trail", async ({ page }) => {
     .click();
   const deptButton = page.getByRole("button", { name: /Department of Education/ }).first();
   await deptButton.click();
-  await expect(page.getByText(/fund mix and program lines/)).toBeVisible();
+  await expect(page.getByText(/WHAT THE BUDGET BUYS/i)).toBeVisible();
   // rewind to the agency crumb (area+agency merge into one crumb)
   await page.locator("#drill").getByRole("button", { name: /K thru 12 Education/ }).click();
-  await expect(page.getByText(/fund mix and program lines/)).toHaveCount(0);
+  await expect(page.getByText(/WHAT THE BUDGET BUYS/i)).toHaveCount(0);
   await expect(page.getByText(/Click a department/)).toBeVisible();
 });
 
