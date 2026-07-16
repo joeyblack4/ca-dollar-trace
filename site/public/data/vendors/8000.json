@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 588,
         "vendor_total_usd": 1954573340.02,
         "confidential_usd": 838439.23,
-        "public_sector_usd": 28047191.03,
+        "public_sector_usd": 29789698.8,
         "sco_interface_net_usd": -1408716.42,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 2007,
         "vendor_total_usd": 506448772.72,
         "confidential_usd": 1317210.28,
-        "public_sector_usd": 196759029.13,
+        "public_sector_usd": 272455520.37,
         "sco_interface_net_usd": -2672673.45,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -243,7 +243,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 42430654.99,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -306,7 +306,7 @@
             "name": "SAN JOAQUIN COUNTY",
             "usd": 6838218.77,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -341,14 +341,14 @@
             "name": "SAN LUIS OBISPO COUNTY",
             "usd": 4898431.54,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
             "name": "CONTRA COSTA COUNTY",
             "usd": 4742510.02,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 5153590.02
           },
           {
@@ -362,7 +362,7 @@
             "name": "ORANGE COUNTY",
             "usd": 3922972.22,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -417,7 +417,7 @@
         "vendor_count": 995,
         "vendor_total_usd": 101647859.23,
         "confidential_usd": 681159.68,
-        "public_sector_usd": 25799378.73,
+        "public_sector_usd": 28650400.94,
         "sco_interface_net_usd": -10220079.46,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -544,7 +544,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 1107285.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -600,7 +600,7 @@
             "name": "ORANGE COUNTY",
             "usd": 641962.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           }
         ]
@@ -613,7 +613,7 @@
         "vendor_count": 638,
         "vendor_total_usd": 87250781.97,
         "confidential_usd": 689563.99,
-        "public_sector_usd": 5069436.7,
+        "public_sector_usd": 5155762.56,
         "sco_interface_net_usd": -45924624.21,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1005,7 +1005,7 @@
         "vendor_count": 631,
         "vendor_total_usd": 34019756.23,
         "confidential_usd": 358855.65,
-        "public_sector_usd": 16296172.96,
+        "public_sector_usd": 16369795.29,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1201,7 +1201,7 @@
         "vendor_count": 926,
         "vendor_total_usd": 26317681.06,
         "confidential_usd": 10925.06,
-        "public_sector_usd": 1107296.22,
+        "public_sector_usd": 2356896.22,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1244,7 +1244,7 @@
             "name": "ARTS ORANGE COUNTY",
             "usd": 783750.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1300,7 +1300,7 @@
             "name": "ARTS COUNCIL SANTA CRUZ COUNTY",
             "usd": 320250.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1397,7 +1397,7 @@
         "vendor_count": 110,
         "vendor_total_usd": 17321401.19,
         "confidential_usd": 197098.46,
-        "public_sector_usd": 11640135.12,
+        "public_sector_usd": 14534970.12,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1423,20 +1423,6 @@
             "gross_usd": null
           },
           {
-            "name": "COUNTY OF STANISLAUS",
-            "usd": 850000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
-            "name": "CITY & COUNTY OF SAN FRANCISCO",
-            "usd": 850000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
             "name": "COUNTY OF ALAMEDA",
             "usd": 850000.0,
             "masked": false,
@@ -1444,7 +1430,21 @@
             "gross_usd": null
           },
           {
+            "name": "COUNTY OF STANISLAUS",
+            "usd": 850000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
             "name": "COUNTY OF SAN BERNARDINO",
+            "usd": 850000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
             "usd": 850000.0,
             "masked": false,
             "public_sector": true,
@@ -1461,7 +1461,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 849635.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1489,7 +1489,7 @@
             "name": "HUMBOLDT COUNTY",
             "usd": 743864.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1503,7 +1503,7 @@
             "name": "MONTEREY COUNTY",
             "usd": 716152.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1517,7 +1517,7 @@
             "name": "YOLO COUNTY",
             "usd": 585184.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {

@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 2592,
         "vendor_total_usd": 3572319112.27,
         "confidential_usd": 2041616.13,
-        "public_sector_usd": 2063237713.2,
+        "public_sector_usd": 2130115365.05,
         "sco_interface_net_usd": -1428314.17,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 1520,
         "vendor_total_usd": 1063686883.01,
         "confidential_usd": 12695462.99,
-        "public_sector_usd": 193724246.26,
+        "public_sector_usd": 208416772.99,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -390,7 +390,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 7843140.13,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 15837486.33
           },
           {
@@ -417,7 +417,7 @@
         "vendor_count": 382,
         "vendor_total_usd": 427837044.02,
         "confidential_usd": 653295.92,
-        "public_sector_usd": 17913013.27,
+        "public_sector_usd": 17924183.27,
         "sco_interface_net_usd": -2108468.1,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -613,7 +613,7 @@
         "vendor_count": 504,
         "vendor_total_usd": 418412734.37,
         "confidential_usd": 269636.1,
-        "public_sector_usd": 119916131.38,
+        "public_sector_usd": 120229570.09,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -809,7 +809,7 @@
         "vendor_count": 460,
         "vendor_total_usd": 151251658.66,
         "confidential_usd": 3560.62,
-        "public_sector_usd": 24709.29,
+        "public_sector_usd": 515843.28,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1005,7 +1005,7 @@
         "vendor_count": 311,
         "vendor_total_usd": 150055798.14,
         "confidential_usd": 125355.92,
-        "public_sector_usd": 92598272.24,
+        "public_sector_usd": 92911955.2,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1621,7 +1621,7 @@
         "vendor_count": 303,
         "vendor_total_usd": 62173015.47,
         "confidential_usd": 454364.44,
-        "public_sector_usd": 18263044.3,
+        "public_sector_usd": 19887200.24,
         "sco_interface_net_usd": -1395042.66,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1727,7 +1727,7 @@
             "name": "ORANGE COUNTY",
             "usd": 563676.07,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 617517.57
           },
           {
@@ -3698,27 +3698,6 @@
             "gross_usd": null
           },
           {
-            "name": "COUNTY OF SANTA CRUZ",
-            "usd": 2000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
-            "name": "CITY OF IRVINE",
-            "usd": 2000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
-            "name": "SAN DIEGO HOUSING COMMISSION",
-            "usd": 2000.0,
-            "masked": false,
-            "public_sector": false,
-            "gross_usd": null
-          },
-          {
             "name": "CITY OF SAN PABLO",
             "usd": 2000.0,
             "masked": false,
@@ -3726,21 +3705,7 @@
             "gross_usd": null
           },
           {
-            "name": "CITY OF LAKE FOREST",
-            "usd": 2000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
-            "name": "CITY OF IMPERIAL BEACH",
-            "usd": 2000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
-            "name": "CITY OF ORANGE",
+            "name": "CITY OF SAN JOSE",
             "usd": 2000.0,
             "masked": false,
             "public_sector": true,
@@ -3761,7 +3726,42 @@
             "gross_usd": null
           },
           {
+            "name": "CITY OF IMPERIAL BEACH",
+            "usd": 2000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
+            "name": "TOWN OF WINDSOR",
+            "usd": 2000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
+            "name": "CITY OF FONTANA",
+            "usd": 2000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
             "name": "CITY OF PERRIS",
+            "usd": 2000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
+          },
+          {
+            "name": "SAN DIEGO HOUSING COMMISSION",
+            "usd": 2000.0,
+            "masked": false,
+            "public_sector": false,
+            "gross_usd": null
+          },
+          {
+            "name": "COUNTY OF SANTA CRUZ",
             "usd": 2000.0,
             "masked": false,
             "public_sector": true,
@@ -4650,14 +4650,14 @@
             "gross_usd": null
           },
           {
-            "name": "NAMI CALIFORNIA",
+            "name": "CA PUBLIC ADMINISTRATOR PUBLIC",
             "usd": 750.0,
             "masked": false,
             "public_sector": false,
             "gross_usd": null
           },
           {
-            "name": "CA PUBLIC ADMINISTRATOR PUBLIC",
+            "name": "NAMI CALIFORNIA",
             "usd": 750.0,
             "masked": false,
             "public_sector": false,

@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 812,
         "vendor_total_usd": 2818234701.96,
         "confidential_usd": 2544003086.82,
-        "public_sector_usd": 66451175.88,
+        "public_sector_usd": 74516752.64,
         "sco_interface_net_usd": -1959524.16,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 606,
         "vendor_total_usd": 1208462772.3,
         "confidential_usd": 1228067.08,
-        "public_sector_usd": 90195742.83,
+        "public_sector_usd": 91577165.58,
         "sco_interface_net_usd": 857.78,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -417,7 +417,7 @@
         "vendor_count": 1079,
         "vendor_total_usd": 1045883726.34,
         "confidential_usd": 1994755.24,
-        "public_sector_usd": 511816141.8,
+        "public_sector_usd": 520093853.36,
         "sco_interface_net_usd": -5275527.13,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -613,7 +613,7 @@
         "vendor_count": 378,
         "vendor_total_usd": 193370198.78,
         "confidential_usd": 627076.84,
-        "public_sector_usd": 34625621.09,
+        "public_sector_usd": 34637522.23,
         "sco_interface_net_usd": -478495.25,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -809,7 +809,7 @@
         "vendor_count": 253,
         "vendor_total_usd": 25198032.77,
         "confidential_usd": 200243.26,
-        "public_sector_usd": 14316387.04,
+        "public_sector_usd": 14773753.75,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -985,7 +985,7 @@
             "name": "MADERA COUNTY",
             "usd": 170259.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1005,7 +1005,7 @@
         "vendor_count": 133,
         "vendor_total_usd": 15755814.26,
         "confidential_usd": 32501.5,
-        "public_sector_usd": 1787971.99,
+        "public_sector_usd": 2058276.1,
         "sco_interface_net_usd": -120000.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [

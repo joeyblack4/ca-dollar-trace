@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -30,6 +30,26 @@
         "vendor_total_usd": 4082106.65
       },
       {
+        "org_cd": "1690",
+        "title": "A E Alquist Seismic Safety",
+        "vendor_total_usd": 9486.36
+      },
+      {
+        "org_cd": "6240",
+        "title": "School for the Deaf-Fremont",
+        "vendor_total_usd": 4778024.93
+      },
+      {
+        "org_cd": "0531",
+        "title": "Office of Systems Integration",
+        "vendor_total_usd": 429585207.57
+      },
+      {
+        "org_cd": "6260",
+        "title": "Diagnostic Centers",
+        "vendor_total_usd": 1512407.5
+      },
+      {
         "org_cd": "6250",
         "title": "School for the Deaf-Riverside",
         "vendor_total_usd": 4690625.95
@@ -38,26 +58,6 @@
         "org_cd": "6200",
         "title": "CA School for the Blind",
         "vendor_total_usd": 1401516.78
-      },
-      {
-        "org_cd": "6260",
-        "title": "Diagnostic Centers",
-        "vendor_total_usd": 1512407.5
-      },
-      {
-        "org_cd": "0531",
-        "title": "Office of Systems Integration",
-        "vendor_total_usd": 429585207.57
-      },
-      {
-        "org_cd": "6240",
-        "title": "School for the Deaf-Fremont",
-        "vendor_total_usd": 4778024.93
-      },
-      {
-        "org_cd": "1690",
-        "title": "A E Alquist Seismic Safety",
-        "vendor_total_usd": 9486.36
       }
     ]
   }

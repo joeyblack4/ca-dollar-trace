@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 343,
         "vendor_total_usd": 1320629223.66,
         "confidential_usd": 3540164.26,
-        "public_sector_usd": 47331011.15,
+        "public_sector_usd": 47833975.14,
         "sco_interface_net_usd": -737834.72,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 482,
         "vendor_total_usd": 786736193.02,
         "confidential_usd": 73627.5,
-        "public_sector_usd": 526100299.78,
+        "public_sector_usd": 532746720.89,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -376,7 +376,7 @@
             "name": "COLUSA COUNTY",
             "usd": 2223615.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -417,7 +417,7 @@
         "vendor_count": 3162,
         "vendor_total_usd": 414494832.78,
         "confidential_usd": 8205300.77,
-        "public_sector_usd": 99068941.21,
+        "public_sector_usd": 100206656.42,
         "sco_interface_net_usd": -15363555.44,
         "amount_unparsed_count": 0,
         "accounting_dates": [

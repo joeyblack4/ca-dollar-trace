@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 772,
         "vendor_total_usd": 3285168880.42,
         "confidential_usd": 170919.36,
-        "public_sector_usd": 706886133.07,
+        "public_sector_usd": 769805933.61,
         "sco_interface_net_usd": -42560000.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 3207,
         "vendor_total_usd": 152841168.77,
         "confidential_usd": 1492838.27,
-        "public_sector_usd": 34745948.1,
+        "public_sector_usd": 34746050.6,
         "sco_interface_net_usd": 645.07,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -809,7 +809,7 @@
         "vendor_count": 393,
         "vendor_total_usd": 20232591.06,
         "confidential_usd": 483141.89,
-        "public_sector_usd": 6572163.01,
+        "public_sector_usd": 6622733.12,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1201,7 +1201,7 @@
         "vendor_count": 180,
         "vendor_total_usd": 12694533.4,
         "confidential_usd": 299147.3,
-        "public_sector_usd": 4576206.51,
+        "public_sector_usd": 6083669.47,
         "sco_interface_net_usd": 285.08,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1223,7 +1223,7 @@
             "name": "211 LA COUNTY",
             "usd": 1507462.96,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1397,7 +1397,7 @@
         "vendor_count": 121,
         "vendor_total_usd": 9956650.42,
         "confidential_usd": 44089.55,
-        "public_sector_usd": 6084449.29,
+        "public_sector_usd": 6084494.04,
         "sco_interface_net_usd": -476927.84,
         "amount_unparsed_count": 0,
         "accounting_dates": [

@@ -1,0 +1,29 @@
+# Nonprofit enrichment for trail-end entities: when the money stops at a
+# nonprofit, attach what the public record knows about that organization.
+#   - CA AG Registry of Charitable Trusts (CSV, twice-monthly): registration
+#     status (in good standing vs delinquent/suspended), CT number, FEIN
+#   - ProPublica Nonprofit Explorer (990 data): revenue, assets, filing year
+# Matched deterministically by normalized name against the entities already on
+# the site (grant recipients, BHCIP organizations, checkbook vendors); the
+# measured match rate is published.
+source: nonprofits
+dataset: registry_enrichment
+access: csv_download
+endpoints:
+  may_operate: "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/reports/charities-may-operate.csv"
+  may_not_operate: "https://oag.ca.gov/sites/all/files/agweb/pdfs/charities/reports/charities-may-not-operate.csv"
+  propublica: "https://projects.propublica.org/nonprofits/api/v2/organizations/{ein}.json"
+cadence: "AG registry updated 1st & 3rd Wednesday monthly; 990 data lags 12-18 months"
+freshness_sla_hours: 1440
+min_rows: 100000
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Matching is by normalized organization name — a published match rate, not a guarantee; unmatched entities may still be registered under a different legal name."
+  - "'May not operate' status means the AG registry lists the charity as delinquent, suspended, or revoked — it is a compliance flag, not a fraud finding."
+  - "990 figures lag 12-18 months behind reality and cover the organization's whole operation, not its California government revenue."
+info:
+  name: "CA AG Charity Registry + IRS 990 (via ProPublica)"
+  publisher: "California DOJ / ProPublica Nonprofit Explorer"
+  url: "https://oag.ca.gov/charities/reports"
+  license: "Public record (CA DOJ); 990s are public IRS records"

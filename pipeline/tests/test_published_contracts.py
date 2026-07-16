@@ -300,3 +300,22 @@ def test_federal_audits_contract():
     assert d["top_auditees_limit"] == 60
     types = {t["entity_type"] for t in d["by_entity_type"]}
     assert {"state", "local", "non-profit", "higher-ed"} <= types
+
+
+# ---------- nonprofit enrichment ----------
+
+
+def test_nonprofits_contract():
+    d = load("nonprofits.json")["data"]
+    assert d["registry_org_count"] > 200_000
+    assert d["matched"] >= 100
+    assert d["with_990"] > 0
+    for name, org in d["organizations"].items():
+        assert org["registry_status"], name
+        assert "may_operate" in org, name
+        n990 = org.get("irs_990")
+        if n990:
+            assert n990["propublica_url"].startswith("https://projects.propublica.org/")
+    # public agencies must never appear in a charity-compliance list
+    for name in d["not_in_good_standing"]:
+        assert "COUNTY" not in name.upper() or "OF" in name.upper().split()[0:1], name

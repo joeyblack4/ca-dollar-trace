@@ -1,0 +1,1809 @@
+{
+  "source": {
+    "name": "CA AG Charity Registry + IRS 990 (via ProPublica)",
+    "publisher": "California DOJ / ProPublica Nonprofit Explorer",
+    "url": "https://oag.ca.gov/charities/reports",
+    "license": "Public record (CA DOJ); 990s are public IRS records"
+  },
+  "as_of": "2026-07-16T211655Z",
+  "ingested_at": "2026-07-16T21:16:55.042018+00:00",
+  "cadence": "AG registry updated 1st & 3rd Wednesday monthly; 990 data lags 12-18 months",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Matching is by normalized organization name \u2014 a published match rate, not a guarantee; unmatched entities may still be registered under a different legal name.",
+    "'May not operate' status means the AG registry lists the charity as delinquent, suspended, or revoked \u2014 it is a compliance flag, not a fraud finding.",
+    "990 figures lag 12-18 months behind reality and cover the organization's whole operation, not its California government revenue."
+  ],
+  "data": {
+    "registry_org_count": 274160,
+    "site_entities_checked": 568,
+    "matched": 170,
+    "match_rate_pct": 29.9,
+    "with_990": 60,
+    "not_in_good_standing": [
+      "CHILD DEVELOPMENT INC"
+    ],
+    "organizations": {
+      "Scripps Health": {
+        "registered_name": "SCRIPPS HEALTH",
+        "registry_status": "Exempt",
+        "ct_number": "CT0151777",
+        "fein": "951684089",
+        "city": "SAN DIEGO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951684089",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4140209334,
+          "total_expenses_usd": 4090065520,
+          "ntee": "E220"
+        }
+      },
+      "CALSTART INC": {
+        "registered_name": "CALSTART INC.",
+        "registry_status": "Current",
+        "ct_number": "085529",
+        "fein": "954375022",
+        "city": "PASADENA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/954375022",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 169305902,
+          "total_expenses_usd": 172945315,
+          "ntee": "Z99Z"
+        }
+      },
+      "University of Southern California": {
+        "registered_name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+        "registry_status": "Exempt",
+        "ct_number": "",
+        "fein": "951642394",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951642394",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 5119320238,
+          "total_expenses_usd": 5076481275,
+          "ntee": "B430"
+        }
+      },
+      "Stanford Health Care": {
+        "registered_name": "STANFORD HEALTH CARE",
+        "registry_status": "Exempt",
+        "ct_number": "CT0145166",
+        "fein": "946174066",
+        "city": "STANFORD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/946174066",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 7049201975,
+          "total_expenses_usd": 6584068268,
+          "ntee": "E220"
+        }
+      },
+      "CommonSpirit Health": {
+        "registered_name": "COMMONSPIRIT HEALTH FOUNDATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0288306",
+        "fein": "853374038",
+        "city": "PHOENIX",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/853374038",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4567792,
+          "total_expenses_usd": 1431979,
+          "ntee": "X22"
+        }
+      },
+      "Applied Materials, Inc.": {
+        "registered_name": "THE APPLIED MATERIALS FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "096215",
+        "fein": "770386898",
+        "city": "SANTA CLARA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/770386898",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 16709332,
+          "total_expenses_usd": 8598569,
+          "ntee": "T99Z"
+        }
+      },
+      "Eden Housing, Inc.": {
+        "registered_name": "EDEN HOUSING INC.",
+        "registry_status": "Current",
+        "ct_number": "009963",
+        "fein": "231716750",
+        "city": "HAYWARD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/231716750",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 56108519,
+          "total_expenses_usd": 41272629,
+          "ntee": "L210"
+        }
+      },
+      "MidPen Housing Corporation": {
+        "registered_name": "MIDPEN HOUSING CORPORATION",
+        "registry_status": "Current",
+        "ct_number": "013956",
+        "fein": "237089977",
+        "city": "FOSTER CITY",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/237089977",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 55697583,
+          "total_expenses_usd": 36466328,
+          "ntee": "L210"
+        }
+      },
+      "Resources for Community Development": {
+        "registered_name": "RESOURCES FOR COMMUNITY DEVELOPMENT",
+        "registry_status": "Current - In Process",
+        "ct_number": "059640",
+        "fein": "942952466",
+        "city": "BERKELEY",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942952466",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 33974979,
+          "total_expenses_usd": 22901085,
+          "ntee": null
+        }
+      },
+      "BRIDGE Housing Corporation": {
+        "registered_name": "BRIDGE HOUSING CORPORATION",
+        "registry_status": "Current",
+        "ct_number": "049070",
+        "fein": "942827909",
+        "city": "SAN FRANCISCO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942827909",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 78595410,
+          "total_expenses_usd": 45358302,
+          "ntee": "L200"
+        }
+      },
+      "Children's Hospital Los Angeles": {
+        "registered_name": "CHILDREN'S HOSPITAL LOS ANGELES",
+        "registry_status": "Exempt",
+        "ct_number": "CT0000521",
+        "fein": "951690977",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951690977",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 1609939633,
+          "total_expenses_usd": 1652929444,
+          "ntee": "E240"
+        }
+      },
+      "Mercy Housing California": {
+        "registered_name": "MERCY HOUSING CALIFORNIA",
+        "registry_status": "Current",
+        "ct_number": "073837",
+        "fein": "943081666",
+        "city": "DULUTH",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/943081666",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 41074614,
+          "total_expenses_usd": 62817838,
+          "ntee": "L20"
+        }
+      },
+      "Tarzana Treatment Centers, Inc": {
+        "registered_name": "TARZANA TREATMENT CENTERS INC.",
+        "registry_status": "Exempt",
+        "ct_number": "015616",
+        "fein": "942219349",
+        "city": "TARZANA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942219349",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 132064342,
+          "total_expenses_usd": 126409520,
+          "ntee": "F34Z"
+        }
+      },
+      "Loma Linda University Children's Hospital": {
+        "registered_name": "LOMA LINDA UNIVERSITY CHILDREN'S HOSPITAL FOUNDATION",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "086625",
+        "fein": "330565591",
+        "city": "SAN BERNARDINO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/330565591",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4063376,
+          "total_expenses_usd": 394330,
+          "ntee": null
+        }
+      },
+      "AltaMed Health Services Corporation": {
+        "registered_name": "ALTAMED HEALTH SERVICES CORPORATION",
+        "registry_status": "Exempt",
+        "ct_number": "013500",
+        "fein": "952810095",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/952810095",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 1480779622,
+          "total_expenses_usd": 1392162287,
+          "ntee": "E320"
+        }
+      },
+      "SELF HELP ENTERPRISES": {
+        "registered_name": "SELF-HELP ENTERPRISES",
+        "registry_status": "Current",
+        "ct_number": "014597",
+        "fein": "941592676",
+        "city": "VISALIA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/941592676",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 65987549,
+          "total_expenses_usd": 59181040,
+          "ntee": "L20Z"
+        }
+      },
+      "Pacific Southwest Community Development Corporation": {
+        "registered_name": "PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT CORPORATION",
+        "registry_status": "Current",
+        "ct_number": "106659",
+        "fein": "330673939",
+        "city": "SAN DIEGO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/330673939",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 8729813,
+          "total_expenses_usd": 6761814,
+          "ntee": "L200"
+        }
+      },
+      "The Nature Conservancy": {
+        "registered_name": "THE NATURE CONSERVANCY",
+        "registry_status": "Current",
+        "ct_number": "006957",
+        "fein": "530242652",
+        "city": "ARLINGTON",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/530242652",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 1166010019,
+          "total_expenses_usd": 1119899341,
+          "ntee": null
+        }
+      },
+      "LINC Housing Corporation": {
+        "registered_name": "LINC HOUSING CORPORATION",
+        "registry_status": "Current",
+        "ct_number": "091114",
+        "fein": "330578620",
+        "city": "LONG BEACH",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/330578620",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 19739757,
+          "total_expenses_usd": 23713406,
+          "ntee": "L200"
+        }
+      },
+      "Episcopal Communities & Services for Seniors": {
+        "registered_name": "EPISCOPAL COMMUNITIES & SERVICES FOR SENIORS",
+        "registry_status": "Current - In Process",
+        "ct_number": "011709",
+        "fein": "951642373",
+        "city": "ALTADENA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951642373",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 42700630,
+          "total_expenses_usd": 51397998,
+          "ntee": "L21"
+        }
+      },
+      "Chapman University": {
+        "registered_name": "CHAPMAN UNIVERSITY FOUNDATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0154791",
+        "fein": "300563618",
+        "city": "ORANGE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/300563618",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 0,
+          "total_expenses_usd": 0,
+          "ntee": "B11"
+        }
+      },
+      "Century Affordable Development, Inc.": {
+        "registered_name": "CENTURY AFFORDABLE DEVELOPMENT INC.",
+        "registry_status": "Current",
+        "ct_number": "104977",
+        "fein": "954648166",
+        "city": "CULVER CITY",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/954648166",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 15866369,
+          "total_expenses_usd": 4041722,
+          "ntee": "L20"
+        }
+      },
+      "National Community Renaissance of California": {
+        "registered_name": "NATIONAL COMMUNITY RENAISSANCE OF CALIFORNIA",
+        "registry_status": "Current",
+        "ct_number": "085265",
+        "fein": "330521215",
+        "city": "RANCHO CUCAMONGA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/330521215",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 62599760,
+          "total_expenses_usd": 61276601,
+          "ntee": "L200"
+        }
+      },
+      "Wakeland Housing and Development Corporation": {
+        "registered_name": "WAKELAND HOUSING AND DEVELOPMENT CORPORATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "112355",
+        "fein": "330833640",
+        "city": "SAN DIEGO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/330833640",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 25641126,
+          "total_expenses_usd": 12222162,
+          "ntee": "L21"
+        }
+      },
+      "Alameda Health System": {
+        "registered_name": "ALAMEDA HEALTH SYSTEM FOUNDATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "073746",
+        "fein": "943103136",
+        "city": "OAKLAND",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/943103136",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 9553134,
+          "total_expenses_usd": 5860924,
+          "ntee": "E22I"
+        }
+      },
+      "On Lok Senior Health Services": {
+        "registered_name": "ON LOK SENIOR HEALTH SERVICES",
+        "registry_status": "Current - In Process",
+        "ct_number": "013655",
+        "fein": "942162549",
+        "city": "SAN FRANCISCO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942162549",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 233282616,
+          "total_expenses_usd": 230328421,
+          "ntee": "E300"
+        }
+      },
+      "Los Angeles Centers for Alcohol and Drug Abuse": {
+        "registered_name": "LOS ANGELES CENTERS FOR ALCOHOL AND DRUG ABUSE",
+        "registry_status": "Current - In Process",
+        "ct_number": "046185",
+        "fein": "237110152",
+        "city": "SANTA FE SPRINGS",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/237110152",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 50601755,
+          "total_expenses_usd": 46588701,
+          "ntee": null
+        }
+      },
+      "Epidaurus": {
+        "registered_name": "EPIDAURUS",
+        "registry_status": "Current - In Process",
+        "ct_number": "100714",
+        "fein": "770418201",
+        "city": "TUCSON",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/770418201",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 115938039,
+          "total_expenses_usd": 114843638,
+          "ntee": "F20"
+        }
+      },
+      "Special Service for Groups, Inc.": {
+        "registered_name": "SPECIAL SERVICE FOR GROUPS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "000778",
+        "fein": "951716914",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951716914",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 169949256,
+          "total_expenses_usd": 167777147,
+          "ntee": "P840"
+        }
+      },
+      "Bakersfield American Indian Health Project, Inc.": {
+        "registered_name": "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT",
+        "registry_status": "Current",
+        "ct_number": "CT0200761",
+        "fein": "455281837",
+        "city": "BAKERSFIELD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/455281837",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4360719,
+          "total_expenses_usd": 3907872,
+          "ntee": "E32"
+        }
+      },
+      "CRI-Help, Inc.": {
+        "registered_name": "CRI-HELP INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "014184",
+        "fein": "952758951",
+        "city": "NORTH HOLLYWOOD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/952758951",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 19243515,
+          "total_expenses_usd": 14716481,
+          "ntee": null
+        }
+      },
+      "Fresno American Indian Health Project": {
+        "registered_name": "FRESNO AMERICAN INDIAN HEALTH PROJECT",
+        "registry_status": "Current",
+        "ct_number": "CT0178503",
+        "fein": "451504597",
+        "city": "FRESNO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/451504597",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 7057593,
+          "total_expenses_usd": 6395537,
+          "ntee": "E70"
+        }
+      },
+      "HealthRIGHT 360": {
+        "registered_name": "HEALTHRIGHT 360",
+        "registry_status": "Current - In Process",
+        "ct_number": "008492",
+        "fein": "946129071",
+        "city": "SAN FRANCISCO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/946129071",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 147317593,
+          "total_expenses_usd": 152823692,
+          "ntee": null
+        }
+      },
+      "Janus of Santa Cruz": {
+        "registered_name": "JANUS OF SANTA CRUZ",
+        "registry_status": "Current - In Process",
+        "ct_number": "044488",
+        "fein": "942739130",
+        "city": "SANTA CRUZ",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942739130",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 15294678,
+          "total_expenses_usd": 12994549,
+          "ntee": "F200"
+        }
+      },
+      "New Creation Behavioral Healthcare Foundation": {
+        "registered_name": "NEW CREATION BEHAVIORAL HEALTHCARE FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "CT0245182",
+        "fein": "464273229",
+        "city": "ONTARIO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/464273229",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 1371633,
+          "total_expenses_usd": 1324605,
+          "ntee": "F20"
+        }
+      },
+      "Principles, Inc.": {
+        "registered_name": "PRINCIPLES INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "012963",
+        "fein": "952769659",
+        "city": "PASADENA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/952769659",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 19510092,
+          "total_expenses_usd": 18428452,
+          "ntee": "F22Z"
+        }
+      },
+      "Seneca Family of Agencies": {
+        "registered_name": "SENECA FAMILY OF AGENCIES",
+        "registry_status": "Current - In Process",
+        "ct_number": "059376",
+        "fein": "942971761",
+        "city": "OAKLAND",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942971761",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 176921824,
+          "total_expenses_usd": 174442697,
+          "ntee": null
+        }
+      },
+      "The Alliance for Community Wellness": {
+        "registered_name": "THE ALLIANCE FOR COMMUNITY WELLNESS",
+        "registry_status": "Current - In Process",
+        "ct_number": "019183",
+        "fein": "942297155",
+        "city": "HAYWARD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942297155",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 29003483,
+          "total_expenses_usd": 28818300,
+          "ntee": null
+        }
+      },
+      "Aspiranet": {
+        "registered_name": "ASPIRANET",
+        "registry_status": "Current - In Process",
+        "ct_number": "034345",
+        "fein": "942442955",
+        "city": "SOUTH SAN FRANCISCO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/942442955",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 90777729,
+          "total_expenses_usd": 86725792,
+          "ntee": "P32Z"
+        }
+      },
+      "Bay Area Community Services Housing Corporation": {
+        "registered_name": "BAY AREA COMMUNITY SERVICES HOUSING CORPORATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0232479",
+        "fein": "464433655",
+        "city": "OAKLAND",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/464433655",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 20793906,
+          "total_expenses_usd": 3059325,
+          "ntee": "L99"
+        }
+      },
+      "Center Point, Inc.": {
+        "registered_name": "CENTER POINT INC.",
+        "registry_status": "Current",
+        "ct_number": "014474",
+        "fein": "941740797",
+        "city": "SAN RAFAEL",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/941740797",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 27942069,
+          "total_expenses_usd": 26067436,
+          "ntee": "F22Z"
+        }
+      },
+      "Encompass Community Services": {
+        "registered_name": "ENCOMPASS COMMUNITY SERVICES",
+        "registry_status": "Current - In Process",
+        "ct_number": "016484",
+        "fein": "237275290",
+        "city": "SANTA CRUZ",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/237275290",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 31920082,
+          "total_expenses_usd": 32326689,
+          "ntee": "P200"
+        }
+      },
+      "Friends of the Mission": {
+        "registered_name": "FRIENDS OF THE MISSION",
+        "registry_status": "Current",
+        "ct_number": "117980",
+        "fein": "911834006",
+        "city": "WOODLAND",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/911834006",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4962859,
+          "total_expenses_usd": 1367808,
+          "ntee": "T99J"
+        }
+      },
+      "Gateways Hospital and Mental Health Center": {
+        "registered_name": "GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "CT0287542",
+        "fein": "883360044",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/883360044",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 89841,
+          "total_expenses_usd": 617838,
+          "ntee": "F12"
+        }
+      },
+      "Habitat for Humanity Yuba/Sutter, Inc.": {
+        "registered_name": "HABITAT FOR HUMANITY YUBA/SUTTER INC.",
+        "registry_status": "Current",
+        "ct_number": "091621",
+        "fein": "680301692",
+        "city": "MARYSVILLE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/680301692",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 10271607,
+          "total_expenses_usd": 4616592,
+          "ntee": "L20Z"
+        }
+      },
+      "Inner-Tribal Treatment": {
+        "registered_name": "Inner-Tribal Treatment",
+        "registry_status": "Current",
+        "ct_number": "CT0287799",
+        "fein": "874270306",
+        "city": "PAUMA VALLEY",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/874270306",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 1743525,
+          "total_expenses_usd": 1037113,
+          "ntee": "F20"
+        }
+      },
+      "JWCH Institute, Inc.": {
+        "registered_name": "JWCH INSTITUTE INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "043000",
+        "fein": "952289916",
+        "city": "COMMERCE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/952289916",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 138616319,
+          "total_expenses_usd": 114531901,
+          "ntee": "E70Z"
+        }
+      },
+      "Kings View Foundation": {
+        "registered_name": "KINGS VIEW",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0209200",
+        "fein": "941412648",
+        "city": "FRESNO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/941412648",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 38418347,
+          "total_expenses_usd": 35270059,
+          "ntee": "F30"
+        }
+      },
+      "Mathiesen Memorial Health Clinic": {
+        "registered_name": "MATHIESEN MEMORIAL HEALTH CLINIC",
+        "registry_status": "Exempt",
+        "ct_number": "CT0176589",
+        "fein": "260895668",
+        "city": "JAMESTOWN",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/260895668",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 12735237,
+          "total_expenses_usd": 10575734,
+          "ntee": "E32"
+        }
+      },
+      "Southern Indian Health Council, Inc.": {
+        "registered_name": "SOUTHERN INDIAN HEALTH COUNCIL",
+        "registry_status": "Current",
+        "ct_number": "051348",
+        "fein": "953782164",
+        "city": "ALPINE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/953782164",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 26718100,
+          "total_expenses_usd": 26885084,
+          "ntee": "E320"
+        }
+      },
+      "St. Vincent Behavioral Health Campus": {
+        "registered_name": "ST. VINCENT BEHAVIORAL HEALTH CAMPUS",
+        "registry_status": "Current",
+        "ct_number": "CT0301490",
+        "fein": "332203364",
+        "city": "BEVERLY HILLS",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/332203364",
+          "latest_filing_year": null,
+          "total_revenue_usd": null,
+          "total_expenses_usd": null,
+          "ntee": "F30"
+        }
+      },
+      "The Happier Life Project": {
+        "registered_name": "THE HAPPIER LIFE PROJECT",
+        "registry_status": "Current",
+        "ct_number": "CT0280821",
+        "fein": "871156043",
+        "city": "LAKE ELSINORE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/871156043",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 996979,
+          "total_expenses_usd": 547570,
+          "ntee": "F01"
+        }
+      },
+      "Tule River Indian Health Center, Inc.": {
+        "registered_name": "TULE RIVER INDIAN HEALTH CENTER INC.",
+        "registry_status": "Exempt",
+        "ct_number": "034348",
+        "fein": "941669142",
+        "city": "PORTERVILLE",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/941669142",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 18331050,
+          "total_expenses_usd": 13995616,
+          "ntee": "E32"
+        }
+      },
+      "United Indian Health Services Inc.": {
+        "registered_name": "UNITED INDIAN HEALTH SERVICES INC.",
+        "registry_status": "Current",
+        "ct_number": "014130",
+        "fein": "237088205",
+        "city": "ARCATA",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/237088205",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 49503500,
+          "total_expenses_usd": 44236311,
+          "ntee": "E320"
+        }
+      },
+      "Vista Del Mar Child and Family Services": {
+        "registered_name": "VISTA DEL MAR CHILD AND FAMILY SERVICES",
+        "registry_status": "Current - In Process",
+        "ct_number": "002571",
+        "fein": "951647832",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951647832",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 49021528,
+          "total_expenses_usd": 48790250,
+          "ntee": "P400"
+        }
+      },
+      "WellSpace Health": {
+        "registered_name": "WELLSPACE HEALTH",
+        "registry_status": "Current - In Process",
+        "ct_number": "011601",
+        "fein": "941713704",
+        "city": "SACRAMENTO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/941713704",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 136532999,
+          "total_expenses_usd": 131622856,
+          "ntee": "F220"
+        }
+      },
+      "A.B.C. Recovery Center, Inc.": {
+        "registered_name": "A.B.C. RECOVERY CENTER INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "036432",
+        "fein": "751006381",
+        "city": "INDIO",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/751006381",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 7635407,
+          "total_expenses_usd": 7396918,
+          "ntee": null
+        }
+      },
+      "All For Kids Organization": {
+        "registered_name": "ALL FOR KIDS ORGANIZATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "003304",
+        "fein": "951690975",
+        "city": "LOS ANGELES",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/951690975",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 51841393,
+          "total_expenses_usd": 50398643,
+          "ntee": "P300"
+        }
+      },
+      "Archway Recovery Services": {
+        "registered_name": "ARCHWAY RECOVERY SERVICES INC.",
+        "registry_status": "Current",
+        "ct_number": "128454",
+        "fein": "680413703",
+        "city": "FAIRFIELD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/680413703",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 6713144,
+          "total_expenses_usd": 5280322,
+          "ntee": "P80"
+        }
+      },
+      "Bakersfield Recovery Services, Inc.": {
+        "registered_name": "BAKERSFIELD RECOVERY SERVICES INC.",
+        "registry_status": "Current - Awaiting Reporting",
+        "ct_number": "069933",
+        "fein": "770168396",
+        "city": "BAKERSFIELD",
+        "may_operate": true,
+        "irs_990": {
+          "propublica_url": "https://projects.propublica.org/nonprofits/organizations/770168396",
+          "latest_filing_year": 2023,
+          "total_revenue_usd": 4720202,
+          "total_expenses_usd": 4694290,
+          "ntee": "F220"
+        }
+      },
+      "Bartz-Altadonna Community Health Center": {
+        "registered_name": "BARTZ-ALTADONNA COMMUNITY HEALTH CENTER",
+        "registry_status": "Current",
+        "ct_number": "CT0202949",
+        "fein": "273261289",
+        "city": "LANCASTER",
+        "may_operate": true
+      },
+      "Bi-Bett": {
+        "registered_name": "BI-BETT",
+        "registry_status": "Current - In Process",
+        "ct_number": "011856",
+        "fein": "941702064",
+        "city": "WALNUT CREEK",
+        "may_operate": true
+      },
+      "Butterfly's Haven": {
+        "registered_name": "Butterfly's Haven",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0286171",
+        "fein": "861587005",
+        "city": "BEVERLY HILLS",
+        "may_operate": true
+      },
+      "Casa de Amparo": {
+        "registered_name": "CASA DE AMPARO",
+        "registry_status": "Current",
+        "ct_number": "045935",
+        "fein": "953315571",
+        "city": "SAN MARCOS",
+        "may_operate": true
+      },
+      "Center for Human Services": {
+        "registered_name": "CENTER FOR HUMAN SERVICES",
+        "registry_status": "Current",
+        "ct_number": "012768",
+        "fein": "941725620",
+        "city": "MODESTO",
+        "may_operate": true
+      },
+      "Christ-Centered Ministries": {
+        "registered_name": "CHRIST-CENTERED MINISTRIES",
+        "registry_status": "Exempt - Religious",
+        "ct_number": "",
+        "fein": "954712641",
+        "city": "HAWTHORNE",
+        "may_operate": true
+      },
+      "Clinica MSR Oscar A Romero": {
+        "registered_name": "CLINICA MSR. OSCAR A ROMERO",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "054077",
+        "fein": "953881333",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Community Medical Centers, Inc.": {
+        "registered_name": "COMMUNITY MEDICAL CENTERS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "033503",
+        "fein": "942437106",
+        "city": "STOCKTON",
+        "may_operate": true
+      },
+      "Compatior, Inc.": {
+        "registered_name": "COMPATIOR INC.",
+        "registry_status": "Current",
+        "ct_number": "CT0282748",
+        "fein": "454027159",
+        "city": "SOUTH GATE",
+        "may_operate": true
+      },
+      "Consolidated Tribal Health Project, Inc.": {
+        "registered_name": "CONSOLIDATED TRIBAL HEALTH PROJECT INC.",
+        "registry_status": "Current",
+        "ct_number": "058209",
+        "fein": "942891496",
+        "city": "CALPELLA",
+        "may_operate": true
+      },
+      "Coppertower Family Medical Center": {
+        "registered_name": "COPPERTOWER FAMILY MEDICAL CENTER",
+        "registry_status": "Exempt",
+        "ct_number": "095414",
+        "fein": "680345901",
+        "city": "CLOVERDALE",
+        "may_operate": true
+      },
+      "Dolores C. Huerta Foundation": {
+        "registered_name": "DOLORES C. HUERTA FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "CT0147729",
+        "fein": "912145992",
+        "city": "BAKERSFIELD",
+        "may_operate": true
+      },
+      "Drug Abuse Alternatives Center": {
+        "registered_name": "DRUG ABUSE ALTERNATIVES CENTER",
+        "registry_status": "Current",
+        "ct_number": "011670",
+        "fein": "941694676",
+        "city": "SANTA ROSA",
+        "may_operate": true
+      },
+      "Emotional Health Association": {
+        "registered_name": "EMOTIONAL HEALTH ASSOCIATION",
+        "registry_status": "Current",
+        "ct_number": "005446",
+        "fein": "956092809",
+        "city": "CULVER CITY",
+        "may_operate": true
+      },
+      "El Dorado County Community Health Center": {
+        "registered_name": "EL DORADO COUNTY COMMUNITY HEALTH CENTER",
+        "registry_status": "Exempt",
+        "ct_number": "120089",
+        "fein": "421533531",
+        "city": "PLACERVILLE",
+        "may_operate": true
+      },
+      "Encompass Housing": {
+        "registered_name": "ENCOMPASS HOUSING",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0226392",
+        "fein": "475066773",
+        "city": "SANTA ANA",
+        "may_operate": true
+      },
+      "Environmental Alternatives": {
+        "registered_name": "ENVIRONMENTAL ALTERNATIVES",
+        "registry_status": "Current",
+        "ct_number": "044191",
+        "fein": "942751173",
+        "city": "QUINCY",
+        "may_operate": true
+      },
+      "Family Dynamics Resource Center": {
+        "registered_name": "FAMILY DYNAMICS RESOURCE CENTER",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0180112",
+        "fein": "900633321",
+        "city": "REDDING",
+        "may_operate": true
+      },
+      "Foothill Family Service": {
+        "registered_name": "FOOTHILL FAMILY SERVICE",
+        "registry_status": "Current",
+        "ct_number": "003410",
+        "fein": "951690990",
+        "city": "PASADENA",
+        "may_operate": true
+      },
+      "Ford Street Project": {
+        "registered_name": "FORD STREET PROJECT",
+        "registry_status": "Current - In Process",
+        "ct_number": "040092",
+        "fein": "942767559",
+        "city": "UKIAH",
+        "may_operate": true
+      },
+      "Fred Brown's Recovery Services, Inc.": {
+        "registered_name": "FRED BROWN'S RECOVERY SERVICES INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "083785",
+        "fein": "330491967",
+        "city": "SAN PEDRO",
+        "may_operate": true
+      },
+      "The Friendship House Association of American Indians": {
+        "registered_name": "THE FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS",
+        "registry_status": "Current - In Process",
+        "ct_number": "012935",
+        "fein": "237097915",
+        "city": "SAN FRANCISCO",
+        "may_operate": true
+      },
+      "Global Women Foundation & Band of Brothers": {
+        "registered_name": "Global Women Foundation & Band of Brothers",
+        "registry_status": "Current",
+        "ct_number": "CT0296680",
+        "fein": "922468175",
+        "city": "SANTA MONICA",
+        "may_operate": true
+      },
+      "Good Samaritan Shelter": {
+        "registered_name": "GOOD SAMARITAN SHELTER",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "066259",
+        "fein": "770133375",
+        "city": "SANTA MARIA",
+        "may_operate": true
+      },
+      "Greater Hope Foundation for Children, Inc.": {
+        "registered_name": "GREATER HOPE FOUNDATION FOR CHILDREN INC.",
+        "registry_status": "Current",
+        "ct_number": "133768",
+        "fein": "900111715",
+        "city": "VICTORVILLE",
+        "may_operate": true
+      },
+      "HOPE in the valley": {
+        "registered_name": "HOPE in the Valley",
+        "registry_status": "Current",
+        "ct_number": "CT0300820",
+        "fein": "933923603",
+        "city": "BAKERSFIELD",
+        "may_operate": true
+      },
+      "Hamburger Home": {
+        "registered_name": "HAMBURGER HOME",
+        "registry_status": "Current - In Process",
+        "ct_number": "004094",
+        "fein": "951693616",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Hillsides": {
+        "registered_name": "HILLSIDES",
+        "registry_status": "Current",
+        "ct_number": "005487",
+        "fein": "951644002",
+        "city": "PASADENA",
+        "may_operate": true
+      },
+      "His Ideas, Inc.": {
+        "registered_name": "HIS IDEAS INC.",
+        "registry_status": "Current",
+        "ct_number": "098783",
+        "fein": "912022127",
+        "city": "RED BLUFF",
+        "may_operate": true
+      },
+      "Homeboy Industries": {
+        "registered_name": "HOMEBOY INDUSTRIES",
+        "registry_status": "Current",
+        "ct_number": "118772",
+        "fein": "954800735",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Horizon Services, Inc": {
+        "registered_name": "HORIZON SERVICES INCORPORATED",
+        "registry_status": "Current - In Process",
+        "ct_number": "019031",
+        "fein": "942365021",
+        "city": "HAYWARD",
+        "may_operate": true
+      },
+      "Indian Health Council, Inc.": {
+        "registered_name": "INDIAN HEALTH COUNCIL INC.",
+        "registry_status": "Current",
+        "ct_number": "021245",
+        "fein": "952506788",
+        "city": "PAUMA VALLEY",
+        "may_operate": true
+      },
+      "Interim, Inc.": {
+        "registered_name": "INTERIM INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "017528",
+        "fein": "510159122",
+        "city": "MONTEREY",
+        "may_operate": true
+      },
+      "Jail Guitar Doors": {
+        "registered_name": "JAIL GUITAR DOORS",
+        "registry_status": "Current",
+        "ct_number": "CT0159176",
+        "fein": "270998581",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Jesus Provides Our Daily Bread": {
+        "registered_name": "JESUS PROVIDES OUR DAILY BREAD",
+        "registry_status": "Current",
+        "ct_number": "088298",
+        "fein": "680290819",
+        "city": "CHICO",
+        "may_operate": true
+      },
+      "Khalsa Foundation": {
+        "registered_name": "KHALSA FOUNDATION",
+        "registry_status": "Exempt - Religious",
+        "ct_number": "",
+        "fein": "",
+        "city": "CLOVIS",
+        "may_operate": true
+      },
+      "Lassen": {
+        "registered_name": "LASSEN FOUNDATION",
+        "registry_status": "Exempt - Religious",
+        "ct_number": "001356",
+        "fein": "946092070",
+        "city": "NEWPORT BEACH",
+        "may_operate": true
+      },
+      "Los Angeles Jewish Home for the Aging": {
+        "registered_name": "LOS ANGELES JEWISH HOME FOR THE AGING",
+        "registry_status": "Current - In Process",
+        "ct_number": "040134",
+        "fein": "953510024",
+        "city": "RESEDA",
+        "may_operate": true
+      },
+      "Marshall Medical Center": {
+        "registered_name": "MARSHALL MEDICAL CENTER",
+        "registry_status": "Exempt",
+        "ct_number": "",
+        "fein": "941450151",
+        "city": "PLACERVILLE",
+        "may_operate": true
+      },
+      "McAlister Institute for Treatment & Education, Inc.": {
+        "registered_name": "MCALISTER INSTITUTE FOR TREATMENT & EDUCATION INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "021765",
+        "fein": "953140767",
+        "city": "EL CAJON",
+        "may_operate": true
+      },
+      "Mentis": {
+        "registered_name": "MENTIS",
+        "registry_status": "Current",
+        "ct_number": "001244",
+        "fein": "941236934",
+        "city": "NAPA",
+        "may_operate": true
+      },
+      "Nate's Place, A Wellness and Recovery Center": {
+        "registered_name": "NATE'S PLACE A WELLNESS AND RECOVERY CENTER",
+        "registry_status": "Current",
+        "ct_number": "CT0283664",
+        "fein": "882222599",
+        "city": "OXNARD",
+        "may_operate": true
+      },
+      "Native American Health Center, Inc.": {
+        "registered_name": "NATIVE AMERICAN HEALTH CENTER INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "013990",
+        "fein": "237135928",
+        "city": "OAKLAND",
+        "may_operate": true
+      },
+      "Native Directions, Inc.": {
+        "registered_name": "NATIVE DIRECTIONS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "029675",
+        "fein": "237419354",
+        "city": "MANTECA",
+        "may_operate": true
+      },
+      "North Coast Substance Abuse Council Inc.": {
+        "registered_name": "NORTH COAST SUBSTANCE ABUSE COUNCIL",
+        "registry_status": "Current",
+        "ct_number": "018947",
+        "fein": "942281020",
+        "city": "EUREKA",
+        "may_operate": true
+      },
+      "NorthBay Healthcare Corporation": {
+        "registered_name": "NORTHBAY HEALTHCARE CORPORATION",
+        "registry_status": "Current",
+        "ct_number": "060021",
+        "fein": "680046750",
+        "city": "FAIRFIELD",
+        "may_operate": true
+      },
+      "OLE Health": {
+        "registered_name": "OLE HEALTH",
+        "registry_status": "Current - In Process",
+        "ct_number": "049590",
+        "fein": "237221695",
+        "city": "NAPA",
+        "may_operate": true
+      },
+      "Orchard Hospital": {
+        "registered_name": "ORCHARD HOSPITAL FOUNDATION",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "123134",
+        "fein": "680474996",
+        "city": "GRIDLEY",
+        "may_operate": true
+      },
+      "Pacific Clinics": {
+        "registered_name": "PACIFIC CLINICS",
+        "registry_status": "Current - In Process",
+        "ct_number": "018068",
+        "fein": "942295953",
+        "city": "LOS GATOS",
+        "may_operate": true
+      },
+      "Palomar Health": {
+        "registered_name": "PALOMAR HEALTH FOUNDATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "042433",
+        "fein": "933573154",
+        "city": "ESCONDIDO",
+        "may_operate": true
+      },
+      "Pathway Society, Inc.": {
+        "registered_name": "PATHWAY SOCIETY INC.",
+        "registry_status": "Current",
+        "ct_number": "010278",
+        "fein": "941688522",
+        "city": "SAN JOSE",
+        "may_operate": true
+      },
+      "Paving the Way Foundation": {
+        "registered_name": "PAVING THE WAY FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "129734",
+        "fein": "010852709",
+        "city": "LANCASTER",
+        "may_operate": true
+      },
+      "Rancho San Antonio Boys Home Inc.": {
+        "registered_name": "RANCHO SAN ANTONIO BOYS HOME INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0137401",
+        "fein": "260588029",
+        "city": "CHATSWORTH",
+        "may_operate": true
+      },
+      "Redwood Community Services, Inc.": {
+        "registered_name": "REDWOOD COMMUNITY SERVICES INC.",
+        "registry_status": "Current",
+        "ct_number": "100541",
+        "fein": "680367894",
+        "city": "UKIAH",
+        "may_operate": true
+      },
+      "Ritter Center": {
+        "registered_name": "RITTER CENTER",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "040772",
+        "fein": "942675517",
+        "city": "SAN RAFAEL",
+        "may_operate": true
+      },
+      "Round Valley Indian Health Center": {
+        "registered_name": "ROUND VALLEY INDIAN HEALTH CENTER INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "016687",
+        "fein": "942151392",
+        "city": "COVELO",
+        "may_operate": true
+      },
+      "SISTAHFRIENDS": {
+        "registered_name": "SISTAHFRIENDS",
+        "registry_status": "Current",
+        "ct_number": "CT0283237",
+        "fein": "261402329",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Safe Passages": {
+        "registered_name": "SAFE PASSAGES",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0160539",
+        "fein": "204535835",
+        "city": "OAKLAND",
+        "may_operate": true
+      },
+      "San Diego American Indian Health Center": {
+        "registered_name": "SAN DIEGO AMERICAN INDIAN HEALTH CENTER",
+        "registry_status": "Current - In Process",
+        "ct_number": "036372",
+        "fein": "953397369",
+        "city": "SAN DIEGO",
+        "may_operate": true
+      },
+      "San Diego Freedom Ranch, Inc.": {
+        "registered_name": "SAN DIEGO FREEDOM RANCH INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "017658",
+        "fein": "952997398",
+        "city": "CAMPO",
+        "may_operate": true
+      },
+      "Sanctuary Centers of Santa Barbara, Inc.": {
+        "registered_name": "SANCTUARY CENTERS OF SANTA BARBARA INC.",
+        "registry_status": "Exempt",
+        "ct_number": "020178",
+        "fein": "953066786",
+        "city": "SANTA BARBARA",
+        "may_operate": true
+      },
+      "Service First of Northern California": {
+        "registered_name": "SERVICE FIRST OF NORTHERN CALIFORNIA",
+        "registry_status": "Current",
+        "ct_number": "100843",
+        "fein": "680367046",
+        "city": "STOCKTON",
+        "may_operate": true
+      },
+      "Sierra Tribal Consortium, INC": {
+        "registered_name": "SIERRA TRIBAL CONSORTIUM INC.",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "033622",
+        "fein": "942494904",
+        "city": "FRESNO",
+        "may_operate": true
+      },
+      "Social Science Services, Inc.": {
+        "registered_name": "SOCIAL SCIENCE SERVICES INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "017502",
+        "fein": "952914237",
+        "city": "BLOOMINGTON",
+        "may_operate": true
+      },
+      "Sonoma County Indian Health Project, Inc.": {
+        "registered_name": "SONOMA COUNTY INDIAN HEALTH PROJECT INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "015360",
+        "fein": "941741896",
+        "city": "SANTA ROSA",
+        "may_operate": true
+      },
+      "Soroptimist House of Hope, Inc": {
+        "registered_name": "SOROPTIMIST HOUSE OF HOPE INC.",
+        "registry_status": "Current",
+        "ct_number": "046493",
+        "fein": "953652725",
+        "city": "DESERT HOT SPRINGS",
+        "may_operate": true
+      },
+      "Southern California Alcohol and Drug Programs, Inc.": {
+        "registered_name": "SOUTHERN CALIFORNIA ALCOHOL AND DRUG PROGRAMS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "015644",
+        "fein": "237228780",
+        "city": "DOWNEY",
+        "may_operate": true
+      },
+      "St. Anne's Family Services": {
+        "registered_name": "ST. ANNE'S FAMILY SERVICES",
+        "registry_status": "Current - In Process",
+        "ct_number": "019411",
+        "fein": "951691306",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "St. John's Community Health": {
+        "registered_name": "ST. JOHN'S COMMUNITY HEALTH",
+        "registry_status": "Current",
+        "ct_number": "066919",
+        "fein": "954067758",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Sutter Coast Hospital": {
+        "registered_name": "SUTTER COAST HOSPITAL",
+        "registry_status": "Exempt",
+        "ct_number": "060933",
+        "fein": "942988520",
+        "city": "CRESCENT CITY",
+        "may_operate": true
+      },
+      "Toiyabe Indian Health Project, Inc.": {
+        "registered_name": "TOIYABE INDIAN HEALTH PROJECT INC.",
+        "registry_status": "Exempt",
+        "ct_number": "014088",
+        "fein": "952538049",
+        "city": "BISHOP",
+        "may_operate": true
+      },
+      "The Good News Rescue Mission": {
+        "registered_name": "THE GOOD NEWS RESCUE MISSION",
+        "registry_status": "Exempt - Religious",
+        "ct_number": "EX572066",
+        "fein": "941652602",
+        "city": "REDDING",
+        "may_operate": true
+      },
+      "The Teen Project, Inc.": {
+        "registered_name": "THE TEEN PROJECT INC.",
+        "registry_status": "Current",
+        "ct_number": "CT0147306",
+        "fein": "300421837",
+        "city": "VAN NUYS",
+        "may_operate": true
+      },
+      "The TransLatin@ Coalition": {
+        "registered_name": "THE TRANSLATIN@ COALITION",
+        "registry_status": "Current",
+        "ct_number": "CT0260347",
+        "fein": "273801872",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "United American Indian Involvement, Inc.": {
+        "registered_name": "UNITED AMERICAN INDIAN INVOLVEMENT INC.",
+        "registry_status": "Current",
+        "ct_number": "018601",
+        "fein": "952917933",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "VOTC, Inc.": {
+        "registered_name": "VOTC INC.",
+        "registry_status": "Current",
+        "ct_number": "CT0168780",
+        "fein": "134341279",
+        "city": "REDDING",
+        "may_operate": true
+      },
+      "Via Care Community Health Center": {
+        "registered_name": "VIA CARE COMMUNITY HEALTH CENTER INC.",
+        "registry_status": "Current",
+        "ct_number": "CT0186270",
+        "fein": "800699156",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Wellnest Emotional Health & Wellness": {
+        "registered_name": "WELLNEST EMOTIONAL HEALTH & WELLNESS",
+        "registry_status": "Current - In Process",
+        "ct_number": "052192",
+        "fein": "951690974",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "Willow Glen Care Center": {
+        "registered_name": "WILLOW GLEN CARE CENTER",
+        "registry_status": "Current - In Process",
+        "ct_number": "102357",
+        "fein": "680386402",
+        "city": "YUBA CITY",
+        "may_operate": true
+      },
+      "Youth Recovery Connections": {
+        "registered_name": "YOUTH RECOVERY CONNECTIONS",
+        "registry_status": "Current - Awaiting Reporting",
+        "ct_number": "CT0284203",
+        "fein": "873985788",
+        "city": "HOLLISTER",
+        "may_operate": true
+      },
+      "CHILD CARE RESOURCE CENTER INC": {
+        "registered_name": "CHILD CARE RESOURCE CENTER INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "020402",
+        "fein": "953081695",
+        "city": "CHATSWORTH",
+        "may_operate": true
+      },
+      "CENTER FOR SUSTAINABLE ENERGY": {
+        "registered_name": "CENTER FOR SUSTAINABLE ENERGY",
+        "registry_status": "Current",
+        "ct_number": "113674",
+        "fein": "330936366",
+        "city": "SAN DIEGO",
+        "may_operate": true
+      },
+      "KAISER FOUNDATION HOSPITALS": {
+        "registered_name": "KAISER FOUNDATION HOSPITALS",
+        "registry_status": "Exempt",
+        "ct_number": "",
+        "fein": "941105628",
+        "city": "OAKLAND",
+        "may_operate": true
+      },
+      "DIGNITY HEALTH": {
+        "registered_name": "DIGNITY HEALTH FOUNDATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0195222",
+        "fein": "462037641",
+        "city": "PHOENIX",
+        "may_operate": true
+      },
+      "CRYSTAL STAIRS INC": {
+        "registered_name": "CRYSTAL STAIRS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "041281",
+        "fein": "953510046",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "EDUCATIONAL TESTING SERVICE": {
+        "registered_name": "EDUCATIONAL TESTING SERVICE",
+        "registry_status": "Current",
+        "ct_number": "033066",
+        "fein": "210634479",
+        "city": "PRINCETON",
+        "may_operate": true
+      },
+      "PRIDE INDUSTRIES ONE INC": {
+        "registered_name": "PRIDE INDUSTRIES ONE INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "105546",
+        "fein": "911827109",
+        "city": "ROSEVILLE",
+        "may_operate": true
+      },
+      "SUTTER HEALTH": {
+        "registered_name": "SUTTER HEALTH",
+        "registry_status": "Current",
+        "ct_number": "046498",
+        "fein": "942788907",
+        "city": "SACRAMENTO",
+        "may_operate": true
+      },
+      "CHILD ACTION INC": {
+        "registered_name": "CHILD ACTION INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "019774",
+        "fein": "942364946",
+        "city": "RANCHO CORDOVA",
+        "may_operate": true
+      },
+      "KLAMATH RIVER RENEWAL CORP": {
+        "registered_name": "KLAMATH RIVER RENEWAL CORPORATION",
+        "registry_status": "Current - In Process",
+        "ct_number": "CT0253857",
+        "fein": "812761910",
+        "city": "BERKELEY",
+        "may_operate": true
+      },
+      "OPTIONS FOR LEARNING": {
+        "registered_name": "OPTIONS FOR LEARNING",
+        "registry_status": "Current - In Process",
+        "ct_number": "042461",
+        "fein": "953602641",
+        "city": "WEST COVINA",
+        "may_operate": true
+      },
+      "ORANGE COUNTY FIRE AUTHORITY": {
+        "registered_name": "ORANGE COUNTY FIRE AUTHORITY FOUNDATION",
+        "registry_status": "Current",
+        "ct_number": "CT0171141",
+        "fein": "271064774",
+        "city": "SAN CLEMENTE",
+        "may_operate": true
+      },
+      "PUBLIC HEALTH INSTITUTE": {
+        "registered_name": "PUBLIC HEALTH INSTITUTE",
+        "registry_status": "Current",
+        "ct_number": "043580",
+        "fein": "941646278",
+        "city": "OAKLAND",
+        "may_operate": true
+      },
+      "HOPE THE MISSION": {
+        "registered_name": "HOPE THE MISSION",
+        "registry_status": "Exempt - Religious",
+        "ct_number": "CT0158552",
+        "fein": "272053273",
+        "city": "NORTH HILLS",
+        "may_operate": true
+      },
+      "COCOKIDS INC": {
+        "registered_name": "COCOKIDS INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "020513",
+        "fein": "942383037",
+        "city": "CONCORD",
+        "may_operate": true
+      },
+      "CAL FOODS LOGISTICS": {
+        "registered_name": "CAL FOODS LOGISTICS",
+        "registry_status": "Current",
+        "ct_number": "CT0272187",
+        "fein": "852138383",
+        "city": "PLEASANT HILL",
+        "may_operate": true
+      },
+      "LOS ANGELES REGIONAL FOOD BANK": {
+        "registered_name": "LOS ANGELES REGIONAL FOOD BANK",
+        "registry_status": "Current",
+        "ct_number": "020719",
+        "fein": "953135649",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "CATALYST FAMILY INC": {
+        "registered_name": "CATALYST FAMILY INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "024664",
+        "fein": "942376637",
+        "city": "MORGAN HILL",
+        "may_operate": true
+      },
+      "UNIVERSITY ENTERPRISES INC": {
+        "registered_name": "UNIVERSITY ENTERPRISES INC.",
+        "registry_status": "Current",
+        "ct_number": "010341",
+        "fein": "941337638",
+        "city": "SACRAMENTO",
+        "may_operate": true
+      },
+      "CENTRAL VALLEY REGIONAL CENTER": {
+        "registered_name": "CENTRAL VALLEY REGIONAL CENTER INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "048019",
+        "fein": "942823126",
+        "city": "FRESNO",
+        "may_operate": true
+      },
+      "KAISER FDN HEALTH PLAN INC": {
+        "registered_name": "KAISER FOUNDATION HEALTH PLAN INC.",
+        "registry_status": "Exempt",
+        "ct_number": "",
+        "fein": "941340523",
+        "city": "OAKLAND",
+        "may_operate": true
+      },
+      "CHICO STATE ENTERPRISES": {
+        "registered_name": "CHICO STATE ENTERPRISES",
+        "registry_status": "Current - Awaiting Reporting",
+        "ct_number": "102886",
+        "fein": "680386518",
+        "city": "CHICO",
+        "may_operate": true
+      },
+      "GO KIDS INC": {
+        "registered_name": "GO KIDS INC.",
+        "registry_status": "Current",
+        "ct_number": "034791",
+        "fein": "942535812",
+        "city": "GILROY",
+        "may_operate": true
+      },
+      "WEINGART CENTER ASSOCIATION": {
+        "registered_name": "WEINGART CENTER ASSOCIATION",
+        "registry_status": "Current - Reporting Incomplete",
+        "ct_number": "001054",
+        "fein": "956054617",
+        "city": "LOS ANGELES",
+        "may_operate": true
+      },
+      "CHILD DEVELOPMENT INC": {
+        "registered_name": "CHILD DEVELOPMENT FOUNDATION",
+        "registry_status": "Revoked",
+        "ct_number": "021920",
+        "fein": "953379127",
+        "city": "LOS ANGELES",
+        "may_operate": false
+      },
+      "SUPPORTIVE SERVICES INC": {
+        "registered_name": "SUPPORTIVE SERVICES INC.",
+        "registry_status": "Current",
+        "ct_number": "022884",
+        "fein": "942377266",
+        "city": "FRESNO",
+        "may_operate": true
+      },
+      "KIDANGO INC": {
+        "registered_name": "KIDANGO INC.",
+        "registry_status": "Current - In Process",
+        "ct_number": "037094",
+        "fein": "942581686",
+        "city": "FREMONT",
+        "may_operate": true
+      },
+      "AREA 4 AGENCY ON AGING": {
+        "registered_name": "AREA 4 AGENCY ON AGING",
+        "registry_status": "Current",
+        "ct_number": "CT0297590",
+        "fein": "942897957",
+        "city": "SACRAMENTO",
+        "may_operate": true
+      },
+      "MANIFEST MEDEX": {
+        "registered_name": "MANIFEST MEDEX",
+        "registry_status": "Current",
+        "ct_number": "CT0166074",
+        "fein": "272367522",
+        "city": "RIVERSIDE",
+        "may_operate": true
+      },
+      "COMMUNITY RESOURCE PROJECT INC": {
+        "registered_name": "COMMUNITY RESOURCE PROJECT INC.",
+        "registry_status": "Current",
+        "ct_number": "021220",
+        "fein": "942280427",
+        "city": "SACRAMENTO",
+        "may_operate": true
+      }
+    }
+  }
+}

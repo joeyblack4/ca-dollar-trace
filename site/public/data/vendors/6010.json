@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 2265,
         "vendor_total_usd": 11527933331.25,
         "confidential_usd": 686826.52,
-        "public_sector_usd": 9588737628.2,
+        "public_sector_usd": 9874032391.16,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -124,7 +124,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 162438329.98,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -221,7 +221,7 @@
         "vendor_count": 42,
         "vendor_total_usd": 198396659.26,
         "confidential_usd": 0.0,
-        "public_sector_usd": 101426755.26,
+        "public_sector_usd": 136659148.81,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -236,7 +236,7 @@
             "name": "BUTTE COUNTY",
             "usd": 25738344.55,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -257,7 +257,7 @@
             "name": "KINGS COUNTY",
             "usd": 9483576.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -282,14 +282,14 @@
             "gross_usd": null
           },
           {
-            "name": "CHABOT-LAS POSITAS COMM",
+            "name": "YOSEMITE COMM COLLEGE DIST",
             "usd": 5439000.0,
             "masked": false,
             "public_sector": false,
             "gross_usd": null
           },
           {
-            "name": "YOSEMITE COMM COLLEGE DIST",
+            "name": "CHABOT-LAS POSITAS COMM",
             "usd": 5439000.0,
             "masked": false,
             "public_sector": false,
@@ -324,14 +324,14 @@
             "gross_usd": null
           },
           {
-            "name": "COUNTY OF SANTA BARBARA",
+            "name": "TREASURER OF RIVERSIDE COUNTY",
             "usd": 4620503.0,
             "masked": false,
             "public_sector": true,
             "gross_usd": null
           },
           {
-            "name": "TREASURER OF RIVERSIDE COUNTY",
+            "name": "COUNTY OF SANTA BARBARA",
             "usd": 4620503.0,
             "masked": false,
             "public_sector": true,
@@ -373,7 +373,7 @@
             "gross_usd": null
           },
           {
-            "name": "CAL POLY HUMBOLDT SPONSORED",
+            "name": "GROSSMONT CUYAMACA COMM",
             "usd": 3626000.0,
             "masked": false,
             "public_sector": false,
@@ -394,14 +394,14 @@
             "gross_usd": null
           },
           {
-            "name": "GROSSMONT CUYAMACA COMM",
+            "name": "KERN COUNTY SUPT OF SCHOOLS",
             "usd": 3626000.0,
             "masked": false,
             "public_sector": false,
             "gross_usd": null
           },
           {
-            "name": "KERN COUNTY SUPT OF SCHOOLS",
+            "name": "SHASTA COLLEGE",
             "usd": 3626000.0,
             "masked": false,
             "public_sector": false,
@@ -534,18 +534,18 @@
             "gross_usd": 2662825.01
           },
           {
-            "name": "TWIN RIVERS UNIFIED SCHOOL",
-            "usd": 1900000.0,
-            "masked": false,
-            "public_sector": true,
-            "gross_usd": null
-          },
-          {
             "name": "SACRAMENTO CITY UNFD SCHL DIST",
             "usd": 1900000.0,
             "masked": false,
             "public_sector": false,
             "gross_usd": 2800000.0
+          },
+          {
+            "name": "TWIN RIVERS UNIFIED SCHOOL",
+            "usd": 1900000.0,
+            "masked": false,
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "KIPP PROMESA PREP",
@@ -576,14 +576,14 @@
             "gross_usd": null
           },
           {
-            "name": "CERES UNIFIED SCHOOL DIST",
+            "name": "SAN MARCOS UNIFIED SCHOOL DIST",
             "usd": 1600000.0,
             "masked": false,
             "public_sector": true,
             "gross_usd": null
           },
           {
-            "name": "SAN MARCOS UNIFIED SCHOOL DIST",
+            "name": "CERES UNIFIED SCHOOL DIST",
             "usd": 1600000.0,
             "masked": false,
             "public_sector": true,
@@ -613,7 +613,7 @@
         "vendor_count": 355,
         "vendor_total_usd": 117334084.84,
         "confidential_usd": 22545.98,
-        "public_sector_usd": 71640133.81,
+        "public_sector_usd": 79744800.81,
         "sco_interface_net_usd": 1252.32,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -656,7 +656,7 @@
             "name": "YOLO COUNTY",
             "usd": 4391700.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -698,7 +698,7 @@
             "name": "YUBA COUNTY",
             "usd": 3044220.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1101,13 +1101,6 @@
             "gross_usd": null
           },
           {
-            "name": "DANIEL FOERSTE",
-            "usd": 22250.0,
-            "masked": false,
-            "public_sector": false,
-            "gross_usd": null
-          },
-          {
             "name": "VALERIE ESPINOZA",
             "usd": 22250.0,
             "masked": false,
@@ -1116,6 +1109,13 @@
           },
           {
             "name": "MARIA F HERNANDEZ",
+            "usd": 22250.0,
+            "masked": false,
+            "public_sector": false,
+            "gross_usd": null
+          },
+          {
+            "name": "DANIEL FOERSTE",
             "usd": 22250.0,
             "masked": false,
             "public_sector": false,
@@ -1150,6 +1150,13 @@
             "gross_usd": null
           },
           {
+            "name": "BARBARA J DODGE",
+            "usd": 18931.5,
+            "masked": false,
+            "public_sector": false,
+            "gross_usd": null
+          },
+          {
             "name": "PIETRO PINTO",
             "usd": 18931.5,
             "masked": false,
@@ -1158,13 +1165,6 @@
           },
           {
             "name": "VALERIE STERN",
-            "usd": 18931.5,
-            "masked": false,
-            "public_sector": false,
-            "gross_usd": null
-          },
-          {
-            "name": "BARBARA J DODGE",
             "usd": 18931.5,
             "masked": false,
             "public_sector": false,

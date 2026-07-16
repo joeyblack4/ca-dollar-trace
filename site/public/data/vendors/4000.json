@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 2542,
         "vendor_total_usd": 2489799813.62,
         "confidential_usd": 1974523.44,
-        "public_sector_usd": 597179874.89,
+        "public_sector_usd": 645452984.4,
         "sco_interface_net_usd": -20214072016.68,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -124,7 +124,7 @@
             "name": "YMCA OF SAN DIEGO COUNTY",
             "usd": 31395932.23,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -221,7 +221,7 @@
         "vendor_count": 1322,
         "vendor_total_usd": 2135414141.83,
         "confidential_usd": 1892455.55,
-        "public_sector_usd": 742843612.57,
+        "public_sector_usd": 877659485.26,
         "sco_interface_net_usd": -747864136.03,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -313,7 +313,7 @@
             "name": "ORANGE COUNTY",
             "usd": 33887701.81,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -369,7 +369,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 19475617.62,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 20778840.59
           },
           {
@@ -390,7 +390,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 17135275.84,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 18997380.82
           },
           {
@@ -417,7 +417,7 @@
         "vendor_count": 1177,
         "vendor_total_usd": 1366772608.65,
         "confidential_usd": 1644108.24,
-        "public_sector_usd": 352085164.59,
+        "public_sector_usd": 374071850.38,
         "sco_interface_net_usd": -53429702.78,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -613,7 +613,7 @@
         "vendor_count": 1713,
         "vendor_total_usd": 758537495.67,
         "confidential_usd": 1666758.4,
-        "public_sector_usd": 236073294.55,
+        "public_sector_usd": 256925918.02,
         "sco_interface_net_usd": -66745444.38,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -761,7 +761,7 @@
             "name": "SAN JOAQUIN COUNTY",
             "usd": 7528399.14,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -809,7 +809,7 @@
         "vendor_count": 897,
         "vendor_total_usd": 385789036.65,
         "confidential_usd": 381447.32,
-        "public_sector_usd": 16043583.19,
+        "public_sector_usd": 16045433.19,
         "sco_interface_net_usd": -14076325960.6,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1005,7 +1005,7 @@
         "vendor_count": 160,
         "vendor_total_usd": 355556983.67,
         "confidential_usd": 29127.42,
-        "public_sector_usd": 130484677.83,
+        "public_sector_usd": 230858671.84,
         "sco_interface_net_usd": 2004.82,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1020,7 +1020,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 57615929.42,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1118,7 +1118,7 @@
             "name": "FIRST 5 RIVERSIDE COUNTY",
             "usd": 6476683.58,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1160,7 +1160,7 @@
             "name": "FIRST 5 FRESNO COUNTY",
             "usd": 4684901.28,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1188,7 +1188,7 @@
             "name": "MADERA COUNTY",
             "usd": 3915759.2,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           }
         ]
@@ -1201,7 +1201,7 @@
         "vendor_count": 2075,
         "vendor_total_usd": 262177749.7,
         "confidential_usd": 420204.06,
-        "public_sector_usd": 40380241.63,
+        "public_sector_usd": 40671908.28,
         "sco_interface_net_usd": -1165159.44,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1397,7 +1397,7 @@
         "vendor_count": 221,
         "vendor_total_usd": 257438988.55,
         "confidential_usd": 126729.87,
-        "public_sector_usd": 111381972.45,
+        "public_sector_usd": 119627329.45,
         "sco_interface_net_usd": -25959808.6,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1496,7 +1496,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 5106866.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": 5393252.0
           },
           {
@@ -1559,7 +1559,7 @@
             "name": "SAN JOAQUIN COUNTY",
             "usd": 2970808.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1593,7 +1593,7 @@
         "vendor_count": 187,
         "vendor_total_usd": 222945371.55,
         "confidential_usd": 42780.13,
-        "public_sector_usd": 17074091.15,
+        "public_sector_usd": 20718617.47,
         "sco_interface_net_usd": -1595127.76,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1769,7 +1769,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 2612840.46,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1985,7 +1985,7 @@
         "vendor_count": 176,
         "vendor_total_usd": 83495040.52,
         "confidential_usd": 6272.36,
-        "public_sector_usd": 46309779.89,
+        "public_sector_usd": 57413481.46,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -2021,14 +2021,14 @@
             "name": "BUTTE COUNTY",
             "usd": 1946342.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
             "name": "SAN JOAQUIN COUNTY",
             "usd": 1911774.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -2126,7 +2126,7 @@
             "name": "YOLO COUNTY",
             "usd": 1417262.5,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {

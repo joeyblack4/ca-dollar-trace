@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 4301,
         "vendor_total_usd": 1473643905.0,
         "confidential_usd": 4721800.39,
-        "public_sector_usd": 312621061.87,
+        "public_sector_usd": 323339902.4,
         "sco_interface_net_usd": 2799972.75,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -221,7 +221,7 @@
         "vendor_count": 727,
         "vendor_total_usd": 552462329.6,
         "confidential_usd": 250818.61,
-        "public_sector_usd": 79900215.29,
+        "public_sector_usd": 79975694.16,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -417,7 +417,7 @@
         "vendor_count": 2024,
         "vendor_total_usd": 505768780.72,
         "confidential_usd": 1803342.91,
-        "public_sector_usd": 235964411.02,
+        "public_sector_usd": 237110972.96,
         "sco_interface_net_usd": -12273436.15,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -613,7 +613,7 @@
         "vendor_count": 389,
         "vendor_total_usd": 368899710.08,
         "confidential_usd": 61677.35,
-        "public_sector_usd": 264042772.95,
+        "public_sector_usd": 264239788.96,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -809,7 +809,7 @@
         "vendor_count": 2175,
         "vendor_total_usd": 233535699.34,
         "confidential_usd": 3492982.14,
-        "public_sector_usd": 34969273.72,
+        "public_sector_usd": 35356718.5,
         "sco_interface_net_usd": -20560832.65,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1005,7 +1005,7 @@
         "vendor_count": 355,
         "vendor_total_usd": 120215120.87,
         "confidential_usd": 145973.4,
-        "public_sector_usd": 34712850.33,
+        "public_sector_usd": 35224990.29,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1201,7 +1201,7 @@
         "vendor_count": 197,
         "vendor_total_usd": 113106639.54,
         "confidential_usd": 39365.32,
-        "public_sector_usd": 12328974.17,
+        "public_sector_usd": 12671517.09,
         "sco_interface_net_usd": -78530246.85,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1397,7 +1397,7 @@
         "vendor_count": 331,
         "vendor_total_usd": 110710874.53,
         "confidential_usd": 48352.77,
-        "public_sector_usd": 8163916.81,
+        "public_sector_usd": 11832705.81,
         "sco_interface_net_usd": -15888173.74,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1482,7 +1482,7 @@
             "name": "HUMBOLDT COUNTY",
             "usd": 1531305.93,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1552,14 +1552,14 @@
             "name": "MERCED COUNTY",
             "usd": 772402.48,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
             "name": "RCD OF GREATER SAN DIEGO COUNTY",
             "usd": 727939.56,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1580,7 +1580,7 @@
             "name": "MADERA COUNTY",
             "usd": 637141.03,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           }
         ]
@@ -1593,7 +1593,7 @@
         "vendor_count": 787,
         "vendor_total_usd": 44242138.59,
         "confidential_usd": 342180.23,
-        "public_sector_usd": 7536577.63,
+        "public_sector_usd": 7962034.14,
         "sco_interface_net_usd": 56.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -1762,7 +1762,7 @@
             "name": "URBAN CORPS SAN DIEGO COUNTY",
             "usd": 421681.39,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -1789,7 +1789,7 @@
         "vendor_count": 147,
         "vendor_total_usd": 27721290.44,
         "confidential_usd": 20359.92,
-        "public_sector_usd": 3068268.45,
+        "public_sector_usd": 3519854.48,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -2377,7 +2377,7 @@
         "vendor_count": 143,
         "vendor_total_usd": 16075587.08,
         "confidential_usd": 25254.01,
-        "public_sector_usd": 762206.9,
+        "public_sector_usd": 763727.9,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -2965,7 +2965,7 @@
         "vendor_count": 188,
         "vendor_total_usd": 11873514.3,
         "confidential_usd": 168693.48,
-        "public_sector_usd": 4483414.66,
+        "public_sector_usd": 4517610.23,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -3537,7 +3537,7 @@
             "gross_usd": null
           },
           {
-            "name": "WALLACE CHAN FARMS INC",
+            "name": "LEMHI LAND & CATTLE LLC",
             "usd": 18375.0,
             "masked": false,
             "public_sector": false,
@@ -3595,7 +3595,7 @@
         "vendor_count": 28,
         "vendor_total_usd": 4557022.75,
         "confidential_usd": 1841.74,
-        "public_sector_usd": 345232.91,
+        "public_sector_usd": 374083.91,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -3701,7 +3701,7 @@
             "name": "RCD OF GREATER SAN DIEGO COUNTY",
             "usd": 28851.0,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -4167,11 +4167,11 @@
             "gross_usd": 350.0
           },
           {
-            "name": "DEPT OF JUSTICE",
+            "name": "DEPT TOXIC SUBSTANCES CONTROL",
             "usd": 0.0,
             "masked": false,
-            "public_sector": true,
-            "gross_usd": 2793.0
+            "public_sector": false,
+            "gross_usd": 5845.23
           }
         ]
       },
@@ -5128,7 +5128,7 @@
         "vendor_count": 47,
         "vendor_total_usd": 205806.27,
         "confidential_usd": 6795.68,
-        "public_sector_usd": 61241.4,
+        "public_sector_usd": 61441.4,
         "sco_interface_net_usd": 0.0,
         "amount_unparsed_count": 0,
         "accounting_dates": [

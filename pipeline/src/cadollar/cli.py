@@ -23,6 +23,7 @@ from .ingest.fac_sefa import run_fac_sefa
 from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.grants_awards import run_grants_awards
 from .ingest.medical_plans import run_medical_plans
+from .ingest.nonprofits import run_nonprofits
 from .ingest.sacs import run_sacs
 from .ingest.usaspending import run_usaspending
 from .publish.grants import publish_grants_summary
@@ -104,6 +105,11 @@ def _run_fac_sefa(storage: Storage, settings: Settings) -> None:
     run_fac_sefa(storage, cfg, settings)
 
 
+def _run_nonprofits(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "nonprofits")
+    run_nonprofits(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -118,6 +124,7 @@ RUNNERS = {
     "sacs_k12": _run_sacs,
     "city_checkbooks": _run_city_checkbooks,
     "fac_sefa": _run_fac_sefa,
+    "nonprofits": _run_nonprofits,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -139,6 +146,7 @@ RUN_ORDER = [
     "sacs_k12",
     "city_checkbooks",
     "fac_sefa",
+    "nonprofits",
     "fiscal_vendor",
 ]
 assert set(RUN_ORDER) == set(RUNNERS), "RUN_ORDER must list every runner exactly once"

@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T173039Z",
-  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
+  "as_of": "2026-07-16T211705Z",
+  "ingested_at": "2026-07-16T21:17:05.763421+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -25,7 +25,7 @@
         "vendor_count": 457,
         "vendor_total_usd": 345197135.41,
         "confidential_usd": 263876.03,
-        "public_sector_usd": 169198061.35,
+        "public_sector_usd": 247511133.26,
         "sco_interface_net_usd": 64.5,
         "amount_unparsed_count": 0,
         "accounting_dates": [
@@ -40,7 +40,7 @@
             "name": "CONTRA COSTA COUNTY",
             "usd": 39423399.55,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -82,7 +82,7 @@
             "name": "BUTTE COUNTY",
             "usd": 8215926.3,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -103,7 +103,7 @@
             "name": "AMADOR COUNTY",
             "usd": 7006444.92,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -131,7 +131,7 @@
             "name": "YUBA COUNTY",
             "usd": 5067692.89,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -159,7 +159,7 @@
             "name": "SAN JOAQUIN COUNTY",
             "usd": 4511918.94,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           },
           {
@@ -208,7 +208,7 @@
             "name": "LOS ANGELES COUNTY",
             "usd": 3588027.55,
             "masked": false,
-            "public_sector": false,
+            "public_sector": true,
             "gross_usd": null
           }
         ]
