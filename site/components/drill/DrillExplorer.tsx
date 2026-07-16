@@ -13,7 +13,16 @@ import { CoverageBadge } from "@/components/ui/SourceChip";
 import { PublicSectorChip } from "@/components/agency/VendorsSection";
 import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
 import { fmtUsd, type BudgetWaterfall } from "@/lib/published";
-import type { AgencyDoc, PathSeg, ProfilesDoc, VendorsDoc } from "./types";
+import type { AgencyDoc, BhcipDoc, PathSeg, ProfilesDoc, VendorsDoc } from "./types";
+import type { Published } from "@/lib/published";
+
+/* Vendors whose re-granted awards we've recovered from program reporting */
+const RECOVERED_PROGRAMS: Record<string, { program: string; label: string }> = {
+  "ADVOCATES FOR HUMAN POTENTIAL": {
+    program: "bhcip",
+    label: "Recovered: re-granted through BHCIP — see the 331 organizations it reached",
+  },
+};
 
 const FUND_COLORS: Record<string, string> = {
   "General Fund": "#1a1916",
@@ -64,6 +73,7 @@ function Row({
   selected,
   onClick,
   chip,
+  valueLabel,
 }: {
   label: React.ReactNode;
   sub?: string;
@@ -73,6 +83,7 @@ function Row({
   selected?: boolean;
   onClick?: () => void;
   chip?: React.ReactNode;
+  valueLabel?: string;
 }) {
   const body = (
     <>
@@ -81,7 +92,7 @@ function Row({
           {label}
           {chip && <span className="ml-2 align-middle">{chip}</span>}
         </span>
-        <span className="shrink-0 font-mono text-xs">{fmtUsd(usd)}</span>
+        <span className="shrink-0 font-mono text-xs">{valueLabel ?? fmtUsd(usd)}</span>
       </div>
       <div className="mt-1 flex items-center gap-2">
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-rule/40">
@@ -169,9 +180,18 @@ export function DrillExplorer({
   const checkbookSeg = path.find((s) => s.kind === "checkbook");
   const vendorSeg = path.find((s) => s.kind === "vendor") as { kind: "vendor"; name: string } | undefined;
 
+  const recoveredSeg = path.find((s) => s.kind === "recovered") as
+    | { kind: "recovered"; program: string }
+    | undefined;
+
   const agencyDoc = useJson<AgencyDoc>(agencySeg ? `/data/agencies/${agencySeg.cd}.json` : null);
   const vendorsDoc = useJson<VendorsDoc>(agencySeg ? `/data/vendors/${agencySeg.cd}.json` : null);
   const profilesDoc = useJson<ProfilesDoc>(vendorSeg ? "/data/vendor_profiles.json" : null);
+  const bhcipDoc = useJson<Published<BhcipDoc>>(
+    recoveredSeg?.program === "bhcip" || (vendorSeg && RECOVERED_PROGRAMS[vendorSeg.name])
+      ? "/data/bhcip_awards.json"
+      : null
+  );
 
   if (!area) {
     return (
@@ -426,7 +446,27 @@ export function DrillExplorer({
                     ))}
                   </div>
                 </div>
-                {p.public_sector ? (
+                {RECOVERED_PROGRAMS[vendorSeg.name] ? (
+                  <div className="mt-3">
+                    <Row
+                      label={RECOVERED_PROGRAMS[vendorSeg.name].label}
+                      usd={p.total_usd}
+                      maxUsd={p.total_usd}
+                      color="#1e7f4f"
+                      selected={!!recoveredSeg}
+                      onClick={() =>
+                        setPath([
+                          ...path.filter((s) => s.kind !== "recovered"),
+                          { kind: "recovered", program: RECOVERED_PROGRAMS[vendorSeg.name].program },
+                        ])
+                      }
+                    />
+                    <p className="mt-1 text-xs text-fog">
+                      This hop exists in no state accounting dataset — we recovered it from the
+                      program&apos;s own public reporting.
+                    </p>
+                  </div>
+                ) : p.public_sector ? (
                   <Terminator flag="category_only">
                     This payee is itself a public agency — the money stayed inside government.
                     Its own spending shows up in its own budget and checkbook, not here.
@@ -442,6 +482,46 @@ export function DrillExplorer({
               </div>
             );
           })()}
+        </LevelCard>
+      )}
+
+      {/* Level 6: recovered hop — BHCIP re-grants */}
+      {recoveredSeg?.program === "bhcip" && bhcipDoc && bhcipDoc !== "loading" && (
+        <LevelCard
+          step={6}
+          title={`Recovered hop: ${bhcipDoc.data.project_count} BHCIP projects at ${bhcipDoc.data.entity_count} organizations`}
+          subtitle="Where the re-granted money landed — from the program's own dashboard, since no accounting dataset publishes this hop."
+        >
+          <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-fog">
+            {bhcipDoc.data.by_round.map((r) => (
+              <span key={r.round}>
+                {r.round.replace("BHCIP Round", "R").replace("Bond BHCIP R", "Bond R")}:{" "}
+                <span className="font-mono">{r.project_count}</span>
+              </span>
+            ))}
+          </div>
+          {bhcipDoc.data.entities.slice(0, 20).map((e) => (
+            <Row
+              key={e.name}
+              label={e.name}
+              sub={e.projects[0]?.project !== e.name ? e.projects.map((p) => p.project).join(" · ").slice(0, 90) : undefined}
+              usd={e.project_count}
+              maxUsd={bhcipDoc.data.entities[0].project_count}
+              color="#1e7f4f"
+              valueLabel={`${e.project_count} project${e.project_count > 1 ? "s" : ""}`}
+            />
+          ))}
+          <p className="mt-2 text-xs text-fog">
+            Showing 20 of {bhcipDoc.data.entity_count} organizations (bars = project count) —{" "}
+            <a href="/data/bhcip_awards.json" className="underline underline-offset-2 hover:text-ink">
+              full list
+            </a>
+            .
+          </p>
+          <Terminator flag="category_only">
+            Per-project dollar amounts are announced by DHCS in round PDFs but published in no
+            machine-readable dataset — recovered names, not yet recovered amounts.
+          </Terminator>
         </LevelCard>
       )}
     </div>

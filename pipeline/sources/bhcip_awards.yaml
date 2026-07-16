@@ -1,0 +1,24 @@
+# BHCIP awardees — the recovered hop past AHP (DHCS's third-party grant
+# administrator). Source of truth is AHP's Tableau Public dashboard
+# ("BHCIP Rounds 1-5 and Bond Rounds 1 & 2 Awardees"); Tableau offers no
+# stable bulk endpoint, so we ingest a browser-captured snapshot stored in
+# sources/curated/bhcip_awardees_snapshot.csv (capture procedure in the
+# connector docstring; re-capture when rounds are added).
+source: bhcip_awards
+dataset: awardees_snapshot
+access: curated_snapshot
+download_url: ""
+cadence: "manual re-capture when new BHCIP rounds are announced"
+freshness_sla_hours: 4380  # ~6 months; rounds are episodic
+min_rows: 300
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Awardee names, projects, and rounds only — per-project dollar amounts are published by DHCS/AHP in round announcements (PDF/web), not yet machine-readable here."
+  - "Snapshot captured from AHP's public Tableau dashboard 2026-07-16; it reflects grantee self-reported project data."
+  - "BHCIP money reaches these entities through AHP, a private third-party administrator — this hop exists in no state accounting dataset, which is why we recovered it from the program's own reporting."
+info:
+  name: "BHCIP Awardees (Rounds 1-5 + Bond Rounds 1-2)"
+  publisher: "DHCS / Advocates for Human Potential (program administrator)"
+  url: "https://www.infrastructure.buildingcalhhs.com/bhcip-data-dashboards/all-rounds-dashboard/"
+  license: "Public program reporting"

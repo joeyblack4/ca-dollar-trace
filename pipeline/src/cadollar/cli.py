@@ -13,6 +13,7 @@ import shutil
 import sys
 
 from .config import REPO_ROOT, Settings, get_settings
+from .ingest.bhcip import run_bhcip
 from .ingest.csv_download import run_csv_ingest
 from .ingest.ebudget import run_ebudget
 from .ingest.ebudget_detail import run_ebudget_detail
@@ -63,6 +64,11 @@ def _run_grants_awards(storage: Storage, settings: Settings) -> None:
     run_grants_awards(storage, cfg, settings)
 
 
+def _run_bhcip(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "bhcip_awards")
+    run_bhcip(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -70,6 +76,7 @@ RUNNERS = {
     "usaspending_ca": _run_usaspending,
     "fiscal_vendor": _run_fiscal_vendor,
     "grants_awards": _run_grants_awards,
+    "bhcip_awards": _run_bhcip,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron

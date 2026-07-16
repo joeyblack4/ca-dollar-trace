@@ -1,0 +1,3790 @@
+{
+  "source": {
+    "name": "BHCIP Awardees (Rounds 1-5 + Bond Rounds 1-2)",
+    "publisher": "DHCS / Advocates for Human Potential (program administrator)",
+    "url": "https://www.infrastructure.buildingcalhhs.com/bhcip-data-dashboards/all-rounds-dashboard/",
+    "license": "Public program reporting"
+  },
+  "as_of": "2026-07-16T170516Z",
+  "ingested_at": "2026-07-16T17:05:16.263994+00:00",
+  "cadence": "manual re-capture when new BHCIP rounds are announced",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Awardee names, projects, and rounds only \u2014 per-project dollar amounts are published by DHCS/AHP in round announcements (PDF/web), not yet machine-readable here.",
+    "Snapshot captured from AHP's public Tableau dashboard 2026-07-16; it reflects grantee self-reported project data.",
+    "BHCIP money reaches these entities through AHP, a private third-party administrator \u2014 this hop exists in no state accounting dataset, which is why we recovered it from the program's own reporting."
+  ],
+  "data": {
+    "project_count": 437,
+    "entity_count": 331,
+    "by_round": [
+      {
+        "round": "BHCIP Round 1: Crisis Care Mobile Units",
+        "project_count": 77
+      },
+      {
+        "round": "BHCIP Round 2: County & Tribal Planning Grants",
+        "project_count": 48
+      },
+      {
+        "round": "BHCIP Round 3: Launch Ready",
+        "project_count": 44
+      },
+      {
+        "round": "BHCIP Round 4: Children and Youth",
+        "project_count": 50
+      },
+      {
+        "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum",
+        "project_count": 41
+      },
+      {
+        "round": "Bond BHCIP Round 1: Launch Ready",
+        "project_count": 111
+      },
+      {
+        "round": "Bond BHCIP Round 2: Unmet Needs",
+        "project_count": 66
+      }
+    ],
+    "entities": [
+      {
+        "name": "Los Angeles Centers for Alcohol and Drug Abuse",
+        "project_count": 6,
+        "projects": [
+          {
+            "project": "Altadena Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Healing and Recovery Center - Altadena",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "LA CADA Adult Residential Treatment Project - Watts",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "LACADA B4_245",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Lynwood Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "South L.A. Behavioral Health Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of San Diego",
+        "project_count": 5,
+        "projects": [
+          {
+            "project": "Behavioral Health Wellness Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Children\u2019s Crisis Residential Care (CCRC)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Edgemoor Acute Psychiatric Hospital",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Substance Use Recovery & Treatment Services (SURTS)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "City and County of San Francisco",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "City and County of SF B5_488",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Crisis Stabilization Unit",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Health, Recovery and Connection Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "San Francisco",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Riverside",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Beaumont Community Treatment Facility",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Harmony Haven Children & Youth Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "RUHS - Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Wellness Village",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Epidaurus",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Amity 3801 Residential Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Renovation and Expansion of Amistad de Los Angeles",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Renovation and Expansion of Amity Vista Ranch",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "The Bridge at Ontario - Residential Treatment Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles County Department of Mental Health",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Los Angeles",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Los Angeles",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "The Los Angeles County Care Community on the Metropolitan State Hospital Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "The Los Angeles County Olive View Medical Center Continuum of Care Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "San Francisco Department of Public Health",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Enhanced Dual Diagnosis Residential Treatment",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "San Francisco Behavioral Health Center \u2013 MHRC Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "San Francisco Intensive Youth Behavioral Health Services",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Treasure Island Residential SUD Treatment Facility",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Special Service for Groups, Inc.",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Auntie Mele's Healing House",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Bridge to Wellness",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Journey to Hope & Wellness at the Gilbert Hotel",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Kress Community Healing Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Tarzana Treatment Centers, Inc.",
+        "project_count": 4,
+        "projects": [
+          {
+            "project": "Tarzana B4_269",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "TTC - Antelope Valley Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "TTC - San Fernando Valley Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "TTC East Palmdale Project",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Bakersfield American Indian Health Project",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "BAIHP - Kern River Valley Mental Health Urgent Care",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "BAIHP- Mental Health Urgent Care",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Kern",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "CRI-Help, Inc.",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "DHCS Licensed Integral Facility for Low Income and / or Minority Women with SUDS in the San Fernando Valley",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Lincoln Heights Recovery Campus (LHRC) Expansion for Women and Children",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "SUD Crisis Management Hub:  A Fully Integrated Behavioral Health Campus",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Contra Costa Behavioral Health Services",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Delta Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Los Medanos Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Sherman Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Fresno",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Olive",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Psychiatric Health Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Psychiatric Residential Treatment Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Santa Clara",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Child & Adolescent Psychiatric Facility/Behavioral Health Services Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Santa Clara",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Santa Clara County Child and Adolescent Psychiatric Facility/Behavioral Health",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Fresno American Indian Health Project",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Fresno",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Fresno",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Native American Continuum of Care",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "HealthRIGHT 360",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "HealthRIGHT 360 Gilroy",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "HealthRIGHT 360 Oxnard",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "HealthRIGHT 360 Pomona",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Imperial County Behavioral Health Services",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Adult Residential SUD Treatment Facility in Imperial County",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Imperial",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Northern Horizons Campus Behavioral Health Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Janus of Santa Cruz",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Janus Chemical Dependency Recovery Hospital Hub (the Hub)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Janus Perinatal Expansion Project-Santa Cruz County",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Janus Regional Recovery Health Hub",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "K'ima:w Medical Center",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "K'ima:w Behavioral Health Wellness Support Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "K'ima:w Medical Center Behavioral Health Building Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles County",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "LAC + USC Adult & Adolescent Acute Inpatient Psych",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "MLK Jacqueline Avant Children and Family Center Pediatric Outpatient Center and CSU",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Rancho Los Amigos Medical Center Strong Healthy and Resilient Kids (SHARK)",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "New Creation Behavioral Healthcare Foundation",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "His House Addiction Treatment Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "His House Addiction Treatment Center- Palm House Expansion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "New Creation Addiction Treatment Center- Prado/Encanto Expansions",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Pala Band of Mission Indians",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Sacred Mountain Healing Center- Yukish Pe'aw'a 'Tingelqa me' Kwelilya'ash",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Principles, Inc.",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Impact Altadena House for Women with Children",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Impact Recovery and Outpatient Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Impact Withdrawal and Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "San Bernardino County Department of Behavioral Health",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Comprehensive Treatment Campus",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Pacific Village Platinum Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "San Bernardino",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "San Joaquin County Behavioral Health Services",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Psychiatric Health Facility Capacity Expansion",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "SJ Be Well Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "SJ BeWell Campus Phase 2",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Seneca Family of Agencies",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Children's Crisis Residential Program - Monterey County Marina Property",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Seneca B3_2027",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Seneca B3_2028",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "The Alliance for Community Wellness",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "La Familia - Crisis Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "La Familia - TAY Wellness Campus",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Livermore Project",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Ventura County Behavioral Health",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Ventura",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Ventura",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Ventura County Wellness Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Yurok Tribe",
+        "project_count": 3,
+        "projects": [
+          {
+            "project": "Del Norte",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Del Norte",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Wah-Sekw-Won Treatment Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Alameda Health System",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "San Leandro Hospital - Behavioral Health Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "St. Rose Hospital - Behavioral Health Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Aspiranet",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Central Valley Continuum of Care for Youth and Families",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Central Valley TAY Independence Program",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Bay Area Community Services Housing Corporation",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "St. Regis",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Waypoint Mental Health Rehabilitation Center (MHRC)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Center Point, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Center Point Outpatient Treatment Services",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "CenterLink Community Behavioral Health Clinic",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "City of Berkeley",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Alameda",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Berkeley ROOTS: Recovery, Outreach, Opportunity, Treatment, Support",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of Del Norte",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "County of Del Norte Behavioral Health Expansion (BHE)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Del Norte",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Mariposa",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Mariposa",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "MCHHSA North Campus Expansion Initiative",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Nevada",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Nevada",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Sutton Way Wellness Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Placer",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Placer",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "The Adult Behavioral Health Respite Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of San Luis Obispo Behavioral Health Department",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "San Luis Obispo",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "San Luis Obispo",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Ventura",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "East County Psychiatric Health Facility (PHF)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Ventura County Mental Health Rehabilitation Center Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Dry Creek Rancheria Band of Pomo Indians",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Sonoma",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Sonoma",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "El Dorado County Health and Human Services Agency",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "El Dorado",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Support, Outreach, Accessibility, and Resilience (SOAR) Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Encompass Community Services",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Encompass Residential Withdrawal Management Expansion Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Encompass TAY Capacity Expansion Project",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Friends of the Mission",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "East Beamer Phase II",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "Walters House II",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Gateways Hospital and Mental Health Center",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Gateways Hospital and Mental Health Center Youth Expansion Project",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Justice Involved Campus Glendale",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Habitat for Humanity Yuba/Sutter, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Restoration Point (a Life Recovery Center)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Tranquility Point (a Life Recovery Center)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Inner-Tribal Treatment",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Inner-Tribal Wellness Village",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "JWCH Institute, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "JWCH B5_498",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Wesley Behavioral Health and Wellness Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Kings View Foundation",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Kings View Geriatric Recovery and Compassionate Enrichment (GRACE)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "Kings View Tulare SUD Infrastructure Development Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Lake County Behavioral Health Services",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Lake",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "South Shore Clinic Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Mathiesen Memorial Health Clinic",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Mathiesen Memorial Health & Wellness Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          },
+          {
+            "project": "Tuolumne",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Mendocino County Behavioral Health and Recovery Services",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Mendocino",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Mendocino",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Merced County Behavioral Health and Recovery Services",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Children's Clinic at Behavioral Health Recovery Center Winton Facility",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Merced",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Napa County",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Napa",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Napa County Behavioral Health Treatment Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Nevada County Behavioral Health Department",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Nevada",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          },
+          {
+            "project": "Rural Counties PHF/MHRC Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Phoenix House of California, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "LVT Expansion - Lake View Terrace",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "LVT Residential TAY and PPW",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Redwood Quality Management Company, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Anchor Rehabilitation Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          },
+          {
+            "project": "Lake Behavioral Health Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sacramento County",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Sacramento",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Sacramento",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Southern Indian Health Council, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Alpine",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "St. Vincent Behavioral Health Campus",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "St. Vincent Behavioral Health Campus - North Pavilion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "St. Vincent Behavioral Health Campus - South Pavilion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "The Happier Life Project",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "HARVEST: The Happier Life Project Peer-Run Respite and Recovery Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          },
+          {
+            "project": "The Happier Life Project \"Krystal's Place\" Peer-Run Respite Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Tule River Indian Health Center, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Tulare",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          },
+          {
+            "project": "Yokitsa Wellness Center for Youth and Families",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "United Indian Health Services, Inc.",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "UIHS Child and Family Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "UIHS Taa-'at-dvn Behavioral Health Clinic",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Vista Del Mar Child and Family Services",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Residential Substance Abuse Treatment Program",
+            "round": "BHCIP Round 4: Children and Youth"
+          },
+          {
+            "project": "Vista Del Mar Psychiatric Residential Treatment Facility Locked with SUD Specialty Services",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "WellSpace Health",
+        "project_count": 2,
+        "projects": [
+          {
+            "project": "Behavioral Health Crisis Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          },
+          {
+            "project": "WellSpace Health Community Wellness Campus",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "1025 Columbus LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Bayside Haven Rehabilitation Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "439 S 4th St LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Crisis Residential/CRTS/SRP",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "44049 Sierra Hwy Propco LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Behavioral Sciences Academy of Lancaster",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "A.B.C. Recovery Center, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Substance-Use and Mental Health Expansion Indio California",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Agapao Fellowship",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Agapao Fellowship MHRC",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Alameda County Behavioral Health Care Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Alameda",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "All For Kids Organization",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Operation Oakwood",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Amador County Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Amador",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "American Indian Council of Mariposa",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mariposa",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "American Indian Health and Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Barbara",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Archway Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "ARS Expansion",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Asian American Drug Abuse Program, Inc. (AADAP)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Crenshaw Withdrawal Management Center (Crenshaw WMC)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Bakersfield American Indian Health Project, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "BHCIP Community Wellness Treatment Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Bakersfield Recovery Services, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Retreat",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Bartz-Altadonna Community Health Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Bridge at BACHC",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Beach Cities Health District",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "allcove Beach Cities",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Behavioral Health Services Department of Health Services Social Services Agency County of Sacramento",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "CSU/PHF - Sac County",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Bi-Bett",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Bi-Bett Infrastructure Expansion Initiative at Frederick Ozanam Center (IEI-OZ)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Big Lagoon Rancheria",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Blue Lake Rancheria",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Bricks Behavioral Health Foundation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "CRI-Help Arcadia",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Butte County Department of Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Chico Community Counseling Center & Stepping Stones Expansion",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Butte County Dept Of Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Butte",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Butte County, Department of Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Butte",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Butterfly's Haven",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Haven of Hope",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Calaveras County Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Calaveras County BHS Integrated Service Site",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Casa Pacifica Centers for Children & Families",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Casa Pacifica Short Term Residential Therapeutic Program",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Casa de Amparo",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Casa de Amparo PRTF",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Center for Human Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Outpatient Behavioral Health Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Christ-Centered Ministries",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Project RESTORE",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "City of Bakersfield",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Calm Horizons",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "City of Lancaster",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "City of Lancaster Behavioral Health Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "City of Rancho Cordova",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Community Wellness and Behavioral Health Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "City of Santa Cruz",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Cruz Coral Street SUD Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Clare|Matrix",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "CLARE|MATRIX Pico Campus Expansion Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Clinica MSR Oscar A Romero",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Clinica Romero Community Mental Health Clinic",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Colusa Indian Community Council",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Valley Oak Specialty Healthcare Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Community Medical Centers, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "CMC Adolescent Health Centers",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Compatior, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Compatior Residential Treatment (CRT)",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Consolidated Tribal Health Project Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mendocino",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Consolidated Tribal Health Project, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "CTHP Behavioral Health Expansion Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Contra Costa County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Contra Costa Recovery Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Coppertower Family Medical Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Alexander Valley Health and Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Butte, a political subdivision of the State of California through its Behavioral Health Department",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Butte County Mental Health Rehabilitation Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Calaveras",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Calaveras",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Contra Costa",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Contra Costa",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Contra Costa Behavioral Health Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Contra Costa",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of El Dorado",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "El Dorado",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Fresno Department of Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Fresno",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Humboldt",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Inyo",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Inyo",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Kern, a political subdivision of the State of California, acting through Kern Behavioral Health and Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Kern PEC Expansion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of Los Angeles",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "High Desert CRTP & Children and Youth CSU/HUB",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "County of Los Angeles - Justice, Care and Opportunities Department (JCOD)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Warm Landing Place Facility Project",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of Madera",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Madera",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Marin",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Marin",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Mendocino Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Whitmore PHF",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "County of Merced, a political subdivision of the State of California, acting through its Department of Behavioral Health and Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Justice and Community Integration Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Mono",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mono",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Monterey, Health Department",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Monterey",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Orange (R2)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Orange",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Placer - Mid Placer",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Behavioral Health Respite Mid Placer",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Placer HHS Adult System of Care",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Auburn Adult Substance Use Residential Treatment Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Placer, Department of Health and Human Services Adult System of Care Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Placer",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Riverside, Riverside University Health System Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Riverside",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Riverside, Riverside University Health System-Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Wellness Village",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "County of Sacramento",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Watt Avenue Behavioral Health Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Sacramento, Department of Health Services, Behavioral Health Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "MHRC",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of San Joaquin",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Joaquin",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of San Luis Obispo Health Agency",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Pathways Home",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of San Mateo",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Mateo",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Santa Barbara Department of Behavioral Wellness",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Haley St Youth and Family Services",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "County of Santa Barbara, Department of Behavioral Wellness",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Barbara",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Santa Barbara, a political subdivision of the State of California, acting through its Department of Behavioral Wellness",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "North County SRFs",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of Santa Cruz",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Cruz",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Siskiyou",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Siskiyou",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Solano",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Solano",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Sonoma",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sonoma County Youth Behavioral Health Treatment",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "County of Sonoma, Department of Health Services, Behavioral Health Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sonoma",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "County of Sutter/Yuba",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sutter and Yuba",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Trinity",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Trinity County Health & Human Services Agency - Whole Health Integration",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "County of Tulare -Tulare County Health & Human Services Agency, Behavioral Health Branch",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tulare County Behavioral Health Residential Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "County of Tulare Mental Health Branch (R2)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tulare",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "County of Tuolumne (R2)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tuolumne",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Del Puerto Health Care District, a California Local Government Agency",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Del Puerto Community Mental Health Clinic",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Dolores C. Huerta Foundation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "DHF Kern County Community Wellness Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Drug Abuse Alternatives Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "DAAC Residential Facility",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "EMOTIONAL HEALTH ASSOCIATION",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "SHARE! Antelope Valley Peer Respite",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "El Dorado County Community Health Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Placerville Behavioral Health Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Emotional Health Association",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Peer Respite Marine",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Emotional Health Association dba SHARE!-The Self-Help and Recovery Exchange",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Peer Respite Casaba",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Encompass Housing",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Heritage Regency",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Environmental Alternatives",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "STRTP",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Family Dynamics Resource Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Pathways to Leadership Campus Expansion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Foothill Family Service",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Foothill Family Service - El Monte Site Renovation Project",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Ford Street Project",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Ukiah Recovery Center Expansion Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Fred Brown's Recovery Services, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Serenity Recovery Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Fresno Community Hospital and Medical Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Expanding to Meet the Needs of Behavioral Health Patients in Fresno County",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Fresno County Department of Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Fresno",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Friendship House Association of American Indians",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Village SF Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Glenn County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Glenn",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Glenn County Health and Human Services Agency - Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Glenn",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Glenn County Health and Human Services Agency, Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Orland Youth and Family Wellness Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Global Women Foundation & Band of Brothers",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "UScension Veterans Peer Respite of Southern California",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Good Samaritan Hospital \u2013 Wellness Center - Wellness Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Family Wellness Center - Weedpatch",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Good Samaritan Hospital \u2013 Wellness and SUD Center - Wellness and SUD Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Family Wellness Center - Wasco",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Good Samaritan Hospital, A California Limited Partnership",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Kings County CARE Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Good Samaritan Hospital, LP",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Weedpatch Integrated Wellness Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Good Samaritan Shelter",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lompoc Sobering Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Greater Hope Foundation for Children, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Barstow Behavioral Health Clinic",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Greenville Rancheria",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Plumas",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "HOPE in the valley",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "HOPE in the Valley Arvin Recovery Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Habematolel Pomo of Upper Lake Tribe",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lake",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Hamburger Home",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Perinatal Residential SUD Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Heritage Vila, LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Crisis Residential/CRTS/SRP",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Hillsides",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Hillsides Hope and Recovery Hub",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "His Ideas, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Bridge to Wellness Hub",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Hollywood Cares Foundation, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "I Am Ready Stockton Youth Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Homeboy Industries",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Homeboy's Home of Angels",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Horizon Services, Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Telegraph Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Horizon Treatment Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Horizon Recovery Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Humboldt County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sempervirens Addressing Crisis Care with Dignity. Psychiatric Health Facility (PHF) and Crisis Stabilization Unit (CSU).",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Imperial County Behavioral Health Services \u2013 Expansion Project - Expansion Project",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mental Health Triage and Engagement Services Expansion Project",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Imperial County Behavioral Health Services \u2013 It Takes a Village - It Takes a Village",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "It Takes A Village:  Increasing Access to Care for Children and Adolescents in Imperial County",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Imperial Manor Skilled Nursing, Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Imperial Manor BH Expansion Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Indian Health Council, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Inland Valley Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "IVRS Campus Expansion",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Interim, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Interim, Inc. -  Pajaro Street Wellness Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Jail Guitar Doors",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Jail Guitar Doors Brother Wayne Peer Respite House",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Jesus Provides Our Daily Bread",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Living Hope: Building New Residential SUD Capacity",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "K'ima:w  Medical Center, Hoopa Valley Tribe",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Kaweah Delta Health Care District",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Child/Adolescent Addition to Mental Health Hospital",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Kedren INC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Kedren South - Psychiatric Acute Care Hospital & Children's Village",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Kern",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Kern",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Kern Behavioral Health and Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Youth CSU and Family Resource Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Khalsa Foundation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Transformative Pathways: A Community-based Healing Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Kings County Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Kings",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Korean Community Services Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Integrated Recovery and Community Center (\"IRCC\")",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "LA County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "LAC+USC Mental Health Rehabilitation Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "LA Downtown Medical Center, LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Behavioral Health Expansion",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "La'i Communities, LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Seaside Adolescent Substance Use Disorder (SUD) Treatment",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Lake County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lake",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Lassen",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lassen",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Lassen County Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lassen",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Life Generations Healthcare",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tustin Healthcare MHRC/PHF",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles County, Dept. of Public Health, Division of Substance Abuse Prevention and Control",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Los Angeles",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles Jewish Home for the Aging",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Acute Geriatric Psychiatric Unit Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "MACT Health Board, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Amador",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Maclay Investments, LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lighthouse Program",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Mad River Community Hospital",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Addressing Crisis Care with Dignity",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Madera County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Madera County Youth/Adult Crisis Stabilization Unit & Adult Sobering Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Marin County Behavioral Health and Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Marin",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Marin County Department of Health and Human Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Closing the Gap: Residential Services for Adults with Co-Occurring Disorders",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Mariposa County Health and Human Services Agency (HHSA)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mariposa",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Mark Twain Health Care District",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Crisis and Wellness Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Marshall Medical Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Marshall CARES Behavioral Health Services Development and Expansion",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "McAlister Institute for Treatment & Education, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Diego Recovery Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Mentis",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Napa Valley Youth Wellness Campus",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Merced County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Merced",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Merced County BHRS",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Winton Clinic Phase 2 Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Middletown Rancheria Pomo Indians of California",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Lake",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Mission Community Hospital",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "MCH BHUC/MHUC",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Modoc County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Modoc",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Monterey County Health Dept. Behavioral Health Bureau",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Monterey",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Morongo Band of Mission Indians",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Riverside",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Napa County Health and Human Services Agency",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Crisis Stabilization Unit (CSU) - Children's Services Expansion",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Napa Pueblo LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Napa SNF/STP",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Nate's Place, A Wellness and Recovery Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Nate's Place, A Wellness And Recovery Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Native American Health Center, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Alameda",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Native Directions Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Joaquin",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Native Directions, Inc & HomeCA Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "New Tribal Youth Perinatal Residential SUD",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Native Directions, Inc & HomeCA, Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tribal Community Wellness Center for SUD",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Native Directions, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Joaquin",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "New Life Health Authority",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mendocino",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "North Coast Substance Abuse Council Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Residential SUD treatment expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "NorthBay Healthcare Corporation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "NorthBay Behavioral Health and Addiction Medicine Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "OC Health Care Agency (HCA)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Be Well Irvine",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "OLE Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Communicare+OLE Fairfield Gateway Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Orange County Health Care Agency",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Be Well Irvine Campus",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Orange County Health Care Agency (OCHCA)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Orange",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Orchard Hospital",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Orchard Hospital Adolescent Services",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Pacific Clinics",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Hope Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Pacificare Health Management, LLC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Care Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Palomar Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Palomar Health Behavioral Health Institute",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Pathway Society, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Pathway to Compassionate Detoxification",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Paving the Way Foundation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Paving the Way for our Community",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Quartz Valley Indian Reservation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Quartz Valley Indian Reservation - Community Wellness/Prevention Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Rancho San Antonio Boys Home Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "\"No Wrong Door\" Youth Outpatient Center with SUD Expansion",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Redwood Community Services Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tule House Peri-Natal Residential Expansion Project",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Redwood Community Services, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Beautiful Roots Wellness & Recovery Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Ritter Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Ritter Builds Hope Integrated Behavioral Health Facility",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Riverside University Health System (R1 + R2)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Riverside",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Round Valley Indian Health Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Mendocino",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "SISTAHFRIENDS",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "SISTAHFRIENDS Senior Care Residence",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Safe Passages",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Safe Passages Community Wellness/Prevention Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "San Benito",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Benito",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "San Bernardino County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Bernardino",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "San Diego American Indian Health Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Diego",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "San Diego Center for Children - CCRP - CCRP",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Children's Crisis Residential Program at the San Diego Center for Children",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "San Diego Center for Children - IOP and PHP - IOP and PHP",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Day Treatment Intensive Half Day (IOP) and Full Day (PHP) at the San Diego Center for Children",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "San Diego Freedom Ranch, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "SDFR Expansion Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "San Mateo County Health, Behavioral Health and Recovery Services Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Mateo",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Sanctuary Centers of Santa Barbara, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "BHCIP Hollister II",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Santa Clara County Behavioral Health Department",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Clara",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Santa Cruz County Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Cruz",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Santa Cruz County Behavioral Health Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Santa Cruz County Children's Crisis Programs",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Service First of Northern California",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Service First of Northern California Recovery Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sierra County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sierra",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Sierra Tribal Consortium, INC",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Turtle Lodge Adult Residential Facility",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Sierra Vista Child & Family Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Community Wellness Family Resource Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Siskiyou County Health and Human Services Agency, Behavioral Health Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Siskiyou Integrated Wellness Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Social Science Services, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Cedar House Life Change Center Full Continuum and Capacity Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Solano County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Solano Behavioral Health Recovery Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Sonoma County Department of Health Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sonoma",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Sonoma County Department of Health Services Behavioral Health Division",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Orenda Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sonoma County Indian Health Project, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sonoma",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Soroptimist House of Hope, Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "House of Hope- Women's SUD and Behavioral Health Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sorrel Leaf Healing Center/Lost Coast Children's Residential Treatment Center Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sorrel Leaf Healing Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Southern California Alcohol and Drug Programs, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "La Casita Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Southern California Alcohol and Drug Programs, Inc. (SCADP) \u2013 Angel Step - Angel Step",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Angel Step Too Perinatal Residential Substance Abuse Treatment Project",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Southern California Alcohol and Drug Programs, Inc. (SCADP) \u2013 La Casita - La Casita",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "La Casita Perinatal Residential SUD Facility",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Southern California Health And Rehabilitation Program",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "SCHARP Crisis Stabilization & Treatment Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "St Anne's Family Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "St. Anne's Family Services Brighter Futures Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "St. Anne's Family Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "STRTP for One",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "St. John's Community Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Compton Behavioral Health Wellness & Treatment Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Stanislaus County Behavioral Health and Recovery Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Stanislaus",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Stanislaus County Behavioral Health and Recovery Services (R2)",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Stanislaus",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Sunshine Behavioral Health Alliance",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sunshine Adolescent Residential Treatment Center (SARTC)",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Sutter Coast Hospital",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sutter Coast Hospital Crisis Stabilization EmPATH Unit",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sutter Health System Office",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sutter Center for Psychiatry Inpatient Bed Expansion",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Sutter Yuba Behavioral Health",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sutter",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Sycamores",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sycamores Children's Crisis Continuum Program",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "TOIYABE INDIAN HEALTH PROJECT, INC.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Toiyabe Behavioral Health Expansion Project",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Tahoe Forest Hospital District",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tahoe Forest Hospital District Medical Office Building Renovation",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Tarzana Treatment Centers, Inc",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "DHCS BHCIP Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Tehama",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tehama",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Telecare Corporation",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Improving Alameda County's Behavioral Health Infrastructure Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "The County of Tuolumne",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Foundry - A Place Where Strength is Forged",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "The Friendship House Association of American Indians",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "San Francisco",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "The Good News Rescue Mission",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Adult Rehabilitation Campus",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "The Teen Project, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sylvan Project",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "The TransLatin@ Coalition",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Trans Behavioral Health and Wellness Center",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "The Whole Child - Mental Health and Housing Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Trauma Healing and Wellness Center for Homeless Families and the Community",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "The Yurok Tribe",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Yurok Tribe Peer Respite Center",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Toiyabe Indian Health Project, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Inyo",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Tri-City Mental Health Authority",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Los Angeles",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Trinity County",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Trinity County Behavioral Health Clinic",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Trinity County Behavioral Health Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Trinity",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Tulare County Health and Human Services Agency, Mental Health Branch",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Behavioral Health Urgent Care (BHUC)",
+            "round": "BHCIP Round 5: Crisis and Behavioral Health Continuum"
+          }
+        ]
+      },
+      {
+        "name": "Tulare County Health and Human Services Agency: Behavioral Health Branch",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Tulare",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Turning Point Alcohol & Drug Education Program, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "TURNING POINT HEALTH AND RECOVERY HOUSE",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Two Feathers Native American Family Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Two Feathers McKinleyville Wellness Center",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "UCSF Health Community Hospitals",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Saint Francis Hospital Behavioral Health Expansion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "United American Indian Involvement, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Los Angeles",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "United Indian Health Services",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "United Indian Health Services Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Humboldt",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "VOTC, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "VOTC, Inc. Recovery Campus Expansion Project",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Via Care Community Health Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Cesar Chavez Wellness Community Center",
+            "round": "BHCIP Round 3: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Vista de Robles, LLCPsynergy Programs, Inc.",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Vista de Robles Behavioral Health Campus",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Washoe Tribe of Nevada & California",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Alpine",
+            "round": "BHCIP Round 1: Crisis Care Mobile Units"
+          }
+        ]
+      },
+      {
+        "name": "Washoe Tribe of Nevada and California",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Alpine",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Wellnest Emotional Health & Wellness",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "The Nest on Jefferson - Community Wellness Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      },
+      {
+        "name": "Willow Glen Care Center",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Willow Glen 16 Bed Social Rehabilitation Facility Expansion",
+            "round": "Bond BHCIP Round 2: Unmet Needs"
+          }
+        ]
+      },
+      {
+        "name": "Wilton Rancheria",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Sacramento",
+            "round": "BHCIP Round 2: County & Tribal Planning Grants"
+          }
+        ]
+      },
+      {
+        "name": "Youth Recovery Connections",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Youth Recovery Connections",
+            "round": "Bond BHCIP Round 1: Launch Ready"
+          }
+        ]
+      },
+      {
+        "name": "Yurok Tribe, Yurok Health and Human Serivces",
+        "project_count": 1,
+        "projects": [
+          {
+            "project": "Yurok Youth Center",
+            "round": "BHCIP Round 4: Children and Youth"
+          }
+        ]
+      }
+    ],
+    "administrator_vendor_names": [
+      "ADVOCATES FOR HUMAN POTENTIAL"
+    ]
+  }
+}

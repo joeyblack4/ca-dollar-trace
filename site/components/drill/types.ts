@@ -7,7 +7,16 @@ export type PathSeg =
   | { kind: "agency"; cd: string }
   | { kind: "dept"; orgCd: string }
   | { kind: "checkbook"; orgCd: string }
-  | { kind: "vendor"; name: string };
+  | { kind: "vendor"; name: string }
+  | { kind: "recovered"; program: string };
+
+export interface BhcipDoc {
+  project_count: number;
+  entity_count: number;
+  by_round: { round: string; project_count: number }[];
+  entities: { name: string; project_count: number; projects: { project: string; round: string }[] }[];
+  administrator_vendor_names: string[];
+}
 
 export interface VendorProfile {
   total_usd: number;
