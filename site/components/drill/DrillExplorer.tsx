@@ -816,12 +816,26 @@ export function DrillExplorer({
                     <div className="mt-3 rounded-md border border-rule bg-white/40 p-3">
                       <div className="flex flex-wrap items-center gap-2">
                         <span className="text-sm font-semibold">This organization across California</span>
+                        {e.confidence === "identifier-linked" ? (
+                          <span className="rounded-full border border-traceable/40 bg-traceable/10 px-1.5 py-0.5 text-[10px] text-traceable">
+                            same ID across sources
+                          </span>
+                        ) : (
+                          <span className="rounded-full border border-rule px-1.5 py-0.5 text-[10px] text-fog">
+                            matched by name
+                          </span>
+                        )}
                         {Object.entries(e.ids).map(([k, v]) => (
                           <span key={k} className="rounded border border-rule px-1.5 py-0.5 font-mono text-[10px] text-fog">
                             {k.toUpperCase()} {v}
                           </span>
                         ))}
                       </div>
+                      {e.identity_caution && (
+                        <p className="mt-1.5 text-[11px] text-fog">
+                          ⚠ {e.identity_caution}
+                        </p>
+                      )}
                       <ul className="mt-2 space-y-1 text-sm">
                         {Object.keys(e.appearances).map((lane) => {
                           const info = LANE[lane];

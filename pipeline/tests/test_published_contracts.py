@@ -385,9 +385,19 @@ def test_entities_contract():
     # every published entity is dossier-worthy (multi-lane or has an ID)
     for key, e in d["entities"].items():
         assert e["lane_count"] >= 2 or e["ids"], f"{key}: not dossier-worthy"
-        assert e["confidence"] in {"identifier-anchored", "name-matched", "single-source"}
+        assert e["confidence"] in {"identifier-linked", "name-matched", "single-source"}
+        # "identifier-linked" is the only label that claims a corroborated
+        # cross-source link — it must never appear on a single-lane entity
+        if e["confidence"] == "identifier-linked":
+            assert e["lane_count"] >= 2, f"{key}: identifier-linked but single-lane"
+            assert e["ids"], f"{key}: identifier-linked but no IDs"
         if e.get("ambiguous_identity"):
             assert e["ids"] == {}, "ambiguous entity must not publish IDs"
+        # a caution only rides on a name that carries IDs without corroboration
+        if e.get("identity_caution"):
+            assert e["confidence"] != "identifier-linked", (
+                f"{key}: cautioned entity claims a proven link"
+            )
     # the name index resolves to real entities
     for raw, key in list(d["name_index"].items())[:50]:
         assert key in d["entities"]

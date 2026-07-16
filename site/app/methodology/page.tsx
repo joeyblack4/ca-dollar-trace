@@ -135,8 +135,14 @@ export default function MethodologyPage() {
           <p className="mt-1">
             When one organization appears in several lanes, we unify it by name and attach any
             strong identifier a source publishes (federal UEI, IRS EIN, charity registration
-            number). Identifier-anchored links are high-confidence; name-only matches are lower.
-            A name that maps to two different identifiers is left unlinked rather than guessed.
+            number). We only call a cross-source link{" "}
+            <strong className="text-ink">identifier-linked</strong> when the{" "}
+            <em>same</em> strong identifier is reported by two or more independent lanes — that is
+            the one case a link is truly proven. Everything else is labeled{" "}
+            <strong className="text-ink">name-matched</strong>: joined by name alone, which is our
+            best guess, not a certainty. When a name is common enough that it could belong to more
+            than one organization, we say so on the record itself. And a name that maps to two
+            different identifiers is left unlinked rather than guessed.
           </p>
         </div>
         <div>

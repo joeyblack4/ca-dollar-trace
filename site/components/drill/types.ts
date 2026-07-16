@@ -50,6 +50,7 @@ export interface EntitiesDoc {
       lane_count: number;
       confidence: string;
       ambiguous_identity?: boolean;
+      identity_caution?: string;
       appearances: Record<
         string,
         {

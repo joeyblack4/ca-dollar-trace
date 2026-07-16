@@ -32,10 +32,17 @@ from .csv_download import QualityGateError
 # legally sit) — stripping "CO"/"COMPANY" anywhere would mangle "CO-OP" -> "OP"
 # and merge "The Company Store" -> "The Store". Distinguishing words
 # (FOUNDATION, UNIVERSITY, HOSPITAL, COUNTY...) are always kept.
+# "CO" (bare) is deliberately excluded: as a trailing token it would merge
+# "Marin Co" -> "Marin" and collide with unrelated vendors. "COMPANY" (spelled
+# out) is safe and kept.
 _TRAIL_SUFFIX = {
-    "INC", "INCORPORATED", "LLC", "CORP", "CORPORATION", "CO", "COMPANY",
+    "INC", "INCORPORATED", "LLC", "CORP", "CORPORATION", "COMPANY",
     "LP", "LLP", "PC", "LTD", "PLLC",
 }
+
+# Stopwords that don't add specificity — used to judge whether a name is
+# generic enough that a name-based merge could join two different organizations.
+_STOPWORDS = {"OF", "THE", "AND", "FOR", "A", "IN", "CALIFORNIA", "CA"}
 
 
 def _norm(name: str) -> str:
@@ -81,12 +88,16 @@ def run_entities(storage: Storage, cfg: SourceConfig, settings: Settings) -> str
         if e is None:
             e = {
                 "canonical_name": name.strip(),
-                "eins": set(),
-                "ueis": set(),
+                # id value -> set of lanes that reported it (provenance): a
+                # cross-source link is only identifier-CORROBORATED when the
+                # same strong id is reported by >=2 lanes
+                "ein_lanes": {},
+                "uei_lanes": {},
                 "cts": set(),
                 "aliases": set(),
                 "appearances": {},
                 "_namelen": len(name),
+                "_norm": k,
             }
             ents[k] = e
         # keep the longest surface form as the display name
@@ -139,7 +150,9 @@ def run_entities(storage: Storage, cfg: SourceConfig, settings: Settings) -> str
                 continue
             e = ent(r["name"])
             if r.get("uei"):
-                e["ueis"].add(r["uei"].strip().upper())
+                e["uei_lanes"].setdefault(r["uei"].strip().upper(), set()).add(
+                    "federal_recipient"
+                )
             e["appearances"]["federal_recipient"] = {
                 "amount_usd": r["amount_usd"],
                 "note": "federal awards performed in CA (FY2025)",
@@ -151,7 +164,7 @@ def run_entities(storage: Storage, cfg: SourceConfig, settings: Settings) -> str
         for a in fa["data"]["top_auditees"]:
             e = ent(a["name"])
             if a.get("uei"):
-                e["ueis"].add(a["uei"].strip().upper())
+                e["uei_lanes"].setdefault(a["uei"].strip().upper(), set()).add("federal_audit")
             e["appearances"]["federal_audit"] = {
                 "expended_usd": a["federal_expended_usd"],
                 "entity_type": a.get("entity_type"),
@@ -165,7 +178,7 @@ def run_entities(storage: Storage, cfg: SourceConfig, settings: Settings) -> str
         for name, o in np["data"]["organizations"].items():
             e = ent(name)
             if (ein := _digits(o.get("fein"), 9)):
-                e["eins"].add(ein)
+                e["ein_lanes"].setdefault(ein, set()).add("nonprofit_registry")
             if o.get("ct_number"):
                 e["cts"].add(o["ct_number"].strip())
             e["registry_status"] = o.get("registry_status")
@@ -226,12 +239,26 @@ def _finalize(ents: dict[str, dict[str, Any]]) -> dict[str, Any]:
     ambiguous = 0
     id_anchored = 0
     for key, e in ents.items():
-        eins, ueis, cts = e.pop("eins"), e.pop("ueis"), e.pop("cts")
+        ein_lanes, uei_lanes, cts = e.pop("ein_lanes"), e.pop("uei_lanes"), e.pop("cts")
         aliases = e.pop("aliases")
+        norm = e.pop("_norm")
         e.pop("_namelen", None)
-        # a name mapping to conflicting strong IDs is ambiguous: withhold the
-        # IDs, flag it, still show the lane appearances
-        conflict = len(eins) > 1 or len(ueis) > 1
+        lanes = list(e["appearances"])
+        e["lane_count"] = len(lanes)
+
+        # a name mapping to conflicting strong IDs (two EINs / two UEIs) is
+        # ambiguous: withhold IDs, flag it, keep the lane appearances
+        conflict = len(ein_lanes) > 1 or len(uei_lanes) > 1
+        # a generic name (few distinctive tokens) can join two different orgs;
+        # its identifiers are shown only with a caution
+        significant = [t for t in norm.split() if t not in _STOPWORDS]
+        generic = len(significant) < 3
+        # a strong id is CORROBORATED when a single id value is reported by 2+
+        # lanes — that is the only truly identifier-anchored cross-source link
+        corroborated = any(len(ls) >= 2 for ls in ein_lanes.values()) or any(
+            len(ls) >= 2 for ls in uei_lanes.values()
+        )
+
         if conflict:
             ambiguous += 1
             e["ambiguous_identity"] = True
@@ -240,24 +267,29 @@ def _finalize(ents: dict[str, dict[str, Any]]) -> dict[str, Any]:
             e["ids"] = {
                 k: v
                 for k, v in {
-                    "ein": next(iter(eins), None),
-                    "uei": next(iter(ueis), None),
+                    "ein": next(iter(ein_lanes), None),
+                    "uei": next(iter(uei_lanes), None),
                     "ct_number": next(iter(cts), None),
                 }.items()
                 if v
             }
-        lanes = list(e["appearances"])
-        e["lane_count"] = len(lanes)
         has_id = bool(e["ids"])
-        if has_id:
+        # a conflict withholds the IDs, so we can't claim a proven ID link even
+        # if one value happened to repeat across lanes — fall back to name-matched
+        if e["lane_count"] >= 2 and corroborated and not conflict:
+            e["confidence"] = "identifier-linked"  # shared hard id across lanes
             id_anchored += 1
-        # confidence of the cross-source unification
-        if len(lanes) <= 1 and not has_id:
-            e["confidence"] = "single-source"
-        elif has_id:
-            e["confidence"] = "identifier-anchored"
+        elif e["lane_count"] >= 2:
+            e["confidence"] = "name-matched"  # lanes joined by name only
         else:
-            e["confidence"] = "name-matched"
+            e["confidence"] = "single-source"
+        # honest caveat: a generic name with an identifier attached might be
+        # the wrong organization's identifier
+        if generic and has_id and not corroborated and e["lane_count"] >= 2:
+            e["identity_caution"] = (
+                "This name may refer to more than one organization; identifiers "
+                "shown are the best available match, not a proven link."
+            )
         if e["lane_count"] >= 2:
             multi += 1
         # only publish entities worth a dossier: multi-lane OR carrying an ID

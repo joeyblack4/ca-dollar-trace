@@ -5,8 +5,8 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying figure keeps its source's license"
   },
-  "as_of": "2026-07-17T073330Z",
-  "ingested_at": "2026-07-17T07:33:30.787264+00:00",
+  "as_of": "2026-07-16T235037Z",
+  "ingested_at": "2026-07-16T23:50:37.588550+00:00",
   "cadence": "recomputed each run from the published lane data",
   "coverage_flag": "traceable",
   "caveats": [
@@ -17,15 +17,15 @@
   "data": {
     "entity_count": 388,
     "multi_lane_count": 95,
-    "identifier_anchored_count": 385,
+    "identifier_anchored_count": 11,
     "ambiguous_count": 8,
     "name_index": {
       "CALSTART INC": "CALSTART",
       "CALSTART, INC.": "CALSTART",
       "CALSTART INC.": "CALSTART",
       "DELOITTE CONSULTING LLP": "DELOITTE CONSULTING",
-      "CHILD CARE RESOURCE CENTER, INC.": "CHILD CARE RESOURCE CENTER",
       "CHILD CARE RESOURCE CENTER INC": "CHILD CARE RESOURCE CENTER",
+      "CHILD CARE RESOURCE CENTER, INC.": "CHILD CARE RESOURCE CENTER",
       "CENTER FOR SUSTAINABLE ENERGY": "CENTER FOR SUSTAINABLE ENERGY",
       "KAISER FOUNDATION HOSPITALS": "KAISER FOUNDATION HOSPITALS",
       "DIGNITY HEALTH": "DIGNITY HEALTH",
@@ -35,8 +35,8 @@
       "PRIDE INDUSTRIES ONE INC": "PRIDE INDUSTRIES ONE",
       "SUTTER HEALTH": "SUTTER HEALTH",
       "CHILD ACTION INC": "CHILD ACTION",
-      "SELF-HELP ENTERPRISES": "SELF HELP ENTERPRISES",
       "SELF HELP ENTERPRISES": "SELF HELP ENTERPRISES",
+      "SELF-HELP ENTERPRISES": "SELF HELP ENTERPRISES",
       "KLAMATH RIVER RENEWAL CORP": "KLAMATH RIVER RENEWAL",
       "OPTIONS FOR LEARNING": "OPTIONS FOR LEARNING",
       "ORANGE COUNTY FIRE AUTHORITY": "ORANGE COUNTY FIRE AUTHORITY",
@@ -46,8 +46,8 @@
       "SILICON VALLEY CLEAN WATER": "SILICON VALLEY CLEAN WATER",
       "US FOODS INC": "US FOODS",
       "COCOKIDS INC": "COCOKIDS",
-      "CHEVRON USA INC": "CHEVRON USA",
       "CHEVRON USA INC.": "CHEVRON USA",
+      "CHEVRON USA INC": "CHEVRON USA",
       "CAL FOODS LOGISTICS": "CAL FOODS LOGISTICS",
       "LOS ANGELES REGIONAL FOOD BANK": "LOS ANGELES REGIONAL FOOD BANK",
       "CATALYST FAMILY INC": "CATALYST FAMILY",
@@ -60,11 +60,11 @@
       "OFFICE OF EMERGENCY SERVICES": "OFFICE OF EMERGENCY SERVICES",
       "CHILD DEVELOPMENT INC": "CHILD DEVELOPMENT",
       "SUPPORTIVE SERVICES INC": "SUPPORTIVE SERVICES",
-      "AECOM TECHNICAL SERVICES INC": "AECOM TECHNICAL SERVICES",
       "AECOM TECHNICAL SERVICES, INC.": "AECOM TECHNICAL SERVICES",
+      "AECOM TECHNICAL SERVICES INC": "AECOM TECHNICAL SERVICES",
       "KIDANGO INC": "KIDANGO",
-      "INTER-CON SECURITY SYSTEMS INC": "INTER CON SECURITY SYSTEMS",
       "INTER-CON SECURITY SYSTEMS, INC.": "INTER CON SECURITY SYSTEMS",
+      "INTER-CON SECURITY SYSTEMS INC": "INTER CON SECURITY SYSTEMS",
       "AREA 4 AGENCY ON AGING": "AREA 4 AGENCY ON AGING",
       "MANIFEST MEDEX": "MANIFEST MEDEX",
       "COMMUNITY RESOURCE PROJECT INC": "COMMUNITY RESOURCE PROJECT",
@@ -101,8 +101,8 @@
       "COUNTY OF RIVERSIDE": "COUNTY OF RIVERSIDE",
       "EPIDAURUS": "EPIDAURUS",
       "SPECIAL SERVICE FOR GROUPS, INC.": "SPECIAL SERVICE FOR GROUPS",
-      "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT": "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT",
       "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT, INC.": "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT",
+      "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT": "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT",
       "CRI-HELP, INC.": "CRI HELP",
       "COUNTY OF FRESNO": "COUNTY OF FRESNO",
       "COUNTY OF SANTA CLARA": "COUNTY OF SANTA CLARA",
@@ -147,8 +147,8 @@
       "CLINICA MSR OSCAR A ROMERO": "CLINICA MSR OSCAR A ROMERO",
       "COMMUNITY MEDICAL CENTERS, INC.": "COMMUNITY MEDICAL CENTERS",
       "COMPATIOR, INC.": "COMPATIOR",
-      "CONSOLIDATED TRIBAL HEALTH PROJECT, INC.": "CONSOLIDATED TRIBAL HEALTH PROJECT",
       "CONSOLIDATED TRIBAL HEALTH PROJECT INC.": "CONSOLIDATED TRIBAL HEALTH PROJECT",
+      "CONSOLIDATED TRIBAL HEALTH PROJECT, INC.": "CONSOLIDATED TRIBAL HEALTH PROJECT",
       "COPPERTOWER FAMILY MEDICAL CENTER": "COPPERTOWER FAMILY MEDICAL CENTER",
       "COUNTY OF CONTRA COSTA": "COUNTY OF CONTRA COSTA",
       "COUNTY OF LOS ANGELES": "COUNTY OF LOS ANGELES",
@@ -188,8 +188,8 @@
       "MENTIS": "MENTIS",
       "NATE'S PLACE, A WELLNESS AND RECOVERY CENTER": "NATE S PLACE A WELLNESS AND RECOVERY CENTER",
       "NATIVE AMERICAN HEALTH CENTER, INC.": "NATIVE AMERICAN HEALTH CENTER",
-      "NATIVE DIRECTIONS INC.": "NATIVE DIRECTIONS",
       "NATIVE DIRECTIONS, INC.": "NATIVE DIRECTIONS",
+      "NATIVE DIRECTIONS INC.": "NATIVE DIRECTIONS",
       "NORTH COAST SUBSTANCE ABUSE COUNCIL INC.": "NORTH COAST SUBSTANCE ABUSE COUNCIL",
       "NORTHBAY HEALTHCARE CORPORATION": "NORTHBAY HEALTHCARE",
       "OLE HEALTH": "OLE HEALTH",
@@ -260,7 +260,7 @@
       "DEPARTMENT OF HOUSING & COMMUNITY DEVELOPMENT": "DEPARTMENT OF HOUSING COMMUNITY DEVELOPMENT",
       "BOOZ ALLEN HAMILTON INC": "BOOZ ALLEN HAMILTON",
       "HOUSING AUTHORITY OF THE COUNTY OF LOS ANGELES, THE": "HOUSING AUTHORITY OF THE COUNTY OF LOS ANGELES THE",
-      "FISHER SAND & GRAVEL CO": "FISHER SAND GRAVEL",
+      "FISHER SAND & GRAVEL CO": "FISHER SAND GRAVEL CO",
       "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT": "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT",
       "NATIONAL STEEL AND SHIPBUILDING COMPANY": "NATIONAL STEEL AND SHIPBUILDING",
       "SAN FRANCISCO HOUSING AUTHORITY": "SAN FRANCISCO HOUSING AUTHORITY",
@@ -278,7 +278,7 @@
       "PORT DEPARTMENT OF THE CITY OF OAKLAND": "PORT DEPARTMENT OF THE CITY OF OAKLAND",
       "SAN DIEGO HOUSING COMMISSION": "SAN DIEGO HOUSING COMMISSION",
       "ANDURIL INDUSTRIES, INC.": "ANDURIL INDUSTRIES",
-      "ARMTEC DEFENSE PRODUCTS CO.": "ARMTEC DEFENSE PRODUCTS",
+      "ARMTEC DEFENSE PRODUCTS CO.": "ARMTEC DEFENSE PRODUCTS CO",
       "AEROJET ROCKETDYNE OF DE, INC": "AEROJET ROCKETDYNE OF DE",
       "PATRIOT CONTRACT SERVICES, LLC": "PATRIOT CONTRACT SERVICES",
       "HOUSING AUTHORITY OF THE COUNTY OF SACRAMENTO": "HOUSING AUTHORITY OF THE COUNTY OF SACRAMENTO",
@@ -290,11 +290,11 @@
       "RQ CONSTRUCTION, LLC": "RQ CONSTRUCTION",
       "ACCESS SERVICES": "ACCESS SERVICES",
       "TECHFLOW, INC.": "TECHFLOW",
-      "S. J. AMOROSO CONSTRUCTION CO., LLC": "S J AMOROSO CONSTRUCTION",
+      "S. J. AMOROSO CONSTRUCTION CO., LLC": "S J AMOROSO CONSTRUCTION CO",
       "NW CONSTRUCTION, INC": "NW CONSTRUCTION",
       "CLARK CONSTRUCTION GROUP - CALIFORNIA, LP": "CLARK CONSTRUCTION GROUP CALIFORNIA",
       "HOUSING AUTHORITY OF THE COUNTY OF SAN BERNARDINO": "HOUSING AUTHORITY OF THE COUNTY OF SAN BERNARDINO",
-      "KIEWIT INFRASTRUCTURE WEST CO.": "KIEWIT INFRASTRUCTURE WEST",
+      "KIEWIT INFRASTRUCTURE WEST CO.": "KIEWIT INFRASTRUCTURE WEST CO",
       "VIASAT INC": "VIASAT",
       "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION": "SCIENCE APPLICATIONS INTERNATIONAL",
       "A-MARK PRECIOUS METALS, INC.": "A MARK PRECIOUS METALS",
@@ -317,8 +317,8 @@
       "HOUSING AUTHORITY OF ALAMEDA COUNTY": "HOUSING AUTHORITY OF ALAMEDA COUNTY",
       "L3HARRIS INTERSTATE ELECTRONICS CORPORATION": "L3HARRIS INTERSTATE ELECTRONICS",
       "DPR-RQ CONSTRUCTION, LLC": "DPR RQ CONSTRUCTION",
-      "THE SCRIPPS RESEARCH INSTITUTE": "SCRIPPS RESEARCH INSTITUTE",
       "SCRIPPS RESEARCH INSTITUTE": "SCRIPPS RESEARCH INSTITUTE",
+      "THE SCRIPPS RESEARCH INSTITUTE": "SCRIPPS RESEARCH INSTITUTE",
       "COVENANT AVIATION SECURITY, LLC": "COVENANT AVIATION SECURITY",
       "ORANGE COUNTY TRANSPORTATION AUTHORITY": "ORANGE COUNTY TRANSPORTATION AUTHORITY",
       "CONTINENTAL MARITIME OF SAN DIEGO, LLC": "CONTINENTAL MARITIME OF SAN DIEGO",
@@ -365,7 +365,7 @@
       "CITY OF SAN BUENAVENTURA": "CITY OF SAN BUENAVENTURA",
       "HII FLEET SUPPORT GROUP LLC": "HII FLEET SUPPORT GROUP",
       "HOUSING AUTHORITY OF THE COUNTY OF MARIN": "HOUSING AUTHORITY OF THE COUNTY OF MARIN",
-      "R.A. BURCH CONSTRUCTION CO., INC.": "R A BURCH CONSTRUCTION",
+      "R.A. BURCH CONSTRUCTION CO., INC.": "R A BURCH CONSTRUCTION CO",
       "CALIFORNIA STATE UNIVERSITY, FRESNO": "CALIFORNIA STATE UNIVERSITY FRESNO",
       "HOUSING AUTHORITY OF THE COUNTY OF SANTA BARBARA": "HOUSING AUTHORITY OF THE COUNTY OF SANTA BARBARA",
       "HOUSING AUTHORITY OF THE CITY OF FRESNO": "HOUSING AUTHORITY OF THE CITY OF FRESNO",
@@ -451,12 +451,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 3,
         "ids": {
           "ein": "954375022",
           "ct_number": "085529"
         },
-        "lane_count": 3,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "DELOITTE CONSULTING": {
         "canonical_name": "DELOITTE CONSULTING LLP",
@@ -470,11 +471,12 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "CKV2L9GZKJK3"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "CHILD CARE RESOURCE CENTER": {
         "canonical_name": "Child Care Resource Center, Inc.",
@@ -492,13 +494,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "953081695",
           "uei": "H1EMKNM178H7",
           "ct_number": "020402"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CENTER FOR SUSTAINABLE ENERGY": {
         "canonical_name": "CENTER FOR SUSTAINABLE ENERGY",
@@ -510,12 +512,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "330936366",
           "ct_number": "113674"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "KAISER FOUNDATION HOSPITALS": {
         "canonical_name": "KAISER FOUNDATION HOSPITALS",
@@ -533,12 +535,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "941105628",
           "uei": "P1RTMASB37B5"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "DIGNITY HEALTH": {
         "canonical_name": "DIGNITY HEALTH",
@@ -550,12 +552,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "462037641",
           "ct_number": "CT0195222"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CRYSTAL STAIRS": {
         "canonical_name": "CRYSTAL STAIRS, INC.",
@@ -573,13 +575,14 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "953510046",
           "uei": "L45MNGTLQBJ1",
           "ct_number": "041281"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "EDUCATIONAL TESTING SERVICE": {
         "canonical_name": "EDUCATIONAL TESTING SERVICE",
@@ -591,12 +594,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "210634479",
           "ct_number": "033066"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PRIDE INDUSTRIES ONE": {
         "canonical_name": "PRIDE INDUSTRIES ONE INC",
@@ -608,12 +611,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "911827109",
           "ct_number": "105546"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SUTTER HEALTH": {
         "canonical_name": "SUTTER HEALTH",
@@ -625,12 +628,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942788907",
           "ct_number": "046498"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CHILD ACTION": {
         "canonical_name": "CHILD ACTION INC",
@@ -642,12 +645,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942364946",
           "ct_number": "019774"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SELF HELP ENTERPRISES": {
         "canonical_name": "SELF HELP ENTERPRISES",
@@ -671,12 +674,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 3,
         "ids": {
           "ein": "941592676",
           "ct_number": "014597"
         },
-        "lane_count": 3,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "KLAMATH RIVER RENEWAL": {
         "canonical_name": "KLAMATH RIVER RENEWAL CORP",
@@ -688,12 +691,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "812761910",
           "ct_number": "CT0253857"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "OPTIONS FOR LEARNING": {
         "canonical_name": "OPTIONS FOR LEARNING",
@@ -705,12 +708,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953602641",
           "ct_number": "042461"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ORANGE COUNTY FIRE AUTHORITY": {
         "canonical_name": "ORANGE COUNTY FIRE AUTHORITY",
@@ -722,12 +725,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "271064774",
           "ct_number": "CT0171141"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PUBLIC HEALTH INSTITUTE": {
         "canonical_name": "PUBLIC HEALTH INSTITUTE",
@@ -739,12 +742,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941646278",
           "ct_number": "043580"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ECC CONSTRUCTORS": {
         "canonical_name": "ECC CONSTRUCTORS LLC",
@@ -758,11 +761,12 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "LJPLMV3GCYE7"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "HOPE THE MISSION": {
         "canonical_name": "HOPE THE MISSION",
@@ -774,12 +778,12 @@
         },
         "registry_status": "Exempt - Religious",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "272053273",
           "ct_number": "CT0158552"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SILICON VALLEY CLEAN WATER": {
         "canonical_name": "SILICON VALLEY CLEAN WATER",
@@ -795,11 +799,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "MTAVRU6AKEA8"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "US FOODS": {
         "canonical_name": "US FOODS INC",
@@ -813,11 +817,12 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "SGJJAR598G87"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "COCOKIDS": {
         "canonical_name": "COCOKIDS INC",
@@ -829,12 +834,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942383037",
           "ct_number": "020513"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CHEVRON USA": {
         "canonical_name": "CHEVRON USA INC.",
@@ -848,11 +853,12 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "ETM1CJGUA6H8"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "CAL FOODS LOGISTICS": {
         "canonical_name": "CAL FOODS LOGISTICS",
@@ -864,12 +870,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "852138383",
           "ct_number": "CT0272187"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES REGIONAL FOOD BANK": {
         "canonical_name": "LOS ANGELES REGIONAL FOOD BANK",
@@ -881,12 +887,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953135649",
           "ct_number": "020719"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CATALYST FAMILY": {
         "canonical_name": "CATALYST FAMILY INC",
@@ -898,12 +904,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942376637",
           "ct_number": "024664"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY ENTERPRISES": {
         "canonical_name": "UNIVERSITY ENTERPRISES INC",
@@ -915,12 +921,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941337638",
           "ct_number": "010341"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CENTRAL VALLEY REGIONAL CENTER": {
         "canonical_name": "CENTRAL VALLEY REGIONAL CENTER",
@@ -932,12 +938,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942823126",
           "ct_number": "048019"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "KAISER FDN HEALTH PLAN": {
         "canonical_name": "KAISER FDN HEALTH PLAN INC",
@@ -949,11 +955,11 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941340523"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CHICO STATE ENTERPRISES": {
         "canonical_name": "CHICO STATE ENTERPRISES",
@@ -965,12 +971,12 @@
         },
         "registry_status": "Current - Awaiting Reporting",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680386518",
           "ct_number": "102886"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GO KIDS": {
         "canonical_name": "GO KIDS INC",
@@ -982,12 +988,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942535812",
           "ct_number": "034791"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "WEINGART CENTER ASSOCIATION": {
         "canonical_name": "WEINGART CENTER ASSOCIATION",
@@ -999,12 +1005,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "956054617",
           "ct_number": "001054"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "OFFICE OF EMERGENCY SERVICES": {
         "canonical_name": "OFFICE OF EMERGENCY SERVICES",
@@ -1018,11 +1024,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "UTM3S7LKYQZ4"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CHILD DEVELOPMENT": {
         "canonical_name": "CHILD DEVELOPMENT INC",
@@ -1034,12 +1040,12 @@
         },
         "registry_status": "Revoked",
         "may_operate": false,
+        "lane_count": 1,
         "ids": {
           "ein": "953379127",
           "ct_number": "021920"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SUPPORTIVE SERVICES": {
         "canonical_name": "SUPPORTIVE SERVICES INC",
@@ -1051,12 +1057,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942377266",
           "ct_number": "022884"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AECOM TECHNICAL SERVICES": {
         "canonical_name": "AECOM TECHNICAL SERVICES, INC.",
@@ -1070,11 +1076,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "EPUXNLX5EYC4"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "KIDANGO": {
         "canonical_name": "KIDANGO INC",
@@ -1086,12 +1092,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942581686",
           "ct_number": "037094"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "INTER CON SECURITY SYSTEMS": {
         "canonical_name": "INTER-CON SECURITY SYSTEMS, INC.",
@@ -1105,11 +1111,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "EZ3SMGBR74X6"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "AREA 4 AGENCY ON AGING": {
         "canonical_name": "AREA 4 AGENCY ON AGING",
@@ -1121,12 +1127,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942897957",
           "ct_number": "CT0297590"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "MANIFEST MEDEX": {
         "canonical_name": "MANIFEST MEDEX",
@@ -1138,12 +1144,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "272367522",
           "ct_number": "CT0166074"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COMMUNITY RESOURCE PROJECT": {
         "canonical_name": "COMMUNITY RESOURCE PROJECT INC",
@@ -1155,12 +1161,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942280427",
           "ct_number": "021220"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STANFORD UNIVERSITY": {
         "canonical_name": "Stanford University",
@@ -1177,11 +1183,12 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "HJD6G4D6TJY5"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "SCRIPPS HEALTH": {
         "canonical_name": "Scripps Health",
@@ -1201,12 +1208,13 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951684089",
           "ct_number": "CT0151777"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "UNIVERSITY OF SOUTHERN CALIFORNIA": {
         "canonical_name": "University of Southern California",
@@ -1236,12 +1244,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 4,
         "ids": {
           "ein": "951642394",
           "uei": "G88KLJR3KYT5"
         },
-        "lane_count": 4,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "STANFORD HEALTH CARE": {
         "canonical_name": "Stanford Health Care",
@@ -1261,12 +1269,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "946174066",
           "ct_number": "CT0145166"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "COMMONSPIRIT HEALTH": {
         "canonical_name": "CommonSpirit Health",
@@ -1292,13 +1300,14 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 3,
         "ids": {
           "ein": "853374038",
           "uei": "DPVENJ1U3T56",
           "ct_number": "CT0288306"
         },
-        "lane_count": 3,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "APPLIED MATERIALS": {
         "canonical_name": "Applied Materials, Inc.",
@@ -1318,12 +1327,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "770386898",
           "ct_number": "096215"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "EDEN HOUSING": {
         "canonical_name": "Eden Housing, Inc.",
@@ -1343,12 +1353,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "231716750",
           "ct_number": "009963"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "MIDPEN HOUSING": {
         "canonical_name": "MidPen Housing Corporation",
@@ -1368,12 +1379,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "237089977",
           "ct_number": "013956"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "RESOURCES FOR COMMUNITY DEVELOPMENT": {
         "canonical_name": "Resources for Community Development",
@@ -1393,12 +1405,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942952466",
           "ct_number": "059640"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "BRIDGE HOUSING": {
         "canonical_name": "BRIDGE Housing Corporation",
@@ -1418,12 +1430,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942827909",
           "ct_number": "049070"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "CHILDREN S HOSPITAL LOS ANGELES": {
         "canonical_name": "Children's Hospital Los Angeles",
@@ -1443,12 +1456,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951690977",
           "ct_number": "CT0000521"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "MERCY HOUSING CALIFORNIA": {
         "canonical_name": "Mercy Housing California",
@@ -1468,12 +1481,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "943081666",
           "ct_number": "073837"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "TARZANA TREATMENT CENTERS": {
         "canonical_name": "Tarzana Treatment Centers, Inc.",
@@ -1497,12 +1511,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 3,
         "ids": {
           "ein": "942219349",
           "ct_number": "015616"
         },
-        "lane_count": 3,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "LOMA LINDA UNIVERSITY CHILDREN S HOSPITAL": {
         "canonical_name": "Loma Linda University Children's Hospital",
@@ -1522,12 +1536,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "330565591",
           "ct_number": "086625"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ALTAMED HEALTH SERVICES": {
         "canonical_name": "AltaMed Health Services Corporation",
@@ -1547,12 +1561,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "952810095",
           "ct_number": "013500"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT": {
         "canonical_name": "Pacific Southwest Community Development Corporation",
@@ -1572,12 +1586,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "330673939",
           "ct_number": "106659"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "NATURE CONSERVANCY": {
         "canonical_name": "The Nature Conservancy",
@@ -1597,12 +1611,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "530242652",
           "ct_number": "006957"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "LINC HOUSING": {
         "canonical_name": "LINC Housing Corporation",
@@ -1622,12 +1637,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "330578620",
           "ct_number": "091114"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "EPISCOPAL COMMUNITIES SERVICES FOR SENIORS": {
         "canonical_name": "Episcopal Communities & Services for Seniors",
@@ -1647,12 +1663,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951642373",
           "ct_number": "011709"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CHAPMAN UNIVERSITY": {
         "canonical_name": "Chapman University",
@@ -1672,12 +1688,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "300563618",
           "ct_number": "CT0154791"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "CENTURY AFFORDABLE DEVELOPMENT": {
         "canonical_name": "Century Affordable Development, Inc.",
@@ -1697,12 +1714,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "954648166",
           "ct_number": "104977"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "NATIONAL COMMUNITY RENAISSANCE OF CALIFORNIA": {
         "canonical_name": "National Community Renaissance of California",
@@ -1722,12 +1739,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "330521215",
           "ct_number": "085265"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "WAKELAND HOUSING AND DEVELOPMENT": {
         "canonical_name": "Wakeland Housing and Development Corporation",
@@ -1747,12 +1764,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "330833640",
           "ct_number": "112355"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "44049 SIERRA HWY PROPCO": {
         "canonical_name": "44049 Sierra Hwy Propco LLC",
@@ -1767,8 +1784,8 @@
             "note": "behavioral-health infrastructure grants"
           }
         },
-        "ids": {},
         "lane_count": 2,
+        "ids": {},
         "confidence": "name-matched"
       },
       "ALAMEDA HEALTH SYSTEM": {
@@ -1793,12 +1810,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 3,
         "ids": {
           "ein": "943103136",
           "ct_number": "073746"
         },
-        "lane_count": 3,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ON LOK SENIOR HEALTH SERVICES": {
         "canonical_name": "On Lok Senior Health Services",
@@ -1818,12 +1835,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942162549",
           "ct_number": "013655"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "LOS ANGELES CENTERS FOR ALCOHOL AND DRUG ABUSE": {
         "canonical_name": "Los Angeles Centers for Alcohol and Drug Abuse",
@@ -1842,12 +1859,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "237110152",
           "ct_number": "046185"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "COUNTY OF SAN DIEGO": {
         "canonical_name": "County of San Diego",
@@ -1863,11 +1880,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "CZTNNM6XJVJ3"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CITY AND COUNTY OF SAN FRANCISCO": {
         "canonical_name": "City and County of San Francisco",
@@ -1883,11 +1900,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "MYM4VNNBN6T9"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "COUNTY OF RIVERSIDE": {
         "canonical_name": "County of Riverside",
@@ -1903,11 +1920,12 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "TZY3LSY6KQN6"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "EPIDAURUS": {
         "canonical_name": "Epidaurus",
@@ -1926,12 +1944,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "770418201",
           "ct_number": "100714"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "SPECIAL SERVICE FOR GROUPS": {
         "canonical_name": "Special Service for Groups, Inc.",
@@ -1950,12 +1969,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951716914",
           "ct_number": "000778"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "BAKERSFIELD AMERICAN INDIAN HEALTH PROJECT": {
         "canonical_name": "Bakersfield American Indian Health Project, Inc.",
@@ -1974,12 +1993,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "455281837",
           "ct_number": "CT0200761"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CRI HELP": {
         "canonical_name": "CRI-Help, Inc.",
@@ -1998,12 +2017,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "952758951",
           "ct_number": "014184"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "COUNTY OF FRESNO": {
         "canonical_name": "County of Fresno",
@@ -2019,11 +2039,12 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "GSEENLMEPQ27"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "COUNTY OF SANTA CLARA": {
         "canonical_name": "County of Santa Clara",
@@ -2039,11 +2060,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "JN6JQKW5G6G6"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "FRESNO AMERICAN INDIAN HEALTH PROJECT": {
         "canonical_name": "Fresno American Indian Health Project",
@@ -2062,12 +2083,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "451504597",
           "ct_number": "CT0178503"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "HEALTHRIGHT 360": {
         "canonical_name": "HealthRIGHT 360",
@@ -2086,12 +2107,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "946129071",
           "ct_number": "008492"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "JANUS OF SANTA CRUZ": {
         "canonical_name": "Janus of Santa Cruz",
@@ -2110,12 +2132,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942739130",
           "ct_number": "044488"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "NEW CREATION BEHAVIORAL HEALTHCARE FOUNDATION": {
         "canonical_name": "New Creation Behavioral Healthcare Foundation",
@@ -2134,12 +2156,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "464273229",
           "ct_number": "CT0245182"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "PRINCIPLES": {
         "canonical_name": "Principles, Inc.",
@@ -2158,12 +2180,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "952769659",
           "ct_number": "012963"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "SENECA FAMILY OF AGENCIES": {
         "canonical_name": "Seneca Family of Agencies",
@@ -2182,12 +2205,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942971761",
           "ct_number": "059376"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ALLIANCE FOR COMMUNITY WELLNESS": {
         "canonical_name": "The Alliance for Community Wellness",
@@ -2206,12 +2229,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942297155",
           "ct_number": "019183"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ASPIRANET": {
         "canonical_name": "Aspiranet",
@@ -2230,12 +2253,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "942442955",
           "ct_number": "034345"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "BAY AREA COMMUNITY SERVICES HOUSING": {
         "canonical_name": "Bay Area Community Services Housing Corporation",
@@ -2254,12 +2278,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "464433655",
           "ct_number": "CT0232479"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "CENTER POINT": {
         "canonical_name": "Center Point, Inc.",
@@ -2278,12 +2302,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "941740797",
           "ct_number": "014474"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "COUNTY OF VENTURA": {
         "canonical_name": "County of Ventura",
@@ -2299,11 +2324,12 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "HG2JKZYYTUT3"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "ENCOMPASS COMMUNITY SERVICES": {
         "canonical_name": "Encompass Community Services",
@@ -2322,12 +2348,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "237275290",
           "ct_number": "016484"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "FRIENDS OF THE MISSION": {
         "canonical_name": "Friends of the Mission",
@@ -2346,12 +2372,13 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "911834006",
           "ct_number": "117980"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER": {
         "canonical_name": "Gateways Hospital and Mental Health Center",
@@ -2370,12 +2397,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "883360044",
           "ct_number": "CT0287542"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "HABITAT FOR HUMANITY YUBA SUTTER": {
         "canonical_name": "Habitat for Humanity Yuba/Sutter, Inc.",
@@ -2394,12 +2421,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "680301692",
           "ct_number": "091621"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "INNER TRIBAL TREATMENT": {
         "canonical_name": "Inner-Tribal Treatment",
@@ -2418,12 +2445,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "874270306",
           "ct_number": "CT0287799"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "JWCH INSTITUTE": {
         "canonical_name": "JWCH Institute, Inc.",
@@ -2442,12 +2469,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "952289916",
           "ct_number": "043000"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "KINGS VIEW FOUNDATION": {
         "canonical_name": "Kings View Foundation",
@@ -2466,12 +2494,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "941412648",
           "ct_number": "CT0209200"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "MATHIESEN MEMORIAL HEALTH CLINIC": {
         "canonical_name": "Mathiesen Memorial Health Clinic",
@@ -2490,12 +2518,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "260895668",
           "ct_number": "CT0176589"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "SOUTHERN INDIAN HEALTH COUNCIL": {
         "canonical_name": "Southern Indian Health Council, Inc.",
@@ -2514,12 +2542,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "953782164",
           "ct_number": "051348"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ST VINCENT BEHAVIORAL HEALTH CAMPUS": {
         "canonical_name": "St. Vincent Behavioral Health Campus",
@@ -2531,12 +2559,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "332203364",
           "ct_number": "CT0301490"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HAPPIER LIFE PROJECT": {
         "canonical_name": "The Happier Life Project",
@@ -2555,12 +2583,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "871156043",
           "ct_number": "CT0280821"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "TULE RIVER INDIAN HEALTH CENTER": {
         "canonical_name": "Tule River Indian Health Center, Inc.",
@@ -2579,12 +2607,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "941669142",
           "ct_number": "034348"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "UNITED INDIAN HEALTH SERVICES": {
         "canonical_name": "United Indian Health Services, Inc.",
@@ -2603,12 +2631,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "237088205",
           "ct_number": "014130"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "VISTA DEL MAR CHILD AND FAMILY SERVICES": {
         "canonical_name": "Vista Del Mar Child and Family Services",
@@ -2627,12 +2655,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951647832",
           "ct_number": "002571"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "WELLSPACE HEALTH": {
         "canonical_name": "WellSpace Health",
@@ -2651,12 +2679,13 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "941713704",
           "ct_number": "011601"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "A B C RECOVERY CENTER": {
         "canonical_name": "A.B.C. Recovery Center, Inc.",
@@ -2675,12 +2704,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "751006381",
           "ct_number": "036432"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ALL FOR KIDS ORGANIZATION": {
         "canonical_name": "All For Kids Organization",
@@ -2699,12 +2728,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "951690975",
           "ct_number": "003304"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "ARCHWAY RECOVERY SERVICES": {
         "canonical_name": "Archway Recovery Services",
@@ -2723,12 +2752,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "680413703",
           "ct_number": "128454"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "BAKERSFIELD RECOVERY SERVICES": {
         "canonical_name": "Bakersfield Recovery Services, Inc.",
@@ -2747,12 +2776,12 @@
         },
         "registry_status": "Current - Awaiting Reporting",
         "may_operate": true,
+        "lane_count": 2,
         "ids": {
           "ein": "770168396",
           "ct_number": "069933"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "BARTZ ALTADONNA COMMUNITY HEALTH CENTER": {
         "canonical_name": "Bartz-Altadonna Community Health Center",
@@ -2764,12 +2793,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "273261289",
           "ct_number": "CT0202949"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BI BETT": {
         "canonical_name": "Bi-Bett",
@@ -2781,12 +2810,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941702064",
           "ct_number": "011856"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BUTTERFLY S HAVEN": {
         "canonical_name": "Butterfly's Haven",
@@ -2798,12 +2827,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "861587005",
           "ct_number": "CT0286171"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CASA DE AMPARO": {
         "canonical_name": "Casa de Amparo",
@@ -2815,12 +2844,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953315571",
           "ct_number": "045935"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CENTER FOR HUMAN SERVICES": {
         "canonical_name": "Center for Human Services",
@@ -2832,12 +2861,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941725620",
           "ct_number": "012768"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CHRIST CENTERED MINISTRIES": {
         "canonical_name": "Christ-Centered Ministries",
@@ -2849,11 +2878,11 @@
         },
         "registry_status": "Exempt - Religious",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "954712641"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CLINICA MSR OSCAR A ROMERO": {
         "canonical_name": "Clinica MSR Oscar A Romero",
@@ -2865,12 +2894,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953881333",
           "ct_number": "054077"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COMMUNITY MEDICAL CENTERS": {
         "canonical_name": "Community Medical Centers, Inc.",
@@ -2882,12 +2911,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942437106",
           "ct_number": "033503"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COMPATIOR": {
         "canonical_name": "Compatior, Inc.",
@@ -2899,12 +2928,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "454027159",
           "ct_number": "CT0282748"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CONSOLIDATED TRIBAL HEALTH PROJECT": {
         "canonical_name": "Consolidated Tribal Health Project, Inc.",
@@ -2916,12 +2945,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942891496",
           "ct_number": "058209"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COPPERTOWER FAMILY MEDICAL CENTER": {
         "canonical_name": "Coppertower Family Medical Center",
@@ -2933,12 +2962,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680345901",
           "ct_number": "095414"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF CONTRA COSTA": {
         "canonical_name": "County of Contra Costa",
@@ -2954,11 +2983,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "H6XCU2DRT517"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "COUNTY OF LOS ANGELES": {
         "canonical_name": "County of Los Angeles",
@@ -2978,9 +3007,9 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 3,
         "ambiguous_identity": true,
         "ids": {},
-        "lane_count": 3,
         "confidence": "name-matched"
       },
       "COUNTY OF SACRAMENTO": {
@@ -2997,11 +3026,12 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "GMMDXLLDKSL5"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "COUNTY OF SAN JOAQUIN": {
         "canonical_name": "County of San Joaquin",
@@ -3017,11 +3047,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "MKMGP2C1C2V7"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "COUNTY OF SANTA CRUZ": {
         "canonical_name": "County of Santa Cruz",
@@ -3037,11 +3067,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "XSL1Z6T7LKB5"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "DOLORES C HUERTA FOUNDATION": {
         "canonical_name": "Dolores C. Huerta Foundation",
@@ -3053,12 +3083,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "912145992",
           "ct_number": "CT0147729"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DRUG ABUSE ALTERNATIVES CENTER": {
         "canonical_name": "Drug Abuse Alternatives Center",
@@ -3070,12 +3100,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941694676",
           "ct_number": "011670"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "EMOTIONAL HEALTH ASSOCIATION": {
         "canonical_name": "Emotional Health Association dba SHARE!-The Self-Help and Recovery Exchange",
@@ -3087,12 +3117,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "956092809",
           "ct_number": "005446"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "EL DORADO COUNTY COMMUNITY HEALTH CENTER": {
         "canonical_name": "El Dorado County Community Health Center",
@@ -3104,12 +3134,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "421533531",
           "ct_number": "120089"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ENCOMPASS HOUSING": {
         "canonical_name": "Encompass Housing",
@@ -3121,12 +3151,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "475066773",
           "ct_number": "CT0226392"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ENVIRONMENTAL ALTERNATIVES": {
         "canonical_name": "Environmental Alternatives",
@@ -3138,12 +3168,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942751173",
           "ct_number": "044191"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FAMILY DYNAMICS RESOURCE CENTER": {
         "canonical_name": "Family Dynamics Resource Center",
@@ -3155,12 +3185,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "900633321",
           "ct_number": "CT0180112"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FOOTHILL FAMILY SERVICE": {
         "canonical_name": "Foothill Family Service",
@@ -3172,12 +3202,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "951690990",
           "ct_number": "003410"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FORD STREET PROJECT": {
         "canonical_name": "Ford Street Project",
@@ -3189,12 +3219,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942767559",
           "ct_number": "040092"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FRED BROWN S RECOVERY SERVICES": {
         "canonical_name": "Fred Brown's Recovery Services, Inc.",
@@ -3206,12 +3236,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "330491967",
           "ct_number": "083785"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS": {
         "canonical_name": "The Friendship House Association of American Indians",
@@ -3223,12 +3253,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "237097915",
           "ct_number": "012935"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GLOBAL WOMEN FOUNDATION BAND OF BROTHERS": {
         "canonical_name": "Global Women Foundation & Band of Brothers",
@@ -3240,12 +3270,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "922468175",
           "ct_number": "CT0296680"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GOOD SAMARITAN SHELTER": {
         "canonical_name": "Good Samaritan Shelter",
@@ -3257,12 +3287,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "770133375",
           "ct_number": "066259"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GREATER HOPE FOUNDATION FOR CHILDREN": {
         "canonical_name": "Greater Hope Foundation for Children, Inc.",
@@ -3274,12 +3304,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "900111715",
           "ct_number": "133768"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOPE IN THE VALLEY": {
         "canonical_name": "HOPE in the valley",
@@ -3291,12 +3321,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "933923603",
           "ct_number": "CT0300820"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HAMBURGER HOME": {
         "canonical_name": "Hamburger Home",
@@ -3308,12 +3338,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "951693616",
           "ct_number": "004094"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HILLSIDES": {
         "canonical_name": "Hillsides",
@@ -3325,12 +3355,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "951644002",
           "ct_number": "005487"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HIS IDEAS": {
         "canonical_name": "His Ideas, Inc.",
@@ -3342,12 +3372,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "912022127",
           "ct_number": "098783"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOMEBOY INDUSTRIES": {
         "canonical_name": "Homeboy Industries",
@@ -3359,12 +3389,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "954800735",
           "ct_number": "118772"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HORIZON SERVICES": {
         "canonical_name": "Horizon Services, Inc",
@@ -3376,12 +3406,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942365021",
           "ct_number": "019031"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "INDIAN HEALTH COUNCIL": {
         "canonical_name": "Indian Health Council, Inc.",
@@ -3393,12 +3423,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "952506788",
           "ct_number": "021245"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "INTERIM": {
         "canonical_name": "Interim, Inc.",
@@ -3410,12 +3440,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "510159122",
           "ct_number": "017528"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "JAIL GUITAR DOORS": {
         "canonical_name": "Jail Guitar Doors",
@@ -3427,12 +3457,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "270998581",
           "ct_number": "CT0159176"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "JESUS PROVIDES OUR DAILY BREAD": {
         "canonical_name": "Jesus Provides Our Daily Bread",
@@ -3444,12 +3474,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680290819",
           "ct_number": "088298"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LASSEN": {
         "canonical_name": "Lassen",
@@ -3461,12 +3491,12 @@
         },
         "registry_status": "Exempt - Religious",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "946092070",
           "ct_number": "001356"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES JEWISH HOME FOR THE AGING": {
         "canonical_name": "Los Angeles Jewish Home for the Aging",
@@ -3478,12 +3508,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953510024",
           "ct_number": "040134"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "MARSHALL MEDICAL CENTER": {
         "canonical_name": "Marshall Medical Center",
@@ -3495,11 +3525,11 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941450151"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "MCALISTER INSTITUTE FOR TREATMENT EDUCATION": {
         "canonical_name": "McAlister Institute for Treatment & Education, Inc.",
@@ -3511,12 +3541,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953140767",
           "ct_number": "021765"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "MENTIS": {
         "canonical_name": "Mentis",
@@ -3528,12 +3558,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941236934",
           "ct_number": "001244"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATE S PLACE A WELLNESS AND RECOVERY CENTER": {
         "canonical_name": "Nate's Place, A Wellness and Recovery Center",
@@ -3545,12 +3575,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "882222599",
           "ct_number": "CT0283664"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATIVE AMERICAN HEALTH CENTER": {
         "canonical_name": "Native American Health Center, Inc.",
@@ -3562,12 +3592,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "237135928",
           "ct_number": "013990"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATIVE DIRECTIONS": {
         "canonical_name": "Native Directions, Inc.",
@@ -3579,12 +3609,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "237419354",
           "ct_number": "029675"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NORTH COAST SUBSTANCE ABUSE COUNCIL": {
         "canonical_name": "North Coast Substance Abuse Council Inc.",
@@ -3596,12 +3626,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942281020",
           "ct_number": "018947"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NORTHBAY HEALTHCARE": {
         "canonical_name": "NorthBay Healthcare Corporation",
@@ -3613,12 +3643,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680046750",
           "ct_number": "060021"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "OLE HEALTH": {
         "canonical_name": "OLE Health",
@@ -3630,12 +3660,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "237221695",
           "ct_number": "049590"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ORCHARD HOSPITAL": {
         "canonical_name": "Orchard Hospital",
@@ -3647,12 +3677,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680474996",
           "ct_number": "123134"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PACIFIC CLINICS": {
         "canonical_name": "Pacific Clinics",
@@ -3664,12 +3694,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942295953",
           "ct_number": "018068"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PALOMAR HEALTH": {
         "canonical_name": "Palomar Health",
@@ -3681,12 +3711,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "933573154",
           "ct_number": "042433"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PATHWAY SOCIETY": {
         "canonical_name": "Pathway Society, Inc.",
@@ -3698,12 +3728,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941688522",
           "ct_number": "010278"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PAVING THE WAY FOUNDATION": {
         "canonical_name": "Paving the Way Foundation",
@@ -3715,12 +3745,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "010852709",
           "ct_number": "129734"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RANCHO SAN ANTONIO BOYS HOME": {
         "canonical_name": "Rancho San Antonio Boys Home Inc.",
@@ -3732,12 +3762,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "260588029",
           "ct_number": "CT0137401"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REDWOOD COMMUNITY SERVICES": {
         "canonical_name": "Redwood Community Services, Inc.",
@@ -3749,12 +3779,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680367894",
           "ct_number": "100541"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RITTER CENTER": {
         "canonical_name": "Ritter Center",
@@ -3766,12 +3796,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942675517",
           "ct_number": "040772"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ROUND VALLEY INDIAN HEALTH CENTER": {
         "canonical_name": "Round Valley Indian Health Center",
@@ -3783,12 +3813,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942151392",
           "ct_number": "016687"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SISTAHFRIENDS": {
         "canonical_name": "SISTAHFRIENDS",
@@ -3800,12 +3830,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "261402329",
           "ct_number": "CT0283237"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAFE PASSAGES": {
         "canonical_name": "Safe Passages",
@@ -3817,12 +3847,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "204535835",
           "ct_number": "CT0160539"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN BERNARDINO COUNTY": {
         "canonical_name": "San Bernardino County",
@@ -3838,11 +3868,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "MD9GKE5818S4"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "name-matched"
       },
       "SAN DIEGO AMERICAN INDIAN HEALTH CENTER": {
         "canonical_name": "San Diego American Indian Health Center",
@@ -3854,12 +3884,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953397369",
           "ct_number": "036372"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN DIEGO FREEDOM RANCH": {
         "canonical_name": "San Diego Freedom Ranch, Inc.",
@@ -3871,12 +3901,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "952997398",
           "ct_number": "017658"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SANCTUARY CENTERS OF SANTA BARBARA": {
         "canonical_name": "Sanctuary Centers of Santa Barbara, Inc.",
@@ -3888,12 +3918,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953066786",
           "ct_number": "020178"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SERVICE FIRST OF NORTHERN CALIFORNIA": {
         "canonical_name": "Service First of Northern California",
@@ -3905,12 +3935,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680367046",
           "ct_number": "100843"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SIERRA TRIBAL CONSORTIUM": {
         "canonical_name": "Sierra Tribal Consortium, INC",
@@ -3922,12 +3952,12 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942494904",
           "ct_number": "033622"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SOCIAL SCIENCE SERVICES": {
         "canonical_name": "Social Science Services, Inc.",
@@ -3939,12 +3969,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "952914237",
           "ct_number": "017502"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SONOMA COUNTY INDIAN HEALTH PROJECT": {
         "canonical_name": "Sonoma County Indian Health Project, Inc.",
@@ -3956,12 +3986,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941741896",
           "ct_number": "015360"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SOROPTIMIST HOUSE OF HOPE": {
         "canonical_name": "Soroptimist House of Hope, Inc",
@@ -3973,12 +4003,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "953652725",
           "ct_number": "046493"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SOUTHERN CALIFORNIA ALCOHOL AND DRUG PROGRAMS": {
         "canonical_name": "Southern California Alcohol and Drug Programs, Inc.",
@@ -3990,12 +4020,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "237228780",
           "ct_number": "015644"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ST ANNE S FAMILY SERVICES": {
         "canonical_name": "St. Anne's Family Services",
@@ -4007,12 +4037,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "951691306",
           "ct_number": "019411"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ST JOHN S COMMUNITY HEALTH": {
         "canonical_name": "St. John's Community Health",
@@ -4024,12 +4054,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "954067758",
           "ct_number": "066919"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SUTTER COAST HOSPITAL": {
         "canonical_name": "Sutter Coast Hospital",
@@ -4041,12 +4071,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "942988520",
           "ct_number": "060933"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TOIYABE INDIAN HEALTH PROJECT": {
         "canonical_name": "TOIYABE INDIAN HEALTH PROJECT, INC.",
@@ -4058,12 +4088,12 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "952538049",
           "ct_number": "014088"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GOOD NEWS RESCUE MISSION": {
         "canonical_name": "The Good News Rescue Mission",
@@ -4075,12 +4105,12 @@
         },
         "registry_status": "Exempt - Religious",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "941652602",
           "ct_number": "EX572066"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TEEN PROJECT": {
         "canonical_name": "The Teen Project, Inc.",
@@ -4092,12 +4122,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "300421837",
           "ct_number": "CT0147306"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TRANSLATIN@ COALITION": {
         "canonical_name": "The TransLatin@ Coalition",
@@ -4109,12 +4139,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "273801872",
           "ct_number": "CT0260347"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNITED AMERICAN INDIAN INVOLVEMENT": {
         "canonical_name": "United American Indian Involvement, Inc.",
@@ -4126,12 +4156,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "952917933",
           "ct_number": "018601"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VOTC": {
         "canonical_name": "VOTC, Inc.",
@@ -4143,12 +4173,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "134341279",
           "ct_number": "CT0168780"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VIA CARE COMMUNITY HEALTH CENTER": {
         "canonical_name": "Via Care Community Health Center",
@@ -4160,12 +4190,12 @@
         },
         "registry_status": "Current",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "800699156",
           "ct_number": "CT0186270"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "WELLNEST EMOTIONAL HEALTH WELLNESS": {
         "canonical_name": "Wellnest Emotional Health & Wellness",
@@ -4177,12 +4207,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "951690974",
           "ct_number": "052192"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "WILLOW GLEN CARE CENTER": {
         "canonical_name": "Willow Glen Care Center",
@@ -4194,12 +4224,12 @@
         },
         "registry_status": "Current - In Process",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "680386402",
           "ct_number": "102357"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "YOUTH RECOVERY CONNECTIONS": {
         "canonical_name": "Youth Recovery Connections",
@@ -4211,12 +4241,12 @@
         },
         "registry_status": "Current - Awaiting Reporting",
         "may_operate": true,
+        "lane_count": 1,
         "ids": {
           "ein": "873985788",
           "ct_number": "CT0284203"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HEALTH CARE SERVICES CALIFORNIA DEPARTMENT OF": {
         "canonical_name": "HEALTH CARE SERVICES, CALIFORNIA DEPARTMENT OF",
@@ -4226,11 +4256,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JE73CDQUAPA7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA": {
         "canonical_name": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
@@ -4240,11 +4270,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LDJ1MM9L56K7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DEPARTMENT OF EDUCATION CALIFORNIA": {
         "canonical_name": "DEPARTMENT OF EDUCATION CALIFORNIA",
@@ -4254,11 +4284,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HWECY7CDW9Y7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DEPARTMENT OF TRANSPORTATION CALIFORNIA": {
         "canonical_name": "DEPARTMENT OF TRANSPORTATION CALIFORNIA",
@@ -4268,11 +4298,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "UK66CLD4DX71"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LAWRENCE LIVERMORE NATIONAL SECURITY": {
         "canonical_name": "LAWRENCE LIVERMORE NATIONAL SECURITY, LLC",
@@ -4282,11 +4312,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "PM52LCJH72T9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "QTC MEDICAL SERVICES": {
         "canonical_name": "QTC MEDICAL SERVICES INC",
@@ -4296,11 +4326,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GN8YP96TMPK6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA INSTITUTE OF TECHNOLOGY": {
         "canonical_name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
@@ -4316,9 +4346,9 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ambiguous_identity": true,
         "ids": {},
-        "lane_count": 2,
         "confidence": "name-matched"
       },
       "CALIFORNIA PUBLIC UTILITIES COMMISSION": {
@@ -4329,11 +4359,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NF9VTMRZF356"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SPACE EXPLORATION TECHNOLOGIES": {
         "canonical_name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
@@ -4343,11 +4373,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "C6M7C2FLKER5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PUBLIC HEALTH CALIFORNIA DEPARTMENT OF": {
         "canonical_name": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
@@ -4357,11 +4387,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KD2JSY6LNMW7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GENERAL ATOMICS AERONAUTICAL SYSTEMS": {
         "canonical_name": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
@@ -4371,11 +4401,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZH4NVFG3Z526"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LELAND STANFORD JUNIOR UNIVERSITY": {
         "canonical_name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
@@ -4385,11 +4415,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HJD6G4D6TJY5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES COUNTY METROPOLITAN TRANSPORTATION AUTHORITY": {
         "canonical_name": "LOS ANGELES COUNTY METROPOLITAN TRANSPORTATION AUTHORITY",
@@ -4405,11 +4435,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "C2BXZ6YF52A5"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "HEALTH NET FEDERAL SERVICES": {
         "canonical_name": "HEALTH NET FEDERAL SERVICES, LLC",
@@ -4419,11 +4449,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "F7NGF6NJFB96"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AEROSPACE": {
         "canonical_name": "THE AEROSPACE CORPORATION",
@@ -4433,11 +4463,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YA8LJBJCND19"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REGENTS OF THE UNIVERSITY OF CALIFORNIA": {
         "canonical_name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
@@ -4447,11 +4477,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "PKK5TD16N4H1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STATE OF CALIFORNIA EMPLOYMENT DEVELOPMENT DEPARTMENT": {
         "canonical_name": "STATE OF CALIFORNIA EMPLOYMENT DEVELOPMENT DEPARTMENT",
@@ -4461,11 +4491,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LNCZQ5EVCG36"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES THE": {
         "canonical_name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES, THE",
@@ -4475,11 +4505,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FN7JK35SK9Y8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REGENTS OF THE UNIVERSITY OF CALIFORNIA SAN FRANCISCO THE": {
         "canonical_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
@@ -4489,11 +4519,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KMH5K9V7S518"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD": {
         "canonical_name": "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD",
@@ -4503,11 +4533,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TGFTZM2DN5Z2"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA DEPARTMENT OF CHILD SUPPORT SERVICES": {
         "canonical_name": "CALIFORNIA DEPARTMENT OF CHILD SUPPORT SERVICES",
@@ -4517,11 +4547,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FHJFZD1B8CB3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA LOS ANGELES": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
@@ -4531,11 +4561,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RN64EPNH8JC6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STATE OF CALIFORNIA ENERGY COMMISSION": {
         "canonical_name": "STATE OF CALIFORNIA ENERGY COMMISSION",
@@ -4545,11 +4575,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VKM2SF7167N9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AEVEX AEROSPACE": {
         "canonical_name": "AEVEX AEROSPACE, LLC",
@@ -4559,11 +4589,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LL8SH4DDJSK6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BAE SYSTEMS MARITIME SOLUTIONS SAN DIEGO": {
         "canonical_name": "BAE SYSTEMS MARITIME SOLUTIONS SAN DIEGO INC.",
@@ -4573,11 +4603,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZMBFGXHLGLM3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PALANTIR USG": {
         "canonical_name": "PALANTIR USG INC",
@@ -4587,11 +4617,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HNN4F9JZWDY8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BCCG A JOINT VENTURE": {
         "canonical_name": "BCCG A JOINT VENTURE",
@@ -4601,11 +4631,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VNQTYNAV9C25"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SANTA CLARA COUNTY HOUSING AUTHORITY": {
         "canonical_name": "SANTA CLARA COUNTY HOUSING AUTHORITY",
@@ -4621,11 +4651,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "DTNMMPBN5715"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "DEPARTMENT OF HOUSING COMMUNITY DEVELOPMENT": {
         "canonical_name": "DEPARTMENT OF HOUSING & COMMUNITY DEVELOPMENT",
@@ -4635,11 +4665,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "L4JQPJ7N5NT4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BOOZ ALLEN HAMILTON": {
         "canonical_name": "BOOZ ALLEN HAMILTON INC",
@@ -4649,11 +4679,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JCBMLGPE6Z71"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF LOS ANGELES THE": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF LOS ANGELES, THE",
@@ -4663,13 +4693,13 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KRYZRLL9DKU7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
-      "FISHER SAND GRAVEL": {
+      "FISHER SAND GRAVEL CO": {
         "canonical_name": "FISHER SAND & GRAVEL CO",
         "appearances": {
           "federal_recipient": {
@@ -4677,11 +4707,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XAVBDA4D13N7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT": {
         "canonical_name": "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT",
@@ -4691,11 +4721,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KGFWQGLX4RT5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATIONAL STEEL AND SHIPBUILDING": {
         "canonical_name": "NATIONAL STEEL AND SHIPBUILDING COMPANY",
@@ -4705,11 +4735,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Q85KVUK3JBF5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN FRANCISCO HOUSING AUTHORITY": {
         "canonical_name": "SAN FRANCISCO HOUSING AUTHORITY",
@@ -4719,11 +4749,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SZEGXHQ2K1W3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA DAVIS": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA, DAVIS",
@@ -4733,11 +4763,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TX2DAGQPENZ5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GENERAL ATOMICS": {
         "canonical_name": "GENERAL ATOMICS",
@@ -4747,11 +4777,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TVRYQ3N3B8H5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATIONAL CEMENT COMPANY OF CALIFORNIA": {
         "canonical_name": "NATIONAL CEMENT COMPANY OF CALIFORNIA, INC.",
@@ -4761,11 +4791,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LWQHUSL3SJT5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RIVIAN NEW HORIZON": {
         "canonical_name": "RIVIAN NEW HORIZON, LLC",
@@ -4775,11 +4805,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MSRPZB4H8NM6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AEROVIRONMENT": {
         "canonical_name": "AEROVIRONMENT, INC",
@@ -4789,11 +4819,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MWKWXVSSC518"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REGENTS OF THE UNIVERSITY OF CALIFORNIA THE": {
         "canonical_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
@@ -4803,11 +4833,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GS3YEVSS12N6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CA DEPT OF REHABILITATION": {
         "canonical_name": "CA DEPT OF REHABILITATION",
@@ -4817,11 +4847,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SZ9QWT7EMNN3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA IRVINE": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA IRVINE",
@@ -4831,11 +4861,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MJC5FCYQTPE6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES CITY OF": {
         "canonical_name": "LOS ANGELES, CITY OF",
@@ -4845,11 +4875,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TYUJZWJ8N568"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE CITY OF OAKLAND CALIFORNIA": {
         "canonical_name": "HOUSING AUTHORITY OF THE CITY OF OAKLAND, CALIFORNIA",
@@ -4865,11 +4895,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "SAK7DQJM6LA3"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "DEPARTMENT OF COMMUNITY SERVICES DEVELOPMENT CALIFORNIA": {
         "canonical_name": "DEPARTMENT OF COMMUNITY SERVICES & DEVELOPMENT CALIFORNIA",
@@ -4879,11 +4909,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "F4LGDJEVBFK4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PORT DEPARTMENT OF THE CITY OF OAKLAND": {
         "canonical_name": "PORT DEPARTMENT OF THE CITY OF OAKLAND",
@@ -4893,11 +4923,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LWYHDXYRZCU8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN DIEGO HOUSING COMMISSION": {
         "canonical_name": "SAN DIEGO HOUSING COMMISSION",
@@ -4913,11 +4943,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "GGW6JT2VNEA1"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "ANDURIL INDUSTRIES": {
         "canonical_name": "ANDURIL INDUSTRIES, INC.",
@@ -4927,13 +4957,13 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KC3CH2MSK7Q3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
-      "ARMTEC DEFENSE PRODUCTS": {
+      "ARMTEC DEFENSE PRODUCTS CO": {
         "canonical_name": "ARMTEC DEFENSE PRODUCTS CO.",
         "appearances": {
           "federal_recipient": {
@@ -4941,11 +4971,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZHMBDGNETMG3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AEROJET ROCKETDYNE OF DE": {
         "canonical_name": "AEROJET ROCKETDYNE OF DE, INC",
@@ -4955,11 +4985,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JCZYYYQ7JGF5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PATRIOT CONTRACT SERVICES": {
         "canonical_name": "PATRIOT CONTRACT SERVICES, LLC",
@@ -4969,11 +4999,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "S9L9DZ8RBNL6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF SACRAMENTO": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF SACRAMENTO",
@@ -4983,11 +5013,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YKEBAD4G37P7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NEW TECH SOLUTIONS": {
         "canonical_name": "NEW TECH SOLUTIONS, INC.",
@@ -4997,11 +5027,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XK11LLUL61A7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ORANGE COUNTY HOUSING AUTHORITY": {
         "canonical_name": "ORANGE COUNTY HOUSING AUTHORITY",
@@ -5011,11 +5041,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KHA1UFQHPM29"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN FRANCISCO BAY AREA RAPID TRANSIT DISTRICT": {
         "canonical_name": "SAN FRANCISCO BAY AREA RAPID TRANSIT DISTRICT",
@@ -5031,11 +5061,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "K7KGWMHLN1N1"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "SAN DIEGO COUNTY OF": {
         "canonical_name": "SAN DIEGO, COUNTY OF",
@@ -5045,11 +5075,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "E22MQWUANFF5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF CONTRA COSTA COUNTY": {
         "canonical_name": "HOUSING AUTHORITY OF CONTRA COSTA COUNTY",
@@ -5059,11 +5089,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HES3JS8VPXS5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RQ CONSTRUCTION": {
         "canonical_name": "RQ CONSTRUCTION, LLC",
@@ -5073,11 +5103,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NE61LN4FM1A5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ACCESS SERVICES": {
         "canonical_name": "ACCESS SERVICES",
@@ -5087,11 +5117,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LE9TFZMHBCL6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TECHFLOW": {
         "canonical_name": "TECHFLOW, INC.",
@@ -5101,13 +5131,13 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WDXQN83XB8Z8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
-      "S J AMOROSO CONSTRUCTION": {
+      "S J AMOROSO CONSTRUCTION CO": {
         "canonical_name": "S. J. AMOROSO CONSTRUCTION CO., LLC",
         "appearances": {
           "federal_recipient": {
@@ -5115,11 +5145,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KU19CNLCK2K7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NW CONSTRUCTION": {
         "canonical_name": "NW CONSTRUCTION, INC",
@@ -5129,11 +5159,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SNSLU2QXJ7Z5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CLARK CONSTRUCTION GROUP CALIFORNIA": {
         "canonical_name": "CLARK CONSTRUCTION GROUP - CALIFORNIA, LP",
@@ -5143,11 +5173,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WNJKMV59ZUL3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF SAN BERNARDINO": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF SAN BERNARDINO",
@@ -5157,13 +5187,13 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JVBBNJXNPB77"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
-      "KIEWIT INFRASTRUCTURE WEST": {
+      "KIEWIT INFRASTRUCTURE WEST CO": {
         "canonical_name": "KIEWIT INFRASTRUCTURE WEST CO.",
         "appearances": {
           "federal_recipient": {
@@ -5171,11 +5201,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "KGG6RMJ7D9P8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VIASAT": {
         "canonical_name": "VIASAT INC",
@@ -5185,11 +5215,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "L9Z1ASN3B8E7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SCIENCE APPLICATIONS INTERNATIONAL": {
         "canonical_name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
@@ -5199,11 +5229,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MMLKPW9JLX64"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "A MARK PRECIOUS METALS": {
         "canonical_name": "A-MARK PRECIOUS METALS, INC.",
@@ -5213,11 +5243,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "CJZ8EW1Q7JJ6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CORECIVIC": {
         "canonical_name": "CORECIVIC, INC.",
@@ -5227,11 +5257,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HJGMJN1JKL46"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES COUNTY OFFICE OF EDUCATION": {
         "canonical_name": "LOS ANGELES COUNTY OFFICE OF EDUCATION",
@@ -5247,11 +5277,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "F2MLEKLJM888"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "SERCO": {
         "canonical_name": "SERCO INC",
@@ -5261,11 +5291,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "DKJ1R5ABCN48"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TECOLOTE RESEARCH": {
         "canonical_name": "TECOLOTE RESEARCH, INC.",
@@ -5275,11 +5305,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "EETHKKLA2VB4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BARNARD SPENCER JOINT VENTURE": {
         "canonical_name": "BARNARD SPENCER JOINT VENTURE",
@@ -5289,11 +5319,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "US79M57E8DT9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GEO GROUP": {
         "canonical_name": "THE GEO GROUP, INC.",
@@ -5303,11 +5333,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JMLKZZ1NL2Z6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE": {
         "canonical_name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
@@ -5317,11 +5347,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MR5QC5FCAVH5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA SANTA BARBARA": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA",
@@ -5331,11 +5361,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "G9QBQDH39DF4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PARKER HANNIFIN": {
         "canonical_name": "PARKER-HANNIFIN CORPORATION",
@@ -5345,11 +5375,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "D8HJPMFFSGS3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BRIMSTONE COMMERCIAL": {
         "canonical_name": "BRIMSTONE COMMERCIAL, LLC",
@@ -5359,11 +5389,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TL61JCLYGL83"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DEPARTMENT OF AGING CALIFORNIA": {
         "canonical_name": "DEPARTMENT OF AGING CALIFORNIA",
@@ -5373,11 +5403,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RBAJKSXTPJN5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HARPER CONSTRUCTION": {
         "canonical_name": "HARPER CONSTRUCTION COMPANY, INC.",
@@ -5387,11 +5417,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GMJPZCJDUG24"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY FULLERTON": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY -FULLERTON",
@@ -5401,11 +5431,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "H5D8ZCWMBRQ9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF RIVERSIDE": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF RIVERSIDE",
@@ -5415,11 +5445,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JBYVCCGM6C95"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ALAMEDA CONTRA COSTA TRANSIT DISTRICT": {
         "canonical_name": "ALAMEDA-CONTRA COSTA TRANSIT DISTRICT",
@@ -5429,11 +5459,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FAHMAAPZ8WL1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF SANTA CRUZ": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF SANTA CRUZ",
@@ -5443,11 +5473,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MMHHPJVM37K7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF ALAMEDA COUNTY": {
         "canonical_name": "HOUSING AUTHORITY OF ALAMEDA COUNTY",
@@ -5457,11 +5487,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VL3GZ3ANH7W4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "L3HARRIS INTERSTATE ELECTRONICS": {
         "canonical_name": "L3HARRIS INTERSTATE ELECTRONICS CORPORATION",
@@ -5471,11 +5501,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JYAPS9B2MKE9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DPR RQ CONSTRUCTION": {
         "canonical_name": "DPR-RQ CONSTRUCTION, LLC",
@@ -5485,11 +5515,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ER3MFYYS2J86"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SCRIPPS RESEARCH INSTITUTE": {
         "canonical_name": "THE SCRIPPS RESEARCH INSTITUTE",
@@ -5505,11 +5535,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "PHZJFZ32NKH4"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "COVENANT AVIATION SECURITY": {
         "canonical_name": "COVENANT AVIATION SECURITY, LLC",
@@ -5519,11 +5549,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "C8GANE5B4W83"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ORANGE COUNTY TRANSPORTATION AUTHORITY": {
         "canonical_name": "ORANGE COUNTY TRANSPORTATION AUTHORITY",
@@ -5533,11 +5563,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZS8MFUR5E1N3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CONTINENTAL MARITIME OF SAN DIEGO": {
         "canonical_name": "CONTINENTAL MARITIME OF SAN DIEGO, LLC",
@@ -5547,11 +5577,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "EG1ZHLSHZW14"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF COUNTY OF SAN M": {
         "canonical_name": "HOUSING AUTHORITY OF COUNTY OF SAN M",
@@ -5561,11 +5591,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "QMPKJMKNELB8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "X BOW LAUNCH SYSTEMS": {
         "canonical_name": "X-BOW LAUNCH SYSTEMS INC",
@@ -5575,11 +5605,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MD76AJXHCMQ5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ESM ATLIS": {
         "canonical_name": "ESM ATLIS, LLC",
@@ -5589,11 +5619,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "J4YZNW7BUD47"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ANAHEIM HOUSING AUTHORITY": {
         "canonical_name": "ANAHEIM HOUSING AUTHORITY",
@@ -5603,11 +5633,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JM5SGZ6KKQM5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RAND": {
         "canonical_name": "THE RAND CORPORATION",
@@ -5623,11 +5653,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "YY46Q97AEZA8"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "CALIFORNIA MILITARY DEPARTMENT": {
         "canonical_name": "CALIFORNIA MILITARY DEPARTMENT",
@@ -5637,11 +5667,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LKD6WT217MP7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COASTAL PACIFIC FOOD DISTRIBUTORS": {
         "canonical_name": "COASTAL PACIFIC FOOD DISTRIBUTORS, INC.",
@@ -5651,11 +5681,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VKECVUW3CLT4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CEDARS SINAI MEDICAL CENTER": {
         "canonical_name": "CEDARS-SINAI MEDICAL CENTER",
@@ -5665,11 +5695,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NCSMA19DF7E6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VERTEX AEROSPACE": {
         "canonical_name": "VERTEX AEROSPACE LLC",
@@ -5679,11 +5709,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NVC1EFKKYB93"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LONG BEACH HOUSING AUTHORITY": {
         "canonical_name": "LONG BEACH HOUSING AUTHORITY",
@@ -5693,11 +5723,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "C6FGJK6V9H33"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SRI INTERNATIONAL": {
         "canonical_name": "SRI INTERNATIONAL",
@@ -5707,11 +5737,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SRG2J1WS9X63"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "KBR SERVICES": {
         "canonical_name": "KBR SERVICES, LLC",
@@ -5721,11 +5751,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YSQMHRS4HSC5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY NORTHRIDGE": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY NORTHRIDGE",
@@ -5735,11 +5765,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FNJZEE34W8V3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "METROPOLITAN WATER DISTRICT OF SOUTHERN CALIFORNIA": {
         "canonical_name": "THE METROPOLITAN WATER DISTRICT OF SOUTHERN CALIFORNIA",
@@ -5749,11 +5779,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "X4BJG1S2WPJ1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA SANTA CRUZ": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
@@ -5763,11 +5793,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VXUFPE4MCZH5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY LONG BEACH": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY LONG BEACH",
@@ -5777,11 +5807,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Y8CRUE3Z5LD7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES": {
         "canonical_name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES",
@@ -5797,11 +5827,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "DTQNBHNCNXR3"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "CALIFORNIA DEPARTMENT OF PARKS RECREATION": {
         "canonical_name": "CALIFORNIA DEPARTMENT OF PARKS & RECREATION",
@@ -5811,11 +5841,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VY39GJE3DQG1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VETERANS EZ INFO": {
         "canonical_name": "VETERANS EZ INFO INC.",
@@ -5825,11 +5855,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HH52KZGMV2Y6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNITED LAUNCH SERVICES": {
         "canonical_name": "UNITED LAUNCH SERVICES, LLC",
@@ -5839,11 +5869,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XHAMULHCL9N3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BAE SYSTEMS LAND ARMAMENTS L P": {
         "canonical_name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
@@ -5853,11 +5883,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JZCFGJQG7A57"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BLUE TECH": {
         "canonical_name": "BLUE TECH INC.",
@@ -5867,11 +5897,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MDC5LDZKQAM4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA OFFICE OF TRAFFIC SAFETY": {
         "canonical_name": "CALIFORNIA OFFICE OF TRAFFIC SAFETY",
@@ -5881,11 +5911,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XCA4E3XL2KY7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PACIFIC COAST PRODUCERS": {
         "canonical_name": "PACIFIC COAST PRODUCERS",
@@ -5895,11 +5925,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RNUGGJVG1RK8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "METROPOLITAN TRANSIT SYSTEM": {
         "canonical_name": "METROPOLITAN TRANSIT SYSTEM",
@@ -5909,11 +5939,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SBC3GLM5X8Z5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PARAGON SYSTEMS": {
         "canonical_name": "PARAGON SYSTEMS INC",
@@ -5923,11 +5953,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RG1VD6RNMXB5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ENVIRONMENTAL QUALITY MANAGEMENT": {
         "canonical_name": "ENVIRONMENTAL QUALITY MANAGEMENT, INC",
@@ -5937,11 +5967,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "DBD6KDKXWN65"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "KRATOS UNMANNED AERIAL SYSTEMS": {
         "canonical_name": "KRATOS UNMANNED AERIAL SYSTEMS, INC",
@@ -5951,11 +5981,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GURMFDFLENX4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STOCKTON PORT DISTRICT": {
         "canonical_name": "STOCKTON PORT DISTRICT",
@@ -5965,11 +5995,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SL2CBWRVW5B5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DYNAMIC SYSTEMS": {
         "canonical_name": "DYNAMIC SYSTEMS INC",
@@ -5979,11 +6009,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Z78DJNKYJ2K5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES COUNTY DEVELOPMENT AUTHORITY LACDA": {
         "canonical_name": "LOS ANGELES COUNTY DEVELOPMENT AUTHORITY LACDA",
@@ -5993,11 +6023,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "E5ZNHHZJ8GX9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF COUNTY OF MONTE": {
         "canonical_name": "HOUSING AUTHORITY OF COUNTY OF MONTE",
@@ -6007,11 +6037,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "L47YWN9ZZD85"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BLUE ORIGIN": {
         "canonical_name": "BLUE ORIGIN, LLC",
@@ -6021,11 +6051,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SFKWJAYSTL95"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "VOLUNTEERS OF AMERICA OF LOS ANGELES": {
         "canonical_name": "VOLUNTEERS OF AMERICA OF LOS ANGELES",
@@ -6035,11 +6065,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "DJM3CNDVQ2J8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY SACRAMENTO": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY SACRAMENTO",
@@ -6049,11 +6079,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "K8JLGZSDVS89"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NEIGHBORHOOD HOUSE ASSOCIATION": {
         "canonical_name": "NEIGHBORHOOD HOUSE ASSOCIATION",
@@ -6063,11 +6093,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "E7R7JGKJKRH3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HUNTINGTON INGALLS": {
         "canonical_name": "HUNTINGTON INGALLS INC",
@@ -6077,11 +6107,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WMXDDH6HJNA5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "MERCURY MISSION SYSTEMS": {
         "canonical_name": "MERCURY MISSION SYSTEMS LLC",
@@ -6091,11 +6121,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GELNG3K35FA5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "GOVERNOR OFFICE OF SERVICE COMMUNITY ENGAGEMENT": {
         "canonical_name": "GOVERNOR OFFICE OF SERVICE & COMMUNITY ENGAGEMENT",
@@ -6105,11 +6135,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "QFC8Z448Z846"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "DEPARTMENT OF AIRPORTS OF THE CITY OF LOS ANGELES": {
         "canonical_name": "DEPARTMENT OF AIRPORTS OF THE CITY OF LOS ANGELES",
@@ -6119,11 +6149,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MYREWLVR75F7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CITY OF SAN BUENAVENTURA": {
         "canonical_name": "CITY OF SAN BUENAVENTURA",
@@ -6133,11 +6163,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "MNM1UJ1DMCX8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HII FLEET SUPPORT GROUP": {
         "canonical_name": "HII FLEET SUPPORT GROUP LLC",
@@ -6147,11 +6177,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VGCPT3NSM831"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF MARIN": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF MARIN",
@@ -6161,13 +6191,13 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "CN9CRPPBPLJ3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
-      "R A BURCH CONSTRUCTION": {
+      "R A BURCH CONSTRUCTION CO": {
         "canonical_name": "R.A. BURCH CONSTRUCTION CO., INC.",
         "appearances": {
           "federal_recipient": {
@@ -6175,11 +6205,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "PBCXB1D4K1C9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY FRESNO": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY, FRESNO",
@@ -6189,11 +6219,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JLQBUB5SG3L5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE COUNTY OF SANTA BARBARA": {
         "canonical_name": "HOUSING AUTHORITY OF THE COUNTY OF SANTA BARBARA",
@@ -6203,11 +6233,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "EQMNY4KUHHY1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE CITY OF FRESNO": {
         "canonical_name": "HOUSING AUTHORITY OF THE CITY OF FRESNO",
@@ -6217,11 +6247,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SVT8JXSLA7J7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY LOS ANGELES": {
         "canonical_name": "CALIFORNIA STATE UNIVERSITY LOS ANGELES",
@@ -6231,11 +6261,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JWL6V4CWPQJ1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION": {
         "canonical_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
@@ -6245,11 +6275,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FNZGNWHTXVL4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN DIEGO STATE UNIVERSITY": {
         "canonical_name": "SAN DIEGO STATE UNIVERSITY",
@@ -6259,11 +6289,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RN4HGABGRWV7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "BECKMAN RESEARCH INSTITUTE OF THE CITY OF HOPE": {
         "canonical_name": "BECKMAN RESEARCH INSTITUTE OF THE CITY OF HOPE",
@@ -6273,11 +6303,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NPH1VN32EWN5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HIGHWAY PATROL CALIFORNIA": {
         "canonical_name": "HIGHWAY PATROL, CALIFORNIA",
@@ -6287,11 +6317,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "J3HPGZWKVKZ3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AMGEN USA": {
         "canonical_name": "AMGEN USA INC",
@@ -6301,11 +6331,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XPGNQMXHP493"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "TERRESTRIS": {
         "canonical_name": "TERRESTRIS, LLC",
@@ -6315,11 +6345,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RM6LFF8N8KN3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "AIRCRAFT READINESS ALLIANCE II": {
         "canonical_name": "AIRCRAFT READINESS ALLIANCE II, LLC",
@@ -6329,11 +6359,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YML5PYS652E6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN DIEGO ASSOCIATION OF GOVERNMENTS": {
         "canonical_name": "SAN DIEGO ASSOCIATION OF GOVERNMENTS",
@@ -6349,11 +6379,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 2,
         "ids": {
           "uei": "CF3XG46HAWE8"
         },
-        "lane_count": 2,
-        "confidence": "identifier-anchored"
+        "confidence": "identifier-linked"
       },
       "CALIFORNIA DEPARTMENT OF FISH WILDLIFE": {
         "canonical_name": "CALIFORNIA DEPARTMENT OF FISH & WILDLIFE",
@@ -6363,11 +6393,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "UVKGJ6U1SEG3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "REDWOOD COAST ENERGY AUTHORITY": {
         "canonical_name": "REDWOOD COAST ENERGY AUTHORITY",
@@ -6377,11 +6407,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Y5CLGKM82VL1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FOOD AGRICULTURE CALIFORNIA DEPARTMENT OF": {
         "canonical_name": "FOOD & AGRICULTURE, CALIFORNIA DEPARTMENT OF",
@@ -6391,11 +6421,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "H8ANDD5WXME7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN JOAQUIN COUNTY": {
         "canonical_name": "SAN JOAQUIN COUNTY",
@@ -6405,11 +6435,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WS5DFE7STJZ1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SOUTHERN CALIFORNIA REGIONAL RAIL AUTHORITY": {
         "canonical_name": "SOUTHERN CALIFORNIA REGIONAL RAIL AUTHORITY",
@@ -6419,11 +6449,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "U6L4K3MKKGB6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CA STATE POLYTECHNIC UNIVERSITY": {
         "canonical_name": "CA STATE POLYTECHNIC UNIVERSITY",
@@ -6433,11 +6463,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WFY5U8JWNDK1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ES3 PRIME LOGISTICS GROUP": {
         "canonical_name": "ES3 PRIME LOGISTICS GROUP INC",
@@ -6447,11 +6477,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RRYLZMU7LMN5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES HOMELESS SERVICES AUTHORITY": {
         "canonical_name": "LOS ANGELES HOMELESS SERVICES AUTHORITY",
@@ -6461,11 +6491,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HAW8D5MS9JE4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PERATON": {
         "canonical_name": "PERATON INC.",
@@ -6475,11 +6505,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZBPQEJVECCT4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "RIVERSIDE COUNTY OFFICE OF EDUCATION": {
         "canonical_name": "RIVERSIDE COUNTY OFFICE OF EDUCATION",
@@ -6489,11 +6519,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TMG9HC9BBG81"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SANTA CLARA VALLEY TRANSPORTATION AUTHORITY": {
         "canonical_name": "SANTA CLARA VALLEY TRANSPORTATION AUTHORITY",
@@ -6503,11 +6533,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "EAZVJZNJBS22"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF ORANGE": {
         "canonical_name": "COUNTY OF ORANGE",
@@ -6517,11 +6547,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "TNYKC5J8PZK7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ALLIANT TECHSYSTEMS OPERATIONS": {
         "canonical_name": "ALLIANT TECHSYSTEMS OPERATIONS LLC",
@@ -6531,11 +6561,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HBCXZGZJ83M4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN FRANCISCO STATE UNIVERSITY": {
         "canonical_name": "SAN FRANCISCO STATE UNIVERSITY",
@@ -6545,11 +6575,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "F4SLJ5WF59F6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA MERCED": {
         "canonical_name": "UNIVERSITY OF CALIFORNIA, MERCED",
@@ -6559,11 +6589,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "FFM7VPAG8P92"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CUBIC DEFENSE APPLICATIONS": {
         "canonical_name": "CUBIC DEFENSE APPLICATIONS, INC.",
@@ -6573,11 +6603,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "N7NUHPAKNME8"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "ASTROTECH SPACE OPERATIONS": {
         "canonical_name": "ASTROTECH SPACE OPERATIONS, LLC",
@@ -6587,11 +6617,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GFCNFVBDGM85"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "L3 TECHNOLOGIES": {
         "canonical_name": "L3 TECHNOLOGIES, INC.",
@@ -6601,11 +6631,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JXBPKGYKBXK6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STUTZ PACKING": {
         "canonical_name": "STUTZ PACKING COMPANY",
@@ -6615,11 +6645,11 @@
             "note": "federal awards performed in CA (FY2025)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "LQ6WU15EKEN1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "STATE OF CALIFORNIA": {
         "canonical_name": "State of California",
@@ -6631,11 +6661,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RN15SP9CPJE6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY OF CALIFORNIA": {
         "canonical_name": "University of California",
@@ -6647,11 +6677,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "PKK5TD16N4H1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "JET PROPULSION LABORATORY": {
         "canonical_name": "Jet Propulsion Laboratory",
@@ -6663,11 +6693,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YC1YP79BFD19"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES UNIFIED SCHOOL DISTRICT": {
         "canonical_name": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
@@ -6679,11 +6709,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "HS1GUKUJU9E4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATE UNIVERSITY": {
         "canonical_name": "California State University",
@@ -6695,11 +6725,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JW7YN4NDAHC1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF ORANGE CALIFORNIA": {
         "canonical_name": "COUNTY OF ORANGE, CALIFORNIA",
@@ -6711,11 +6741,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Z27AVTCCKHU3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA AFFORDABLE HOUSING INITIATIVES": {
         "canonical_name": "California Affordable Housing Initiatives, Inc.",
@@ -6727,11 +6757,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "M6RKJSHDNHE1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CITY OF LOS ANGELES": {
         "canonical_name": "City of Los Angeles",
@@ -6743,11 +6773,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "EW7CR9MZZ9M5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES COUNTY DEVELOPMENT AUTHORITY": {
         "canonical_name": "Los Angeles County Development Authority",
@@ -6759,11 +6789,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "E5ZNHHZJ8GX9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF ALAMEDA": {
         "canonical_name": "County of Alameda",
@@ -6775,11 +6805,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "ZK45GWUKWMH2"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SACRAMENTO HOUSING AND REDEVELOPMENT AGENCY": {
         "canonical_name": "Sacramento Housing and Redevelopment Agency",
@@ -6791,11 +6821,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "S5MLRXMKDJ67"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "HOUSING AUTHORITY OF THE CITY AND COUNTY OF SAN FRANCISCO": {
         "canonical_name": "Housing Authority of the City and County of San Francisco",
@@ -6807,11 +6837,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "SZEGXHQ2K1W3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PUBLIC HEALTH FOUNDATION ENTERPRISES": {
         "canonical_name": "PUBLIC HEALTH FOUNDATION ENTERPRISES, INC. DBA HELUNA HEALTH",
@@ -6823,11 +6853,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "L4EEW9SQX2F6"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF KERN": {
         "canonical_name": "County of Kern",
@@ -6839,11 +6869,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WAHHPJUUDP16"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "FRESNO UNIFIED SCHOOL DISTRICT": {
         "canonical_name": "Fresno Unified School District",
@@ -6855,11 +6885,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NDC1WNNTFU78"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COMMUNITY MEMORIAL HEALTH SYSTEM": {
         "canonical_name": "Community Memorial Health System",
@@ -6871,11 +6901,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "XGPNUKYQMJH9"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CITY OF SAN DIEGO": {
         "canonical_name": "City of San Diego",
@@ -6887,11 +6917,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "L4FACR9F6GK7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN DIEGO UNIFIED SCHOOL DISTRICT": {
         "canonical_name": "San Diego Unified School District",
@@ -6903,11 +6933,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "WNTKJBASM194"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CITY OF LONG BEACH": {
         "canonical_name": "CITY OF LONG BEACH",
@@ -6919,11 +6949,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "RXK8HCFVLS49"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALHFA HOMEOWNER RELIEF": {
         "canonical_name": "CalHFA HOMEOWNER RELIEF CORPORATION",
@@ -6935,11 +6965,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GM5HSAC69XE5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN FRANCISCO MUNICIPAL TRANSPORTATION AGENCY": {
         "canonical_name": "San Francisco Municipal Transportation Agency",
@@ -6951,11 +6981,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "GSL6KW4Z5UE1"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "NATIONAL UNIVERSITY": {
         "canonical_name": "National University",
@@ -6967,11 +6997,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "VERGS9RU9J56"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "WESTERN UNIVERSITY OF HEALTH SCIENCES": {
         "canonical_name": "Western University of Health Sciences",
@@ -6983,11 +7013,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NFFLPSHMNJN4"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LONG BEACH UNIFIED SCHOOL DISTRICT": {
         "canonical_name": "Long Beach Unified School District",
@@ -6999,11 +7029,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "E14LA7XZTWK5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "UNIVERSITY CORPORATION FOR ATMOSPHERIC RESEARCH": {
         "canonical_name": "University Corporation for Atmospheric Research",
@@ -7015,11 +7045,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "YEZEE8W5JKA3"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "CALIFORNIA STATEWIDE AUTOMATED WELFARE SYSTEM CONSORTIUM JPA": {
         "canonical_name": "CALIFORNIA STATEWIDE AUTOMATED WELFARE SYSTEM CONSORTIUM JPA",
@@ -7031,11 +7061,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "U9BLQAJ36TW5"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "SAN BERNARDINO CITY UNIFIED SCHOOL DISTRICT": {
         "canonical_name": "San Bernardino City Unified School District",
@@ -7047,11 +7077,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "N1YLB5HLKJ33"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "PEPPERDINE UNIVERSITY": {
         "canonical_name": "Pepperdine University",
@@ -7063,11 +7093,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "NHBMUW819YE7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "LOS ANGELES COMMUNITY COLLEGE DISTRICT": {
         "canonical_name": "LOS ANGELES COMMUNITY COLLEGE DISTRICT",
@@ -7079,11 +7109,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "Y9SWL6BWDM85"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       },
       "COUNTY OF STANISLAUS": {
         "canonical_name": "County of Stanislaus",
@@ -7095,11 +7125,11 @@
             "note": "audited federal spending (AY2024)"
           }
         },
+        "lane_count": 1,
         "ids": {
           "uei": "JVUBT686JGX7"
         },
-        "lane_count": 1,
-        "confidence": "identifier-anchored"
+        "confidence": "single-source"
       }
     }
   }
