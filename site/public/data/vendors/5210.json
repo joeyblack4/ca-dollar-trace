@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T163556Z",
-  "ingested_at": "2026-07-16T16:35:56.885730+00:00",
+  "as_of": "2026-07-16T165202Z",
+  "ingested_at": "2026-07-16T16:52:02.628590+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -24,6 +24,7 @@
         "vendor_count": 457,
         "vendor_total_usd": 345197135.41,
         "confidential_usd": 263876.03,
+        "public_sector_usd": 167591483.35,
         "accounting_dates": [
           "2025-07-09",
           "2026-03-30"
@@ -34,127 +35,152 @@
           {
             "name": "CONTRA COSTA COUNTY",
             "usd": 39423399.55,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF MENDOCINO",
             "usd": 13290030.48,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF MERCED",
             "usd": 11381432.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF LOS ANGELES",
             "usd": 10929682.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY & COUNTY OF SAN FRANCISCO",
             "usd": 9574788.85,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "IMPACT JUSTICE",
             "usd": 8657704.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BUTTE COUNTY",
             "usd": 8215926.3,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF COLUSA SHERIFFS OFC",
             "usd": 7525386.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF SAN MATEO",
             "usd": 7203951.54,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "AMADOR COUNTY",
             "usd": 7006444.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF TEHAMA",
             "usd": 6864525.68,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF FRESNO",
             "usd": 5912594.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PLACER COUNTY FACILITIES MGMT",
             "usd": 5141996.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "YUBA COUNTY",
             "usd": 5067692.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF LA SHERIFF DEPT",
             "usd": 4887689.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF SACRAMENTO",
             "usd": 4877269.72,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF SAN DIEGO",
             "usd": 4578301.35,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SAN JOAQUIN COUNTY",
             "usd": 4511918.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF LOS ANGELES",
             "usd": 4393156.3,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF VENTURA",
             "usd": 4347584.54,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SIERRA HLTH FDN-CENTER FOR",
             "usd": 3805260.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAFE PASSAGES",
             "usd": 3788220.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SANTA MONICA",
             "usd": 3682097.25,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF PLACER",
             "usd": 3657316.01,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "LOS ANGELES COUNTY",
             "usd": 3588027.55,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       }

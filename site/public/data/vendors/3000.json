@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T163556Z",
-  "ingested_at": "2026-07-16T16:35:56.885730+00:00",
+  "as_of": "2026-07-16T165202Z",
+  "ingested_at": "2026-07-16T16:52:02.628590+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -24,6 +24,7 @@
         "vendor_count": 4301,
         "vendor_total_usd": 1473643905.0,
         "confidential_usd": 4721800.39,
+        "public_sector_usd": 311865023.43,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-31"
@@ -34,127 +35,152 @@
           {
             "name": "AMENTUM SERVICES INC",
             "usd": 87319438.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK",
             "usd": 63046548.39,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOGISTIC SPECIALTIES INC",
             "usd": 48031482.02,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PJ HELICOPTERS INC",
             "usd": 44898834.74,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES COUNTY FIRE DEPT",
             "usd": 43736288.42,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 41956717.04,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF KERN",
             "usd": 36806794.05,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF CORRECTIONS & REHAB",
             "usd": 32260458.59,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF LOS ANGELES",
             "usd": 29696614.01,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF VENTURA",
             "usd": 27231822.29,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF SANTA BARBARA",
             "usd": 23161170.21,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PERIMETER SOLUTIONS LP",
             "usd": 21563892.33,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "OFFICE OF EMERGENCY SERVICES",
             "usd": 20994947.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AIR METHODS CORPORATION",
             "usd": 20132601.81,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BILLINGS FLYING SERVICE LLC",
             "usd": 19310009.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CONSERVATION CORPS",
             "usd": 18463441.24,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ORANGE COUNTY FIRE AUTHORITY",
             "usd": 17159082.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF MARIN",
             "usd": 17031491.1,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "USDA FOREST SERVICE",
             "usd": 15939924.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WEX BANK",
             "usd": 15824124.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RADIOMOBILE INC",
             "usd": 13337081.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HELIMAX AVIATION INC",
             "usd": 12927086.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WATSONVILLE FLEET GROUP",
             "usd": 12885832.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALLSTAR FIRE EQUIPMENT INC",
             "usd": 12448793.45,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COULSON AVIATION USA INC",
             "usd": 11708892.44,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -166,6 +192,7 @@
         "vendor_count": 727,
         "vendor_total_usd": 552462329.6,
         "confidential_usd": 250818.61,
+        "public_sector_usd": 79683074.52,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -176,127 +203,152 @@
           {
             "name": "CALSTART INC",
             "usd": 61804517.31,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE AIR RESOURCES BOARD",
             "usd": 46125366.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SUNRUN INC",
             "usd": 26508973.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COHEN VENTURES INC",
             "usd": 20272953.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CENTER FOR SUSTAINABLE ENERGY",
             "usd": 19194607.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF BURBANK",
             "usd": 13095180.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TRC ENGINEERS INC",
             "usd": 10876588.63,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CLEAN ENERGY FUND",
             "usd": 10182511.83,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LAWRENCE BERKELEY NATL LAB",
             "usd": 9798406.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "IEP CAMP PENDLETON ENERGY",
             "usd": 8492318.11,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TESLA INC",
             "usd": 7189923.69,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GILLIG LLC",
             "usd": 6266787.74,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELECTROCHEMISTRY FOUNDRY INC",
             "usd": 5758762.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FIRSTELEMENT FUEL INC",
             "usd": 5522587.97,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TULARE CNTY OFC OF EDUCATION",
             "usd": 5150886.24,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ZIMENO INC",
             "usd": 5108826.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELECTRIC POWER RESRCH INST INC",
             "usd": 4458387.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ASPEN ENVIRONMENTAL GROUP",
             "usd": 4417312.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FORM ENERGY INC",
             "usd": 4323665.42,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CHARGE BLISS INC",
             "usd": 4254091.47,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RINCON BAND OF LUISENO INDIANS",
             "usd": 4136104.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NORESCO LLC",
             "usd": 4087942.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CADEMO CORPORATION",
             "usd": 4000000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INDIAN ENERGY LLC",
             "usd": 3897260.64,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF THE UNIV OF CA SD",
             "usd": 3868537.22,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -308,6 +360,7 @@
         "vendor_count": 2024,
         "vendor_total_usd": 505768780.72,
         "confidential_usd": 1803342.91,
+        "public_sector_usd": 239664505.77,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-31"
@@ -318,127 +371,152 @@
           {
             "name": "COUNTY OF LOS ANGELES",
             "usd": 20470586.08,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "US BANK",
             "usd": 18922370.14,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SAN DIEGO",
             "usd": 14643926.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SUSTAINABLE GROUP INC",
             "usd": 12379286.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 10050663.97,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF CARSON",
             "usd": 7660709.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF PERRIS",
             "usd": 6800000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MONTEREY PENINSULA ENGINEERING",
             "usd": 6789256.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF SANTA CLARA",
             "usd": 6483692.63,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF INDIO",
             "usd": 6152206.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF WEST SACRAMENTO",
             "usd": 6048318.33,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF SACRAMENTO",
             "usd": 5977518.94,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "AXON ENTERPRISE INC",
             "usd": 5809097.47,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF WATSONVILLE",
             "usd": 5746827.23,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF SAN BERNARDINO",
             "usd": 5282543.32,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF BELL GARDENS",
             "usd": 5200000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SAN DIEGO UNIFIED PORT DIST",
             "usd": 5031447.29,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "US DOI BUREAU OF LAND MGMT",
             "usd": 4641733.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF AGOURA HILLS",
             "usd": 4603033.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "USDA FOREST SERVICE",
             "usd": 4590131.14,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NEWTON CONSTRUCTION",
             "usd": 4582312.26,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TOWN OF APPLE VALLEY",
             "usd": 4572234.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PACIFIC GAS & ELECTRIC CO",
             "usd": 4357601.98,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CONSERVATION CORPS",
             "usd": 4287820.4,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF RIVERSIDE",
             "usd": 4271347.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -450,6 +528,7 @@
         "vendor_count": 389,
         "vendor_total_usd": 368899710.08,
         "confidential_usd": 61677.35,
+        "public_sector_usd": 263720934.15,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-27"
@@ -460,127 +539,152 @@
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 187828580.81,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MT SHASTA TITLE & ESCROW CO",
             "usd": 7579443.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PRESIDIO TRUST",
             "usd": 5775968.42,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LAO FAMILY COMM DEVELOPMENT",
             "usd": 5678119.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF UNIV OF CA DAVIS",
             "usd": 4821831.9,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF SAN DIEGO",
             "usd": 4713501.95,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "REGENTS OF THE UNIV OF CA SD",
             "usd": 4447761.65,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "REUBEN H FLEET SCIENCE CENTER",
             "usd": 4170992.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF MERCED",
             "usd": 4083101.61,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CHICAGO TITLE COMPANY",
             "usd": 3844352.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FIDELITY NATIONAL TITLE INS CO",
             "usd": 3800000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF RANCHO CUCAMONGA",
             "usd": 3200000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF UKIAH",
             "usd": 3126206.46,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF SANTA ANA",
             "usd": 3115955.13,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "THE TRUST FOR PUBLIC LAND",
             "usd": 2722898.79,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BREED STREET SHUL PROJECT INC",
             "usd": 2671000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN MATEO COUNTY HARBOR DIST",
             "usd": 2660624.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF OAKLAND",
             "usd": 2544334.56,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY & COUNTY OF SAN FRANCISCO",
             "usd": 2472687.58,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "INTER-COUNTY TITLE CO",
             "usd": 2400087.64,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MUSEUM OF LATIN AMERICAN ART",
             "usd": 2383741.05,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF LOS ALAMITOS",
             "usd": 2367517.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "NATL AERONAUTICS & SPACE ADMIN",
             "usd": 2222239.4,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE AIR RESOURCES BOARD",
             "usd": 2157494.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MOUNTAINS REC & CONSER AUTH",
             "usd": 2069130.78,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -592,6 +696,7 @@
         "vendor_count": 2175,
         "vendor_total_usd": 233535699.34,
         "confidential_usd": 3492982.14,
+        "public_sector_usd": 34530994.27,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-31"
@@ -602,127 +707,152 @@
           {
             "name": "YUBA COUNTY WATER AGENCY",
             "usd": 13110321.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MCMILLEN INC",
             "usd": 8942959.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 8827903.56,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CALIFORNIA TROUT",
             "usd": 6192746.47,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE NATURE CONSERVANCY",
             "usd": 5719783.78,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WINNER CHEVROLET INC",
             "usd": 5660223.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EARTH ISLAND INSTITUTE",
             "usd": 5381831.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "YUROK TRIBE",
             "usd": 5054083.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COASTAL SAN LUIS RCD",
             "usd": 4996718.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA WATERFOWL ASSN",
             "usd": 4832498.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WEX BANK",
             "usd": 4384494.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TROUT UNLIMITED INC",
             "usd": 4240140.1,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 3993013.17,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "RA OUTDOORS LLC",
             "usd": 3855319.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 3822047.42,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "AERIAL INFO SYSTEMS INC",
             "usd": 3652489.58,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 3492982.14,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "NATIONAL FISH & WILDLIFE FDN",
             "usd": 3195277.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC GAS & ELECTRIC CO",
             "usd": 3012407.44,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN MATEO RESOURCE",
             "usd": 2938495.09,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UC REGENTS SANTA CRUZ",
             "usd": 2932277.07,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PACIFIC STATES MARINE",
             "usd": 2858431.65,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC COAST FISH WILDLIFE &",
             "usd": 2738225.65,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SISKYOU COUNTY FARM BUREAU",
             "usd": 2454169.82,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INDIAN CULTURAL ORGANIZATION",
             "usd": 2428141.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -734,6 +864,7 @@
         "vendor_count": 355,
         "vendor_total_usd": 120215120.87,
         "confidential_usd": 145973.4,
+        "public_sector_usd": 34819489.13,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -744,127 +875,152 @@
           {
             "name": "CITY OF SAN BUENAVENTURA",
             "usd": 10878874.24,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MONTEREY PENINSULA REG PARK",
             "usd": 9441147.91,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DUCKS UNLIMITED INC",
             "usd": 8055460.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS CERRITOS WETLANDS AUTHORITY",
             "usd": 6911319.6,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF BERKELEY",
             "usd": 5965180.98,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "BIG SUR LAND TRUST",
             "usd": 4031120.18,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAVE THE REDWOODS LEAGUE",
             "usd": 3091300.59,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF SAN BERNARDINO",
             "usd": 2868207.7,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF SANTA ANA",
             "usd": 2790845.95,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "RIVERSIDE COUNTY REGIONAL PARK",
             "usd": 2687927.28,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HUMBOLDT CO RESOURCE CONS DIST",
             "usd": 2540979.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALAMEDA CNTY FLOOD CONTROL &",
             "usd": 2499134.7,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA TROUT",
             "usd": 2399789.29,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COASTSIDE LAND TRUST",
             "usd": 2135652.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SANTA MONICA BAY RESTN FDN",
             "usd": 2047727.16,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RESOURCE CONSERVATION DIST OF",
             "usd": 2021791.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA INVASIVE PLANT CNCL",
             "usd": 1997670.52,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ASSOC OF BAY AREA GOVTS",
             "usd": 1996256.09,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN MATEO COUNTY FLOOD & SEA",
             "usd": 1947260.35,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF HUMBOLDT",
             "usd": 1815790.69,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "YUROK TRIBE",
             "usd": 1348317.24,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF WILLITS",
             "usd": 1293020.46,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CALIFORNIA WILDLIFE FOUNDATION",
             "usd": 1214715.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF SAN DIEGO",
             "usd": 1176779.74,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PALOS VERDES PENINSULA LAND",
             "usd": 1123330.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -876,6 +1032,7 @@
         "vendor_count": 197,
         "vendor_total_usd": 113106639.54,
         "confidential_usd": 39365.32,
+        "public_sector_usd": 12328974.17,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -886,127 +1043,152 @@
           {
             "name": "POINT BLUE CONSERVATION SCI",
             "usd": 14568323.51,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAVE THE REDWOODS LEAGUE",
             "usd": 5814996.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATL WILDLIFE FEDERATION",
             "usd": 5782733.05,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DUCKS UNLIMITED INC",
             "usd": 5397287.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA ASSN OF RSC CONSERVE DISTS",
             "usd": 4940846.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA WATERFOWL ASSN",
             "usd": 4179137.1,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RESOURCE CONSERVATION DIST OF",
             "usd": 3657030.91,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RIVER PARTNERS",
             "usd": 3404480.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE NATURE CONSERVANCY",
             "usd": 3062406.02,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BIG SUR LAND TRUST",
             "usd": 2488024.69,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF NEVADA",
             "usd": 2149812.52,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MIDPENINSULA REGIONAL",
             "usd": 2135674.67,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "40 ACRE CONSERVATION LEAGUE",
             "usd": 2041072.22,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF FISH & WILDLIFE",
             "usd": 2032009.2,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "KLAMATH RIVER RENEWAL CORP",
             "usd": 1704500.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIONAL FOREST FOUNDATION",
             "usd": 1701997.09,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TROUT UNLIMITED INC",
             "usd": 1576975.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TROUT UNLIMITED SOUTH CST 923",
             "usd": 1538972.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EARTH ISLAND INSTITUTE",
             "usd": 1452064.77,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SALMONID RESTORATION",
             "usd": 1431670.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SANTA ROSA",
             "usd": 1336739.72,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "LAND TRUST OF SANTA CRUZ CNTY",
             "usd": 1307551.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIF COUNCIL OF LAND TRUSTS",
             "usd": 1283406.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SOIL BORN FARM",
             "usd": 1150674.64,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TRUCKEE RIVER WATERSHED CNCL",
             "usd": 1142678.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -1018,6 +1200,7 @@
         "vendor_count": 331,
         "vendor_total_usd": 110710874.53,
         "confidential_usd": 48352.77,
+        "public_sector_usd": 8163916.81,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -1028,127 +1211,152 @@
           {
             "name": "DRILTEK INC",
             "usd": 30731518.17,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ATLAS TECHNICAL CONSULTANTS",
             "usd": 24303193.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SIERRA NEVADA CONSERVANCY",
             "usd": 11695472.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 4450556.15,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ALLIED NETWORK SOLUTIONS INC",
             "usd": 3460073.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WATERSHED RES & TRAINING CNTR",
             "usd": 2720575.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE COASTAL CONSERVANCY",
             "usd": 2246288.79,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 2157368.13,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "NAPA COUNTY RESC CONSERV DIST",
             "usd": 1693200.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KINEMETRICS INC",
             "usd": 1578312.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HUMBOLDT COUNTY",
             "usd": 1531305.93,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SEISMIC EXCHANGE INC",
             "usd": 1499996.02,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INLAND EMPIRE RES CONS DIST",
             "usd": 1432613.52,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MOUNTAINS REC & CONSER AUTH",
             "usd": 1241604.09,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CASTLE & COOKE CALIFORNIA INC",
             "usd": 1227755.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GENERAL PROD SVC OF CALIF INC",
             "usd": 1169785.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KARUK TRIBE",
             "usd": 1148327.69,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ETHAN CONRAD",
             "usd": 887305.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KILROY REALTY LP",
             "usd": 833785.12,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INLAND EMPIRE COMMUNITY FNDTN",
             "usd": 792000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MERCED COUNTY",
             "usd": 772402.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RCD OF GREATER SAN DIEGO COUNTY",
             "usd": 727939.56,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MRS ENVIRONMENTAL INC",
             "usd": 721348.6,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PIXLEY IRRIGATION DISTRICT GSA",
             "usd": 640788.15,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MADERA COUNTY",
             "usd": 637141.03,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -1160,6 +1368,7 @@
         "vendor_count": 787,
         "vendor_total_usd": 44242138.59,
         "confidential_usd": 342180.23,
+        "public_sector_usd": 7536577.63,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -1170,127 +1379,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 6316827.19,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "US BANK",
             "usd": 3209247.66,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ANTHEM BLUE CROSS LIFE &",
             "usd": 2939708.61,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES CONSERVATION CORPS",
             "usd": 1392508.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SACRAMENTO REGIONAL CONSRV CRP",
             "usd": 1391647.28,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONSERVATION CORPS NORTH BAY",
             "usd": 1380258.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WEX BANK",
             "usd": 1061908.58,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONSERVATION CORPS OF LONG",
             "usd": 983178.56,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GREEN RAMP GROUP LLC",
             "usd": 951414.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WASHOE TRIBE OF NEVADA & CALIF",
             "usd": 867584.4,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "T&T PUBLIC RELATIONS INC",
             "usd": 855000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN JOAQUIN COUNTY OFC OF EDUC",
             "usd": 784495.87,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ORANGE CO CONSERVATION CORPS",
             "usd": 783779.81,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SYSCO SACRAMENTO INC",
             "usd": 783079.67,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TABORDA SOLUTIONS INC",
             "usd": 711010.15,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC GAS & ELECTRIC CO",
             "usd": 663551.83,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SEQUOIA COMMUNITY CORPS",
             "usd": 634860.65,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TUOLUMNE BAND OF ME-WUK INDIAN",
             "usd": 572731.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 545486.23,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CIVICORPS",
             "usd": 502786.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "24TH & R STREET PARTNERSHIP",
             "usd": 446958.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US FOODS INC",
             "usd": 443367.11,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "URBAN CORPS SAN DIEGO COUNTY",
             "usd": 421681.39,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK CORP PAYMENT SYSTEM",
             "usd": 391460.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TEN2ELEVEN BUS SOLUTIONS LLC",
             "usd": 365725.86,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -1302,6 +1536,7 @@
         "vendor_count": 147,
         "vendor_total_usd": 27721290.44,
         "confidential_usd": 20359.92,
+        "public_sector_usd": 3068268.45,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-26"
@@ -1312,127 +1547,152 @@
           {
             "name": "UPPER MOKELUMNE RIVER",
             "usd": 2792676.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAVE THE REDWOODS LEAGUE",
             "usd": 2190447.66,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PARADISE REC & PARK DIST",
             "usd": 1400000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF TULARE",
             "usd": 1097901.66,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "FALL RIVER RCD",
             "usd": 895125.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE GREAT BASIN INSTITUTE",
             "usd": 892291.57,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMERICAN INDIAN COUNCIL OF",
             "usd": 733342.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US FOREST SERVICE",
             "usd": 730840.79,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FEATHER RIVER RESOURCE",
             "usd": 729849.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "YUBA WATERSHED INSTITUTE",
             "usd": 720000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BUTTE COUNTY FIRE SAFE COUNCIL",
             "usd": 702055.84,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SIERRA INST FOR COMMUNITY &",
             "usd": 682826.59,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF TUOLUMNE",
             "usd": 679186.33,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MULE DEER FOUNDATION",
             "usd": 653754.64,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MOTHER LODE LAND TRUST",
             "usd": 650000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LASSEN FIRE SAFE COUNCIL INC",
             "usd": 615015.87,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMERICAN RIVERS INC",
             "usd": 601647.41,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN JOAQUIN COUNTY OFC OF EDUC",
             "usd": 581477.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TRUCKEE DONNER LAND TRUST",
             "usd": 534876.6,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALAVERAS COUNTY RCD",
             "usd": 524401.09,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF THE UNIV OF CA",
             "usd": 513202.32,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SIERRA BUTTES TRAIL STWRDSHP",
             "usd": 503941.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIONAL FOREST FOUNDATION",
             "usd": 490818.26,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMADOR FIRE SAFE COUNCIL",
             "usd": 447176.57,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NEVADA IRRIGATION DISTRICT",
             "usd": 431549.84,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -1444,6 +1704,7 @@
         "vendor_count": 26,
         "vendor_total_usd": 26863645.98,
         "confidential_usd": 0.0,
+        "public_sector_usd": 454827.71,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -1454,127 +1715,152 @@
           {
             "name": "MOUNTAINS REC & CONSER AUTH",
             "usd": 23247169.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ONE ARROYO FOUNDATION",
             "usd": 1000000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONEJO REC & PARK DISTRICT",
             "usd": 465862.29,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES CONSERVATION CORPS",
             "usd": 339387.03,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PUKUU CULTURAL COMMUNITY SVCS",
             "usd": 316489.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FRIENDS OF THE LA RIVER",
             "usd": 269604.37,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NORTH EAST TREES INC",
             "usd": 212467.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COMMUNITY NATURE CONNECTION",
             "usd": 178382.58,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF CALABASAS",
             "usd": 146761.47,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF MALIBU",
             "usd": 116164.76,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "THE NATURE CONSERVANCY",
             "usd": 85878.43,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TREEPEOPLE LAND TRUST",
             "usd": 80165.1,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TREEPEOPLE",
             "usd": 74288.23,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CONSERVATION CORPS",
             "usd": 64518.12,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF PARKS & RECREATION",
             "usd": 63400.64,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CA COASTAL COMMISSION",
             "usd": 51473.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF AGOURA HILLS",
             "usd": 32834.68,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "FRIENDS OF OAK PARK OPEN SPACE",
             "usd": 32158.2,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VENTURA COUNTY RCD",
             "usd": 24405.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 18989.84,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ARROYO & FOOTHILLS CONSERVANCY",
             "usd": 12719.16,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF THOUSAND OAKS",
             "usd": 11532.6,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TATAVIAM LAND CONSERVANCY",
             "usd": 10741.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MALIBU LAKESIDE FIRE SAFE CNCL",
             "usd": 7625.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 440.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -1586,6 +1872,7 @@
         "vendor_count": 151,
         "vendor_total_usd": 19312612.19,
         "confidential_usd": 7075.88,
+        "public_sector_usd": 4525774.05,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -1596,127 +1883,152 @@
           {
             "name": "CA SCIENCE CENTER FOUNDATION",
             "usd": 7191678.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 3725979.94,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "LA DEPT OF WATER & POWER",
             "usd": 2632886.24,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EVERPARK INC",
             "usd": 1664438.31,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF THE CA HIGHWAY PATROL",
             "usd": 695777.12,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "BRIGHTVIEW LANDSCAPE SVCS INC",
             "usd": 438009.24,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INTER-CON SECURITY SYSTEMS INC",
             "usd": 355881.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AF&S PRODUCTS & SERVICES INC",
             "usd": 244040.14,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELEVATING SALES CORP",
             "usd": 190871.67,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALLIANT INSURANCE SVCS INC",
             "usd": 179793.22,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PARKER STANBURY LLP",
             "usd": 157000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NETCENTRA INC",
             "usd": 150485.57,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELEVATORS ETC INC",
             "usd": 96981.15,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SOCALGAS",
             "usd": 80350.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SHARPLINE SOLUTIONS INC",
             "usd": 76399.17,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WASTE & RECYCLING SERVICES INC",
             "usd": 76065.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T ENTERPRISES LLC",
             "usd": 74525.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES FIRE SYSTEMS",
             "usd": 59850.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ADVANTAGE EVENT SOLUTIONS LLC",
             "usd": 56533.34,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TERMINAL HARDWARE CO INC",
             "usd": 48386.05,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AFFORDABLE FIRE SERVICES INC",
             "usd": 46658.7,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMTECH ELEVATOR SERVICES",
             "usd": 43383.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "OTIS ELEVATOR CO",
             "usd": 42273.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELAVON INC",
             "usd": 41293.98,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AVIATE ENTERPRISES INC",
             "usd": 40394.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -1728,6 +2040,7 @@
         "vendor_count": 143,
         "vendor_total_usd": 16075587.08,
         "confidential_usd": 25254.01,
+        "public_sector_usd": 762206.9,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-27"
@@ -1738,127 +2051,152 @@
           {
             "name": "PACIFIC DREDGE & CONSTRUCTION",
             "usd": 4159551.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LIND MARINE LLC",
             "usd": 1597521.29,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GLOBAL DIVING & SALVAGE INC",
             "usd": 1549203.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VORTEX MARINE CONSTRUCTION INC",
             "usd": 1221537.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FCA UNIVERSITY PARK LLC",
             "usd": 1021946.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ENVIRONMENTAL SCIENCE ASSOC",
             "usd": 965146.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SHORELINE SQUARE HOLDINGS LLC",
             "usd": 754020.23,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ASCENT ENVIRONMENTAL INC",
             "usd": 706585.29,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DUDEK",
             "usd": 479773.74,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "2H OFFSHORE CALIFORNIA INC",
             "usd": 423165.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DRILTEK INC",
             "usd": 413778.4,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 225248.55,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 211946.1,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 181233.44,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SYSTEM SOLUTIONS INC",
             "usd": 131796.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INDUSTRIAL ECONOMICS INC",
             "usd": 131515.39,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BEACON WEST ENERGY GROUP LLC",
             "usd": 121433.2,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "JOHN L LINEWEAVER",
             "usd": 117847.79,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ELK GROVE AUTO GROUP",
             "usd": 115650.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA DEPT OF TAX AND FEE ADMIN",
             "usd": 104090.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ABLEGOV INC",
             "usd": 93100.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PADRE ASSOCIATES INC",
             "usd": 92550.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MARINE PROJECT MANAGEMENT INC",
             "usd": 83505.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ACUITY TECHNICAL SOLUTIONS LLC",
             "usd": 80336.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "U S COAST GUARD",
             "usd": 69628.66,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -1870,6 +2208,7 @@
         "vendor_count": 54,
         "vendor_total_usd": 15965979.28,
         "confidential_usd": 3536.55,
+        "public_sector_usd": 3902345.46,
         "accounting_dates": [
           "2025-07-02",
           "2026-03-30"
@@ -1880,127 +2219,152 @@
           {
             "name": "WATERSHED CONSERVATION AUTH",
             "usd": 3817017.18,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CNTY OF LOS ANGELES DEPT OF",
             "usd": 2094789.39,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "USDA FOREST SERVICE",
             "usd": 1745338.51,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HOUSING AUTH OF CITY OF LA",
             "usd": 1350696.79,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF LONG BEACH",
             "usd": 1252737.4,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "LA COUNTY DEPT PUBLIC WORKS",
             "usd": 1111113.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SANTA CATALINA ISLAND",
             "usd": 760815.37,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF COVINA",
             "usd": 676913.13,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MOORE IACOFANO GOLTSMAN INC",
             "usd": 459255.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE TRUST FOR PUBLIC LAND",
             "usd": 416667.67,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF CUDAHY",
             "usd": 357092.19,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "S GRONER ASSOC INC",
             "usd": 350546.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONSERVATION CORPS OF LONG",
             "usd": 271688.47,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RANCHO LOS CERRITOS FOUNDATION",
             "usd": 192640.61,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HOLOS INC",
             "usd": 172367.68,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMIGOS DE LOS RIOS",
             "usd": 167517.23,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF LOS ANGELES",
             "usd": 114985.47,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TONGVA TARAXAT PAXAAVXA",
             "usd": 98599.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNCIL FOR WATERSHED HEALTH",
             "usd": 92962.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 72577.22,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CYBER SPECIALISTS INC",
             "usd": 64625.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DUDEK",
             "usd": 48777.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN GABRIEL MOUNTAN REGIONAL",
             "usd": 48284.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TREEPEOPLE",
             "usd": 42866.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF ANAHEIM",
             "usd": 39637.35,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -2012,6 +2376,7 @@
         "vendor_count": 135,
         "vendor_total_usd": 13102470.3,
         "confidential_usd": 30665.44,
+        "public_sector_usd": 4890992.06,
         "accounting_dates": [
           "2025-07-02",
           "2026-03-30"
@@ -2022,127 +2387,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 3327000.46,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TAHOE RCD",
             "usd": 1512715.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "USDA FOREST SERVICE",
             "usd": 1279150.91,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SOUTH LAKE TAHOE",
             "usd": 1101478.73,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CALAVERAS HEALTHY IMPACT PROD",
             "usd": 855662.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EMERALD BAY PROPERTY",
             "usd": 437595.83,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WASHOE TRIBE OF NEVADA & CALIF",
             "usd": 428401.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LAKE VALLEY FIRE PROTECTION",
             "usd": 377644.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIONAL FOREST FOUNDATION",
             "usd": 337788.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BUSHWACKERS TREE SERVICE",
             "usd": 304705.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE GREAT BASIN INSTITUTE",
             "usd": 289576.41,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ARMSTRONG TREE SERVICE LLC",
             "usd": 218175.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MARIOS TREE SERVICE INC",
             "usd": 194537.18,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CONSERVATION CORPS",
             "usd": 186766.84,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "HVR ACQUISITIONS LLC",
             "usd": 170000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TAHOE RIM TRAIL ASSOCIATION",
             "usd": 126061.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 120685.96,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SOUTH TAHOE PUBLIC UTILITY DIS",
             "usd": 112558.27,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "QUALITY TECH SOLUTIONS LLC",
             "usd": 108858.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INSTITUTE FOR BIRD POPULATIONS",
             "usd": 101744.14,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PLACER CNTY PUBLIC WORKS",
             "usd": 91893.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WILDLANDS NETWORK",
             "usd": 91515.23,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALLIED NETWORK SOLUTIONS INC",
             "usd": 89250.03,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GED SIERRA LLC",
             "usd": 75560.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF THE CA HIGHWAY PATROL",
             "usd": 72527.33,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -2154,6 +2544,7 @@
         "vendor_count": 188,
         "vendor_total_usd": 11873514.3,
         "confidential_usd": 168693.48,
+        "public_sector_usd": 4522245.33,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -2164,127 +2555,152 @@
           {
             "name": "LEGACY 455 MARKET STREET LP",
             "usd": 1946189.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SAN CLEMENTE",
             "usd": 1041345.56,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "GATZKE DILLON & BALLANCE LLP",
             "usd": 500000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SANTA BARBARA",
             "usd": 450583.03,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 426848.89,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "STATE COASTAL CONSERVANCY",
             "usd": 410533.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COUNTY OF SANTA CRUZ",
             "usd": 387479.54,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TIDES CENTER",
             "usd": 348648.68,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SHORELINE SQUARE HOLDINGS LLC",
             "usd": 339879.99,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 310913.63,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SAN BUENAVENTURA",
             "usd": 280044.35,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SYTECH SOLUTIONS INC",
             "usd": 275107.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF FORT BRAGG",
             "usd": 273499.44,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CARAHSOFT TECHNOLOGY CORP",
             "usd": 254159.68,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 210994.15,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COUNTY OF MENDOCINO",
             "usd": 207302.47,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MUSEUM OF ART & HIST AT",
             "usd": 190039.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 168693.48,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "VENTURA REALTY COMPANY",
             "usd": 155768.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF SEAL BEACH",
             "usd": 135478.15,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF OCEANSIDE",
             "usd": 125487.27,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SF BAY CONSERV AND DEVEL COMM",
             "usd": 116297.66,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF CAPITOLA",
             "usd": 111678.95,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF MORRO BAY",
             "usd": 109799.22,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PORTERCO AGENCY",
             "usd": 107303.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -2296,6 +2712,7 @@
         "vendor_count": 149,
         "vendor_total_usd": 9723302.75,
         "confidential_usd": 154259.01,
+        "public_sector_usd": 2916998.53,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -2306,127 +2723,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 1142084.92,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 1052373.12,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "INFINITE SOLUTIONS INC",
             "usd": 990038.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KOVARUS INC",
             "usd": 403204.27,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ANSURTECH LLC",
             "usd": 393632.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF PARKS & RECREATION",
             "usd": 376341.86,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PRODIGY CONSULTING LLC",
             "usd": 345050.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GARTNER INC",
             "usd": 334066.63,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 328337.57,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 319329.81,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ABLEGOV INC",
             "usd": 317525.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIONAL SAFETY COUNCIL",
             "usd": 299805.34,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ANALYTICA CONSULTING LLC",
             "usd": 283245.82,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "JENSEN HUGHES INC",
             "usd": 278671.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SYSTEM SOLUTIONS DVBE INC",
             "usd": 241690.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SOLUTIONS SIMPLIFIED",
             "usd": 228039.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ANALYTICA CONSULTING INC",
             "usd": 215419.49,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GREEN GRID INC",
             "usd": 191064.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 154259.01,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "SYMSOFT SOLUTIONS LLC",
             "usd": 153130.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TF SOLUTIONS LLC",
             "usd": 150828.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VERIZON WIRELESS",
             "usd": 114972.47,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALEXAN RPM INC",
             "usd": 91115.93,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VETERAN ENHANCED INC",
             "usd": 90212.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "USPA CITY CENTER LLC",
             "usd": 83288.72,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -2438,6 +2880,7 @@
         "vendor_count": 56,
         "vendor_total_usd": 8677023.62,
         "confidential_usd": 3867.92,
+        "public_sector_usd": 5110988.47,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -2448,127 +2891,152 @@
           {
             "name": "CITY OF PITTSBURG",
             "usd": 2074746.12,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 1210404.55,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF FISH & WILDLIFE",
             "usd": 1101298.24,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "METROPOLITAN WAT DIST OF SO CA",
             "usd": 1008033.74,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE NATURE CONSERVANCY",
             "usd": 813621.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC FLYWAY FUND",
             "usd": 651883.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF UNIV OF CA DAVIS",
             "usd": 281640.9,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CITY OF SUISUN CITY",
             "usd": 280326.89,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "EAST BAY REGIONAL PARK DIST",
             "usd": 138738.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AMERICAN RIVERS INC",
             "usd": 122211.31,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SOLANO RESOURCE CONSERVATION DIST",
             "usd": 118355.15,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF WEST SACRAMENTO",
             "usd": 116098.56,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DISCOVER THE DELTA FOUNDATION",
             "usd": 97576.56,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN JOAQUIN COMMUNITY FDN",
             "usd": 95357.6,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HALYARD DRIVE LLC",
             "usd": 84162.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONTRA COSTA RESOURCE",
             "usd": 60747.53,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SUISUN RESOURCE CONSERV DIST",
             "usd": 53689.06,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STOCKTON HISTORICAL MARITIME",
             "usd": 48552.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 36593.28,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DUTRA HAY & GRAIN",
             "usd": 35280.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DELTA EDUCATIONAL CULTURAL",
             "usd": 33222.66,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ROSS RASMUSSEN",
             "usd": 26827.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOUIS BIAGIONI",
             "usd": 26460.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "JCB FARMS INC",
             "usd": 19845.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LEMHI LAND & CATTLE LLC",
             "usd": 18375.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -2580,6 +3048,7 @@
         "vendor_count": 3,
         "vendor_total_usd": 5266556.66,
         "confidential_usd": 0.0,
+        "public_sector_usd": 48220.74,
         "accounting_dates": [
           "2025-08-01",
           "2026-03-05"
@@ -2590,17 +3059,20 @@
           {
             "name": "TAHOE REGIONAL PLANNING AGENCY",
             "usd": 5212000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF THE UNIV OF CA SD",
             "usd": 48220.74,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "UNIVERSITY OF SOUTHERN CA",
             "usd": 6335.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -2612,6 +3084,7 @@
         "vendor_count": 28,
         "vendor_total_usd": 4557022.75,
         "confidential_usd": 1841.74,
+        "public_sector_usd": 345232.91,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-31"
@@ -2622,127 +3095,152 @@
           {
             "name": "LAKESIDES RIVER PARK CONSERV",
             "usd": 767235.82,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN DIEGO REGIONAL FIRE FDN",
             "usd": 559043.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN DIEGO STATE UNIV FDN",
             "usd": 542168.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VIEJAS BAND OF KUMEYAAY INDIAN",
             "usd": 468844.98,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US FOREST SVC OF CLEVELAND",
             "usd": 412531.76,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CNTY OF SAN DIEGO PARKS & REC",
             "usd": 384815.24,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF EL CAJON",
             "usd": 320756.41,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "MISSION TRAILS RPF INC",
             "usd": 299476.12,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN DIEGO FIRE-RESCUE FDN",
             "usd": 198399.08,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HEARTLAND COMMUNICATIONS",
             "usd": 169690.86,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GIRL SCOUTS SAN DIEGO-IMPERIAL",
             "usd": 118674.32,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALPINE FIRE PROTECTION DIST",
             "usd": 116043.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SAN DIEGO BIRD ALLIANCE",
             "usd": 66343.37,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RCD OF GREATER SAN DIEGO COUNTY",
             "usd": 28851.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BARONA BAND OF MISSION IND FD",
             "usd": 26816.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 20414.82,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "STATE WATER RESOURCES CNTRL BD",
             "usd": 15564.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATURE COLLECTIVE",
             "usd": 9881.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GRANITE DATA SOLUTIONS",
             "usd": 8916.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DUDEK",
             "usd": 6500.05,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ENVIRONMENTAL SYS RES INST INC",
             "usd": 4200.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 3071.3,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 2405.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 1841.74,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 1656.68,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -2754,6 +3252,7 @@
         "vendor_count": 98,
         "vendor_total_usd": 3710797.33,
         "confidential_usd": 14071.34,
+        "public_sector_usd": 2144025.78,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
@@ -2764,127 +3263,152 @@
           {
             "name": "UC SAN DIEGO",
             "usd": 880243.27,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 402241.29,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 331681.25,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "REGENTS OF UNIV OF CA DAVIS",
             "usd": 291873.46,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ASSOC OF BAY AREA GOVTS",
             "usd": 200269.16,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ADMINMONITOR INC",
             "usd": 108700.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CHICO STATE ENTERPRISES",
             "usd": 81701.85,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AECOM TECHNICAL SERVICES INC",
             "usd": 70813.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UTAH STATE UNIVERSITY",
             "usd": 70499.98,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 70167.85,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "REGENTS OF THE UNIV OF CA",
             "usd": 69110.21,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "FISH METRICS INC",
             "usd": 53640.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STANTEC CONSULTING SVCS INC",
             "usd": 52936.37,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MAVENS NOTEBOOK LLC",
             "usd": 47929.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ROBERT JOSEPH NAIMAN",
             "usd": 43239.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "GREAT PARENTS LLC",
             "usd": 42179.39,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INGEBORG WERNER",
             "usd": 38907.2,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIX INC",
             "usd": 38654.86,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LISA WAINGER",
             "usd": 32521.72,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AQUASCIENCE LLC",
             "usd": 32500.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UC REGENTS SANTA CRUZ",
             "usd": 31624.22,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "STATE COMP INSURANCE FUND",
             "usd": 30649.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SCOTT A WELLS AND ASSOCIATES",
             "usd": 29500.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ADVANCED TECHNICAL SOLUTIONS",
             "usd": 29245.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DELTA PROTECTION COMMISSION",
             "usd": 27973.28,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -2896,6 +3420,7 @@
         "vendor_count": 27,
         "vendor_total_usd": 3391822.57,
         "confidential_usd": 0.0,
+        "public_sector_usd": 58281.9,
         "accounting_dates": [
           "2025-07-15",
           "2026-03-27"
@@ -2906,127 +3431,152 @@
           {
             "name": "PARTNERSHIP FOR GROWTH LOS",
             "usd": 1125796.86,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CCC FOUNDATION",
             "usd": 606205.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES NEIGHBORHOOD",
             "usd": 547400.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CNTY OF LOS ANGELES DEPT OF",
             "usd": 475000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LOS ANGELES CONSERVATION CORPS",
             "usd": 156842.92,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COMMUNITY HEALTH COUNCILS INC",
             "usd": 138156.03,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NORTH EAST TREES INC",
             "usd": 110098.43,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA GREENWORKS INC",
             "usd": 59158.81,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KOUNKUEY DESIGN INITIATIVE INC",
             "usd": 51671.54,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DONEL DEVELOPMENT LLC",
             "usd": 34000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF PARKS & RECREATION",
             "usd": 30000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CSU DOMINGUEZ HILLS FDN",
             "usd": 18407.82,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TREEPEOPLE",
             "usd": 13783.45,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CLIMATE RESOLVE",
             "usd": 11219.28,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 7296.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "IRON MTN INFORMATION MGMT LLC",
             "usd": 1818.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VERIZON WIRELESS",
             "usd": 1309.4,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF INDUSTRIAL RELATIONS",
             "usd": 1177.9,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 1170.98,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CHARTER COMMUNICATIONS",
             "usd": 799.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONSTANT CONTACT INC",
             "usd": 280.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF HAWTHORNE TREASURER",
             "usd": 220.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 9.2,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF HUMAN RESOURCES",
             "usd": 0.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
-            "name": "DEPT TOXIC SUBSTANCES CONTROL",
+            "name": "DEPT OF JUSTICE",
             "usd": 0.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           }
         ]
       },
@@ -3038,6 +3588,7 @@
         "vendor_count": 34,
         "vendor_total_usd": 2404887.36,
         "confidential_usd": 1058.86,
+        "public_sector_usd": 1483944.62,
         "accounting_dates": [
           "2025-07-02",
           "2026-03-25"
@@ -3048,127 +3599,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 1401268.16,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "SAN JOAQUIN RIVER PARKWAY",
             "usd": 548830.16,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WILDLIFE CONSERVATION BOARD",
             "usd": 129896.16,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SIERRA RES CONSERVATION DIST",
             "usd": 61884.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CALIFORNIA CONSERVATION CORPS",
             "usd": 37336.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "GNS COMPLETE JANITORIAL SVCS",
             "usd": 35750.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK",
             "usd": 35300.68,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF THE CA HIGHWAY PATROL",
             "usd": 24398.61,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "AMERICAN GLOBAL SECURITY INC",
             "usd": 20695.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC GAS & ELECTRIC CO",
             "usd": 20689.43,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF PARKS & RECREATION",
             "usd": 12910.53,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "PDS PLUMBING & AIR",
             "usd": 12761.53,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIX INC",
             "usd": 9136.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PEPSTERS ELECTRICAL",
             "usd": 9000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 8000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "JEFFREY SCOTT ADVERTISING INC",
             "usd": 7760.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA BUSINESS MACHINES",
             "usd": 6936.49,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "INFINITY SUPPLY LLC",
             "usd": 5269.32,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SPECIAL ORDER SYSTEMS INC",
             "usd": 3557.5,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CAGLIA ENVIRONMENTAL LLC",
             "usd": 2758.35,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REPUBLIC SERVICES INC",
             "usd": 2649.86,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 2111.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FRESNO CNTY WATERWORKS DIST 18",
             "usd": 1855.28,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MAIN CREEK PEST SOLUTIONS INC",
             "usd": 1480.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 1058.86,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           }
         ]
       },
@@ -3180,6 +3756,7 @@
         "vendor_count": 45,
         "vendor_total_usd": 2095099.71,
         "confidential_usd": 37161.81,
+        "public_sector_usd": 420965.29,
         "accounting_dates": [
           "2025-07-02",
           "2026-03-30"
@@ -3190,127 +3767,152 @@
           {
             "name": "BAY AREA HEADQUARTERS AUTH",
             "usd": 1053257.57,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA COASTAL COMMISSION",
             "usd": 189646.34,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF JUSTICE",
             "usd": 188859.25,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 172750.57,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "GREENBELT ALLIANCE",
             "usd": 110874.89,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 59355.47,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "THE EXPLORATORIUM",
             "usd": 58524.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 37161.81,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "TECHNOLOGY INTEGRATION GROUP",
             "usd": 33509.21,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK",
             "usd": 23748.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALL AMERICAN REPORTING &",
             "usd": 20504.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SUNSTONEIT LLC",
             "usd": 19425.02,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ALLIED NETWORK SOLUTIONS INC",
             "usd": 17128.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T ENTERPRISES LLC",
             "usd": 13822.64,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RESTORE AMERICAS ESTUARIES",
             "usd": 12000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WEST A THOMSON REUTERS BUSINESS",
             "usd": 10247.97,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ASSOC OF BAY AREA GOVTS",
             "usd": 7010.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COASTAL STATES ORGANIZATION",
             "usd": 6025.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SYTECH SOLUTIONS INC",
             "usd": 5400.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SYSTEM SOLUTIONS INC",
             "usd": 5208.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DELL MARKETING LP",
             "usd": 4927.34,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ENTERPRISE NETWORKING SOLS INC",
             "usd": 4515.29,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UBEO BUSINESS SERVICES",
             "usd": 4310.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UNIVERSITY CORP AT MONTEREY",
             "usd": 4000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RELX INC",
             "usd": 3955.77,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -3322,6 +3924,7 @@
         "vendor_count": 28,
         "vendor_total_usd": 1476516.64,
         "confidential_usd": 5239.38,
+        "public_sector_usd": 90627.3,
         "accounting_dates": [
           "2025-07-11",
           "2026-03-27"
@@ -3332,127 +3935,152 @@
           {
             "name": "DESERT RECREATION DISTRICT",
             "usd": 539254.2,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE REGENTS OF THE UNIV OF CA",
             "usd": 216967.48,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE LIVING DESERT",
             "usd": 147324.19,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FRIENDS OF THE DESERT MTNS",
             "usd": 136396.43,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "SOUTHERN CA MOUNTAIN FDN",
             "usd": 106773.91,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF PALM DESERT",
             "usd": 88181.5,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COACHELLA VALLEY CONSER COMM",
             "usd": 58612.3,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DESERT RECREATION FOUNDATION",
             "usd": 52083.98,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "OSWIT LAND TRUST",
             "usd": 49280.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONSEJO DE FEDERACIONES",
             "usd": 33888.07,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "HN & FRANCES C BERGER FDN",
             "usd": 21969.9,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 5239.38,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "CA ALLIANCE FOR COMMUNITY",
             "usd": 4061.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK",
             "usd": 3921.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE WILDLANDS CONSERVANCY",
             "usd": 2981.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 2344.12,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COACHELLA VLY DESERT & MTNS",
             "usd": 1620.55,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "LABRANOS FAMILY MOVING &",
             "usd": 1560.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PACIFIC LIGHTWAVE",
             "usd": 1546.62,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NATIVE AMERICAN LAND",
             "usd": 965.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "MAXIMILIANO FELIPE OCHOA",
             "usd": 930.08,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 147.68,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VALLEY OFFICE EQUIPMENT INC",
             "usd": 130.36,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 101.68,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COACHELLA VALLEY ASSN OF GOVTS",
             "usd": 100.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -3464,6 +4092,7 @@
         "vendor_count": 32,
         "vendor_total_usd": 817959.68,
         "confidential_usd": 4888.07,
+        "public_sector_usd": 489343.24,
         "accounting_dates": [
           "2025-07-08",
           "2026-03-24"
@@ -3474,127 +4103,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 248605.17,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 185071.68,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "RAMCO PROPERTIES LP",
             "usd": 184619.8,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF JUSTICE",
             "usd": 41205.2,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CARAHSOFT TECHNOLOGY CORP",
             "usd": 36875.04,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "TKO VIDEO COMMUNICATIONS",
             "usd": 27257.33,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 12456.65,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "WEST A THOMSON REUTERS BUSINESS",
             "usd": 10876.73,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "NWN CORPORATION",
             "usd": 10817.45,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "KENNEDY COURT REPORTERS INC",
             "usd": 9253.75,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "VERIZON WIRELESS",
             "usd": 8516.84,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EMPLOYMENT DEVELOPMENT DEPT",
             "usd": 7377.34,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DILTEX INC",
             "usd": 6038.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 4888.07,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 4495.96,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "WEST A THOMSON REUTERS BUSI",
             "usd": 3527.79,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ARC DOCUMENT SOLUTIONS LLC",
             "usd": 2932.27,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CARMEN LUCAS",
             "usd": 2702.26,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "AT&T ENTERPRISES LLC",
             "usd": 2355.31,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF THE CA HIGHWAY PATROL",
             "usd": 2004.54,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "ELITE SUPPLY SOURCE INC",
             "usd": 1359.84,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PAPER DISTRIBUTORS INC",
             "usd": 1353.2,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BIG IT INC",
             "usd": 1105.65,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "PITNEY BOWES INC",
             "usd": 533.94,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA TRIBAL CHAIRPERSONS ASSN",
             "usd": 500.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -3606,6 +4260,7 @@
         "vendor_count": 20,
         "vendor_total_usd": 445559.2,
         "confidential_usd": 39918.82,
+        "public_sector_usd": 255175.63,
         "accounting_dates": [
           "2025-07-07",
           "2026-03-26"
@@ -3616,102 +4271,122 @@
           {
             "name": "DEPT OF WATER RESOURCES",
             "usd": 131010.03,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 111809.4,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CYBER SPECIALISTS INC",
             "usd": 66699.38,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 44937.13,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 39918.82,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "US GEOLOGICAL SURVEY",
             "usd": 14070.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "REGENTS OF THE UNV OF COLORADO",
             "usd": 8700.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "AT&T ENTERPRISES LLC",
             "usd": 7949.63,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "IMAGE IV SYSTEMS INC",
             "usd": 6320.45,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EMPLOYMENT DEVELOPMENT DEPT",
             "usd": 4188.69,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF INDUSTRIAL RELATIONS",
             "usd": 2878.17,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "COLORADO RIVER WATER USERS",
             "usd": 2400.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "US BANK",
             "usd": 1980.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ESCRIBERS LLC",
             "usd": 1747.6,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 371.15,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "DEPT OF HUMAN RESOURCES",
             "usd": 300.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "CA PUBLIC EMPLOYEES RETIR SYST",
             "usd": 120.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 106.88,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "GENERAL LOGISTICS SYS US INC",
             "usd": 51.87,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CA CORRECTIONAL TRNG REHAB AUT",
             "usd": 0.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       },
@@ -3723,6 +4398,7 @@
         "vendor_count": 47,
         "vendor_total_usd": 205806.27,
         "confidential_usd": 6795.68,
+        "public_sector_usd": 61241.4,
         "accounting_dates": [
           "2025-07-08",
           "2026-03-23"
@@ -3733,127 +4409,152 @@
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 45755.17,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "RAMCO PROPERTIES LP",
             "usd": 34938.53,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CPS HR CONSULTING",
             "usd": 25000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE HONEY AGENCY INC",
             "usd": 19831.46,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "EMPLOYMENT DEVELOPMENT DEPT",
             "usd": 14209.25,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DEPT OF PARKS & RECREATION",
             "usd": 14068.93,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "EMR CPR LLC",
             "usd": 9485.01,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "UNIVERSITY ENTERPRISES INC",
             "usd": 8387.44,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 6795.68,
-            "masked": true
+            "masked": true,
+            "public_sector": false
           },
           {
             "name": "VERIZON WIRELESS",
             "usd": 2892.95,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FEDEX OFFICE & PRINT SVCS INC",
             "usd": 2613.77,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ADOPTAHIGHWAY LITTER REMOVAL",
             "usd": 2291.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BRIXEN AND SONS INC",
             "usd": 1891.23,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "FRIENDS OF THE 1883 CLARKSBURG",
             "usd": 1650.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 1426.81,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "DELTA KING HOTEL",
             "usd": 1260.41,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "CITY OF WEST SACRAMENTO DEPT PARKS & REC",
             "usd": 1080.0,
-            "masked": false
+            "masked": false,
+            "public_sector": true
           },
           {
             "name": "TESS ENTERPRISES INC",
             "usd": 1000.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RIVER ROAD EXCHANGE INC",
             "usd": 900.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "THE POINT RESTAURANT",
             "usd": 880.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RYDE HOTEL & EVENT CENTER",
             "usd": 751.63,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "BAY AREA RIDGE TRAIL COUNCIL",
             "usd": 750.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "RASIX COMPUTER CENTER",
             "usd": 726.1,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "COMUS BACCHUS",
             "usd": 650.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           },
           {
             "name": "ANTIOCH HISTORICAL SOCIETY",
             "usd": 500.0,
-            "masked": false
+            "masked": false,
+            "public_sector": false
           }
         ]
       }

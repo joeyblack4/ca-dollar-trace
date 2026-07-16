@@ -10,6 +10,7 @@
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
 import { CoverageBadge } from "@/components/ui/SourceChip";
+import { PublicSectorChip } from "@/components/agency/VendorsSection";
 import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
 import { fmtUsd, type BudgetWaterfall } from "@/lib/published";
 import type { AgencyDoc, PathSeg, ProfilesDoc, VendorsDoc } from "./types";
@@ -340,14 +341,27 @@ export function DrillExplorer({
           title={`The checkbook — ${fmtUsd(vendorDept.vendor_total_usd)} to ${vendorDept.vendor_count.toLocaleString()} vendors (${vendorDept.fiscal_year})`}
           subtitle="Actual payments from the state accounting system. Click a vendor for their full history."
         >
+          {vendorDept.public_sector_usd > 0 && (
+            <p className="mb-2 text-xs text-fog">
+              {fmtUsd(vendorDept.public_sector_usd)} of this is transfers to other{" "}
+              <span className="text-[#1c5cab]">public agencies</span> (heuristic flag) — money
+              still inside government, not outside vendors.
+            </p>
+          )}
           {vendorDept.top_vendors.slice(0, 15).map((v) => (
             <Row
               key={v.name}
               label={v.name}
               usd={v.usd}
               maxUsd={vendorDept.top_vendors[0].usd}
-              color="#1e7f4f"
-              chip={v.masked ? <CoverageBadge flag="masked" /> : undefined}
+              color={v.public_sector ? "#2a78d6" : "#1e7f4f"}
+              chip={
+                v.masked ? (
+                  <CoverageBadge flag="masked" />
+                ) : v.public_sector ? (
+                  <PublicSectorChip />
+                ) : undefined
+              }
               selected={vendorSeg?.name === v.name}
               onClick={
                 v.masked
@@ -412,12 +426,19 @@ export function DrillExplorer({
                     ))}
                   </div>
                 </div>
-                <Terminator flag="trail_ends_here">
-                  What {vendorSeg.name.split(" ")[0]}… does with this money next is not in any
-                  public dataset — private organizations publish no checkbook. (For grant
-                  administrators, the re-granted awards are sometimes published separately —
-                  that&apos;s our next connector.)
-                </Terminator>
+                {p.public_sector ? (
+                  <Terminator flag="category_only">
+                    This payee is itself a public agency — the money stayed inside government.
+                    Its own spending shows up in its own budget and checkbook, not here.
+                  </Terminator>
+                ) : (
+                  <Terminator flag="trail_ends_here">
+                    What {vendorSeg.name.split(" ")[0]}… does with this money next is not in any
+                    public dataset — private organizations publish no checkbook. (For grant
+                    administrators, the re-granted awards are sometimes published separately —
+                    that&apos;s our next connector.)
+                  </Terminator>
+                )}
               </div>
             );
           })()}

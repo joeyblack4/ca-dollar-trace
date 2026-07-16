@@ -1,0 +1,989 @@
+{
+  "source": {
+    "name": "California Grants Portal \u2014 Grant Awards",
+    "publisher": "California State Library",
+    "url": "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025",
+    "license": "Public Domain (other-pd)"
+  },
+  "as_of": "2026-07-16T165001Z",
+  "ingested_at": "2026-07-16T16:50:01.531915+00:00",
+  "cadence": "daily, published ~8:45pm PT",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Post-award data exists only for grants closing on/after July 1, 2022 (AB 132) \u2014 earlier grant awards are not published here.",
+    "The portal records only WHETHER subrecipients exist per award, never who they are \u2014 every award marked 'has subrecipients' is a flagged dead end.",
+    "Award amounts are as reported by the granting agency; blanks are counted as unknown, never zero."
+  ],
+  "data": {
+    "by_fiscal_year": [
+      {
+        "fiscal_year": "2022-2023",
+        "award_count": 11698,
+        "awarded_known_usd": 16899385527.0,
+        "amount_unknown_count": 22,
+        "with_subrecipients_usd": 4695820416.0,
+        "with_subrecipients_count": 1543
+      },
+      {
+        "fiscal_year": "2023-2024",
+        "award_count": 15208,
+        "awarded_known_usd": 19686435392.0,
+        "amount_unknown_count": 13,
+        "with_subrecipients_usd": 4331194004.0,
+        "with_subrecipients_count": 1865
+      },
+      {
+        "fiscal_year": "2024-2025",
+        "award_count": 7301,
+        "awarded_known_usd": 17757937718.0,
+        "amount_unknown_count": 3,
+        "with_subrecipients_usd": 2160834753.0,
+        "with_subrecipients_count": 943
+      }
+    ],
+    "top_recipients": [
+      {
+        "recipient_name": "Los Angeles County Metropolitan Transportation Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 1688499000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Stanford University",
+        "recipient_type": "Nonprofit",
+        "award_count": 3,
+        "awarded_usd": 1361398000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Scripps Health",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 1200000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Adventist Health Systems/West",
+        "recipient_type": "Nonprofit",
+        "award_count": 4,
+        "awarded_usd": 1142200000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Santa Clara Valley Transportation Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 4,
+        "awarded_usd": 1133677671.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Southern California Regional Rail Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 983174592.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "CALSTART Inc.",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 740230000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Bay Area Rapid Transit District",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 675700000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "San Joaquin Joint Powers Authority and San Joaquin Regional Rail Commission",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 635600000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Peninsula Corridor Joint Powers Board",
+        "recipient_type": "Public Agency",
+        "award_count": 3,
+        "awarded_usd": 631996000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "University of Southern California",
+        "recipient_type": "Nonprofit",
+        "award_count": 5,
+        "awarded_usd": 602117741.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Inglewood",
+        "recipient_type": "Public Agency",
+        "award_count": 4,
+        "awarded_usd": 510335140.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "BHE Renewables, LLC",
+        "recipient_type": "Business",
+        "award_count": 2,
+        "awarded_usd": 476200552.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Stanford Health Care",
+        "recipient_type": "Nonprofit",
+        "award_count": 3,
+        "awarded_usd": 461542559.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Stanford Health Care (SHC)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 460000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Children's Hospital of Orange County",
+        "recipient_type": "Business",
+        "award_count": 3,
+        "awarded_usd": 410748711.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Providence St. Joseph Health (Providence)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 365000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "County of Riverside",
+        "recipient_type": "Public Agency",
+        "award_count": 19,
+        "awarded_usd": 350474055.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "CommonSpirit Health",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 326000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Southern California Association of Governments",
+        "recipient_type": "Public Agency",
+        "award_count": 7,
+        "awarded_usd": 291939949.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Applied Materials, Inc.",
+        "recipient_type": "Business",
+        "award_count": 4,
+        "awarded_usd": 289285000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "El Camino Hospital (ECH)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 275000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Los Angeles",
+        "recipient_type": "Public Agency",
+        "award_count": 21,
+        "awarded_usd": 268032961.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Los Angeles County Metropolitan Transportation Authority (LA Metro)",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 266000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Orange County Transportation Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 6,
+        "awarded_usd": 262991000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Diego, City of",
+        "recipient_type": "Public Agency",
+        "award_count": 9,
+        "awarded_usd": 249460130.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Eden Housing, Inc.",
+        "recipient_type": "Business",
+        "award_count": 25,
+        "awarded_usd": 237574486.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Robert Bosch Semiconductor LLC",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 235000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Hope (COH)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 230000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Los Angeles-San Diego-San Luis Obispo Rail Corridor Agency (LOSSAN)",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 217689000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Los Angeles County",
+        "recipient_type": "Public Agency",
+        "award_count": 24,
+        "awarded_usd": 208996555.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Caltrans",
+        "recipient_type": "Public Agency",
+        "award_count": 8,
+        "awarded_usd": 205743000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Lucile Salter Packard Children's Hospital at Stanford",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 204000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "MidPen Housing Corporation",
+        "recipient_type": "Business",
+        "award_count": 6,
+        "awarded_usd": 199613223.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "County of Los Angeles",
+        "recipient_type": "Public Agency",
+        "award_count": 17,
+        "awarded_usd": 196867153.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Resources for Community Development",
+        "recipient_type": "Business",
+        "award_count": 7,
+        "awarded_usd": 188357169.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Los Angeles County Department of Mental Health",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 184163032.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "BRIDGE Housing Corporation",
+        "recipient_type": "Business",
+        "award_count": 6,
+        "awarded_usd": 183583438.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Children's Hospital Los Angeles",
+        "recipient_type": "Nonprofit",
+        "award_count": 6,
+        "awarded_usd": 182074878.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Hell's Kitchen LithiumCo 1 LLC",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 179425837.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Sparkz Inc.",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 177725118.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Archer Aviation, Inc.",
+        "recipient_type": "Business",
+        "award_count": 2,
+        "awarded_usd": 177250000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "The Related Companies of California, LLC",
+        "recipient_type": "Nonprofit",
+        "award_count": 5,
+        "awarded_usd": 170302742.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Sachin Chawla, President",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 170033735.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Orange County Transportation Authority (OCTA)",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 164407000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Francisco, Public Utilities Commission of the City and County of",
+        "recipient_type": "Public Agency",
+        "award_count": 3,
+        "awarded_usd": 160000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Oakland",
+        "recipient_type": "Public Agency",
+        "award_count": 22,
+        "awarded_usd": 158175010.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Mercy Housing California",
+        "recipient_type": "Nonprofit",
+        "award_count": 8,
+        "awarded_usd": 156992395.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "CALSTART, Inc.",
+        "recipient_type": "Business",
+        "award_count": 2,
+        "awarded_usd": 155000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Tarzana Treatment Centers, Inc.",
+        "recipient_type": "Nonprofit",
+        "award_count": 9,
+        "awarded_usd": 149606354.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Los Angeles, City of Acting by and through the Department of Water & Power",
+        "recipient_type": "Public Agency",
+        "award_count": 2,
+        "awarded_usd": 148574000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Calvin Boyd, VP Finance and Treasurer",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 144205000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Children's Hospital Los Angeles (CHLA)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 141000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Joaquin County Behavioral Health Services",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 137500000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Lam Research Corp",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 137000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Loma Linda University Children's Hospital",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 135000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Francisco Municipal Transportation Agency (SFMTA)",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 130000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "AltaMed Health Services Corporation",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 129568000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Self-Help Enterprises",
+        "recipient_type": "Nonprofit",
+        "award_count": 32,
+        "awarded_usd": 120355556.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Pacific Southwest Community Development Corporation",
+        "recipient_type": "Nonprofit",
+        "award_count": 6,
+        "awarded_usd": 120351896.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "University of the Pacific (Pacific)",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 120000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "HC (Contra Costa), LLC",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 119617224.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "PSGM3, LLC (Pacific Steel Group)",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 118483412.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Element Lancaster 1 LLC",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 118483412.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Golden Empire Transit District (GET)",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 117878000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Figure AI Inc.",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 117771409.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "The Nature Conservancy",
+        "recipient_type": "Nonprofit",
+        "award_count": 16,
+        "awarded_usd": 117127238.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "LINC Housing Corporation",
+        "recipient_type": "Business",
+        "award_count": 4,
+        "awarded_usd": 114922474.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Joby Aero, Inc.",
+        "recipient_type": "Business",
+        "award_count": 2,
+        "awarded_usd": 110423218.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Saint Mary's College of California",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 110000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Bernardino County Transportation Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 4,
+        "awarded_usd": 109162000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Caltrans, Santa Barbara County Association of Governments",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 109020000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "San Diego Housing Commission",
+        "recipient_type": "Public Agency",
+        "award_count": 6,
+        "awarded_usd": 105750000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Episcopal Communities & Services for Seniors",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 105515000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "East County Advanced Water Purification Joint Powers Authority",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 105101474.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Caltrans, Santa Cruz County Regional Transportation Commission",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 103700000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Los Angeles City & County CoC",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 102557467.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Fresno",
+        "recipient_type": "Public Agency",
+        "award_count": 18,
+        "awarded_usd": 101614570.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Chapman University",
+        "recipient_type": "Other Legal Entity",
+        "award_count": 2,
+        "awarded_usd": 100249968.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Union Sanitary District",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 100000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "North County Transit District (NCTD) and San Diego Association of Governments (SANDAG)",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 100000000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "County of Ventura",
+        "recipient_type": "Public Agency",
+        "award_count": 15,
+        "awarded_usd": 98675227.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Contra Costa Behavioral Health Services",
+        "recipient_type": "Public Agency",
+        "award_count": 3,
+        "awarded_usd": 98309101.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of San Diego",
+        "recipient_type": "Public Agency",
+        "award_count": 18,
+        "awarded_usd": 95796109.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Affirmed Housing Partners",
+        "recipient_type": "Business",
+        "award_count": 3,
+        "awarded_usd": 95027913.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Los Angeles County CORE Capacity & System Integration ProjectMetropolitan Transportation Authority (LA Metro)",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 95000000.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Century Affordable Development, Inc.",
+        "recipient_type": "Nonprofit",
+        "award_count": 3,
+        "awarded_usd": 93494072.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "The President and Board of Trustees of Santa Clara College dba Santa Clara University",
+        "recipient_type": "Nonprofit",
+        "award_count": 1,
+        "awarded_usd": 90000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Lancaster",
+        "recipient_type": "Public Agency",
+        "award_count": 4,
+        "awarded_usd": 89292856.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "City of Santa Monica",
+        "recipient_type": "Public Agency",
+        "award_count": 10,
+        "awarded_usd": 88292114.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "National Community Renaissance of California",
+        "recipient_type": "Nonprofit",
+        "award_count": 8,
+        "awarded_usd": 85442591.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Wakeland Housing and Development Corporation",
+        "recipient_type": "Nonprofit",
+        "award_count": 4,
+        "awarded_usd": 85418874.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "44049 Sierra Hwy Propco LLC",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 84665662.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Pacific West Communities, Inc.",
+        "recipient_type": "Business",
+        "award_count": 7,
+        "awarded_usd": 83901965.0,
+        "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Infinera Corporation",
+        "recipient_type": "Business",
+        "award_count": 3,
+        "awarded_usd": 83600000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Patrick Dolim, CFO",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 81705000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Alameda Health System",
+        "recipient_type": "Nonprofit",
+        "award_count": 3,
+        "awarded_usd": 81644906.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Aptera Motors Corp.",
+        "recipient_type": "Business",
+        "award_count": 1,
+        "awarded_usd": 81180644.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "Sonoma-Marin Area Rail Transit District (SMART)",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 81000000.0,
+        "any_subrecipients": false
+      },
+      {
+        "recipient_name": "On Lok Senior Health Services",
+        "recipient_type": "Nonprofit",
+        "award_count": 8,
+        "awarded_usd": 80774021.0,
+        "any_subrecipients": false
+      }
+    ],
+    "by_agency": [
+      {
+        "agency_dept": "State Treasurer's Office",
+        "award_count": 1669,
+        "awarded_usd": 13621129396.0,
+        "with_subrecipients_usd": 756438018.0
+      },
+      {
+        "agency_dept": "CA State Transportation Agency",
+        "award_count": 74,
+        "awarded_usd": 8866233200.0,
+        "with_subrecipients_usd": 2852588000.0
+      },
+      {
+        "agency_dept": "Department of Housing and Community Development",
+        "award_count": 1009,
+        "awarded_usd": 7693012919.0,
+        "with_subrecipients_usd": 2618613273.0
+      },
+      {
+        "agency_dept": "Department of Health Care Services",
+        "award_count": 1346,
+        "awarded_usd": 3780947718.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "State Water Resources Control Board",
+        "award_count": 502,
+        "awarded_usd": 2056277094.0,
+        "with_subrecipients_usd": 2240415.0
+      },
+      {
+        "agency_dept": "Transportation Commission",
+        "award_count": 94,
+        "awarded_usd": 1883986000.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "CA Department of Education",
+        "award_count": 5951,
+        "awarded_usd": 1449932678.0,
+        "with_subrecipients_usd": 272725823.0
+      },
+      {
+        "agency_dept": "Strategic Growth Council",
+        "award_count": 75,
+        "awarded_usd": 1083056121.0,
+        "with_subrecipients_usd": 984087696.0
+      },
+      {
+        "agency_dept": "CA Energy Commission",
+        "award_count": 601,
+        "awarded_usd": 1077484775.0,
+        "with_subrecipients_usd": 26803014.0
+      },
+      {
+        "agency_dept": "Board of State and Community Corrections",
+        "award_count": 387,
+        "awarded_usd": 1066916947.0,
+        "with_subrecipients_usd": 589388425.0
+      },
+      {
+        "agency_dept": "Department of Social Services",
+        "award_count": 638,
+        "awarded_usd": 938982009.0,
+        "with_subrecipients_usd": 138859483.0
+      },
+      {
+        "agency_dept": "Governor's Office of Emergency Services",
+        "award_count": 1859,
+        "awarded_usd": 868588224.0,
+        "with_subrecipients_usd": 723044113.0
+      },
+      {
+        "agency_dept": "Coastal Conservancy",
+        "award_count": 411,
+        "awarded_usd": 864573745.0,
+        "with_subrecipients_usd": 187455060.0
+      },
+      {
+        "agency_dept": "Department of Forestry and Fire Protection",
+        "award_count": 1101,
+        "awarded_usd": 853812238.0,
+        "with_subrecipients_usd": 11716551.0
+      },
+      {
+        "agency_dept": "Department of Water Resources",
+        "award_count": 280,
+        "awarded_usd": 767942448.0,
+        "with_subrecipients_usd": 462665225.0
+      },
+      {
+        "agency_dept": "CA Environmental Protection Agency",
+        "award_count": 28,
+        "awarded_usd": 746325349.0,
+        "with_subrecipients_usd": 793342.0
+      },
+      {
+        "agency_dept": "Wildlife Conservation Board",
+        "award_count": 201,
+        "awarded_usd": 738959579.0,
+        "with_subrecipients_usd": 338680576.0
+      },
+      {
+        "agency_dept": "Department of Transportation",
+        "award_count": 1173,
+        "awarded_usd": 671334147.0,
+        "with_subrecipients_usd": 30830553.0
+      },
+      {
+        "agency_dept": "Governor's Office of Business and Economic Development",
+        "award_count": 2370,
+        "awarded_usd": 638257042.0,
+        "with_subrecipients_usd": 48335226.0
+      },
+      {
+        "agency_dept": "CA Department of Food and Agriculture",
+        "award_count": 1434,
+        "awarded_usd": 602301499.0,
+        "with_subrecipients_usd": 166649090.0
+      },
+      {
+        "agency_dept": "Department of Fish and Wildlife",
+        "award_count": 720,
+        "awarded_usd": 568027017.0,
+        "with_subrecipients_usd": 395033253.0
+      },
+      {
+        "agency_dept": "Department of Resources Recycling and Recovery",
+        "award_count": 567,
+        "awarded_usd": 394029852.0,
+        "with_subrecipients_usd": 20058254.0
+      },
+      {
+        "agency_dept": "Department of Health Care Access and Information",
+        "award_count": 5149,
+        "awarded_usd": 392469537.0,
+        "with_subrecipients_usd": 19279997.0
+      },
+      {
+        "agency_dept": "Employment Development Department",
+        "award_count": 148,
+        "awarded_usd": 290962316.0,
+        "with_subrecipients_usd": 177221799.0
+      },
+      {
+        "agency_dept": "Air Resources Board",
+        "award_count": 105,
+        "awarded_usd": 286589586.0,
+        "with_subrecipients_usd": 138678658.0
+      },
+      {
+        "agency_dept": "Department of Parks and Recreation",
+        "award_count": 813,
+        "awarded_usd": 246237999.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Workforce Development Board",
+        "award_count": 86,
+        "awarded_usd": 198329641.0,
+        "with_subrecipients_usd": 56646436.0
+      },
+      {
+        "agency_dept": "Infrastructure and Economic Development Bank",
+        "award_count": 9,
+        "awarded_usd": 165289000.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Department of Conservation",
+        "award_count": 114,
+        "awarded_usd": 161237543.0,
+        "with_subrecipients_usd": 553848.0
+      },
+      {
+        "agency_dept": "Department of Industrial Relations",
+        "award_count": 168,
+        "awarded_usd": 112910093.0,
+        "with_subrecipients_usd": 6175000.0
+      },
+      {
+        "agency_dept": "Public Utilities Commission",
+        "award_count": 430,
+        "awarded_usd": 105732034.0,
+        "with_subrecipients_usd": 999470.0
+      },
+      {
+        "agency_dept": "Department of Justice (Office of the Attorney General)",
+        "award_count": 218,
+        "awarded_usd": 98662182.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Sierra Nevada Conservancy",
+        "award_count": 80,
+        "awarded_usd": 91061885.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Governor\u2019s Office of Land Use and Climate Innovation",
+        "award_count": 219,
+        "awarded_usd": 88110468.0,
+        "with_subrecipients_usd": 45593020.0
+      },
+      {
+        "agency_dept": "Sacramento-San Joaquin Delta Conservancy",
+        "award_count": 24,
+        "awarded_usd": 85115036.0,
+        "with_subrecipients_usd": 22173040.0
+      },
+      {
+        "agency_dept": "CA Natural Resources Agency",
+        "award_count": 197,
+        "awarded_usd": 72568798.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "CA Department of Corrections and Rehabilitation",
+        "award_count": 173,
+        "awarded_usd": 68791982.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Department of Toxic Substances Control",
+        "award_count": 68,
+        "awarded_usd": 68304675.0,
+        "with_subrecipients_usd": null
+      },
+      {
+        "agency_dept": "Department of Aging",
+        "award_count": 729,
+        "awarded_usd": 60273702.0,
+        "with_subrecipients_usd": 799826.0
+      },
+      {
+        "agency_dept": "CA Department of Veterans Affairs",
+        "award_count": 18,
+        "awarded_usd": 58149918.0,
+        "with_subrecipients_usd": 26430178.0
+      }
+    ]
+  }
+}

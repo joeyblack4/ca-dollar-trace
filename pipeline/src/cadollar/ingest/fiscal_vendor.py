@@ -32,6 +32,25 @@ from ..storage import Storage, read_manifest, write_manifest
 from .csv_download import QualityGateError
 from .http import fetch_bytes
 
+# Heuristic classifier: payees that are themselves government bodies (state
+# departments, counties, cities, districts, public universities). These are
+# transfers within the public sector, not purchases from outside vendors —
+# mixing them changes what "who got paid" means. Published as a heuristic
+# flag (`public_sector`), rule list kept here in the open.
+PUBLIC_SECTOR_REGEX = (
+    r"^(DEPT|DEPARTMENT) OF|"
+    r"^STATE OF |^STATE (CONTROLLER|TREASURER|BAR)|"
+    r"^(CA|CALIF|CALIFORNIA) (STATE|DEPT|DEPARTMENT|HIGHWAY|CONSERVATION)|"
+    r"^COUNTY OF |COUNTY (OF[ ,]|TREASURER|OFFICE OF ED)|^CITY OF |CITY & COUNTY|"
+    r"TREASURER OF |AUDITOR[- ]CONTROLLER|"
+    r"^UNIVERSITY OF CALIFORNIA|^UC (REGENTS|DAVIS|LOS ANGELES|SAN|BERKELEY|IRVINE|RIVERSIDE)|"
+    r"^REGENTS OF|CAL(IFORNIA)? STATE UNIV|^CSU |"
+    r"SCHOOL DIST|UNIFIED|COMMUNITY COLLEGE|COUNTY SUPERINTENDENT|"
+    r"WATER DIST|IRRIGATION DIST|SANITATION DIST|TRANSIT (DIST|AUTH)|"
+    r"^JUDICIAL COUNCIL|^SUPERIOR COURT|^OFFICE OF THE |"
+    r"HOUSING AUTH|JOINT POWERS|^TOWN OF "
+)
+
 CLEANSE_SQL = """
 CREATE OR REPLACE TABLE cleansed AS
 SELECT
@@ -177,7 +196,8 @@ def publish_vendor_summaries(
                count(DISTINCT vendor_name),
                sum(amount_usd),
                sum(amount_usd) FILTER (is_confidential),
-               min(accounting_date), max(accounting_date)
+               min(accounting_date), max(accounting_date),
+               sum(amount_usd) FILTER (regexp_matches(upper(vendor_name), '{PUBLIC_SECTOR_REGEX}'))
         FROM read_parquet('{glob_path}')
         WHERE fiscal_year_begin = '20{latest_fy}'
         GROUP BY 1
@@ -186,10 +206,11 @@ def publish_vendor_summaries(
 
     by_agency: dict[str, list[dict[str, Any]]] = {}
     unmatched = []
-    for bu, dname, txns, vendors, total, confid, dmin, dmax in dept_rows:
+    for bu, dname, txns, vendors, total, confid, dmin, dmax, pub_usd in dept_rows:
         top = conn.execute(
             f"""
-            SELECT vendor_name, sum(amount_usd), bool_or(is_confidential)
+            SELECT vendor_name, sum(amount_usd), bool_or(is_confidential),
+                   regexp_matches(upper(any_value(vendor_name)), '{PUBLIC_SECTOR_REGEX}')
             FROM read_parquet('{glob_path}')
             WHERE business_unit = ? AND fiscal_year_begin = '20{latest_fy}'
             GROUP BY 1 ORDER BY 2 DESC LIMIT 25
@@ -205,13 +226,15 @@ def publish_vendor_summaries(
             "vendor_count": vendors,
             "vendor_total_usd": float(total or 0),
             "confidential_usd": float(confid or 0),
+            "public_sector_usd": float(pub_usd or 0),
             "accounting_dates": [str(dmin), str(dmax)],
             "enacted_budget_usd": budget,
             "checkbook_coverage_pct": (
                 round(100 * float(total or 0) / budget, 1) if budget else None
             ),
             "top_vendors": [
-                {"name": v, "usd": float(a), "masked": bool(m)} for v, a, m in top
+                {"name": v, "usd": float(a), "masked": bool(m), "public_sector": bool(ps)}
+                for v, a, m, ps in top
             ],
         }
         agency_cd = dept_agency.get(bu)
@@ -279,7 +302,8 @@ def _publish_vendor_profiles(
     conn = duckdb.connect(":memory:")
     top = conn.execute(
         f"""
-        SELECT vendor_name, sum(amount_usd) total, bool_or(is_confidential)
+        SELECT vendor_name, sum(amount_usd) total, bool_or(is_confidential),
+               regexp_matches(upper(any_value(vendor_name)), '{PUBLIC_SECTOR_REGEX}')
         FROM read_parquet('{conn_path}')
         GROUP BY 1 ORDER BY 2 DESC LIMIT 500
         """
@@ -311,11 +335,12 @@ def _publish_vendor_profiles(
         name: {
             "total_usd": float(total),
             "masked": bool(masked),
+            "public_sector": bool(pub),
             "years": {},
             "departments": [],
             "programs": [],
         }
-        for name, total, masked in top
+        for name, total, masked, pub in top
     }
     for name, fy, usd in years:
         profiles[name]["years"][fy] = float(usd)

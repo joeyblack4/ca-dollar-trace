@@ -1,0 +1,25 @@
+# California Grants Portal — ACTUAL post-award data (AB 132): recipient names,
+# award amounts, and the subrecipient flag. One CSV per fiscal year, updated
+# daily on data.ca.gov. This is the awards layer of the grants lane; the
+# opportunities feed (grants_portal source) is the pre-award layer.
+source: grants_awards
+dataset: awards_by_fy
+access: json_api  # multi-endpoint CSV; endpoints keyed by fiscal year
+endpoints:
+  fy2022_23: "https://data.ca.gov/dataset/0ae62873-b7f0-498e-a595-476fa8478b0b/resource/86870d5c-e9fa-46f5-8f86-2a9893662ce1/download/grant-awards-fiscal-year-2022-2023.csv"
+  fy2023_24: "https://data.ca.gov/dataset/572d06aa-4f1f-44ad-80a4-167bec020881/resource/018f3523-652d-4197-a4a8-a055bfd1544f/download/grant-awards-fiscal-year-2023-2024.csv"
+  fy2024_25: "https://data.ca.gov/dataset/14aca9b5-d384-43eb-ba8e-81fc94aea432/resource/97bbaf09-c935-4897-9529-b8cc56b080a1/download/grant-awards-fiscal-year-2024-2025.csv"
+cadence: "daily, published ~8:45pm PT"
+freshness_sla_hours: 48
+min_rows: 1000
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Post-award data exists only for grants closing on/after July 1, 2022 (AB 132) — earlier grant awards are not published here."
+  - "The portal records only WHETHER subrecipients exist per award, never who they are — every award marked 'has subrecipients' is a flagged dead end."
+  - "Award amounts are as reported by the granting agency; blanks are counted as unknown, never zero."
+info:
+  name: "California Grants Portal — Grant Awards"
+  publisher: "California State Library"
+  url: "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025"
+  license: "Public Domain (other-pd)"

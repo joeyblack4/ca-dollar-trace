@@ -14,9 +14,18 @@ export interface VendorDept {
   vendor_count: number;
   vendor_total_usd: number;
   confidential_usd: number;
+  public_sector_usd: number;
   enacted_budget_usd: number | null;
   checkbook_coverage_pct: number | null;
-  top_vendors: { name: string; usd: number; masked: boolean }[];
+  top_vendors: { name: string; usd: number; masked: boolean; public_sector: boolean }[];
+}
+
+export function PublicSectorChip() {
+  return (
+    <span className="rounded-full border border-[#2a78d6]/40 bg-[#2a78d6]/10 px-2 py-0.5 text-xs text-[#1c5cab]">
+      public agency
+    </span>
+  );
 }
 
 export function VendorsSection({ departments }: { departments: VendorDept[] }) {
@@ -80,6 +89,11 @@ export function VendorsSection({ departments }: { departments: VendorDept[] }) {
                           {v.masked && (
                             <span className="ml-2 align-middle">
                               <CoverageBadge flag="masked" />
+                            </span>
+                          )}
+                          {v.public_sector && (
+                            <span className="ml-2 align-middle">
+                              <PublicSectorChip />
                             </span>
                           )}
                         </td>

@@ -12,6 +12,7 @@ export type PathSeg =
 export interface VendorProfile {
   total_usd: number;
   masked: boolean;
+  public_sector: boolean;
   years: Record<string, number>;
   departments: { org_cd: string; title: string; agency_cd: string | null; usd: number }[];
   programs: { program: string; usd: number }[];
