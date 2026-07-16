@@ -1,0 +1,23 @@
+# USAspending.gov — federal awards with California place of performance.
+# POST search endpoints; federal FY2025 (Oct 2024 - Sep 2025). Names the actual
+# recipients of the "Federal funds" that appear in state-agency fund mixes.
+source: usaspending_ca
+dataset: fy2025_ca_recipients
+access: json_api_post
+endpoints:
+  recipients: "https://api.usaspending.gov/api/v2/search/spending_by_category/recipient/"
+  awarding_agencies: "https://api.usaspending.gov/api/v2/search/spending_by_category/awarding_agency/"
+cadence: "monthly-ish (agency submissions roll in continuously; subawards ~monthly)"
+freshness_sla_hours: 1440
+min_rows: 50
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Transaction obligations for awards performed in California, federal FY2025 (Oct 2024-Sep 2025); obligations are not the same as cash outlays."
+  - "'MULTIPLE RECIPIENTS' aggregates payments to individuals (e.g. direct benefits) that are masked for privacy — shown as masked, not omitted."
+  - "Subaward reporting below prime recipients is federally required only above $30,000 and is known to be incomplete."
+info:
+  name: "USAspending — federal awards into California (FY2025)"
+  publisher: "U.S. Department of the Treasury"
+  url: "https://www.usaspending.gov/search"
+  license: "Public domain (U.S. federal government work)"

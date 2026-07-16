@@ -1,0 +1,387 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "6010",
+    "title": "K thru 12 Education",
+    "total_usd": 121381724000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 121381724000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "6100",
+        "title": "Department of Education",
+        "total_usd": 112666438000,
+        "general_fund_usd": 73375139000,
+        "positions": 2683.0,
+        "programs": [
+          {
+            "program_code": "5200",
+            "title": "Instruction",
+            "usd": 101378512000,
+            "positions": 976.0
+          },
+          {
+            "program_code": "5210",
+            "title": "Special Programs",
+            "usd": 8900125000,
+            "positions": 447.2
+          },
+          {
+            "program_code": "5205",
+            "title": "Instructional Support",
+            "usd": 2107076000,
+            "positions": 947.9
+          },
+          {
+            "program_code": "5240",
+            "title": "State-Mandated Local Programs",
+            "usd": 273003000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 59601000,
+            "positions": 287.8
+          },
+          {
+            "program_code": "5220",
+            "title": "State Board of Education",
+            "usd": 5437000,
+            "positions": 24.1
+          },
+          {
+            "program_code": "5205018",
+            "title": "Literacy Support and Instruction",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -59601000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 73372854000,
+          "Other funds": 31081782000,
+          "Federal funds": 8133826000,
+          "Special funds": 71206000,
+          "Bond funds": 4485000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 112664153000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6300",
+        "title": "Teachers Retirement System Contributions",
+        "total_usd": 4632466000,
+        "general_fund_usd": 4632466000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5350",
+            "title": "Benefits Funding",
+            "usd": 3617587000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5355",
+            "title": "Supplemental Benefits Maintenance Account",
+            "usd": 1013971000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5365",
+            "title": "Benefit Payment Revisions",
+            "usd": 908000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 4632466000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4632466000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6396",
+        "title": "General Obligation Bonds-K-12",
+        "total_usd": 2341688000,
+        "general_fund_usd": 2341688000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5400",
+            "title": "GO Bonds - Debt Service - K-12",
+            "usd": 2341688000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 2341688000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2341688000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6350",
+        "title": "School Facilities Aid Program",
+        "total_usd": 1630282000,
+        "general_fund_usd": 118090000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5370",
+            "title": "School Facilities Aid Program",
+            "usd": 1575892000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5376",
+            "title": "Regional K-16 Education Collaboratives",
+            "usd": 54390000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5375",
+            "title": "Full-Day Kindergarten Facilities Grant Program",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5377",
+            "title": "STEM Teacher Recruitment Grant Program",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 1512192000,
+          "General Fund": 118090000,
+          "Special funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1630282000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0954",
+        "title": "Scholarshare Investment Board",
+        "total_usd": 198371000,
+        "general_fund_usd": 195345000,
+        "positions": 17.0,
+        "programs": [
+          {
+            "program_code": "0795",
+            "title": "Statewide Child Savings Account Program",
+            "usd": 195284000,
+            "positions": 7.0
+          },
+          {
+            "program_code": "0780",
+            "title": "Golden State Scholarshare Trust Program",
+            "usd": 3026000,
+            "positions": 10.0
+          },
+          {
+            "program_code": "0785",
+            "title": "Governor's Scholarship Program",
+            "usd": 61000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 195345000,
+          "Other funds": 3026000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 198371000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6120",
+        "title": "State Library",
+        "total_usd": 147635000,
+        "general_fund_usd": 136992000,
+        "positions": 183.9,
+        "programs": [
+          {
+            "program_code": "5312",
+            "title": "Library Development Services",
+            "usd": 103393000,
+            "positions": 31.0
+          },
+          {
+            "program_code": "5310",
+            "title": "State Library Services",
+            "usd": 40392000,
+            "positions": 140.1
+          },
+          {
+            "program_code": "5314",
+            "title": "Information Technology Services",
+            "usd": 3850000,
+            "positions": 12.8
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 136992000,
+          "Federal funds": 7104000,
+          "Other funds": 2792000,
+          "Special funds": 747000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 147635000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6360",
+        "title": "Commission on Teacher Credentialing",
+        "total_usd": 111006000,
+        "general_fund_usd": 77352000,
+        "positions": 206.9,
+        "programs": [
+          {
+            "program_code": "5397",
+            "title": "Educator Preparation",
+            "usd": 70000000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5381",
+            "title": "Preparation & Licensing of Teachers",
+            "usd": 26872000,
+            "positions": 153.8
+          },
+          {
+            "program_code": "5399",
+            "title": "Administration",
+            "usd": 8424000,
+            "positions": 53.1
+          },
+          {
+            "program_code": "5382",
+            "title": "Attorney General Legal Services",
+            "usd": 5400000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5383",
+            "title": "Accreditation Streamline Project",
+            "usd": 310000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5384",
+            "title": "Educator Performance Assessments",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 77352000,
+          "Special funds": 33346000,
+          "Other funds": 308000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 111006000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6255",
+        "title": "Summer School for the Arts",
+        "total_usd": 2886000,
+        "general_fund_usd": 1357000,
+        "positions": 4.4,
+        "programs": [
+          {
+            "program_code": "5340",
+            "title": "California State Summer School for the Arts",
+            "usd": 2886000,
+            "positions": 4.4
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 1529000,
+          "General Fund": 1357000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2886000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6125",
+        "title": "Education Audit Appeals Panel",
+        "total_usd": 1356000,
+        "general_fund_usd": 1356000,
+        "positions": 5.3,
+        "programs": [
+          {
+            "program_code": "5320",
+            "title": "Education Audit Appeals Panel",
+            "usd": 1356000,
+            "positions": 5.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1356000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1356000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6305",
+        "title": "Retirement Costs for Community Colleges",
+        "total_usd": -350404000,
+        "general_fund_usd": -350404000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": -350404000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": -350404000
+        },
+        "integrity": {
+          "program_lines_sum_usd": -350404000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

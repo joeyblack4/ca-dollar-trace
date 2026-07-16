@@ -1,0 +1,999 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "4000",
+    "title": "Health and Human Services",
+    "total_usd": 306155515000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 306155515000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "4260",
+        "title": "State Department of Health Care Services",
+        "total_usd": 202746220000,
+        "general_fund_usd": 45603677000,
+        "positions": 4978.5,
+        "programs": [
+          {
+            "program_code": "3960022",
+            "title": "Benefits (Medical Care and Services)",
+            "usd": 189273264000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "3960015",
+            "title": "County and Other Local Assistance Administration",
+            "usd": 7459685000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "3960050",
+            "title": "Other Care Services",
+            "usd": 4853170000,
+            "positions": 631.6
+          },
+          {
+            "program_code": "3960010",
+            "title": "Medical Care Services (Medi-Cal)",
+            "usd": 852724000,
+            "positions": 4219.0
+          },
+          {
+            "program_code": "3960023",
+            "title": "Children's Medical Services",
+            "usd": 281798000,
+            "positions": 116.9
+          },
+          {
+            "program_code": "3960032",
+            "title": "Primary, Rural and Indian Health",
+            "usd": 25579000,
+            "positions": 11.0
+          },
+          {
+            "program_code": "3960014",
+            "title": "Eligibility (County Administration)",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "3960018",
+            "title": "Fiscal Intermediary Management",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 123009809000,
+          "General Fund": 45603677000,
+          "Special funds": 28285577000,
+          "Other funds": 5397113000,
+          "Bond funds": 450044000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 202746220000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5180",
+        "title": "Department of Social Services",
+        "total_usd": 56097719000,
+        "general_fund_usd": 24542134000,
+        "positions": 5757.4,
+        "programs": [
+          {
+            "program_code": "4275",
+            "title": "Social Services and Licensing",
+            "usd": 33789548000,
+            "positions": 2350.5
+          },
+          {
+            "program_code": "4270",
+            "title": "Welfare Programs",
+            "usd": 21919705000,
+            "positions": 1257.6
+          },
+          {
+            "program_code": "4285",
+            "title": "Disability Evaluation and Other Services",
+            "usd": 388466000,
+            "positions": 2149.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 24542134000,
+          "Other funds": 19877239000,
+          "Federal funds": 11639555000,
+          "Special funds": 38791000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 56097719000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4300",
+        "title": "Department of Developmental Services",
+        "total_usd": 18670738000,
+        "general_fund_usd": 12165053000,
+        "positions": 2649.7,
+        "programs": [
+          {
+            "program_code": "4140",
+            "title": "Community Services Program",
+            "usd": 18196079000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4145",
+            "title": "State-Operated Residential and Community Facilities Program",
+            "usd": 309641000,
+            "positions": 1900.7
+          },
+          {
+            "program_code": "4149",
+            "title": "Program Administration",
+            "usd": 162822000,
+            "positions": 749.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 12162857000,
+          "Other funds": 6444904000,
+          "Federal funds": 58508000,
+          "Special funds": 2273000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 18668542000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5195",
+        "title": "State-Local Realignment, 1991",
+        "total_usd": 7763481000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "4350",
+            "title": "State-Local Realignment",
+            "usd": 7763481000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 7763481000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7763481000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5196",
+        "title": "State-Local Realignment, 2011",
+        "total_usd": 6685105000,
+        "general_fund_usd": 44160000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "4360",
+            "title": "State-Local Realignment, 2011",
+            "usd": 6685105000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 6640945000,
+          "General Fund": 44160000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 6685105000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4265",
+        "title": "Department of Public Health",
+        "total_usd": 5209115000,
+        "general_fund_usd": 799341000,
+        "positions": 5227.4,
+        "programs": [
+          {
+            "program_code": "4045032",
+            "title": "Family Health",
+            "usd": 1930944000,
+            "positions": 666.9
+          },
+          {
+            "program_code": "4045023",
+            "title": "Infectious Diseases",
+            "usd": 1675821000,
+            "positions": 526.1
+          },
+          {
+            "program_code": "4045010",
+            "title": "Healthy Communities",
+            "usd": 548165000,
+            "positions": 630.0
+          },
+          {
+            "program_code": "4050010",
+            "title": "Health Facilities",
+            "usd": 489459000,
+            "positions": 1728.4
+          },
+          {
+            "program_code": "4040010",
+            "title": "Emergency Preparedness",
+            "usd": 253531000,
+            "positions": 184.6
+          },
+          {
+            "program_code": "4045059",
+            "title": "Environmental Health",
+            "usd": 106608000,
+            "positions": 473.6
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 101555000,
+            "positions": 446.5
+          },
+          {
+            "program_code": "4045068",
+            "title": "Laboratory Sciences",
+            "usd": 77549000,
+            "positions": 203.0
+          },
+          {
+            "program_code": "4045041",
+            "title": "Health Statistics and Informatics",
+            "usd": 52968000,
+            "positions": 251.5
+          },
+          {
+            "program_code": "4050019",
+            "title": "Laboratory Field Services",
+            "usd": 31836000,
+            "positions": 113.7
+          },
+          {
+            "program_code": "4045021",
+            "title": "Competitive Grants",
+            "usd": 12578000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4045013",
+            "title": "Media Campaign",
+            "usd": 11141000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4045019",
+            "title": "Local Lead Agency",
+            "usd": 9150000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4045017",
+            "title": "State Administration",
+            "usd": 6637000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4045015",
+            "title": "Evaluation and Committee",
+            "usd": 2728000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4045050",
+            "title": "County Health Services",
+            "usd": 0,
+            "positions": 3.1
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -101555000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 2327478000,
+          "Special funds": 1241658000,
+          "Other funds": 840638000,
+          "General Fund": 799341000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 5209115000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4440",
+        "title": "Department of State Hospitals",
+        "total_usd": 3219762000,
+        "general_fund_usd": 2990469000,
+        "positions": 13385.5,
+        "programs": [
+          {
+            "program_code": "4410050",
+            "title": "Patton",
+            "usd": 486605000,
+            "positions": 2615.7
+          },
+          {
+            "program_code": "4410040",
+            "title": "Napa",
+            "usd": 456446000,
+            "positions": 2733.1
+          },
+          {
+            "program_code": "4410020",
+            "title": "Coalinga",
+            "usd": 443797000,
+            "positions": 2493.1
+          },
+          {
+            "program_code": "4410010",
+            "title": "Atascadero",
+            "usd": 382001000,
+            "positions": 2282.2
+          },
+          {
+            "program_code": "4430060",
+            "title": "Community Based IST Programs",
+            "usd": 380912000,
+            "positions": 31.0
+          },
+          {
+            "program_code": "4410030",
+            "title": "Metropolitan",
+            "usd": 344237000,
+            "positions": 2347.2
+          },
+          {
+            "program_code": "4430050",
+            "title": "Jail Based Treatment Programs",
+            "usd": 194008000,
+            "positions": 19.5
+          },
+          {
+            "program_code": "4400020",
+            "title": "Hospital Administration",
+            "usd": 174063000,
+            "positions": 341.0
+          },
+          {
+            "program_code": "4400010",
+            "title": "Headquarters Administration",
+            "usd": 109932000,
+            "positions": 404.7
+          },
+          {
+            "program_code": "4420010",
+            "title": "Conditional Release Program",
+            "usd": 77873000,
+            "positions": 31.2
+          },
+          {
+            "program_code": "4450020",
+            "title": "Incompetent to Stand Trial Re-Evaluation Services",
+            "usd": 27624000,
+            "positions": 17.5
+          },
+          {
+            "program_code": "4450010",
+            "title": "Offender with a Mental Disorder and Sex Offender Commitment Program Evaluation Services",
+            "usd": 17011000,
+            "positions": 50.3
+          },
+          {
+            "program_code": "4420020",
+            "title": "Conditional Release Program - Sexually Violent Predators",
+            "usd": 15069000,
+            "positions": 15.0
+          },
+          {
+            "program_code": "4430040",
+            "title": "Other Contracted Services",
+            "usd": 922000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "4410060",
+            "title": "State Hospital Police Academy",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4430030",
+            "title": "Other Contracted Services",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 2931652000,
+          "Other funds": 178748000,
+          "Federal funds": 100000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3110500000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0530",
+        "title": "Health, Human Services Agency, Secy",
+        "total_usd": 1200259000,
+        "general_fund_usd": 262342000,
+        "positions": 554.5,
+        "programs": [
+          {
+            "program_code": "0290",
+            "title": "Office of Technology and Solutions Integration",
+            "usd": 898426000,
+            "positions": 417.6
+          },
+          {
+            "program_code": "0286",
+            "title": "Office of Youth and Community Restoration",
+            "usd": 261973000,
+            "positions": 37.0
+          },
+          {
+            "program_code": "0280",
+            "title": "Secretary of California Health and Human Services",
+            "usd": 33416000,
+            "positions": 77.5
+          },
+          {
+            "program_code": "0295",
+            "title": "Office of the Patient Advocate",
+            "usd": 2360000,
+            "positions": 7.2
+          },
+          {
+            "program_code": "0285",
+            "title": "California Office of Health Information Integrity (CALOHII)",
+            "usd": 1599000,
+            "positions": 4.2
+          },
+          {
+            "program_code": "0297",
+            "title": "Office of the Surgeon General",
+            "usd": 1404000,
+            "positions": 7.0
+          },
+          {
+            "program_code": "0296",
+            "title": "Center for Data Insights and Innovations",
+            "usd": 1081000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "0287",
+            "title": "California Initiative to Advance Precision Medicine",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 921530000,
+          "General Fund": 262342000,
+          "Federal funds": 13298000,
+          "Special funds": 3089000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1200259000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5175",
+        "title": "Department of Child Support Services",
+        "total_usd": 1187832000,
+        "general_fund_usd": 371395000,
+        "positions": 699.2,
+        "programs": [
+          {
+            "program_code": "4260",
+            "title": "Child Support Services Program",
+            "usd": 1187832000,
+            "positions": 699.2
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 733540000,
+          "General Fund": 371395000,
+          "Other funds": 82897000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1187832000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4800",
+        "title": "California Health Benefit Exchange",
+        "total_usd": 654359000,
+        "general_fund_usd": 20350000,
+        "positions": 1519.0,
+        "programs": [
+          {
+            "program_code": "4201",
+            "title": "California Health Benefit Exchange",
+            "usd": 442009000,
+            "positions": 1519.0
+          },
+          {
+            "program_code": "4202",
+            "title": "State Subsidy Program",
+            "usd": 212350000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 442009000,
+          "Special funds": 192000000,
+          "General Fund": 20350000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 654359000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4140",
+        "title": "Dept Health Care Access and Information",
+        "total_usd": 622717000,
+        "general_fund_usd": 164431000,
+        "positions": 890.7,
+        "programs": [
+          {
+            "program_code": "3835",
+            "title": "Health Care Workforce",
+            "usd": 229547000,
+            "positions": 93.0
+          },
+          {
+            "program_code": "3836",
+            "title": "BH Connect Workforce Initiative",
+            "usd": 179396000,
+            "positions": 32.0
+          },
+          {
+            "program_code": "3840",
+            "title": "Facilities Development",
+            "usd": 72394000,
+            "positions": 238.0
+          },
+          {
+            "program_code": "3831",
+            "title": "Health Care Quality and Affordability",
+            "usd": 55612000,
+            "positions": 128.0
+          },
+          {
+            "program_code": "3860",
+            "title": "Administration",
+            "usd": 40203000,
+            "positions": 211.0
+          },
+          {
+            "program_code": "3855",
+            "title": "Health Care Information and Quality Analysis",
+            "usd": 27356000,
+            "positions": 119.7
+          },
+          {
+            "program_code": "3865",
+            "title": "Health Care Payments Data Program",
+            "usd": 18209000,
+            "positions": 53.0
+          },
+          {
+            "program_code": "3845",
+            "title": "Cal-Mortgage Loan Insurance",
+            "usd": 0,
+            "positions": 16.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 342596000,
+          "General Fund": 164431000,
+          "Other funds": 112796000,
+          "Federal funds": 2894000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 622717000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5160",
+        "title": "Department of Rehabilitation",
+        "total_usd": 579531000,
+        "general_fund_usd": 83574000,
+        "positions": 1883.0,
+        "programs": [
+          {
+            "program_code": "4210",
+            "title": "Vocational Rehabilitation Services",
+            "usd": 551677000,
+            "positions": 1847.1
+          },
+          {
+            "program_code": "4215",
+            "title": "Independent Living Services",
+            "usd": 27854000,
+            "positions": 35.9
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 480859000,
+          "General Fund": 83574000,
+          "Other funds": 11441000,
+          "Special funds": 3657000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 579531000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4170",
+        "title": "California Department of Aging",
+        "total_usd": 432896000,
+        "general_fund_usd": 163136000,
+        "positions": 268.6,
+        "programs": [
+          {
+            "program_code": "3890",
+            "title": "Nutrition",
+            "usd": 234388000,
+            "positions": 44.9
+          },
+          {
+            "program_code": "3900",
+            "title": "Supportive Services",
+            "usd": 143784000,
+            "positions": 85.3
+          },
+          {
+            "program_code": "3905",
+            "title": "Community-Based Programs and Projects",
+            "usd": 21597000,
+            "positions": 9.7
+          },
+          {
+            "program_code": "3910",
+            "title": "Medi-Cal Programs",
+            "usd": 16990000,
+            "positions": 69.9
+          },
+          {
+            "program_code": "3915",
+            "title": "Policy & Planning",
+            "usd": 8352000,
+            "positions": 55.0
+          },
+          {
+            "program_code": "3895",
+            "title": "Senior Community Employment Service",
+            "usd": 7785000,
+            "positions": 3.8
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 235355000,
+          "General Fund": 163136000,
+          "Other funds": 29173000,
+          "Special funds": 5232000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 432896000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4700",
+        "title": "Community Services and Development",
+        "total_usd": 349501000,
+        "general_fund_usd": 0,
+        "positions": 124.9,
+        "programs": [
+          {
+            "program_code": "4181",
+            "title": "Energy Programs",
+            "usd": 272400000,
+            "positions": 93.2
+          },
+          {
+            "program_code": "4185",
+            "title": "Community Services",
+            "usd": 77101000,
+            "positions": 31.7
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 343901000,
+          "Other funds": 5600000,
+          "General Fund": 0,
+          "Special funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 349501000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4250",
+        "title": "Children and Families Commission",
+        "total_usd": 270235000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "3950",
+            "title": "California Children and Families Commission",
+            "usd": 270235000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 270235000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 270235000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4150",
+        "title": "Department of Managed Health Care",
+        "total_usd": 180261000,
+        "general_fund_usd": 0,
+        "positions": 814.0,
+        "programs": [
+          {
+            "program_code": "3870",
+            "title": "Health Plan Program",
+            "usd": 180261000,
+            "positions": 814.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 180261000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 180261000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5206",
+        "title": "General Obligation Bonds-HHS",
+        "total_usd": 155199000,
+        "general_fund_usd": 155199000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "4370",
+            "title": "GO Bonds - Debt Service - HHS",
+            "usd": 155199000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 155199000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 155199000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4120",
+        "title": "Emergency Medical Services Authority",
+        "total_usd": 64166000,
+        "general_fund_usd": 36224000,
+        "positions": 121.0,
+        "programs": [
+          {
+            "program_code": "3820",
+            "title": "Emergency Medical Services Authority",
+            "usd": 64166000,
+            "positions": 121.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 36224000,
+          "Other funds": 17932000,
+          "Special funds": 5523000,
+          "Federal funds": 4487000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 64166000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4560",
+        "title": "Behavioral Hlth Svcs Ovrst Acntblty Comm",
+        "total_usd": 48777000,
+        "general_fund_usd": 0,
+        "positions": 59.0,
+        "programs": [
+          {
+            "program_code": "4170",
+            "title": "Behavioral Health Services Oversight and Accountability Commission",
+            "usd": 48777000,
+            "positions": 59.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 48777000,
+          "Other funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 48777000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4100",
+        "title": "State Council-Developmental Disabilities",
+        "total_usd": 15428000,
+        "general_fund_usd": 0,
+        "positions": 81.0,
+        "programs": [
+          {
+            "program_code": "3810",
+            "title": "Regional Offices and Regional Advisory Committees",
+            "usd": 12335000,
+            "positions": 61.5
+          },
+          {
+            "program_code": "3800",
+            "title": "State Council Planning and Administration",
+            "usd": 2833000,
+            "positions": 19.5
+          },
+          {
+            "program_code": "3805",
+            "title": "Community Program Development",
+            "usd": 260000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 8780000,
+          "Other funds": 6648000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 15428000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4180",
+        "title": "Commission on Aging",
+        "total_usd": 1045000,
+        "general_fund_usd": 48000,
+        "positions": 5.0,
+        "programs": [
+          {
+            "program_code": "3930",
+            "title": "Commission on Aging",
+            "usd": 1045000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 931000,
+          "Other funds": 66000,
+          "General Fund": 48000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1045000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5170",
+        "title": "State Independent Living Council",
+        "total_usd": 746000,
+        "general_fund_usd": 0,
+        "positions": 3.0,
+        "programs": [
+          {
+            "program_code": "4250",
+            "title": "State Council Services",
+            "usd": 746000,
+            "positions": 3.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 746000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 746000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "4185",
+        "title": "California Senior Legislature",
+        "total_usd": 423000,
+        "general_fund_usd": 298000,
+        "positions": 1.0,
+        "programs": [
+          {
+            "program_code": "3940",
+            "title": "California Senior Legislature",
+            "usd": 423000,
+            "positions": 1.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 298000,
+          "Other funds": 125000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 423000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5209",
+        "title": "Statewide Item-High Cost Medications",
+        "total_usd": 0,
+        "general_fund_usd": 0,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {},
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

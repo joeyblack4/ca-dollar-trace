@@ -1,0 +1,426 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "5210",
+    "title": "Corrections and Rehabilitation",
+    "total_usd": 18242462000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 18242462000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "5225",
+        "title": "Corrections and Rehabilitation",
+        "total_usd": 13648243000,
+        "general_fund_usd": 13261734000,
+        "positions": 59979.0,
+        "programs": [
+          {
+            "program_code": "4530",
+            "title": "Adult Corrections and Rehabilitation Operations-General Security",
+            "usd": 4687096000,
+            "positions": 24018.8
+          },
+          {
+            "program_code": "4650",
+            "title": "Medical Services-Adult",
+            "usd": 2720310000,
+            "positions": 13572.6
+          },
+          {
+            "program_code": "4540",
+            "title": "Adult Corrections and Rehabilitation Operations-Inmate Support",
+            "usd": 1821476000,
+            "positions": 7009.6
+          },
+          {
+            "program_code": "4550",
+            "title": "Adult Corrections and Rehabilitation Operations-Institution Administration",
+            "usd": 743327000,
+            "positions": 2786.4
+          },
+          {
+            "program_code": "4660",
+            "title": "Mental Health Services-Adult",
+            "usd": 729421000,
+            "positions": 3457.2
+          },
+          {
+            "program_code": "4500",
+            "title": "Corrections and Rehabilitation Administration",
+            "usd": 597667000,
+            "positions": 2643.8
+          },
+          {
+            "program_code": "4665",
+            "title": "Ancillary Health Care Services-Adult",
+            "usd": 434150000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4555",
+            "title": "Parole Operations-Adult Supervision",
+            "usd": 350056000,
+            "positions": 1666.1
+          },
+          {
+            "program_code": "4560",
+            "title": "Parole Operations-Adult Community Based Programs",
+            "usd": 290589000,
+            "positions": 147.5
+          },
+          {
+            "program_code": "4585",
+            "title": "Rehabilitative Programs-Adult Education",
+            "usd": 268324000,
+            "positions": 1512.7
+          },
+          {
+            "program_code": "4590",
+            "title": "Rehabilitative Programs-Cognitive Behavioral Therapy and Reentry Services",
+            "usd": 238950000,
+            "positions": 299.9
+          },
+          {
+            "program_code": "4655",
+            "title": "Dental Services-Adult",
+            "usd": 179314000,
+            "positions": 885.2
+          },
+          {
+            "program_code": "4505",
+            "title": "Peace Officer Selection and Employee Development",
+            "usd": 126857000,
+            "positions": 504.6
+          },
+          {
+            "program_code": "4595",
+            "title": "Rehabilitative Programs-Adult Inmate Activities",
+            "usd": 113798000,
+            "positions": 263.8
+          },
+          {
+            "program_code": "4565",
+            "title": "Parole Operations-Adult Administration",
+            "usd": 82395000,
+            "positions": 339.5
+          },
+          {
+            "program_code": "4510",
+            "title": "Department of Justice Legal Services",
+            "usd": 74032000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "4670",
+            "title": "Dental and Mental Health Services Administration-Adult",
+            "usd": 73699000,
+            "positions": 348.8
+          },
+          {
+            "program_code": "4575",
+            "title": "Board of Parole Hearings-Adult Hearings",
+            "usd": 60561000,
+            "positions": 229.0
+          },
+          {
+            "program_code": "4600",
+            "title": "Rehabilitative Programs-Adult Administration",
+            "usd": 29387000,
+            "positions": 208.3
+          },
+          {
+            "program_code": "4580",
+            "title": "Board of Parole Hearings-Administration",
+            "usd": 11853000,
+            "positions": 80.2
+          },
+          {
+            "program_code": "4570",
+            "title": "Sex Offender Management Board and Saratso Review Committee",
+            "usd": 1359000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 13248112000,
+          "Other funds": 384768000,
+          "Federal funds": 1647000,
+          "Special funds": 94000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 13634621000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5496",
+        "title": "Local Community Corrections",
+        "total_usd": 2075258000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5100",
+            "title": "Community Corrections Subaccount",
+            "usd": 2075258000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 2075258000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2075258000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5396",
+        "title": "Trial Court Security 2011 Realignment",
+        "total_usd": 661567000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5010",
+            "title": "Trial Court Security Subaccount",
+            "usd": 661567000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 661567000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 661567000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5227",
+        "title": "Board of State and Community Corrections",
+        "total_usd": 583229000,
+        "general_fund_usd": 117917000,
+        "positions": 184.0,
+        "programs": [
+          {
+            "program_code": "4945",
+            "title": "Corrections Planning and Grant Programs",
+            "usd": 282848000,
+            "positions": 48.0
+          },
+          {
+            "program_code": "4940",
+            "title": "Administration, Research and Program Support",
+            "usd": 33281000,
+            "positions": 61.0
+          },
+          {
+            "program_code": "4955",
+            "title": "Standards and Training for Local Corrections",
+            "usd": 23947000,
+            "positions": 13.0
+          },
+          {
+            "program_code": "4950",
+            "title": "Local Facility Standards and Operations",
+            "usd": 6091000,
+            "positions": 30.0
+          },
+          {
+            "program_code": "4952",
+            "title": "In-Custody Death Review Division",
+            "usd": 5239000,
+            "positions": 25.0
+          },
+          {
+            "program_code": "4965",
+            "title": "County Facility Construction",
+            "usd": 1175000,
+            "positions": 7.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 171126000,
+          "General Fund": 117917000,
+          "Federal funds": 63538000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 352581000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "5296",
+        "title": "Enhancing Law Enforcement Activities",
+        "total_usd": 489900000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "4980",
+            "title": "Enhancing Law Enforcement Activities Subaccount",
+            "usd": 489900000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 489900000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 489900000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5796",
+        "title": "Enhancing Law Enforcement Act Growth",
+        "total_usd": 429408000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5160",
+            "title": "Enhancing Law Enforcement Activities Growth Subaccount",
+            "usd": 429408000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 429408000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 429408000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5696",
+        "title": "Juvenile Justice Programs",
+        "total_usd": 263942000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5140",
+            "title": "Juvenile Justice Programs",
+            "usd": 263942000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 263942000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 263942000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5596",
+        "title": "Dist Attorney and Public Defender Svcs",
+        "total_usd": 88857000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5120",
+            "title": "District Attorney and Public Defender Services Subaccount",
+            "usd": 88857000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 88857000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 88857000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5996",
+        "title": "General Obligation Bonds-DCR",
+        "total_usd": 2058000,
+        "general_fund_usd": 2058000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5180",
+            "title": "GO Bonds - Debt Service - DCR",
+            "usd": 2058000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 2058000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2058000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5228",
+        "title": "Safe Neighborhoods and Schools Act",
+        "total_usd": 0,
+        "general_fund_usd": 91499000,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {
+          "General Fund": 91499000,
+          "Special funds": -91499000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5420",
+        "title": "Prison Industry Authority",
+        "total_usd": 0,
+        "general_fund_usd": 0,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {},
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "5990",
+        "title": "Federal Immigration Funding-Incarceratn",
+        "total_usd": 0,
+        "general_fund_usd": -45973000,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {
+          "Federal funds": 45973000,
+          "General Fund": -45973000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1066 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "3000",
+    "title": "Natural Resources",
+    "total_usd": 13381392000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 13381392000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "3540",
+        "title": "Department of Forestry, Fire Protection",
+        "total_usd": 4423998000,
+        "general_fund_usd": 1865423000,
+        "positions": 13289.0,
+        "programs": [
+          {
+            "program_code": "2465",
+            "title": "Fire Protection",
+            "usd": 3785211000,
+            "positions": 11436.1
+          },
+          {
+            "program_code": "2470",
+            "title": "Resource Management",
+            "usd": 302995000,
+            "positions": 570.7
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 215314000,
+            "positions": 1045.7
+          },
+          {
+            "program_code": "2461",
+            "title": "Office of the State Fire Marshal",
+            "usd": 64887000,
+            "positions": 225.6
+          },
+          {
+            "program_code": "2480",
+            "title": "Department of Justice Legal Services",
+            "usd": 6828000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2475",
+            "title": "Board of Forestry and Fire Protection",
+            "usd": 3990000,
+            "positions": 10.9
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -214944000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1774099000,
+          "Special funds": 1355366000,
+          "Other funds": 998994000,
+          "Federal funds": 35822000,
+          "Bond funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4164281000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "3860",
+        "title": "Department of Water Resources",
+        "total_usd": 3555297000,
+        "general_fund_usd": 317758000,
+        "positions": 3985.7,
+        "programs": [
+          {
+            "program_code": "3240",
+            "title": "Implementation of the State Water Resources Development System",
+            "usd": 1724477000,
+            "positions": 2256.1
+          },
+          {
+            "program_code": "3260",
+            "title": "California Energy Bond Office",
+            "usd": 911392000,
+            "positions": 28.0
+          },
+          {
+            "program_code": "3230",
+            "title": "Continuing Formulation of the California Water Plan",
+            "usd": 674175000,
+            "positions": 493.1
+          },
+          {
+            "program_code": "3245",
+            "title": "Public Safety and Prevention of Damage",
+            "usd": 202122000,
+            "positions": 587.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 108050000,
+            "positions": 553.5
+          },
+          {
+            "program_code": "3250",
+            "title": "Central Valley Flood Protection Board",
+            "usd": 23861000,
+            "positions": 54.3
+          },
+          {
+            "program_code": "3255",
+            "title": "Services",
+            "usd": 8675000,
+            "positions": 13.7
+          },
+          {
+            "program_code": "3265",
+            "title": "Loan Repayment Program",
+            "usd": -1405000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -108050000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 2626068000,
+          "Bond funds": 410117000,
+          "General Fund": 317758000,
+          "Federal funds": 143327000,
+          "Special funds": 46027000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3543297000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "3882",
+        "title": "General Obligation Bonds-Natural Res",
+        "total_usd": 1600033000,
+        "general_fund_usd": 1600033000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "3360",
+            "title": "GO Bonds - Debt Service - Resources",
+            "usd": 1600033000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1600033000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1600033000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3360",
+        "title": "Energy Resource Conservation,Dvlmt Comm",
+        "total_usd": 1126488000,
+        "general_fund_usd": 0,
+        "positions": 798.0,
+        "programs": [
+          {
+            "program_code": "2380",
+            "title": "Regulatory and Planning",
+            "usd": 671296000,
+            "positions": 224.4
+          },
+          {
+            "program_code": "2390",
+            "title": "Development",
+            "usd": 370704000,
+            "positions": 284.2
+          },
+          {
+            "program_code": "2385",
+            "title": "Energy Resources Conservation",
+            "usd": 84488000,
+            "positions": 289.4
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 685238000,
+          "Special funds": 424678000,
+          "Other funds": 16572000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1126488000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3790",
+        "title": "Department of Parks, Recreation",
+        "total_usd": 1014235000,
+        "general_fund_usd": 220238000,
+        "positions": 4807.1,
+        "programs": [
+          {
+            "program_code": "2840",
+            "title": "Support of the Department of Parks and Recreation",
+            "usd": 825534000,
+            "positions": 4740.3
+          },
+          {
+            "program_code": "2855",
+            "title": "Local Assistance Grants",
+            "usd": 135600000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2850",
+            "title": "Division of Boating and Waterways",
+            "usd": 29845000,
+            "positions": 66.8
+          },
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 444311000,
+          "General Fund": 216638000,
+          "Other funds": 214825000,
+          "Federal funds": 104546000,
+          "Bond funds": 10659000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 990979000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "3600",
+        "title": "Department of Fish and Wildlife",
+        "total_usd": 734576000,
+        "general_fund_usd": 165898000,
+        "positions": 3232.0,
+        "programs": [
+          {
+            "program_code": "2590",
+            "title": "Biodiversity Conservation Program",
+            "usd": 332300000,
+            "positions": 1252.2
+          },
+          {
+            "program_code": "2605",
+            "title": "Enforcement",
+            "usd": 126305000,
+            "positions": 503.5
+          },
+          {
+            "program_code": "2595",
+            "title": "Hunting, Fishing, and Public Use Program",
+            "usd": 122556000,
+            "positions": 494.0
+          },
+          {
+            "program_code": "2600",
+            "title": "Management of Department Lands and Facilities",
+            "usd": 94053000,
+            "positions": 445.1
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 66519000,
+            "positions": 332.8
+          },
+          {
+            "program_code": "2615",
+            "title": "Spill Prevention and Response",
+            "usd": 52199000,
+            "positions": 170.0
+          },
+          {
+            "program_code": "2610",
+            "title": "Communications, Education and Outreach",
+            "usd": 5138000,
+            "positions": 22.9
+          },
+          {
+            "program_code": "2620",
+            "title": "Fish and Game Commission",
+            "usd": 2025000,
+            "positions": 11.5
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -66519000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 328790000,
+          "General Fund": 165898000,
+          "Other funds": 122213000,
+          "Federal funds": 110173000,
+          "Bond funds": 7502000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 734576000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3480",
+        "title": "Department of Conservation",
+        "total_usd": 209816000,
+        "general_fund_usd": 9057000,
+        "positions": 930.9,
+        "programs": [
+          {
+            "program_code": "2425",
+            "title": "Geologic Energy Management Division",
+            "usd": 144829000,
+            "positions": 528.9
+          },
+          {
+            "program_code": "2420",
+            "title": "Geologic Hazards and Mineral Resources Conservation",
+            "usd": 44330000,
+            "positions": 153.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 43460000,
+            "positions": 166.6
+          },
+          {
+            "program_code": "2435",
+            "title": "Division of Mine Reclamation",
+            "usd": 12079000,
+            "positions": 42.5
+          },
+          {
+            "program_code": "2430",
+            "title": "Land Resource Protection",
+            "usd": 7285000,
+            "positions": 35.9
+          },
+          {
+            "program_code": "2440",
+            "title": "State Mining and Geology Board",
+            "usd": 1293000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -43460000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 183503000,
+          "Other funds": 11111000,
+          "General Fund": 9057000,
+          "Federal funds": 5658000,
+          "Bond funds": 487000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 209816000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3340",
+        "title": "California Conservation Corps",
+        "total_usd": 171248000,
+        "general_fund_usd": 107781000,
+        "positions": 503.2,
+        "programs": [
+          {
+            "program_code": "2360",
+            "title": "Training and Work Program",
+            "usd": 160772000,
+            "positions": 503.2
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 101385000,
+          "Special funds": 59022000,
+          "Bond funds": 365000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 160772000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0540",
+        "title": "Natural Resources Agency, Secy",
+        "total_usd": 107775000,
+        "general_fund_usd": 63374000,
+        "positions": 130.3,
+        "programs": [
+          {
+            "program_code": "0320",
+            "title": "Administration of Natural Resources Agency",
+            "usd": 107775000,
+            "positions": 130.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 63374000,
+          "Special funds": 18238000,
+          "Other funds": 14602000,
+          "Bond funds": 11561000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 107775000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3760",
+        "title": "State Coastal Conservancy",
+        "total_usd": 72516000,
+        "general_fund_usd": 0,
+        "positions": 83.0,
+        "programs": [
+          {
+            "program_code": "2805",
+            "title": "Local Assistance",
+            "usd": 54268000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2790",
+            "title": "Coastal Conservancy Programs",
+            "usd": 14448000,
+            "positions": 83.0
+          },
+          {
+            "program_code": "2820",
+            "title": "Capital Outlay",
+            "usd": 3800000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 30008000,
+          "Other funds": 25657000,
+          "Bond funds": 8324000,
+          "Special funds": 4727000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 72516000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3560",
+        "title": "State Lands Commission",
+        "total_usd": 63788000,
+        "general_fund_usd": 33895000,
+        "positions": 252.6,
+        "programs": [
+          {
+            "program_code": "2560",
+            "title": "Mineral Resources Management",
+            "usd": 28146000,
+            "positions": 79.0
+          },
+          {
+            "program_code": "2565",
+            "title": "Land Management",
+            "usd": 20676000,
+            "positions": 78.6
+          },
+          {
+            "program_code": "2570",
+            "title": "Marine Environmental Protection Division",
+            "usd": 14966000,
+            "positions": 95.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 33895000,
+          "Special funds": 23913000,
+          "Other funds": 5980000,
+          "Federal funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 63788000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3100",
+        "title": "Exposition Park",
+        "total_usd": 48223000,
+        "general_fund_usd": 31018000,
+        "positions": 198.3,
+        "programs": [
+          {
+            "program_code": "2300",
+            "title": "California Science Center",
+            "usd": 30047000,
+            "positions": 134.0
+          },
+          {
+            "program_code": "2305",
+            "title": "Exposition Park Management",
+            "usd": 13870000,
+            "positions": 45.0
+          },
+          {
+            "program_code": "2310",
+            "title": "California African American Museum",
+            "usd": 4306000,
+            "positions": 19.3
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 984000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -984000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 31018000,
+          "Special funds": 14078000,
+          "Other funds": 3127000,
+          "Federal funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 48223000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3355",
+        "title": "Office of Energy Infrastructure Safety",
+        "total_usd": 44661000,
+        "general_fund_usd": 0,
+        "positions": 199.0,
+        "programs": [
+          {
+            "program_code": "2370",
+            "title": "Regulation of Energy Infrastructure Safety",
+            "usd": 44661000,
+            "positions": 199.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 44661000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 44661000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3640",
+        "title": "Wildlife Conservation Board",
+        "total_usd": 40886000,
+        "general_fund_usd": 21011000,
+        "positions": 44.0,
+        "programs": [
+          {
+            "program_code": "2720",
+            "title": "Capital Outlay",
+            "usd": 55663000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2710",
+            "title": "Wildlife Conservation Board",
+            "usd": -14777000,
+            "positions": 44.0
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 2953000,
+          "Special funds": 1038000,
+          "Other funds": 537000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 40886000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3720",
+        "title": "Coastal Commission",
+        "total_usd": 40546000,
+        "general_fund_usd": 27092000,
+        "positions": 218.0,
+        "programs": [
+          {
+            "program_code": "2730",
+            "title": "Coastal Management Program",
+            "usd": 40546000,
+            "positions": 218.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 27092000,
+          "Other funds": 4831000,
+          "Special funds": 4468000,
+          "Federal funds": 4155000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 40546000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3125",
+        "title": "Tahoe Conservancy",
+        "total_usd": 28631000,
+        "general_fund_usd": 32000,
+        "positions": 52.3,
+        "programs": [
+          {
+            "program_code": "2340",
+            "title": "Tahoe Conservancy",
+            "usd": 14462000,
+            "positions": 52.3
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 7123000,
+          "Other funds": 3124000,
+          "Federal funds": 2918000,
+          "Bond funds": 1265000,
+          "General Fund": 32000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 14462000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "3885",
+        "title": "Delta Stewardship Council",
+        "total_usd": 27725000,
+        "general_fund_usd": 19457000,
+        "positions": 74.5,
+        "programs": [
+          {
+            "program_code": "3370",
+            "title": "Delta Stewardship Council",
+            "usd": 27725000,
+            "positions": 74.5
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 19457000,
+          "Other funds": 4450000,
+          "Federal funds": 2832000,
+          "Special funds": 986000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 27725000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3820",
+        "title": "SF Bay Conservation, Development Comm",
+        "total_usd": 16156000,
+        "general_fund_usd": 10706000,
+        "positions": 59.2,
+        "programs": [
+          {
+            "program_code": "2980",
+            "title": "Bay Conservation and Development",
+            "usd": 16156000,
+            "positions": 59.2
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 10706000,
+          "Other funds": 3068000,
+          "Special funds": 2131000,
+          "Federal funds": 251000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 16156000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3855",
+        "title": "Sierra Nevada Conservancy",
+        "total_usd": 13539000,
+        "general_fund_usd": 0,
+        "positions": 46.3,
+        "programs": [
+          {
+            "program_code": "3220",
+            "title": "Sierra Nevada Conservancy",
+            "usd": 13539000,
+            "positions": 46.3
+          },
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 5655000,
+          "Bond funds": 4709000,
+          "Other funds": 1705000,
+          "Federal funds": 1470000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 13539000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3810",
+        "title": "Santa Monica Mountains Conservancy",
+        "total_usd": 7183000,
+        "general_fund_usd": 5000000,
+        "positions": 6.0,
+        "programs": [
+          {
+            "program_code": "2945",
+            "title": "Local Assistance Grants",
+            "usd": 5319000,
+            "positions": -1.0
+          },
+          {
+            "program_code": "2940",
+            "title": "Santa Monica Mountains Conservancy",
+            "usd": 1864000,
+            "positions": 7.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 5000000,
+          "Bond funds": 1314000,
+          "Special funds": 537000,
+          "Other funds": 332000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7183000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3110",
+        "title": "Special Resources Programs",
+        "total_usd": 6252000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "2320",
+            "title": "Tahoe Regional Planning Agency",
+            "usd": 5212000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2325",
+            "title": "Yosemite Foundation",
+            "usd": 840000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "2330",
+            "title": "Sea Grant Program",
+            "usd": 200000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 5753000,
+          "Other funds": 499000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 6252000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3825",
+        "title": "San Gabriel,Lower LA River,Mtns Consvcy",
+        "total_usd": 4653000,
+        "general_fund_usd": 0,
+        "positions": 13.5,
+        "programs": [
+          {
+            "program_code": "2990",
+            "title": "San Gabriel and Lower Los Angeles Rivers and Mountains Conservancy",
+            "usd": 4653000,
+            "positions": 13.5
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 3994000,
+          "Special funds": 629000,
+          "Other funds": 30000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4653000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3845",
+        "title": "San Diego River Conservancy",
+        "total_usd": 4266000,
+        "general_fund_usd": 0,
+        "positions": 4.0,
+        "programs": [
+          {
+            "program_code": "3140",
+            "title": "San Diego River Conservancy",
+            "usd": 4266000,
+            "positions": 4.0
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 2778000,
+          "Other funds": 1060000,
+          "Special funds": 428000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4266000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3780",
+        "title": "Native American Heritage Commission",
+        "total_usd": 3760000,
+        "general_fund_usd": 3754000,
+        "positions": 24.0,
+        "programs": [
+          {
+            "program_code": "2830",
+            "title": "Native American Heritage",
+            "usd": 3760000,
+            "positions": 24.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 3754000,
+          "Other funds": 6000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3760000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3875",
+        "title": "Sacramento-San Joaquin Delta Conservancy",
+        "total_usd": 3711000,
+        "general_fund_usd": 1484000,
+        "positions": 14.5,
+        "programs": [
+          {
+            "program_code": "3350",
+            "title": "Sacramento-San Joaquin Delta Conservancy",
+            "usd": 3711000,
+            "positions": 14.5
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1484000,
+          "Bond funds": 747000,
+          "Federal funds": 681000,
+          "Other funds": 669000,
+          "Special funds": 130000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3711000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3460",
+        "title": "Colorado River Board of California",
+        "total_usd": 2821000,
+        "general_fund_usd": 0,
+        "positions": 13.2,
+        "programs": [
+          {
+            "program_code": "2410",
+            "title": "Protection of California's Colorado River Rights and Interests",
+            "usd": 2821000,
+            "positions": 13.2
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 2821000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2821000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3850",
+        "title": "Coachella Valley Mountains Conservancy",
+        "total_usd": 2812000,
+        "general_fund_usd": 0,
+        "positions": 4.0,
+        "programs": [
+          {
+            "program_code": "3180",
+            "title": "Coachella Valley Mountains Conservancy",
+            "usd": 2812000,
+            "positions": 4.0
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 2273000,
+          "Special funds": 449000,
+          "Other funds": 90000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2812000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3840",
+        "title": "Delta Protection Commission",
+        "total_usd": 2391000,
+        "general_fund_usd": 0,
+        "positions": 8.4,
+        "programs": [
+          {
+            "program_code": "3130",
+            "title": "Delta Protection",
+            "usd": 2391000,
+            "positions": 8.4
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1510000,
+          "Other funds": 691000,
+          "Federal funds": 190000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2391000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3835",
+        "title": "Baldwin Hills and Urban Watersheds Cnsrv",
+        "total_usd": 2000000,
+        "general_fund_usd": 0,
+        "positions": 5.0,
+        "programs": [
+          {
+            "program_code": "3090",
+            "title": "Baldwin Hills and Urban Watersheds Conservancy",
+            "usd": 2000000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 1000000,
+          "Bond funds": 548000,
+          "Special funds": 452000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2000000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3830",
+        "title": "San Joaquin River Conservancy",
+        "total_usd": 1406000,
+        "general_fund_usd": 0,
+        "positions": 6.0,
+        "programs": [
+          {
+            "program_code": "3050",
+            "title": "San Joaquin River Conservancy",
+            "usd": 1406000,
+            "positions": 6.0
+          },
+          {
+            "program_code": "3060",
+            "title": "Capital Outlay",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 894000,
+          "Bond funds": 512000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1406000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3210",
+        "title": "Environmental Protection Program",
+        "total_usd": 0,
+        "general_fund_usd": 0,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {},
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

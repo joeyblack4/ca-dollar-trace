@@ -1,0 +1,26 @@
+# ebudget.ca.gov — department-level detail for the 2025-26 ENACTED budget.
+# deptIndex lists all departments; per department:
+#   orgProgram/{orgCd}      — program lines + totals ($ thousands)
+#   rwaCntl/support/{orgCd} — per-fund detail with fund class G/S/F/B ($ thousands)
+# ~194 departments x 2 endpoints per run; payloads are small JSON.
+source: ebudget_detail
+dataset: budget_2025_26_detail
+access: json_api
+endpoints:
+  agency_stats: "https://ebudget.ca.gov/api/publication/e/2025-26/statistics/{agency_cd}"
+  org_program: "https://ebudget.ca.gov/api/publication/e/2025-26/orgProgram/{org_cd}"
+  fund_support: "https://ebudget.ca.gov/api/publication/e/2025-26/rwaCntl/support/{org_cd}"
+cadence: "budget cycle (enacted June/July); re-polled with the summary source"
+freshness_sla_hours: 8760
+min_rows: 150   # departments floor
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent."
+  - "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped."
+  - "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+info:
+  name: "California Enacted Budget 2025-26 — Department Detail (ebudget)"
+  publisher: "California Department of Finance"
+  url: "https://ebudget.ca.gov/budget/publication/#/e/2025-26"
+  license: "Public record (California Department of Finance)"

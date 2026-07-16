@@ -1,0 +1,351 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "3890",
+    "title": "Environmental Protection",
+    "total_usd": 5077680000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 5077680000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "3970",
+        "title": "Resources Recycling and Recovery",
+        "total_usd": 1952107000,
+        "general_fund_usd": 14969000,
+        "positions": 1066.9,
+        "programs": [
+          {
+            "program_code": "3715",
+            "title": "Beverage Container Recycling and Litter Reduction",
+            "usd": 1675044000,
+            "positions": 330.8
+          },
+          {
+            "program_code": "3700",
+            "title": "Waste Reduction and Management",
+            "usd": 284957000,
+            "positions": 601.9
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 21494000,
+            "positions": 124.6
+          },
+          {
+            "program_code": "3710",
+            "title": "Education and Environment Initiative",
+            "usd": 3264000,
+            "positions": 9.6
+          },
+          {
+            "program_code": "3705",
+            "title": "Loan Repayments",
+            "usd": -11158000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -21494000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1933734000,
+          "General Fund": 14969000,
+          "Other funds": 3404000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1952107000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3940",
+        "title": "State Water Resources Control Board",
+        "total_usd": 1564291000,
+        "general_fund_usd": 73973000,
+        "positions": 2867.8,
+        "programs": [
+          {
+            "program_code": "3560",
+            "title": "Water Quality",
+            "usd": 1231650000,
+            "positions": 1988.3
+          },
+          {
+            "program_code": "3565",
+            "title": "Drinking Water Quality",
+            "usd": 250159000,
+            "positions": 459.6
+          },
+          {
+            "program_code": "3570",
+            "title": "Water Rights",
+            "usd": 76289000,
+            "positions": 406.9
+          },
+          {
+            "program_code": "3571",
+            "title": "Administrative Hearings Office",
+            "usd": 3392000,
+            "positions": 13.0
+          },
+          {
+            "program_code": "3575",
+            "title": "Department of Justice Legal Services",
+            "usd": 2801000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 809083000,
+          "Federal funds": 565249000,
+          "Other funds": 104174000,
+          "General Fund": 73973000,
+          "Bond funds": 11812000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1564291000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3900",
+        "title": "State Air Resources Board",
+        "total_usd": 841371000,
+        "general_fund_usd": 3165000,
+        "positions": 2078.9,
+        "programs": [
+          {
+            "program_code": "3500",
+            "title": "Mobile Source",
+            "usd": 500890000,
+            "positions": 1182.8
+          },
+          {
+            "program_code": "3510",
+            "title": "Climate Change",
+            "usd": 262676000,
+            "positions": 439.4
+          },
+          {
+            "program_code": "3505",
+            "title": "Stationary Source",
+            "usd": 49658000,
+            "positions": 374.6
+          },
+          {
+            "program_code": "3530",
+            "title": "Community Air Protection",
+            "usd": 18036000,
+            "positions": 82.1
+          },
+          {
+            "program_code": "3515",
+            "title": "Subvention",
+            "usd": 10111000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 808365000,
+          "Federal funds": 18414000,
+          "Other funds": 10101000,
+          "General Fund": 3165000,
+          "Bond funds": 1326000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 841371000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3960",
+        "title": "Department of Toxic Substances Control",
+        "total_usd": 478444000,
+        "general_fund_usd": 31965000,
+        "positions": 1453.2,
+        "programs": [
+          {
+            "program_code": "3620",
+            "title": "Site Mitigation and Restoration Program",
+            "usd": 227292000,
+            "positions": 512.6
+          },
+          {
+            "program_code": "3625",
+            "title": "Hazardous Waste Management",
+            "usd": 128073000,
+            "positions": 551.0
+          },
+          {
+            "program_code": "3645",
+            "title": "Exide Technologies Facility Contamination Cleanup",
+            "usd": 79348000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 56513000,
+            "positions": 224.5
+          },
+          {
+            "program_code": "3630",
+            "title": "Safer Consumer Products",
+            "usd": 30180000,
+            "positions": 115.8
+          },
+          {
+            "program_code": "3626",
+            "title": "Hazardous Waste Facilities",
+            "usd": 7149000,
+            "positions": 23.5
+          },
+          {
+            "program_code": "3650",
+            "title": "Board of Environmental Safety",
+            "usd": 3646000,
+            "positions": 15.0
+          },
+          {
+            "program_code": "3635",
+            "title": "State Certified Unified Program Agency",
+            "usd": 2756000,
+            "positions": 10.8
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -56513000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 378519000,
+          "Federal funds": 37394000,
+          "General Fund": 31965000,
+          "Other funds": 30566000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 478444000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3930",
+        "title": "Department of Pesticide Regulation",
+        "total_usd": 162495000,
+        "general_fund_usd": 490000,
+        "positions": 553.7,
+        "programs": [
+          {
+            "program_code": "3540",
+            "title": "Pesticide Programs",
+            "usd": 162495000,
+            "positions": 553.7
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 159009000,
+          "Federal funds": 2386000,
+          "Other funds": 610000,
+          "General Fund": 490000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 162495000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0555",
+        "title": "Environmental Protection, Secy",
+        "total_usd": 43794000,
+        "general_fund_usd": 3922000,
+        "positions": 114.0,
+        "programs": [
+          {
+            "program_code": "0340",
+            "title": "Support",
+            "usd": 43794000,
+            "positions": 114.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 24639000,
+          "Other funds": 14933000,
+          "General Fund": 3922000,
+          "Federal funds": 300000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 43794000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3980",
+        "title": "Environmental Health Hazard Assessment",
+        "total_usd": 34230000,
+        "general_fund_usd": 10737000,
+        "positions": 161.4,
+        "programs": [
+          {
+            "program_code": "3730",
+            "title": "Health Risk Assessment",
+            "usd": 34230000,
+            "positions": 161.4
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 18517000,
+          "General Fund": 10737000,
+          "Other funds": 4976000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 34230000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "3996",
+        "title": "General Obligation Bonds-Environmental",
+        "total_usd": 948000,
+        "general_fund_usd": 948000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "3750",
+            "title": "GO Bonds - Debt Service - Environmental",
+            "usd": 948000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 948000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 948000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

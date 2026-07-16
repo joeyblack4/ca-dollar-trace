@@ -21,6 +21,7 @@ import {
 } from "d3-sankey";
 import { cn } from "@/lib/cn";
 import { CoverageBadge } from "@/components/ui/SourceChip";
+import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
 import { fmtUsd, type BudgetWaterfall, type DownstreamNode } from "@/lib/published";
 
 const REVENUE = "#2a78d6";
@@ -233,6 +234,8 @@ interface Detail {
   centsPerDollar?: number;
   downstream?: DownstreamNode;
   linkToGrants?: boolean;
+  drillHref?: string;
+  drillLabel?: string;
 }
 
 function buildDetail(id: string, data: BudgetWaterfall): Detail | null {
@@ -270,6 +273,7 @@ function buildDetail(id: string, data: BudgetWaterfall): Detail | null {
   }
   const exp = gf.expenditure.find((e) => `exp:${e.name}` === id);
   if (exp) {
+    const agencyCd = AGENCY_PAGE_FOR_NODE[exp.name];
     return {
       title: exp.name,
       amountUsd: exp.usd,
@@ -277,6 +281,10 @@ function buildDetail(id: string, data: BudgetWaterfall): Detail | null {
       centsPerDollar: (exp.usd / gf.expenditure_total_usd) * 100,
       downstream: data.downstream_visibility.find((d) => d.node === exp.name),
       linkToGrants: exp.name === "Other",
+      drillHref: agencyCd ? `/agency/${agencyCd}/` : "/explore/",
+      drillLabel: agencyCd
+        ? `Drill into departments, programs & fund mix →`
+        : `Browse all twelve agencies →`,
     };
   }
   return null;
@@ -299,6 +307,17 @@ function DetailPanel({ detail }: { detail: Detail }) {
           {line}
         </p>
       ))}
+
+      {detail.drillHref && (
+        <p className="mt-3">
+          <a
+            href={detail.drillHref}
+            className="inline-block rounded-md bg-poppy px-3 py-1.5 text-sm font-medium text-white hover:bg-poppy-deep"
+          >
+            {detail.drillLabel}
+          </a>
+        </p>
+      )}
 
       {detail.downstream && (
         <div className="mt-4">

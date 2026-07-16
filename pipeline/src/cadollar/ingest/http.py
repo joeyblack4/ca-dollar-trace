@@ -36,3 +36,21 @@ def fetch_bytes(url: str, timeout_seconds: float = 120.0) -> bytes:
         raise TransientHTTPError(f"HTTP {resp.status_code} from {url}")
     resp.raise_for_status()
     return resp.content
+
+
+@stamina.retry(on=TransientHTTPError, attempts=4, timeout=300)
+def fetch_json_post(url: str, body: dict, timeout_seconds: float = 120.0) -> bytes:
+    """POST-with-JSON variant (USAspending-style search endpoints); same retry policy."""
+    try:
+        resp = httpx.post(
+            url,
+            json=body,
+            timeout=timeout_seconds,
+            headers={"User-Agent": USER_AGENT},
+        )
+    except (httpx.ConnectError, httpx.TimeoutException) as e:
+        raise TransientHTTPError(str(e)) from e
+    if resp.status_code == 429 or resp.status_code >= 500:
+        raise TransientHTTPError(f"HTTP {resp.status_code} from {url}")
+    resp.raise_for_status()
+    return resp.content

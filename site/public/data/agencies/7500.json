@@ -1,0 +1,727 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "7500",
+    "title": "Government Operations",
+    "total_usd": 73396912000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 73396912000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "7900",
+        "title": "Public Employees' Retirement System",
+        "total_usd": 46061778000,
+        "general_fund_usd": 584000000,
+        "positions": 2847.6,
+        "programs": [
+          {
+            "program_code": "6430",
+            "title": "Benefit Payments",
+            "usd": 44873998000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": 584000000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6425",
+            "title": "Administration",
+            "usd": 254554000,
+            "positions": 1463.8
+          },
+          {
+            "program_code": "6420",
+            "title": "Investment Operations",
+            "usd": 135357000,
+            "positions": 370.0
+          },
+          {
+            "program_code": "6410",
+            "title": "Retirement",
+            "usd": 126044000,
+            "positions": 761.0
+          },
+          {
+            "program_code": "6415",
+            "title": "Health Benefits",
+            "usd": 86679000,
+            "positions": 247.8
+          },
+          {
+            "program_code": "6412",
+            "title": "Social Security",
+            "usd": 1146000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 45477778000,
+          "General Fund": 584000000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 46061778000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7920",
+        "title": "State Teachers' Retirement System",
+        "total_usd": 22195108000,
+        "general_fund_usd": 0,
+        "positions": 1575.0,
+        "programs": [
+          {
+            "program_code": "6465",
+            "title": "Benefit Payments",
+            "usd": 21321677000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6450",
+            "title": "Service to Members and Employers",
+            "usd": 854237000,
+            "positions": 1547.0
+          },
+          {
+            "program_code": "6455",
+            "title": "Corporate Governance",
+            "usd": 19194000,
+            "positions": 28.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 22195108000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 22195108000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7760",
+        "title": "Department of General Services",
+        "total_usd": 1472226000,
+        "general_fund_usd": 411754000,
+        "positions": 4570.6,
+        "programs": [
+          {
+            "program_code": "6324",
+            "title": "Facilities Management Division",
+            "usd": 641848000,
+            "positions": 2069.2
+          },
+          {
+            "program_code": "6330",
+            "title": "Statewide Support Services",
+            "usd": 617222000,
+            "positions": 1073.4
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 120447000,
+            "positions": 588.5
+          },
+          {
+            "program_code": "6320",
+            "title": "Building Regulation Services",
+            "usd": 120308000,
+            "positions": 427.8
+          },
+          {
+            "program_code": "6325",
+            "title": "Real Estate Services",
+            "usd": 101234000,
+            "positions": 403.7
+          },
+          {
+            "program_code": "6335",
+            "title": "Program Overhead Allocations Interagency Support Division and RESD Executive",
+            "usd": 0,
+            "positions": 8.0
+          },
+          {
+            "program_code": "9900300",
+            "title": "Distributed Services",
+            "usd": -13117000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -115716000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 1109748000,
+          "Special funds": 188544000,
+          "General Fund": 161754000,
+          "Bond funds": 12180000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1472226000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7730",
+        "title": "Franchise Tax Board",
+        "total_usd": 1225174000,
+        "general_fund_usd": 1181458000,
+        "positions": 6812.5,
+        "programs": [
+          {
+            "program_code": "6280",
+            "title": "Tax Programs",
+            "usd": 1181008000,
+            "positions": 6234.4
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 46340000,
+            "positions": 320.6
+          },
+          {
+            "program_code": "6295",
+            "title": "Court Collection Program",
+            "usd": 15389000,
+            "positions": 101.2
+          },
+          {
+            "program_code": "6305",
+            "title": "Contract Work",
+            "usd": 14462000,
+            "positions": 62.2
+          },
+          {
+            "program_code": "6290",
+            "title": "Department of Motor Vehicles Collections Program",
+            "usd": 11238000,
+            "positions": 81.1
+          },
+          {
+            "program_code": "6300",
+            "title": "Legal Services Program",
+            "usd": 3077000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6285",
+            "title": "Political Reform Audit",
+            "usd": 0,
+            "positions": 13.0
+          },
+          {
+            "program_code": "6316",
+            "title": "Golden State Stimulus Emergency Fund 2.0",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6317",
+            "title": "Better for Families Rebate",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -46340000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1181458000,
+          "Special funds": 29146000,
+          "Other funds": 14570000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1225174000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7502",
+        "title": "Department of Technology",
+        "total_usd": 798801000,
+        "general_fund_usd": 56501000,
+        "positions": 1104.5,
+        "programs": [
+          {
+            "program_code": "6230",
+            "title": "Department of Technology",
+            "usd": 798801000,
+            "positions": 1104.5
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 742300000,
+          "General Fund": 56501000,
+          "Federal funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 798801000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7600",
+        "title": "Department of Tax and Fee Administration",
+        "total_usd": 743947000,
+        "general_fund_usd": 384473000,
+        "positions": 4559.7,
+        "programs": [
+          {
+            "program_code": "6275100",
+            "title": "Sales and Use Tax Program",
+            "usd": 597692000,
+            "positions": 3529.8
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 66302000,
+            "positions": 373.9
+          },
+          {
+            "program_code": "6275250",
+            "title": "Transportation Fund Tax Program",
+            "usd": 36892000,
+            "positions": 160.7
+          },
+          {
+            "program_code": "6275200",
+            "title": "Cigarette and Tobacco Products Tax Program",
+            "usd": 28006000,
+            "positions": 127.9
+          },
+          {
+            "program_code": "6275225",
+            "title": "Cigarette and Tobacco Products Licensing Program",
+            "usd": 16681000,
+            "positions": 70.7
+          },
+          {
+            "program_code": "6275725",
+            "title": "Cannabis Taxes Program",
+            "usd": 10698000,
+            "positions": 39.8
+          },
+          {
+            "program_code": "6275125",
+            "title": "Hazardous Substances Tax Program",
+            "usd": 7975000,
+            "positions": 39.6
+          },
+          {
+            "program_code": "6275525",
+            "title": "E-Waste Recycling Fee Program",
+            "usd": 6729000,
+            "positions": 36.7
+          },
+          {
+            "program_code": "6275050",
+            "title": "State-Assessed Property Program",
+            "usd": 5229000,
+            "positions": 9.0
+          },
+          {
+            "program_code": "6275325",
+            "title": "Underground Storage Tank Fee Program",
+            "usd": 4877000,
+            "positions": 28.9
+          },
+          {
+            "program_code": "6275150",
+            "title": "Alcoholic Beverage Tax Program",
+            "usd": 4066000,
+            "positions": 20.4
+          },
+          {
+            "program_code": "6275025",
+            "title": "County Assessment Standards Program",
+            "usd": 3258000,
+            "positions": 9.1
+          },
+          {
+            "program_code": "6275075",
+            "title": "Timber Tax Program",
+            "usd": 2693000,
+            "positions": 11.6
+          },
+          {
+            "program_code": "6275175",
+            "title": "Tire Recycling Fee Program",
+            "usd": 2522000,
+            "positions": 16.3
+          },
+          {
+            "program_code": "6275500",
+            "title": "Emergency Telephone Users Surcharge Program",
+            "usd": 2452000,
+            "positions": 14.6
+          },
+          {
+            "program_code": "6275700",
+            "title": "Lead-Acid Battery Cleanup Fee Program",
+            "usd": 1726000,
+            "positions": 10.1
+          },
+          {
+            "program_code": "6275750",
+            "title": "Electronic Cigarette Excise Tax Program",
+            "usd": 1458000,
+            "positions": 3.5
+          },
+          {
+            "program_code": "6275550",
+            "title": "Lumber Fee Program",
+            "usd": 1416000,
+            "positions": 13.4
+          },
+          {
+            "program_code": "6275275",
+            "title": "Occupational Lead Poisoning Prevention Fee Program",
+            "usd": 1158000,
+            "positions": 7.5
+          },
+          {
+            "program_code": "6275825",
+            "title": "Gun Violence Prevention and School Safety Act Program",
+            "usd": 978000,
+            "positions": 3.0
+          },
+          {
+            "program_code": "6275600",
+            "title": "Natural Gas Surcharge Program",
+            "usd": 971000,
+            "positions": 4.4
+          },
+          {
+            "program_code": "6275400",
+            "title": "Annual Water Rights Fee Program",
+            "usd": 824000,
+            "positions": 4.4
+          },
+          {
+            "program_code": "6275850",
+            "title": "Environmental Mitigation Surcharge Program",
+            "usd": 698000,
+            "positions": 0.5
+          },
+          {
+            "program_code": "6275300",
+            "title": "Integrated Waste Management Program",
+            "usd": 679000,
+            "positions": 4.8
+          },
+          {
+            "program_code": "6275450",
+            "title": "Marine Invasive Species Program",
+            "usd": 646000,
+            "positions": 3.6
+          },
+          {
+            "program_code": "6275575",
+            "title": "Insurance Tax Program",
+            "usd": 646000,
+            "positions": 2.0
+          },
+          {
+            "program_code": "6275425",
+            "title": "Childhood Lead Poisoning Prevention Fee Program",
+            "usd": 637000,
+            "positions": 4.8
+          },
+          {
+            "program_code": "6275650",
+            "title": "Prepaid Mobile Telephony Program",
+            "usd": 599000,
+            "positions": 3.5
+          },
+          {
+            "program_code": "6275350",
+            "title": "Oil Spill Prevention Program",
+            "usd": 398000,
+            "positions": 1.6
+          },
+          {
+            "program_code": "6275760",
+            "title": "County Revenue Property Tax Reimbursement Program",
+            "usd": 366000,
+            "positions": 1.5
+          },
+          {
+            "program_code": "6275375",
+            "title": "Energy Resources Surcharge Program",
+            "usd": 363000,
+            "positions": 2.1
+          },
+          {
+            "program_code": "6275800",
+            "title": "Lithium Extraction Excise Tax",
+            "usd": 149000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6275775",
+            "title": "Small Business Hiring Credit Program",
+            "usd": 43000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -65880000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 384473000,
+          "Other funds": 242020000,
+          "Special funds": 117233000,
+          "Federal funds": 221000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 743947000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7501",
+        "title": "Department of Human Resources",
+        "total_usd": 661725000,
+        "general_fund_usd": 36807000,
+        "positions": 486.4,
+        "programs": [
+          {
+            "program_code": "6215",
+            "title": "Benefit Payments",
+            "usd": 526503000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6200",
+            "title": "Human Resources Management",
+            "usd": 93879000,
+            "positions": 283.4
+          },
+          {
+            "program_code": "6210",
+            "title": "Benefits Administration",
+            "usd": 36040000,
+            "positions": 76.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 21666000,
+            "positions": 114.0
+          },
+          {
+            "program_code": "6205",
+            "title": "Local Government Services",
+            "usd": 2336000,
+            "positions": 13.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -18699000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 624843000,
+          "General Fund": 36807000,
+          "Special funds": 75000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 661725000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7870",
+        "title": "California Victim Compensation Board",
+        "total_usd": 167646000,
+        "general_fund_usd": 38790000,
+        "positions": 284.0,
+        "programs": [
+          {
+            "program_code": "6380",
+            "title": "Victim Compensation",
+            "usd": 152066000,
+            "positions": 188.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 16053000,
+            "positions": 71.0
+          },
+          {
+            "program_code": "6385",
+            "title": "Restitution Program",
+            "usd": 15560000,
+            "positions": 25.0
+          },
+          {
+            "program_code": "6395",
+            "title": "Good Samaritan",
+            "usd": 20000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -16053000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 92842000,
+          "General Fund": 38790000,
+          "Federal funds": 36014000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 167646000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7504",
+        "title": "Office of Data and Innovation",
+        "total_usd": 25124000,
+        "general_fund_usd": 15924000,
+        "positions": 65.0,
+        "programs": [
+          {
+            "program_code": "6271",
+            "title": "Office of Data and Innovation",
+            "usd": 25124000,
+            "positions": 65.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 15924000,
+          "Special funds": 7200000,
+          "Other funds": 2000000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 25124000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0511",
+        "title": "Government Operations, Secretary",
+        "total_usd": 24731000,
+        "general_fund_usd": 20948000,
+        "positions": 57.0,
+        "programs": [
+          {
+            "program_code": "0257",
+            "title": "Cradle to Career",
+            "usd": 15665000,
+            "positions": 28.0
+          },
+          {
+            "program_code": "0250",
+            "title": "Office of the Secretary of Government Operations",
+            "usd": 7566000,
+            "positions": 29.0
+          },
+          {
+            "program_code": "0254",
+            "title": "Education and Workforce Development Coordinating Council",
+            "usd": 1500000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 20948000,
+          "Other funds": 3783000,
+          "Special funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 24731000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7503",
+        "title": "State Personnel Board",
+        "total_usd": 14763000,
+        "general_fund_usd": 1863000,
+        "positions": 74.7,
+        "programs": [
+          {
+            "program_code": "6270019",
+            "title": "Appeals",
+            "usd": 10007000,
+            "positions": 47.7
+          },
+          {
+            "program_code": "6270010",
+            "title": "Merit Oversight",
+            "usd": 4756000,
+            "positions": 27.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 12900000,
+          "General Fund": 1863000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 14763000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7910",
+        "title": "Office of Administrative Law",
+        "total_usd": 5889000,
+        "general_fund_usd": 3420000,
+        "positions": 26.3,
+        "programs": [
+          {
+            "program_code": "6440",
+            "title": "Regulatory Oversight",
+            "usd": 5889000,
+            "positions": 26.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 3420000,
+          "Other funds": 2469000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 5889000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

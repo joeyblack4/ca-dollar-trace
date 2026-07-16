@@ -1,0 +1,675 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "1000",
+    "title": "Business, Consumer Services, and Housing",
+    "total_usd": 3842515000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 3842515000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "2240",
+        "title": "Dept of Housing, Community Development",
+        "total_usd": 1873542000,
+        "general_fund_usd": 343159000,
+        "positions": 1410.7,
+        "programs": [
+          {
+            "program_code": "1665",
+            "title": "Financial Assistance Program",
+            "usd": 1672982000,
+            "positions": 881.2
+          },
+          {
+            "program_code": "1670",
+            "title": "Housing Policy Development Program",
+            "usd": 153634000,
+            "positions": 222.9
+          },
+          {
+            "program_code": "1660",
+            "title": "Codes and Standards Program",
+            "usd": 48870000,
+            "positions": 306.6
+          },
+          {
+            "program_code": "1680",
+            "title": "Loan Repayments Program",
+            "usd": -1944000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 670632000,
+          "Bond funds": 522201000,
+          "General Fund": 343159000,
+          "Other funds": 290815000,
+          "Special funds": 46735000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1873542000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1111",
+        "title": "Department of Consumer Affairs",
+        "total_usd": 753652000,
+        "general_fund_usd": 0,
+        "positions": 3530.9,
+        "programs": [
+          {
+            "program_code": "1420",
+            "title": "Bureau of Automotive Repair",
+            "usd": 215995000,
+            "positions": 610.4
+          },
+          {
+            "program_code": "1425",
+            "title": "Consumer Affairs Administration",
+            "usd": 148944000,
+            "positions": 789.3
+          },
+          {
+            "program_code": "1130",
+            "title": "Contractors' State License Board",
+            "usd": 83773000,
+            "positions": 433.6
+          },
+          {
+            "program_code": "1150",
+            "title": "Medical Board of California",
+            "usd": 82633000,
+            "positions": 199.6
+          },
+          {
+            "program_code": "1220",
+            "title": "Board of Registered Nursing",
+            "usd": 64365000,
+            "positions": 230.8
+          },
+          {
+            "program_code": "1210",
+            "title": "California State Board of Pharmacy",
+            "usd": 36446000,
+            "positions": 140.6
+          },
+          {
+            "program_code": "1410",
+            "title": "Bureau for Private Postsecondary Education",
+            "usd": 26210000,
+            "positions": 111.0
+          },
+          {
+            "program_code": "1125",
+            "title": "Board of Barbering and Cosmetology",
+            "usd": 22390000,
+            "positions": 96.2
+          },
+          {
+            "program_code": "1135",
+            "title": "Dental Board of California",
+            "usd": 20713000,
+            "positions": 88.8
+          },
+          {
+            "program_code": "1100",
+            "title": "California Board of Accountancy",
+            "usd": 20183000,
+            "positions": 106.8
+          },
+          {
+            "program_code": "1405",
+            "title": "Bureau of Security and Investigative Services",
+            "usd": 19787000,
+            "positions": 77.9
+          },
+          {
+            "program_code": "1240",
+            "title": "Board of Vocational Nursing and Psychiatric Technicians of the State of California",
+            "usd": 19081000,
+            "positions": 73.4
+          },
+          {
+            "program_code": "1115",
+            "title": "Board of Behavioral Sciences",
+            "usd": 14681000,
+            "positions": 66.5
+          },
+          {
+            "program_code": "1415",
+            "title": "Bureau of Household Goods and Services",
+            "usd": 13677000,
+            "positions": 68.9
+          },
+          {
+            "program_code": "1215",
+            "title": "Board for Professional Engineers and Land Surveyors and Geologists",
+            "usd": 13400000,
+            "positions": 47.2
+          },
+          {
+            "program_code": "1235",
+            "title": "California Veterinary Medical Board",
+            "usd": 9244000,
+            "positions": 38.3
+          },
+          {
+            "program_code": "1175",
+            "title": "Board of Psychology",
+            "usd": 8188000,
+            "positions": 27.3
+          },
+          {
+            "program_code": "1160",
+            "title": "Physical Therapy Board of California",
+            "usd": 7369000,
+            "positions": 29.4
+          },
+          {
+            "program_code": "1435",
+            "title": "Cemetery and Funeral Bureau",
+            "usd": 7046000,
+            "positions": 28.5
+          },
+          {
+            "program_code": "1230",
+            "title": "Structural Pest Control Board",
+            "usd": 6739000,
+            "positions": 30.9
+          },
+          {
+            "program_code": "1441",
+            "title": "California Bureau of Real Estate Appraisers",
+            "usd": 6409000,
+            "positions": 28.8
+          },
+          {
+            "program_code": "1105",
+            "title": "California Architects Board",
+            "usd": 6199000,
+            "positions": 30.4
+          },
+          {
+            "program_code": "1120",
+            "title": "State Board of Chiropractic Examiners",
+            "usd": 5638000,
+            "positions": 19.4
+          },
+          {
+            "program_code": "1200",
+            "title": "Osteopathic Medical Board of California",
+            "usd": 4409000,
+            "positions": 15.9
+          },
+          {
+            "program_code": "1180",
+            "title": "Respiratory Care Board of California",
+            "usd": 4256000,
+            "positions": 17.4
+          },
+          {
+            "program_code": "1196",
+            "title": "State Board of Optometry",
+            "usd": 4097000,
+            "positions": 17.4
+          },
+          {
+            "program_code": "1132",
+            "title": "Controlled Substance Utilization Review and Evaluation System",
+            "usd": 3933000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "1155",
+            "title": "Acupuncture Board",
+            "usd": 3930000,
+            "positions": 12.0
+          },
+          {
+            "program_code": "1190",
+            "title": "California Board of Occupational Therapy",
+            "usd": 3307000,
+            "positions": 17.7
+          },
+          {
+            "program_code": "1165",
+            "title": "Physician Assistant Board",
+            "usd": 3199000,
+            "positions": 11.0
+          },
+          {
+            "program_code": "1185",
+            "title": "Speech-Language Pathology and Audiology and Hearing Aid Dispensers Board",
+            "usd": 3151000,
+            "positions": 14.6
+          },
+          {
+            "program_code": "1140",
+            "title": "Dental Hygiene Board of California",
+            "usd": 2981000,
+            "positions": 15.0
+          },
+          {
+            "program_code": "1110",
+            "title": "State Athletic Commission",
+            "usd": 2146000,
+            "positions": 10.7
+          },
+          {
+            "program_code": "1400",
+            "title": "Arbitration Certification Program",
+            "usd": 1675000,
+            "positions": 8.0
+          },
+          {
+            "program_code": "1170",
+            "title": "Podiatric Medical Board of California",
+            "usd": 1632000,
+            "positions": 5.2
+          },
+          {
+            "program_code": "1225",
+            "title": "Court Reporters Board of California",
+            "usd": 1313000,
+            "positions": 4.5
+          },
+          {
+            "program_code": "1450",
+            "title": "Professional Fiduciaries Bureau",
+            "usd": 1123000,
+            "positions": 4.5
+          },
+          {
+            "program_code": "1205",
+            "title": "California Board of Naturopathic Medicine",
+            "usd": 653000,
+            "positions": 3.0
+          },
+          {
+            "program_code": "1426",
+            "title": "Distributed Consumer Affairs Administration",
+            "usd": -147263000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 738429000,
+          "Other funds": 15103000,
+          "Federal funds": 120000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 753652000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2245",
+        "title": "California Housing Finance Agency",
+        "total_usd": 344647000,
+        "general_fund_usd": 300000000,
+        "positions": 222.4,
+        "programs": [
+          {
+            "program_code": "1691",
+            "title": "California Housing Finance Agency",
+            "usd": 344647000,
+            "positions": 222.4
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 300000000,
+          "Other funds": 44647000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 344647000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1996",
+        "title": "General Obligation Bonds-BCH",
+        "total_usd": 204454000,
+        "general_fund_usd": 204454000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "1620",
+            "title": "GO Bonds - Debt Service - BCH",
+            "usd": 204454000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 204454000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 204454000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1701",
+        "title": "Dept Financial Protection and Innovation",
+        "total_usd": 179975000,
+        "general_fund_usd": 0,
+        "positions": 894.3,
+        "programs": [
+          {
+            "program_code": "1510",
+            "title": "Investment Program",
+            "usd": 43638000,
+            "positions": 239.1
+          },
+          {
+            "program_code": "1520",
+            "title": "Licensing and Supervision of Banks and Trust Companies",
+            "usd": 36476000,
+            "positions": 192.6
+          },
+          {
+            "program_code": "1515",
+            "title": "Lender-Fiduciary Program",
+            "usd": 36113000,
+            "positions": 191.9
+          },
+          {
+            "program_code": "1550",
+            "title": "Credit Unions",
+            "usd": 14805000,
+            "positions": 77.0
+          },
+          {
+            "program_code": "1556",
+            "title": "California Consumer Financial Protection",
+            "usd": 14463000,
+            "positions": 51.6
+          },
+          {
+            "program_code": "1557",
+            "title": "Debt Collectors",
+            "usd": 12975000,
+            "positions": 61.5
+          },
+          {
+            "program_code": "1558",
+            "title": "Digital Financial Assets",
+            "usd": 11493000,
+            "positions": 41.0
+          },
+          {
+            "program_code": "1525",
+            "title": "Money Transmitters",
+            "usd": 7042000,
+            "positions": 36.8
+          },
+          {
+            "program_code": "1555",
+            "title": "CalMoneySmart",
+            "usd": 2340000,
+            "positions": 1.0
+          },
+          {
+            "program_code": "1545",
+            "title": "Administration of Local Agency Security",
+            "usd": 630000,
+            "positions": 1.8
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 178725000,
+          "Other funds": 1250000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 179975000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1115",
+        "title": "Department of Cannabis Control",
+        "total_usd": 176581000,
+        "general_fund_usd": 0,
+        "positions": 659.0,
+        "programs": [
+          {
+            "program_code": "1460",
+            "title": "Department of Cannabis Control",
+            "usd": 176581000,
+            "positions": 659.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 176127000,
+          "Other funds": 454000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 176581000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2100",
+        "title": "Department of Alcoholic Beverage Control",
+        "total_usd": 106942000,
+        "general_fund_usd": 0,
+        "positions": 541.9,
+        "programs": [
+          {
+            "program_code": "1640",
+            "title": "Administration of the Alcoholic Beverage Control Act",
+            "usd": 106942000,
+            "positions": 541.9
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 101795000,
+          "Other funds": 5147000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 106942000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1700",
+        "title": "Civil Rights Department",
+        "total_usd": 71148000,
+        "general_fund_usd": 64489000,
+        "positions": 346.3,
+        "programs": [
+          {
+            "program_code": "1490",
+            "title": "Administration of Civil Rights Law",
+            "usd": 70498000,
+            "positions": 345.3
+          },
+          {
+            "program_code": "1500",
+            "title": "Department of Justice Legal Services",
+            "usd": 429000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "1495",
+            "title": "Civil Rights Council",
+            "usd": 221000,
+            "positions": 1.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 64489000,
+          "Federal funds": 6123000,
+          "Special funds": 536000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 71148000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2320",
+        "title": "Department of Real Estate",
+        "total_usd": 68224000,
+        "general_fund_usd": 0,
+        "positions": 386.7,
+        "programs": [
+          {
+            "program_code": "1700",
+            "title": "Department of Real Estate",
+            "usd": 68224000,
+            "positions": 386.7
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 67789000,
+          "Other funds": 435000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 68224000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0515",
+        "title": "Business, Consumer Svcs, Housing, Scty",
+        "total_usd": 23017000,
+        "general_fund_usd": 18189000,
+        "positions": 74.5,
+        "programs": [
+          {
+            "program_code": "0265",
+            "title": "California Interagency Council on Homelessness",
+            "usd": 13720000,
+            "positions": 45.0
+          },
+          {
+            "program_code": "0260",
+            "title": "Support",
+            "usd": 9297000,
+            "positions": 29.5
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 18189000,
+          "Other funds": 3845000,
+          "Special funds": 983000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 23017000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1750",
+        "title": "Horse Racing Board",
+        "total_usd": 19810000,
+        "general_fund_usd": 0,
+        "positions": 51.0,
+        "programs": [
+          {
+            "program_code": "1610",
+            "title": "California Horse Racing Board",
+            "usd": 19810000,
+            "positions": 51.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 19810000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 19810000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1703",
+        "title": "California Privacy Protection Agency",
+        "total_usd": 15770000,
+        "general_fund_usd": 12290000,
+        "positions": 53.0,
+        "programs": [
+          {
+            "program_code": "1600",
+            "title": "Administration of the California Consumer Privacy Act",
+            "usd": 15770000,
+            "positions": 53.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 12290000,
+          "Special funds": 3480000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 15770000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "1045",
+        "title": "Cannabis Control Appeals Panel",
+        "total_usd": 3342000,
+        "general_fund_usd": 0,
+        "positions": 13.0,
+        "programs": [
+          {
+            "program_code": "1045",
+            "title": "Cannabis Appeals Panel",
+            "usd": 3342000,
+            "positions": 13.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 3287000,
+          "Other funds": 55000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3342000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2120",
+        "title": "Alcoholic Beverage Control Appeals Board",
+        "total_usd": 1411000,
+        "general_fund_usd": 0,
+        "positions": 8.3,
+        "programs": [
+          {
+            "program_code": "1650",
+            "title": "Administrative Review",
+            "usd": 1411000,
+            "positions": 8.3
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1411000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1411000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

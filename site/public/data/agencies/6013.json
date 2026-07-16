@@ -1,0 +1,280 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "6013",
+    "title": "Higher Education",
+    "total_usd": 88389112000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 88389112000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "6440",
+        "title": "University of California",
+        "total_usd": 56225873000,
+        "general_fund_usd": 4941820000,
+        "positions": 127118.4,
+        "programs": [
+          {
+            "program_code": "5440",
+            "title": "Support",
+            "usd": 56220159000,
+            "positions": 127118.4
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 45500870000,
+          "Federal funds": 5613500000,
+          "General Fund": 4941820000,
+          "Special funds": 163969000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 56220159000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6870",
+        "title": "Board of Governors of Community Colleges",
+        "total_usd": 14316484000,
+        "general_fund_usd": 8945613000,
+        "positions": 214.1,
+        "programs": [
+          {
+            "program_code": "5670",
+            "title": "Apportionments",
+            "usd": 11379055000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "5675",
+            "title": "Special Services and Operations",
+            "usd": 2829718000,
+            "positions": 214.1
+          },
+          {
+            "program_code": "5685",
+            "title": "Mandates",
+            "usd": 39172000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 8945613000,
+          "Other funds": 5294930000,
+          "Special funds": 4534000,
+          "Bond funds": 2868000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 14247945000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "6610",
+        "title": "California State University",
+        "total_usd": 12949807000,
+        "general_fund_usd": 4958169000,
+        "positions": 50777.4,
+        "programs": [
+          {
+            "program_code": "5560",
+            "title": "Support",
+            "usd": 12949807000,
+            "positions": 50777.4
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 6261089000,
+          "General Fund": 4958169000,
+          "Federal funds": 1728549000,
+          "Special funds": 2000000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 12949807000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6980",
+        "title": "Student Aid Commission",
+        "total_usd": 2963066000,
+        "general_fund_usd": 2541752000,
+        "positions": 139.3,
+        "programs": [
+          {
+            "program_code": "5755",
+            "title": "Financial Aid Grants Program",
+            "usd": 2963066000,
+            "positions": 139.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 2541752000,
+          "Other funds": 420914000,
+          "Special funds": 400000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2963066000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6645",
+        "title": "CSU Health Benefits, Retired Annuitants",
+        "total_usd": 541880000,
+        "general_fund_usd": 541880000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5660",
+            "title": "Health Benefits for CSU Retired Annuitants",
+            "usd": 541880000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 541880000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 541880000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6445",
+        "title": "Institute for Regenerative Medicine",
+        "total_usd": 447137000,
+        "general_fund_usd": 0,
+        "positions": 69.8,
+        "programs": [
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": 442137000,
+            "positions": 69.8
+          },
+          {
+            "program_code": "5520",
+            "title": "California Institute for Regenerative Medicine",
+            "usd": 5000000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 442137000,
+          "Special funds": 5000000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 447137000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6878",
+        "title": "Retirement Costs-Hi Ed-CC",
+        "total_usd": 350404000,
+        "general_fund_usd": 350404000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "9990",
+            "title": "Unscheduled Items of Appropriation",
+            "usd": 350404000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 350404000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 350404000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6874",
+        "title": "General Obligation Bonds-Hi Ed-CC",
+        "total_usd": 299489000,
+        "general_fund_usd": 299489000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "5720",
+            "title": "G.O. Bonds - Debt Service - EdCC",
+            "usd": 299489000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 299489000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 299489000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "6600",
+        "title": "College of the Law, San Francisco",
+        "total_usd": 148569000,
+        "general_fund_usd": 38005000,
+        "positions": 279.5,
+        "programs": [
+          {
+            "program_code": "5530",
+            "title": "Support",
+            "usd": 148569000,
+            "positions": 279.5
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 110564000,
+          "General Fund": 38005000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 148569000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7996",
+        "title": "General Obligation Bonds-Hi Ed",
+        "total_usd": 146403000,
+        "general_fund_usd": 111784000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "6480",
+            "title": "GO Bonds - Debt Service - HiEd",
+            "usd": 146403000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 111784000,
+          "Bond funds": 34619000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 146403000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

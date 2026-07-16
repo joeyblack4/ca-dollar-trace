@@ -1,0 +1,281 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "7000",
+    "title": "Labor and Workforce Development",
+    "total_usd": 28024976000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 28024976000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "7100",
+        "title": "Employment Development Department",
+        "total_usd": 26355738000,
+        "general_fund_usd": 879842000,
+        "positions": 9589.3,
+        "programs": [
+          {
+            "program_code": "5925",
+            "title": "Disability Insurance Program",
+            "usd": 16178930000,
+            "positions": 1843.8
+          },
+          {
+            "program_code": "5920",
+            "title": "Unemployment Insurance Program",
+            "usd": 8712502000,
+            "positions": 3292.7
+          },
+          {
+            "program_code": "5940",
+            "title": "Workforce Innovation and Opportunity Act",
+            "usd": 529445000,
+            "positions": 202.2
+          },
+          {
+            "program_code": "5930",
+            "title": "Tax Program",
+            "usd": 366147000,
+            "positions": 1562.5
+          },
+          {
+            "program_code": "5900",
+            "title": "Employment and Employment Related Services",
+            "usd": 292455000,
+            "positions": 1332.6
+          },
+          {
+            "program_code": "5935",
+            "title": "Employment Training Panel",
+            "usd": 123567000,
+            "positions": 85.1
+          },
+          {
+            "program_code": "5915",
+            "title": "California Unemployment Insurance Appeals Board",
+            "usd": 107692000,
+            "positions": 567.9
+          },
+          {
+            "program_code": "5945",
+            "title": "National Dislocated Worker Grants",
+            "usd": 45000000,
+            "positions": 1.5
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 0,
+            "positions": 701.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 16515140000,
+          "Federal funds": 8661210000,
+          "General Fund": 879842000,
+          "Special funds": 299546000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 26355738000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7350",
+        "title": "Department of Industrial Relations",
+        "total_usd": 1558868000,
+        "general_fund_usd": 14993000,
+        "positions": 3876.8,
+        "programs": [
+          {
+            "program_code": "6120",
+            "title": "Claims, Wages, and Contingencies",
+            "usd": 684712000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "6090",
+            "title": "Division of Workers' Compensation",
+            "usd": 331802000,
+            "positions": 1410.4
+          },
+          {
+            "program_code": "6100",
+            "title": "Division of Occupational Safety and Health",
+            "usd": 259401000,
+            "positions": 1163.2
+          },
+          {
+            "program_code": "6105",
+            "title": "Division of Labor Standards Enforcement",
+            "usd": 216746000,
+            "positions": 1140.3
+          },
+          {
+            "program_code": "6110",
+            "title": "Division of Apprenticeship Standards",
+            "usd": 53660000,
+            "positions": 117.8
+          },
+          {
+            "program_code": "6080",
+            "title": "Self-Insurance Plans",
+            "usd": 7164000,
+            "positions": 30.4
+          },
+          {
+            "program_code": "6095",
+            "title": "Commission on Health and Safety and Workers' Compensation",
+            "usd": 4288000,
+            "positions": 10.7
+          },
+          {
+            "program_code": "6107",
+            "title": "Fast Food Council",
+            "usd": 1095000,
+            "positions": 4.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 912316000,
+          "Other funds": 593398000,
+          "Federal funds": 38161000,
+          "General Fund": 14993000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1558868000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7120",
+        "title": "California Workforce Development Board",
+        "total_usd": 54249000,
+        "general_fund_usd": 32112000,
+        "positions": 107.0,
+        "programs": [
+          {
+            "program_code": "6040",
+            "title": "California Workforce Development Board",
+            "usd": 54249000,
+            "positions": 107.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 32112000,
+          "Other funds": 12004000,
+          "Federal funds": 9877000,
+          "Special funds": 256000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 54249000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7300",
+        "title": "Agricultural Labor Relations Board",
+        "total_usd": 20079000,
+        "general_fund_usd": 11501000,
+        "positions": 88.0,
+        "programs": [
+          {
+            "program_code": "6055",
+            "title": "General Counsel Administration",
+            "usd": 13250000,
+            "positions": 60.0
+          },
+          {
+            "program_code": "6050",
+            "title": "Board Administration",
+            "usd": 4283000,
+            "positions": 19.7
+          },
+          {
+            "program_code": "6060",
+            "title": "Administration",
+            "usd": 2546000,
+            "positions": 8.3
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 11501000,
+          "Special funds": 8578000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 20079000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "7320",
+        "title": "Public Employment Relations Board",
+        "total_usd": 19922000,
+        "general_fund_usd": 19802000,
+        "positions": 88.0,
+        "programs": [
+          {
+            "program_code": "6070",
+            "title": "Public Employment Relations Board",
+            "usd": 19922000,
+            "positions": 88.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 19802000,
+          "Other funds": 120000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 19922000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0559",
+        "title": "Labor and Workforce Development, Secy",
+        "total_usd": 16120000,
+        "general_fund_usd": 2533000,
+        "positions": 60.0,
+        "programs": [
+          {
+            "program_code": "0350",
+            "title": "Office of the Secretary of Labor and Workforce Development",
+            "usd": 16120000,
+            "positions": 60.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 7854000,
+          "Other funds": 5733000,
+          "General Fund": 2533000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 16120000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

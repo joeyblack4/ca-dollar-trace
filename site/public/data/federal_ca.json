@@ -1,0 +1,1550 @@
+{
+  "source": {
+    "name": "USAspending \u2014 federal awards into California (FY2025)",
+    "publisher": "U.S. Department of the Treasury",
+    "url": "https://www.usaspending.gov/search",
+    "license": "Public domain (U.S. federal government work)"
+  },
+  "as_of": "2026-07-16T125759Z",
+  "ingested_at": "2026-07-16T12:57:59.177596+00:00",
+  "cadence": "monthly-ish (agency submissions roll in continuously; subawards ~monthly)",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Transaction obligations for awards performed in California, federal FY2025 (Oct 2024-Sep 2025); obligations are not the same as cash outlays.",
+    "'MULTIPLE RECIPIENTS' aggregates payments to individuals (e.g. direct benefits) that are masked for privacy \u2014 shown as masked, not omitted.",
+    "Subaward reporting below prime recipients is federally required only above $30,000 and is known to be incomplete."
+  ],
+  "data": {
+    "federal_fiscal_year": "2025",
+    "total_top_recipients_usd": 451807476982.12,
+    "recipients": [
+      {
+        "name": "MULTIPLE RECIPIENTS",
+        "amount_usd": 220610026082.44,
+        "uei": null,
+        "masked_aggregate": true,
+        "coverage_flag": "masked"
+      },
+      {
+        "name": "HEALTH CARE SERVICES, CALIFORNIA DEPARTMENT OF",
+        "amount_usd": 112537529310.06,
+        "uei": "JE73CDQUAPA7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "amount_usd": 21109183691.71,
+        "uei": "LDJ1MM9L56K7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF EDUCATION CALIFORNIA",
+        "amount_usd": 7510572477.0,
+        "uei": "HWECY7CDW9Y7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF TRANSPORTATION CALIFORNIA",
+        "amount_usd": 6266483998.29,
+        "uei": "UK66CLD4DX71",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "OFFICE OF EMERGENCY SERVICES",
+        "amount_usd": 6209407300.16,
+        "uei": "UTM3S7LKYQZ4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LAWRENCE LIVERMORE NATIONAL SECURITY, LLC",
+        "amount_usd": 3625923788.38,
+        "uei": "PM52LCJH72T9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "QTC MEDICAL SERVICES INC",
+        "amount_usd": 2781011478.29,
+        "uei": "GN8YP96TMPK6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "amount_usd": 2297095444.23,
+        "uei": "YC1YP79BFD19",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE BOEING COMPANY",
+        "amount_usd": 2260741448.6,
+        "uei": "UEGFHX6R6KJ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA PUBLIC UTILITIES COMMISSION",
+        "amount_usd": 2115692397.89,
+        "uei": "NF9VTMRZF356",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+        "amount_usd": 2074574722.48,
+        "uei": "C6M7C2FLKER5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "amount_usd": 1796242430.44,
+        "uei": "NBSLHP77ZJQ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "amount_usd": 1777862163.15,
+        "uei": "KD2JSY6LNMW7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ECC CONSTRUCTORS LLC",
+        "amount_usd": 1702061414.13,
+        "uei": "LJPLMV3GCYE7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+        "amount_usd": 1644799558.86,
+        "uei": "ZH4NVFG3Z526",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE LELAND STANFORD JUNIOR UNIVERSITY",
+        "amount_usd": 1609740657.15,
+        "uei": "HJD6G4D6TJY5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "REDACTED DUE TO PII",
+        "amount_usd": 1545534528.04,
+        "uei": null,
+        "masked_aggregate": true,
+        "coverage_flag": "masked"
+      },
+      {
+        "name": "LOS ANGELES COUNTY METROPOLITAN TRANSPORTATION AUTHORITY",
+        "amount_usd": 1439781018.4,
+        "uei": "C2BXZ6YF52A5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HEALTH NET FEDERAL SERVICES, LLC",
+        "amount_usd": 1427302725.08,
+        "uei": "F7NGF6NJFB96",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE AEROSPACE CORPORATION",
+        "amount_usd": 1374012644.51,
+        "uei": "YA8LJBJCND19",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+        "amount_usd": 1312970062.77,
+        "uei": "PKK5TD16N4H1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SOUTHERN CALIFORNIA UNITED FOOD AND COMMERCIAL WORKERS UNIONS AND FOOD EMPLOYERS JOINT PENSION PLAN",
+        "amount_usd": 1296303627.08,
+        "uei": null,
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOCKHEED MARTIN CORP",
+        "amount_usd": 1060087878.76,
+        "uei": "CQWLW9XRQTH5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "STATE OF CALIFORNIA EMPLOYMENT DEVELOPMENT DEPARTMENT",
+        "amount_usd": 1004811120.03,
+        "uei": "LNCZQ5EVCG36",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES, THE",
+        "amount_usd": 987178641.0,
+        "uei": "FN7JK35SK9Y8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 951347201.34,
+        "uei": "LALWKM623MU7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+        "amount_usd": 930896907.74,
+        "uei": "KMH5K9V7S518",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 869653516.64,
+        "uei": "VSBAFMDKTWL4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD",
+        "amount_usd": 836485783.58,
+        "uei": "TGFTZM2DN5Z2",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+        "amount_usd": 776495153.55,
+        "uei": "UYTTZT6G9DT1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA DEPARTMENT OF CHILD SUPPORT SERVICES",
+        "amount_usd": 735820424.0,
+        "uei": "FHJFZD1B8CB3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA, LOS ANGELES",
+        "amount_usd": 733086686.8,
+        "uei": "RN64EPNH8JC6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "STATE OF CALIFORNIA ENERGY COMMISSION",
+        "amount_usd": 725877515.0,
+        "uei": "VKM2SF7167N9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AEVEX AEROSPACE, LLC",
+        "amount_usd": 676772752.12,
+        "uei": "LL8SH4DDJSK6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BAE SYSTEMS MARITIME SOLUTIONS SAN DIEGO INC.",
+        "amount_usd": 662176888.49,
+        "uei": "ZMBFGXHLGLM3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PALANTIR USG INC",
+        "amount_usd": 657009317.86,
+        "uei": "HNN4F9JZWDY8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BCCG A JOINT VENTURE",
+        "amount_usd": 638592928.0,
+        "uei": "VNQTYNAV9C25",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SANTA CLARA COUNTY HOUSING AUTHORITY",
+        "amount_usd": 621899585.74,
+        "uei": "DTNMMPBN5715",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF HOUSING & COMMUNITY DEVELOPMENT",
+        "amount_usd": 617439404.31,
+        "uei": "L4JQPJ7N5NT4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BOOZ ALLEN HAMILTON INC",
+        "amount_usd": 607428655.87,
+        "uei": "JCBMLGPE6Z71",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE BOEING COMPANY",
+        "amount_usd": 593110903.2,
+        "uei": "M6BRZ1FHEZQ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF LOS ANGELES, THE",
+        "amount_usd": 576475107.0,
+        "uei": "KRYZRLL9DKU7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "FISHER SAND & GRAVEL CO",
+        "amount_usd": 574000000.0,
+        "uei": "XAVBDA4D13N7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SOUTH COAST AIR QUALITY MANAGEMENT DISTRICT",
+        "amount_usd": 565787658.44,
+        "uei": "KGFWQGLX4RT5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NATIONAL STEEL AND SHIPBUILDING COMPANY",
+        "amount_usd": 551554999.17,
+        "uei": "Q85KVUK3JBF5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+        "amount_usd": 545614577.06,
+        "uei": "G88KLJR3KYT5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN FRANCISCO HOUSING AUTHORITY",
+        "amount_usd": 541064587.29,
+        "uei": "SZEGXHQ2K1W3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA, DAVIS",
+        "amount_usd": 518777340.86,
+        "uei": "TX2DAGQPENZ5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "GENERAL ATOMICS",
+        "amount_usd": 518257658.18,
+        "uei": "TVRYQ3N3B8H5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NATIONAL CEMENT COMPANY OF CALIFORNIA, INC.",
+        "amount_usd": 500000000.0,
+        "uei": "LWQHUSL3SJT5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "RIVIAN NEW HORIZON, LLC",
+        "amount_usd": 497233105.57,
+        "uei": "MSRPZB4H8NM6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AEROVIRONMENT, INC",
+        "amount_usd": 495202726.25,
+        "uei": "MWKWXVSSC518",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",
+        "amount_usd": 478774438.66,
+        "uei": "GS3YEVSS12N6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORP",
+        "amount_usd": 444799798.03,
+        "uei": "JRVLDEXMYDK8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CA DEPT OF REHABILITATION",
+        "amount_usd": 438419535.69,
+        "uei": "SZ9QWT7EMNN3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA IRVINE",
+        "amount_usd": 418327393.07,
+        "uei": "MJC5FCYQTPE6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOS ANGELES, CITY OF",
+        "amount_usd": 412955185.0,
+        "uei": "TYUJZWJ8N568",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE CITY OF OAKLAND, CALIFORNIA",
+        "amount_usd": 401326689.0,
+        "uei": "SAK7DQJM6LA3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF COMMUNITY SERVICES & DEVELOPMENT CALIFORNIA",
+        "amount_usd": 381743572.54,
+        "uei": "F4LGDJEVBFK4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PORT DEPARTMENT OF THE CITY OF OAKLAND",
+        "amount_usd": 376979034.0,
+        "uei": "LWYHDXYRZCU8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN DIEGO HOUSING COMMISSION",
+        "amount_usd": 362584109.83,
+        "uei": "GGW6JT2VNEA1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ANDURIL INDUSTRIES, INC.",
+        "amount_usd": 345153897.98,
+        "uei": "KC3CH2MSK7Q3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CITY & COUNTY OF SAN FRANCISCO",
+        "amount_usd": 339356952.0,
+        "uei": "GSL6KW4Z5UE1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ARMTEC DEFENSE PRODUCTS CO.",
+        "amount_usd": 300594889.75,
+        "uei": "ZHMBDGNETMG3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AEROJET ROCKETDYNE OF DE, INC",
+        "amount_usd": 299151035.0,
+        "uei": "JCZYYYQ7JGF5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA INSTITUTE OF TECHNOLOGY",
+        "amount_usd": 292756409.74,
+        "uei": "U2JMKHNS5TG4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PATRIOT CONTRACT SERVICES, LLC",
+        "amount_usd": 289793808.02,
+        "uei": "S9L9DZ8RBNL6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 288977390.75,
+        "uei": "LEMLXG994AU3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF SACRAMENTO",
+        "amount_usd": 286481610.55,
+        "uei": "YKEBAD4G37P7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NEW TECH SOLUTIONS, INC.",
+        "amount_usd": 280689233.34,
+        "uei": "XK11LLUL61A7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ORANGE COUNTY HOUSING AUTHORITY",
+        "amount_usd": 279449092.48,
+        "uei": "KHA1UFQHPM29",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA SAN DIEGO",
+        "amount_usd": 272243357.81,
+        "uei": "QJ8HMDK7MRM3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN FRANCISCO BAY AREA RAPID TRANSIT DISTRICT",
+        "amount_usd": 262810227.0,
+        "uei": "K7KGWMHLN1N1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN DIEGO, COUNTY OF",
+        "amount_usd": 257193615.0,
+        "uei": "E22MQWUANFF5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOCKHEED MARTIN CORPORATION",
+        "amount_usd": 253940209.76,
+        "uei": "LXKGXB75YKY6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF CONTRA COSTA COUNTY",
+        "amount_usd": 252307284.11,
+        "uei": "HES3JS8VPXS5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "RQ CONSTRUCTION, LLC",
+        "amount_usd": 250042061.82,
+        "uei": "NE61LN4FM1A5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ACCESS SERVICES",
+        "amount_usd": 248165000.0,
+        "uei": "LE9TFZMHBCL6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "TECHFLOW, INC.",
+        "amount_usd": 245394089.34,
+        "uei": "WDXQN83XB8Z8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "S. J. AMOROSO CONSTRUCTION CO., LLC",
+        "amount_usd": 245200343.07,
+        "uei": "KU19CNLCK2K7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DELOITTE CONSULTING LLP",
+        "amount_usd": 238783495.25,
+        "uei": "CKV2L9GZKJK3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CHEVRON USA INC.",
+        "amount_usd": 231046544.41,
+        "uei": "ETM1CJGUA6H8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NW CONSTRUCTION, INC",
+        "amount_usd": 227969066.72,
+        "uei": "SNSLU2QXJ7Z5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CLARK CONSTRUCTION GROUP - CALIFORNIA, LP",
+        "amount_usd": 223519004.85,
+        "uei": "WNJKMV59ZUL3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF SAN BERNARDINO",
+        "amount_usd": 217445985.85,
+        "uei": "JVBBNJXNPB77",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "KIEWIT INFRASTRUCTURE WEST CO.",
+        "amount_usd": 217243435.0,
+        "uei": "KGG6RMJ7D9P8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "VIASAT INC",
+        "amount_usd": 215475430.62,
+        "uei": "L9Z1ASN3B8E7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SCIENCE APPLICATIONS INTERNATIONAL CORPORATION",
+        "amount_usd": 213759476.02,
+        "uei": "MMLKPW9JLX64",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "A-MARK PRECIOUS METALS, INC.",
+        "amount_usd": 211235721.96,
+        "uei": "CJZ8EW1Q7JJ6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 210263604.67,
+        "uei": "FVSEZFPCQ316",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CORECIVIC, INC.",
+        "amount_usd": 208251678.65,
+        "uei": "HJGMJN1JKL46",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOS ANGELES COUNTY OFFICE OF EDUCATION",
+        "amount_usd": 207030275.56,
+        "uei": "F2MLEKLJM888",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SERCO INC",
+        "amount_usd": 203008314.66,
+        "uei": "DKJ1R5ABCN48",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "TECOLOTE RESEARCH, INC.",
+        "amount_usd": 200714435.72,
+        "uei": "EETHKKLA2VB4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BARNARD SPENCER JOINT VENTURE",
+        "amount_usd": 199508100.0,
+        "uei": "US79M57E8DT9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE GEO GROUP, INC.",
+        "amount_usd": 199375514.02,
+        "uei": "JMLKZZ1NL2Z6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 193530422.92,
+        "uei": "GWFBQY413N79",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA AT RIVERSIDE",
+        "amount_usd": 193011639.67,
+        "uei": "MR5QC5FCAVH5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA, SANTA BARBARA",
+        "amount_usd": 192066584.49,
+        "uei": "G9QBQDH39DF4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PARKER-HANNIFIN CORPORATION",
+        "amount_usd": 191716030.64,
+        "uei": "D8HJPMFFSGS3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BRIMSTONE COMMERCIAL, LLC",
+        "amount_usd": 189000000.0,
+        "uei": "TL61JCLYGL83",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF AGING CALIFORNIA",
+        "amount_usd": 187242317.2,
+        "uei": "RBAJKSXTPJN5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HARPER CONSTRUCTION COMPANY, INC.",
+        "amount_usd": 185939214.01,
+        "uei": "GMJPZCJDUG24",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY -FULLERTON",
+        "amount_usd": 183970546.79,
+        "uei": "H5D8ZCWMBRQ9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF RIVERSIDE",
+        "amount_usd": 180488222.48,
+        "uei": "JBYVCCGM6C95",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ALAMEDA-CONTRA COSTA TRANSIT DISTRICT",
+        "amount_usd": 180164266.0,
+        "uei": "FAHMAAPZ8WL1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF SANTA CRUZ",
+        "amount_usd": 179795587.18,
+        "uei": "MMHHPJVM37K7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF ALAMEDA COUNTY",
+        "amount_usd": 178687219.92,
+        "uei": "VL3GZ3ANH7W4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "L3HARRIS INTERSTATE ELECTRONICS CORPORATION",
+        "amount_usd": 178448308.9,
+        "uei": "JYAPS9B2MKE9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CITY & COUNTY OF SAN FRANCISCO",
+        "amount_usd": 175213690.97,
+        "uei": "LYCMERUN3Z73",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DPR-RQ CONSTRUCTION, LLC",
+        "amount_usd": 173907597.61,
+        "uei": "ER3MFYYS2J86",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SCRIPPS RESEARCH INSTITUTE",
+        "amount_usd": 169516728.1,
+        "uei": "PHZJFZ32NKH4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "COVENANT AVIATION SECURITY, LLC",
+        "amount_usd": 165336384.26,
+        "uei": "C8GANE5B4W83",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ORANGE COUNTY TRANSPORTATION AUTHORITY",
+        "amount_usd": 163313312.0,
+        "uei": "ZS8MFUR5E1N3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CONTINENTAL MARITIME OF SAN DIEGO, LLC",
+        "amount_usd": 161554584.33,
+        "uei": "EG1ZHLSHZW14",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 160019413.46,
+        "uei": "LCV2N9FVV739",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF COUNTY OF SAN M",
+        "amount_usd": 157864649.63,
+        "uei": "QMPKJMKNELB8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "X-BOW LAUNCH SYSTEMS INC",
+        "amount_usd": 150715257.02,
+        "uei": "MD76AJXHCMQ5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ESM ATLIS, LLC",
+        "amount_usd": 150211687.85,
+        "uei": "J4YZNW7BUD47",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ANAHEIM HOUSING AUTHORITY",
+        "amount_usd": 149212911.0,
+        "uei": "JM5SGZ6KKQM5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE RAND CORPORATION",
+        "amount_usd": 146779167.16,
+        "uei": "YY46Q97AEZA8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA MILITARY DEPARTMENT",
+        "amount_usd": 145394905.09,
+        "uei": "LKD6WT217MP7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "INTER-CON SECURITY SYSTEMS, INC.",
+        "amount_usd": 143522339.99,
+        "uei": "EZ3SMGBR74X6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "COASTAL PACIFIC FOOD DISTRIBUTORS, INC.",
+        "amount_usd": 142283658.53,
+        "uei": "VKECVUW3CLT4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "US FOODS INC",
+        "amount_usd": 141377231.29,
+        "uei": "SGJJAR598G87",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CEDARS-SINAI MEDICAL CENTER",
+        "amount_usd": 139733291.82,
+        "uei": "NCSMA19DF7E6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "VERTEX AEROSPACE LLC",
+        "amount_usd": 138068276.24,
+        "uei": "NVC1EFKKYB93",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LONG BEACH HOUSING AUTHORITY",
+        "amount_usd": 137513367.31,
+        "uei": "C6FGJK6V9H33",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SRI INTERNATIONAL",
+        "amount_usd": 135790757.04,
+        "uei": "SRG2J1WS9X63",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "KBR SERVICES, LLC",
+        "amount_usd": 135167701.49,
+        "uei": "YSQMHRS4HSC5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY NORTHRIDGE",
+        "amount_usd": 133377284.77,
+        "uei": "FNJZEE34W8V3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "THE METROPOLITAN WATER DISTRICT OF SOUTHERN CALIFORNIA",
+        "amount_usd": 132472855.0,
+        "uei": "X4BJG1S2WPJ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA SANTA CRUZ",
+        "amount_usd": 131557413.31,
+        "uei": "VXUFPE4MCZH5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 130104030.4,
+        "uei": "PK8PM2GNVMP8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY LONG BEACH",
+        "amount_usd": 128822960.59,
+        "uei": "Y8CRUE3Z5LD7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES",
+        "amount_usd": 127451713.96,
+        "uei": "DTQNBHNCNXR3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "COUNTY OF LOS ANGELES",
+        "amount_usd": 126890955.82,
+        "uei": "DN3NGS58SMT9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA DEPARTMENT OF PARKS & RECREATION",
+        "amount_usd": 125298525.37,
+        "uei": "VY39GJE3DQG1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "RAYTHEON COMPANY",
+        "amount_usd": 125094993.36,
+        "uei": "QF4VA87ST9F7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "VETERANS EZ INFO INC.",
+        "amount_usd": 124485648.53,
+        "uei": "HH52KZGMV2Y6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNITED LAUNCH SERVICES, LLC",
+        "amount_usd": 121700474.0,
+        "uei": "XHAMULHCL9N3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BAE SYSTEMS LAND & ARMAMENTS L.P.",
+        "amount_usd": 121384306.87,
+        "uei": "JZCFGJQG7A57",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BLUE TECH INC.",
+        "amount_usd": 120843212.47,
+        "uei": "MDC5LDZKQAM4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA OFFICE OF TRAFFIC SAFETY",
+        "amount_usd": 119945331.43,
+        "uei": "XCA4E3XL2KY7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PACIFIC COAST PRODUCERS",
+        "amount_usd": 117577397.53,
+        "uei": "RNUGGJVG1RK8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "METROPOLITAN TRANSIT SYSTEM",
+        "amount_usd": 116155080.0,
+        "uei": "SBC3GLM5X8Z5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PARAGON SYSTEMS INC",
+        "amount_usd": 115933823.0,
+        "uei": "RG1VD6RNMXB5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ENVIRONMENTAL QUALITY MANAGEMENT, INC",
+        "amount_usd": 114785842.64,
+        "uei": "DBD6KDKXWN65",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "KRATOS UNMANNED AERIAL SYSTEMS, INC",
+        "amount_usd": 111977922.03,
+        "uei": "GURMFDFLENX4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "STOCKTON PORT DISTRICT",
+        "amount_usd": 111111549.0,
+        "uei": "SL2CBWRVW5B5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AECOM TECHNICAL SERVICES, INC.",
+        "amount_usd": 108847010.85,
+        "uei": "EPUXNLX5EYC4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DYNAMIC SYSTEMS INC",
+        "amount_usd": 108529926.58,
+        "uei": "Z78DJNKYJ2K5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 107655021.76,
+        "uei": "PDKLLA6Q11N4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOS ANGELES COUNTY DEVELOPMENT AUTHORITY LACDA",
+        "amount_usd": 100989817.47,
+        "uei": "E5ZNHHZJ8GX9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF COUNTY OF MONTE",
+        "amount_usd": 100899590.0,
+        "uei": "L47YWN9ZZD85",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BLUE ORIGIN, LLC",
+        "amount_usd": 100000000.0,
+        "uei": "SFKWJAYSTL95",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "VOLUNTEERS OF AMERICA OF LOS ANGELES",
+        "amount_usd": 99929619.31,
+        "uei": "DJM3CNDVQ2J8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY SACRAMENTO",
+        "amount_usd": 98960868.71,
+        "uei": "K8JLGZSDVS89",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NEIGHBORHOOD HOUSE ASSOCIATION",
+        "amount_usd": 97792466.61,
+        "uei": "E7R7JGKJKRH3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HUNTINGTON INGALLS INC",
+        "amount_usd": 97500428.0,
+        "uei": "WMXDDH6HJNA5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "MERCURY MISSION SYSTEMS LLC",
+        "amount_usd": 97037696.44,
+        "uei": "GELNG3K35FA5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "GOVERNOR OFFICE OF SERVICE & COMMUNITY ENGAGEMENT",
+        "amount_usd": 96718696.0,
+        "uei": "QFC8Z448Z846",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "DEPARTMENT OF AIRPORTS OF THE CITY OF LOS ANGELES",
+        "amount_usd": 96624237.0,
+        "uei": "MYREWLVR75F7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CITY OF SAN BUENAVENTURA",
+        "amount_usd": 96551718.32,
+        "uei": "MNM1UJ1DMCX8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HII FLEET SUPPORT GROUP LLC",
+        "amount_usd": 96289420.0,
+        "uei": "VGCPT3NSM831",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF MARIN",
+        "amount_usd": 94949888.32,
+        "uei": "CN9CRPPBPLJ3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "R.A. BURCH CONSTRUCTION CO., INC.",
+        "amount_usd": 94198966.81,
+        "uei": "PBCXB1D4K1C9",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY, FRESNO",
+        "amount_usd": 93952112.68,
+        "uei": "JLQBUB5SG3L5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE COUNTY OF SANTA BARBARA",
+        "amount_usd": 93655180.0,
+        "uei": "EQMNY4KUHHY1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE CITY OF FRESNO",
+        "amount_usd": 93365460.16,
+        "uei": "SVT8JXSLA7J7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA STATE UNIVERSITY LOS ANGELES",
+        "amount_usd": 92975549.16,
+        "uei": "JWL6V4CWPQJ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+        "amount_usd": 92887988.94,
+        "uei": "FNZGNWHTXVL4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN DIEGO STATE UNIVERSITY",
+        "amount_usd": 92298171.06,
+        "uei": "RN4HGABGRWV7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "BECKMAN RESEARCH INSTITUTE OF THE CITY OF HOPE",
+        "amount_usd": 92174339.24,
+        "uei": "NPH1VN32EWN5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "HIGHWAY PATROL, CALIFORNIA",
+        "amount_usd": 92065593.02,
+        "uei": "J3HPGZWKVKZ3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AMGEN USA INC",
+        "amount_usd": 89932932.97,
+        "uei": "XPGNQMXHP493",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "TERRESTRIS, LLC",
+        "amount_usd": 89235334.86,
+        "uei": "RM6LFF8N8KN3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "AIRCRAFT READINESS ALLIANCE II, LLC",
+        "amount_usd": 88912437.61,
+        "uei": "YML5PYS652E6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN DIEGO ASSOCIATION OF GOVERNMENTS",
+        "amount_usd": 88792919.48,
+        "uei": "CF3XG46HAWE8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CALIFORNIA DEPARTMENT OF FISH & WILDLIFE",
+        "amount_usd": 88262410.81,
+        "uei": "UVKGJ6U1SEG3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "REDWOOD COAST ENERGY AUTHORITY",
+        "amount_usd": 87629455.0,
+        "uei": "Y5CLGKM82VL1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "FOOD & AGRICULTURE, CALIFORNIA DEPARTMENT OF",
+        "amount_usd": 86107200.92,
+        "uei": "H8ANDD5WXME7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN JOAQUIN COUNTY",
+        "amount_usd": 85268561.49,
+        "uei": "WS5DFE7STJZ1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SOUTHERN CALIFORNIA REGIONAL RAIL AUTHORITY",
+        "amount_usd": 84987843.56,
+        "uei": "U6L4K3MKKGB6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "amount_usd": 84652337.41,
+        "uei": "UG5JJDZF27Z3",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CA STATE POLYTECHNIC UNIVERSITY",
+        "amount_usd": 84259869.46,
+        "uei": "WFY5U8JWNDK1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ES3 PRIME LOGISTICS GROUP INC",
+        "amount_usd": 83591472.93,
+        "uei": "RRYLZMU7LMN5",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "LOS ANGELES HOMELESS SERVICES AUTHORITY",
+        "amount_usd": 82581792.0,
+        "uei": "HAW8D5MS9JE4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "PERATON INC.",
+        "amount_usd": 81994069.48,
+        "uei": "ZBPQEJVECCT4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "RIVERSIDE COUNTY OFFICE OF EDUCATION",
+        "amount_usd": 81415028.26,
+        "uei": "TMG9HC9BBG81",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SANTA CLARA VALLEY TRANSPORTATION AUTHORITY",
+        "amount_usd": 80603239.0,
+        "uei": "EAZVJZNJBS22",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "COUNTY OF ORANGE",
+        "amount_usd": 80322285.0,
+        "uei": "TNYKC5J8PZK7",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ALLIANT TECHSYSTEMS OPERATIONS LLC",
+        "amount_usd": 78733612.86,
+        "uei": "HBCXZGZJ83M4",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "SAN FRANCISCO STATE UNIVERSITY",
+        "amount_usd": 78449140.83,
+        "uei": "F4SLJ5WF59F6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "UNIVERSITY OF CALIFORNIA, MERCED",
+        "amount_usd": 78044197.75,
+        "uei": "FFM7VPAG8P92",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "CUBIC DEFENSE APPLICATIONS, INC.",
+        "amount_usd": 78007812.21,
+        "uei": "N7NUHPAKNME8",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "ASTROTECH SPACE OPERATIONS, LLC",
+        "amount_usd": 77511000.0,
+        "uei": "GFCNFVBDGM85",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "L3 TECHNOLOGIES, INC.",
+        "amount_usd": 76851954.47,
+        "uei": "JXBPKGYKBXK6",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      },
+      {
+        "name": "STUTZ PACKING COMPANY",
+        "amount_usd": 75719374.56,
+        "uei": "LQ6WU15EKEN1",
+        "masked_aggregate": false,
+        "coverage_flag": "traceable"
+      }
+    ],
+    "awarding_agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount_usd": 175946070806.11,
+        "code": "HHS"
+      },
+      {
+        "name": "Social Security Administration",
+        "amount_usd": 157498001856.52,
+        "code": "SSA"
+      },
+      {
+        "name": "Department of Defense",
+        "amount_usd": 39890349749.75,
+        "code": "DOD"
+      },
+      {
+        "name": "Department of Veterans Affairs",
+        "amount_usd": 21902349608.4,
+        "code": "VA"
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount_usd": 21492365975.38,
+        "code": "USDA"
+      },
+      {
+        "name": "Department of Education",
+        "amount_usd": 11268741301.17,
+        "code": "ED"
+      },
+      {
+        "name": "Department of Housing and Urban Development",
+        "amount_usd": 10110272759.74,
+        "code": "HUD"
+      },
+      {
+        "name": "Department of Transportation",
+        "amount_usd": 9381170895.15,
+        "code": "DOT"
+      },
+      {
+        "name": "Department of Energy",
+        "amount_usd": 9049006836.64,
+        "code": "DOE"
+      },
+      {
+        "name": "Department of Homeland Security",
+        "amount_usd": 9003660900.43,
+        "code": "DHS"
+      },
+      {
+        "name": "National Aeronautics and Space Administration",
+        "amount_usd": 4477726577.07,
+        "code": "NASA"
+      },
+      {
+        "name": "Environmental Protection Agency",
+        "amount_usd": 3281799731.37,
+        "code": "EPA"
+      },
+      {
+        "name": "Department of Commerce",
+        "amount_usd": 2231994326.32,
+        "code": "DOC"
+      },
+      {
+        "name": "Department of the Interior",
+        "amount_usd": 1973907123.43,
+        "code": "DOI"
+      },
+      {
+        "name": "Department of Labor",
+        "amount_usd": 1541801056.22,
+        "code": "DOL"
+      },
+      {
+        "name": "Pension Benefit Guaranty Corporation",
+        "amount_usd": 1404749381.36,
+        "code": "PBGC"
+      },
+      {
+        "name": "General Services Administration",
+        "amount_usd": 1215376977.95,
+        "code": "GSA"
+      },
+      {
+        "name": "National Science Foundation",
+        "amount_usd": 969784411.6,
+        "code": "NSF"
+      },
+      {
+        "name": "Department of Justice",
+        "amount_usd": 680725460.41,
+        "code": "DOJ"
+      },
+      {
+        "name": "Railroad Retirement Board",
+        "amount_usd": 633019339.76,
+        "code": "RRB"
+      },
+      {
+        "name": "Small Business Administration",
+        "amount_usd": 526350268.11,
+        "code": "SBA"
+      },
+      {
+        "name": "Department of State",
+        "amount_usd": 366080183.05,
+        "code": "DOS"
+      },
+      {
+        "name": "Federal Communications Commission",
+        "amount_usd": 341731666.72,
+        "code": "FCC"
+      },
+      {
+        "name": "Department of the Treasury",
+        "amount_usd": 259347498.25,
+        "code": "TREAS"
+      },
+      {
+        "name": "Corporation for National and Community Service",
+        "amount_usd": 54802462.05,
+        "code": "CNCS"
+      }
+    ]
+  }
+}

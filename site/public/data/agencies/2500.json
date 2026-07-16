@@ -1,0 +1,457 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "2500",
+    "title": "Transportation",
+    "total_usd": 29675064000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 29675064000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "2660",
+        "title": "Department of Transportation",
+        "total_usd": 18741967000,
+        "general_fund_usd": 133528000,
+        "positions": 22614.2,
+        "programs": [
+          {
+            "program_code": "1835019",
+            "title": "Capital Outlay Projects",
+            "usd": 6137060000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "1835020",
+            "title": "Local Assistance",
+            "usd": 3684229000,
+            "positions": 309.5
+          },
+          {
+            "program_code": "1835010",
+            "title": "Capital Outlay Support",
+            "usd": 2515885000,
+            "positions": 10116.4
+          },
+          {
+            "program_code": "1835056",
+            "title": "Maintenance",
+            "usd": 1985307000,
+            "positions": 7085.5
+          },
+          {
+            "program_code": "1840028",
+            "title": "Intercity Rail Passenger Program",
+            "usd": 1485054000,
+            "positions": 43.7
+          },
+          {
+            "program_code": "1840019",
+            "title": "State and Federal Mass Transit",
+            "usd": 1062207000,
+            "positions": 111.7
+          },
+          {
+            "program_code": "1850010",
+            "title": "Equipment Service Program",
+            "usd": 523544000,
+            "positions": 700.6
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 469115000,
+            "positions": 1683.0
+          },
+          {
+            "program_code": "1835047",
+            "title": "Operations",
+            "usd": 287912000,
+            "positions": 1125.2
+          },
+          {
+            "program_code": "1845013",
+            "title": "Statewide Planning",
+            "usd": 172998000,
+            "positions": 764.3
+          },
+          {
+            "program_code": "1835038",
+            "title": "Legal",
+            "usd": 155748000,
+            "positions": 305.6
+          },
+          {
+            "program_code": "1845022",
+            "title": "Regional Planning",
+            "usd": 144556000,
+            "positions": 38.5
+          },
+          {
+            "program_code": "1835029",
+            "title": "Program Development",
+            "usd": 89050000,
+            "positions": 212.2
+          },
+          {
+            "program_code": "1870",
+            "title": "Office of Inspector General",
+            "usd": 16510000,
+            "positions": 92.0
+          },
+          {
+            "program_code": "1830019",
+            "title": "Aeronautics",
+            "usd": 12792000,
+            "positions": 26.0
+          },
+          {
+            "program_code": "1850019",
+            "title": "Distributed Equipment Service Program Costs",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 6745040000,
+          "Federal funds": 3366083000,
+          "Other funds": 1149359000,
+          "General Fund": 133528000,
+          "Bond funds": 17186000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 18741967000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2720",
+        "title": "Dept of the California Highway Patrol",
+        "total_usd": 3558542000,
+        "general_fund_usd": 50698000,
+        "positions": 11299.4,
+        "programs": [
+          {
+            "program_code": "2050",
+            "title": "Traffic Management",
+            "usd": 3033385000,
+            "positions": 8844.0
+          },
+          {
+            "program_code": "2055",
+            "title": "Regulation and Inspection",
+            "usd": 367973000,
+            "positions": 1047.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 306483000,
+            "positions": 1186.0
+          },
+          {
+            "program_code": "2060",
+            "title": "Vehicle Ownership Security",
+            "usd": 77451000,
+            "positions": 222.4
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -306483000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 3234003000,
+          "Other funds": 173913000,
+          "Federal funds": 42915000,
+          "General Fund": 27978000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3478809000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0521",
+        "title": "Transportation, Secy",
+        "total_usd": 2014839000,
+        "general_fund_usd": 1471000000,
+        "positions": 85.0,
+        "programs": [
+          {
+            "program_code": "0276",
+            "title": "Transit and Intercity Rail Capital Program",
+            "usd": 1559889000,
+            "positions": 1.2
+          },
+          {
+            "program_code": "0277",
+            "title": "Statewide Transportation Priorities",
+            "usd": 275000000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0275",
+            "title": "California Traffic Safety Program",
+            "usd": 172088000,
+            "positions": 48.0
+          },
+          {
+            "program_code": "0270",
+            "title": "Administration of Transportation Agency",
+            "usd": 7862000,
+            "positions": 35.8
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1471000000,
+          "Special funds": 372990000,
+          "Federal funds": 170849000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2014839000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2830",
+        "title": "General Obligation Bonds-Transportation",
+        "total_usd": 1955089000,
+        "general_fund_usd": 528579000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "2200",
+            "title": "GO Bonds - Debt Service - Trans",
+            "usd": 1955089000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1426510000,
+          "General Fund": 528579000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1955089000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2740",
+        "title": "Department of Motor Vehicles",
+        "total_usd": 1485797000,
+        "general_fund_usd": 15078000,
+        "positions": 8635.8,
+        "programs": [
+          {
+            "program_code": "2130",
+            "title": "Vehicle/Vessel Identification and Compliance",
+            "usd": 816839000,
+            "positions": 3897.3
+          },
+          {
+            "program_code": "2135",
+            "title": "Driver Licensing and Personal Identification",
+            "usd": 412595000,
+            "positions": 2495.2
+          },
+          {
+            "program_code": "2140",
+            "title": "Driver Safety",
+            "usd": 172505000,
+            "positions": 1208.9
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 139337000,
+            "positions": 573.4
+          },
+          {
+            "program_code": "2145",
+            "title": "Occupational Licensing and Investigative Services",
+            "usd": 76525000,
+            "positions": 448.0
+          },
+          {
+            "program_code": "2150",
+            "title": "New Motor Vehicle Board",
+            "usd": 2155000,
+            "positions": 13.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -139337000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1441958000,
+          "Other funds": 24911000,
+          "General Fund": 12358000,
+          "Federal funds": 1392000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1480619000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "2640",
+        "title": "State Transit Assistance",
+        "total_usd": 1090014000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "1820",
+            "title": "Administration of Transit Programs",
+            "usd": 1090014000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 1090014000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1090014000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2665",
+        "title": "High-Speed Rail Authority",
+        "total_usd": 802749000,
+        "general_fund_usd": 0,
+        "positions": 517.0,
+        "programs": [
+          {
+            "program_code": "1960030",
+            "title": "Construction Management",
+            "usd": 53364000,
+            "positions": 235.0
+          },
+          {
+            "program_code": "1960010",
+            "title": "Administration",
+            "usd": 41455000,
+            "positions": 179.0
+          },
+          {
+            "program_code": "1960020",
+            "title": "Project Development",
+            "usd": 22647000,
+            "positions": 103.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 73614000,
+          "Bond funds": 38695000,
+          "Other funds": 5157000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 117466000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "2600",
+        "title": "California Transportation Commission",
+        "total_usd": 11044000,
+        "general_fund_usd": 0,
+        "positions": 42.0,
+        "programs": [
+          {
+            "program_code": "1800",
+            "title": "Administration of California Transportation Commission",
+            "usd": 9944000,
+            "positions": 42.0
+          },
+          {
+            "program_code": "1805",
+            "title": "Clean Air and Transportation Improvement",
+            "usd": 1100000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 9255000,
+          "Bond funds": 1100000,
+          "Other funds": 689000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 11044000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2670",
+        "title": "Board of Pilot Commissioners",
+        "total_usd": 10701000,
+        "general_fund_usd": 0,
+        "positions": 5.0,
+        "programs": [
+          {
+            "program_code": "2030",
+            "title": "Board of Pilot Commissioners",
+            "usd": 10701000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 10701000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 10701000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "2667",
+        "title": "High-Speed Rail Auth Ofc Inspector Genrl",
+        "total_usd": 4322000,
+        "general_fund_usd": 0,
+        "positions": 16.0,
+        "programs": [
+          {
+            "program_code": "2005",
+            "title": "High-Speed Rail Authority Office of the Inspector General",
+            "usd": 4322000,
+            "positions": 16.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 4322000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4322000,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

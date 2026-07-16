@@ -1,0 +1,1241 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T124947Z",
+  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+    "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+    "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+  ],
+  "data": {
+    "agency_cd": "0010",
+    "title": "Legislative, Judicial, and Executive",
+    "total_usd": 15869216000,
+    "summary_cross_check": {
+      "summary_all_funds_usd": 15869216000,
+      "drift_pct": 0.0
+    },
+    "departments": [
+      {
+        "org_cd": "0250",
+        "title": "Judicial Branch",
+        "total_usd": 5254030000,
+        "general_fund_usd": 3232291000,
+        "positions": 2151.2,
+        "programs": [
+          {
+            "program_code": "0150",
+            "title": "State Trial Court Funding",
+            "usd": 4033618000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0140",
+            "title": "Judicial Council",
+            "usd": 947617000,
+            "positions": 985.6
+          },
+          {
+            "program_code": "0135",
+            "title": "Courts of Appeal",
+            "usd": 294451000,
+            "positions": 917.3
+          },
+          {
+            "program_code": "0130",
+            "title": "Supreme Court",
+            "usd": 55162000,
+            "positions": 157.2
+          },
+          {
+            "program_code": "0155",
+            "title": "Habeas Corpus Resource Center",
+            "usd": 18970000,
+            "positions": 91.1
+          },
+          {
+            "program_code": "0170",
+            "title": "Offset from Local Property Tax Revenue",
+            "usd": -213983000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 3114096000,
+          "Special funds": 1826023000,
+          "Other funds": 188910000,
+          "Federal funds": 6806000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 5135835000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0690",
+        "title": "Office of Emergency Services",
+        "total_usd": 4473752000,
+        "general_fund_usd": 740154000,
+        "positions": 1906.8,
+        "programs": [
+          {
+            "program_code": "0385",
+            "title": "Special Programs and Grant Management",
+            "usd": 3875002000,
+            "positions": 641.1
+          },
+          {
+            "program_code": "0395",
+            "title": "Public Safety Communications",
+            "usd": 304251000,
+            "positions": 476.7
+          },
+          {
+            "program_code": "0380",
+            "title": "Emergency Management Services",
+            "usd": 241451000,
+            "positions": 526.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 50618000,
+            "positions": 257.0
+          },
+          {
+            "program_code": "0390",
+            "title": "Alfred E. Alquist Seismic Safety Commission",
+            "usd": 2500000,
+            "positions": 6.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -50618000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Federal funds": 3402188000,
+          "General Fund": 689606000,
+          "Special funds": 218992000,
+          "Other funds": 109357000,
+          "Bond funds": 3061000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4423204000,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0820",
+        "title": "Department of Justice",
+        "total_usd": 1325522000,
+        "general_fund_usd": 500307000,
+        "positions": 6212.4,
+        "programs": [
+          {
+            "program_code": "0435",
+            "title": "Division of Legal Services",
+            "usd": 689280000,
+            "positions": 2217.7
+          },
+          {
+            "program_code": "0440",
+            "title": "Law Enforcement",
+            "usd": 348852000,
+            "positions": 1427.4
+          },
+          {
+            "program_code": "0445",
+            "title": "California Justice Information Services",
+            "usd": 287390000,
+            "positions": 1317.4
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 194233000,
+            "positions": 1249.9
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -194233000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 500307000,
+          "Special funds": 441345000,
+          "Other funds": 308748000,
+          "Federal funds": 75122000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1325522000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0650",
+        "title": "Gov's Office of Land Use & Climate Innov",
+        "total_usd": 647515000,
+        "general_fund_usd": 29970000,
+        "positions": 187.0,
+        "programs": [
+          {
+            "program_code": "0370",
+            "title": "Strategic Growth Council",
+            "usd": 610392000,
+            "positions": 45.0
+          },
+          {
+            "program_code": "0360",
+            "title": "State Planning & Policy Development",
+            "usd": 37123000,
+            "positions": 142.0
+          },
+          {
+            "program_code": "0365",
+            "title": "California Volunteers",
+            "usd": 0,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0371",
+            "title": "Office of Community Partnerships and Strategic Communications",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 608735000,
+          "General Fund": 29970000,
+          "Other funds": 5415000,
+          "Federal funds": 3395000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 647515000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0390",
+        "title": "Judges' Retirement System Contributions",
+        "total_usd": 597739000,
+        "general_fund_usd": 276688000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "0200",
+            "title": "Benefit Payments",
+            "usd": 321051000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0195",
+            "title": "Local Assistance",
+            "usd": 270422000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0190",
+            "title": "State Operations",
+            "usd": 6266000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 321051000,
+          "General Fund": 276688000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 597739000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0840",
+        "title": "State Controller",
+        "total_usd": 435221000,
+        "general_fund_usd": 190590000,
+        "positions": 1637.9,
+        "programs": [
+          {
+            "program_code": "0500300",
+            "title": "Personnel/Payroll Services",
+            "usd": 167125000,
+            "positions": 327.0
+          },
+          {
+            "program_code": "0500900",
+            "title": "Departmental Administration",
+            "usd": 81636000,
+            "positions": 338.8
+          },
+          {
+            "program_code": "0500100",
+            "title": "Accounting and Reporting",
+            "usd": 76027000,
+            "positions": 328.8
+          },
+          {
+            "program_code": "0500200",
+            "title": "Audits",
+            "usd": 41820000,
+            "positions": 289.7
+          },
+          {
+            "program_code": "0500400",
+            "title": "Unclaimed Property",
+            "usd": 39454000,
+            "positions": 257.8
+          },
+          {
+            "program_code": "0500500",
+            "title": "Disbursements",
+            "usd": 29159000,
+            "positions": 95.8
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 229571000,
+          "General Fund": 190590000,
+          "Special funds": 13108000,
+          "Federal funds": 1652000,
+          "Bond funds": 300000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 435221000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0977",
+        "title": "Health Facilities Financing Authority",
+        "total_usd": 420864000,
+        "general_fund_usd": 20631000,
+        "positions": 26.5,
+        "programs": [
+          {
+            "program_code": "0880",
+            "title": "Children's Hospital Program",
+            "usd": 246496000,
+            "positions": 8.0
+          },
+          {
+            "program_code": "0890",
+            "title": "Mental Health Wellness Grants",
+            "usd": 164631000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0885",
+            "title": "Health Facilities Grants and Loans",
+            "usd": 9737000,
+            "positions": 18.5
+          }
+        ],
+        "funds_by_class": {
+          "Bond funds": 246496000,
+          "Special funds": 144000000,
+          "General Fund": 20631000,
+          "Other funds": 9737000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 420864000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0845",
+        "title": "Department of Insurance",
+        "total_usd": 361380000,
+        "general_fund_usd": 19060000,
+        "positions": 1400.3,
+        "programs": [
+          {
+            "program_code": "0530",
+            "title": "Fraud Control",
+            "usd": 160159000,
+            "positions": 333.3
+          },
+          {
+            "program_code": "0520",
+            "title": "Regulation of Insurance Companies and Insurance Producers",
+            "usd": 123489000,
+            "positions": 463.0
+          },
+          {
+            "program_code": "0525",
+            "title": "Consumer Protection",
+            "usd": 76120000,
+            "positions": 341.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 45471000,
+            "positions": 256.0
+          },
+          {
+            "program_code": "0535",
+            "title": "General Fund Tax Collection and Compliance",
+            "usd": 1612000,
+            "positions": 7.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -45471000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 341571000,
+          "General Fund": 19060000,
+          "Other funds": 724000,
+          "Federal funds": 25000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 361380000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0509",
+        "title": "Governors Office of Bus, Econ Developm",
+        "total_usd": 306297000,
+        "general_fund_usd": 211972000,
+        "positions": 190.3,
+        "programs": [
+          {
+            "program_code": "0220",
+            "title": "Go-Biz",
+            "usd": 147641000,
+            "positions": 58.1
+          },
+          {
+            "program_code": "0230",
+            "title": "Office of the Small Business Advocate",
+            "usd": 58016000,
+            "positions": 21.8
+          },
+          {
+            "program_code": "0240",
+            "title": "Community Reinvestment Grants Program",
+            "usd": 50000000,
+            "positions": 13.0
+          },
+          {
+            "program_code": "0235",
+            "title": "Infrastructure, Finance and Economic Development",
+            "usd": 27383000,
+            "positions": 52.1
+          },
+          {
+            "program_code": "0245",
+            "title": "Local Equity Grant Program",
+            "usd": 15766000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "0225",
+            "title": "California Business Investment Services",
+            "usd": 7491000,
+            "positions": 41.3
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 211972000,
+          "Special funds": 67776000,
+          "Other funds": 23299000,
+          "Federal funds": 3250000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 306297000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0120",
+        "title": "Assembly",
+        "total_usd": 259495000,
+        "general_fund_usd": 259495000,
+        "positions": 80.0,
+        "programs": [
+          {
+            "program_code": "0970",
+            "title": "Support of the Assembly",
+            "usd": 259495000,
+            "positions": 80.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 259495000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 259495000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0130",
+        "title": "Joint Expenses",
+        "total_usd": 250000000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "0980",
+            "title": "Support of the Office of the Legislative Analyst",
+            "usd": 13334000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0985",
+            "title": "Transferred from Item 0110-001-0001",
+            "usd": -6667000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0990",
+            "title": "Transferred from Item 0120-011-0001",
+            "usd": -6667000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {},
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": false
+        }
+      },
+      {
+        "org_cd": "0680",
+        "title": "Gov Ofc Service and Community Engagement",
+        "total_usd": 228731000,
+        "general_fund_usd": 197448000,
+        "positions": 138.0,
+        "programs": [
+          {
+            "program_code": "0372",
+            "title": "California Volunteers",
+            "usd": 208335000,
+            "positions": 109.0
+          },
+          {
+            "program_code": "0373",
+            "title": "Office of Community Partnerships and Strategic Communications",
+            "usd": 20396000,
+            "positions": 29.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 197448000,
+          "Federal funds": 28055000,
+          "Other funds": 3228000,
+          "Special funds": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 228731000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0985",
+        "title": "School Finance Authority",
+        "total_usd": 217637000,
+        "general_fund_usd": 182868000,
+        "positions": 17.0,
+        "programs": [
+          {
+            "program_code": "0930",
+            "title": "Charter School Facility Grant Program",
+            "usd": 182713000,
+            "positions": 6.0
+          },
+          {
+            "program_code": "0925",
+            "title": "State Charter School Facilities Incentive Grants Program",
+            "usd": 20517000,
+            "positions": 3.0
+          },
+          {
+            "program_code": "0935",
+            "title": "Charter School Revolving Loan Program",
+            "usd": 12541000,
+            "positions": 1.0
+          },
+          {
+            "program_code": "0920",
+            "title": "Charter School Facilities Program",
+            "usd": 1604000,
+            "positions": 5.0
+          },
+          {
+            "program_code": "0918",
+            "title": "Smart Bonds",
+            "usd": 262000,
+            "positions": 2.0
+          },
+          {
+            "program_code": "0938",
+            "title": "Student Housing",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 182868000,
+          "Federal funds": 20517000,
+          "Other funds": 12840000,
+          "Bond funds": 1412000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 217637000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0160",
+        "title": "Legislative Counsel Bureau",
+        "total_usd": 214992000,
+        "general_fund_usd": 192539000,
+        "positions": 679.0,
+        "programs": [
+          {
+            "program_code": "0120",
+            "title": "Support",
+            "usd": 214992000,
+            "positions": 679.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 192539000,
+          "Other funds": 22453000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 214992000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0890",
+        "title": "Secretary of State",
+        "total_usd": 202793000,
+        "general_fund_usd": 85226000,
+        "positions": 764.3,
+        "programs": [
+          {
+            "program_code": "0700",
+            "title": "Filings and Registrations",
+            "usd": 99498000,
+            "positions": 315.3
+          },
+          {
+            "program_code": "0705",
+            "title": "Elections",
+            "usd": 68972000,
+            "positions": 118.0
+          },
+          {
+            "program_code": "9900100",
+            "title": "Administration",
+            "usd": 66578000,
+            "positions": 288.7
+          },
+          {
+            "program_code": "0711",
+            "title": "Special Items of Expense",
+            "usd": 17292000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0710",
+            "title": "Archives",
+            "usd": 15679000,
+            "positions": 42.3
+          },
+          {
+            "program_code": "0715",
+            "title": "DOJ Legal Services",
+            "usd": 1352000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "9900200",
+            "title": "Administration - Distributed",
+            "usd": -66578000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 96729000,
+          "General Fund": 85226000,
+          "Federal funds": 20222000,
+          "Other funds": 616000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 202793000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0110",
+        "title": "Senate",
+        "total_usd": 196942000,
+        "general_fund_usd": 196942000,
+        "positions": 40.0,
+        "programs": [
+          {
+            "program_code": "0960",
+            "title": "Support of the Senate",
+            "usd": 196942000,
+            "positions": 40.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 196942000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 196942000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0855",
+        "title": "Gambling Control Commission",
+        "total_usd": 155286000,
+        "general_fund_usd": 0,
+        "positions": 40.0,
+        "programs": [
+          {
+            "program_code": "0560",
+            "title": "California Gambling Control Commission",
+            "usd": 155286000,
+            "positions": 40.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 146500000,
+          "Special funds": 8786000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 155286000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0950",
+        "title": "State Treasurer",
+        "total_usd": 49526000,
+        "general_fund_usd": 15203000,
+        "positions": 248.4,
+        "programs": [
+          {
+            "program_code": "0740019",
+            "title": "Centralized Treasury & Securities Management",
+            "usd": 18311000,
+            "positions": 64.5
+          },
+          {
+            "program_code": "0740028",
+            "title": "Public Finance",
+            "usd": 15717000,
+            "positions": 60.0
+          },
+          {
+            "program_code": "0740035",
+            "title": "Administration",
+            "usd": 9997000,
+            "positions": 104.9
+          },
+          {
+            "program_code": "0740010",
+            "title": "Investment Services",
+            "usd": 5501000,
+            "positions": 19.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 34323000,
+          "General Fund": 15203000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 49526000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0552",
+        "title": "Office of the Inspector General",
+        "total_usd": 48110000,
+        "general_fund_usd": 48110000,
+        "positions": 250.8,
+        "programs": [
+          {
+            "program_code": "0330",
+            "title": "Office of the Inspector General",
+            "usd": 48110000,
+            "positions": 250.8
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 48110000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 48110000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0957",
+        "title": "HOPE for Children Trust Account Prog Bd",
+        "total_usd": 39500000,
+        "general_fund_usd": 15000000,
+        "positions": 4.0,
+        "programs": [
+          {
+            "program_code": "0805",
+            "title": "California Hope, Opportunity, Perseverance and Empowerment (HOPE) for Children Trust Account Program",
+            "usd": 39500000,
+            "positions": 4.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 24500000,
+          "General Fund": 15000000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 39500000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0860",
+        "title": "State Board of Equalization",
+        "total_usd": 33783000,
+        "general_fund_usd": 33326000,
+        "positions": 193.6,
+        "programs": [
+          {
+            "program_code": "0570025",
+            "title": "County Assessment Standards Program",
+            "usd": 18979000,
+            "positions": 108.2
+          },
+          {
+            "program_code": "0570050",
+            "title": "State-Assessed Property Program",
+            "usd": 14804000,
+            "positions": 85.4
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 33326000,
+          "Other funds": 457000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 33783000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0500",
+        "title": "Governors Office",
+        "total_usd": 30262000,
+        "general_fund_usd": 24233000,
+        "positions": 151.0,
+        "programs": [
+          {
+            "program_code": "0210",
+            "title": "Governor's Office",
+            "usd": 29029000,
+            "positions": 142.0
+          },
+          {
+            "program_code": "0215",
+            "title": "Office of the First Partner",
+            "usd": 1233000,
+            "positions": 9.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 24233000,
+          "Other funds": 5914000,
+          "Special funds": 115000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 30262000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0870",
+        "title": "Office of Tax Appeals",
+        "total_usd": 27609000,
+        "general_fund_usd": 27579000,
+        "positions": 119.0,
+        "programs": [
+          {
+            "program_code": "0610",
+            "title": "Office of Tax Appeals",
+            "usd": 27609000,
+            "positions": 119.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 27579000,
+          "Other funds": 30000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 27609000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0974",
+        "title": "Pollution Control Financing Authority",
+        "total_usd": 23406000,
+        "general_fund_usd": 0,
+        "positions": 31.8,
+        "programs": [
+          {
+            "program_code": "0865",
+            "title": "Capital Access Program for Small Businesses",
+            "usd": 20641000,
+            "positions": 21.8
+          },
+          {
+            "program_code": "0870",
+            "title": "California Recycle Underutilized Sites Program",
+            "usd": 1413000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "0860",
+            "title": "Pollution Control Tax-Exempt Bond Program",
+            "usd": 1352000,
+            "positions": 6.0
+          },
+          {
+            "program_code": "0878",
+            "title": "California Investment and Innovation Program",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 23406000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 23406000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0968",
+        "title": "Tax Credit Allocation Committee",
+        "total_usd": 15926000,
+        "general_fund_usd": 0,
+        "positions": 81.0,
+        "programs": [
+          {
+            "program_code": "0840",
+            "title": "California Tax Credit Allocation Committee",
+            "usd": 15926000,
+            "positions": 81.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 15771000,
+          "Other funds": 155000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 15926000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0996",
+        "title": "General Obligation Bonds-LJE",
+        "total_usd": 8997000,
+        "general_fund_usd": 8997000,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "0950",
+            "title": "GO Bonds - Debt Service - LJE",
+            "usd": 8997000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 8997000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 8997000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0971",
+        "title": "Alt Energy, Advanced Trans Fin Auth",
+        "total_usd": 7921000,
+        "general_fund_usd": 0,
+        "positions": 10.0,
+        "programs": [
+          {
+            "program_code": "0850",
+            "title": "California Alternative Energy and Advanced Transportation Financing Authority",
+            "usd": 7921000,
+            "positions": 10.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 7371000,
+          "Special funds": 550000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7921000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0150",
+        "title": "Legislators Retirement Sys Contribution",
+        "total_usd": 7475000,
+        "general_fund_usd": 0,
+        "positions": 0.0,
+        "programs": [
+          {
+            "program_code": "0110",
+            "title": "Legislators' Retirement System",
+            "usd": 7475000,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 7475000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7475000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0984",
+        "title": "CalSavers Retirement Savings Board",
+        "total_usd": 7439000,
+        "general_fund_usd": 0,
+        "positions": 16.0,
+        "programs": [
+          {
+            "program_code": "0910",
+            "title": "CalSavers Retirement Savings Program",
+            "usd": 7439000,
+            "positions": 16.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 7439000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7439000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0280",
+        "title": "Commission on Judicial Performance",
+        "total_usd": 7207000,
+        "general_fund_usd": 7208000,
+        "positions": 29.0,
+        "programs": [
+          {
+            "program_code": "0180",
+            "title": "Commission on Judicial Performance",
+            "usd": 7207000,
+            "positions": 29.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 7208000,
+          "Other funds": -1000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 7207000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0956",
+        "title": "Debt Investment Advisory Commission",
+        "total_usd": 4469000,
+        "general_fund_usd": 0,
+        "positions": 21.0,
+        "programs": [
+          {
+            "program_code": "0800",
+            "title": "California Debt and Investment Advisory Commission",
+            "usd": 4469000,
+            "positions": 21.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 4289000,
+          "Other funds": 180000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 4469000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0959",
+        "title": "Debt Limit Allocation Committee",
+        "total_usd": 3681000,
+        "general_fund_usd": 0,
+        "positions": 20.0,
+        "programs": [
+          {
+            "program_code": "0810",
+            "title": "California Debt Limit Allocation Committee",
+            "usd": 3681000,
+            "positions": 20.0
+          }
+        ],
+        "funds_by_class": {
+          "Special funds": 3681000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 3681000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0750",
+        "title": "Office of the Lieutenant Governor",
+        "total_usd": 2785000,
+        "general_fund_usd": 2785000,
+        "positions": 15.0,
+        "programs": [
+          {
+            "program_code": "0430",
+            "title": "General Activities",
+            "usd": 2785000,
+            "positions": 15.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 2785000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 2785000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0981",
+        "title": "California ABLE Act Board",
+        "total_usd": 1648000,
+        "general_fund_usd": 1648000,
+        "positions": 5.0,
+        "programs": [
+          {
+            "program_code": "0895",
+            "title": "California ABLE Act Board",
+            "usd": 1648000,
+            "positions": 5.0
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 1648000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1648000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0989",
+        "title": "Educational Facilities Authority",
+        "total_usd": 1091000,
+        "general_fund_usd": 0,
+        "positions": 4.0,
+        "programs": [
+          {
+            "program_code": "0940",
+            "title": "Bond Financing",
+            "usd": 1012000,
+            "positions": 4.0
+          },
+          {
+            "program_code": "0955",
+            "title": "College Access Tax Credit Program",
+            "usd": 79000,
+            "positions": 0.0
+          },
+          {
+            "program_code": "0951",
+            "title": "Student Housing",
+            "usd": 0,
+            "positions": 0.0
+          }
+        ],
+        "funds_by_class": {
+          "Other funds": 1012000,
+          "Special funds": 79000,
+          "General Fund": 0
+        },
+        "integrity": {
+          "program_lines_sum_usd": 1091000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0911",
+        "title": "Citizens Redistricting Commission",
+        "total_usd": 185000,
+        "general_fund_usd": 185000,
+        "positions": 0.5,
+        "programs": [
+          {
+            "program_code": "0730",
+            "title": "Support",
+            "usd": 185000,
+            "positions": 0.5
+          }
+        ],
+        "funds_by_class": {
+          "General Fund": 185000
+        },
+        "integrity": {
+          "program_lines_sum_usd": 185000,
+          "matches_department_total": true
+        }
+      },
+      {
+        "org_cd": "0850",
+        "title": "State Lottery Commission",
+        "total_usd": 0,
+        "general_fund_usd": 0,
+        "positions": null,
+        "programs": [],
+        "funds_by_class": {},
+        "integrity": {
+          "program_lines_sum_usd": 0,
+          "matches_department_total": true
+        }
+      }
+    ]
+  }
+}

@@ -56,11 +56,12 @@ cd site && npm run build && npx wrangler deploy
 
 | Source | Cadence | Status |
 |---|---|---|
+| ebudget enacted summary (GF sankey + agency statistics) | budget cycle | ✅ live |
+| ebudget department detail (230 depts × programs + funds) | budget cycle | ✅ live |
 | [California Grants Portal](https://data.ca.gov/dataset/california-grants-portal) | daily | ✅ live |
-| Open FI$Cal vendor transactions | monthly (60-day lag) | planned (Phase 1) |
+| USAspending federal-into-CA recipients | monthly-ish | ✅ live |
+| Open FI$Cal vendor transactions | monthly (60-day lag) | ⚠️ CAPTCHA-gated (see /gaps) |
 | SCO ByTheNumbers | annual | planned (Phase 1) |
 | SACS / Ed-Data | annual | planned (Phase 1) |
-| DOF/LAO revenue model | budget cycle | planned (Phase 1) |
-| USAspending CA slice, FAC/SEFA, 990s | — | planned (Phase 2) |
 
 Per-source caveats live in `pipeline/sources/*.yaml` and render on every figure.
