@@ -15,6 +15,7 @@ import sys
 from .config import REPO_ROOT, Settings, get_settings
 from .ingest.bhcip import run_bhcip
 from .ingest.city_checkbooks import run_city_checkbooks
+from .ingest.compensation import run_compensation
 from .ingest.county_finances import run_county_finances
 from .ingest.csv_download import run_csv_ingest
 from .ingest.ebudget import run_ebudget
@@ -121,6 +122,11 @@ def _run_federal_subawards(storage: Storage, settings: Settings) -> None:
     run_federal_subawards(storage, cfg, settings)
 
 
+def _run_compensation(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "compensation")
+    run_compensation(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -138,6 +144,7 @@ RUNNERS = {
     "fac_sefa": _run_fac_sefa,
     "nonprofits": _run_nonprofits,
     "federal_subawards": _run_federal_subawards,
+    "compensation": _run_compensation,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -161,6 +168,7 @@ RUN_ORDER = [
     "city_checkbooks",
     "fac_sefa",
     "federal_subawards",
+    "compensation",
     "nonprofits",
     "fiscal_vendor",
 ]

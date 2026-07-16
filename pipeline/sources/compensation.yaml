@@ -1,0 +1,30 @@
+# Government Compensation in California (SCO gcc.sco.ca.gov) — public payroll.
+# This is the single biggest exclusion from every checkbook on the site:
+# wages + benefits by position for state departments, counties, and cities.
+# gcc.sco.ca.gov serves /RawExport/{year}_{type}.zip but its edge rejects
+# scripted TLS handshakes (403 to curl) while serving normal browsers, so the
+# snapshots are browser-captured into sources/captured/ (re-capture steps in
+# the connector docstring).
+source: compensation
+dataset: gcc_2024
+access: curated_snapshot
+cadence: "annual (SCO publishes the prior calendar year each fall)"
+freshness_sla_hours: 8760
+min_rows: 500000   # total positions across the three files
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Government Compensation in California, reported to the State Controller. Public-employee names and salaries are disclosable (IFPTE Local 21 v. Superior Court, 2007); this is position-level, aggregated here to employer totals."
+  - "Covers state departments, counties, and cities for 2024 (the file set also offers UC, CSU, community colleges, special districts, and courts — added as captured)."
+  - "Benefits shown are the employer's retirement + health/dental/vision contribution; pension unfunded-liability payments are reported separately by the systems."
+info:
+  name: "Government Compensation in California (2024)"
+  publisher: "California State Controller's Office"
+  url: "https://gcc.sco.ca.gov/"
+  license: "Public record (SCO)"
+extra:
+  files:
+    state: "2024-StateDepartment.zip"
+    county: "2024-County.zip"
+    city: "2024-City.zip"
+  year: 2024

@@ -345,3 +345,20 @@ def test_federal_subawards_contract():
     for e in d["largest_edges"]:
         assert e["prime"] and e["sub"] and e["usd"] > 0
         assert e["kind"] in {"grant", "contract"}
+
+
+# ---------- government compensation ----------
+
+
+def test_compensation_contract():
+    d = load("compensation.json")["data"]
+    assert d["statewide_wages_usd"] > 70e9, "state+county+city wages should exceed $70B"
+    assert d["statewide_benefits_usd"] > 20e9
+    for lv in ("state", "county", "city"):
+        x = d["levels"][lv]
+        assert x["positions"] > 100_000, f"{lv}: too few positions"
+        assert x["wages_usd"] > 10e9
+        tw = [e["wages_usd"] + e["benefits_usd"] for e in x["top_employers"]]
+        assert tw == sorted(tw, reverse=True), f"{lv} top_employers unsorted"
+    # county names must resolve for the /local payroll column
+    assert "LOS ANGELES" in d["by_employer"]

@@ -90,17 +90,17 @@ const GAPS = [
   },
   {
     id: "compensation-portal",
-    title: "Public payroll data exists — behind a wall that blocks software",
-    flag: "category_only" as const,
-    klass: "(d) Published, but unusable for systematic analysis",
-    size: "Payroll is the single biggest exclusion from every checkbook on this site — roughly half of many agencies' budgets",
+    title: "Public payroll: recovered, but the portal fights automation",
+    flag: "traceable" as const,
+    klass: "(d) Published; usable only through a browser",
+    size: "$124.6B in state + county + city payroll for 2024 — the biggest single exclusion from the checkbooks",
     body: [
-      "The State Controller publishes Government Compensation in California (publicpay.ca.gov): wages and benefits by position for state departments, counties, cities, and districts. It is exactly the data that would fill the 'payroll excluded' gap in our coverage meters.",
-      "The portal's security layer rejects automated retrieval outright (we verified: every request path returns 403 or hangs, including from a normal browser session at times). The data is public; the access is not.",
+      "Update: we now show this. The State Controller's Government Compensation portal (gcc.sco.ca.gov) publishes wages and benefits by position, and it offers full raw exports — but its security edge rejects automated requests (a plain scripted download gets a 403) while serving ordinary browsers. So the annual files are captured through a browser once a year and re-published here.",
+      "This is the same pattern as several California portals: the data is genuinely public, but the access path assumes a human at a keyboard, which is exactly what blocks continuous, verifiable transparency.",
     ],
-    fix: "Mirror the annual raw exports on the state open-data portal, like the Grants Portal does. Until then: a manual download once a year would light this lane up.",
+    fix: "Mirror the annual raw exports on the open-data portal (or drop the anti-automation edge on the already-public /RawExport files). Until then, a browser capture each fall keeps this current — see the payroll section on the Local page.",
     cites: [
-      { label: "publicpay.ca.gov", url: "https://publicpay.ca.gov/" },
+      { label: "gcc.sco.ca.gov raw exports", url: "https://gcc.sco.ca.gov/Reports/RawExport.aspx" },
     ],
   },
   {

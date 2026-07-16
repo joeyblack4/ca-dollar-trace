@@ -34,33 +34,66 @@ interface CheckbooksDoc {
   };
 }
 
-function EntityTable({ rows, label }: { rows: LocalDoc["counties"]; label: string }) {
+function EntityTable({
+  rows,
+  label,
+  payroll,
+}: {
+  rows: LocalDoc["counties"];
+  label: string;
+  payroll?: Record<string, { wages_usd: number; benefits_usd: number }>;
+}) {
   return (
     <div className="mt-3 overflow-x-auto">
-      <table className="w-full min-w-[560px] text-sm">
+      <table className="w-full min-w-[620px] text-sm">
         <thead>
           <tr className="border-b border-rule text-left text-fog">
             <th className="py-2 pr-4 font-medium">{label}</th>
             <th className="py-2 pr-4 text-right font-medium">Reported spending</th>
+            {payroll && <th className="py-2 pr-4 text-right font-medium">of which payroll</th>}
             <th className="py-2 pr-4 text-right font-medium">Per resident</th>
             <th className="py-2 font-medium">Biggest area</th>
           </tr>
         </thead>
         <tbody>
-          {rows.map((c) => (
-            <tr key={c.county} className="border-b border-rule/60">
-              <td className="py-2 pr-4">{c.county}</td>
-              <td className="py-2 pr-4 text-right font-mono text-xs">{fmtUsd(c.total_usd)}</td>
-              <td className="py-2 pr-4 text-right font-mono text-xs">
-                {c.per_capita_usd ? `$${c.per_capita_usd.toLocaleString()}` : "—"}
-              </td>
-              <td className="py-2 text-xs text-fog">{c.top_categories[0]?.category ?? "—"}</td>
-            </tr>
-          ))}
+          {rows.map((c) => {
+            const p = payroll?.[c.county.toUpperCase()];
+            return (
+              <tr key={c.county} className="border-b border-rule/60">
+                <td className="py-2 pr-4">{c.county}</td>
+                <td className="py-2 pr-4 text-right font-mono text-xs">{fmtUsd(c.total_usd)}</td>
+                {payroll && (
+                  <td className="py-2 pr-4 text-right font-mono text-xs">
+                    {p ? fmtUsd(p.wages_usd + p.benefits_usd) : "—"}
+                  </td>
+                )}
+                <td className="py-2 pr-4 text-right font-mono text-xs">
+                  {c.per_capita_usd ? `$${c.per_capita_usd.toLocaleString()}` : "—"}
+                </td>
+                <td className="py-2 text-xs text-fog">{c.top_categories[0]?.category ?? "—"}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>
   );
+}
+
+interface CompDoc {
+  year: number;
+  statewide_wages_usd: number;
+  statewide_benefits_usd: number;
+  levels: Record<
+    string,
+    {
+      positions: number;
+      wages_usd: number;
+      benefits_usd: number;
+      top_employers: { employer: string; positions: number; wages_usd: number; benefits_usd: number }[];
+    }
+  >;
+  by_employer: Record<string, { wages_usd: number; benefits_usd: number; positions: number }>;
 }
 
 export default async function LocalPage() {
@@ -68,6 +101,7 @@ export default async function LocalPage() {
   const cities = await loadPublished<LocalDoc>("city_finances");
   const districts = await loadPublished<LocalDoc>("district_finances");
   const books = await loadPublished<CheckbooksDoc>("city_checkbooks");
+  const comp = await loadPublished<CompDoc>("compensation");
 
   const sections = [
     {
@@ -107,11 +141,54 @@ export default async function LocalPage() {
         public record of their spending.
       </p>
 
+      <section className="mt-8 rounded-lg border border-rule p-5">
+        <h2 className="text-xl font-semibold">
+          The part the checkbooks leave out: payroll
+        </h2>
+        <p className="mt-1 max-w-2xl text-sm text-fog">
+          Vendor checkbooks never include salaries — yet payroll is often half of what a
+          government spends. Reported to the State Controller for {comp.data.year}: state, county,
+          and city employees together.
+        </p>
+        <div className="mt-4 grid gap-4 sm:grid-cols-3">
+          {(["state", "county", "city"] as const).map((lv) => {
+            const x = comp.data.levels[lv];
+            if (!x) return null;
+            return (
+              <div key={lv} className="rounded-lg border border-rule p-4">
+                <div className="text-sm capitalize text-fog">{lv} payroll</div>
+                <div className="mt-1 text-2xl font-semibold">
+                  {fmtUsd(x.wages_usd + x.benefits_usd)}
+                </div>
+                <div className="text-xs text-fog">
+                  {fmtUsd(x.wages_usd)} wages + {fmtUsd(x.benefits_usd)} benefits ·{" "}
+                  {x.positions.toLocaleString()} positions
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <SourceChip
+          source={comp.source}
+          asOf={comp.as_of}
+          cadence={comp.cadence}
+          coverage={comp.coverage_flag}
+          caveats={comp.caveats}
+          dataHref="/data/compensation.json"
+        />
+      </section>
+
       {sections.map((s) => (
         <section key={s.title} className="mt-10">
           <h2 className="text-xl font-semibold">{s.title}</h2>
           <p className="mt-1 max-w-2xl text-sm text-fog">{s.sub}</p>
-          <EntityTable rows={s.rows} label={s.label} />
+          <EntityTable
+            rows={s.rows}
+            label={s.label}
+            payroll={
+              s.label === "County" || s.label === "City" ? comp.data.by_employer : undefined
+            }
+          />
           <p className="mt-1 text-xs text-fog">{s.showing} by spending.</p>
           <SourceChip
             source={s.doc.source}
