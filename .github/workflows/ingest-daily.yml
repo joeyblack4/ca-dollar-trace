@@ -23,6 +23,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
+      # Persist per-source manifests (content hashes) across runs so an
+      # unchanged upstream is a true no-op: no re-publish, no timestamp churn,
+      # no empty commit. Keys are immutable, so save under run_id and restore
+      # the most recent.
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/manifest
+          key: manifest-${{ github.run_id }}
+          restore-keys: |
+            manifest-
       - run: uv sync
         working-directory: pipeline
       - name: Run pipeline (all sources)
@@ -30,6 +40,11 @@ jobs:
         run: |
           uv run cadollar run grants_portal
           uv run cadollar sync-site
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/manifest
+          key: manifest-${{ github.run_id }}
       - name: Commit refreshed data
         run: |
           git config user.name "ca-dollar-trace bot"
