@@ -44,8 +44,8 @@ test("six-hop drill: HHS -> DHCS -> checkbook -> AHP -> BHCIP, then vendor switc
   await expect(page.getByText(/net from the State of California since FY2020-21/)).toBeVisible();
 
   // hop 6: recovered BHCIP level
-  await page.getByRole("button", { name: /Recovered: re-granted through BHCIP/ }).click();
-  await expect(page.getByText(/Recovered hop: \d+ BHCIP projects at \d+ organizations/)).toBeVisible();
+  await page.getByRole("button", { name: /Re-granted through BHCIP/ }).click();
+  await expect(page.getByText(/\d+ BHCIP projects at \d+ organizations/)).toBeVisible();
 
   // REGRESSION (QA C4): switching vendors must remove the recovered level
   await page.getByRole("button", { name: /PRIME THERAPEUTICS/ }).click();
@@ -63,7 +63,7 @@ test("Medi-Cal plans hop: DHCS -> named plans with rates -> dark-zone terminator
     .first()
     .click();
   await page.getByRole("button", { name: /State Department of Health Care Services/ }).click();
-  await page.getByRole("button", { name: /Medi-Cal managed care plans/ }).click();
+  await page.getByRole("button", { name: /Follow the Benefits money into the managed care plans/ }).click();
 
   await expect(page.getByText(/managed care plan contracts — [\d,]+ Californians enrolled/)).toBeVisible();
   await expect(page.getByText(/L\.A\. Care Health Plan/).first()).toBeVisible();
@@ -85,11 +85,11 @@ test("breadcrumb rewind truncates the trail", async ({ page }) => {
     .click();
   const deptButton = page.getByRole("button", { name: /Department of Education/ }).first();
   await deptButton.click();
-  await expect(page.getByText(/hop 3/)).toBeVisible();
-  // rewind to the area crumb
-  await page.locator("#drill").getByRole("button", { name: "K-12 Education", exact: true }).click();
-  await expect(page.getByText(/hop 3/)).toHaveCount(0);
-  await expect(page.getByText(/hop 2/)).toBeVisible();
+  await expect(page.getByText(/fund mix and program lines/)).toBeVisible();
+  // rewind to the agency crumb (area+agency merge into one crumb)
+  await page.locator("#drill").getByRole("button", { name: /K thru 12 Education/ }).click();
+  await expect(page.getByText(/fund mix and program lines/)).toHaveCount(0);
+  await expect(page.getByText(/Click a department/)).toBeVisible();
 });
 
 test("no raw negative garbage anywhere on key pages", async ({ page }) => {

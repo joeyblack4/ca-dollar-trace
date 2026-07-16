@@ -90,7 +90,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ cd: str
               : {
                   label: "Payments to vendors",
                   ok: false,
-                  note: "Checkbook layer not ingested for this agency yet.",
+                  note: "Vendor payments aren't available for this agency yet.",
                   href: "/gaps/#fiscal-captcha",
                 },
           ]}
@@ -131,7 +131,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ cd: str
                     : "rounded-md border border-rule p-3 text-sm"
                 }
               >
-                <div className="font-mono text-xs text-fog">hop {i + 1}</div>
+                <div className="font-mono text-xs text-fog">{i + 1}</div>
                 <div className="mt-0.5 font-medium">{hop.label}</div>
                 <p className="mt-1 text-fog">{hop.note}</p>
                 <a

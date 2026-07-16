@@ -25,7 +25,7 @@ import type {
 
 /** Departments with a recovered program-level hop past the checkbook */
 const DEPT_PLAN_HOP: Record<string, string> = {
-  "4260": "Follow the Benefits money: Medi-Cal managed care plans (the one public hop)",
+  "4260": "Follow the Benefits money into the managed care plans",
 };
 
 /** Departments whose money flows to the 58 counties (realignment) */
@@ -36,7 +36,7 @@ import type { Published } from "@/lib/published";
 const RECOVERED_PROGRAMS: Record<string, { program: string; label: string }> = {
   "ADVOCATES FOR HUMAN POTENTIAL": {
     program: "bhcip",
-    label: "Recovered: re-granted through BHCIP — see the 331 organizations it reached",
+    label: "Re-granted through BHCIP — see the organizations that received it",
   },
 };
 
@@ -93,8 +93,8 @@ function useJson<T>(path: string | null): Fetched<T> {
 function FetchError({ what }: { what: string }) {
   return (
     <p className="text-sm text-fog">
-      Couldn&apos;t load {what} (network error — this is not a statement about the public
-      record).{" "}
+      Couldn&apos;t load {what} — that&apos;s a connection problem on our side, not a gap
+      in the public record.{" "}
       <button
         onClick={() => window.dispatchEvent(new Event("drill-retry"))}
         className="underline underline-offset-2 hover:text-ink"
@@ -195,7 +195,6 @@ function LevelCard({
       <div className="absolute left-[3.5px] top-6 h-2.5 w-2.5 rounded-full border-2 border-poppy bg-paper" aria-hidden />
       <div className="mt-4 rounded-lg border border-rule p-4">
         <div className="flex items-baseline gap-2">
-          <span className="font-mono text-[11px] text-fog">hop {step}</span>
           <h3 className="text-base font-semibold">{title}</h3>
         </div>
         {subtitle && <p className="mt-0.5 text-xs text-fog">{subtitle}</p>}
@@ -265,7 +264,10 @@ export function DrillExplorer({
   ];
   for (let i = 0; i < path.length; i++) {
     const seg = path[i];
-    if (seg.kind === "area") crumbs.push({ label: seg.name, pathIndex: i });
+    // a mapped area and its agency are one conceptual level: show a single
+    // crumb (the agency one) so rewinding never strands the user on nothing
+    if (seg.kind === "area" && !(AGENCY_PAGE_FOR_NODE[seg.name] && agencySeg))
+      crumbs.push({ label: seg.name, pathIndex: i });
     if (seg.kind === "agency")
       crumbs.push(
         agency
@@ -452,7 +454,7 @@ export function DrillExplorer({
                 maxUsd={dept.total_usd}
                 color="#b98300"
                 selected={!!countiesSeg}
-                valueLabel="category-level hop →"
+                valueLabel="keep following →"
                 onClick={() =>
                   setPath([
                     ...path.filter(
@@ -478,7 +480,7 @@ export function DrillExplorer({
                 maxUsd={dept.total_usd}
                 color="#1e7f4f"
                 selected={!!plansSeg}
-                valueLabel="recovered hop →"
+                valueLabel="keep following →"
                 onClick={() =>
                   setPath([
                     ...path.filter(
@@ -618,8 +620,8 @@ export function DrillExplorer({
             if (!p)
               return (
                 <Terminator flag="category_only">
-                  This vendor is outside the statewide top 500 we pre-compute — the raw data
-                  download has every transaction.
+                  This vendor is outside the 500 largest statewide recipients — every
+                  payment is in the raw data download.
                 </Terminator>
               );
             const years = Object.entries(p.years).sort();
@@ -701,8 +703,8 @@ export function DrillExplorer({
                       }
                     />
                     <p className="mt-1 text-xs text-fog">
-                      This hop exists in no state accounting dataset — we recovered it from the
-                      program&apos;s own public reporting.
+                      The state&apos;s checkbook stops at the administrator — these names come
+                      from the program&apos;s own reporting.
                     </p>
                   </div>
                 ) : p.public_sector ? (
@@ -712,10 +714,9 @@ export function DrillExplorer({
                   </Terminator>
                 ) : (
                   <Terminator flag="trail_ends_here">
-                    What {vendorSeg.name.split(" ")[0]}… does with this money next is not in any
-                    public dataset — private organizations publish no checkbook. (For grant
-                    administrators, the re-granted awards are sometimes published separately —
-                    that&apos;s our next connector.)
+                    What {vendorSeg.name.split(" ")[0]}… does with this money next is not in
+                    any public dataset — private organizations publish no checkbook. (Where a
+                    program publishes its own award lists — like BHCIP — the trail continues.)
                   </Terminator>
                 )}
               </div>
@@ -841,8 +842,8 @@ export function DrillExplorer({
         bhcipDoc !== "error" && (
         <LevelCard
           step={6}
-          title={`Recovered hop: ${bhcipDoc.data.project_count} BHCIP projects at ${bhcipDoc.data.entity_count} organizations`}
-          subtitle="Where the re-granted money landed — from the program's own dashboard, since no accounting dataset publishes this hop."
+          title={`${bhcipDoc.data.project_count} BHCIP projects at ${bhcipDoc.data.entity_count} organizations`}
+          subtitle="Where the re-granted money went — from the program's own reporting; the state's accounting system doesn't show this step."
         >
           <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-fog">
             {bhcipDoc.data.by_round.map((r) => (
@@ -874,8 +875,8 @@ export function DrillExplorer({
             .
           </p>
           <Terminator flag="category_only">
-            Per-project dollar amounts are announced by DHCS in round PDFs but published in no
-            machine-readable dataset — recovered names, not yet recovered amounts.
+            How much each project received is announced only in PDF documents — the names are
+            public, but the dollar figures aren&apos;t published as usable data.
           </Terminator>
         </LevelCard>
       )}

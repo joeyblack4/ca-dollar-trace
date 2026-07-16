@@ -361,7 +361,7 @@ function DetailPanel({ detail, inPageDrill }: { detail: Detail; inPageDrill?: bo
                 )}
               >
                 <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-mono text-xs text-fog">hop {i + 1}</span>
+                  <span className="font-mono text-xs text-fog">{i + 1}</span>
                   <span className="font-medium">{hop.label}</span>
                   <CoverageBadge flag={hop.flag} />
                 </div>
