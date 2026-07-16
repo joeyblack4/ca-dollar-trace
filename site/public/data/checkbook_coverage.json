@@ -5,8 +5,8 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T142845Z",
-  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "as_of": "2026-07-16T143237Z",
+  "ingested_at": "2026-07-16T14:32:37.598920+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
@@ -16,7 +16,7 @@
   ],
   "data": {
     "latest_fiscal_year": "2025-26",
-    "files_ingested": 149,
+    "files_ingested": 889,
     "departments_with_checkbook": 149,
     "vendor_total_usd": 49562601287.1,
     "confidential_total_usd": 2732396286.54,
@@ -27,21 +27,6 @@
         "vendor_total_usd": 4082106.65
       },
       {
-        "org_cd": "6200",
-        "title": "CA School for the Blind",
-        "vendor_total_usd": 1401516.78
-      },
-      {
-        "org_cd": "6260",
-        "title": "Diagnostic Centers",
-        "vendor_total_usd": 1512407.5
-      },
-      {
-        "org_cd": "0531",
-        "title": "Office of Systems Integration",
-        "vendor_total_usd": 429585207.57
-      },
-      {
         "org_cd": "6250",
         "title": "School for the Deaf-Riverside",
         "vendor_total_usd": 4690625.95
@@ -50,6 +35,21 @@
         "org_cd": "6240",
         "title": "School for the Deaf-Fremont",
         "vendor_total_usd": 4778024.93
+      },
+      {
+        "org_cd": "6200",
+        "title": "CA School for the Blind",
+        "vendor_total_usd": 1401516.78
+      },
+      {
+        "org_cd": "0531",
+        "title": "Office of Systems Integration",
+        "vendor_total_usd": 429585207.57
+      },
+      {
+        "org_cd": "6260",
+        "title": "Diagnostic Centers",
+        "vendor_total_usd": 1512407.5
       }
     ]
   }
