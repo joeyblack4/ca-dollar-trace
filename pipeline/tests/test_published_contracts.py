@@ -331,3 +331,17 @@ def test_district_finances_contract():
     assert d["total_latest_usd"] > 50e9
     assert d["entities_not_shown_total_usd"] > 0
     _local_entities_contract(d)
+
+
+# ---------- federal subawards ----------
+
+
+def test_federal_subawards_contract():
+    d = load("federal_subawards.json")["data"]
+    assert d["edges_shown"] >= 200
+    assert "note" in d, "top-N scope must be disclosed"
+    vals = [e["usd"] for e in d["largest_edges"]]
+    assert vals == sorted(vals, reverse=True)
+    for e in d["largest_edges"]:
+        assert e["prime"] and e["sub"] and e["usd"] > 0
+        assert e["kind"] in {"grant", "contract"}

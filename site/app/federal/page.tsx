@@ -127,6 +127,16 @@ export default async function FederalPage() {
       />
 
       <section className="mt-14">
+        <h2 className="text-xl font-semibold">Hand-offs: who passes federal money to whom</h2>
+        <p className="mt-2 max-w-2xl text-sm text-fog">
+          When a state agency receives federal money and hands it onward — to a county, a school
+          district, a nonprofit — that hand-off is reported here. These are the largest reported
+          ones; reporting below $30,000 isn&apos;t required and compliance is incomplete.
+        </p>
+        <SubawardsSection />
+      </section>
+
+      <section className="mt-14">
         <h2 className="text-xl font-semibold">
           Audited: every California organization spending $1M+ in federal money
         </h2>
@@ -138,6 +148,57 @@ export default async function FederalPage() {
         <FacSection />
       </section>
     </div>
+  );
+}
+
+async function SubawardsSection() {
+  const sub = await loadPublished<{
+    federal_fiscal_year: string;
+    largest_edges: { prime: string; sub: string; usd: number; kind: string; federal_agency: string }[];
+    by_prime_recipient: { prime: string; total_usd: number; sub_count: number }[];
+  }>("federal_subawards");
+  const d = sub.data;
+  return (
+    <>
+      <div className="mt-4 overflow-x-auto">
+        <table className="w-full min-w-[560px] text-sm">
+          <thead>
+            <tr className="border-b border-rule text-left text-fog">
+              <th className="py-2 pr-4 font-medium">From</th>
+              <th className="py-2 pr-4 font-medium">To</th>
+              <th className="py-2 pr-4 text-right font-medium">Amount</th>
+              <th className="py-2 font-medium">Federal source</th>
+            </tr>
+          </thead>
+          <tbody>
+            {d.largest_edges.slice(0, 12).map((e, i) => (
+              <tr key={i} className="border-b border-rule/60">
+                <td className="py-2 pr-4">{e.prime}</td>
+                <td className="py-2 pr-4">{e.sub}</td>
+                <td className="py-2 pr-4 text-right font-mono text-xs">{fmtUsd(e.usd)}</td>
+                <td className="py-2 text-xs text-fog">{e.federal_agency}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="mt-1 text-xs text-fog">
+        Largest 12 of the {d.largest_edges.length}+ biggest reported hand-offs (FY
+        {d.federal_fiscal_year}) —{" "}
+        <a href="/data/federal_subawards.json" className="underline underline-offset-2 hover:text-ink">
+          full data
+        </a>
+        .
+      </p>
+      <SourceChip
+        source={sub.source}
+        asOf={sub.as_of}
+        cadence={sub.cadence}
+        coverage={sub.coverage_flag}
+        caveats={sub.caveats}
+        dataHref="/data/federal_subawards.json"
+      />
+    </>
   );
 }
 

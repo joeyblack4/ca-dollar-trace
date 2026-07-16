@@ -20,6 +20,7 @@ from .ingest.csv_download import run_csv_ingest
 from .ingest.ebudget import run_ebudget
 from .ingest.ebudget_detail import run_ebudget_detail
 from .ingest.fac_sefa import run_fac_sefa
+from .ingest.federal_subawards import run_federal_subawards
 from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.grants_awards import run_grants_awards
 from .ingest.medical_plans import run_medical_plans
@@ -115,6 +116,11 @@ def _run_nonprofits(storage: Storage, settings: Settings) -> None:
     run_nonprofits(storage, cfg, settings)
 
 
+def _run_federal_subawards(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "federal_subawards")
+    run_federal_subawards(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -131,6 +137,7 @@ RUNNERS = {
     "city_checkbooks": _run_city_checkbooks,
     "fac_sefa": _run_fac_sefa,
     "nonprofits": _run_nonprofits,
+    "federal_subawards": _run_federal_subawards,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -153,6 +160,7 @@ RUN_ORDER = [
     "sacs_k12",
     "city_checkbooks",
     "fac_sefa",
+    "federal_subawards",
     "nonprofits",
     "fiscal_vendor",
 ]

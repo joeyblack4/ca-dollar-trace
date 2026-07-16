@@ -1,0 +1,22 @@
+# USAspending subawards (File F): the actual pass-through EDGES — who handed
+# federal money to whom inside California, both grant subawards (state
+# agencies re-granting to counties and nonprofits) and contract subawards.
+source: federal_subawards
+dataset: fy_ca_subawards
+access: json_api_post
+endpoints:
+  search: "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+cadence: "subawards reported ~monthly; compliance is federally acknowledged as incomplete"
+freshness_sla_hours: 1440
+min_rows: 100
+max_row_drop_pct: 40
+coverage_flag: traceable
+caveats:
+  - "Subaward reporting is required only above $30,000 and compliance is notoriously incomplete — these are the reported edges, not all edges."
+  - "Amounts are subaward obligations for awards performed in California in the stated federal fiscal year."
+  - "A state agency appearing as prime recipient with a county as sub-awardee is the federal slice of the state-to-county pass-through — state-funded flows to the same counties are not in this dataset."
+info:
+  name: "USAspending — Federal Subawards in California"
+  publisher: "U.S. Department of the Treasury"
+  url: "https://www.usaspending.gov/search"
+  license: "Public domain (U.S. federal government work)"

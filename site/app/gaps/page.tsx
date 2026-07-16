@@ -89,6 +89,37 @@ const GAPS = [
     ],
   },
   {
+    id: "compensation-portal",
+    title: "Public payroll data exists — behind a wall that blocks software",
+    flag: "category_only" as const,
+    klass: "(d) Published, but unusable for systematic analysis",
+    size: "Payroll is the single biggest exclusion from every checkbook on this site — roughly half of many agencies' budgets",
+    body: [
+      "The State Controller publishes Government Compensation in California (publicpay.ca.gov): wages and benefits by position for state departments, counties, cities, and districts. It is exactly the data that would fill the 'payroll excluded' gap in our coverage meters.",
+      "The portal's security layer rejects automated retrieval outright (we verified: every request path returns 403 or hangs, including from a normal browser session at times). The data is public; the access is not.",
+    ],
+    fix: "Mirror the annual raw exports on the state open-data portal, like the Grants Portal does. Until then: a manual download once a year would light this lane up.",
+    cites: [
+      { label: "publicpay.ca.gov", url: "https://publicpay.ca.gov/" },
+    ],
+  },
+  {
+    id: "homelessness-awards",
+    title: "Homelessness award lists are published as PDFs",
+    flag: "category_only" as const,
+    klass: "(d) Published, but unusable for systematic analysis",
+    size: "Homekey alone: $3.78B across 261 projects (Rounds 1-3), plus Homekey+ and HHAP",
+    body: [
+      "HCD publishes who received Homekey money — as PDF lists and a dashboard. The only machine-readable awardee file is the original 2020 round. The State Auditor called homelessness spending 'a bit of a data desert' in 2024; the award lists that DO exist are locked in a format software can't reliably read.",
+      "AB 799 requires Cal ICH to publish a public homelessness fiscal dashboard by June 2027 — we're built to ingest it the day it appears.",
+    ],
+    fix: "Publish award lists as CSV alongside the PDFs (they are clearly generated from spreadsheets). AB 799's 2027 dashboard should ship machine-readable from day one.",
+    cites: [
+      { label: "Homekey awards dashboard", url: "https://www.hcd.ca.gov/grants-and-funding/homekey/awards-dashboard" },
+      { label: "State Auditor report 2023-102.1", url: "https://www.auditor.ca.gov/reports/2023-102.1/index.html" },
+    ],
+  },
+  {
     id: "grants-subrecipients",
     title: "Grants stop at the first awardee",
     flag: "trail_ends_here" as const,

@@ -1,0 +1,1296 @@
+{
+  "source": {
+    "name": "USAspending \u2014 Federal Subawards in California",
+    "publisher": "U.S. Department of the Treasury",
+    "url": "https://www.usaspending.gov/search",
+    "license": "Public domain (U.S. federal government work)"
+  },
+  "as_of": "2026-07-16T212556Z",
+  "ingested_at": "2026-07-16T21:25:56.727901+00:00",
+  "cadence": "subawards reported ~monthly; compliance is federally acknowledged as incomplete",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Subaward reporting is required only above $30,000 and compliance is notoriously incomplete \u2014 these are the reported edges, not all edges.",
+    "Amounts are subaward obligations for awards performed in California in the stated federal fiscal year.",
+    "A state agency appearing as prime recipient with a county as sub-awardee is the federal slice of the state-to-county pass-through \u2014 state-funded flows to the same counties are not in this dataset."
+  ],
+  "data": {
+    "federal_fiscal_year": "2025",
+    "edges_shown": 300,
+    "note": "largest reported subawards (top pages by amount), not the universe",
+    "largest_edges": [
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "MADERA COUNTY",
+        "usd": 513875340.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "STATE OF CALIFORNIA DEPARTMENT OF GENERAL SERVICES",
+        "usd": 452686529.12,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2025-01-09"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF LOS ANGELES",
+        "usd": 452585707.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF EDUCATION CALIFORNIA",
+        "sub": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+        "usd": 405540688.0,
+        "federal_agency": "Department of Education",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "CALIFORNIA STUDENT AID COMMISSION",
+        "usd": 400000000.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "COUNTY OF LOS ANGELES",
+        "usd": 311680759.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF LOS ANGELES",
+        "usd": 305543617.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF LOS ANGELES",
+        "usd": 283408624.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "FOUNDATION FOR CALIFORNIA COMMUNITY COLLEGES",
+        "usd": 271911388.73,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-13"
+      },
+      {
+        "kind": "contract",
+        "prime": "LOCKHEED MARTIN CORPORATION",
+        "sub": "RAYTHEON COMPANY",
+        "usd": 165000000.0,
+        "federal_agency": "Department of Defense",
+        "date": "2024-10-21"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "SAN BERNARDINO, COUNTY OF",
+        "usd": 156348731.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 147309038.46,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2025-01-09"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "FOUNDATION FOR CALIFORNIA COMMUNITY COLLEGES",
+        "usd": 135529041.4,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN JOAQUIN",
+        "usd": 132790076.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "STATE OF CALIFORNIA DEPARTMENT OF GENERAL SERVICES",
+        "usd": 127475879.38,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD",
+        "sub": "CITY OF SAN DIEGO",
+        "usd": 127150000.0,
+        "federal_agency": "Environmental Protection Agency",
+        "date": "2024-10-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "KAISER FOUNDATION HOSPITALS",
+        "usd": 122779967.64,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-10-03"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF TRANSPORTATION CALIFORNIA",
+        "sub": "SAN BERNARDINO COUNTY TRANSPORTATION AUTHORITY",
+        "usd": 119380822.0,
+        "federal_agency": "Department of Transportation",
+        "date": "2024-11-06"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN LUIS OBISPO",
+        "usd": 116628874.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF PLACER",
+        "usd": 110682602.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "SAN BERNARDINO, COUNTY OF",
+        "usd": 109956038.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF KERN",
+        "usd": 104202741.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "FRESNO COUNTY OF",
+        "usd": 102153249.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD",
+        "sub": "LOS ANGELES DEPARTMENT OF WATER & POWER",
+        "usd": 100000000.0,
+        "federal_agency": "Environmental Protection Agency",
+        "date": "2024-10-22"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "COUNTY OF SAN DIEGO",
+        "usd": 96353697.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 95000000.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-11-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 88209684.17,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2025-01-08"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN BENITO",
+        "usd": 85978378.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "DIGNITY HEALTH",
+        "usd": 85098733.15,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 79913178.02,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "SAN BERNARDINO, COUNTY OF",
+        "usd": 77266986.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "CALIFORNIA DEPARTMENT OF DEVELOPMENTAL SERVICES",
+        "usd": 77157000.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF ALAMEDA",
+        "usd": 76808144.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "SISKIYOU COUNTY HUMAN SERVICES",
+        "usd": 75859245.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 75421856.73,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 73083848.77,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2025-01-08"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "usd": 70400334.75,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-10-03"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF EDUCATION CALIFORNIA",
+        "sub": "FRESNO UNIFIED SCHOOL DISTRICT WAREHOUSE",
+        "usd": 69741827.0,
+        "federal_agency": "Department of Education",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "SACRAMENTO EMPLOYMENT TRAINING AGENCY",
+        "usd": 68067239.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "STATE OF CALIFORNIA DEPARTMENT OF GENERAL SERVICES",
+        "usd": 66607938.79,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-10-04"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN MATEO HUMAN SERVICES",
+        "usd": 65882230.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 60439829.19,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-10-03"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "SAN BERNARDINO, COUNTY OF",
+        "usd": 59168024.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "RIVERSIDE COUNTY DPSS",
+        "usd": 58734829.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "ORANGE, COUNTY OF",
+        "usd": 57214181.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "usd": 54763183.5,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-11"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "RIVERSIDE COUNTY DPSS",
+        "usd": 54432445.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "FOUNDATION FOR CALIFORNIA COMMUNITY COLLEGES",
+        "usd": 52928585.7,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN DIEGO",
+        "usd": 52713543.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "RIVERSIDE COUNTY DPSS",
+        "usd": 50954752.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "COUNTY OF SANTA CLARA",
+        "usd": 50709762.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "SANTA CLARA, COUNTY OF",
+        "usd": 50258802.52,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-12-31"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF TULARE",
+        "usd": 49848769.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "contract",
+        "prime": "GENERAL DYNAMICS MISSION SYSTEMS, INC",
+        "sub": "VIASAT INC",
+        "usd": 49748760.0,
+        "federal_agency": "Department of Defense",
+        "date": "2024-10-18"
+      },
+      {
+        "kind": "grant",
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "sub": "ORANGE, COUNTY OF",
+        "usd": 49355351.0,
+        "federal_agency": "Department of Agriculture",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "sub": "KAISER FOUNDATION HOSPITALS",
+        "usd": 49353300.51,
+        "federal_agency": "Department of Homeland Security",
+        "date": "2024-10-04"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "CONTRA COSTA COUNTY",
+        "usd": 47742497.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "RIVERSIDE COUNTY DPSS",
+        "usd": 46642002.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      },
+      {
+        "kind": "grant",
+        "prime": "CALIFORNIA",
+        "sub": "GATEWAY CITIES COUNCIL OF GOVERNMENTS",
+        "usd": 46100455.0,
+        "federal_agency": "Department of the Treasury",
+        "date": "2025-01-16"
+      },
+      {
+        "kind": "grant",
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "sub": "COUNTY OF SAN DIEGO",
+        "usd": 45988304.0,
+        "federal_agency": "Department of Health and Human Services",
+        "date": "2024-10-01"
+      }
+    ],
+    "by_prime_recipient": [
+      {
+        "prime": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+        "total_usd": 5312027928.15,
+        "sub_count": 80,
+        "top_subs": [
+          {
+            "sub": "MADERA COUNTY",
+            "usd": 513875340.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF LOS ANGELES",
+            "usd": 452585707.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CALIFORNIA STUDENT AID COMMISSION",
+            "usd": 400000000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF LOS ANGELES",
+            "usd": 305543617.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF LOS ANGELES",
+            "usd": 283408624.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "FOUNDATION FOR CALIFORNIA COMMUNITY COLLEGES",
+            "usd": 271911388.73,
+            "kind": "grant"
+          },
+          {
+            "sub": "SAN BERNARDINO, COUNTY OF",
+            "usd": 156348731.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "FOUNDATION FOR CALIFORNIA COMMUNITY COLLEGES",
+            "usd": 135529041.4,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF SAN JOAQUIN",
+            "usd": 132790076.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF SAN LUIS OBISPO",
+            "usd": 116628874.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "OFFICE OF EMERGENCY SERVICES",
+        "total_usd": 2130711328.3200002,
+        "sub_count": 39,
+        "top_subs": [
+          {
+            "sub": "STATE OF CALIFORNIA DEPARTMENT OF GENERAL SERVICES",
+            "usd": 452686529.12,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 147309038.46,
+            "kind": "grant"
+          },
+          {
+            "sub": "STATE OF CALIFORNIA DEPARTMENT OF GENERAL SERVICES",
+            "usd": 127475879.38,
+            "kind": "grant"
+          },
+          {
+            "sub": "KAISER FOUNDATION HOSPITALS",
+            "usd": 122779967.64,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 88209684.17,
+            "kind": "grant"
+          },
+          {
+            "sub": "DIGNITY HEALTH",
+            "usd": 85098733.15,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 79913178.02,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 75421856.73,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 73083848.77,
+            "kind": "grant"
+          },
+          {
+            "sub": "DEPARTMENT OF SOCIAL SERVICES CALIFORNIA",
+            "usd": 70400334.75,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "CA DEPT. OF SOCIAL SERVICES",
+        "total_usd": 1055397973.0,
+        "sub_count": 23,
+        "top_subs": [
+          {
+            "sub": "COUNTY OF LOS ANGELES",
+            "usd": 311680759.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF SAN DIEGO",
+            "usd": 96353697.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+            "usd": 95000000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SAN BERNARDINO, COUNTY OF",
+            "usd": 59168024.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "RIVERSIDE COUNTY DPSS",
+            "usd": 50954752.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF SANTA CLARA",
+            "usd": 50709762.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "ORANGE, COUNTY OF",
+            "usd": 49355351.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SACRAMENTO EMPLOYMENT TRAINING AGENCY",
+            "usd": 45511284.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 42262736.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "FRESNO COUNTY OF",
+            "usd": 35831806.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "DEPARTMENT OF EDUCATION CALIFORNIA",
+        "total_usd": 960162997.0,
+        "sub_count": 29,
+        "top_subs": [
+          {
+            "sub": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+            "usd": 405540688.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "FRESNO UNIFIED SCHOOL DISTRICT WAREHOUSE",
+            "usd": 69741827.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SAN DIEGO UNIFIED SCHOOL DISTRICT",
+            "usd": 39855852.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SAN BERNARDINO CITY UNIFIED SCHOOL DISTRICT",
+            "usd": 31191506.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LONG BEACH UNIFIED SCHOOL DISTRICT",
+            "usd": 29058074.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+            "usd": 27091975.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+            "usd": 26652811.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "BAKERSFIELD CITY SCHOOL DISTRICT",
+            "usd": 23792365.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "STOCKTON UNIFIED SCHOOL DISTRICT",
+            "usd": 22222698.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "KERN HIGH SCHOOL DISTRICT",
+            "usd": 21904802.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "LOCKHEED MARTIN CORPORATION",
+        "total_usd": 443170274.23999995,
+        "sub_count": 29,
+        "top_subs": [
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 165000000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "PACIFIC SCIENTIFIC ENERGETIC MATERIALS COMPANY (CALIFORNIA LLC)",
+            "usd": 33068894.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "SEARCHPROS SOLUTIONS, LLC",
+            "usd": 25609177.6,
+            "kind": "contract"
+          },
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 25572982.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "THE BOEING COMPANY",
+            "usd": 20000000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 16410520.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 12298380.31,
+            "kind": "contract"
+          },
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 12051852.07,
+            "kind": "contract"
+          },
+          {
+            "sub": "CUBIC DEFENSE APPLICATIONS, INC.",
+            "usd": 11729948.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "TELEDYNE SCIENTIFIC & IMAGING, LLC",
+            "usd": 9858000.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "STATE OF CALIFORNIA WATER RESOURCES CONTROL BOARD",
+        "total_usd": 266451212.0,
+        "sub_count": 3,
+        "top_subs": [
+          {
+            "sub": "CITY OF SAN DIEGO",
+            "usd": 127150000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LOS ANGELES DEPARTMENT OF WATER & POWER",
+            "usd": 100000000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CARPINTERIA VALLEY WATER DISTRICT",
+            "usd": 39301212.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "CALIFORNIA",
+        "total_usd": 216360801.0,
+        "sub_count": 11,
+        "top_subs": [
+          {
+            "sub": "GATEWAY CITIES COUNCIL OF GOVERNMENTS",
+            "usd": 46100455.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CITY OF SACRAMENTO",
+            "usd": 38696843.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COMCAST CABLE COMMUNICATIONS MANAGEMENT LLC",
+            "usd": 26577050.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COMCAST CABLE COMMUNICATIONS MANAGEMENT LLC",
+            "usd": 16987890.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "PACIFIC BELL TELEPHONE COMPANY",
+            "usd": 15100000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CITY OF OAKLAND",
+            "usd": 14026946.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "HANKINS INFORMATION TECHNOLOGY INC",
+            "usd": 13813142.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COMCAST CABLE COMMUNICATIONS MANAGEMENT LLC",
+            "usd": 13804241.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "HANKINS INFORMATION TECHNOLOGY INC",
+            "usd": 10436024.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "PACIFIC BELL TELEPHONE COMPANY",
+            "usd": 10424710.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "DEPARTMENT OF TRANSPORTATION CALIFORNIA",
+        "total_usd": 201222091.0,
+        "sub_count": 6,
+        "top_subs": [
+          {
+            "sub": "SAN BERNARDINO COUNTY TRANSPORTATION AUTHORITY",
+            "usd": 119380822.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SACRAMENTO AREA COUNCIL OF GOVERNMENTS",
+            "usd": 22500000.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "SAN FRANCISCO COUNTY TRANSPORTATION AUTHORITY",
+            "usd": 19135737.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "RIVERSIDE, COUNTY OF",
+            "usd": 19102929.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "COUNTY OF NEVADA",
+            "usd": 10841976.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "CITY OF SANTA BARBARA",
+            "usd": 10260627.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "RAYTHEON COMPANY",
+        "total_usd": 105628468.0,
+        "sub_count": 14,
+        "top_subs": [
+          {
+            "sub": "EMPIRICAL SYSTEMS AEROSPACE INC",
+            "usd": 25987071.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "STELLANT SYSTEMS INC",
+            "usd": 16269000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "SANMINA CORPORATION",
+            "usd": 8336427.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "ORLANDO SPRING CORP",
+            "usd": 8097769.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "SECURE COMMUNICATION SYSTEMS, INC.",
+            "usd": 7023501.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 5748672.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "KYOCERA INTERNATIONAL INC",
+            "usd": 5192321.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "CAES SYSTEMS LLC",
+            "usd": 5000000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "CICOIL, LLC",
+            "usd": 4629159.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "GENERAL DYNAMICS MOTION CONTROL LLC",
+            "usd": 4369245.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "TECOLOTE RESEARCH, INC.",
+        "total_usd": 82559371.78999999,
+        "sub_count": 4,
+        "top_subs": [
+          {
+            "sub": "OMNI CONSULTING SOLUTIONS, INC.",
+            "usd": 38240154.8,
+            "kind": "contract"
+          },
+          {
+            "sub": "SAVI, LLC",
+            "usd": 30810648.96,
+            "kind": "contract"
+          },
+          {
+            "sub": "OMNI CONSULTING SOLUTIONS, INC.",
+            "usd": 8513633.03,
+            "kind": "contract"
+          },
+          {
+            "sub": "ALPHA OMEGA GROUP LLC",
+            "usd": 4994935.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "BOEING COMPANY, THE",
+        "total_usd": 77844742.28,
+        "sub_count": 11,
+        "top_subs": [
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 12143046.84,
+            "kind": "contract"
+          },
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 9959507.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 9793786.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 6920104.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "GKN AEROSPACE TRANSPARENCY SYSTEMS INC.",
+            "usd": 6880000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "ALLIANCE SPACESYSTEMS, LLC",
+            "usd": 6635230.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "GENERAL ATOMICS",
+            "usd": 6500000.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "INTERTRADE LOGISTICS, LLC",
+            "usd": 5500000.8,
+            "kind": "contract"
+          },
+          {
+            "sub": "ALLIANCE SPACESYSTEMS, LLC",
+            "usd": 4953535.64,
+            "kind": "contract"
+          },
+          {
+            "sub": "RAYTHEON COMPANY",
+            "usd": 4791448.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "STATE OF CALIFORNIA EMPLOYMENT DEVELOPMENT DEPARTMENT",
+        "total_usd": 69956101.0,
+        "sub_count": 5,
+        "top_subs": [
+          {
+            "sub": "THE WORKFORCE INVESTMENT BOARD OF THE CITY OF LOS ANGELES",
+            "usd": 16304857.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "THE WORKFORCE INVESTMENT BOARD OF THE CITY OF LOS ANGELES",
+            "usd": 16046300.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LOS ANGELES COUNTY",
+            "usd": 13512534.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "LOS ANGELES COUNTY",
+            "usd": 12962982.0,
+            "kind": "grant"
+          },
+          {
+            "sub": "THE WORKFORCE INVESTMENT BOARD OF THE CITY OF LOS ANGELES",
+            "usd": 11129428.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "ATLANTIC DIVING SUPPLY, INC.",
+        "total_usd": 62406123.36,
+        "sub_count": 6,
+        "top_subs": [
+          {
+            "sub": "REDWIRE DEFENSE TECH OPERATIONS, LLC",
+            "usd": 34757940.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "ECLYPSE INTERNATIONAL CORPORATION",
+            "usd": 8071482.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "ANDURIL INDUSTRIES, INC.",
+            "usd": 7697300.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "AEROVIRONMENT, INC.",
+            "usd": 4092248.56,
+            "kind": "contract"
+          },
+          {
+            "sub": "VECTOR RESOURCES INC",
+            "usd": 3966052.8,
+            "kind": "contract"
+          },
+          {
+            "sub": "EON INSTRUMENTATION, INC.",
+            "usd": 3821100.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "GENERAL DYNAMICS MISSION SYSTEMS, INC",
+        "total_usd": 49748760.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "VIASAT INC",
+            "usd": 49748760.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "PUBLIC HEALTH, CALIFORNIA DEPARTMENT OF",
+        "total_usd": 32395917.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "REGENTS OF THE UNIVERSITY OF CALIFORNIA, SAN FRANCISCO, THE",
+            "usd": 32395917.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "LOCKHEED MARTIN CORP",
+        "total_usd": 31675280.04,
+        "sub_count": 3,
+        "top_subs": [
+          {
+            "sub": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+            "usd": 20471836.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "VERTECHS ENTERPRISES, INC.",
+            "usd": 6519398.4,
+            "kind": "contract"
+          },
+          {
+            "sub": "MEGGITT SAFETY SYSTEMS INC",
+            "usd": 4684045.64,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "LEIDOS, INC.",
+        "total_usd": 30105346.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "INTRINSYX TECHNOLOGIES CORPORATION",
+            "usd": 30105346.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "SAN BERNARDINO, COUNTY OF",
+        "total_usd": 25896816.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "EASTER SEALS SOUTHERN CALIFORNIA, INC.",
+            "usd": 25896816.0,
+            "kind": "grant"
+          }
+        ]
+      },
+      {
+        "prime": "SIERRA NEVADA CORPORATION",
+        "total_usd": 23624406.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "ARETE ASSOCIATES",
+            "usd": 23624406.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+        "total_usd": 22010705.0,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "ATTALON, INC.",
+            "usd": 22010705.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "RQ CONSTRUCTION, LLC",
+        "total_usd": 20957050.0,
+        "sub_count": 2,
+        "top_subs": [
+          {
+            "sub": "DYNALECTRIC CO",
+            "usd": 15259132.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "BURCH CONSTRUCTION CO INC",
+            "usd": 5697918.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+        "total_usd": 17483165.0,
+        "sub_count": 3,
+        "top_subs": [
+          {
+            "sub": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+            "usd": 8312500.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "ALPHA RESEARCH & TECHNOLOGY, INC.",
+            "usd": 5670720.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "RAYTHEON APPLIED SIGNAL TECHNOLOGY, INC.",
+            "usd": 3499945.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "NATIONAL STEEL AND SHIPBUILDING COMPANY",
+        "total_usd": 17062557.0,
+        "sub_count": 2,
+        "top_subs": [
+          {
+            "sub": "PERFORMANCE CONTRACTING, INC",
+            "usd": 10415043.0,
+            "kind": "contract"
+          },
+          {
+            "sub": "PERFORMANCE CONTRACTING, INC",
+            "usd": 6647514.0,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "MANTECH ADVANCED SYSTEMS INTERNATIONAL, INC.",
+        "total_usd": 16670427.56,
+        "sub_count": 2,
+        "top_subs": [
+          {
+            "sub": "EMOLBI, LLC",
+            "usd": 11246087.41,
+            "kind": "contract"
+          },
+          {
+            "sub": "WATERMARK RISK MANAGEMENT INTERNATIONAL, LLC",
+            "usd": 5424340.15,
+            "kind": "contract"
+          }
+        ]
+      },
+      {
+        "prime": "L3 TECHNOLOGIES, INC.",
+        "total_usd": 14437484.4,
+        "sub_count": 1,
+        "top_subs": [
+          {
+            "sub": "REGAL TECHNOLOGY PARTNERS, INC.",
+            "usd": 14437484.4,
+            "kind": "contract"
+          }
+        ]
+      }
+    ]
+  }
+}
