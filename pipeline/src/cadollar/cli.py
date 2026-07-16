@@ -14,6 +14,7 @@ import sys
 
 from .config import REPO_ROOT, Settings, get_settings
 from .ingest.bhcip import run_bhcip
+from .ingest.county_finances import run_county_finances
 from .ingest.csv_download import run_csv_ingest
 from .ingest.ebudget import run_ebudget
 from .ingest.ebudget_detail import run_ebudget_detail
@@ -75,6 +76,11 @@ def _run_medical_plans(storage: Storage, settings: Settings) -> None:
     run_medical_plans(storage, cfg, settings)
 
 
+def _run_county_finances(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "county_finances")
+    run_county_finances(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -84,6 +90,7 @@ RUNNERS = {
     "grants_awards": _run_grants_awards,
     "bhcip_awards": _run_bhcip,
     "medical_plans": _run_medical_plans,
+    "county_finances": _run_county_finances,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -100,6 +107,7 @@ RUN_ORDER = [
     "usaspending_ca",
     "bhcip_awards",
     "medical_plans",
+    "county_finances",
     "fiscal_vendor",
 ]
 assert set(RUN_ORDER) == set(RUNNERS), "RUN_ORDER must list every runner exactly once"

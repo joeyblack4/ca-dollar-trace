@@ -206,3 +206,20 @@ def test_federal_contract():
     assert masked, "the privacy-masked aggregate must be present, not dropped"
     assert all(r["coverage_flag"] == "masked" for r in masked)
     assert named and all(r["uei"] for r in named[:10])
+
+
+# ---------- county finances ----------
+
+
+def test_county_finances_contract():
+    d = load("county_finances.json")["data"]
+    assert d["county_count"] == 57, "57 counties expected (SF files as a city)"
+    assert d["not_in_this_dataset"], "SF exclusion must be disclosed"
+    assert d["total_latest_usd"] > 50e9
+    totals = [c["total_usd"] or 0 for c in d["counties"]]
+    assert totals == sorted(totals, reverse=True), "counties not sorted desc"
+    for c in d["counties"]:
+        assert "amount_unparsed_count" in c
+        assert c["top_categories"], f"{c['county']}: no categories"
+        if c["per_capita_usd"] is not None:
+            assert 500 <= c["per_capita_usd"] <= 30000, f"{c['county']}: implausible per-capita"

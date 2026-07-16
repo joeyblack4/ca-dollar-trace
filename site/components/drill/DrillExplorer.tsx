@@ -16,6 +16,7 @@ import { fmtFy, fmtUsd, type BudgetWaterfall } from "@/lib/published";
 import type {
   AgencyDoc,
   BhcipDoc,
+  CountyFinancesDoc,
   MedicalPlansDoc,
   PathSeg,
   ProfilesDoc,
@@ -26,6 +27,9 @@ import type {
 const DEPT_PLAN_HOP: Record<string, string> = {
   "4260": "Follow the Benefits money: Medi-Cal managed care plans (the one public hop)",
 };
+
+/** Departments whose money flows to the 58 counties (realignment) */
+const isCountyFlowDept = (title: string) => /realignment/i.test(title);
 import type { Published } from "@/lib/published";
 
 /* Vendors whose re-granted awards we've recovered from program reporting */
@@ -222,6 +226,7 @@ export function DrillExplorer({
     | { kind: "recovered"; program: string }
     | undefined;
   const plansSeg = path.find((s) => s.kind === "plans");
+  const countiesSeg = path.find((s) => s.kind === "counties");
 
   const agencyDoc = useJson<AgencyDoc>(agencySeg ? `/data/agencies/${agencySeg.cd}.json` : null);
   const vendorsDoc = useJson<VendorsDoc>(agencySeg ? `/data/vendors/${agencySeg.cd}.json` : null);
@@ -233,6 +238,9 @@ export function DrillExplorer({
   );
   const plansDoc = useJson<Published<MedicalPlansDoc>>(
     plansSeg ? "/data/medical_plans.json" : null
+  );
+  const countiesDoc = useJson<Published<CountyFinancesDoc>>(
+    countiesSeg ? "/data/county_finances.json" : null
   );
 
   if (!area) {
@@ -274,6 +282,7 @@ export function DrillExplorer({
     if (seg.kind === "vendor") crumbs.push({ label: seg.name, pathIndex: i });
     if (seg.kind === "recovered") crumbs.push({ label: "re-granted", pathIndex: i });
     if (seg.kind === "plans") crumbs.push({ label: "managed care plans", pathIndex: i });
+    if (seg.kind === "counties") crumbs.push({ label: "counties", pathIndex: i });
   }
 
   const vendorDept =
@@ -435,6 +444,32 @@ export function DrillExplorer({
             </p>
           )}
 
+          {isCountyFlowDept(dept.title) && (
+            <div className="mt-3">
+              <Row
+                label="Follow it to the counties: where realignment money lands"
+                usd={dept.total_usd}
+                maxUsd={dept.total_usd}
+                color="#b98300"
+                selected={!!countiesSeg}
+                valueLabel="category-level hop →"
+                onClick={() =>
+                  setPath([
+                    ...path.filter(
+                      (s) =>
+                        s.kind !== "counties" &&
+                        s.kind !== "plans" &&
+                        s.kind !== "checkbook" &&
+                        s.kind !== "vendor" &&
+                        s.kind !== "recovered"
+                    ),
+                    { kind: "counties" },
+                  ])
+                }
+              />
+            </div>
+          )}
+
           {DEPT_PLAN_HOP[dept.org_cd] && (
             <div className="mt-3">
               <Row
@@ -449,6 +484,7 @@ export function DrillExplorer({
                     ...path.filter(
                       (s) =>
                         s.kind !== "plans" &&
+                        s.kind !== "counties" &&
                         s.kind !== "checkbook" &&
                         s.kind !== "vendor" &&
                         s.kind !== "recovered"
@@ -476,7 +512,8 @@ export function DrillExplorer({
                         s.kind !== "checkbook" &&
                         s.kind !== "vendor" &&
                         s.kind !== "recovered" &&
-                        s.kind !== "plans"
+                        s.kind !== "plans" &&
+                        s.kind !== "counties"
                     ),
                     { kind: "checkbook", orgCd: dept.org_cd },
                   ])
@@ -734,6 +771,55 @@ export function DrillExplorer({
                 What each plan pays hospitals, clinics, and physicians is not public. Roughly 95%
                 of Medi-Cal members are behind this wall — the largest single dark zone in state
                 spending.
+              </Terminator>
+            </>
+          )}
+        </LevelCard>
+      )}
+
+      {/* Level 4-alt: county finances (gated on a realignment-type department) */}
+      {countiesSeg && dept && isCountyFlowDept(dept.title) && (
+        <LevelCard
+          step={4}
+          title={
+            countiesDoc && countiesDoc !== "loading" && countiesDoc !== "error"
+              ? `${countiesDoc.data.county_count} counties — ${fmtUsd(countiesDoc.data.total_latest_usd)} in reported spending (FY${countiesDoc.data.latest_fiscal_year - 1}-${String(countiesDoc.data.latest_fiscal_year).slice(2)})`
+              : "County finances"
+          }
+          subtitle="Once state money reaches a county, this annual self-reported category data is all the public record offers for most of them."
+        >
+          {countiesDoc === "loading" && <p className="text-sm text-fog">Loading counties…</p>}
+          {countiesDoc === "error" && <FetchError what="the county finance data" />}
+          {countiesDoc && countiesDoc !== "loading" && countiesDoc !== "error" && (
+            <>
+              {countiesDoc.data.counties.slice(0, 15).map((c) => (
+                <Row
+                  key={c.county}
+                  label={c.county}
+                  sub={`${c.per_capita_usd ? `$${c.per_capita_usd.toLocaleString()}/resident · ` : ""}top: ${c.top_categories[0]?.category ?? "—"}`}
+                  usd={c.total_usd ?? 0}
+                  maxUsd={countiesDoc.data.counties[0]?.total_usd ?? 1}
+                  color="#b98300"
+                />
+              ))}
+              <p className="mt-2 text-xs text-fog">
+                Showing 15 of {countiesDoc.data.county_count} counties (San Francisco files as a
+                city) —{" "}
+                <a
+                  href="/data/county_finances.json"
+                  className="underline underline-offset-2 hover:text-ink"
+                >
+                  all counties with category detail
+                </a>
+                .
+              </p>
+              <Terminator flag="category_only">
+                Self-reported, category-level, posted as submitted. Vendor-level county
+                checkbooks mostly don&apos;t exist —{" "}
+                <a href="/gaps/#county-checkbooks" className="underline underline-offset-2">
+                  the county checkbook gap
+                </a>{" "}
+                is one of the biggest fixable holes in California transparency.
               </Terminator>
             </>
           )}

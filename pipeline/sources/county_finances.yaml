@@ -1,0 +1,27 @@
+# SCO ByTheNumbers — county expenditures by category (Financial Transactions
+# Reports). THE honest example of category_only: once state money reaches a
+# county (realignment, social services administration), this annual,
+# self-reported, category-level report is all the public record offers for
+# most of the 58 counties. Socrata SODA API, paginated.
+source: county_finances
+dataset: county_expenditures
+access: socrata
+endpoints:
+  soda: "https://bythenumbers.sco.ca.gov/resource/uctr-c2j8.json"
+cadence: "annual, rolling as late filers report (~18-month lag typical)"
+freshness_sla_hours: 8760
+min_rows: 40000
+max_row_drop_pct: 20
+coverage_flag: category_only
+caveats:
+  - "Self-reported by counties and 'posted as submitted' — the State Controller does not audit or restate these figures."
+  - "Category level only: there is no vendor detail here, and most counties publish no vendor-level checkbook anywhere."
+  - "Fiscal years appear as the ending year (2024 = FY2023-24); late-filing counties can be a year behind their peers."
+  - "57 counties appear here, not 58: the City and County of San Francisco reports through the cities dataset instead."
+info:
+  name: "SCO ByTheNumbers — County Expenditures"
+  publisher: "California State Controller's Office"
+  url: "https://bythenumbers.sco.ca.gov/"
+  license: "Public record (SCO)"
+extra:
+  fy_min: 2020

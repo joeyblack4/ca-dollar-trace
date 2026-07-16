@@ -9,7 +9,26 @@ export type PathSeg =
   | { kind: "checkbook"; orgCd: string }
   | { kind: "vendor"; name: string }
   | { kind: "recovered"; program: string }
-  | { kind: "plans" };
+  | { kind: "plans" }
+  | { kind: "counties" };
+
+export interface CountyFinancesDoc {
+  county_count: number;
+  not_in_this_dataset: string[];
+  latest_fiscal_year: number;
+  counties_lagging_behind_latest_fy: string[];
+  total_latest_usd: number;
+  counties: {
+    county: string;
+    fiscal_year: number;
+    total_usd: number | null;
+    population: number | null;
+    per_capita_usd: number | null;
+    top_categories: { category: string; usd: number }[];
+    category_count: number;
+    amount_unparsed_count: number;
+  }[];
+}
 
 export interface MedicalPlansDoc {
   latest_month: string;

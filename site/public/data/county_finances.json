@@ -1,0 +1,2480 @@
+{
+  "source": {
+    "name": "SCO ByTheNumbers \u2014 County Expenditures",
+    "publisher": "California State Controller's Office",
+    "url": "https://bythenumbers.sco.ca.gov/",
+    "license": "Public record (SCO)"
+  },
+  "as_of": "2026-07-16T185336Z",
+  "ingested_at": "2026-07-16T18:53:36.115543+00:00",
+  "cadence": "annual, rolling as late filers report (~18-month lag typical)",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Self-reported by counties and 'posted as submitted' \u2014 the State Controller does not audit or restate these figures.",
+    "Category level only: there is no vendor detail here, and most counties publish no vendor-level checkbook anywhere.",
+    "Fiscal years appear as the ending year (2024 = FY2023-24); late-filing counties can be a year behind their peers.",
+    "57 counties appear here, not 58: the City and County of San Francisco reports through the cities dataset instead."
+  ],
+  "data": {
+    "county_count": 57,
+    "not_in_this_dataset": [
+      "San Francisco (city-county; files through the cities dataset)"
+    ],
+    "latest_fiscal_year": 2024,
+    "counties_lagging_behind_latest_fy": [],
+    "total_latest_usd": 126286988065.0,
+    "counties": [
+      {
+        "county": "Los Angeles",
+        "fiscal_year": 2024,
+        "total_usd": 37577235037.0,
+        "population": 9824091,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 9385721007.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 9142277847.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 8269059709.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 6270091780.0
+          },
+          {
+            "category": "General Government",
+            "usd": 2042255405.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 816068721.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 807890599.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 705389347.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3825.0
+      },
+      {
+        "county": "Santa Clara",
+        "fiscal_year": 2024,
+        "total_usd": 10722903297.0,
+        "population": 1903198,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 3517738141.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 1422589865.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 1334839812.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 1222132150.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1184003048.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 903879375.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 669318002.0
+          },
+          {
+            "category": "General Government",
+            "usd": 327743888.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 5634.0
+      },
+      {
+        "county": "Riverside",
+        "fiscal_year": 2024,
+        "total_usd": 7576821683.0,
+        "population": 2442378,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 1884913081.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 1571093923.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1284815732.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 1010320336.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 642703900.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 437028793.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 328450815.0
+          },
+          {
+            "category": "General Government",
+            "usd": 222352007.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3102.0
+      },
+      {
+        "county": "San Diego",
+        "fiscal_year": 2024,
+        "total_usd": 7476987270.0,
+        "population": 3291101,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 2160691237.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 1911484621.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1520563344.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 644028146.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 587395854.0
+          },
+          {
+            "category": "General Government",
+            "usd": 459599032.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 130079238.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 30347493.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2272.0
+      },
+      {
+        "county": "San Bernardino",
+        "fiscal_year": 2024,
+        "total_usd": 6529897911.0,
+        "population": 2181433,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 1744386516.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 1662872141.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 994147228.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 811738583.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 521133689.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 345252836.0
+          },
+          {
+            "category": "General Government",
+            "usd": 273304905.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 103079083.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2993.0
+      },
+      {
+        "county": "Orange",
+        "fiscal_year": 2024,
+        "total_usd": 6424119390.0,
+        "population": 3150835,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 1854745736.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 1524174877.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1127035575.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 564949449.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 545470085.0
+          },
+          {
+            "category": "General Government",
+            "usd": 306859504.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 186561609.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 161046903.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2039.0
+      },
+      {
+        "county": "Contra Costa",
+        "fiscal_year": 2024,
+        "total_usd": 5549211078.0,
+        "population": 1146626,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 1993300664.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 1043025544.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 836264793.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 630959396.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 566656561.0
+          },
+          {
+            "category": "General Government",
+            "usd": 198710828.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 125749457.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 101328172.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4840.0
+      },
+      {
+        "county": "Sacramento",
+        "fiscal_year": 2024,
+        "total_usd": 4808346528.0,
+        "population": 1578938,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1262527622.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 1261983348.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 823921911.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 387713160.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 316048896.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 251896468.0
+          },
+          {
+            "category": "General Government",
+            "usd": 226300510.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 133015650.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3045.0
+      },
+      {
+        "county": "Alameda",
+        "fiscal_year": 2024,
+        "total_usd": 4244700272.0,
+        "population": 1641869,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 1204025283.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 1160444866.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 999594629.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 401869333.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 237385659.0
+          },
+          {
+            "category": "General Government",
+            "usd": 200283546.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 41096956.0
+          },
+          {
+            "category": "Conduit Financing",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2585.0
+      },
+      {
+        "county": "Ventura",
+        "fiscal_year": 2024,
+        "total_usd": 3010778369.0,
+        "population": 823863,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 869475211.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 666908885.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 363487491.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 355194081.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 331982975.0
+          },
+          {
+            "category": "General Government",
+            "usd": 131106720.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 128729592.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 91691615.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3654.0
+      },
+      {
+        "county": "San Mateo",
+        "fiscal_year": 2024,
+        "total_usd": 2739777856.0,
+        "population": 741565,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 491462304.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 470167208.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 451796971.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 423589832.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 349257333.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 190538913.0
+          },
+          {
+            "category": "General Government",
+            "usd": 187832093.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 147729515.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3695.0
+      },
+      {
+        "county": "Kern",
+        "fiscal_year": 2024,
+        "total_usd": 2711087245.0,
+        "population": 910300,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 750217447.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 711865281.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 515450046.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 282619879.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 162591294.0
+          },
+          {
+            "category": "General Government",
+            "usd": 145890892.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 67648014.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 29901999.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2978.0
+      },
+      {
+        "county": "Fresno",
+        "fiscal_year": 2024,
+        "total_usd": 2636081403.0,
+        "population": 1017431,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 859017214.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 593675231.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 583993394.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 310779120.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 153729015.0
+          },
+          {
+            "category": "General Government",
+            "usd": 53796648.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 37719218.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 27456628.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2591.0
+      },
+      {
+        "county": "San Joaquin",
+        "fiscal_year": 2024,
+        "total_usd": 2333165385.0,
+        "population": 791408,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 536402929.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 485099355.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 481336913.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 389156027.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 163590100.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 116675641.0
+          },
+          {
+            "category": "General Government",
+            "usd": 96969278.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 36943019.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2948.0
+      },
+      {
+        "county": "Monterey",
+        "fiscal_year": 2024,
+        "total_usd": 1681600630.0,
+        "population": 437614,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 432323197.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 351902804.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 349459258.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 285466386.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 90637705.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 62500426.0
+          },
+          {
+            "category": "General Government",
+            "usd": 59452393.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 30699837.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3843.0
+      },
+      {
+        "county": "Sonoma",
+        "fiscal_year": 2024,
+        "total_usd": 1569097870.0,
+        "population": 478152,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 417422774.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 289061271.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 280716226.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 188005338.0
+          },
+          {
+            "category": "General Government",
+            "usd": 147219639.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 141782136.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 41229444.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 23299304.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3282.0
+      },
+      {
+        "county": "Santa Barbara",
+        "fiscal_year": 2024,
+        "total_usd": 1464511047.0,
+        "population": 443623,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 519448972.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 312851313.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 249394115.0
+          },
+          {
+            "category": "General Government",
+            "usd": 106500040.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 97942023.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 96876420.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 45190039.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 27052829.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3301.0
+      },
+      {
+        "county": "Stanislaus",
+        "fiscal_year": 2024,
+        "total_usd": 1401372428.0,
+        "population": 548744,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 405920694.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 362562186.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 272648560.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 150843496.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 65360345.0
+          },
+          {
+            "category": "General Government",
+            "usd": 60359847.0
+          },
+          {
+            "category": "Hospital Enterprise Fund Fund",
+            "usd": 34690202.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 27195733.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2554.0
+      },
+      {
+        "county": "Tulare",
+        "fiscal_year": 2024,
+        "total_usd": 1316787306.0,
+        "population": 478918,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 374313726.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 318197828.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 274583096.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 116864166.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 109588564.0
+          },
+          {
+            "category": "General Government",
+            "usd": 84697243.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 25479416.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 11462363.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2750.0
+      },
+      {
+        "county": "Solano",
+        "fiscal_year": 2024,
+        "total_usd": 1087646199.0,
+        "population": 446426,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 329323394.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 264887677.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 252420032.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 78182712.0
+          },
+          {
+            "category": "General Government",
+            "usd": 77848414.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 53844699.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 28046705.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 3092566.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2436.0
+      },
+      {
+        "county": "Placer",
+        "fiscal_year": 2024,
+        "total_usd": 1059242991.0,
+        "population": 412844,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 330383597.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 206998178.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 142693242.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 129042403.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 102263138.0
+          },
+          {
+            "category": "General Government",
+            "usd": 82395593.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 23416939.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 19240270.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2566.0
+      },
+      {
+        "county": "Santa Cruz",
+        "fiscal_year": 2024,
+        "total_usd": 1048647525.0,
+        "population": 262572,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 340118744.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 216103980.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 189051274.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 126958350.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 70247614.0
+          },
+          {
+            "category": "General Government",
+            "usd": 54561376.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 23417210.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 22465314.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3994.0
+      },
+      {
+        "county": "Marin",
+        "fiscal_year": 2024,
+        "total_usd": 938068853.0,
+        "population": 252844,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 242160366.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 200938366.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 119066432.0
+          },
+          {
+            "category": "General Government",
+            "usd": 103746542.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 94305364.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 62699381.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 56388669.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 46695260.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3710.0
+      },
+      {
+        "county": "San Luis Obispo",
+        "fiscal_year": 2024,
+        "total_usd": 935180478.0,
+        "population": 278469,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 234345374.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 194441775.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 194141125.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 83106398.0
+          },
+          {
+            "category": "General Government",
+            "usd": 67629217.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 64416938.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 41833184.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 28113809.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3358.0
+      },
+      {
+        "county": "Merced",
+        "fiscal_year": 2024,
+        "total_usd": 834846656.0,
+        "population": 287303,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 231070093.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 189735750.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 150905950.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 117243858.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 95401610.0
+          },
+          {
+            "category": "General Government",
+            "usd": 35429534.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 7619560.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 7440301.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2906.0
+      },
+      {
+        "county": "Napa",
+        "fiscal_year": 2024,
+        "total_usd": 616676926.0,
+        "population": 135029,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 188685043.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 149649454.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 75525231.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 70065401.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 53929135.0
+          },
+          {
+            "category": "General Government",
+            "usd": 48251331.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 13606695.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 5956019.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4567.0
+      },
+      {
+        "county": "Yolo",
+        "fiscal_year": 2024,
+        "total_usd": 608595393.0,
+        "population": 221666,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 185490610.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 143183637.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 73391235.0
+          },
+          {
+            "category": "General Government",
+            "usd": 68659334.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 44154671.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 43243791.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 34184974.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 14225864.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2746.0
+      },
+      {
+        "county": "Butte",
+        "fiscal_year": 2024,
+        "total_usd": 604671332.0,
+        "population": 205928,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 185646306.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 167455300.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 149579900.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 35184958.0
+          },
+          {
+            "category": "General Government",
+            "usd": 32298457.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 15268393.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 14439210.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 4798808.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2936.0
+      },
+      {
+        "county": "El Dorado",
+        "fiscal_year": 2024,
+        "total_usd": 586097683.0,
+        "population": 188583,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 180636227.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 160844269.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 91072033.0
+          },
+          {
+            "category": "General Government",
+            "usd": 62731960.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 50617291.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 32807251.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 5885557.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 1503095.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3108.0
+      },
+      {
+        "county": "Imperial",
+        "fiscal_year": 2024,
+        "total_usd": 586066750.0,
+        "population": 182881,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 177180275.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 163000366.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 127123766.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 66082210.0
+          },
+          {
+            "category": "General Government",
+            "usd": 34666550.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 9757274.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 3028755.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 2779780.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3205.0
+      },
+      {
+        "county": "Humboldt",
+        "fiscal_year": 2024,
+        "total_usd": 560985605.0,
+        "population": 133100,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 164304013.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 155926679.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 126411459.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 60263369.0
+          },
+          {
+            "category": "General Government",
+            "usd": 29959805.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 11478306.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 8943369.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 3698605.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4215.0
+      },
+      {
+        "county": "Shasta",
+        "fiscal_year": 2024,
+        "total_usd": 521946172.0,
+        "population": 179195,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 168142852.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 134579661.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 123713025.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 48473299.0
+          },
+          {
+            "category": "General Government",
+            "usd": 23984050.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 14155549.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 3597970.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 2195420.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2913.0
+      },
+      {
+        "county": "Madera",
+        "fiscal_year": 2024,
+        "total_usd": 440087506.0,
+        "population": 159328,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 131328664.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 98191994.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 82014191.0
+          },
+          {
+            "category": "General Government",
+            "usd": 47552305.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 36093343.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 17240209.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 14014880.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 9576002.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2762.0
+      },
+      {
+        "county": "Kings",
+        "fiscal_year": 2024,
+        "total_usd": 431292670.0,
+        "population": 152627,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 133762306.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 112430247.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 62958786.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 57571483.0
+          },
+          {
+            "category": "General Government",
+            "usd": 39813931.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 19317557.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 5438360.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2826.0
+      },
+      {
+        "county": "Mendocino",
+        "fiscal_year": 2024,
+        "total_usd": 392867138.0,
+        "population": 89476,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 122817041.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 97849956.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 89247898.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 30585080.0
+          },
+          {
+            "category": "General Government",
+            "usd": 25228079.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 21750459.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 5388625.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4391.0
+      },
+      {
+        "county": "Yuba",
+        "fiscal_year": 2024,
+        "total_usd": 313630201.0,
+        "population": 83721,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 93180420.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 87968315.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 44339589.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 32600283.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 28174227.0
+          },
+          {
+            "category": "General Government",
+            "usd": 24933253.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 1496967.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 937147.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3746.0
+      },
+      {
+        "county": "Nevada",
+        "fiscal_year": 2024,
+        "total_usd": 283322727.0,
+        "population": 100177,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 84910121.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 75376212.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 45658644.0
+          },
+          {
+            "category": "General Government",
+            "usd": 20980696.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 15642853.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 12075584.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 9211364.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 8972407.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2828.0
+      },
+      {
+        "county": "Sutter",
+        "fiscal_year": 2024,
+        "total_usd": 280534571.0,
+        "population": 100110,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 86882643.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 66568548.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 63868003.0
+          },
+          {
+            "category": "General Government",
+            "usd": 33110928.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 14292191.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 12247806.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 3173503.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 390949.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2802.0
+      },
+      {
+        "county": "Lake",
+        "fiscal_year": 2024,
+        "total_usd": 245636175.0,
+        "population": 67001,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 67323303.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 61029934.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 55786997.0
+          },
+          {
+            "category": "General Government",
+            "usd": 24403379.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 16617544.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 9145649.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 6647248.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 4682121.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3666.0
+      },
+      {
+        "county": "Tuolumne",
+        "fiscal_year": 2024,
+        "total_usd": 236143507.0,
+        "population": 54407,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 76084054.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 36252311.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 31417986.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 28060969.0
+          },
+          {
+            "category": "General Government",
+            "usd": 26080251.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 19269748.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 13564070.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 2799379.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4340.0
+      },
+      {
+        "county": "Tehama",
+        "fiscal_year": 2024,
+        "total_usd": 226233444.0,
+        "population": 64308,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 72320150.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 53161416.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 52126589.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 20856105.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 14769224.0
+          },
+          {
+            "category": "General Government",
+            "usd": 11484498.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 1515462.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3518.0
+      },
+      {
+        "county": "San Benito",
+        "fiscal_year": 2024,
+        "total_usd": 182102047.0,
+        "population": 65853,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 46156670.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 44515060.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 29831194.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 27676220.0
+          },
+          {
+            "category": "General Government",
+            "usd": 24937728.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 6791238.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 2193937.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2765.0
+      },
+      {
+        "county": "Calaveras",
+        "fiscal_year": 2024,
+        "total_usd": 163584784.0,
+        "population": 44842,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 39606162.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 38618849.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 33258587.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 28105789.0
+          },
+          {
+            "category": "General Government",
+            "usd": 21727867.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 1475559.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 791971.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3648.0
+      },
+      {
+        "county": "Siskiyou",
+        "fiscal_year": 2024,
+        "total_usd": 163325345.0,
+        "population": 43409,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 46464907.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 42162927.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 31268695.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 12516973.0
+          },
+          {
+            "category": "General Government",
+            "usd": 12210792.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 9557592.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 7673396.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 901860.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3762.0
+      },
+      {
+        "county": "Glenn",
+        "fiscal_year": 2024,
+        "total_usd": 146179910.0,
+        "population": 28736,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 41343747.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 36078849.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 32807833.0
+          },
+          {
+            "category": "General Government",
+            "usd": 15248161.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 7566590.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 7419565.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 3750436.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 1256934.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 5087.0
+      },
+      {
+        "county": "Amador",
+        "fiscal_year": 2024,
+        "total_usd": 125814417.0,
+        "population": 39611,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 57950265.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 23626629.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 21034111.0
+          },
+          {
+            "category": "General Government",
+            "usd": 13886868.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 5524801.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 1419132.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 1387241.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 683577.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3176.0
+      },
+      {
+        "county": "Mariposa",
+        "fiscal_year": 2024,
+        "total_usd": 117670055.0,
+        "population": 16966,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 28777385.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 28559645.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 21254091.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 14039996.0
+          },
+          {
+            "category": "General Government",
+            "usd": 11561038.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 6654563.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 2359430.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 1857748.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 6936.0
+      },
+      {
+        "county": "Inyo",
+        "fiscal_year": 2024,
+        "total_usd": 115890795.0,
+        "population": 18856,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 33673084.0
+          },
+          {
+            "category": "General Government",
+            "usd": 21418631.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 21370775.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 12881433.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 10257990.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 5758223.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 3686140.0
+          },
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 3022807.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 6146.0
+      },
+      {
+        "county": "Del Norte",
+        "fiscal_year": 2024,
+        "total_usd": 98317911.0,
+        "population": 26345,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Assistance",
+            "usd": 32978538.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 21949741.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 21945028.0
+          },
+          {
+            "category": "General Government",
+            "usd": 11522879.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 8102891.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 846158.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 566446.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 403697.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 3732.0
+      },
+      {
+        "county": "Mono",
+        "fiscal_year": 2024,
+        "total_usd": 97606498.0,
+        "population": 12861,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 24583943.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 23264547.0
+          },
+          {
+            "category": "General Government",
+            "usd": 15998921.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 10563670.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 8405330.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 7484353.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 6833741.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 352335.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 7589.0
+      },
+      {
+        "county": "Plumas",
+        "fiscal_year": 2024,
+        "total_usd": 93161452.0,
+        "population": 18841,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 33805653.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 25068684.0
+          },
+          {
+            "category": "General Government",
+            "usd": 12613937.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 12256360.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 2312035.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 2142676.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 1755589.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 1431947.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4945.0
+      },
+      {
+        "county": "Colusa",
+        "fiscal_year": 2024,
+        "total_usd": 92032288.0,
+        "population": 21743,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 33432597.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 27082916.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 14783566.0
+          },
+          {
+            "category": "General Government",
+            "usd": 5584147.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 2973215.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 2636372.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 1845957.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 1476613.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 4233.0
+      },
+      {
+        "county": "Lassen",
+        "fiscal_year": 2024,
+        "total_usd": 84166374.0,
+        "population": 28197,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Protection",
+            "usd": 25087903.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 21480283.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 17504241.0
+          },
+          {
+            "category": "General Government",
+            "usd": 9147333.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 8436292.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 2042462.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 321821.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 146039.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 2985.0
+      },
+      {
+        "county": "Trinity",
+        "fiscal_year": 2024,
+        "total_usd": 83960643.0,
+        "population": 15915,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 22456590.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 19005114.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 18261527.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 7678084.0
+          },
+          {
+            "category": "General Government",
+            "usd": 6830412.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 4381962.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 4021471.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 913645.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 5276.0
+      },
+      {
+        "county": "Modoc",
+        "fiscal_year": 2024,
+        "total_usd": 42578362.0,
+        "population": 8484,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 14369512.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 8986585.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 8330266.0
+          },
+          {
+            "category": "General Government",
+            "usd": 4980727.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 3604506.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 1146406.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 948071.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 212289.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 5019.0
+      },
+      {
+        "county": "Sierra",
+        "fiscal_year": 2024,
+        "total_usd": 40367735.0,
+        "population": 3171,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 13234786.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 9275543.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 7522796.0
+          },
+          {
+            "category": "General Government",
+            "usd": 4371101.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 3533765.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 1348157.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 501535.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 351606.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 12730.0
+      },
+      {
+        "county": "Alpine",
+        "fiscal_year": 2024,
+        "total_usd": 27326942.0,
+        "population": 1179,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "General Government",
+            "usd": 7474406.0
+          },
+          {
+            "category": "Public Protection",
+            "usd": 6879864.0
+          },
+          {
+            "category": "Public Ways and Facilities, Health, and Sanitation",
+            "usd": 6052605.0
+          },
+          {
+            "category": "Public Assistance",
+            "usd": 4110645.0
+          },
+          {
+            "category": "Debt Service and Capital Outlay",
+            "usd": 1851987.0
+          },
+          {
+            "category": "Education and Recreation and Cultural Services",
+            "usd": 866052.0
+          },
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 91383.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 0.0
+          }
+        ],
+        "category_count": 18,
+        "per_capita_usd": 23178.0
+      }
+    ]
+  }
+}
