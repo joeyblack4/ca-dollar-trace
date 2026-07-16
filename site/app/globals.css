@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Design tokens — civic-neutral palette.
+   poppy = California poppy accent; ink/paper neutrals; coverage-flag colors. */
+@theme {
+  --color-paper: #fcfcf9;
+  --color-ink: #1a1916;
+  --color-fog: #6b675e;
+  --color-rule: #e4e1d8;
+  --color-poppy: #e87722;
+  --color-poppy-deep: #c05e12;
+
+  /* coverage flags — the product's core vocabulary */
+  --color-traceable: #1e7f4f;
+  --color-category-only: #b98300;
+  --color-dark-zone: #57534e;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}

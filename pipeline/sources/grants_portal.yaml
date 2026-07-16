@@ -1,0 +1,20 @@
+# California Grants Portal — grant opportunities (incl. est. available funds).
+# Published daily at 8:45pm PT to data.ca.gov (CKAN). Post-award awardee data
+# exists because of AB 132; this canonical CSV is the opportunities dataset.
+source: grants_portal
+dataset: opportunities
+access: csv_download
+download_url: "https://data.ca.gov/dataset/e1b1c799-cdd4-4219-af6d-93b79747fffb/resource/111c8c88-21f6-453c-ae2c-b4785a0624f5/download/california-grants-portal-data.csv"
+cadence: "daily, published ~8:45pm PT"
+freshness_sla_hours: 48
+min_rows: 500
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Awardee-level at best; the portal collects no subrecipient detail (only a flag that subrecipients exist)."
+  - "EstAvailFunds is self-reported by grantmakers and may be blank; blanks are reported as 'amount unknown', never zero."
+info:
+  name: "California Grants Portal"
+  publisher: "California State Library"
+  url: "https://data.ca.gov/dataset/california-grants-portal"
+  license: "Public Domain (other-pd)"

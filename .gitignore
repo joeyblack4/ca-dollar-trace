@@ -1,0 +1,22 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# pipeline local data layers (raw/cleansed/manifest live in R2 in prod;
+# published JSON is committed under site/public/data)
+/data/
+
+# node / next
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# env & os
+.env
+.env.*
+.DS_Store
