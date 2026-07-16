@@ -245,3 +245,27 @@ def test_city_finances_contract():
     assert sf is not None, "San Francisco must be present (closes the 58th-county gap)"
     assert (sf["total_usd"] or 0) > 5e9
     _local_entities_contract(d)
+
+
+# ---------- k-12 school districts ----------
+
+
+def test_k12_finances_contract():
+    d = load("k12_finances.json")["data"]
+    # ~1,250 LEAs report their own books (many charters report through their
+    # authorizing district); the raw rollup has ~2,000 files
+    assert d["lea_count"] >= 1100, "LEA count collapsed"
+    assert 90e9 < d["statewide_spend_usd"] < 140e9, "GF operating spend out of plausible range"
+    assert d["next_year_budget_rows_excluded"] > 100_000, "budget-section exclusion disclosure"
+    assert d["district_names_unmatched"] <= d["lea_count"] * 0.1, "too many unnamed districts"
+    assert d["districts_not_shown_spend_usd"] >= 0
+    labels = {c["object_class"] for c in d["statewide_by_class"]}
+    assert "Teacher salaries" in labels and "Services & operating (outside providers)" in labels
+    spends = [x["spend_usd"] or 0 for x in d["districts"]]
+    assert spends == sorted(spends, reverse=True), "districts not sorted desc"
+    la = next(
+        (x for x in d["districts"] if x["district"] and "Los Angeles Unified" in x["district"]),
+        None,
+    )
+    assert la is not None, "LAUSD must be present and named"
+    assert (la["spend_usd"] or 0) > 5e9

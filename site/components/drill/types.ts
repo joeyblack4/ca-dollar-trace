@@ -10,7 +10,28 @@ export type PathSeg =
   | { kind: "vendor"; name: string }
   | { kind: "recovered"; program: string }
   | { kind: "plans" }
-  | { kind: "counties" };
+  | { kind: "counties" }
+  | { kind: "districts" };
+
+export interface K12Doc {
+  fiscal_year: string;
+  lea_count: number;
+  statewide_spend_usd: number;
+  statewide_by_class: { object_class: string; usd: number }[];
+  districts_published: number;
+  districts_not_shown: number;
+  districts_not_shown_spend_usd: number;
+  district_names_unmatched: number;
+  districts: {
+    cds: string;
+    district: string | null;
+    county: string | null;
+    spend_usd: number | null;
+    revenue_usd: number | null;
+    unparsed: number;
+    spend_by_class: { object_class: string; usd: number }[];
+  }[];
+}
 
 export interface CountyFinancesDoc {
   county_count: number;

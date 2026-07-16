@@ -1,0 +1,2217 @@
+{
+  "source": {
+    "name": "SACS Unaudited Actuals \u2014 K-12 District Finances",
+    "publisher": "California Department of Education",
+    "url": "https://www.cde.ca.gov/ds/fd/dv/",
+    "license": "Public record (CDE)"
+  },
+  "as_of": "2026-07-16T194547Z",
+  "ingested_at": "2026-07-16T19:45:47.765445+00:00",
+  "cadence": "annual (unaudited actuals publish ~8-9 months after FY end)",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Unaudited actuals, self-reported by ~2,000 local educational agencies; audited figures can differ.",
+    "SACS accounts categorize spending (salaries, benefits, services, capital) \u2014 vendor names do not exist anywhere in this system; who a district actually paid requires district-by-district records requests.",
+    "Amounts are decoded from SACS account strings by fund and object code; the full account detail is preserved in the raw archive."
+  ],
+  "data": {
+    "fiscal_year": "2024-25",
+    "artifact_published": "2026-03-03T18:02:02.1406824+00:00",
+    "lea_count": 1256,
+    "statewide_spend_usd": 112068071580.31998,
+    "scope_note": "General Fund operating spending for the stated fiscal year only (each district file also carries next year's budget, which is excluded). Transfers/pass-throughs and non-General funds are reported separately \u2014 they double-count across entities.",
+    "next_year_budget_rows_excluded": 942731,
+    "statewide_by_class": [
+      {
+        "object_class": "Teacher salaries",
+        "usd": 41206604557.160034
+      },
+      {
+        "object_class": "Employee benefits",
+        "usd": 28253709837.00998
+      },
+      {
+        "object_class": "Other staff salaries",
+        "usd": 17694486171.669983
+      },
+      {
+        "object_class": "Services & operating (outside providers)",
+        "usd": 17445489066.890015
+      },
+      {
+        "object_class": "Books & supplies",
+        "usd": 4580099760.840007
+      },
+      {
+        "object_class": "Buildings & equipment",
+        "usd": 2887682186.750003
+      }
+    ],
+    "districts_published": 60,
+    "districts_not_shown": 1196,
+    "districts_not_shown_spend_usd": 63211322267.259995,
+    "district_names_unmatched": 55,
+    "districts": [
+      {
+        "cds": "19647330000000",
+        "district": "Los Angeles Unified",
+        "county": "Los Angeles",
+        "spend_usd": 11143599504.349981,
+        "revenue_usd": 9823895344.839994,
+        "transfers_passthrough_usd": 2522049937.1899996,
+        "other_funds_spend_usd": 5139516169.259997,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 4087934604.65
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 3154442589.900004
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 1675209370.040001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 1619442747.2600005
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 460479462.0599999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 146090730.44000006
+          }
+        ]
+      },
+      {
+        "cds": "37683380000000",
+        "district": "San Diego Unified",
+        "county": "San Diego",
+        "spend_usd": 1965663881.3399963,
+        "revenue_usd": 1879384613.3600006,
+        "transfers_passthrough_usd": 923519718.16,
+        "other_funds_spend_usd": 1069782915.1499996,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 792655955.1100012
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 616922749.6299989
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 315656283.1099999
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 176741198.3
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 50683627.279999964
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 13004067.91
+          }
+        ]
+      },
+      {
+        "cds": "10621660000000",
+        "district": "Fresno Unified",
+        "county": "Fresno",
+        "spend_usd": 1656083443.1900034,
+        "revenue_usd": 1539931141.3400002,
+        "transfers_passthrough_usd": 219534827.60999998,
+        "other_funds_spend_usd": 507638458.37,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 600860991.5799999
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 437866244.3300005
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 249890294.0899999
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 215895945.31999996
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 85383304.22000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 66186663.64999998
+          }
+        ]
+      },
+      {
+        "cds": "38684780000000",
+        "district": "San Francisco Unified",
+        "county": "San Francisco",
+        "spend_usd": 1255083004.0699973,
+        "revenue_usd": 1242956843.1400003,
+        "transfers_passthrough_usd": 237455409.56,
+        "other_funds_spend_usd": 290183896.21999997,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 486924571.63000035
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 296816355.80000025
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 236505858.68
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 189747972.05000013
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 40460317.84000002
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 4627928.07
+          }
+        ]
+      },
+      {
+        "cds": "19647250000000",
+        "district": "Long Beach Unified",
+        "county": "Los Angeles",
+        "spend_usd": 1243064525.52,
+        "revenue_usd": 1194378025.9199998,
+        "transfers_passthrough_usd": 191037465.39,
+        "other_funds_spend_usd": 487781379.9399997,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 492098562.4199997
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 347559681.2499987
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 203743831.84
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 141829902.26999992
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 50910302.88999997
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 6922244.85
+          }
+        ]
+      },
+      {
+        "cds": "34673140000000",
+        "district": "Elk Grove Unified",
+        "county": "Sacramento",
+        "spend_usd": 1108046960.1100008,
+        "revenue_usd": 1040009643.62,
+        "transfers_passthrough_usd": 92713862.11999999,
+        "other_funds_spend_usd": 194495904.7499999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 431421333.52999985
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 277385037.90000004
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 185872429.79
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 148835110.12000006
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 36327054.68999998
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 28205994.080000002
+          }
+        ]
+      },
+      {
+        "cds": "36678760000000",
+        "district": "San Bernardino City Unified",
+        "county": "San Bernardino",
+        "spend_usd": 1103066262.410002,
+        "revenue_usd": 1027567836.8800001,
+        "transfers_passthrough_usd": 55554674.58,
+        "other_funds_spend_usd": 205191000.72000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 409025151.76000017
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 260467029.55999997
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 225888322.9100001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 131137687.85000002
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 64727037.07999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 11821033.25
+          }
+        ]
+      },
+      {
+        "cds": "30666700000000",
+        "district": "Santa Ana Unified",
+        "county": "Orange",
+        "spend_usd": 975527110.0899981,
+        "revenue_usd": 837636213.9000001,
+        "transfers_passthrough_usd": 54188159.42999999,
+        "other_funds_spend_usd": 121769964.39999996,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 375685691.54
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 257207049.5600003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 157085216.95
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 121777093.70000002
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 40483270.029999994
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 23288788.310000006
+          }
+        ]
+      },
+      {
+        "cds": "33670330000000",
+        "district": "Corona-Norco Unified",
+        "county": "Riverside",
+        "spend_usd": 921752299.100001,
+        "revenue_usd": 919128085.08,
+        "transfers_passthrough_usd": 12768165.05,
+        "other_funds_spend_usd": 70331056.58999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 377391832.21999985
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 196708206.98
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 162089573.84000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 120317206.64999993
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 43403222.09999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 21842257.31
+          }
+        ]
+      },
+      {
+        "cds": "01612590000000",
+        "district": "Oakland Unified",
+        "county": "Alameda",
+        "spend_usd": 874579260.619998,
+        "revenue_usd": 837360100.88,
+        "transfers_passthrough_usd": 144840464.01,
+        "other_funds_spend_usd": 184616793.13999993,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 276316831.8400002
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 221935330.80000016
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 200478787.81999984
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 135952636.5300001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 29741325.210000023
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 10154348.420000004
+          }
+        ]
+      },
+      {
+        "cds": "15635290000000",
+        "district": "Kern High",
+        "county": "Kern",
+        "spend_usd": 860099783.6099992,
+        "revenue_usd": 885634302.6299998,
+        "transfers_passthrough_usd": 126101547.81,
+        "other_funds_spend_usd": 197329778.21000004,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 298925918.37000006
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 215096014.03999993
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 149001241.7800001
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 88581191.41000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 60368231.17
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 48127186.83999999
+          }
+        ]
+      },
+      {
+        "cds": "34674390000000",
+        "district": "Sacramento City Unified",
+        "county": "Sacramento",
+        "spend_usd": 847984090.14,
+        "revenue_usd": 708603245.8000002,
+        "transfers_passthrough_usd": 90754121.45,
+        "other_funds_spend_usd": 381743470.8500003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 318343219.4899999
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 241662524.78000003
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 156356846.83000007
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 102236549.71000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 18496109.669999983
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 10888839.660000002
+          }
+        ]
+      },
+      {
+        "cds": "39686760000000",
+        "district": "Stockton Unified",
+        "county": "San Joaquin",
+        "spend_usd": 833542539.9800006,
+        "revenue_usd": 819926041.1900004,
+        "transfers_passthrough_usd": 125431652.10000002,
+        "other_funds_spend_usd": 161761768.1699999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 258901661.06000006
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 206393118.66999978
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 127770754.10999991
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 126583583.23
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 63332564.45999998
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 50560858.44999997
+          }
+        ]
+      },
+      {
+        "cds": "30665220000000",
+        "district": "Garden Grove Unified",
+        "county": "Orange",
+        "spend_usd": 824103711.2300007,
+        "revenue_usd": 785728374.4299998,
+        "transfers_passthrough_usd": 30929802.549999997,
+        "other_funds_spend_usd": 176189872.21000004,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 323342702.37000006
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 236752235.46000016
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 139423980.54000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 72966231.46
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 32746623.799999982
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 18871937.599999994
+          }
+        ]
+      },
+      {
+        "cds": "33672150000000",
+        "district": "Riverside Unified",
+        "county": "Riverside",
+        "spend_usd": 770106403.8299996,
+        "revenue_usd": 772813463.5700002,
+        "transfers_passthrough_usd": 37295848.900000006,
+        "other_funds_spend_usd": 191703016.57999992,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 298049341.8699998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 187205655.8000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 115253131.19000003
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 96372165.71999995
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 41270545.590000026
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 31955563.659999993
+          }
+        ]
+      },
+      {
+        "cds": "34674470000000",
+        "district": "San Juan Unified",
+        "county": "Sacramento",
+        "spend_usd": 732310154.6000035,
+        "revenue_usd": 696006301.8299999,
+        "transfers_passthrough_usd": 136758707.67000002,
+        "other_funds_spend_usd": 187369459.9,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 287581894.4099999
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 201676878.04999962
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 117891485.58999994
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 84508144.08000006
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 27990387.220000047
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 12661365.250000002
+          }
+        ]
+      },
+      {
+        "cds": "36677100000000",
+        "district": "Fontana Unified",
+        "county": "San Bernardino",
+        "spend_usd": 712403283.2299991,
+        "revenue_usd": 711566156.0000002,
+        "transfers_passthrough_usd": 35635979.84000001,
+        "other_funds_spend_usd": 128492004.34999998,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 262825934.73999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 197430477.88999993
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 111538043.03999999
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 95017862.50999998
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 25109565.079999983
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 20481399.970000006
+          }
+        ]
+      },
+      {
+        "cds": "10621170000000",
+        "district": "Clovis Unified",
+        "county": "Fresno",
+        "spend_usd": 675379394.1599994,
+        "revenue_usd": 676597260.7099999,
+        "transfers_passthrough_usd": 139473416.28,
+        "other_funds_spend_usd": 469763937.34000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 267317441.4999999
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 187155271.24999988
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 112906947.66
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 51116252.65000002
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 41809129.51999997
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 15074351.579999996
+          }
+        ]
+      },
+      {
+        "cds": "15633210000000",
+        "district": "Bakersfield City",
+        "county": "Kern",
+        "spend_usd": 664875349.6800016,
+        "revenue_usd": 694156007.0599998,
+        "transfers_passthrough_usd": 4623244.46,
+        "other_funds_spend_usd": 121709293.25999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 222144495.86
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 168122010.69000024
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 110027541.80999991
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 66884203.430000044
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 50962306.829999976
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 46734791.059999995
+          }
+        ]
+      },
+      {
+        "cds": "30664640000000",
+        "district": "Capistrano Unified",
+        "county": "Orange",
+        "spend_usd": 661034523.9899981,
+        "revenue_usd": 634882567.8899999,
+        "transfers_passthrough_usd": 8339627.18,
+        "other_funds_spend_usd": 139666076.23999998,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 285445335.3299998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 167652436.32000008
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 99352631.50000004
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 84779724.10000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20955104.39000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 2849292.35
+          }
+        ]
+      },
+      {
+        "cds": "19101990000000",
+        "district": "Los Angeles County Office of Education",
+        "county": "Los Angeles",
+        "spend_usd": 630462217.449998,
+        "revenue_usd": 727471360.2299999,
+        "transfers_passthrough_usd": 27768224616.870003,
+        "other_funds_spend_usd": 58979923.380000025,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 316044833.1300001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 115851767.89999996
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 104252828.38999996
+          },
+          {
+            "object_class": "Teacher salaries",
+            "usd": 69039389.83000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14897212.930000005
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 10376185.270000001
+          }
+        ]
+      },
+      {
+        "cds": "33671240000000",
+        "district": "Moreno Valley Unified",
+        "county": "Riverside",
+        "spend_usd": 626275074.5600002,
+        "revenue_usd": 661920337.0100001,
+        "transfers_passthrough_usd": 96744986.78,
+        "other_funds_spend_usd": 127840723.72999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 231425034.95999992
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 156711301.95999995
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 94721476.74000005
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 94598339.39999998
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 42007520.97000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 6811400.53
+          }
+        ]
+      },
+      {
+        "cds": "30736500000000",
+        "district": "Irvine Unified",
+        "county": "Orange",
+        "spend_usd": 597569145.0100002,
+        "revenue_usd": 599820760.7100002,
+        "transfers_passthrough_usd": 85989917.29,
+        "other_funds_spend_usd": 161100353.67000002,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 252842004.18
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 146067732.32999998
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 92432441.81000006
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 83723164.12999992
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 19527880.599999994
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 2975921.96
+          }
+        ]
+      },
+      {
+        "cds": "37684110000000",
+        "district": "Sweetwater Union High",
+        "county": "San Diego",
+        "spend_usd": 584334505.1000005,
+        "revenue_usd": 618589568.69,
+        "transfers_passthrough_usd": 81710639.56,
+        "other_funds_spend_usd": 147207296.72999996,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 246444131.03000012
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 150665765.43999982
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 90555338.92000003
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 63550932.25000002
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 24314726.3
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 8803611.16
+          }
+        ]
+      },
+      {
+        "cds": "50407170000000",
+        "district": null,
+        "county": null,
+        "spend_usd": 573199892.1600019,
+        "revenue_usd": 582254756.5099996,
+        "transfers_passthrough_usd": 57594578.07999999,
+        "other_funds_spend_usd": 157138975.68000013,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 226603324.4
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 145193796.0899998
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 103708703.82000001
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 68256257.73
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 24191639.00999998
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 5246171.109999999
+          }
+        ]
+      },
+      {
+        "cds": "37682960000000",
+        "district": "Poway Unified",
+        "county": "San Diego",
+        "spend_usd": 538337020.3900005,
+        "revenue_usd": 532618948.96000004,
+        "transfers_passthrough_usd": 124348615.71,
+        "other_funds_spend_usd": 89171134.89999996,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 220458678.09999993
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 155410695.66999975
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 88836153.43
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 47200037.52000003
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 15494719.040000005
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 10936736.629999999
+          }
+        ]
+      },
+      {
+        "cds": "54722560000000",
+        "district": "Visalia Unified",
+        "county": "Tulare",
+        "spend_usd": 537119831.8300005,
+        "revenue_usd": 524231275.65000015,
+        "transfers_passthrough_usd": 28587602.770000003,
+        "other_funds_spend_usd": 150889572.03999996,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 207684187.7699998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 144496342.3499999
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 76587076.47999999
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 68310465.76999997
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 24738910.500000007
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 15302848.959999999
+          }
+        ]
+      },
+      {
+        "cds": "07617960000000",
+        "district": "West Contra Costa Unified",
+        "county": "Contra Costa",
+        "spend_usd": 534467593.3799991,
+        "revenue_usd": 518986413.3999999,
+        "transfers_passthrough_usd": 120743353.83,
+        "other_funds_spend_usd": 104812514.49000004,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 181724595.71999988
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 140115797.41000032
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 116933451.63000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 80673807.48999992
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14152959.710000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 866981.4199999999
+          }
+        ]
+      },
+      {
+        "cds": "34765050000000",
+        "district": "Twin Rivers Unified",
+        "county": "Sacramento",
+        "spend_usd": 533198486.95000064,
+        "revenue_usd": 562579093.9700001,
+        "transfers_passthrough_usd": 51496058.090000026,
+        "other_funds_spend_usd": 143472164.88000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 188104107.57999998
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 114189133.67000005
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 111808030.38000004
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 72194985.01999997
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 26730859.790000025
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 20171370.509999998
+          }
+        ]
+      },
+      {
+        "cds": "01611760000000",
+        "district": "Fremont Unified",
+        "county": "Alameda",
+        "spend_usd": 531214739.7400011,
+        "revenue_usd": 525858747.8199999,
+        "transfers_passthrough_usd": 96851094.6,
+        "other_funds_spend_usd": 64109109.870000005,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 245754458.64999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 111898462.47999984
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 82676637.99000001
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 70541453.87999995
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 19378777.719999995
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 964949.0199999999
+          }
+        ]
+      },
+      {
+        "cds": "07617540000000",
+        "district": "Mt. Diablo Unified",
+        "county": "Contra Costa",
+        "spend_usd": 526453095.2100002,
+        "revenue_usd": 482221218.0099999,
+        "transfers_passthrough_usd": 59209129.99,
+        "other_funds_spend_usd": 87215906.77000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 196103124.43999994
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 147884824.60000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 85557703.04
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 73455471.06999993
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20936483.359999996
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 2515488.7
+          }
+        ]
+      },
+      {
+        "cds": "30664310000000",
+        "district": "Anaheim Union High",
+        "county": "Orange",
+        "spend_usd": 507972471.76000005,
+        "revenue_usd": 565639058.4999999,
+        "transfers_passthrough_usd": 71335182.06,
+        "other_funds_spend_usd": 113036396.83000001,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 194668516.01000005
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 143383605.20999986
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 88830175.36
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 44259727.20000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 21878260.429999996
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14952187.549999995
+          }
+        ]
+      },
+      {
+        "cds": "30665970000000",
+        "district": "Newport-Mesa Unified",
+        "county": "Orange",
+        "spend_usd": 507791711.82999945,
+        "revenue_usd": 485563350.2999998,
+        "transfers_passthrough_usd": 64895358.76,
+        "other_funds_spend_usd": 118387070.16000001,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 187300480.26000005
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 137624992.5600001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 77752873.02
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 76381422.67
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 24259379.479999997
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 4472563.84
+          }
+        ]
+      },
+      {
+        "cds": "43696660000000",
+        "district": "San Jose Unified",
+        "county": "Santa Clara",
+        "spend_usd": 498344483.8599994,
+        "revenue_usd": 492863276.1899998,
+        "transfers_passthrough_usd": 16035712.140000002,
+        "other_funds_spend_usd": 107471027.96,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 192692072.9600001
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 139621794.98
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 82926807.50000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 68283335.69000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 12641473.840000004
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 2178998.89
+          }
+        ]
+      },
+      {
+        "cds": "33670580000000",
+        "district": "Desert Sands Unified",
+        "county": "Riverside",
+        "spend_usd": 494621824.1100015,
+        "revenue_usd": 530811401.95999986,
+        "transfers_passthrough_usd": 75113818.88,
+        "other_funds_spend_usd": 87715000.50000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 188414577.03000018
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 139799507.38000017
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 81680468.63999996
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 52000190.23000005
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 26471723.53000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 6255357.300000002
+          }
+        ]
+      },
+      {
+        "cds": "36678500000000",
+        "district": "Rialto Unified",
+        "county": "San Bernardino",
+        "spend_usd": 493285645.9500005,
+        "revenue_usd": 519467614.2,
+        "transfers_passthrough_usd": 45211277.47000001,
+        "other_funds_spend_usd": 74807205.12999998,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 173061934.44000003
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 139039937.12000012
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 75090588.86000006
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58251171.319999985
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 26576179.10999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 21265835.1
+          }
+        ]
+      },
+      {
+        "cds": "39685850000000",
+        "district": "Lodi Unified",
+        "county": "San Joaquin",
+        "spend_usd": 485242513.7899982,
+        "revenue_usd": 518234289.6699998,
+        "transfers_passthrough_usd": 51052151.89999998,
+        "other_funds_spend_usd": 89148573.42000002,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 185510227.29999986
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 110956421.89000015
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 76174445.26000005
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 69164811.13000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 24621444.770000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 18815163.44
+          }
+        ]
+      },
+      {
+        "cds": "07618040000000",
+        "district": "San Ramon Valley Unified",
+        "county": "Contra Costa",
+        "spend_usd": 474680854.86000097,
+        "revenue_usd": 453877333.41999996,
+        "transfers_passthrough_usd": 49854006.559999995,
+        "other_funds_spend_usd": 34411753.94,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 196252205.71000007
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 134663811.49999997
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 72119323.89000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58564879.35000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 11509705.009999998
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 1570929.4000000001
+          }
+        ]
+      },
+      {
+        "cds": "33671730000000",
+        "district": "Palm Springs Unified",
+        "county": "Riverside",
+        "spend_usd": 461754988.98,
+        "revenue_usd": 461372551.84,
+        "transfers_passthrough_usd": 66801702.69000001,
+        "other_funds_spend_usd": 136521491.59999993,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 166761053.94999993
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 122505805.6699999
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 69351934.41
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 61332036.81
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 26399783.720000003
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 15404374.420000007
+          }
+        ]
+      },
+      {
+        "cds": "19649070000000",
+        "district": "Pomona Unified",
+        "county": "Los Angeles",
+        "spend_usd": 459658023.55999935,
+        "revenue_usd": 439274194.4400001,
+        "transfers_passthrough_usd": 13024056.65,
+        "other_funds_spend_usd": 205225386.73999995,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 169695871.39000002
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 91568252.12000006
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 83663609.92000015
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 65854197.10000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 27646232.709999997
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 21229860.319999997
+          }
+        ]
+      },
+      {
+        "cds": "19648080000000",
+        "district": "Montebello Unified",
+        "county": "Los Angeles",
+        "spend_usd": 444815762.0299998,
+        "revenue_usd": 458992241.45,
+        "transfers_passthrough_usd": 3727681.340000001,
+        "other_funds_spend_usd": 62657572.399999976,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 170498914.92000002
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 125865338.78999989
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 76796159.55999999
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 56889010.87999998
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 12301153.280000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 2465184.6
+          }
+        ]
+      },
+      {
+        "cds": "33670820000000",
+        "district": "Hemet Unified",
+        "county": "Riverside",
+        "spend_usd": 444157021.6300018,
+        "revenue_usd": 436302486.12,
+        "transfers_passthrough_usd": 62150211.72,
+        "other_funds_spend_usd": 115600622.41999997,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 176550519.05999967
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 102323276.06000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 72329054.82000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 56618142.2
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 21629274.470000003
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14706755.019999988
+          }
+        ]
+      },
+      {
+        "cds": "36676780000000",
+        "district": "Chino Valley Unified",
+        "county": "San Bernardino",
+        "spend_usd": 443351186.99000025,
+        "revenue_usd": 426281351.93,
+        "transfers_passthrough_usd": 64144669.01,
+        "other_funds_spend_usd": 73814129.91,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 175557513.75999993
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 107177869.97999993
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 60204565.779999994
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58940425.399999976
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 26094430.20999999
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 15376381.859999988
+          }
+        ]
+      },
+      {
+        "cds": "36678190000000",
+        "district": "Ontario-Montclair",
+        "county": "San Bernardino",
+        "spend_usd": 442913545.4300001,
+        "revenue_usd": 424169286.31999993,
+        "transfers_passthrough_usd": 29536433.409999996,
+        "other_funds_spend_usd": 49920331.099999994,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 171432598.14000002
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 117220612.37000002
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 77656645.45000002
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 48298914.929999985
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 16646570.820000004
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 11658203.72
+          }
+        ]
+      },
+      {
+        "cds": "43696740000000",
+        "district": "Santa Clara Unified",
+        "county": "Santa Clara",
+        "spend_usd": 439428455.05000055,
+        "revenue_usd": 419028373.2800002,
+        "transfers_passthrough_usd": 229854768.49,
+        "other_funds_spend_usd": 83208611.44000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 184974439.17000008
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 115836334.74000025
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 82208045.15999997
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 42710348.46
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 13224053.219999993
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 475234.29999999993
+          }
+        ]
+      },
+      {
+        "cds": "19644510000000",
+        "district": "Downey Unified",
+        "county": "Los Angeles",
+        "spend_usd": 434878139.33000076,
+        "revenue_usd": 448306451.97000015,
+        "transfers_passthrough_usd": 38863628.42999999,
+        "other_funds_spend_usd": 110164965.13999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 175399174.18000004
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 118190658.34
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 57734758.86000003
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 52923374.570000015
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 17150449.470000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 13479723.909999998
+          }
+        ]
+      },
+      {
+        "cds": "19645680000000",
+        "district": "Glendale Unified",
+        "county": "Los Angeles",
+        "spend_usd": 431407477.83,
+        "revenue_usd": 442217286.34000003,
+        "transfers_passthrough_usd": 17251735.009999998,
+        "other_funds_spend_usd": 72077752.28999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 165320539.03000012
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 117219887.78000009
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 73313566.67000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 56320910.20999996
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14984001.819999998
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 4248572.319999999
+          }
+        ]
+      },
+      {
+        "cds": "33751920000000",
+        "district": "Temecula Valley Unified",
+        "county": "Riverside",
+        "spend_usd": 431157204.5400006,
+        "revenue_usd": 422039254.75999993,
+        "transfers_passthrough_usd": 31457149.150000002,
+        "other_funds_spend_usd": 63331919.640000015,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 194025993.04999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 103634474.75000001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 72671789.86000004
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 36596791.23999997
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20759388.97
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 3468766.6699999995
+          }
+        ]
+      },
+      {
+        "cds": "36103630000000",
+        "district": "San Bernardino County Office of Education",
+        "county": "San Bernardino",
+        "spend_usd": 428751362.79999995,
+        "revenue_usd": 513721516.9099998,
+        "transfers_passthrough_usd": 218850453.59999993,
+        "other_funds_spend_usd": 16510415.399999997,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 124971676.40000002
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 115640634.65000002
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 94985939.81999995
+          },
+          {
+            "object_class": "Teacher salaries",
+            "usd": 72925250.39999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 11340343.579999998
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 8887517.950000003
+          }
+        ]
+      },
+      {
+        "cds": "20652430000000",
+        "district": "Madera Unified",
+        "county": "Madera",
+        "spend_usd": 427150683.56000054,
+        "revenue_usd": 429830834.32,
+        "transfers_passthrough_usd": 29764127.449999996,
+        "other_funds_spend_usd": 126096190.92999998,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 144695900.64999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 112956728.9000002
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 62474802.42
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58770700.0
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 27579911.200000014
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20672640.389999993
+          }
+        ]
+      },
+      {
+        "cds": "33752420000000",
+        "district": "Val Verde Unified",
+        "county": "Riverside",
+        "spend_usd": 420549464.82999974,
+        "revenue_usd": 403979025.8899998,
+        "transfers_passthrough_usd": 325464862.45,
+        "other_funds_spend_usd": 75785266.50000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 155069098.83999994
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 101845848.65
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 72518821.15000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 46733839.83000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 33803488.51
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 10578367.85
+          }
+        ]
+      },
+      {
+        "cds": "37680230000000",
+        "district": "Chula Vista Elementary",
+        "county": "San Diego",
+        "spend_usd": 412645463.1999998,
+        "revenue_usd": 410913863.4200001,
+        "transfers_passthrough_usd": 38926537.36,
+        "other_funds_spend_usd": 145701134.67999995,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 168957781.59999996
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 106824683.24999996
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 75840854.63999996
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 45384169.640000015
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 13690820.35
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 1947153.72
+          }
+        ]
+      },
+      {
+        "cds": "30666210000000",
+        "district": "Orange Unified",
+        "county": "Orange",
+        "spend_usd": 411871147.24999887,
+        "revenue_usd": 427132889.4,
+        "transfers_passthrough_usd": 41174450.49000001,
+        "other_funds_spend_usd": 88685478.28000002,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 163003894.69
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 100647680.17000008
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 63491029.54000001
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 51301575.75999998
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20553460.30000001
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 12873506.790000001
+          }
+        ]
+      },
+      {
+        "cds": "39685930000000",
+        "district": "Manteca Unified",
+        "county": "San Joaquin",
+        "spend_usd": 409147956.2100008,
+        "revenue_usd": 426860373.7100001,
+        "transfers_passthrough_usd": 122050037.58,
+        "other_funds_spend_usd": 143627394.67999995,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 163681926.25999996
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 90585410.82999995
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 67230202.80999999
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 50583360.00999999
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 26726617.899999995
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 10340438.399999999
+          }
+        ]
+      },
+      {
+        "cds": "19648570000000",
+        "district": "Palmdale Elementary",
+        "county": "Los Angeles",
+        "spend_usd": 405372156.42000014,
+        "revenue_usd": 430918299.24999994,
+        "transfers_passthrough_usd": 78241573.58999999,
+        "other_funds_spend_usd": 83634618.75000004,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 122968955.95999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 100306902.37000003
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 60571701.940000005
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 52873847.57999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 48134858.2
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 20515890.369999975
+          }
+        ]
+      },
+      {
+        "cds": "36676860000000",
+        "district": "Colton Joint Unified",
+        "county": "San Bernardino",
+        "spend_usd": 404254718.5700007,
+        "revenue_usd": 385853794.99,
+        "transfers_passthrough_usd": 24620486.9,
+        "other_funds_spend_usd": 60010332.410000026,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 146286352.78000003
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 113031003.31999977
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 62544161.53000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 59944326.07000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 14188364.600000003
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 8260510.27
+          }
+        ]
+      },
+      {
+        "cds": "36676520000000",
+        "district": "Chaffey Joint Union High",
+        "county": "San Bernardino",
+        "spend_usd": 403227101.06000006,
+        "revenue_usd": 410457138.76999986,
+        "transfers_passthrough_usd": 49038591.72,
+        "other_funds_spend_usd": 86965135.41000003,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 162435929.02999994
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 119368884.14000003
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 64556029.78999999
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 41404272.45000001
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 10808155.420000002
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 4653830.2299999995
+          }
+        ]
+      },
+      {
+        "cds": "36750440000000",
+        "district": "Hesperia Unified",
+        "county": "San Bernardino",
+        "spend_usd": 399278719.74999917,
+        "revenue_usd": 406268614.93999994,
+        "transfers_passthrough_usd": 26379987.800000004,
+        "other_funds_spend_usd": 57208859.22,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 158470676.32999998
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 94148754.51000005
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58668908.93000006
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 55034055.24000002
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 20046205.52
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 12910119.219999999
+          }
+        ]
+      },
+      {
+        "cds": "19648810000000",
+        "district": "Pasadena Unified",
+        "county": "Los Angeles",
+        "spend_usd": 399062219.70999944,
+        "revenue_usd": 434468275.53000015,
+        "transfers_passthrough_usd": 3446531.28,
+        "other_funds_spend_usd": 69607652.94999999,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 133611525.40999992
+          },
+          {
+            "object_class": "Teacher salaries",
+            "usd": 108554374.32000001
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 83209996.81999995
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 52241455.92
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 16849371.82999999
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 4595495.41
+          }
+        ]
+      },
+      {
+        "cds": "19642460000000",
+        "district": "Antelope Valley Union High",
+        "county": "Los Angeles",
+        "spend_usd": 399039921.13999957,
+        "revenue_usd": 400537387.39,
+        "transfers_passthrough_usd": 2944238.3,
+        "other_funds_spend_usd": 28066633.10000001,
+        "unparsed": 0,
+        "spend_by_class": [
+          {
+            "object_class": "Teacher salaries",
+            "usd": 141747100.35000005
+          },
+          {
+            "object_class": "Employee benefits",
+            "usd": 100520557.17999998
+          },
+          {
+            "object_class": "Services & operating (outside providers)",
+            "usd": 58604777.92000001
+          },
+          {
+            "object_class": "Other staff salaries",
+            "usd": 57683200.12
+          },
+          {
+            "object_class": "Buildings & equipment",
+            "usd": 23593911.95
+          },
+          {
+            "object_class": "Books & supplies",
+            "usd": 16890373.61999999
+          }
+        ]
+      }
+    ]
+  }
+}

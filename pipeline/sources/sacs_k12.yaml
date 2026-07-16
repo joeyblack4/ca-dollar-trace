@@ -1,0 +1,27 @@
+# SACS K-12 district finances — CDE's SACS Data Viewer rollup export.
+# The viewer's API serves a statewide "Single Export (Dat Files)" ZIP per
+# fiscal year (~2,000 LEA files, unaudited actuals). We verified the blob
+# endpoint serves without the site's CAPTCHA. District names come from the
+# CDE school directory file. SACS records carry fund/object/etc. account
+# strings — NO vendor names exist anywhere in this system.
+source: sacs_k12
+dataset: unaudited_actuals
+access: json_api
+endpoints:
+  rollup_meta: "https://viewer.sacs-cde.org/api/RollupArtifact"
+  rollup_blob: "https://viewer.sacs-cde.org/api/RollupArtifact/{artifact_id}/Blob"
+  directory: "https://www3.cde.ca.gov/schooldirectory/report?rid=dl1&tp=txt"
+cadence: "annual (unaudited actuals publish ~8-9 months after FY end)"
+freshness_sla_hours: 8760
+min_rows: 1500   # LEA files in the statewide ZIP
+max_row_drop_pct: 20
+coverage_flag: category_only
+caveats:
+  - "Unaudited actuals, self-reported by ~2,000 local educational agencies; audited figures can differ."
+  - "SACS accounts categorize spending (salaries, benefits, services, capital) — vendor names do not exist anywhere in this system; who a district actually paid requires district-by-district records requests."
+  - "Amounts are decoded from SACS account strings by fund and object code; the full account detail is preserved in the raw archive."
+info:
+  name: "SACS Unaudited Actuals — K-12 District Finances"
+  publisher: "California Department of Education"
+  url: "https://www.cde.ca.gov/ds/fd/dv/"
+  license: "Public record (CDE)"

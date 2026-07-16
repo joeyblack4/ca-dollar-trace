@@ -17,6 +17,7 @@ import type {
   AgencyDoc,
   BhcipDoc,
   CountyFinancesDoc,
+  K12Doc,
   MedicalPlansDoc,
   PathSeg,
   ProfilesDoc,
@@ -30,6 +31,9 @@ const DEPT_PLAN_HOP: Record<string, string> = {
 
 /** Departments whose money flows to the 58 counties (realignment) */
 const isCountyFlowDept = (title: string) => /realignment/i.test(title);
+
+/** The K-12 apportionment department: money flows to ~2,000 school districts */
+const isK12Dept = (orgCd: string) => orgCd === "6100";
 import type { Published } from "@/lib/published";
 
 /* Vendors whose re-granted awards we've recovered from program reporting */
@@ -226,6 +230,7 @@ export function DrillExplorer({
     | undefined;
   const plansSeg = path.find((s) => s.kind === "plans");
   const countiesSeg = path.find((s) => s.kind === "counties");
+  const districtsSeg = path.find((s) => s.kind === "districts");
 
   const agencyDoc = useJson<AgencyDoc>(agencySeg ? `/data/agencies/${agencySeg.cd}.json` : null);
   const vendorsDoc = useJson<VendorsDoc>(agencySeg ? `/data/vendors/${agencySeg.cd}.json` : null);
@@ -241,6 +246,7 @@ export function DrillExplorer({
   const countiesDoc = useJson<Published<CountyFinancesDoc>>(
     countiesSeg ? "/data/county_finances.json" : null
   );
+  const k12Doc = useJson<Published<K12Doc>>(districtsSeg ? "/data/k12_finances.json" : null);
 
   if (!area) {
     return (
@@ -285,6 +291,7 @@ export function DrillExplorer({
     if (seg.kind === "recovered") crumbs.push({ label: "re-granted", pathIndex: i });
     if (seg.kind === "plans") crumbs.push({ label: "managed care plans", pathIndex: i });
     if (seg.kind === "counties") crumbs.push({ label: "counties", pathIndex: i });
+    if (seg.kind === "districts") crumbs.push({ label: "school districts", pathIndex: i });
   }
 
   const vendorDept =
@@ -466,6 +473,33 @@ export function DrillExplorer({
                         s.kind !== "recovered"
                     ),
                     { kind: "counties" },
+                  ])
+                }
+              />
+            </div>
+          )}
+
+          {isK12Dept(dept.org_cd) && (
+            <div className="mt-3">
+              <Row
+                label="Follow it to the school districts"
+                usd={dept.total_usd}
+                maxUsd={dept.total_usd}
+                color="#b98300"
+                selected={!!districtsSeg}
+                valueLabel="keep following →"
+                onClick={() =>
+                  setPath([
+                    ...path.filter(
+                      (s) =>
+                        s.kind !== "districts" &&
+                        s.kind !== "counties" &&
+                        s.kind !== "plans" &&
+                        s.kind !== "checkbook" &&
+                        s.kind !== "vendor" &&
+                        s.kind !== "recovered"
+                    ),
+                    { kind: "districts" },
                   ])
                 }
               />
@@ -772,6 +806,58 @@ export function DrillExplorer({
                 What each plan pays hospitals, clinics, and physicians is not public. Roughly 95%
                 of Medi-Cal members are behind this wall — the largest single dark zone in state
                 spending.
+              </Terminator>
+            </>
+          )}
+        </LevelCard>
+      )}
+
+      {/* Level 4-alt: K-12 school districts (gated on the education dept) */}
+      {districtsSeg && dept && isK12Dept(dept.org_cd) && (
+        <LevelCard
+          step={4}
+          title={
+            k12Doc && k12Doc !== "loading" && k12Doc !== "error"
+              ? `${k12Doc.data.lea_count.toLocaleString()} school districts & charters — ${fmtUsd(k12Doc.data.statewide_spend_usd)} in day-to-day spending (FY${k12Doc.data.fiscal_year}, unaudited)`
+              : "School districts"
+          }
+          subtitle="Each district's own report of General Fund operating spending — salaries, benefits, outside services, buildings. Construction funds and pass-throughs are in the full data."
+        >
+          {k12Doc === "loading" && <p className="text-sm text-fog">Loading districts…</p>}
+          {k12Doc === "error" && <FetchError what="the district finance data" />}
+          {k12Doc && k12Doc !== "loading" && k12Doc !== "error" && (
+            <>
+              <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-fog">
+                {k12Doc.data.statewide_by_class.map((c) => (
+                  <span key={c.object_class}>
+                    {c.object_class}: <span className="font-mono">{fmtUsd(c.usd)}</span>
+                  </span>
+                ))}
+              </div>
+              {k12Doc.data.districts.slice(0, 15).map((d) => (
+                <Row
+                  key={d.cds}
+                  label={d.district ?? `District ${d.cds}`}
+                  sub={`${d.county ?? ""} · biggest cost: ${d.spend_by_class[0]?.object_class ?? "—"}`}
+                  usd={d.spend_usd ?? 0}
+                  maxUsd={k12Doc.data.districts[0]?.spend_usd ?? 1}
+                  color="#b98300"
+                />
+              ))}
+              <p className="mt-2 text-xs text-fog">
+                Showing 15 of {k12Doc.data.lea_count.toLocaleString()} districts —{" "}
+                <a
+                  href="/data/k12_finances.json"
+                  className="underline underline-offset-2 hover:text-ink"
+                >
+                  the largest {k12Doc.data.districts_published} with category detail
+                </a>
+                ; every district is in the raw download.
+              </p>
+              <Terminator flag="category_only">
+                District reports categorize spending but never name who was paid — no school
+                district checkbook exists anywhere in California&apos;s public record. Finding
+                out requires asking each district directly.
               </Terminator>
             </>
           )}
