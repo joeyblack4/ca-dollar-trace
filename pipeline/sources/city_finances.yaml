@@ -1,0 +1,28 @@
+# SCO ByTheNumbers — CITY expenditures (same family as county_finances; the
+# city dataset uses `value`/`row_number` where counties use `values`/`index`).
+# Includes the City and County of San Francisco — closing the 58th-county gap.
+source: city_finances
+dataset: city_expenditures
+access: socrata
+endpoints:
+  soda: "https://bythenumbers.sco.ca.gov/resource/ju3w-4gxp.json"
+cadence: "annual, rolling as late filers report (~18-month lag typical)"
+freshness_sla_hours: 8760
+min_rows: 100000
+max_row_drop_pct: 20
+coverage_flag: category_only
+caveats:
+  - "Self-reported by cities and 'posted as submitted' — the State Controller does not audit or restate these figures."
+  - "Category level only; a handful of cities (LA, SF, San Diego) publish real vendor checkbooks elsewhere — most publish nothing deeper than this."
+  - "Detail is published for the largest cities by spending; the remainder is disclosed as an aggregate, with every city in the raw download."
+info:
+  name: "SCO ByTheNumbers — City Expenditures"
+  publisher: "California State Controller's Office"
+  url: "https://bythenumbers.sco.ca.gov/"
+  license: "Public record (SCO)"
+extra:
+  fy_min: 2022
+  value_col: "value"
+  order_col: "row_number"
+  max_entities_published: 50
+  published_key_name: city_finances

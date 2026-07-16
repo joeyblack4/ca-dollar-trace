@@ -34,13 +34,14 @@ def run_county_finances(storage: Storage, cfg: SourceConfig, settings: Settings)
     as_of = now.strftime("%Y-%m-%dT%H%M%SZ")
     manifest = read_manifest(storage, cfg.source)
     fy_min = int(cfg.extra.get("fy_min", 2020))
+    order_col = cfg.extra.get("order_col", "index")
 
     pages: list[bytes] = []
     offset = 0
     while True:
         query = (
             f"?$where=fiscal_year >= '{fy_min}'"
-            f"&$order=index&$limit={PAGE}&$offset={offset}"
+            f"&$order={order_col}&$limit={PAGE}&$offset={offset}"
         )
         body = fetch_bytes(cfg.endpoints["soda"] + quote(query, safe="?&=$'"))
         rows = json.loads(body)
@@ -67,8 +68,8 @@ def run_county_finances(storage: Storage, cfg: SourceConfig, settings: Settings)
             f"raw/{cfg.source}/{cfg.dataset}/{as_of}/page{i}.json", p, "application/json"
         )
 
-    doc = build_county_doc(pages, storage)
-    key = "published/county_finances.json"
+    doc = build_county_doc(pages, storage, cfg)
+    key = f"published/{cfg.extra.get('published_key_name', cfg.source)}.json"
     storage.put_bytes(
         key,
         json.dumps(
@@ -92,7 +93,7 @@ def run_county_finances(storage: Storage, cfg: SourceConfig, settings: Settings)
     return key
 
 
-def build_county_doc(pages: list[bytes], storage: Storage) -> dict[str, Any]:
+def build_county_doc(pages: list[bytes], storage: Storage, cfg: SourceConfig) -> dict[str, Any]:
     with tempfile.TemporaryDirectory() as td:
         paths = []
         for i, p in enumerate(pages):
@@ -101,15 +102,16 @@ def build_county_doc(pages: list[bytes], storage: Storage) -> dict[str, Any]:
             paths.append(str(fp))
         conn = duckdb.connect(":memory:")
         file_list = ", ".join(f"'{p}'" for p in paths)
+        value_col = cfg.extra.get("value_col", "values")
         conn.execute(
             f"""
             CREATE TABLE county AS
             SELECT entity_name                            AS county,
                    TRY_CAST(fiscal_year AS INTEGER)       AS fiscal_year,
                    category,
-                   TRY_CAST(values AS DOUBLE)             AS amount_usd,
+                   TRY_CAST("{value_col}" AS DOUBLE)      AS amount_usd,
                    TRY_CAST(estimated_population AS BIGINT) AS population
-            FROM read_json_auto([{file_list}])
+            FROM read_json_auto([{file_list}], union_by_name=true)
             """
         )
 
@@ -139,6 +141,7 @@ def build_county_doc(pages: list[bytes], storage: Storage) -> dict[str, Any]:
         cats_by_county.setdefault(r["county"], []).append(
             {"category": r["category"], "usd": r["usd"]}
         )
+    population_flagged = []
     for c in counties:
         cats = sorted(
             (x for x in cats_by_county.get(c["county"], []) if x["usd"] is not None),
@@ -146,20 +149,48 @@ def build_county_doc(pages: list[bytes], storage: Storage) -> dict[str, Any]:
         )
         c["top_categories"] = cats[:8]
         c["category_count"] = len(cats)
-        c["per_capita_usd"] = (
+        per_capita = (
             round(c["total_usd"] / c["population"], 0)
             if c["total_usd"] and c["population"]
             else None
         )
+        # fail-honest: extreme ratios are withheld pending review — some are
+        # source errors (Mountain View listed at 3,203 residents), some are
+        # real outliers (Vernon and Industry are tiny industrial cities).
+        # Either way a headline number that extreme needs context we can't
+        # verify automatically, so we withhold and disclose.
+        if per_capita is not None and not (200 <= per_capita <= 30_000):
+            c["per_capita_usd"] = None
+            c["per_capita_withheld"] = True
+            population_flagged.append(c["county"])
+        else:
+            c["per_capita_usd"] = per_capita
 
     latest_fy = max(c["fiscal_year"] for c in counties)
     lagging = [c["county"] for c in counties if c["fiscal_year"] < latest_fy]
+    max_entities = int(cfg.extra.get("max_entities_published", 0))
+    if max_entities and len(counties) > max_entities:
+        # size control for the 400+ city dataset: publish detail for the
+        # largest N, disclose the aggregate remainder
+        rest = counties[max_entities:]
+        counties = counties[:max_entities]
+        rest_total = sum(c["total_usd"] or 0 for c in rest)
+    else:
+        rest, rest_total = [], 0.0
     return {
-        "county_count": len(counties),
-        "not_in_this_dataset": ["San Francisco (city-county; files through the cities dataset)"],
+        "county_count": len(counties) + len(rest),
+        "entities_published": len(counties),
+        "entities_not_shown": len(rest),
+        "entities_not_shown_total_usd": rest_total,
+        "not_in_this_dataset": list(cfg.extra.get("not_in_this_dataset", [])),
+        # entities whose spend/population ratio fails plausibility screening
+        # (source errors AND genuine outliers like tiny industrial cities);
+        # per-capita is withheld with this disclosure instead of published raw
+        "per_capita_withheld": population_flagged,
         "latest_fiscal_year": latest_fy,
         "counties_lagging_behind_latest_fy": lagging,
-        "total_latest_usd": sum(c["total_usd"] or 0 for c in counties),
+        # total covers ALL entities, including the not-shown remainder
+        "total_latest_usd": sum(c["total_usd"] or 0 for c in counties) + rest_total,
         "counties": counties,
     }
 

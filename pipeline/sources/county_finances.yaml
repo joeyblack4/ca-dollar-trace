@@ -25,3 +25,7 @@ info:
   license: "Public record (SCO)"
 extra:
   fy_min: 2020
+  value_col: "values"
+  order_col: "index"
+  not_in_this_dataset:
+    - "San Francisco (city-county; files through the cities dataset)"

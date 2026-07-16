@@ -5,8 +5,8 @@
     "url": "https://bythenumbers.sco.ca.gov/",
     "license": "Public record (SCO)"
   },
-  "as_of": "2026-07-16T185336Z",
-  "ingested_at": "2026-07-16T18:53:36.115543+00:00",
+  "as_of": "2026-07-16T190344Z",
+  "ingested_at": "2026-07-16T19:03:44.623742+00:00",
   "cadence": "annual, rolling as late filers report (~18-month lag typical)",
   "coverage_flag": "category_only",
   "caveats": [
@@ -17,9 +17,13 @@
   ],
   "data": {
     "county_count": 57,
+    "entities_published": 57,
+    "entities_not_shown": 0,
+    "entities_not_shown_total_usd": 0.0,
     "not_in_this_dataset": [
       "San Francisco (city-county; files through the cities dataset)"
     ],
+    "per_capita_withheld": [],
     "latest_fiscal_year": 2024,
     "counties_lagging_behind_latest_fy": [],
     "total_latest_usd": 126286988065.0,
@@ -404,7 +408,7 @@
             "usd": 41096956.0
           },
           {
-            "category": "Conduit Financing",
+            "category": "Solid Waste Enterprise Fund",
             "usd": 0.0
           }
         ],

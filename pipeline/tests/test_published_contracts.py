@@ -211,15 +211,37 @@ def test_federal_contract():
 # ---------- county finances ----------
 
 
-def test_county_finances_contract():
-    d = load("county_finances.json")["data"]
-    assert d["county_count"] == 57, "57 counties expected (SF files as a city)"
-    assert d["not_in_this_dataset"], "SF exclusion must be disclosed"
-    assert d["total_latest_usd"] > 50e9
+def _local_entities_contract(d: dict):
+    """Shared invariants for the SCO county/city expenditure documents."""
     totals = [c["total_usd"] or 0 for c in d["counties"]]
-    assert totals == sorted(totals, reverse=True), "counties not sorted desc"
+    assert totals == sorted(totals, reverse=True), "entities not sorted desc"
+    assert "per_capita_withheld" in d, "per-capita screening disclosure required"
     for c in d["counties"]:
         assert "amount_unparsed_count" in c
         assert c["top_categories"], f"{c['county']}: no categories"
         if c["per_capita_usd"] is not None:
-            assert 500 <= c["per_capita_usd"] <= 30000, f"{c['county']}: implausible per-capita"
+            # the pipeline withholds per-capita outside these bounds
+            assert 200 <= c["per_capita_usd"] <= 30000, f"{c['county']}: implausible per-capita"
+        else:
+            pass  # withheld (no population, or flagged implausible)
+
+
+def test_county_finances_contract():
+    d = load("county_finances.json")["data"]
+    assert d["county_count"] == 57, "57 counties expected (SF files as a city)"
+    assert d["not_in_this_dataset"], "SF exclusion must be disclosed"
+    assert d["entities_not_shown"] == 0, "all 57 counties must publish detail"
+    assert d["total_latest_usd"] > 50e9
+    _local_entities_contract(d)
+
+
+def test_city_finances_contract():
+    d = load("city_finances.json")["data"]
+    assert d["county_count"] >= 400, "there are ~480 CA cities"
+    assert d["entities_published"] == 50
+    assert d["entities_not_shown"] == d["county_count"] - 50
+    assert d["entities_not_shown_total_usd"] > 0, "remainder aggregate must be disclosed"
+    sf = next((c for c in d["counties"] if c["county"] == "San Francisco"), None)
+    assert sf is not None, "San Francisco must be present (closes the 58th-county gap)"
+    assert (sf["total_usd"] or 0) > 5e9
+    _local_entities_contract(d)

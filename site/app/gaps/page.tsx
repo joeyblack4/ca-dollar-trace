@@ -73,6 +73,22 @@ const GAPS = [
     ],
   },
   {
+    id: "tax-expenditures",
+    title: "Invisible spending: tax expenditures are published as PDFs only",
+    flag: "category_only" as const,
+    klass: "(d) Published, but unusable for systematic analysis",
+    size: "Tens of billions per year in credits, deductions, and exclusions — the corporation-tax category alone was ~$5.9B in FY2024-25 (DOF)",
+    body: [
+      "Spending through the tax code — R&D credits, the film credit, water's-edge elections — is economically equivalent to spending, but appears in no budget line and no checkbook. California does publish reports on it: DOF's annual Tax Expenditure Report and FTB's TER series.",
+      "We checked every Tax Expenditure Report dataset on data.ca.gov (2016 through 2020): each one contains exactly one resource, and it is a PDF. The report about invisible spending is itself machine-unreadable — recipient-level detail is additionally confidential under R&TC §19542.",
+    ],
+    fix: "Publish the TER tables as data (CSV on the open-data portal, like the grants portal does), and expand FTB Form 4197 reporting. Until then: PDF table extraction, verified figure-by-figure, is on our roadmap.",
+    cites: [
+      { label: "TER datasets on data.ca.gov (PDF-only)", url: "https://data.ca.gov/dataset/tax-expenditure-report" },
+      { label: "DOF Tax Expenditure Reports", url: "https://dof.ca.gov/forecasting/economics/tax-expenditure-reports/" },
+    ],
+  },
+  {
     id: "grants-subrecipients",
     title: "Grants stop at the first awardee",
     flag: "trail_ends_here" as const,
