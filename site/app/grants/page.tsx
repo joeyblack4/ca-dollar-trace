@@ -1,5 +1,6 @@
 import { SourceChip } from "@/components/ui/SourceChip";
-import { fmtUsd, loadPublished, type GrantsSummary } from "@/lib/published";
+import { fmtUsd, type GrantsSummary } from "@/lib/published";
+import { loadPublished } from "@/lib/published-server";
 
 export const metadata = { title: "State Grants — CA Dollar Trace" };
 

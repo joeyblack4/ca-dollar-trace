@@ -1,9 +1,5 @@
-/* Build-time loader for pipeline-published JSON (synced into public/data/).
-   Static export renders these at build; the raw JSON also ships at /data/*.json
-   so every figure has a one-click "Get the data" link. */
-
-import { promises as fs } from "fs";
-import path from "path";
+/* Shared types + formatters for pipeline-published JSON.
+   (Client-safe: the fs-based build-time loader lives in published-server.ts.) */
 
 export interface SourceInfo {
   name: string;
@@ -43,9 +39,47 @@ export interface GrantsSummary {
   open_by_category: GrantsCategoryRow[];
 }
 
-export async function loadPublished<T>(name: string): Promise<Published<T>> {
-  const file = path.join(process.cwd(), "public", "data", `${name}.json`);
-  return JSON.parse(await fs.readFile(file, "utf-8")) as Published<T>;
+export interface FlowItem {
+  name: string;
+  usd: number;
+}
+
+export interface DownstreamHop {
+  label: string;
+  flag: CoverageFlag;
+  note: string;
+  cite: string;
+}
+
+export interface DownstreamNode {
+  node: string;
+  hops: DownstreamHop[];
+}
+
+export interface AgencyRow {
+  org_cd: string;
+  title: string;
+  state_funds_usd: number;
+  all_funds_usd: number;
+  general_fund_usd: number;
+  special_fund_usd: number;
+  bond_fund_usd: number;
+  positions: number;
+}
+
+export interface BudgetWaterfall {
+  budget_year: string;
+  basis: string;
+  general_fund: {
+    revenue: FlowItem[];
+    expenditure: FlowItem[];
+    revenue_total_usd: number;
+    expenditure_total_usd: number;
+    gap_usd: number;
+  };
+  agencies: AgencyRow[];
+  state_grand_total_usd: number;
+  downstream_visibility: DownstreamNode[];
 }
 
 export function fmtUsd(n: number | null): string {

@@ -22,8 +22,9 @@ class SourceInfo(BaseModel):
 class SourceConfig(BaseModel):
     source: str  # slug, e.g. "grants_portal"
     dataset: str  # dataset slug within the source
-    access: str  # "csv_download" | "ckan" | "socrata" | ...
-    download_url: str
+    access: str  # "csv_download" | "json_api" | "ckan" | "socrata" | ...
+    download_url: str = ""  # single-file sources
+    endpoints: dict[str, str] = {}  # multi-endpoint JSON sources (name -> url)
     cadence: str  # human-readable ("daily 8:45pm PT", "monthly, 60-day lag")
     freshness_sla_hours: int
     min_rows: int = 1

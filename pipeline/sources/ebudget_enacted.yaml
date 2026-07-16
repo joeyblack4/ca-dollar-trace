@@ -1,0 +1,26 @@
+# ebudget.ca.gov — Department of Finance, 2025-26 ENACTED budget.
+# Two JSON endpoints behind the official budget SPA:
+#   sankey     — General Fund revenue sources -> GF -> program areas ($ millions)
+#   statistics — per-agency state/all-funds totals + positions ($ thousands)
+# API path pattern: api/{type}/{pit}/{year}; pit "e" = enacted.
+# A new enacted budget lands each June/July; poll weekly, act on change.
+source: ebudget_enacted
+dataset: budget_2025_26_enacted
+access: json_api
+endpoints:
+  sankey: "https://ebudget.ca.gov/api/publication/e/2025-26/sankey"
+  statistics: "https://ebudget.ca.gov/api/publication/e/2025-26/statistics"
+cadence: "budget cycle (enacted June/July; revised at Governor's Budget & May Revision)"
+freshness_sla_hours: 8760  # enacted figures are stable for the fiscal year
+min_rows: 10               # agency count sanity floor
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "General Fund view: enacted-budget figures (budgetary/legal basis), not actual cash spent; actuals arrive via Open FI$Cal with a ~60-day lag and will not reconcile exactly."
+  - "GF expenditures ($228.4B) exceed GF revenues ($215.7B) in the enacted plan; the difference is covered by reserves/carryover, and we show that gap rather than hiding it."
+  - "Agency all-funds totals include federal funds and reimbursements passing through the state budget."
+info:
+  name: "California Enacted Budget 2025-26 (ebudget)"
+  publisher: "California Department of Finance"
+  url: "https://ebudget.ca.gov/budget/publication/#/e/2025-26"
+  license: "Public record (California Department of Finance)"

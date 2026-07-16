@@ -38,7 +38,7 @@ jobs:
       - name: Run pipeline (all sources)
         working-directory: pipeline
         run: |
-          uv run cadollar run grants_portal
+          uv run cadollar run-all
           uv run cadollar sync-site
       - uses: actions/cache/save@v4
         if: always()

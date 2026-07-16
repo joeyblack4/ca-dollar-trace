@@ -1,0 +1,56 @@
+# Curated downstream-visibility annotations for the money waterfall.
+# For each GF program area: what the NEXT hop of the dollar looks like and
+# where public visibility ends. Every claim carries its citation. This file is
+# product content (researched, hand-maintained), not ingested data — treat
+# edits like editorial changes and keep citations current.
+
+- node: "Health and Human Services"
+  hops:
+    - label: "State → DHCS → managed care plans (capitation)"
+      flag: traceable
+      note: "DHCS publishes capitation rates and enrollment by plan; ~95% of Medi-Cal's ~14.8M enrollees are in managed care or behavioral health plans."
+      cite: "https://www.chcf.org/publication/medi-cal-facts-figures/"
+    - label: "Managed care plan → hospitals, clinics, physicians"
+      flag: trail_ends_here
+      note: "Plan-to-provider payments are not public. The largest single flow in state government goes dark one hop past the state."
+      cite: "https://www.dhcs.ca.gov/services/Pages/MngdCarePerformDashboard.aspx"
+
+- node: "K-12 Education"
+  hops:
+    - label: "State → school districts (Prop 98 / LCFF apportionments)"
+      flag: traceable
+      note: "Apportionments to each of ~1,000 districts are published by CDE."
+      cite: "https://www.cde.ca.gov/fg/aa/pa/"
+    - label: "District → vendors and contractors"
+      flag: category_only
+      note: "SACS reporting gives fund/resource/object categories, not vendor-level payments; district checkbooks require district-by-district records requests."
+      cite: "https://www.cde.ca.gov/ds/fd/fd/"
+
+- node: "Higher Education"
+  hops:
+    - label: "State → UC / CSU / community colleges"
+      flag: traceable
+      note: "Appropriations per segment are in the enacted budget."
+      cite: "https://ebudget.ca.gov/"
+    - label: "UC/CSU → vendors"
+      flag: category_only
+      note: "UC (constitutionally autonomous, Art. IX §9) publishes payroll and procurement listings but no transaction-level vendor checkbook; CSU publishes less systematically. Both remain CPRA-subject."
+      cite: "https://ucannualwage.ucop.edu/"
+
+- node: "Corrections and Rehabilitation"
+  hops:
+    - label: "State → CDCR vendors"
+      flag: traceable
+      note: "State-operated: vendor payments appear in Open FI$Cal (which covers ~79% of state expenditures, with payroll and confidential-vendor exclusions)."
+      cite: "https://open.fiscal.ca.gov/"
+
+- node: "Other"
+  hops:
+    - label: "State → counties (1991/2011 realignment, ~$6.3B+/yr)"
+      flag: category_only
+      note: "Realignment funds flow to counties by statutory formula; once in county accounts they are visible only at the annual category level (SCO ByTheNumbers). Most counties publish no vendor-level checkbook."
+      cite: "https://bythenumbers.sco.ca.gov/"
+    - label: "State → grant awardees"
+      flag: traceable
+      note: "Post-award awardee data is published daily on the Grants Portal (AB 132) — but no subrecipient detail below the awardee."
+      cite: "https://data.ca.gov/dataset/california-grants-portal"

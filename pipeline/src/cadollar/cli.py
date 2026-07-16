@@ -1,9 +1,9 @@
 """cadollar CLI.
 
-  cadollar ingest grants_portal      # fetch -> raw -> cleansed (change-detected)
-  cadollar publish grants_portal     # cleansed -> published JSON
-  cadollar run grants_portal         # ingest + publish (what cron calls)
-  cadollar sync-site                 # copy published/*.json -> site/public/data (local mode)
+  cadollar run grants_portal        # fetch -> raw -> cleansed -> published
+  cadollar run ebudget_enacted
+  cadollar run-all                  # every registered source (what cron calls)
+  cadollar sync-site                # copy published/*.json -> site/public/data (local mode)
 """
 
 from __future__ import annotations
@@ -12,25 +12,43 @@ import argparse
 import shutil
 import sys
 
-from .config import REPO_ROOT, get_settings
+from .config import REPO_ROOT, Settings, get_settings
 from .ingest.csv_download import run_csv_ingest
+from .ingest.ebudget import run_ebudget
 from .publish.grants import publish_grants_summary
 from .sources import load_source
-from .storage import get_storage
+from .storage import Storage, get_storage
 from .transform import grants_portal as t_grants
 
-# Per-source wiring: (cleanse callable, publish callable)
-REGISTRY = {
-    "grants_portal": (t_grants.cleanse, publish_grants_summary),
+
+def _run_grants(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "grants_portal")
+    result = run_csv_ingest(storage, cfg, t_grants.cleanse)
+    if result.changed:
+        print(f"grants_portal: ingested {result.row_count} rows (as_of {result.as_of})")
+        key = publish_grants_summary(storage, cfg)
+        print(f"grants_portal: published {key}")
+    else:
+        print("grants_portal: unchanged upstream, no-op")
+
+
+def _run_ebudget(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "ebudget_enacted")
+    run_ebudget(storage, cfg, settings)
+
+
+RUNNERS = {
+    "grants_portal": _run_grants,
+    "ebudget_enacted": _run_ebudget,
 }
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="cadollar")
     sub = parser.add_subparsers(dest="cmd", required=True)
-    for cmd in ("ingest", "publish", "run"):
-        p = sub.add_parser(cmd)
-        p.add_argument("source", choices=sorted(REGISTRY))
+    run_p = sub.add_parser("run")
+    run_p.add_argument("source", choices=sorted(RUNNERS))
+    sub.add_parser("run-all")
     sub.add_parser("sync-site")
     args = parser.parse_args(argv)
 
@@ -48,22 +66,9 @@ def main(argv: list[str] | None = None) -> int:
         print(f"synced {copied} published file(s) -> {dest}")
         return 0
 
-    cfg = load_source(settings, args.source)
-    cleanse, publish = REGISTRY[args.source]
-
-    if args.cmd in ("ingest", "run"):
-        result = run_csv_ingest(storage, cfg, cleanse)
-        if result.changed:
-            print(f"{args.source}: ingested {result.row_count} rows (as_of {result.as_of})")
-        else:
-            print(f"{args.source}: unchanged upstream, no-op")
-            if args.cmd == "run":
-                return 0
-
-    if args.cmd in ("publish", "run"):
-        key = publish(storage, cfg)
-        print(f"{args.source}: published {key}")
-
+    sources = sorted(RUNNERS) if args.cmd == "run-all" else [args.source]
+    for source in sources:
+        RUNNERS[source](storage, settings)
     return 0
 
 

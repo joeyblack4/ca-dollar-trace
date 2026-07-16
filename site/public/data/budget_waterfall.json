@@ -1,0 +1,278 @@
+{
+  "source": {
+    "name": "California Enacted Budget 2025-26 (ebudget)",
+    "publisher": "California Department of Finance",
+    "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+    "license": "Public record (California Department of Finance)"
+  },
+  "as_of": "2026-07-16T033847Z",
+  "ingested_at": "2026-07-16T03:38:47.010298+00:00",
+  "cadence": "budget cycle (enacted June/July; revised at Governor's Budget & May Revision)",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "General Fund view: enacted-budget figures (budgetary/legal basis), not actual cash spent; actuals arrive via Open FI$Cal with a ~60-day lag and will not reconcile exactly.",
+    "GF expenditures ($228.4B) exceed GF revenues ($215.7B) in the enacted plan; the difference is covered by reserves/carryover, and we show that gap rather than hiding it.",
+    "Agency all-funds totals include federal funds and reimbursements passing through the state budget."
+  ],
+  "data": {
+    "budget_year": "2025-26",
+    "basis": "enacted",
+    "general_fund": {
+      "revenue": [
+        {
+          "name": "Personal Income Tax",
+          "usd": 125962000000
+        },
+        {
+          "name": "Corporation Tax",
+          "usd": 35613000000
+        },
+        {
+          "name": "Sales and Use Tax",
+          "usd": 34862000000
+        },
+        {
+          "name": "Other",
+          "usd": 7837000000
+        },
+        {
+          "name": "Transfer from the Budget Stabilization Account/Rainy Day Fund",
+          "usd": 7100000000
+        },
+        {
+          "name": "Insurance Tax",
+          "usd": 4359000000
+        }
+      ],
+      "expenditure": [
+        {
+          "name": "Health and Human Services",
+          "usd": 87402000000
+        },
+        {
+          "name": "K-12 Education",
+          "usd": 80529000000
+        },
+        {
+          "name": "Other",
+          "usd": 24279000000
+        },
+        {
+          "name": "Higher Education",
+          "usd": 22729000000
+        },
+        {
+          "name": "Corrections and Rehabilitation",
+          "usd": 13427000000
+        }
+      ],
+      "revenue_total_usd": 215733000000,
+      "expenditure_total_usd": 228366000000,
+      "gap_usd": 12633000000
+    },
+    "agencies": [
+      {
+        "org_cd": "4000",
+        "title": "Health and Human Services",
+        "state_funds_usd": 132875970000,
+        "all_funds_usd": 306155515000,
+        "general_fund_usd": 87401831000,
+        "special_fund_usd": 45024095000,
+        "bond_fund_usd": 450044000,
+        "positions": 39022.4
+      },
+      {
+        "org_cd": "6010",
+        "title": "K thru 12 Education",
+        "state_funds_usd": 82151357000,
+        "all_funds_usd": 121381724000,
+        "general_fund_usd": 80529381000,
+        "special_fund_usd": 105299000,
+        "bond_fund_usd": 1516677000,
+        "positions": 3100.5
+      },
+      {
+        "org_cd": "6013",
+        "title": "Higher Education",
+        "state_funds_usd": 23455629000,
+        "all_funds_usd": 88389112000,
+        "general_fund_usd": 22728916000,
+        "special_fund_usd": 175903000,
+        "bond_fund_usd": 550810000,
+        "positions": 178598.5
+      },
+      {
+        "org_cd": "7500",
+        "title": "Government Operations",
+        "state_funds_usd": 2933158000,
+        "all_funds_usd": 73396912000,
+        "general_fund_usd": 2735938000,
+        "special_fund_usd": 185040000,
+        "bond_fund_usd": 12180000,
+        "positions": 22463.3
+      },
+      {
+        "org_cd": "2500",
+        "title": "Transportation",
+        "state_funds_usd": 19810046000,
+        "all_funds_usd": 29675064000,
+        "general_fund_usd": 2198883000,
+        "special_fund_usd": 17514101000,
+        "bond_fund_usd": 97062000,
+        "positions": 43214.4
+      },
+      {
+        "org_cd": "7000",
+        "title": "Labor and Workforce Development",
+        "state_funds_usd": 2189333000,
+        "all_funds_usd": 28024976000,
+        "general_fund_usd": 960783000,
+        "special_fund_usd": 1228550000,
+        "bond_fund_usd": 0,
+        "positions": 13809.1
+      },
+      {
+        "org_cd": "5210",
+        "title": "Corrections and Rehabilitation",
+        "state_funds_usd": 17515888000,
+        "all_funds_usd": 18242462000,
+        "general_fund_usd": 13427235000,
+        "special_fund_usd": 4088653000,
+        "bond_fund_usd": 0,
+        "positions": 60163.0
+      },
+      {
+        "org_cd": "8000",
+        "title": "General Government",
+        "state_funds_usd": 14244518000,
+        "all_funds_usd": 17251122000,
+        "general_fund_usd": 6276671000,
+        "special_fund_usd": 7965344000,
+        "bond_fund_usd": 2503000,
+        "positions": 14335.1
+      },
+      {
+        "org_cd": "0010",
+        "title": "Legislative, Judicial, and Executive",
+        "state_funds_usd": 10813274000,
+        "all_funds_usd": 15869216000,
+        "general_fund_usd": 6520455000,
+        "special_fund_usd": 4041550000,
+        "bond_fund_usd": 251269000,
+        "positions": 16670.8
+      },
+      {
+        "org_cd": "3000",
+        "title": "Natural Resources",
+        "state_funds_usd": 7972246000,
+        "all_funds_usd": 13381392000,
+        "general_fund_usd": 4503011000,
+        "special_fund_usd": 2999113000,
+        "bond_fund_usd": 470122000,
+        "positions": 29002.0
+      },
+      {
+        "org_cd": "3890",
+        "title": "Environmental Protection",
+        "state_funds_usd": 4285173000,
+        "all_funds_usd": 5077680000,
+        "general_fund_usd": 140169000,
+        "special_fund_usd": 4131866000,
+        "bond_fund_usd": 13138000,
+        "positions": 8295.9
+      },
+      {
+        "org_cd": "1000",
+        "title": "Business, Consumer Services, and Housing",
+        "state_funds_usd": 2803889000,
+        "all_funds_usd": 3842515000,
+        "general_fund_usd": 942581000,
+        "special_fund_usd": 1339107000,
+        "bond_fund_usd": 522201000,
+        "positions": 8192.0
+      }
+    ],
+    "state_grand_total_usd": 321052119000,
+    "downstream_visibility": [
+      {
+        "node": "Health and Human Services",
+        "hops": [
+          {
+            "label": "State \u2192 DHCS \u2192 managed care plans (capitation)",
+            "flag": "traceable",
+            "note": "DHCS publishes capitation rates and enrollment by plan; ~95% of Medi-Cal's ~14.8M enrollees are in managed care or behavioral health plans.",
+            "cite": "https://www.chcf.org/publication/medi-cal-facts-figures/"
+          },
+          {
+            "label": "Managed care plan \u2192 hospitals, clinics, physicians",
+            "flag": "trail_ends_here",
+            "note": "Plan-to-provider payments are not public. The largest single flow in state government goes dark one hop past the state.",
+            "cite": "https://www.dhcs.ca.gov/services/Pages/MngdCarePerformDashboard.aspx"
+          }
+        ]
+      },
+      {
+        "node": "K-12 Education",
+        "hops": [
+          {
+            "label": "State \u2192 school districts (Prop 98 / LCFF apportionments)",
+            "flag": "traceable",
+            "note": "Apportionments to each of ~1,000 districts are published by CDE.",
+            "cite": "https://www.cde.ca.gov/fg/aa/pa/"
+          },
+          {
+            "label": "District \u2192 vendors and contractors",
+            "flag": "category_only",
+            "note": "SACS reporting gives fund/resource/object categories, not vendor-level payments; district checkbooks require district-by-district records requests.",
+            "cite": "https://www.cde.ca.gov/ds/fd/fd/"
+          }
+        ]
+      },
+      {
+        "node": "Higher Education",
+        "hops": [
+          {
+            "label": "State \u2192 UC / CSU / community colleges",
+            "flag": "traceable",
+            "note": "Appropriations per segment are in the enacted budget.",
+            "cite": "https://ebudget.ca.gov/"
+          },
+          {
+            "label": "UC/CSU \u2192 vendors",
+            "flag": "category_only",
+            "note": "UC (constitutionally autonomous, Art. IX \u00a79) publishes payroll and procurement listings but no transaction-level vendor checkbook; CSU publishes less systematically. Both remain CPRA-subject.",
+            "cite": "https://ucannualwage.ucop.edu/"
+          }
+        ]
+      },
+      {
+        "node": "Corrections and Rehabilitation",
+        "hops": [
+          {
+            "label": "State \u2192 CDCR vendors",
+            "flag": "traceable",
+            "note": "State-operated: vendor payments appear in Open FI$Cal (which covers ~79% of state expenditures, with payroll and confidential-vendor exclusions).",
+            "cite": "https://open.fiscal.ca.gov/"
+          }
+        ]
+      },
+      {
+        "node": "Other",
+        "hops": [
+          {
+            "label": "State \u2192 counties (1991/2011 realignment, ~$6.3B+/yr)",
+            "flag": "category_only",
+            "note": "Realignment funds flow to counties by statutory formula; once in county accounts they are visible only at the annual category level (SCO ByTheNumbers). Most counties publish no vendor-level checkbook.",
+            "cite": "https://bythenumbers.sco.ca.gov/"
+          },
+          {
+            "label": "State \u2192 grant awardees",
+            "flag": "traceable",
+            "note": "Post-award awardee data is published daily on the Grants Portal (AB 132) \u2014 but no subrecipient detail below the awardee.",
+            "cite": "https://data.ca.gov/dataset/california-grants-portal"
+          }
+        ]
+      }
+    ]
+  }
+}
