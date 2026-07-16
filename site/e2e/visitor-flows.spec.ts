@@ -34,6 +34,10 @@ test("six-hop drill: HHS -> DHCS -> checkbook -> AHP -> BHCIP, then vendor switc
   await expect(page.getByText(/0\.7% of budget visible/)).toBeVisible();
   await expect(page.getByText(/never appears\s+in the checkbook/)).toBeVisible();
 
+  // payroll nested in the department level (the biggest checkbook exclusion)
+  await expect(page.getByText(/Its people: [\d,]+ employees/)).toBeVisible();
+  await expect(page.getByText(/in retirement & health benefits/)).toBeVisible();
+
   // hop 4: checkbook
   await page.getByRole("button", { name: /Open the checkbook/ }).click();
   await expect(page.getByRole("button", { name: /ADVOCATES FOR HUMAN POTENTIAL/ })).toBeVisible();

@@ -5,8 +5,8 @@
     "url": "https://gcc.sco.ca.gov/",
     "license": "Public record (SCO)"
   },
-  "as_of": "2026-07-16T224328Z",
-  "ingested_at": "2026-07-16T22:43:28.832619+00:00",
+  "as_of": "2026-07-16T230915Z",
+  "ingested_at": "2026-07-16T23:09:15.532410+00:00",
   "cadence": "annual (SCO publishes the prior calendar year each fall)",
   "coverage_flag": "traceable",
   "caveats": [
@@ -990,17 +990,17 @@
         "wages_usd": 113399058.0,
         "benefits_usd": 25150424.0
       },
-      "SANTA CLARITA": {
-        "level": "city",
-        "positions": 1289,
-        "wages_usd": 55337401.0,
-        "benefits_usd": 10750750.0
-      },
       "REDDING": {
         "level": "city",
         "positions": 1289,
         "wages_usd": 112684325.0,
         "benefits_usd": 29706689.0
+      },
+      "SANTA CLARITA": {
+        "level": "city",
+        "positions": 1289,
+        "wages_usd": 55337401.0,
+        "benefits_usd": 10750750.0
       },
       "FONTANA": {
         "level": "city",
@@ -1266,17 +1266,17 @@
         "wages_usd": 66034978.0,
         "benefits_usd": 13586477.0
       },
-      "LODI": {
-        "level": "city",
-        "positions": 730,
-        "wages_usd": 56658511.0,
-        "benefits_usd": 12552215.0
-      },
       "WEST SACRAMENTO": {
         "level": "city",
         "positions": 730,
         "wages_usd": 53641700.0,
         "benefits_usd": 11953978.0
+      },
+      "LODI": {
+        "level": "city",
+        "positions": 730,
+        "wages_usd": 56658511.0,
+        "benefits_usd": 12552215.0
       },
       "ALHAMBRA": {
         "level": "city",
@@ -1686,17 +1686,17 @@
         "wages_usd": 35054641.0,
         "benefits_usd": 9291958.0
       },
-      "PARAMOUNT": {
-        "level": "city",
-        "positions": 434,
-        "wages_usd": 13058284.0,
-        "benefits_usd": 2497065.0
-      },
       "COVINA": {
         "level": "city",
         "positions": 434,
         "wages_usd": 22528244.0,
         "benefits_usd": 5438783.0
+      },
+      "PARAMOUNT": {
+        "level": "city",
+        "positions": 434,
+        "wages_usd": 13058284.0,
+        "benefits_usd": 2497065.0
       },
       "AZUSA": {
         "level": "city",
@@ -1740,17 +1740,17 @@
         "wages_usd": 27203081.0,
         "benefits_usd": 11975653.0
       },
+      "UNION CITY": {
+        "level": "city",
+        "positions": 409,
+        "wages_usd": 34402003.0,
+        "benefits_usd": 8586867.0
+      },
       "CUPERTINO": {
         "level": "city",
         "positions": 409,
         "wages_usd": 26965764.0,
         "benefits_usd": 6443686.0
-      },
-      "EL CENTRO": {
-        "level": "city",
-        "positions": 409,
-        "wages_usd": 21946394.0,
-        "benefits_usd": 5555973.0
       },
       "BALDWIN PARK": {
         "level": "city",
@@ -1758,11 +1758,11 @@
         "wages_usd": 20914223.0,
         "benefits_usd": 4325614.0
       },
-      "UNION CITY": {
+      "EL CENTRO": {
         "level": "city",
         "positions": 409,
-        "wages_usd": 34402003.0,
-        "benefits_usd": 8586867.0
+        "wages_usd": 21946394.0,
+        "benefits_usd": 5555973.0
       },
       "MONROVIA": {
         "level": "city",
@@ -1842,17 +1842,17 @@
         "wages_usd": 12676650.0,
         "benefits_usd": 927513.0
       },
-      "LINCOLN": {
-        "level": "city",
-        "positions": 362,
-        "wages_usd": 24409700.0,
-        "benefits_usd": 8166142.0
-      },
       "SEASIDE": {
         "level": "city",
         "positions": 362,
         "wages_usd": 21893852.0,
         "benefits_usd": 6888450.0
+      },
+      "LINCOLN": {
+        "level": "city",
+        "positions": 362,
+        "wages_usd": 24409700.0,
+        "benefits_usd": 8166142.0
       },
       "GILROY": {
         "level": "city",
@@ -1872,12 +1872,6 @@
         "wages_usd": 29934739.0,
         "benefits_usd": 8028420.0
       },
-      "UPLAND": {
-        "level": "city",
-        "positions": 344,
-        "wages_usd": 27288461.0,
-        "benefits_usd": 7411394.0
-      },
       "YUCAIPA": {
         "level": "city",
         "positions": 344,
@@ -1890,17 +1884,23 @@
         "wages_usd": 19529673.0,
         "benefits_usd": 7089201.0
       },
-      "PACIFICA": {
+      "UPLAND": {
         "level": "city",
-        "positions": 343,
-        "wages_usd": 24682131.0,
-        "benefits_usd": 6700557.0
+        "positions": 344,
+        "wages_usd": 27288461.0,
+        "benefits_usd": 7411394.0
       },
       "GALT": {
         "level": "city",
         "positions": 343,
         "wages_usd": 15877162.0,
         "benefits_usd": 3703023.0
+      },
+      "PACIFICA": {
+        "level": "city",
+        "positions": 343,
+        "wages_usd": 24682131.0,
+        "benefits_usd": 6700557.0
       },
       "BELL GARDENS": {
         "level": "city",
@@ -2040,23 +2040,17 @@
         "wages_usd": 19319979.0,
         "benefits_usd": 4699529.0
       },
-      "SAN PABLO": {
-        "level": "city",
-        "positions": 263,
-        "wages_usd": 23523505.0,
-        "benefits_usd": 5904381.0
-      },
       "HUNTINGTON PARK": {
         "level": "city",
         "positions": 263,
         "wages_usd": 16634705.0,
         "benefits_usd": 4648905.0
       },
-      "CALABASAS": {
+      "SAN PABLO": {
         "level": "city",
-        "positions": 261,
-        "wages_usd": 10577820.0,
-        "benefits_usd": 3071941.0
+        "positions": 263,
+        "wages_usd": 23523505.0,
+        "benefits_usd": 5904381.0
       },
       "BELMONT": {
         "level": "city",
@@ -2064,17 +2058,23 @@
         "wages_usd": 19295570.0,
         "benefits_usd": 5321531.0
       },
-      "VERNON": {
+      "CALABASAS": {
         "level": "city",
-        "positions": 260,
-        "wages_usd": 29031862.0,
-        "benefits_usd": 7325361.0
+        "positions": 261,
+        "wages_usd": 10577820.0,
+        "benefits_usd": 3071941.0
       },
       "CYPRESS": {
         "level": "city",
         "positions": 260,
         "wages_usd": 16456076.0,
         "benefits_usd": 4401716.0
+      },
+      "VERNON": {
+        "level": "city",
+        "positions": 260,
+        "wages_usd": 29031862.0,
+        "benefits_usd": 7325361.0
       },
       "HOLLISTER": {
         "level": "city",
@@ -2100,17 +2100,17 @@
         "wages_usd": 28368463.0,
         "benefits_usd": 7488513.0
       },
-      "BARSTOW": {
-        "level": "city",
-        "positions": 247,
-        "wages_usd": 19132649.0,
-        "benefits_usd": 4050204.0
-      },
       "SANTEE": {
         "level": "city",
         "positions": 247,
         "wages_usd": 18906530.0,
         "benefits_usd": 4685908.0
+      },
+      "BARSTOW": {
+        "level": "city",
+        "positions": 247,
+        "wages_usd": 19132649.0,
+        "benefits_usd": 4050204.0
       },
       "BELLFLOWER": {
         "level": "city",
@@ -2124,11 +2124,11 @@
         "wages_usd": 16764305.0,
         "benefits_usd": 4311006.0
       },
-      "CERES": {
+      "MAMMOTH LAKES": {
         "level": "city",
         "positions": 243,
-        "wages_usd": 15257735.0,
-        "benefits_usd": 8818454.0
+        "wages_usd": 10461725.0,
+        "benefits_usd": 3736356.0
       },
       "LOS BANOS": {
         "level": "city",
@@ -2136,11 +2136,11 @@
         "wages_usd": 16559452.0,
         "benefits_usd": 5772452.0
       },
-      "MAMMOTH LAKES": {
+      "CERES": {
         "level": "city",
         "positions": 243,
-        "wages_usd": 10461725.0,
-        "benefits_usd": 3736356.0
+        "wages_usd": 15257735.0,
+        "benefits_usd": 8818454.0
       },
       "IRWINDALE": {
         "level": "city",
@@ -2148,17 +2148,17 @@
         "wages_usd": 13144810.0,
         "benefits_usd": 4946953.0
       },
-      "BRAWLEY": {
-        "level": "city",
-        "positions": 236,
-        "wages_usd": 11085164.0,
-        "benefits_usd": 2472506.0
-      },
       "HESPERIA": {
         "level": "city",
         "positions": 236,
         "wages_usd": 15695138.0,
         "benefits_usd": 4447767.0
+      },
+      "BRAWLEY": {
+        "level": "city",
+        "positions": 236,
+        "wages_usd": 11085164.0,
+        "benefits_usd": 2472506.0
       },
       "LOS ALTOS": {
         "level": "city",
@@ -2184,17 +2184,17 @@
         "wages_usd": 18967758.0,
         "benefits_usd": 4387546.0
       },
-      "BELL": {
-        "level": "city",
-        "positions": 224,
-        "wages_usd": 10742413.0,
-        "benefits_usd": 2939498.0
-      },
       "LOS GATOS": {
         "level": "city",
         "positions": 224,
         "wages_usd": 23776534.0,
         "benefits_usd": 5678720.0
+      },
+      "BELL": {
+        "level": "city",
+        "positions": 224,
+        "wages_usd": 10742413.0,
+        "benefits_usd": 2939498.0
       },
       "SELMA": {
         "level": "city",
@@ -2226,11 +2226,11 @@
         "wages_usd": 19490071.0,
         "benefits_usd": 5857577.0
       },
-      "TRUCKEE": {
+      "SAN DIMAS": {
         "level": "city",
         "positions": 212,
-        "wages_usd": 17380766.0,
-        "benefits_usd": 5290860.0
+        "wages_usd": 9644896.0,
+        "benefits_usd": 1625630.0
       },
       "PORT HUENEME": {
         "level": "city",
@@ -2244,11 +2244,11 @@
         "wages_usd": 9119240.0,
         "benefits_usd": 1869815.0
       },
-      "SAN DIMAS": {
+      "TRUCKEE": {
         "level": "city",
         "positions": 212,
-        "wages_usd": 9644896.0,
-        "benefits_usd": 1625630.0
+        "wages_usd": 17380766.0,
+        "benefits_usd": 5290860.0
       },
       "SANGER": {
         "level": "city",
@@ -2274,17 +2274,17 @@
         "wages_usd": 19951516.0,
         "benefits_usd": 5573960.0
       },
-      "PLACERVILLE": {
-        "level": "city",
-        "positions": 203,
-        "wages_usd": 8380544.0,
-        "benefits_usd": 2716407.0
-      },
       "LYNWOOD": {
         "level": "city",
         "positions": 203,
         "wages_usd": 12130138.0,
         "benefits_usd": 2994968.0
+      },
+      "PLACERVILLE": {
+        "level": "city",
+        "positions": 203,
+        "wages_usd": 8380544.0,
+        "benefits_usd": 2716407.0
       },
       "HAWAIIAN GARDENS": {
         "level": "city",
@@ -2304,23 +2304,23 @@
         "wages_usd": 10187077.0,
         "benefits_usd": 2231349.0
       },
-      "BRISBANE": {
-        "level": "city",
-        "positions": 196,
-        "wages_usd": 14946805.0,
-        "benefits_usd": 4394262.0
-      },
       "LAKE FOREST": {
         "level": "city",
         "positions": 196,
         "wages_usd": 9875526.0,
         "benefits_usd": 1900299.0
       },
-      "PACIFIC GROVE": {
+      "BRISBANE": {
+        "level": "city",
+        "positions": 196,
+        "wages_usd": 14946805.0,
+        "benefits_usd": 4394262.0
+      },
+      "SIGNAL HILL": {
         "level": "city",
         "positions": 193,
-        "wages_usd": 10646530.0,
-        "benefits_usd": 2007427.0
+        "wages_usd": 12404520.0,
+        "benefits_usd": 3053556.0
       },
       "MILLBRAE": {
         "level": "city",
@@ -2328,11 +2328,11 @@
         "wages_usd": 12025281.0,
         "benefits_usd": 3156076.0
       },
-      "SIGNAL HILL": {
+      "PACIFIC GROVE": {
         "level": "city",
         "positions": 193,
-        "wages_usd": 12404520.0,
-        "benefits_usd": 3053556.0
+        "wages_usd": 10646530.0,
+        "benefits_usd": 2007427.0
       },
       "NORCO": {
         "level": "city",
@@ -2364,17 +2364,17 @@
         "wages_usd": 9224744.0,
         "benefits_usd": 1685113.0
       },
-      "RIPON": {
-        "level": "city",
-        "positions": 183,
-        "wages_usd": 8288405.0,
-        "benefits_usd": 3116927.0
-      },
       "DESERT HOT SPRINGS": {
         "level": "city",
         "positions": 183,
         "wages_usd": 12435128.0,
         "benefits_usd": 3675776.0
+      },
+      "RIPON": {
+        "level": "city",
+        "positions": 183,
+        "wages_usd": 8288405.0,
+        "benefits_usd": 3116927.0
       },
       "PERRIS": {
         "level": "city",
@@ -2400,11 +2400,11 @@
         "wages_usd": 11186787.0,
         "benefits_usd": 2069208.0
       },
-      "CALEXICO": {
+      "SOUTH EL MONTE": {
         "level": "city",
         "positions": 181,
-        "wages_usd": 12579215.0,
-        "benefits_usd": 3992132.0
+        "wages_usd": 6566657.0,
+        "benefits_usd": 1938251.0
       },
       "IMPERIAL BEACH": {
         "level": "city",
@@ -2412,11 +2412,11 @@
         "wages_usd": 10168400.0,
         "benefits_usd": 2662862.0
       },
-      "SOUTH EL MONTE": {
+      "CALEXICO": {
         "level": "city",
         "positions": 181,
-        "wages_usd": 6566657.0,
-        "benefits_usd": 1938251.0
+        "wages_usd": 12579215.0,
+        "benefits_usd": 3992132.0
       },
       "PISMO BEACH": {
         "level": "city",
@@ -2448,17 +2448,17 @@
         "wages_usd": 8957009.0,
         "benefits_usd": 2180194.0
       },
-      "GOLETA": {
-        "level": "city",
-        "positions": 172,
-        "wages_usd": 13989531.0,
-        "benefits_usd": 2233342.0
-      },
       "PALM DESERT": {
         "level": "city",
         "positions": 172,
         "wages_usd": 16016498.0,
         "benefits_usd": 5235570.0
+      },
+      "GOLETA": {
+        "level": "city",
+        "positions": 172,
+        "wages_usd": 13989531.0,
+        "benefits_usd": 2233342.0
       },
       "RANCHO PALOS VERDES": {
         "level": "city",
@@ -2472,11 +2472,11 @@
         "wages_usd": 9798526.0,
         "benefits_usd": 1940201.0
       },
-      "IMPERIAL": {
-        "level": "county",
-        "positions": 2316,
-        "wages_usd": 136887645.0,
-        "benefits_usd": 29593407.0
+      "BISHOP": {
+        "level": "city",
+        "positions": 167,
+        "wages_usd": 4592059.0,
+        "benefits_usd": 1749085.0
       },
       "TAFT": {
         "level": "city",
@@ -2490,11 +2490,11 @@
         "wages_usd": 8657542.0,
         "benefits_usd": 1858464.0
       },
-      "BISHOP": {
-        "level": "city",
-        "positions": 167,
-        "wages_usd": 4592059.0,
-        "benefits_usd": 1749085.0
+      "IMPERIAL": {
+        "level": "county",
+        "positions": 2316,
+        "wages_usd": 136887645.0,
+        "benefits_usd": 29593407.0
       },
       "SHAFTER": {
         "level": "city",
@@ -2562,17 +2562,17 @@
         "wages_usd": 9161515.0,
         "benefits_usd": 2111249.0
       },
-      "CRESCENT CITY": {
-        "level": "city",
-        "positions": 147,
-        "wages_usd": 5863411.0,
-        "benefits_usd": 1577266.0
-      },
       "EAST PALO ALTO": {
         "level": "city",
         "positions": 147,
         "wages_usd": 14442183.0,
         "benefits_usd": 2879981.0
+      },
+      "CRESCENT CITY": {
+        "level": "city",
+        "positions": 147,
+        "wages_usd": 5863411.0,
+        "benefits_usd": 1577266.0
       },
       "OROVILLE": {
         "level": "city",
@@ -2604,17 +2604,17 @@
         "wages_usd": 5744503.0,
         "benefits_usd": 1614297.0
       },
-      "PINOLE": {
-        "level": "city",
-        "positions": 142,
-        "wages_usd": 13780218.0,
-        "benefits_usd": 3057707.0
-      },
       "OAKLEY": {
         "level": "city",
         "positions": 142,
         "wages_usd": 13053905.0,
         "benefits_usd": 2728606.0
+      },
+      "PINOLE": {
+        "level": "city",
+        "positions": 142,
+        "wages_usd": 13780218.0,
+        "benefits_usd": 3057707.0
       },
       "LEMOORE": {
         "level": "city",
@@ -2652,17 +2652,17 @@
         "wages_usd": 6130194.0,
         "benefits_usd": 1931767.0
       },
-      "AVALON": {
-        "level": "city",
-        "positions": 134,
-        "wages_usd": 6739503.0,
-        "benefits_usd": 1694853.0
-      },
       "GRASS VALLEY": {
         "level": "city",
         "positions": 134,
         "wages_usd": 12276180.0,
         "benefits_usd": 3768935.0
+      },
+      "AVALON": {
+        "level": "city",
+        "positions": 134,
+        "wages_usd": 6739503.0,
+        "benefits_usd": 1694853.0
       },
       "MOORPARK": {
         "level": "city",
@@ -2670,17 +2670,17 @@
         "wages_usd": 6485060.0,
         "benefits_usd": 2310917.0
       },
-      "BIG BEAR LAKE": {
-        "level": "city",
-        "positions": 131,
-        "wages_usd": 10905037.0,
-        "benefits_usd": 5111458.0
-      },
       "CARPINTERIA": {
         "level": "city",
         "positions": 131,
         "wages_usd": 4769229.0,
         "benefits_usd": 1176706.0
+      },
+      "BIG BEAR LAKE": {
+        "level": "city",
+        "positions": 131,
+        "wages_usd": 10905037.0,
+        "benefits_usd": 5111458.0
       },
       "KING CITY": {
         "level": "city",
@@ -2724,11 +2724,11 @@
         "wages_usd": 8356397.0,
         "benefits_usd": 1574880.0
       },
-      "FILLMORE": {
+      "RANCHO MIRAGE": {
         "level": "city",
         "positions": 121,
-        "wages_usd": 4632098.0,
-        "benefits_usd": 730503.0
+        "wages_usd": 9623979.0,
+        "benefits_usd": 3304027.0
       },
       "CORCORAN": {
         "level": "city",
@@ -2742,23 +2742,17 @@
         "wages_usd": 5858351.0,
         "benefits_usd": 1467642.0
       },
+      "FILLMORE": {
+        "level": "city",
+        "positions": 121,
+        "wages_usd": 4632098.0,
+        "benefits_usd": 730503.0
+      },
       "RIVERBANK": {
         "level": "city",
         "positions": 121,
         "wages_usd": 5615830.0,
         "benefits_usd": 2178818.0
-      },
-      "RANCHO MIRAGE": {
-        "level": "city",
-        "positions": 121,
-        "wages_usd": 9623979.0,
-        "benefits_usd": 3304027.0
-      },
-      "HILLSBOROUGH": {
-        "level": "city",
-        "positions": 120,
-        "wages_usd": 14306550.0,
-        "benefits_usd": 4448090.0
       },
       "AUBURN": {
         "level": "city",
@@ -2766,17 +2760,23 @@
         "wages_usd": 9830220.0,
         "benefits_usd": 3031053.0
       },
-      "COACHELLA": {
+      "HILLSBOROUGH": {
         "level": "city",
-        "positions": 119,
-        "wages_usd": 9420377.0,
-        "benefits_usd": 2427910.0
+        "positions": 120,
+        "wages_usd": 14306550.0,
+        "benefits_usd": 4448090.0
       },
       "JURUPA VALLEY": {
         "level": "city",
         "positions": 119,
         "wages_usd": 9273046.0,
         "benefits_usd": 1252656.0
+      },
+      "COACHELLA": {
+        "level": "city",
+        "positions": 119,
+        "wages_usd": 9420377.0,
+        "benefits_usd": 2427910.0
       },
       "WINTERS": {
         "level": "city",
@@ -2790,29 +2790,29 @@
         "wages_usd": 6251557.0,
         "benefits_usd": 1786532.0
       },
-      "YUCCA VALLEY": {
-        "level": "city",
-        "positions": 113,
-        "wages_usd": 4420868.0,
-        "benefits_usd": 1068314.0
-      },
       "WASCO": {
         "level": "city",
         "positions": 113,
         "wages_usd": 7722524.0,
         "benefits_usd": 1613839.0
       },
-      "PARADISE": {
+      "YUCCA VALLEY": {
         "level": "city",
-        "positions": 110,
-        "wages_usd": 8734017.0,
-        "benefits_usd": 1777381.0
+        "positions": 113,
+        "wages_usd": 4420868.0,
+        "benefits_usd": 1068314.0
       },
       "ARROYO GRANDE": {
         "level": "city",
         "positions": 110,
         "wages_usd": 9348703.0,
         "benefits_usd": 1992245.0
+      },
+      "PARADISE": {
+        "level": "city",
+        "positions": 110,
+        "wages_usd": 8734017.0,
+        "benefits_usd": 1777381.0
       },
       "TEHACHAPI": {
         "level": "city",
@@ -2844,6 +2844,12 @@
         "wages_usd": 4647775.0,
         "benefits_usd": 1360519.0
       },
+      "SCOTTS VALLEY": {
+        "level": "city",
+        "positions": 101,
+        "wages_usd": 7760403.0,
+        "benefits_usd": 2343374.0
+      },
       "MARYSVILLE": {
         "level": "city",
         "positions": 101,
@@ -2855,12 +2861,6 @@
         "positions": 101,
         "wages_usd": 3822344.0,
         "benefits_usd": 1262514.0
-      },
-      "SCOTTS VALLEY": {
-        "level": "city",
-        "positions": 101,
-        "wages_usd": 7760403.0,
-        "benefits_usd": 2343374.0
       },
       "ANDERSON": {
         "level": "city",
@@ -2898,17 +2898,17 @@
         "wages_usd": 6188834.0,
         "benefits_usd": 1094974.0
       },
-      "CARMEL-BY-THE-SEA": {
-        "level": "city",
-        "positions": 95,
-        "wages_usd": 9726979.0,
-        "benefits_usd": 2605222.0
-      },
       "LEMON GROVE": {
         "level": "city",
         "positions": 95,
         "wages_usd": 5830588.0,
         "benefits_usd": 1403361.0
+      },
+      "CARMEL-BY-THE-SEA": {
+        "level": "city",
+        "positions": 95,
+        "wages_usd": 9726979.0,
+        "benefits_usd": 2605222.0
       },
       "COLMA": {
         "level": "city",
@@ -2970,17 +2970,17 @@
         "wages_usd": 5851687.0,
         "benefits_usd": 1054178.0
       },
-      "MCFARLAND": {
-        "level": "city",
-        "positions": 84,
-        "wages_usd": 4565250.0,
-        "benefits_usd": 1151382.0
-      },
       "SAN JUAN CAPISTRANO": {
         "level": "city",
         "positions": 84,
         "wages_usd": 7354248.0,
         "benefits_usd": 1635278.0
+      },
+      "MCFARLAND": {
+        "level": "city",
+        "positions": 84,
+        "wages_usd": 4565250.0,
+        "benefits_usd": 1151382.0
       },
       "MENDOTA": {
         "level": "city",
@@ -3006,23 +3006,29 @@
         "wages_usd": 4724080.0,
         "benefits_usd": 962457.0
       },
-      "LAWNDALE": {
-        "level": "city",
-        "positions": 80,
-        "wages_usd": 4996543.0,
-        "benefits_usd": 838113.0
-      },
       "CLEARLAKE": {
         "level": "city",
         "positions": 80,
         "wages_usd": 5591208.0,
         "benefits_usd": 1303483.0
       },
+      "LAWNDALE": {
+        "level": "city",
+        "positions": 80,
+        "wages_usd": 4996543.0,
+        "benefits_usd": 838113.0
+      },
       "GRIDLEY": {
         "level": "city",
         "positions": 79,
         "wages_usd": 5397449.0,
         "benefits_usd": 1151347.0
+      },
+      "JACKSON": {
+        "level": "city",
+        "positions": 76,
+        "wages_usd": 3248066.0,
+        "benefits_usd": 1301874.0
       },
       "IONE": {
         "level": "city",
@@ -3042,12 +3048,6 @@
         "wages_usd": 3400114.0,
         "benefits_usd": 689246.0
       },
-      "JACKSON": {
-        "level": "city",
-        "positions": 76,
-        "wages_usd": 3248066.0,
-        "benefits_usd": 1301874.0
-      },
       "SARATOGA": {
         "level": "city",
         "positions": 76,
@@ -3060,23 +3060,17 @@
         "wages_usd": 2406553.0,
         "benefits_usd": 903843.0
       },
-      "SONORA": {
-        "level": "city",
-        "positions": 74,
-        "wages_usd": 4361772.0,
-        "benefits_usd": 1263163.0
-      },
       "MT. SHASTA": {
         "level": "city",
         "positions": 74,
         "wages_usd": 3429326.0,
         "benefits_usd": 964718.0
       },
-      "ARTESIA": {
+      "SONORA": {
         "level": "city",
-        "positions": 73,
-        "wages_usd": 3699306.0,
-        "benefits_usd": 867636.0
+        "positions": 74,
+        "wages_usd": 4361772.0,
+        "benefits_usd": 1263163.0
       },
       "ARVIN": {
         "level": "city",
@@ -3084,17 +3078,23 @@
         "wages_usd": 5375066.0,
         "benefits_usd": 1133994.0
       },
-      "LAKEPORT": {
+      "ARTESIA": {
         "level": "city",
-        "positions": 72,
-        "wages_usd": 4429707.0,
-        "benefits_usd": 1420944.0
+        "positions": 73,
+        "wages_usd": 3699306.0,
+        "benefits_usd": 867636.0
       },
       "WILLIAMS": {
         "level": "city",
         "positions": 72,
         "wages_usd": 3656875.0,
         "benefits_usd": 1354159.0
+      },
+      "LAKEPORT": {
+        "level": "city",
+        "positions": 72,
+        "wages_usd": 4429707.0,
+        "benefits_usd": 1420944.0
       },
       "CORNING": {
         "level": "city",
@@ -3150,12 +3150,6 @@
         "wages_usd": 29660998.0,
         "benefits_usd": 17935569.0
       },
-      "WEED": {
-        "level": "city",
-        "positions": 65,
-        "wages_usd": 2720678.0,
-        "benefits_usd": 746389.0
-      },
       "SEBASTOPOL": {
         "level": "city",
         "positions": 65,
@@ -3167,6 +3161,12 @@
         "positions": 65,
         "wages_usd": 4471076.0,
         "benefits_usd": 835631.0
+      },
+      "WEED": {
+        "level": "city",
+        "positions": 65,
+        "wages_usd": 2720678.0,
+        "benefits_usd": 746389.0
       },
       "COTATI": {
         "level": "city",
@@ -3222,23 +3222,17 @@
         "wages_usd": 2703568.0,
         "benefits_usd": 689157.0
       },
-      "TIBURON": {
-        "level": "city",
-        "positions": 55,
-        "wages_usd": 5276145.0,
-        "benefits_usd": 1381978.0
-      },
       "FIREBAUGH": {
         "level": "city",
         "positions": 55,
         "wages_usd": 3025370.0,
         "benefits_usd": 990738.0
       },
-      "HALF MOON BAY": {
+      "TIBURON": {
         "level": "city",
-        "positions": 54,
-        "wages_usd": 6531659.0,
-        "benefits_usd": 720937.0
+        "positions": 55,
+        "wages_usd": 5276145.0,
+        "benefits_usd": 1381978.0
       },
       "CLOVERDALE": {
         "level": "city",
@@ -3246,23 +3240,23 @@
         "wages_usd": 5259752.0,
         "benefits_usd": 1724898.0
       },
-      "PORTOLA": {
-        "level": "city",
-        "positions": 54,
-        "wages_usd": 931005.0,
-        "benefits_usd": 208748.0
-      },
       "SONOMA": {
         "level": "county",
         "positions": 5497,
         "wages_usd": 520871302.0,
         "benefits_usd": 167864786.0
       },
-      "ORANGE COVE": {
+      "HALF MOON BAY": {
         "level": "city",
-        "positions": 53,
-        "wages_usd": 2995195.0,
-        "benefits_usd": 1078875.0
+        "positions": 54,
+        "wages_usd": 6531659.0,
+        "benefits_usd": 720937.0
+      },
+      "PORTOLA": {
+        "level": "city",
+        "positions": 54,
+        "wages_usd": 931005.0,
+        "benefits_usd": 208748.0
       },
       "CALIMESA": {
         "level": "city",
@@ -3270,17 +3264,17 @@
         "wages_usd": 3395117.0,
         "benefits_usd": 449338.0
       },
+      "ORANGE COVE": {
+        "level": "city",
+        "positions": 53,
+        "wages_usd": 2995195.0,
+        "benefits_usd": 1078875.0
+      },
       "RIO VISTA": {
         "level": "city",
         "positions": 52,
         "wages_usd": 4343598.0,
         "benefits_usd": 1048714.0
-      },
-      "LOS ALTOS HILLS": {
-        "level": "city",
-        "positions": 51,
-        "wages_usd": 3214551.0,
-        "benefits_usd": 842073.0
       },
       "CALIPATRIA": {
         "level": "city",
@@ -3288,17 +3282,23 @@
         "wages_usd": 1398502.0,
         "benefits_usd": 253923.0
       },
-      "WILDOMAR": {
+      "LOS ALTOS HILLS": {
         "level": "city",
-        "positions": 50,
-        "wages_usd": 3828547.0,
-        "benefits_usd": 1083858.0
+        "positions": 51,
+        "wages_usd": 3214551.0,
+        "benefits_usd": 842073.0
       },
       "WOODLAKE": {
         "level": "city",
         "positions": 50,
         "wages_usd": 2994776.0,
         "benefits_usd": 751846.0
+      },
+      "WILDOMAR": {
+        "level": "city",
+        "positions": 50,
+        "wages_usd": 3828547.0,
+        "benefits_usd": 1083858.0
       },
       "HIGHLAND": {
         "level": "city",
@@ -3324,17 +3324,17 @@
         "wages_usd": 2134029.0,
         "benefits_usd": 290474.0
       },
-      "LARKSPUR": {
-        "level": "city",
-        "positions": 47,
-        "wages_usd": 4223419.0,
-        "benefits_usd": 1047086.0
-      },
       "DOS PALOS": {
         "level": "city",
         "positions": 47,
         "wages_usd": 2130819.0,
         "benefits_usd": 563669.0
+      },
+      "LARKSPUR": {
+        "level": "city",
+        "positions": 47,
+        "wages_usd": 4223419.0,
+        "benefits_usd": 1047086.0
       },
       "ALTURAS": {
         "level": "city",
@@ -3384,11 +3384,11 @@
         "wages_usd": 2622436.0,
         "benefits_usd": 827715.0
       },
-      "BUELLTON": {
+      "INDIAN WELLS": {
         "level": "city",
         "positions": 39,
-        "wages_usd": 2534555.0,
-        "benefits_usd": 587350.0
+        "wages_usd": 4561242.0,
+        "benefits_usd": 1471378.0
       },
       "BLUE LAKE": {
         "level": "city",
@@ -3396,11 +3396,11 @@
         "wages_usd": 766150.0,
         "benefits_usd": 239536.0
       },
-      "CLAYTON": {
+      "BUELLTON": {
         "level": "city",
         "positions": 39,
-        "wages_usd": 3145674.0,
-        "benefits_usd": 684232.0
+        "wages_usd": 2534555.0,
+        "benefits_usd": 587350.0
       },
       "CANYON LAKE": {
         "level": "city",
@@ -3408,11 +3408,11 @@
         "wages_usd": 2729855.0,
         "benefits_usd": 494902.0
       },
-      "INDIAN WELLS": {
+      "CLAYTON": {
         "level": "city",
         "positions": 39,
-        "wages_usd": 4561242.0,
-        "benefits_usd": 1471378.0
+        "wages_usd": 3145674.0,
+        "benefits_usd": 684232.0
       },
       "RIO DELL": {
         "level": "city",
@@ -3420,11 +3420,11 @@
         "wages_usd": 1789929.0,
         "benefits_usd": 587904.0
       },
-      "WHEATLAND": {
+      "ADELANTO": {
         "level": "city",
         "positions": 37,
-        "wages_usd": 2170503.0,
-        "benefits_usd": 245315.0
+        "wages_usd": 2466479.0,
+        "benefits_usd": 520378.0
       },
       "ESCALON": {
         "level": "city",
@@ -3432,17 +3432,23 @@
         "wages_usd": 2315991.0,
         "benefits_usd": 670249.0
       },
-      "ADELANTO": {
+      "WHEATLAND": {
         "level": "city",
         "positions": 37,
-        "wages_usd": 2466479.0,
-        "benefits_usd": 520378.0
+        "wages_usd": 2170503.0,
+        "benefits_usd": 245315.0
       },
       "INDUSTRY": {
         "level": "city",
         "positions": 36,
         "wages_usd": 3799958.0,
         "benefits_usd": 1636726.0
+      },
+      "WOODSIDE": {
+        "level": "city",
+        "positions": 35,
+        "wages_usd": 3033645.0,
+        "benefits_usd": 666850.0
       },
       "MAYWOOD": {
         "level": "city",
@@ -3456,11 +3462,11 @@
         "wages_usd": 792157.0,
         "benefits_usd": 17821.0
       },
-      "WOODSIDE": {
+      "PORTOLA VALLEY": {
         "level": "city",
-        "positions": 35,
-        "wages_usd": 3033645.0,
-        "benefits_usd": 666850.0
+        "positions": 34,
+        "wages_usd": 2655720.0,
+        "benefits_usd": 456390.85
       },
       "ROLLING HILLS ESTATES": {
         "level": "city",
@@ -3468,23 +3474,17 @@
         "wages_usd": 2544040.0,
         "benefits_usd": 546216.0
       },
-      "PORTOLA VALLEY": {
+      "SUTTER CREEK": {
         "level": "city",
-        "positions": 34,
-        "wages_usd": 2655720.0,
-        "benefits_usd": 456390.85
+        "positions": 32,
+        "wages_usd": 1460080.0,
+        "benefits_usd": 526427.0
       },
       "SAN JUAN BAUTISTA": {
         "level": "city",
         "positions": 32,
         "wages_usd": 1266214.0,
         "benefits_usd": 144945.0
-      },
-      "SUTTER CREEK": {
-        "level": "city",
-        "positions": 32,
-        "wages_usd": 1460080.0,
-        "benefits_usd": 526427.0
       },
       "WATERFORD": {
         "level": "city",
@@ -3510,17 +3510,17 @@
         "wages_usd": 1248938.0,
         "benefits_usd": 509373.0
       },
-      "TULELAKE": {
-        "level": "city",
-        "positions": 27,
-        "wages_usd": 739718.0,
-        "benefits_usd": 148403.0
-      },
       "FERNDALE": {
         "level": "city",
         "positions": 27,
         "wages_usd": 922298.0,
         "benefits_usd": 206837.0
+      },
+      "TULELAKE": {
+        "level": "city",
+        "positions": 27,
+        "wages_usd": 739718.0,
+        "benefits_usd": 148403.0
       },
       "DEL REY OAKS": {
         "level": "city",
@@ -3552,17 +3552,17 @@
         "wages_usd": 927189.0,
         "benefits_usd": 232323.0
       },
-      "LAGUNA WOODS": {
-        "level": "city",
-        "positions": 19,
-        "wages_usd": 941935.0,
-        "benefits_usd": 172913.0
-      },
       "WESTLAKE VILLAGE": {
         "level": "city",
         "positions": 19,
         "wages_usd": 1809855.0,
         "benefits_usd": 617348.0
+      },
+      "LAGUNA WOODS": {
+        "level": "city",
+        "positions": 19,
+        "wages_usd": 941935.0,
+        "benefits_usd": 172913.0
       },
       "POINT ARENA": {
         "level": "city",
@@ -3570,29 +3570,29 @@
         "wages_usd": 358153.0,
         "benefits_usd": 57250.0
       },
-      "TRINIDAD": {
-        "level": "city",
-        "positions": 18,
-        "wages_usd": 557081.0,
-        "benefits_usd": 143951.0
-      },
       "DORRIS": {
         "level": "city",
         "positions": 18,
         "wages_usd": 240423.0,
         "benefits_usd": 21109.0
       },
-      "VILLA PARK": {
+      "TRINIDAD": {
         "level": "city",
-        "positions": 16,
-        "wages_usd": 761929.0,
-        "benefits_usd": 163174.0
+        "positions": 18,
+        "wages_usd": 557081.0,
+        "benefits_usd": 143951.0
       },
       "BIGGS": {
         "level": "city",
         "positions": 16,
         "wages_usd": 659057.0,
         "benefits_usd": 176654.0
+      },
+      "VILLA PARK": {
+        "level": "city",
+        "positions": 16,
+        "wages_usd": 761929.0,
+        "benefits_usd": 163174.0
       },
       "MONTE SERENO": {
         "level": "city",
@@ -4320,17 +4320,17 @@
         "wages_usd": 22510497.069999997,
         "benefits_usd": 7996842.239999997
       },
-      "ENVIRONMENTAL HEALTH HAZARD ASSESSMENT, OFFICE OF": {
-        "level": "state",
-        "positions": 166,
-        "wages_usd": 16145235.009999994,
-        "benefits_usd": 6461616.9799999995
-      },
       "EMERGENCY MEDICAL SERVICES AUTHORITY": {
         "level": "state",
         "positions": 166,
         "wages_usd": 10069431.719999997,
         "benefits_usd": 4183653.650000001
+      },
+      "ENVIRONMENTAL HEALTH HAZARD ASSESSMENT, OFFICE OF": {
+        "level": "state",
+        "positions": 166,
+        "wages_usd": 16145235.009999994,
+        "benefits_usd": 6461616.9799999995
       },
       "STUDENT AID COMMISSION": {
         "level": "state",
@@ -4428,17 +4428,17 @@
         "wages_usd": 5238989.89,
         "benefits_usd": 2457236.5500000003
       },
-      "DELTA STEWARDSHIP COUNCIL": {
-        "level": "state",
-        "positions": 79,
-        "wages_usd": 8264345.210000004,
-        "benefits_usd": 3323223.2399999993
-      },
       "EARTHQUAKE AUTHORITY, CALIFORNIA": {
         "level": "state",
         "positions": 79,
         "wages_usd": 7342811.989999999,
         "benefits_usd": 3287606.619999999
+      },
+      "DELTA STEWARDSHIP COUNCIL": {
+        "level": "state",
+        "positions": 79,
+        "wages_usd": 8264345.210000004,
+        "benefits_usd": 3323223.2399999993
       },
       "ASSEMBLY, CALIFORNIA STATE": {
         "level": "state",
@@ -4584,17 +4584,17 @@
         "wages_usd": 1275380.74,
         "benefits_usd": 497861.31000000006
       },
-      "CRADLE TO CAREER": {
-        "level": "state",
-        "positions": 28,
-        "wages_usd": 2800408.1500000004,
-        "benefits_usd": 1068971.08
-      },
       "ADMINISTRATIVE LAW, OFFICE OF": {
         "level": "state",
         "positions": 28,
         "wages_usd": 2941340.73,
         "benefits_usd": 1164737.49
+      },
+      "CRADLE TO CAREER": {
+        "level": "state",
+        "positions": 28,
+        "wages_usd": 2800408.1500000004,
+        "benefits_usd": 1068971.08
       },
       "DEBT AND INVESTMENT ADVISORY COMMISSION FUND, CALIFORNIA": {
         "level": "state",
@@ -4650,23 +4650,17 @@
         "wages_usd": 1129251.41,
         "benefits_usd": 499216.06
       },
-      "OFFICE OF LIEUTENANT GOVERNOR": {
-        "level": "state",
-        "positions": 14,
-        "wages_usd": 1279285.14,
-        "benefits_usd": 555206.2800000001
-      },
       "SCHOOL FINANCE AUTHORITY, CALIFORNIA": {
         "level": "state",
         "positions": 14,
         "wages_usd": 1040377.71,
         "benefits_usd": 435771.78
       },
-      "COLORADO RIVER BOARD OF CALIFORNIA": {
+      "OFFICE OF LIEUTENANT GOVERNOR": {
         "level": "state",
-        "positions": 11,
-        "wages_usd": 1034484.2899999998,
-        "benefits_usd": 408188.22
+        "positions": 14,
+        "wages_usd": 1279285.14,
+        "benefits_usd": 555206.2800000001
       },
       "BALDWIN HILLS CONSERVANCY": {
         "level": "state",
@@ -4674,23 +4668,17 @@
         "wages_usd": 320089.36,
         "benefits_usd": 158427.59
       },
+      "COLORADO RIVER BOARD OF CALIFORNIA": {
+        "level": "state",
+        "positions": 11,
+        "wages_usd": 1034484.2899999998,
+        "benefits_usd": 408188.22
+      },
       "STATUS OF WOMEN, COMMISSION ON": {
         "level": "state",
         "positions": 10,
         "wages_usd": 820775.73,
         "benefits_usd": 331195.75000000006
-      },
-      "ALCOHOLIC BEVERAGE CONTROL APPEALS BOARD": {
-        "level": "state",
-        "positions": 9,
-        "wages_usd": 671038.3299999998,
-        "benefits_usd": 279884.73
-      },
-      "OFFICE OF THE INSPECTOR GENERAL, HIGH-SPEED RAIL AUTHORITY": {
-        "level": "state",
-        "positions": 9,
-        "wages_usd": 1061841.5700000003,
-        "benefits_usd": 413832.10000000003
       },
       "CITIZENS REDISTRICTING COMMISSION": {
         "level": "state",
@@ -4698,11 +4686,23 @@
         "wages_usd": 129359.1,
         "benefits_usd": 19824.2
       },
+      "OFFICE OF THE INSPECTOR GENERAL, HIGH-SPEED RAIL AUTHORITY": {
+        "level": "state",
+        "positions": 9,
+        "wages_usd": 1061841.5700000003,
+        "benefits_usd": 413832.10000000003
+      },
       "PILOT COMMISSIONERS, BOARD OF": {
         "level": "state",
         "positions": 9,
         "wages_usd": 563128.58,
         "benefits_usd": 228033.66999999998
+      },
+      "ALCOHOLIC BEVERAGE CONTROL APPEALS BOARD": {
+        "level": "state",
+        "positions": 9,
+        "wages_usd": 671038.3299999998,
+        "benefits_usd": 279884.73
       },
       "JUDICIAL CENTER LIBRARY, CALIFORNIA": {
         "level": "state",
@@ -4722,29 +4722,23 @@
         "wages_usd": 385499.70999999996,
         "benefits_usd": 156562.84999999998
       },
-      "SANTA MONICA MOUNTAINS CONSERVANCY": {
-        "level": "state",
-        "positions": 7,
-        "wages_usd": 616103.08,
-        "benefits_usd": 202677.72
-      },
       "COMMISSION ON CALIFORNIA STATE GOVERNMENT ORGANIZATION AND ECONOMY": {
         "level": "state",
         "positions": 7,
         "wages_usd": 688364.2300000001,
         "benefits_usd": 330928.43999999994
       },
+      "SANTA MONICA MOUNTAINS CONSERVANCY": {
+        "level": "state",
+        "positions": 7,
+        "wages_usd": 616103.08,
+        "benefits_usd": 202677.72
+      },
       "CALIFORNIA COMMISSION ON AGING": {
         "level": "state",
         "positions": 6,
         "wages_usd": 411802.08,
         "benefits_usd": 195084.94
-      },
-      "SAN JOAQUIN RIVER CONSERVANCY": {
-        "level": "state",
-        "positions": 5,
-        "wages_usd": 412689.41,
-        "benefits_usd": 215560.96
       },
       "INDEPENDENT LIVING COUNCIL, CALIFORNIA STATE": {
         "level": "state",
@@ -4757,6 +4751,12 @@
         "positions": 5,
         "wages_usd": 351710.23,
         "benefits_usd": 143557.94999999998
+      },
+      "SAN JOAQUIN RIVER CONSERVANCY": {
+        "level": "state",
+        "positions": 5,
+        "wages_usd": 412689.41,
+        "benefits_usd": 215560.96
       },
       "DIGITAL INNOVATION, OFFICE OF": {
         "level": "state",
@@ -4788,6 +4788,220 @@
         "wages_usd": 104665.99,
         "benefits_usd": 58379.28
       }
-    }
+    },
+    "state_by_org_cd": {
+      "5225": {
+        "employer": "Corrections & Rehabilitation, Department of",
+        "positions": 55459,
+        "wages_usd": 5773065260.320003,
+        "benefits_usd": 2494981214.520005
+      },
+      "2660": {
+        "employer": "Transportation, Department of",
+        "positions": 25363,
+        "wages_usd": 2299906173.0100026,
+        "benefits_usd": 989178595.5199955
+      },
+      "2720": {
+        "employer": "Highway Patrol, California",
+        "positions": 11608,
+        "wages_usd": 1585601769.6900043,
+        "benefits_usd": 1023003515.1999991
+      },
+      "3540": {
+        "employer": "Forestry & Fire Protection, California Department of",
+        "positions": 12530,
+        "wages_usd": 1353153569.7700002,
+        "benefits_usd": 548853747.2699995
+      },
+      "4440": {
+        "employer": "Hospitals, Department of State",
+        "positions": 12749,
+        "wages_usd": 1204542925.4299989,
+        "benefits_usd": 412365124.70999944
+      },
+      "7100": {
+        "employer": "Employment Development Department",
+        "positions": 10113,
+        "wages_usd": 674034419.7699997,
+        "benefits_usd": 316996845.2399992
+      },
+      "4260": {
+        "employer": "Health Care Services, Department of",
+        "positions": 4931,
+        "wages_usd": 419288047.6000012,
+        "benefits_usd": 194030466.45000067
+      },
+      "2740": {
+        "employer": "Motor Vehicles, Department of",
+        "positions": 9471,
+        "wages_usd": 568509582.2899995,
+        "benefits_usd": 299148094.2900003
+      },
+      "0820": {
+        "employer": "Justice, Department of (Attorney General)",
+        "positions": 5848,
+        "wages_usd": 574800027.0799993,
+        "benefits_usd": 240113923.33000028
+      },
+      "7730": {
+        "employer": "Franchise Tax Board",
+        "positions": 7055,
+        "wages_usd": 499934194.68000335,
+        "benefits_usd": 238553709.43999913
+      },
+      "5180": {
+        "employer": "Social Services, Department of",
+        "positions": 6270,
+        "wages_usd": 471319992.1499999,
+        "benefits_usd": 222281405.23000032
+      },
+      "4265": {
+        "employer": "Public Health, California Department of",
+        "positions": 5318,
+        "wages_usd": 446966155.12999976,
+        "benefits_usd": 200466545.8399999
+      },
+      "3860": {
+        "employer": "Water Resources, Department of",
+        "positions": 3962,
+        "wages_usd": 419963096.71000105,
+        "benefits_usd": 175167529.30999938
+      },
+      "8420": {
+        "employer": "Compensation Insurance Fund, State",
+        "positions": 4352,
+        "wages_usd": 403767578.56999886,
+        "benefits_usd": 173921713.47000092
+      },
+      "7600": {
+        "employer": "California Department of Tax and Fee Administration",
+        "positions": 4048,
+        "wages_usd": 328835664.44999945,
+        "benefits_usd": 158071383.74999964
+      },
+      "7760": {
+        "employer": "General Services, Department of",
+        "positions": 4123,
+        "wages_usd": 303173800.3900004,
+        "benefits_usd": 142290580.40999964
+      },
+      "3790": {
+        "employer": "Parks, California State",
+        "positions": 7465,
+        "wages_usd": 304495156.2899996,
+        "benefits_usd": 124400542.39000028
+      },
+      "7350": {
+        "employer": "Industrial Relations, Department of",
+        "positions": 3277,
+        "wages_usd": 282787057.47000015,
+        "benefits_usd": 125065307.5300002
+      },
+      "3940": {
+        "employer": "Water Resources Control Board",
+        "positions": 2805,
+        "wages_usd": 278109817.82999927,
+        "benefits_usd": 120480480.21000011
+      },
+      "3600": {
+        "employer": "Fish and Wildlife, Department of",
+        "positions": 3705,
+        "wages_usd": 271825979.87000006,
+        "benefits_usd": 122198128.91999991
+      },
+      "1111": {
+        "employer": "Consumer Affairs, Department of",
+        "positions": 3733,
+        "wages_usd": 247504998.15999982,
+        "benefits_usd": 119739072.47000006
+      },
+      "8955": {
+        "employer": "Veterans Affairs, Department of",
+        "positions": 3490,
+        "wages_usd": 221411138.26999977,
+        "benefits_usd": 100715110.81000012
+      },
+      "6100": {
+        "employer": "Education, Department of",
+        "positions": 2729,
+        "wages_usd": 206849835.3500001,
+        "benefits_usd": 93782968.46000004
+      },
+      "3900": {
+        "employer": "Air Resources Board",
+        "positions": 2072,
+        "wages_usd": 208287921.52999982,
+        "benefits_usd": 90194045.94999987
+      },
+      "4300": {
+        "employer": "Developmental Services, Department of",
+        "positions": 2604,
+        "wages_usd": 193497664.31000018,
+        "benefits_usd": 83686763.42999998
+      },
+      "8660": {
+        "employer": "Public Utilities Commission, California",
+        "positions": 1667,
+        "wages_usd": 174036350.14000008,
+        "benefits_usd": 73826333.41000007
+      },
+      "7920": {
+        "employer": "Teachers' Retirement System, California",
+        "positions": 1482,
+        "wages_usd": 163078858.56999996,
+        "benefits_usd": 63806120.08000007
+      },
+      "0690": {
+        "employer": "Office Of Emergency Services",
+        "positions": 1751,
+        "wages_usd": 151524802.0099998,
+        "benefits_usd": 62516797.460000135
+      },
+      "8570": {
+        "employer": "Food & Agriculture, Department of",
+        "positions": 2290,
+        "wages_usd": 137736058.9099999,
+        "benefits_usd": 60063720.99000011
+      },
+      "5160": {
+        "employer": "Rehabilitation, Department of",
+        "positions": 2146,
+        "wages_usd": 130553277.77000001,
+        "benefits_usd": 62681154.970000096
+      },
+      "3960": {
+        "employer": "Toxic Substances Control, Department of",
+        "positions": 1361,
+        "wages_usd": 127337685.46999997,
+        "benefits_usd": 55202860.97999996
+      },
+      "0845": {
+        "employer": "Insurance, Department of",
+        "positions": 1331,
+        "wages_usd": 122159256.96000008,
+        "benefits_usd": 57503884.42000005
+      },
+      "7502": {
+        "employer": "California Department of Technology",
+        "positions": 1054,
+        "wages_usd": 111780281.93999988,
+        "benefits_usd": 49370626.260000035
+      },
+      "4800": {
+        "employer": "California Health Benefit Exchange",
+        "positions": 1508,
+        "wages_usd": 105976376.7200001,
+        "benefits_usd": 52315822.63000012
+      },
+      "2240": {
+        "employer": "Housing & Community Development, Department of",
+        "positions": 1292,
+        "wages_usd": 103014814.57999994,
+        "benefits_usd": 48851023.47000022
+      }
+    },
+    "state_departments_matched": 35,
+    "state_departments_considered": 40
   }
 }

@@ -362,3 +362,13 @@ def test_compensation_contract():
         assert tw == sorted(tw, reverse=True), f"{lv} top_employers unsorted"
     # county names must resolve for the /local payroll column
     assert "LOS ANGELES" in d["by_employer"]
+
+
+def test_compensation_org_cd_join():
+    d = load("compensation.json")["data"]
+    assert d["state_departments_matched"] >= 30, "state dept payroll join collapsed"
+    m = d["state_by_org_cd"]
+    # the departments people actually drill into must carry payroll
+    for cd in ("4260", "5180", "4265", "2660"):  # DHCS, DSS, CDPH, Caltrans
+        assert cd in m, f"department {cd} lost its payroll match"
+        assert m[cd]["wages_usd"] > 0 and m[cd]["benefits_usd"] > 0

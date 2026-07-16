@@ -30,6 +30,14 @@ export interface NonprofitsDoc {
   >;
 }
 
+export interface CompensationDoc {
+  year: number;
+  state_by_org_cd: Record<
+    string,
+    { employer: string; positions: number; wages_usd: number; benefits_usd: number }
+  >;
+}
+
 export interface K12Doc {
   fiscal_year: string;
   lea_count: number;

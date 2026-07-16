@@ -18,6 +18,7 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import re
 import tempfile
 import zipfile
 from datetime import UTC, datetime
@@ -67,6 +68,7 @@ def run_compensation(storage: Storage, cfg: SourceConfig, settings: Settings) ->
         return manifest["published_key"]
 
     doc, total_positions = _build(raw, year)
+    _attach_state_org_cds(doc, storage)
     if total_positions < cfg.min_rows:
         raise QualityGateError(f"{cfg.source}: only {total_positions} positions parsed")
 
@@ -156,6 +158,88 @@ def _build(raw: dict[str, bytes], year: int) -> tuple[dict[str, Any], int]:
 
 def _norm(name: str) -> str:
     return " ".join((name or "").upper().split())
+
+
+# Reduce a department name to its core token set for matching across the two
+# naming conventions: ebudget writes "State Department of Health Care Services",
+# GCC inverts to "Health Care Services, Department of". Both collapse to the
+# same {HEALTH, CARE, SERVICES} once the boilerplate is stripped.
+_STRIP = re.compile(
+    r"\b(STATE|CALIFORNIA|CALIF|DEPARTMENT|DEPT|OF|THE|OFFICE|BOARD|COMMISSION"
+    r"|CONTRIBUTIONS|TO|AND|&|FOR|A)\b"
+)
+
+
+def _core(name: str) -> frozenset[str]:
+    n = _norm(name).replace(",", " ").replace("(", " ").replace(")", " ")
+    n = _STRIP.sub(" ", n)
+    return frozenset(t for t in n.split() if len(t) > 2)
+
+
+def _attach_state_org_cds(doc: dict[str, Any], storage: Storage) -> None:
+    """Match state-department payroll to ebudget org_cd by core-token overlap,
+    and publish state_by_org_cd for the department drill. Match rate published;
+    a token set that maps to two departments is left unmatched (ambiguous),
+    never guessed."""
+    from ..config import REPO_ROOT
+
+    site = REPO_ROOT / "site" / "public" / "data"
+
+    def read(rel: str) -> dict | None:
+        raw = storage.get_bytes(f"published/{rel}")
+        if raw is None:
+            p = site / rel
+            raw = p.read_bytes() if p.exists() else None
+        return json.loads(raw) if raw else None
+
+    wf = read("budget_waterfall.json")
+    if not wf:
+        doc["state_by_org_cd"] = {}
+        return
+
+    # org_cd -> (title, core tokens, budget) from the department rosters
+    dept_core: dict[str, tuple[str, frozenset[str], float]] = {}
+    for a in wf["data"]["agencies"]:
+        ag = read(f"agencies/{a['org_cd']}.json")
+        if not ag:
+            continue
+        for d in ag["data"]["departments"]:
+            dept_core[d["org_cd"]] = (d["title"], _core(d["title"]), d.get("total_usd") or 0)
+
+    # index by token set; when several departments share tokens, the payroll
+    # belongs to the largest by budget (a $10B agency, not a tiny commission)
+    tokens_to_cds: dict[frozenset[str], list[str]] = {}
+    for cd, (_, toks, _) in dept_core.items():
+        if toks:
+            tokens_to_cds.setdefault(toks, []).append(cd)
+
+    def _pick(cands: list[str]) -> str | None:
+        if not cands:
+            return None
+        return max(cands, key=lambda c: dept_core[c][2])
+
+    state_emps = doc["levels"]["state"]["top_employers"]  # the 40 worth drilling
+    matched: dict[str, dict[str, Any]] = {}
+    for e in state_emps:
+        toks = _core(e["employer"])
+        cd = _pick(tokens_to_cds.get(toks, []))
+        if cd is None:
+            # fall back to subset/superset overlap, again largest-budget wins
+            cands = [
+                c for c, (_, dt, _) in dept_core.items()
+                if toks and dt and (toks <= dt or dt <= toks)
+            ]
+            cd = _pick(cands)
+        if cd:
+            matched[cd] = {
+                "employer": e["employer"],
+                "positions": e["positions"],
+                "wages_usd": e["wages_usd"],
+                "benefits_usd": e["benefits_usd"],
+            }
+    doc["state_by_org_cd"] = matched
+    doc["state_departments_matched"] = len(matched)
+    doc["state_departments_considered"] = len(state_emps)
 
 
 def _rows(conn: duckdb.DuckDBPyConnection, sql: str, path: str) -> list[dict[str, Any]]:

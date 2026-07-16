@@ -16,6 +16,7 @@ import { fmtFy, fmtUsd, type BudgetWaterfall } from "@/lib/published";
 import type {
   AgencyDoc,
   BhcipDoc,
+  CompensationDoc,
   CountyFinancesDoc,
   K12Doc,
   MedicalPlansDoc,
@@ -235,6 +236,7 @@ export function DrillExplorer({
 
   const agencyDoc = useJson<AgencyDoc>(agencySeg ? `/data/agencies/${agencySeg.cd}.json` : null);
   const vendorsDoc = useJson<VendorsDoc>(agencySeg ? `/data/vendors/${agencySeg.cd}.json` : null);
+  const compDoc = useJson<Published<CompensationDoc>>(deptSeg ? "/data/compensation.json" : null);
   const profilesDoc = useJson<ProfilesDoc>(vendorSeg ? "/data/vendor_profiles.json" : null);
   const bhcipDoc = useJson<Published<BhcipDoc>>(
     recoveredSeg?.program === "bhcip" || (vendorSeg && RECOVERED_PROGRAMS[vendorSeg.name])
@@ -444,6 +446,27 @@ export function DrillExplorer({
               color="#2a78d6"
             />
           ))}
+          {compDoc && compDoc !== "loading" && compDoc !== "error"
+            ? (() => {
+                const c = compDoc.data.state_by_org_cd[dept.org_cd];
+                if (!c) return null;
+                return (
+                  <div className="mt-3 rounded-md border border-[#7c5cbf]/30 bg-[#7c5cbf]/[0.04] px-3 py-2.5">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className="text-sm font-medium">
+                        Its people: {c.positions.toLocaleString()} employees
+                      </span>
+                      <span className="font-mono text-sm">{fmtUsd(c.wages_usd + c.benefits_usd)}</span>
+                    </div>
+                    <p className="mt-0.5 text-xs text-fog">
+                      {fmtUsd(c.wages_usd)} in wages + {fmtUsd(c.benefits_usd)} in retirement &amp;
+                      health benefits ({compDoc.data.year}). Payroll is money the department spends
+                      that never shows up in the vendor checkbook.
+                    </p>
+                  </div>
+                );
+              })()
+            : null}
           {dept.programs.length > 10 && (
             <p className="mt-1 text-xs text-fog">
               Showing the 10 largest of {dept.programs.length} program lines — all are in the{" "}
