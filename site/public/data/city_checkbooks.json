@@ -1,0 +1,1001 @@
+{
+  "source": {
+    "name": "City Vendor Checkbooks \u2014 Los Angeles & San Francisco",
+    "publisher": "LA Controller / DataSF",
+    "url": "https://controllerdata.lacity.org/",
+    "license": "Public record (City of Los Angeles / City & County of San Francisco)"
+  },
+  "as_of": "2026-07-16T210842Z",
+  "ingested_at": "2026-07-16T21:08:42.047063+00:00",
+  "cadence": "LA: continuous (transactions); SF: weekly contract-system refresh",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Los Angeles figures are actual payment transactions for the most recent COMPLETE city fiscal year (LA's year ends June 30). Large financial-institution payees (custodial banks, bond trustees) reflect money movement, not purchases.",
+    "San Francisco figures are cumulative payments to date on contracts in the city's current procurement system \u2014 a different measure than annual spending; treat the two cities' numbers as incomparable.",
+    "These two checkbooks exist because each city chose to publish one \u2014 most of California's cities and counties publish nothing like this."
+  ],
+  "data": {
+    "los_angeles": {
+      "measure": "payment transactions",
+      "fiscal_year": "2025-26",
+      "total_usd": 13992975335.21,
+      "transaction_count": 713965,
+      "by_department": [
+        {
+          "department": "WATER AND POWER",
+          "usd": 5282819075.83
+        },
+        {
+          "department": "NON_DEPARTMENTAL",
+          "usd": 2500609049.27
+        },
+        {
+          "department": "CONTROLLER",
+          "usd": 1111218514.83
+        },
+        {
+          "department": "CITY EMPLOYEES RETIREMENT SYSTEM",
+          "usd": 854986425.81
+        },
+        {
+          "department": "PENSION",
+          "usd": 819470593.64
+        },
+        {
+          "department": "LOS ANGELES HOUSING",
+          "usd": 662792144.33
+        },
+        {
+          "department": "TRANSPORTATION",
+          "usd": 366035448.47
+        },
+        {
+          "department": "PERSONNEL",
+          "usd": 259817752.84
+        },
+        {
+          "department": "GENERAL SERVICES",
+          "usd": 195026009.37
+        },
+        {
+          "department": "POLICE",
+          "usd": 173609504.56
+        },
+        {
+          "department": "NON-DEPARTMENTAL - APPROPRIATIONS TO SPECIAL PURPOSE FUND",
+          "usd": 160423065.75
+        },
+        {
+          "department": "FIRE",
+          "usd": 147811174.3
+        },
+        {
+          "department": "BUILDING AND SAFETY",
+          "usd": 129624252.21
+        },
+        {
+          "department": "RECREATION AND PARKS - SPECIAL ACCOUNTS",
+          "usd": 123344722.56
+        },
+        {
+          "department": "HARBOR",
+          "usd": 117658596.14
+        },
+        {
+          "department": "CITY ADMINISTRATIVE OFFICER",
+          "usd": 106245902.41
+        },
+        {
+          "department": "CITY CLERK",
+          "usd": 101530220.88
+        },
+        {
+          "department": "MAYOR",
+          "usd": 88272897.86
+        },
+        {
+          "department": "ECONOMIC AND WORKFORCE DEVELOPMENT DEPARTMENT",
+          "usd": 84939020.25
+        },
+        {
+          "department": "PUBLIC WORKS - STREET SERVICES",
+          "usd": 66865270.06
+        }
+      ],
+      "top_vendors": [
+        {
+          "name": "THE NORTHERN TRUST COMPANY",
+          "usd": 1665215523.35
+        },
+        {
+          "name": "BANK OF AMERICA NTSA",
+          "usd": 838133986.87
+        },
+        {
+          "name": "SO CALIF PUBLIC PWR AUTH/SCPPA C/O OFFICE OF THE TREASURER",
+          "usd": 646850351.0
+        },
+        {
+          "name": "VOYA HOLDINGS, INC.",
+          "usd": 484923557.39
+        },
+        {
+          "name": "WELLS FARGO BANK",
+          "usd": 468176729.16
+        },
+        {
+          "name": "LOS ANGELES HOMELESS SERVICES AUTHORITY",
+          "usd": 387204880.45
+        },
+        {
+          "name": "IPA REV. FUND (3880480) C/O OFFICE OF THE TREASURER",
+          "usd": 338501033.94
+        },
+        {
+          "name": "METRO WTR DIST OF SO CALIF C/O OFFICE OF THE TREASURER",
+          "usd": 294700299.24
+        },
+        {
+          "name": "SOUTHERN CALIFORNIA PERMANENTE MEDICAL GROUP",
+          "usd": 290958542.86
+        },
+        {
+          "name": "CITY TREASURER - STATE TAX",
+          "usd": 271734999.1
+        },
+        {
+          "name": "IBEW LOCAL 18 HEALTH AND WELFARE TRUST",
+          "usd": 260798066.86
+        },
+        {
+          "name": "AEG PLENARY CONVENTIONS LOS ANGELES LLC",
+          "usd": 233479314.0
+        },
+        {
+          "name": "JACOBS PROJECT MANAGEMENT CO",
+          "usd": 213183313.08
+        },
+        {
+          "name": "KAISER FOUNDATION HLT PLAN,INC C/O OFFICE OF THE TREASURER",
+          "usd": 168681033.95
+        },
+        {
+          "name": "LOS ANGELES POLICE RELIEF ASSOCIATION INC",
+          "usd": 163654523.25
+        },
+        {
+          "name": "U.S. BANK NATIONAL ASSOCIATION",
+          "usd": 117152583.73
+        },
+        {
+          "name": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+          "usd": 106617588.66
+        },
+        {
+          "name": "BLUE CROSS OF CALIFORNIA",
+          "usd": 102544355.5
+        },
+        {
+          "name": "CHICAGO TITLE COMPANY",
+          "usd": 93908511.06
+        },
+        {
+          "name": "SCPPA C/O OFFICE OF THE TREASURER",
+          "usd": 88632983.84
+        },
+        {
+          "name": "MV PUBLIC TRANSPORTATION INC.",
+          "usd": 83000564.49
+        },
+        {
+          "name": "MV TRANSPORTATION INC",
+          "usd": 82699617.17
+        },
+        {
+          "name": "UAMPS (UTAH ASSOC.MUNCIP PWR SYSTEMS)",
+          "usd": 81368193.48
+        },
+        {
+          "name": "WESCO DISTRIBUTION INC.",
+          "usd": 79372074.37
+        },
+        {
+          "name": "PARKIA INC",
+          "usd": 79000477.98
+        },
+        {
+          "name": "ARIZONA NUCLEAR POWER PROJECT ARIZONA PUBLIC SERVICE CO.",
+          "usd": 75424146.13
+        },
+        {
+          "name": "NATIONAL AUTO FLEET GROUP 72 HOUR LLC",
+          "usd": 66312213.79
+        },
+        {
+          "name": "LOS ANGELES FIREMENS RELIEF ASSOCIATION /C",
+          "usd": 65074570.56
+        },
+        {
+          "name": "UNITED HEALTHCARE",
+          "usd": 63929824.18
+        },
+        {
+          "name": "COUNTY OF INYO",
+          "usd": 60715877.26
+        },
+        {
+          "name": "INSIGHT PUBLIC SECTOR INC",
+          "usd": 58240292.73
+        },
+        {
+          "name": "WORKDAY, INC.",
+          "usd": 57487546.0
+        },
+        {
+          "name": "FORD E C INC",
+          "usd": 54512870.98
+        },
+        {
+          "name": "KIEWIT INFRASTRUCTURE WEST CO",
+          "usd": 54158937.69
+        },
+        {
+          "name": "PETRELLI ELECTRIC, INC.",
+          "usd": 49488993.83
+        },
+        {
+          "name": "U.S. BANK CORPORATE PAYMENT SYSTEM",
+          "usd": 49408917.1
+        },
+        {
+          "name": "TREE SERVICE KINGS, INC",
+          "usd": 46672921.89
+        },
+        {
+          "name": "CALIFORNIA PHYSICIANS SERVICE",
+          "usd": 46325649.62
+        },
+        {
+          "name": "JPMORGAN CHASE BANK NA",
+          "usd": 43973372.6
+        },
+        {
+          "name": "QUANTA INFRASTRUCTURE",
+          "usd": 43950942.87
+        },
+        {
+          "name": "MOAPA SOUTHERN PAIUTE SOLAR, LLC",
+          "usd": 43896386.34
+        },
+        {
+          "name": "AON RISK INS SERVICES WEST INC DBA AON RISK SERVICES OF",
+          "usd": 42441251.56
+        },
+        {
+          "name": "WATSONVILLE FLEET GROUP",
+          "usd": 41652883.17
+        },
+        {
+          "name": "CALIFORNIA DEPARTMENT OF HEALTH",
+          "usd": 41325436.68
+        },
+        {
+          "name": "BROWNING-FERRIS INDUSTRIES OF CALIFORNIA INC",
+          "usd": 41132003.43
+        },
+        {
+          "name": "SOFTWARE ONE",
+          "usd": 41105281.76
+        },
+        {
+          "name": "SO CALIFORNIA GAS COMPANY C/O OFFICE OF THE TREASURER",
+          "usd": 38385051.79
+        },
+        {
+          "name": "W.A. RASIC CONSTRUCTION CO",
+          "usd": 38269312.31
+        },
+        {
+          "name": "CITY TREASURER, CITY OF LA FICA AND MEDICARE ACCOUNTS",
+          "usd": 37474527.92
+        },
+        {
+          "name": "U S BANK TRUST N A",
+          "usd": 36750642.1
+        },
+        {
+          "name": "GE VERNOVA INTERNATIONAL, LLC",
+          "usd": 36048373.02
+        },
+        {
+          "name": "ALVAH CONTRACTING LLC",
+          "usd": 32626530.99
+        },
+        {
+          "name": "ITRON, INC",
+          "usd": 32354261.31
+        },
+        {
+          "name": "RUSH TRUCK CENTER OF CA INC",
+          "usd": 32307065.75
+        },
+        {
+          "name": "MURRAY PLUMBING AND HEATING CORP.",
+          "usd": 31866255.78
+        },
+        {
+          "name": "LOS ANGELES TOURISM MARKETING DISTRICT CORPORATION",
+          "usd": 31580160.97
+        },
+        {
+          "name": "LEGAL AID FOUNDATION OF LOS ANGELES",
+          "usd": 31479917.37
+        },
+        {
+          "name": "TAIHAN ELECTRIC USA LTD",
+          "usd": 31303597.05
+        },
+        {
+          "name": "ROAD AND HIGHWAY BUILDERS, LLC",
+          "usd": 31103953.02
+        },
+        {
+          "name": "UNITEDHEALTHCARE INSURANCE",
+          "usd": 31055077.68
+        },
+        {
+          "name": "WHITE ROCK USA LTD.",
+          "usd": 30193286.37
+        },
+        {
+          "name": "FALCON FUELS INC",
+          "usd": 30009523.78
+        },
+        {
+          "name": "L A COUNTY TREASURER",
+          "usd": 27851932.23
+        },
+        {
+          "name": "SOFTWARE ONE, INC.",
+          "usd": 27454241.78
+        },
+        {
+          "name": "DOTY BROS. CONSTRUCTION CO. DOTY BROS. EQUIPMENT CO.",
+          "usd": 27202586.67
+        },
+        {
+          "name": "ARAKELIAN ENTERPRISES INC",
+          "usd": 27188513.57
+        },
+        {
+          "name": "SILVERADO-PANKOW JOINT VENTURE (47768-3)",
+          "usd": 26586543.61
+        },
+        {
+          "name": "GE VERNOVA OPERATIONS, LLC",
+          "usd": 26199046.66
+        },
+        {
+          "name": "DELTA DENTAL OF CALIFORNIA",
+          "usd": 25592460.06
+        },
+        {
+          "name": "WASTE MANAGEMENT RECYCLING AND DISPOSAL SERVICES OF CALIFORN",
+          "usd": 24966984.2
+        },
+        {
+          "name": "SOUTHERN CALIFORNIA EDISON C/O OFFICE OF THE TREASURER",
+          "usd": 24781120.0
+        },
+        {
+          "name": "NEXGEN POWER, INC.",
+          "usd": 24608617.65
+        },
+        {
+          "name": "CLEAN HARBORS ENVIRONMENTAL SERVICES INC",
+          "usd": 23887199.75
+        },
+        {
+          "name": "LOS ANGELES ENGINEERING, INC.",
+          "usd": 22994527.11
+        },
+        {
+          "name": "TRANZITO-VECTOR LLC",
+          "usd": 22765441.35
+        },
+        {
+          "name": "ASSOCIATED READY MIXED CONCRETE, INC",
+          "usd": 22326334.35
+        },
+        {
+          "name": "SPINIELLO INFRASTRUCTURE WEST INC",
+          "usd": 22126981.67
+        },
+        {
+          "name": "UNITED STATES DEPARTMENT OF ENERGY-FRC",
+          "usd": 22022301.46
+        },
+        {
+          "name": "LOS ANGELES TOURISM & CONVENTION BOARD",
+          "usd": 21842375.15
+        },
+        {
+          "name": "COUNTY OF LOS ANGELES",
+          "usd": 21494404.5
+        },
+        {
+          "name": "METROPOLIS CAPITAL HOLDINGS LLC",
+          "usd": 21341654.7
+        },
+        {
+          "name": "MCCARTHY-CDM SMITH",
+          "usd": 21260157.0
+        },
+        {
+          "name": "ORACLE CORPORATION",
+          "usd": 20977646.08
+        },
+        {
+          "name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES",
+          "usd": 20878481.78
+        },
+        {
+          "name": "RUSH TRUCK CENTER, LOS ANGELES RUSH TRUCK CENTERS OF",
+          "usd": 20728094.78
+        },
+        {
+          "name": "US BANK NATIONAL ASSOCIATION",
+          "usd": 20170504.75
+        },
+        {
+          "name": "PANISH SHEA RAVIPUDI LLP",
+          "usd": 19831087.55
+        },
+        {
+          "name": "MODAXO TRAFFIC MANAGEMENT USA INC",
+          "usd": 19157880.26
+        },
+        {
+          "name": "FALCON FUELS, INC.",
+          "usd": 19153281.71
+        },
+        {
+          "name": "CIMA ENERGY LP",
+          "usd": 18840450.42
+        },
+        {
+          "name": "ZONES, LLC",
+          "usd": 18397106.6
+        },
+        {
+          "name": "SE PIPE LINE CONSTRUCTION COMPANY",
+          "usd": 18183315.06
+        },
+        {
+          "name": "STACY AND WITBECK, INC.",
+          "usd": 17587314.14
+        },
+        {
+          "name": "US DEPT OF ENERGY-WAPA C/O OFFICE OF THE TREASURER",
+          "usd": 17522694.71
+        },
+        {
+          "name": "HERC RENTALS INC.",
+          "usd": 17396033.04
+        },
+        {
+          "name": "ALL-PHASE ELECTRIC SUPPLY CO",
+          "usd": 17255622.48
+        },
+        {
+          "name": "ACCESS PACIFIC INC",
+          "usd": 16820225.36
+        },
+        {
+          "name": "DESTINATION CRENSHAW",
+          "usd": 16746480.21
+        },
+        {
+          "name": "ONESOURCE SUPPLY SOLUTIONS, LLC",
+          "usd": 16372997.25
+        },
+        {
+          "name": "ECOLOGY AUTO PARTS INC",
+          "usd": 16343118.63
+        }
+      ],
+      "source_url": "https://controllerdata.lacity.org/"
+    },
+    "san_francisco": {
+      "measure": "cumulative payments on contracts in the current system",
+      "data_as_of": "2026-05-18T10:42:13.000",
+      "total_usd": 59822374594.95,
+      "contract_count": 48350,
+      "by_department": [
+        {
+          "department": "PUC Public Utilities Commsn",
+          "usd": 13615894888.88
+        },
+        {
+          "department": "AIR Airport Commission",
+          "usd": 9153533115.65
+        },
+        {
+          "department": "DPH Public Health",
+          "usd": 7555920256.58
+        },
+        {
+          "department": "HSA Human Services Agency",
+          "usd": 4470464443.31
+        },
+        {
+          "department": "MTA Municipal Transprtn Agncy",
+          "usd": 4405739783.03
+        },
+        {
+          "department": "ADM GSA - City Administrator",
+          "usd": 3825435023.34
+        },
+        {
+          "department": "MYR Mayor",
+          "usd": 3746290719.86
+        },
+        {
+          "department": "HOM Homelessness Services",
+          "usd": 3379431535.82
+        },
+        {
+          "department": "DPW GSA - Public Works",
+          "usd": 2820614816.16
+        },
+        {
+          "department": "CHF Children;Youth & Families",
+          "usd": 1127979659.46
+        },
+        {
+          "department": "DEC Dept of Early Childhood",
+          "usd": 911252487.5
+        },
+        {
+          "department": "REC Recreation & Park Commsn",
+          "usd": 611189789.24
+        },
+        {
+          "department": "DT  GSA - Technology",
+          "usd": 576452914.27
+        },
+        {
+          "department": "ECN Economic & Wrkfrce Dvlpmnt",
+          "usd": 568122954.05
+        },
+        {
+          "department": "DPW Public Works",
+          "usd": 473946848.97
+        },
+        {
+          "department": "RET Retirement System",
+          "usd": 352458495.24
+        },
+        {
+          "department": "PRT Port",
+          "usd": 351649017.73
+        },
+        {
+          "department": "DEM Emergency Management",
+          "usd": 223784014.29
+        },
+        {
+          "department": "ART Arts Commission",
+          "usd": 170581605.78
+        },
+        {
+          "department": "SHF Sheriff",
+          "usd": 168712033.16
+        }
+      ],
+      "top_vendors": [
+        {
+          "name": "MWH CONSTRS & WEBCOR BLDRS A CNST JV",
+          "usd": 5051966767.81
+        },
+        {
+          "name": "REGENTS OF THE UNIVERSITY OF CALIFORNIA",
+          "usd": 2165565355.6
+        },
+        {
+          "name": "HENSEL PHELPS CONSTRUCTION CO",
+          "usd": 1954316272.56
+        },
+        {
+          "name": "AUSTIN WEBCOR JV",
+          "usd": 1500845719.34
+        },
+        {
+          "name": "DEPARTMENT OF SOCIAL SERVICES",
+          "usd": 1338931770.33
+        },
+        {
+          "name": "TURNER CONSTRUCTION CO",
+          "usd": 1185664417.75
+        },
+        {
+          "name": "CHILDREN'S COUNCIL OF SAN FRANCISCO",
+          "usd": 954051086.68
+        },
+        {
+          "name": "CLARK CONSTRUCTION GROUP - CALIF LP",
+          "usd": 892568836.1
+        },
+        {
+          "name": "SF IN-HOME SPPRTIV SVCS (IHSS) PUBL AUTH",
+          "usd": 756736443.38
+        },
+        {
+          "name": "TUTOR PERINI CORPORATION",
+          "usd": 713019599.86
+        },
+        {
+          "name": "SUNDT/WALSH A JOINT VENTURE",
+          "usd": 667610375.31
+        },
+        {
+          "name": "A P X INC",
+          "usd": 626208742.23
+        },
+        {
+          "name": "Siemens Mobility, Inc.",
+          "usd": 623744593.45
+        },
+        {
+          "name": "MCKESSON CORPORATION",
+          "usd": 469944784.64
+        },
+        {
+          "name": "HEALTHRIGHT 360",
+          "usd": 465871588.71
+        },
+        {
+          "name": "WEBCOR BUILDERS",
+          "usd": 457176095.59
+        },
+        {
+          "name": "SWINERTON BUILDERS",
+          "usd": 451709465.72
+        },
+        {
+          "name": "EPISCOPAL COMMUNITY SVCS OF S F INC",
+          "usd": 426632402.0
+        },
+        {
+          "name": "TENDERLOIN HOUSING CLINIC INC",
+          "usd": 419139954.97
+        },
+        {
+          "name": "PCL CONSTRUCTION, INC.",
+          "usd": 417158251.41
+        },
+        {
+          "name": "GOLDEN GATE CONSTRUCTORS",
+          "usd": 372191234.0
+        },
+        {
+          "name": "WALSH CONSTRUCTION COMPANY II",
+          "usd": 370619329.52
+        },
+        {
+          "name": "MOSCONE CENTER JOINT VENTURE",
+          "usd": 360587812.82
+        },
+        {
+          "name": "S J AMOROSO CONSTRUCTION CO LLC",
+          "usd": 356134569.8
+        },
+        {
+          "name": "PACIFIC GAS & ELECTRIC CO",
+          "usd": 338642866.22
+        },
+        {
+          "name": "New Flyer of America Inc",
+          "usd": 321952595.17
+        },
+        {
+          "name": "CALPINE ENERGY SERVICES LP",
+          "usd": 313835123.2
+        },
+        {
+          "name": "ANVIL BUILDERS INC",
+          "usd": 295835178.4
+        },
+        {
+          "name": "CHARLES PANKOW BUILDERS LTD",
+          "usd": 282389416.53
+        },
+        {
+          "name": "CHICAGO TITLE COMPANY",
+          "usd": 280080291.79
+        },
+        {
+          "name": "WU YEE CHILDREN'S SERVICES",
+          "usd": 269017212.47
+        },
+        {
+          "name": "FIVE KEYS SCHOOLS AND PROGRAMS",
+          "usd": 261939445.12
+        },
+        {
+          "name": "Goodwill SF Urban Development, LLC",
+          "usd": 261209321.86
+        },
+        {
+          "name": "SKANSKA USA BUILDING INC",
+          "usd": 259054497.15
+        },
+        {
+          "name": "HOMEBRIDGE INC",
+          "usd": 253031931.16
+        },
+        {
+          "name": "TRANSDEV SERVICES INC",
+          "usd": 240830288.11
+        },
+        {
+          "name": "RICHMOND AREA MULTI-SERVICES INC",
+          "usd": 228697525.01
+        },
+        {
+          "name": "NEXTERA ENERGY MARKETING, LLC",
+          "usd": 223942862.78
+        },
+        {
+          "name": "Alstom Transport USA Inc",
+          "usd": 220014103.82
+        },
+        {
+          "name": "MCCARTHY BUILDING COMPANIES INC",
+          "usd": 215569542.0
+        },
+        {
+          "name": "CATHOLIC CHARITIES",
+          "usd": 211395401.84
+        },
+        {
+          "name": "MITCHELL ENGINEERING",
+          "usd": 209595077.51
+        },
+        {
+          "name": "NIBBI BROS ASSOCIATES INC",
+          "usd": 207163909.95
+        },
+        {
+          "name": "Morgan Stanley Capital Group Inc.",
+          "usd": 204355306.28
+        },
+        {
+          "name": "PRECISION ENGINEERING INC",
+          "usd": 200240678.46
+        },
+        {
+          "name": "JMB CONSTRUCTION INC",
+          "usd": 189238857.46
+        },
+        {
+          "name": "YMCA OF SAN FRANCISCO",
+          "usd": 188786502.51
+        },
+        {
+          "name": "ALLIANT INSURANCE SERVICES INC",
+          "usd": 183128885.55
+        },
+        {
+          "name": "FELTON INSTITUTE",
+          "usd": 183023135.48
+        },
+        {
+          "name": "PROGRESS FOUNDATION",
+          "usd": 181479092.69
+        },
+        {
+          "name": "ESQUIVEL GRADING & PAVING INC",
+          "usd": 177398191.95
+        },
+        {
+          "name": "MCKESSON PLASMA AND BIOLOGICS LLC",
+          "usd": 170303539.87
+        },
+        {
+          "name": "XTECH",
+          "usd": 169597572.22
+        },
+        {
+          "name": "HELUNA HEALTH",
+          "usd": 167833479.14
+        },
+        {
+          "name": "RANGER PIPELINES INC",
+          "usd": 167219365.63
+        },
+        {
+          "name": "CRESTWOOD BEHAVIORAL HEALTH INC",
+          "usd": 164537456.14
+        },
+        {
+          "name": "SKANSKA CONSTRUCTORS",
+          "usd": 160944341.81
+        },
+        {
+          "name": "SIEMENS INDUSTRY INC",
+          "usd": 160630220.33
+        },
+        {
+          "name": "NRG Business Marketing LLC",
+          "usd": 157610671.17
+        },
+        {
+          "name": "MEDA Small Properties LLC",
+          "usd": 155120168.19
+        },
+        {
+          "name": "San Francisco Health Plan",
+          "usd": 155035326.51
+        },
+        {
+          "name": "SCHEMBRI CONSTRUCTION CO INC",
+          "usd": 153025587.37
+        },
+        {
+          "name": "SIERRA MOUNTAIN CONSTRUCTION INC",
+          "usd": 145175195.05
+        },
+        {
+          "name": "BAKER PLACES INC",
+          "usd": 144468569.15
+        },
+        {
+          "name": "GOLDEN GATE PETROLEUM",
+          "usd": 143029027.28
+        },
+        {
+          "name": "NEW SOUTH PARKING-CALIFORNIA GP",
+          "usd": 142818596.18
+        },
+        {
+          "name": "J FLORES CONSTRUCTION COMPANY INC",
+          "usd": 141430762.53
+        },
+        {
+          "name": "WESTERN WATER CONSTRUCTORS INC",
+          "usd": 140198985.84
+        },
+        {
+          "name": "BLOCKA CONSTRUCTION INC",
+          "usd": 138787834.25
+        },
+        {
+          "name": "CITY COLLEGE OF SAN FRANCISCO",
+          "usd": 138531819.18
+        },
+        {
+          "name": "AECOM TECHNICAL SERVICES INC",
+          "usd": 137286980.45
+        },
+        {
+          "name": "M SQUARED CONSTRUCTION INC",
+          "usd": 135970302.47
+        },
+        {
+          "name": "N T K CONSTRUCTION INC",
+          "usd": 135513014.14
+        },
+        {
+          "name": "CONARD HOUSE INC",
+          "usd": 134504721.65
+        },
+        {
+          "name": "HUNT CONSTRUCTION GROUP INC",
+          "usd": 132906967.29
+        },
+        {
+          "name": "LARKIN STREET YOUTH SERVICES",
+          "usd": 132345854.51
+        },
+        {
+          "name": "MISSION ACTION INC",
+          "usd": 131193912.91
+        },
+        {
+          "name": "SAN FRANCISCO UNIFIED SCHOOL DISTRICT",
+          "usd": 128544661.43
+        },
+        {
+          "name": "SAN FRANCISCO AIDS FOUNDATION",
+          "usd": 128492882.52
+        },
+        {
+          "name": "Epic State and Local Government, LLC",
+          "usd": 127997399.23
+        },
+        {
+          "name": "SELF-HELP FOR THE ELDERLY",
+          "usd": 126295880.48
+        },
+        {
+          "name": "CROSS COUNTRY STAFFING",
+          "usd": 125120802.59
+        },
+        {
+          "name": "STEWART TITLE GUARANTY CO",
+          "usd": 125087188.09
+        },
+        {
+          "name": "SF BAY AREA RAPID TRANSIT DISTRICT",
+          "usd": 124263651.34
+        },
+        {
+          "name": "WESTSIDE COMMUNITY MENTAL HEALTH CTR INC",
+          "usd": 123909993.45
+        },
+        {
+          "name": "ZONES, LLC",
+          "usd": 123071349.92
+        },
+        {
+          "name": "REGENTS UNIV OF CA / SFGH PSYCHIATRY DPT",
+          "usd": 119610598.19
+        },
+        {
+          "name": "ALLIED UNIVERSAL  SECURITY SERVICES",
+          "usd": 119593362.55
+        },
+        {
+          "name": "EVICTION DEFENSE COLLABORATIVE INC",
+          "usd": 119112109.73
+        },
+        {
+          "name": "ST VINCENT DE PAUL SOCIETY OF SF",
+          "usd": 118525311.25
+        },
+        {
+          "name": "A RUIZ CONSTRUCTION CO AND ASSOC INC",
+          "usd": 117274501.76
+        },
+        {
+          "name": "SFO HOTEL SHUTTLE INC",
+          "usd": 116824231.64
+        },
+        {
+          "name": "COMPASS FAMILY SERVICES",
+          "usd": 116020701.49
+        },
+        {
+          "name": "BRILLIANT CORNERS",
+          "usd": 114908715.04
+        },
+        {
+          "name": "SOUTHERN CALIFORNIA EDISON CO.",
+          "usd": 111815261.57
+        },
+        {
+          "name": "COMMUNITY FORWARD SF",
+          "usd": 111066628.11
+        },
+        {
+          "name": "LOW INCOME INVESTMENT FUND",
+          "usd": 110022273.89
+        },
+        {
+          "name": "BROWN & CALDWELL",
+          "usd": 109677283.91
+        },
+        {
+          "name": "UCSF CLINIC PRAC GRP SFGH/COMM FOCUS PGM",
+          "usd": 108357456.47
+        },
+        {
+          "name": "MEALS ON WHEELS",
+          "usd": 108224903.34
+        }
+      ],
+      "source_url": "https://data.sfgov.org/"
+    }
+  }
+}

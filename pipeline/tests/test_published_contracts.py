@@ -269,3 +269,34 @@ def test_k12_finances_contract():
     )
     assert la is not None, "LAUSD must be present and named"
     assert (la["spend_usd"] or 0) > 5e9
+
+
+# ---------- city checkbooks (LA + SF) ----------
+
+
+def test_city_checkbooks_contract():
+    d = load("city_checkbooks.json")["data"]
+    la, sf = d["los_angeles"], d["san_francisco"]
+    assert la["measure"] != sf["measure"], "the two measures must stay labeled apart"
+    assert la["total_usd"] > 5e9 and la["transaction_count"] > 100_000
+    assert sf["total_usd"] > 10e9 and sf["contract_count"] > 10_000
+    for city in (la, sf):
+        vals = [v["usd"] for v in city["top_vendors"]]
+        assert vals == sorted(vals, reverse=True)
+        assert city["by_department"], "department breakdown required"
+
+
+# ---------- federal audits (FAC) ----------
+
+
+def test_federal_audits_contract():
+    d = load("federal_audits.json")["data"]
+    assert d["entity_count"] > 3000
+    assert d["total_federal_expended_usd"] > 150e9, "complete years include the State's audit"
+    top = d["top_auditees"][0]
+    assert top["name"] == "State of California", "a complete year is headlined by the State"
+    vals = [a["federal_expended_usd"] for a in d["top_auditees"]]
+    assert vals == sorted(vals, reverse=True)
+    assert d["top_auditees_limit"] == 60
+    types = {t["entity_type"] for t in d["by_entity_type"]}
+    assert {"state", "local", "non-profit", "higher-ed"} <= types

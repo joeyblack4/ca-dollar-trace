@@ -1,0 +1,24 @@
+# Federal Audit Clearinghouse — single audits of every entity spending
+# $750k+/$1M+ in federal awards. The one place federal money flowing THROUGH
+# California's state/local/nonprofit entities is systematically audited and
+# published. Free API (api.data.gov key; DEMO_KEY fallback works with tight
+# rate limits — set CDT_FAC_API_KEY for a real key).
+source: fac_sefa
+dataset: ca_single_audits
+access: json_api
+endpoints:
+  general: "https://api.fac.gov/general"
+cadence: "rolling (audits filed ~9 months after each entity's fiscal year end)"
+freshness_sla_hours: 1440
+min_rows: 1000
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Covers entities that expended at least the single-audit threshold ($750k, raised to $1M for fiscal years starting Oct 2024) in federal awards — smaller recipients are not audited here."
+  - "Amounts are each entity's total federal expenditures per its audited SEFA, not payments between entities; documented federal-agency coding error rates apply."
+  - "The most recent audit year is always incomplete (audits arrive ~9 months after each entity's year ends); we publish the latest year with substantial coverage and disclose counts."
+info:
+  name: "Federal Audit Clearinghouse — California Single Audits"
+  publisher: "U.S. GSA (Federal Audit Clearinghouse)"
+  url: "https://www.fac.gov/"
+  license: "Public domain (2 CFR 200.512(b)(1))"

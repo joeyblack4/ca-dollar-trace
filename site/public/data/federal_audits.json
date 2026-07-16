@@ -1,0 +1,478 @@
+{
+  "source": {
+    "name": "Federal Audit Clearinghouse \u2014 California Single Audits",
+    "publisher": "U.S. GSA (Federal Audit Clearinghouse)",
+    "url": "https://www.fac.gov/",
+    "license": "Public domain (2 CFR 200.512(b)(1))"
+  },
+  "as_of": "2026-07-16T211208Z",
+  "ingested_at": "2026-07-16T21:12:08.329841+00:00",
+  "cadence": "rolling (audits filed ~9 months after each entity's fiscal year end)",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Covers entities that expended at least the single-audit threshold ($750k, raised to $1M for fiscal years starting Oct 2024) in federal awards \u2014 smaller recipients are not audited here.",
+    "Amounts are each entity's total federal expenditures per its audited SEFA, not payments between entities; documented federal-agency coding error rates apply.",
+    "The most recent audit year is always incomplete (audits arrive ~9 months after each entity's year ends); we publish the latest year with substantial coverage and disclose counts."
+  ],
+  "data": {
+    "audit_year": 2024,
+    "in_progress_note": "audit year 2026 is still filling in (36 filings, $0B so far); audit year 2025 is still filling in (3199 filings, $82B so far)",
+    "entity_count": 4008,
+    "total_federal_expended_usd": 254940274312.0,
+    "by_entity_type": [
+      {
+        "entity_type": "state",
+        "count": 54,
+        "usd": 159856833861.0
+      },
+      {
+        "entity_type": "local",
+        "count": 1383,
+        "usd": 52911873784.0
+      },
+      {
+        "entity_type": "higher-ed",
+        "count": 130,
+        "usd": 20638272079.0
+      },
+      {
+        "entity_type": "non-profit",
+        "count": 2326,
+        "usd": 20472646075.0
+      },
+      {
+        "entity_type": "tribal",
+        "count": 101,
+        "usd": 954767713.0
+      },
+      {
+        "entity_type": "unknown",
+        "count": 14,
+        "usd": 105880800.0
+      }
+    ],
+    "top_auditees_limit": 60,
+    "top_auditees": [
+      {
+        "name": "State of California",
+        "uei": "RN15SP9CPJE6",
+        "entity_type": "state",
+        "federal_expended_usd": 159266297967.0,
+        "report_id": "2024-06-GSAFAC-0000393300"
+      },
+      {
+        "name": "University of California",
+        "uei": "PKK5TD16N4H1",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 7332175366.0,
+        "report_id": "2024-06-GSAFAC-0000356436"
+      },
+      {
+        "name": "County of Los Angeles",
+        "uei": "MKQ9AQH7R2S5",
+        "entity_type": "local",
+        "federal_expended_usd": 4132007534.0,
+        "report_id": "2024-06-GSAFAC-0000360623"
+      },
+      {
+        "name": "Jet Propulsion Laboratory",
+        "uei": "YC1YP79BFD19",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 2617929219.0,
+        "report_id": "2024-09-GSAFAC-0000366604"
+      },
+      {
+        "name": "LOS ANGELES UNIFIED SCHOOL DISTRICT",
+        "uei": "HS1GUKUJU9E4",
+        "entity_type": "local",
+        "federal_expended_usd": 2475429812.0,
+        "report_id": "2024-06-GSAFAC-0000069545"
+      },
+      {
+        "name": "California State University",
+        "uei": "JW7YN4NDAHC1",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 2391274806.0,
+        "report_id": "2024-06-GSAFAC-0000360489"
+      },
+      {
+        "name": "HOUSING AUTHORITY OF THE CITY OF LOS ANGELES",
+        "uei": "DTQNBHNCNXR3",
+        "entity_type": "local",
+        "federal_expended_usd": 2104352403.0,
+        "report_id": "2024-12-GSAFAC-0000375508"
+      },
+      {
+        "name": "City and County of San Francisco",
+        "uei": "MYM4VNNBN6T9",
+        "entity_type": "local",
+        "federal_expended_usd": 1432928087.0,
+        "report_id": "2024-06-GSAFAC-0000355714"
+      },
+      {
+        "name": "County of San Diego",
+        "uei": "CZTNNM6XJVJ3",
+        "entity_type": "local",
+        "federal_expended_usd": 1389047722.0,
+        "report_id": "2024-06-GSAFAC-0000069269"
+      },
+      {
+        "name": "University of Southern California",
+        "uei": "G88KLJR3KYT5",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 1385362081.0,
+        "report_id": "2024-06-GSAFAC-0000363158"
+      },
+      {
+        "name": "Stanford University",
+        "uei": "HJD6G4D6TJY5",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 1142784391.0,
+        "report_id": "2024-08-GSAFAC-0000063952"
+      },
+      {
+        "name": "LOS ANGELES COUNTY METROPOLITAN TRANSPORTATION AUTHORITY",
+        "uei": "C2BXZ6YF52A5",
+        "entity_type": "local",
+        "federal_expended_usd": 1044933508.0,
+        "report_id": "2024-06-GSAFAC-0000348772"
+      },
+      {
+        "name": "COUNTY OF RIVERSIDE",
+        "uei": "TZY3LSY6KQN6",
+        "entity_type": "local",
+        "federal_expended_usd": 1005014119.0,
+        "report_id": "2024-06-GSAFAC-0000360585"
+      },
+      {
+        "name": "SAN BERNARDINO COUNTY",
+        "uei": "MD9GKE5818S4",
+        "entity_type": "local",
+        "federal_expended_usd": 990635822.0,
+        "report_id": "2024-06-GSAFAC-0000352108"
+      },
+      {
+        "name": "COUNTY OF ORANGE, CALIFORNIA",
+        "uei": "Z27AVTCCKHU3",
+        "entity_type": "local",
+        "federal_expended_usd": 973924127.0,
+        "report_id": "2024-06-GSAFAC-0000355804"
+      },
+      {
+        "name": "California Affordable Housing Initiatives, Inc.",
+        "uei": "M6RKJSHDNHE1",
+        "entity_type": "local",
+        "federal_expended_usd": 865887621.0,
+        "report_id": "2024-06-GSAFAC-0000350272"
+      },
+      {
+        "name": "County of Santa Clara",
+        "uei": "JN6JQKW5G6G6",
+        "entity_type": "local",
+        "federal_expended_usd": 764563442.0,
+        "report_id": "2024-06-GSAFAC-0000361888"
+      },
+      {
+        "name": "City of Los Angeles",
+        "uei": "EW7CR9MZZ9M5",
+        "entity_type": "local",
+        "federal_expended_usd": 688470000.0,
+        "report_id": "2024-06-GSAFAC-0000360362"
+      },
+      {
+        "name": "Kaiser Foundation Hospitals",
+        "uei": "P1RTMASB37B5",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 671964303.0,
+        "report_id": "2024-12-GSAFAC-0000373482"
+      },
+      {
+        "name": "Los Angeles County Development Authority",
+        "uei": "E5ZNHHZJ8GX9",
+        "entity_type": "local",
+        "federal_expended_usd": 658716996.0,
+        "report_id": "2024-06-GSAFAC-0000359351"
+      },
+      {
+        "name": "County of Fresno",
+        "uei": "GSEENLMEPQ27",
+        "entity_type": "local",
+        "federal_expended_usd": 609272756.0,
+        "report_id": "2024-06-GSAFAC-0000363260"
+      },
+      {
+        "name": "County of Sacramento",
+        "uei": "GMMDXLLDKSL5",
+        "entity_type": "local",
+        "federal_expended_usd": 599979649.0,
+        "report_id": "2024-06-GSAFAC-0000357848"
+      },
+      {
+        "name": "SANTA CLARA COUNTY HOUSING AUTHORITY",
+        "uei": "DTNMMPBN5715",
+        "entity_type": "local",
+        "federal_expended_usd": 588355470.0,
+        "report_id": "2024-06-GSAFAC-0000358988"
+      },
+      {
+        "name": "County of Alameda",
+        "uei": "ZK45GWUKWMH2",
+        "entity_type": "local",
+        "federal_expended_usd": 516985767.0,
+        "report_id": "2024-06-GSAFAC-0000355975"
+      },
+      {
+        "name": "Sacramento Housing and Redevelopment Agency",
+        "uei": "S5MLRXMKDJ67",
+        "entity_type": "local",
+        "federal_expended_usd": 495085704.0,
+        "report_id": "2024-12-GSAFAC-0000383942"
+      },
+      {
+        "name": "Child Care Resource Center, Inc.",
+        "uei": "H1EMKNM178H7",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 481867238.0,
+        "report_id": "2024-06-GSAFAC-0000346888"
+      },
+      {
+        "name": "Housing Authority of the City and County of San Francisco",
+        "uei": "SZEGXHQ2K1W3",
+        "entity_type": "local",
+        "federal_expended_usd": 475647468.0,
+        "report_id": "2024-09-GSAFAC-0000373893"
+      },
+      {
+        "name": "County of Contra Costa",
+        "uei": "H6XCU2DRT517",
+        "entity_type": "local",
+        "federal_expended_usd": 440762197.0,
+        "report_id": "2024-06-GSAFAC-0000362588"
+      },
+      {
+        "name": "CommonSpirit Health",
+        "uei": "DPVENJ1U3T56",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 429604578.0,
+        "report_id": "2024-06-GSAFAC-0000069373"
+      },
+      {
+        "name": "PUBLIC HEALTH FOUNDATION ENTERPRISES, INC. DBA HELUNA HEALTH",
+        "uei": "L4EEW9SQX2F6",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 426832890.0,
+        "report_id": "2024-06-GSAFAC-0000067416"
+      },
+      {
+        "name": "County of Kern",
+        "uei": "WAHHPJUUDP16",
+        "entity_type": "local",
+        "federal_expended_usd": 417046700.0,
+        "report_id": "2024-06-GSAFAC-0000371145"
+      },
+      {
+        "name": "Fresno Unified School District",
+        "uei": "NDC1WNNTFU78",
+        "entity_type": "local",
+        "federal_expended_usd": 368100677.0,
+        "report_id": "2024-06-GSAFAC-0000068414"
+      },
+      {
+        "name": "San Diego Housing Commission",
+        "uei": "GGW6JT2VNEA1",
+        "entity_type": "local",
+        "federal_expended_usd": 358996226.0,
+        "report_id": "2024-06-GSAFAC-0000061192"
+      },
+      {
+        "name": "Community Memorial Health System",
+        "uei": "XGPNUKYQMJH9",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 354329407.0,
+        "report_id": "2024-12-GSAFAC-0000370362"
+      },
+      {
+        "name": "City of San Diego",
+        "uei": "L4FACR9F6GK7",
+        "entity_type": "local",
+        "federal_expended_usd": 348115359.0,
+        "report_id": "2024-06-GSAFAC-0000360542"
+      },
+      {
+        "name": "San Diego Unified School District",
+        "uei": "WNTKJBASM194",
+        "entity_type": "local",
+        "federal_expended_usd": 346990841.0,
+        "report_id": "2024-06-GSAFAC-0000067539"
+      },
+      {
+        "name": "CITY OF LONG BEACH",
+        "uei": "RXK8HCFVLS49",
+        "entity_type": "local",
+        "federal_expended_usd": 338399946.0,
+        "report_id": "2024-09-GSAFAC-0000372641"
+      },
+      {
+        "name": "CalHFA HOMEOWNER RELIEF CORPORATION",
+        "uei": "GM5HSAC69XE5",
+        "entity_type": "local",
+        "federal_expended_usd": 331503967.0,
+        "report_id": "2024-09-GSAFAC-0000354940"
+      },
+      {
+        "name": "Housing Authority of the City of Oakland, California",
+        "uei": "SAK7DQJM6LA3",
+        "entity_type": "local",
+        "federal_expended_usd": 330415120.0,
+        "report_id": "2024-06-GSAFAC-0000353799"
+      },
+      {
+        "name": "San Francisco Municipal Transportation Agency",
+        "uei": "GSL6KW4Z5UE1",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 327204656.0,
+        "report_id": "2024-06-GSAFAC-0000355698"
+      },
+      {
+        "name": "San Francisco Bay Area Rapid Transit District",
+        "uei": "K7KGWMHLN1N1",
+        "entity_type": "local",
+        "federal_expended_usd": 326434000.0,
+        "report_id": "2024-06-GSAFAC-0000066256"
+      },
+      {
+        "name": "The RAND Corporation",
+        "uei": "YY46Q97AEZA8",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 315370704.0,
+        "report_id": "2024-09-GSAFAC-0000354403"
+      },
+      {
+        "name": "California Institute of Technology",
+        "uei": "U2JMKHNS5TG4",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 304741174.0,
+        "report_id": "2024-09-GSAFAC-0000368747"
+      },
+      {
+        "name": "San Diego Association of Governments",
+        "uei": "CF3XG46HAWE8",
+        "entity_type": "local",
+        "federal_expended_usd": 300659646.0,
+        "report_id": "2024-06-GSAFAC-0000364673"
+      },
+      {
+        "name": "National University",
+        "uei": "VERGS9RU9J56",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 292600400.0,
+        "report_id": "2024-06-GSAFAC-0000356401"
+      },
+      {
+        "name": "SILICON VALLEY CLEAN WATER",
+        "uei": "MTAVRU6AKEA8",
+        "entity_type": "local",
+        "federal_expended_usd": 289517881.0,
+        "report_id": "2024-06-GSAFAC-0000349332"
+      },
+      {
+        "name": "County of San Joaquin",
+        "uei": "MKMGP2C1C2V7",
+        "entity_type": "local",
+        "federal_expended_usd": 284156757.0,
+        "report_id": "2024-06-GSAFAC-0000363549"
+      },
+      {
+        "name": "Western University of Health Sciences",
+        "uei": "NFFLPSHMNJN4",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 280201462.0,
+        "report_id": "2024-06-GSAFAC-0000065836"
+      },
+      {
+        "name": "LOS ANGELES COUNTY OFFICE OF EDUCATION",
+        "uei": "F2MLEKLJM888",
+        "entity_type": "local",
+        "federal_expended_usd": 274853082.0,
+        "report_id": "2024-06-GSAFAC-0000067712"
+      },
+      {
+        "name": "Long Beach Unified School District",
+        "uei": "E14LA7XZTWK5",
+        "entity_type": "local",
+        "federal_expended_usd": 272872368.0,
+        "report_id": "2024-06-GSAFAC-0000346998"
+      },
+      {
+        "name": "University Corporation for Atmospheric Research",
+        "uei": "YEZEE8W5JKA3",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 272775000.0,
+        "report_id": "2024-09-GSAFAC-0000356127"
+      },
+      {
+        "name": "THE SCRIPPS RESEARCH INSTITUTE",
+        "uei": "PHZJFZ32NKH4",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 272039430.0,
+        "report_id": "2024-09-GSAFAC-0000351473"
+      },
+      {
+        "name": "CALIFORNIA STATEWIDE AUTOMATED WELFARE SYSTEM CONSORTIUM JPA",
+        "uei": "U9BLQAJ36TW5",
+        "entity_type": "local",
+        "federal_expended_usd": 268642030.0,
+        "report_id": "2024-06-GSAFAC-0000360878"
+      },
+      {
+        "name": "San Bernardino City Unified School District",
+        "uei": "N1YLB5HLKJ33",
+        "entity_type": "local",
+        "federal_expended_usd": 266637272.0,
+        "report_id": "2024-06-GSAFAC-0000365669"
+      },
+      {
+        "name": "County of Ventura",
+        "uei": "HG2JKZYYTUT3",
+        "entity_type": "local",
+        "federal_expended_usd": 246719430.0,
+        "report_id": "2024-06-GSAFAC-0000367933"
+      },
+      {
+        "name": "Pepperdine University",
+        "uei": "NHBMUW819YE7",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 245910618.0,
+        "report_id": "2024-07-GSAFAC-0000361415"
+      },
+      {
+        "name": "LOS ANGELES COMMUNITY COLLEGE DISTRICT",
+        "uei": "Y9SWL6BWDM85",
+        "entity_type": "higher-ed",
+        "federal_expended_usd": 226281976.0,
+        "report_id": "2024-06-GSAFAC-0000347490"
+      },
+      {
+        "name": "CRYSTAL STAIRS, INC.",
+        "uei": "L45MNGTLQBJ1",
+        "entity_type": "non-profit",
+        "federal_expended_usd": 220435607.0,
+        "report_id": "2024-06-GSAFAC-0000347297"
+      },
+      {
+        "name": "County of Stanislaus",
+        "uei": "JVUBT686JGX7",
+        "entity_type": "local",
+        "federal_expended_usd": 218388816.0,
+        "report_id": "2024-06-GSAFAC-0000372305"
+      },
+      {
+        "name": "County of Santa Cruz",
+        "uei": "XSL1Z6T7LKB5",
+        "entity_type": "local",
+        "federal_expended_usd": 218192362.0,
+        "report_id": "2024-06-GSAFAC-0000357899"
+      }
+    ]
+  }
+}

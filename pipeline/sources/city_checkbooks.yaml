@@ -1,0 +1,26 @@
+# The two California cities that publish REAL vendor-level checkbooks —
+# proof of what every county and city could do:
+#   LA: Checkbook L.A. (Controller, Socrata) — transaction-level payments
+#   SF: Supplier Contracts (DataSF, Socrata) — payments to date per contract
+# Aggregated server-side via SODA; the two datasets measure different things
+# and are labeled accordingly, never blended.
+source: city_checkbooks
+dataset: la_sf_vendor_payments
+access: socrata
+endpoints:
+  la: "https://controllerdata.lacity.org/resource/pggv-e4fn.json"
+  sf: "https://data.sfgov.org/resource/cqi5-hm2d.json"
+cadence: "LA: continuous (transactions); SF: weekly contract-system refresh"
+freshness_sla_hours: 720
+min_rows: 50   # top-vendor lists floor
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Los Angeles figures are actual payment transactions for the most recent COMPLETE city fiscal year (LA's year ends June 30). Large financial-institution payees (custodial banks, bond trustees) reflect money movement, not purchases."
+  - "San Francisco figures are cumulative payments to date on contracts in the city's current procurement system — a different measure than annual spending; treat the two cities' numbers as incomparable."
+  - "These two checkbooks exist because each city chose to publish one — most of California's cities and counties publish nothing like this."
+info:
+  name: "City Vendor Checkbooks — Los Angeles & San Francisco"
+  publisher: "LA Controller / DataSF"
+  url: "https://controllerdata.lacity.org/"
+  license: "Public record (City of Los Angeles / City & County of San Francisco)"
