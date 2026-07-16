@@ -19,6 +19,7 @@ import type {
   CountyFinancesDoc,
   K12Doc,
   MedicalPlansDoc,
+  NonprofitsDoc,
   PathSeg,
   ProfilesDoc,
   VendorsDoc,
@@ -247,6 +248,9 @@ export function DrillExplorer({
     countiesSeg ? "/data/county_finances.json" : null
   );
   const k12Doc = useJson<Published<K12Doc>>(districtsSeg ? "/data/k12_finances.json" : null);
+  const nonprofitsDoc = useJson<Published<NonprofitsDoc>>(
+    vendorSeg ? "/data/nonprofits.json" : null
+  );
 
   if (!area) {
     return (
@@ -675,6 +679,42 @@ export function DrillExplorer({
                     &quot;payments recorded&quot; separately below.
                   </p>
                 )}
+                {(() => {
+                  const org =
+                    nonprofitsDoc && nonprofitsDoc !== "loading" && nonprofitsDoc !== "error"
+                      ? nonprofitsDoc.data.organizations[vendorSeg.name]
+                      : null;
+                  if (!org) return null;
+                  return (
+                    <p className="mt-1.5 text-xs">
+                      {org.may_operate ? (
+                        <span className="text-traceable">
+                          ✓ Registered charity in good standing
+                        </span>
+                      ) : (
+                        <span className="font-medium text-[#d03b3b]">
+                          ⚠ Listed by the Attorney General as NOT in good standing (
+                          {org.registry_status})
+                        </span>
+                      )}
+                      <span className="text-fog"> · {org.ct_number}</span>
+                      {org.irs_990?.total_revenue_usd != null && (
+                        <span className="text-fog">
+                          {" "}
+                          · total revenue {fmtUsd(org.irs_990.total_revenue_usd)} (
+                          {org.irs_990.latest_filing_year} IRS filing,{" "}
+                          <a
+                            href={org.irs_990.propublica_url}
+                            className="underline underline-offset-2 hover:text-ink"
+                          >
+                            990 ↗
+                          </a>
+                          )
+                        </span>
+                      )}
+                    </p>
+                  );
+                })()}
                 <div className="mt-3 flex items-end gap-2">
                   {years.map(([fy, usd]) => (
                     <div key={fy} className="flex flex-col items-center gap-1">

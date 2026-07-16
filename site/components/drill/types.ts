@@ -13,6 +13,23 @@ export type PathSeg =
   | { kind: "counties" }
   | { kind: "districts" };
 
+export interface NonprofitsDoc {
+  organizations: Record<
+    string,
+    {
+      registered_name: string;
+      registry_status: string;
+      ct_number: string;
+      may_operate: boolean;
+      irs_990?: {
+        propublica_url: string;
+        latest_filing_year: number | null;
+        total_revenue_usd: number | null;
+      } | null;
+    }
+  >;
+}
+
 export interface K12Doc {
   fiscal_year: string;
   lea_count: number;

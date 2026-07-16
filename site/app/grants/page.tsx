@@ -25,6 +25,8 @@ interface AwardsDoc {
 export default async function GrantsPage() {
   const pub = await loadPublished<GrantsSummary>("grants_summary");
   const awards = await loadPublished<AwardsDoc>("grants_awards");
+  const nonprofits = await loadPublished<{ not_in_good_standing: string[] }>("nonprofits");
+  const flagged = new Set(nonprofits.data.not_in_good_standing);
   const active = pub.data.totals_by_status.find((t) => t.status === "active");
   // sort by known funds — the file is not guaranteed sorted
   const allCategories = [...pub.data.open_by_category].sort(
@@ -151,7 +153,14 @@ export default async function GrantsPage() {
             <tbody>
               {awards.data.top_recipients.slice(0, 20).map((r) => (
                 <tr key={r.recipient_name} className="border-b border-rule/60">
-                  <td className="py-2 pr-4">{r.recipient_name}</td>
+                  <td className="py-2 pr-4">
+                    {r.recipient_name}
+                    {flagged.has(r.recipient_name) && (
+                      <span className="ml-2 rounded-full border border-[#d03b3b]/40 bg-[#d03b3b]/10 px-2 py-0.5 text-xs text-[#d03b3b]">
+                        AG registry: not in good standing
+                      </span>
+                    )}
+                  </td>
                   <td className="py-2 pr-4 text-xs text-fog">{r.recipient_type}</td>
                   <td className="py-2 pr-4 text-right font-mono text-xs">{r.award_count}</td>
                   <td className="py-2 pr-4 text-right font-mono text-xs">

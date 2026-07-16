@@ -1,0 +1,32 @@
+# SCO ByTheNumbers — SPECIAL DISTRICT expenditures. Thousands of water,
+# sanitation, transit, and JPA-adjacent entities — the recognized transparency
+# black hole of local government. Same Socrata family as counties/cities with
+# its own column dialect (entityname/fiscalyear/value/rownumber, no
+# population).
+source: district_finances
+dataset: special_district_expenditures
+access: socrata
+endpoints:
+  soda: "https://bythenumbers.sco.ca.gov/resource/m9u3-wdam.json"
+cadence: "annual, rolling as late filers report"
+freshness_sla_hours: 8760
+min_rows: 40000
+max_row_drop_pct: 20
+coverage_flag: category_only
+caveats:
+  - "Self-reported by districts and 'posted as submitted' — no vendor detail exists, and no special district publishes a checkbook."
+  - "Independent special districts are the layer of California government residents know least; JPAs report even less consistently."
+  - "Detail is published for the largest districts by spending; the remainder is disclosed as an aggregate, with every district in the raw download."
+info:
+  name: "SCO ByTheNumbers — Special District Expenditures"
+  publisher: "California State Controller's Office"
+  url: "https://bythenumbers.sco.ca.gov/"
+  license: "Public record (SCO)"
+extra:
+  fy_min: 2022
+  entity_col: "entityname"
+  fy_col: "fiscalyear"
+  value_col: "value"
+  order_col: "rownumber"
+  population_col: null
+  max_entities_published: 60

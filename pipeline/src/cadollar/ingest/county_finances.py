@@ -35,12 +35,13 @@ def run_county_finances(storage: Storage, cfg: SourceConfig, settings: Settings)
     manifest = read_manifest(storage, cfg.source)
     fy_min = int(cfg.extra.get("fy_min", 2020))
     order_col = cfg.extra.get("order_col", "index")
+    fy_col = cfg.extra.get("fy_col", "fiscal_year")
 
     pages: list[bytes] = []
     offset = 0
     while True:
         query = (
-            f"?$where=fiscal_year >= '{fy_min}'"
+            f"?$where={fy_col} >= '{fy_min}'"
             f"&$order={order_col}&$limit={PAGE}&$offset={offset}"
         )
         body = fetch_bytes(cfg.endpoints["soda"] + quote(query, safe="?&=$'"))
@@ -103,14 +104,18 @@ def build_county_doc(pages: list[bytes], storage: Storage, cfg: SourceConfig) ->
         conn = duckdb.connect(":memory:")
         file_list = ", ".join(f"'{p}'" for p in paths)
         value_col = cfg.extra.get("value_col", "values")
+        entity_col = cfg.extra.get("entity_col", "entity_name")
+        fy_col = cfg.extra.get("fy_col", "fiscal_year")
+        pop_col = cfg.extra.get("population_col", "estimated_population")
+        pop_expr = f'TRY_CAST("{pop_col}" AS BIGINT)' if pop_col else "NULL"
         conn.execute(
             f"""
             CREATE TABLE county AS
-            SELECT entity_name                            AS county,
-                   TRY_CAST(fiscal_year AS INTEGER)       AS fiscal_year,
+            SELECT "{entity_col}"                         AS county,
+                   TRY_CAST("{fy_col}" AS INTEGER)        AS fiscal_year,
                    category,
                    TRY_CAST("{value_col}" AS DOUBLE)      AS amount_usd,
-                   TRY_CAST(estimated_population AS BIGINT) AS population
+                   {pop_expr}                             AS population
             FROM read_json_auto([{file_list}], union_by_name=true)
             """
         )

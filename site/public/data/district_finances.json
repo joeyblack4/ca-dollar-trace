@@ -1,0 +1,1185 @@
+{
+  "source": {
+    "name": "SCO ByTheNumbers \u2014 Special District Expenditures",
+    "publisher": "California State Controller's Office",
+    "url": "https://bythenumbers.sco.ca.gov/",
+    "license": "Public record (SCO)"
+  },
+  "as_of": "2026-07-16T212006Z",
+  "ingested_at": "2026-07-16T21:20:06.535311+00:00",
+  "cadence": "annual, rolling as late filers report",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Self-reported by districts and 'posted as submitted' \u2014 no vendor detail exists, and no special district publishes a checkbook.",
+    "Independent special districts are the layer of California government residents know least; JPAs report even less consistently.",
+    "Detail is published for the largest districts by spending; the remainder is disclosed as an aggregate, with every district in the raw download."
+  ],
+  "data": {
+    "county_count": 4832,
+    "entities_published": 60,
+    "entities_not_shown": 4772,
+    "entities_not_shown_total_usd": 44498436914.0,
+    "not_in_this_dataset": [],
+    "per_capita_withheld": [],
+    "latest_fiscal_year": 2024,
+    "counties_lagging_behind_latest_fy": [
+      "East Bay Community Energy Authority",
+      "Sacramento Regional County Sanitary (Sacramento)",
+      "Sacramento Area Sewer District",
+      "Alameda Health Partners",
+      "Sacramento County Sanitation Districts Financing Authority",
+      "Rancho Cucamonga Fire Protection",
+      "Sacramento Cogeneration Authority",
+      "Sacramento Power Authority",
+      "Western Riverside Water and Wastewater Financing Authority",
+      "Fire Agencies Self Insurance System (FASIS)",
+      "Woodland-Davis Clean Water Agency",
+      "Fire District Association of California Employment Benefits Authority",
+      "Central Valley Financing Authority",
+      "East Contra Costa Fire Protection District",
+      "Hastings Campus Housing Finance Authority",
+      "Western Community Energy Authority",
+      "California Risk Management Authority (CRMA I)",
+      "Hesperia Public Financing Authority",
+      "Southern California Consortium for Community College Television (INTELECOM)",
+      "Humboldt Community Services District",
+      "Lake Elsinore Recreation Authority",
+      "Santa Clara County Vector Control District",
+      "California Community College Financing Authority",
+      "Buena County Sanitation District (San Diego)",
+      "City of Palm Springs Finance Authority",
+      "La Puente Valley County Water",
+      "Benefit & Liability Programs of California",
+      "Unified Schools Insurance Programs Joint Powers Authority",
+      "Mojave Desert and Mountain Integrated Waste Management Authority",
+      "Woodland Finance Authority",
+      "Santa Clarita Public Finance Authority",
+      "Pomona Valley Transportation Authority",
+      "California Fire and Rescue Training Authority",
+      "River City Regional Stadium Financing Authority",
+      "Bodega Bay Fire Protection District",
+      "Workforce Alliance of the North Bay",
+      "Petaluma Health Care District",
+      "Western Hills Water District",
+      "Borrego Springs Fire Protection District",
+      "Kern Groundwater Authority",
+      "Ivanhoe Irrigation District",
+      "Hayward School Financing Corporation",
+      "Coachella/Indio Waste Transfer Station Authority",
+      "Bolinas Community Public Utility",
+      "High Desert Corridor Joint Powers Authority",
+      "Buena Park Public Finance Authority",
+      "Los Medanos Community Healthcare District",
+      "North Coast Railroad Authority",
+      "Youth Ventures Joint Powers Authority",
+      "Monte Vista County Water District Facilities Corporation",
+      "Healdsburg Public Financing Authority",
+      "Marin City Community Services District",
+      "East Stanislaus Resource Conservation District",
+      "Tustin Public Financing Authority",
+      "West Valley Clean Water Program Authority",
+      "Rancho Cucamonga Public Finance Authority",
+      "Tulare County Resource Conservation District",
+      "North County Public Recreation District",
+      "Hillsborough Public Improvement Corporation",
+      "Hawthorne Public Financing Authority",
+      "Angels Public Financing Authority",
+      "Russian River Recreation and Park District",
+      "Orangeline Development Authority",
+      "Grizzly Lake Community Services District",
+      "Costa Mesa Public Finance Authority",
+      "Central Plumas Recreation District",
+      "Huntington Park Public Financing Authority",
+      "Eureka Public Financing Authority",
+      "Orange County Housing Finance Trust",
+      "El Medio Fire Protection District",
+      "La Habra Civic Improvement Authority",
+      "Paradise Public Financing Authority",
+      "San Francisco State Building Authority",
+      "Brisbane Public Financing Authority",
+      "Agua Mansa Industrial Growth Association",
+      "Oroville Mosquito Abatement District",
+      "Fall River Mills Fire Protection District",
+      "Sultana Community Services District",
+      "Twentynine Palms Cemetery District",
+      "Dinuba Memorial District",
+      "Midpeninsula Regional Open Space District Financing Authority",
+      "El Paso de Robles Public Financing Authority",
+      "Guadalupe Coyote Resource Conservation District",
+      "El Rancho Simi Cemetery District",
+      "Rialto Nonprofit Public Building Corporation",
+      "Woodlake Schools Financing Authority",
+      "Reclamation District No. 2109",
+      "Samoa Fire Protection District",
+      "Allensworth Community Services District",
+      "Mountain View Fire Protection District",
+      "Reclamation District No. 479",
+      "County Service Area No. 71 (Butte)",
+      "Lamont Public Utility District Financing Authority",
+      "Wayside Maintenance (San Mateo)",
+      "Burney Basin Mosquito Abatement District",
+      "County Service Area No. 60 (Riverside)",
+      "Oakland State Building Authority",
+      "King River East Groundwater Sustainability Agency",
+      "Gonzales Cemetery District",
+      "Valley Center Parks and Recreation District",
+      "Bell Lighting District",
+      "Victorville Joint Powers Financing Authority",
+      "Firenet Lassen",
+      "Three Rivers Memorial District",
+      "County Service Area No. 69 (Butte)",
+      "Orosi Memorial District",
+      "Duarte Community Facilities Financing Authority",
+      "Squire Canyon Community Services District",
+      "Number 10049 Maintenance District (Los Angeles)",
+      "Paso Robles Joint Unified School District Educational Facilities Corporation",
+      "Knightsen Town Community Services District",
+      "County Service Area No. 14 (Butte)",
+      "Palo Verde Resource Conservation District",
+      "Gonzales Electric Authority",
+      "Redwood Park Community Services District",
+      "Kaweah River Power Authority",
+      "Drainage District No. 2 (Butte)",
+      "Temperance Flat Reservoir Authority",
+      "Hyampom Community Service District",
+      "Deer Creek and Tule River Authority",
+      "San Joaquin County Regional Fire Dispatch Authority",
+      "California Municipal Public Financing Authority",
+      "Middle River Community Service District",
+      "Santa Monica Bay Restoration Authority",
+      "West End Communications Authority",
+      "Wasco Public Financing Authority",
+      "Beyers Lane Community Services District",
+      "Lamont Storm Water District (Kern)",
+      "Sacramento River Reclamation District (Butte)",
+      "New Mariposa Drainage District (San Joaquin)",
+      "Ojai Water Conservation District",
+      "Opal Cliffs Recreation and Park District",
+      "Upham Cemetery District",
+      "Antelope Valley Water District",
+      "Mono County Resource Conservation District",
+      "County Service Area No. 75 (Butte)",
+      "County Service Area No. 78 (Butte)",
+      "Klamath Fire Protection District No. 5",
+      "County Service Area No. 161 (Butte)",
+      "Consumnes American Bear Yuba Joint Powers Authority",
+      "County Service Area No. 45 (San Benito)",
+      "Elsinore Valley Water and Sewer Facilities Corporation",
+      "County Service Area No. 12 (Shasta)",
+      "Reclamation District No. 2114",
+      "Sierra Coordinated Resources Management Council",
+      "County Service Area R-10 (Contra Costa)",
+      "Madera Resource Conservation District",
+      "Central Valley School Districts Financing Corporation",
+      "Campo Bello-University Park Drainage Maintenance District (San Mateo)",
+      "Strawberry Valley Cemetery District",
+      "Comptche Community Services District",
+      "County Service Area No. 36 (Butte)",
+      "Loma Linda Public Financing Authority",
+      "Hornitos Lighting District",
+      "County Service Area No. 40 (Tuolumne)",
+      "Reclamation District No. 2038",
+      "County Service Area No. 10 (Monterey)",
+      "County Service Area No. 12.6 (Kern)",
+      "Golden Empire Schools Financing Authority",
+      "Tuolumne County Economic Development Authority",
+      "County Service Area No. 12.9 (Kern)",
+      "Reclamation District No. 2116",
+      "Permanent Road Division No. 1009",
+      "County Service Area No. 39 (Santa Cruz)",
+      "Alba Recreation and Park District",
+      "County Service Area No. 25 (Kern)",
+      "County Service Area No. 12.1 (Kern)",
+      "Reclamation District No. 2141",
+      "County Service Area No. 49 (San Benito)",
+      "Los Angeles Harbor Improvement Corporation"
+    ],
+    "total_latest_usd": 102417219944.0,
+    "counties": [
+      {
+        "county": "Inland Empire Health Plan",
+        "fiscal_year": 2024,
+        "total_usd": 6847639875.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 6847639875.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Los Angeles County Metropolitan Transportation Authority",
+        "fiscal_year": 2024,
+        "total_usd": 5914428234.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 3256405105.0
+          },
+          {
+            "category": "Governmental Funds",
+            "usd": 2658023129.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Self-Insured Schools of California SISC III - Health and Welfare Benefits",
+        "fiscal_year": 2024,
+        "total_usd": 3215218121.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 3215218121.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Public Risk Innovation Solutions and Management (PRISM)",
+        "fiscal_year": 2024,
+        "total_usd": 2075473995.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 2075473995.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Fresno-Kings-Madera Regional Health Authority",
+        "fiscal_year": 2024,
+        "total_usd": 2036792872.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 2036792872.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Sacramento Municipal Utility District",
+        "fiscal_year": 2024,
+        "total_usd": 1866564303.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 1866564303.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Metropolitan Water District of Southern California",
+        "fiscal_year": 2024,
+        "total_usd": 1803887551.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 1793405980.0
+          },
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 10481571.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Consolidated Fire Protection District",
+        "fiscal_year": 2024,
+        "total_usd": 1540260015.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 1540260015.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Santa Clara Valley Transportation Authority",
+        "fiscal_year": 2024,
+        "total_usd": 1518784000.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 882508000.0
+          },
+          {
+            "category": "Transportation",
+            "usd": 613217000.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 23059000.0
+          }
+        ],
+        "category_count": 3,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Francisco Bay Area Rapid Transit District",
+        "fiscal_year": 2024,
+        "total_usd": 1468341051.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 1468341051.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Alameda Health System",
+        "fiscal_year": 2024,
+        "total_usd": 1458229858.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 1458229858.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Clean Power Alliance of Southern California",
+        "fiscal_year": 2024,
+        "total_usd": 1291933362.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 1291933362.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Palomar Health District",
+        "fiscal_year": 2024,
+        "total_usd": 1151264334.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 1151264334.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Diego Community Power",
+        "fiscal_year": 2024,
+        "total_usd": 1103094914.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 1103094914.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Southern California Public Power Authority",
+        "fiscal_year": 2024,
+        "total_usd": 1070125000.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 1035340000.0
+          },
+          {
+            "category": "Gas Enterprise Fund",
+            "usd": 34785000.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Francisco Community Health Authority",
+        "fiscal_year": 2024,
+        "total_usd": 1067562529.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 1067562529.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Imperial Irrigation District",
+        "fiscal_year": 2024,
+        "total_usd": 895687191.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 633223650.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 262463541.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Kaweah Delta Health Care District",
+        "fiscal_year": 2024,
+        "total_usd": 863753733.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 863753733.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "County Sanitation District No. 2 (Los Angeles)",
+        "fiscal_year": 2024,
+        "total_usd": 801823191.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 710939556.0
+          },
+          {
+            "category": "Solid Waste Enterprise Fund",
+            "usd": 90883635.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Los Angeles Homeless Services Authority",
+        "fiscal_year": 2024,
+        "total_usd": 777811885.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 777811885.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "East Bay Municipal Utility District",
+        "fiscal_year": 2024,
+        "total_usd": 772484000.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 633119000.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 139365000.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Ava Community Energy Authority",
+        "fiscal_year": 2024,
+        "total_usd": 758595054.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 758595054.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Northern California Power Agency",
+        "fiscal_year": 2024,
+        "total_usd": 746990751.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 746990751.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Washington Township Health Care District",
+        "fiscal_year": 2024,
+        "total_usd": 720772289.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 720772289.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Diego County Water Authority",
+        "fiscal_year": 2024,
+        "total_usd": 713833824.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 713708226.0
+          },
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 125598.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Santa Clara Valley Water District",
+        "fiscal_year": 2024,
+        "total_usd": 644934087.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 370913593.0
+          },
+          {
+            "category": "Governmental Funds",
+            "usd": 214862966.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 59157528.0
+          }
+        ],
+        "category_count": 3,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Marin Clean Energy",
+        "fiscal_year": 2024,
+        "total_usd": 629831697.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 629831697.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "CalSAWS Consortium",
+        "fiscal_year": 2024,
+        "total_usd": 578024628.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 578024628.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Orange County Fire Authority",
+        "fiscal_year": 2024,
+        "total_usd": 577944604.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 577944604.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Salinas Valley Memorial Healthcare District",
+        "fiscal_year": 2024,
+        "total_usd": 569599175.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 569599175.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Alameda-Contra Costa Transit District",
+        "fiscal_year": 2024,
+        "total_usd": 567839766.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 567839766.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Kern County Hospital Authority",
+        "fiscal_year": 2024,
+        "total_usd": 545918929.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 545918929.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Antelope Valley Healthcare District",
+        "fiscal_year": 2024,
+        "total_usd": 532056868.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 532056868.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "East Bay Community Energy Authority",
+        "fiscal_year": 2022,
+        "total_usd": 513831629.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 513831629.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Diego County Regional Airport Authority",
+        "fiscal_year": 2024,
+        "total_usd": 506073986.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Airport Enterprise Fund",
+            "usd": 506073986.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Modesto Irrigation District",
+        "fiscal_year": 2024,
+        "total_usd": 472414243.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 423246059.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 48305604.0
+          },
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 862580.0
+          }
+        ],
+        "category_count": 3,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Southern California Regional Rail Authority",
+        "fiscal_year": 2024,
+        "total_usd": 466225878.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 466225878.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Los Angeles County Flood Control District",
+        "fiscal_year": 2024,
+        "total_usd": 464202281.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 464202281.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Eastern Municipal Water District",
+        "fiscal_year": 2024,
+        "total_usd": 451180414.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 256955650.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 194224764.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Joaquin Valley Unified Air Pollution Control District",
+        "fiscal_year": 2024,
+        "total_usd": 433470985.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 433470985.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Central Coast Community Energy Authority",
+        "fiscal_year": 2024,
+        "total_usd": 433457252.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 433457252.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Alameda County Transportation Commission",
+        "fiscal_year": 2024,
+        "total_usd": 430329727.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transportation",
+            "usd": 430329727.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Turlock Irrigation District",
+        "fiscal_year": 2024,
+        "total_usd": 421145000.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 402393000.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 18752000.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "California Community Choice Financing Authority",
+        "fiscal_year": 2024,
+        "total_usd": 421143734.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 421143734.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Silicon Valley Clean Energy Authority",
+        "fiscal_year": 2024,
+        "total_usd": 401942316.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 401942316.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Protected Insurance Program for Schools",
+        "fiscal_year": 2024,
+        "total_usd": 396182636.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 396182636.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "California Schools Employee Benefit Association",
+        "fiscal_year": 2024,
+        "total_usd": 394110368.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 394110368.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Sacramento Area Sewer District (SacSewer)",
+        "fiscal_year": 2024,
+        "total_usd": 383956732.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 383956732.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Orange County Transportation Authority",
+        "fiscal_year": 2024,
+        "total_usd": 379223206.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Transit Enterprise Fund",
+            "usd": 368347851.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 10875355.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Orange County Sanitation District",
+        "fiscal_year": 2024,
+        "total_usd": 374332269.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 374332269.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "City of San Diego Public Facilities Financing Authority",
+        "fiscal_year": 2024,
+        "total_usd": 365045763.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 365045763.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Peninsula Clean Energy Authority",
+        "fiscal_year": 2024,
+        "total_usd": 364679887.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 364679887.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Coachella Valley Water District",
+        "fiscal_year": 2024,
+        "total_usd": 363906339.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 166163099.0
+          },
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 128481278.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 59322975.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 9938987.0
+          }
+        ],
+        "category_count": 4,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Alliance of Schools For Cooperative Insurance Programs",
+        "fiscal_year": 2024,
+        "total_usd": 363615619.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Other Enterprise Fund",
+            "usd": 363615619.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Orange County Power Authority",
+        "fiscal_year": 2024,
+        "total_usd": 338008867.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Electric Enterprise Fund",
+            "usd": 338008867.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "South Coast Air Quality Management District",
+        "fiscal_year": 2024,
+        "total_usd": 336171554.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 336171554.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "San Bernardino County Fire Protection District",
+        "fiscal_year": 2024,
+        "total_usd": 331856942.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 331856942.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Tri-City Healthcare District",
+        "fiscal_year": 2024,
+        "total_usd": 330288165.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Hospital Enterprise Fund",
+            "usd": 330288165.0
+          }
+        ],
+        "category_count": 1,
+        "per_capita_usd": null
+      },
+      {
+        "county": "East Bay Regional Park District",
+        "fiscal_year": 2024,
+        "total_usd": 327961552.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Governmental Funds",
+            "usd": 298552999.0
+          },
+          {
+            "category": "Internal Service Fund",
+            "usd": 29408553.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      },
+      {
+        "county": "Irvine Ranch Water District",
+        "fiscal_year": 2024,
+        "total_usd": 326524000.0,
+        "population": null,
+        "amount_unparsed_count": 0,
+        "top_categories": [
+          {
+            "category": "Water Enterprise Fund",
+            "usd": 175087000.0
+          },
+          {
+            "category": "Sewer Enterprise Fund",
+            "usd": 151437000.0
+          }
+        ],
+        "category_count": 2,
+        "per_capita_usd": null
+      }
+    ]
+  }
+}

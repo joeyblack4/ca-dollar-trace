@@ -319,3 +319,15 @@ def test_nonprofits_contract():
     # public agencies must never appear in a charity-compliance list
     for name in d["not_in_good_standing"]:
         assert "COUNTY" not in name.upper() or "OF" in name.upper().split()[0:1], name
+
+
+# ---------- special districts ----------
+
+
+def test_district_finances_contract():
+    d = load("district_finances.json")["data"]
+    assert d["county_count"] > 3000, "~4,800 special districts expected"
+    assert d["entities_published"] == 60
+    assert d["total_latest_usd"] > 50e9
+    assert d["entities_not_shown_total_usd"] > 0
+    _local_entities_contract(d)

@@ -90,6 +90,11 @@ def _run_city_finances(storage: Storage, settings: Settings) -> None:
     run_county_finances(storage, cfg, settings)  # same connector, city config
 
 
+def _run_district_finances(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "district_finances")
+    run_county_finances(storage, cfg, settings)  # same connector, district config
+
+
 def _run_sacs(storage: Storage, settings: Settings) -> None:
     cfg = load_source(settings, "sacs_k12")
     run_sacs(storage, cfg, settings)
@@ -121,6 +126,7 @@ RUNNERS = {
     "medical_plans": _run_medical_plans,
     "county_finances": _run_county_finances,
     "city_finances": _run_city_finances,
+    "district_finances": _run_district_finances,
     "sacs_k12": _run_sacs,
     "city_checkbooks": _run_city_checkbooks,
     "fac_sefa": _run_fac_sefa,
@@ -143,6 +149,7 @@ RUN_ORDER = [
     "medical_plans",
     "county_finances",
     "city_finances",
+    "district_finances",
     "sacs_k12",
     "city_checkbooks",
     "fac_sefa",
