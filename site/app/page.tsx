@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BudgetSankey } from "@/components/viz/BudgetSankey";
+import { ExplorerShell } from "@/components/drill/ExplorerShell";
 import { SourceChip } from "@/components/ui/SourceChip";
 import { fmtAsOf, fmtUsd, type BudgetWaterfall } from "@/lib/published";
 import { loadPublished } from "@/lib/published-server";
@@ -22,7 +22,7 @@ export default async function Home() {
       </p>
 
       <div className="mt-8">
-        <BudgetSankey data={wf} asOfLabel={`retrieved ${fmtAsOf(pub.as_of)}`} />
+        <ExplorerShell waterfall={wf} asOfLabel={`retrieved ${fmtAsOf(pub.as_of)}`} />
       </div>
 
       <SourceChip

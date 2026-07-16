@@ -52,9 +52,11 @@ const displayName = (name: string) => DISPLAY_NAME[name] ?? name;
 export function BudgetSankey({
   data,
   asOfLabel,
+  onDrill,
 }: {
   data: BudgetWaterfall;
   asOfLabel: string;
+  onDrill?: (areaName: string) => void;
 }) {
   const [selected, setSelected] = useState<string>(`gf:${GF}`);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -155,7 +157,10 @@ export function BudgetSankey({
             return (
               <g
                 key={n.id}
-                onClick={() => setSelected(n.id)}
+                onClick={() => {
+                  setSelected(n.id);
+                  if (onDrill && n.side === "spending") onDrill(n.name);
+                }}
                 onMouseEnter={() => setHovered(n.id)}
                 onMouseLeave={() => setHovered(null)}
                 className="cursor-pointer"
@@ -220,7 +225,7 @@ export function BudgetSankey({
         covered by reserves and carryover — shown, not hidden. Click any block to trace it.
       </p>
 
-      {detail && <DetailPanel detail={detail} />}
+      {detail && <DetailPanel detail={detail} inPageDrill={!!onDrill} />}
     </div>
   );
 }
@@ -290,7 +295,7 @@ function buildDetail(id: string, data: BudgetWaterfall): Detail | null {
   return null;
 }
 
-function DetailPanel({ detail }: { detail: Detail }) {
+function DetailPanel({ detail, inPageDrill }: { detail: Detail; inPageDrill?: boolean }) {
   return (
     <div className="mt-4 rounded-lg border border-rule p-5">
       <div className="flex flex-wrap items-baseline gap-x-3">
@@ -311,10 +316,10 @@ function DetailPanel({ detail }: { detail: Detail }) {
       {detail.drillHref && (
         <p className="mt-3">
           <a
-            href={detail.drillHref}
+            href={inPageDrill ? "#drill" : detail.drillHref}
             className="inline-block rounded-md bg-poppy px-3 py-1.5 text-sm font-medium text-white hover:bg-poppy-deep"
           >
-            {detail.drillLabel}
+            {inPageDrill ? "Follow this money ↓" : detail.drillLabel}
           </a>
         </p>
       )}

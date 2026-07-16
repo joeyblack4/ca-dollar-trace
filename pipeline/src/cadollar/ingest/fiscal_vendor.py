@@ -238,6 +238,8 @@ def publish_vendor_summaries(
             "application/json",
         )
 
+    _publish_vendor_profiles(storage, cfg, conn_path=glob_path, now=now, dept_agency=dept_agency)
+
     overview = {
         "latest_fiscal_year": f"20{latest_fy}-{latest_fy + 1}" if latest_fy else None,
         "files_ingested": len(file_state),
@@ -262,6 +264,89 @@ def publish_vendor_summaries(
         f"({len(unmatched)} business units unmatched to budget agencies)"
     )
     return key
+
+
+def _publish_vendor_profiles(
+    storage: Storage,
+    cfg: SourceConfig,
+    conn_path: str,
+    now: datetime,
+    dept_agency: dict[str, str],
+) -> None:
+    """One compact file: the top-500 vendors by all-years total, each with
+    per-year, per-department, and per-program breakdowns — the deepest drill
+    level the checkbook supports."""
+    conn = duckdb.connect(":memory:")
+    top = conn.execute(
+        f"""
+        SELECT vendor_name, sum(amount_usd) total, bool_or(is_confidential)
+        FROM read_parquet('{conn_path}')
+        GROUP BY 1 ORDER BY 2 DESC LIMIT 500
+        """
+    ).fetchall()
+    names = [t[0] for t in top]
+    placeholders = ",".join("?" for _ in names)
+
+    years = conn.execute(
+        f"""SELECT vendor_name, fiscal_year_begin, sum(amount_usd)
+            FROM read_parquet('{conn_path}') WHERE vendor_name IN ({placeholders})
+            GROUP BY 1,2""",
+        names,
+    ).fetchall()
+    depts = conn.execute(
+        f"""SELECT vendor_name, business_unit, any_value(department_name), sum(amount_usd)
+            FROM read_parquet('{conn_path}') WHERE vendor_name IN ({placeholders})
+            GROUP BY 1,2""",
+        names,
+    ).fetchall()
+    progs = conn.execute(
+        f"""SELECT vendor_name, program_description, sum(amount_usd)
+            FROM read_parquet('{conn_path}') WHERE vendor_name IN ({placeholders})
+            GROUP BY 1,2""",
+        names,
+    ).fetchall()
+    conn.close()
+
+    profiles: dict[str, dict[str, Any]] = {
+        name: {
+            "total_usd": float(total),
+            "masked": bool(masked),
+            "years": {},
+            "departments": [],
+            "programs": [],
+        }
+        for name, total, masked in top
+    }
+    for name, fy, usd in years:
+        profiles[name]["years"][fy] = float(usd)
+    for name, bu, dname, usd in depts:
+        profiles[name]["departments"].append(
+            {
+                "org_cd": bu,
+                "title": dname,
+                "agency_cd": dept_agency.get(bu),
+                "usd": float(usd),
+            }
+        )
+    for name, prog, usd in progs:
+        profiles[name]["programs"].append({"program": prog, "usd": float(usd)})
+    for p in profiles.values():
+        p["departments"].sort(key=lambda d: -d["usd"])
+        p["programs"] = sorted(p["programs"], key=lambda x: -x["usd"])[:6]
+
+    storage.put_bytes(
+        "published/vendor_profiles.json",
+        json.dumps(
+            envelope(
+                cfg,
+                as_of=now.strftime("%Y-%m-%dT%H%M%SZ"),
+                ingested_at=now.isoformat(),
+                data={"vendors": profiles},
+            )
+        ).encode(),
+        "application/json",
+    )
+    print(f"{cfg.source}: published vendor_profiles.json ({len(profiles)} vendors)")
 
 
 def _budget_maps(storage: Storage) -> tuple[dict, dict, dict]:
