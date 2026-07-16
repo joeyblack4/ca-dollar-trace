@@ -10,6 +10,7 @@ endpoints:
   agency_stats: "https://ebudget.ca.gov/api/publication/e/2025-26/statistics/{agency_cd}"
   org_program: "https://ebudget.ca.gov/api/publication/e/2025-26/orgProgram/{org_cd}"
   fund_support: "https://ebudget.ca.gov/api/publication/e/2025-26/rwaCntl/support/{org_cd}"
+  cap_outlay: "https://ebudget.ca.gov/api/publication/e/2025-26/rwaCntl/capOutlay/{org_cd}"
 cadence: "budget cycle (enacted June/July); re-polled with the summary source"
 freshness_sla_hours: 8760
 min_rows: 150   # departments floor

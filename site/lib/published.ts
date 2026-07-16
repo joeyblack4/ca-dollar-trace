@@ -84,10 +84,19 @@ export interface BudgetWaterfall {
 
 export function fmtUsd(n: number | null): string {
   if (n === null) return "unknown";
-  if (n >= 1e9) return `$${(n / 1e9).toFixed(1)}B`;
-  if (n >= 1e6) return `$${(n / 1e6).toFixed(1)}M`;
-  if (n >= 1e3) return `$${(n / 1e3).toFixed(0)}K`;
-  return `$${n.toFixed(0)}`;
+  const sign = n < 0 ? "-" : "";
+  const a = Math.abs(n);
+  if (a >= 1e12) return `${sign}$${(a / 1e12).toFixed(2)}T`;
+  if (a >= 1e9) return `${sign}$${(a / 1e9).toFixed(1)}B`;
+  if (a >= 1e6) return `${sign}$${(a / 1e6).toFixed(1)}M`;
+  if (a >= 1e3) return `${sign}$${(a / 1e3).toFixed(0)}K`;
+  return `${sign}$${a.toFixed(0)}`;
+}
+
+/** "2020" (fiscal_year_begin) -> "FY20-21"; "2025-26" -> "FY25-26" */
+export function fmtFy(fy: string): string {
+  const start = parseInt(fy.slice(0, 4), 10);
+  return `FY${start % 100}-${(start + 1) % 100}`;
 }
 
 export function fmtAsOf(asOf: string): string {

@@ -26,7 +26,11 @@ export default async function GrantsPage() {
   const pub = await loadPublished<GrantsSummary>("grants_summary");
   const awards = await loadPublished<AwardsDoc>("grants_awards");
   const active = pub.data.totals_by_status.find((t) => t.status === "active");
-  const topCategories = pub.data.open_by_category.slice(0, 12);
+  // sort by known funds — the file is not guaranteed sorted
+  const allCategories = [...pub.data.open_by_category].sort(
+    (a, b) => (b.est_avail_funds_known_usd ?? 0) - (a.est_avail_funds_known_usd ?? 0)
+  );
+  const topCategories = allCategories.slice(0, 12);
 
   return (
     <div>
@@ -58,6 +62,13 @@ export default async function GrantsPage() {
       </div>
 
       <h2 className="mt-12 text-xl font-semibold">Open funding by category</h2>
+      <p className="mt-1 text-xs text-fog">
+        Top 12 of {allCategories.length} categories by known available funds —{" "}
+        <a href="/data/grants_summary.json" className="underline underline-offset-2 hover:text-ink">
+          full data
+        </a>
+        .
+      </p>
       <div className="mt-4 overflow-x-auto">
         <table className="w-full min-w-[560px] text-sm">
           <thead>

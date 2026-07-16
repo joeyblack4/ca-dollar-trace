@@ -41,6 +41,7 @@ def run_csv_ingest(
     storage: Storage,
     cfg: SourceConfig,
     cleanse,  # callable(raw_bytes, as_of, content_hash) -> (parquet_bytes, row_count)
+    publish=None,  # optional callable run BEFORE the manifest commits the new hash
 ) -> IngestResult:
     now = datetime.now(UTC)
     as_of = now.strftime("%Y-%m-%dT%H%M%SZ")
@@ -75,6 +76,22 @@ def run_csv_ingest(
 
     cleansed_key = f"cleansed/{cfg.source}/{cfg.dataset}.parquet"
     storage.put_bytes(cleansed_key, parquet_bytes, content_type="application/octet-stream")
+
+    # publish before committing the content hash: the interim manifest carries
+    # the new cleansed_key (publish reads it) but NO content_hash, so a publish
+    # failure leaves the change re-detectable on the next run instead of masked
+    interim = {
+        "row_count": row_count,
+        "as_of": as_of,
+        "ingested_at": now.isoformat(),
+        "checked_at": now.isoformat(),
+        "raw_key": raw_key,
+        "cleansed_key": cleansed_key,
+    }
+    if publish is not None:
+        write_manifest(storage, cfg.source, interim)
+        published_key = publish()
+        print(f"{cfg.source}: published {published_key}")
 
     write_manifest(
         storage,

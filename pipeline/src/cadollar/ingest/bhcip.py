@@ -42,7 +42,7 @@ def run_bhcip(storage: Storage, cfg: SourceConfig, settings: Settings) -> str:
         print(f"{cfg.source}: snapshot unchanged, no-op")
         return manifest["published_key"]
 
-    rows = list(csv.DictReader(raw.decode().splitlines()))
+    rows = list(csv.DictReader(raw.decode("utf-8-sig").splitlines()))
     if len(rows) < cfg.min_rows:
         raise QualityGateError(f"{cfg.source}: snapshot has {len(rows)} rows < {cfg.min_rows}")
 

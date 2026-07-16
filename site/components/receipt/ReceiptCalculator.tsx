@@ -64,7 +64,7 @@ export function ReceiptCalculator({ data }: { data: BudgetWaterfall }) {
                 {r.yours.toLocaleString(undefined, { style: "currency", currency: "USD", maximumFractionDigits: 0 })}
               </div>
               <div className="w-12 shrink-0 text-right font-mono text-xs text-fog">
-                {(r.share * 100).toFixed(0)}¢/$
+                {r.share * 100 < 0.5 ? "<1" : (r.share * 100).toFixed(0)}¢/$
               </div>
             </li>
           ))}

@@ -28,11 +28,13 @@ from .transform import grants_portal as t_grants
 
 def _run_grants(storage: Storage, settings: Settings) -> None:
     cfg = load_source(settings, "grants_portal")
-    result = run_csv_ingest(storage, cfg, t_grants.cleanse)
+    # publish runs INSIDE the ingest (before the manifest commits the new
+    # content hash) so a publish failure is retried next run, not masked
+    result = run_csv_ingest(
+        storage, cfg, t_grants.cleanse, publish=lambda: publish_grants_summary(storage, cfg)
+    )
     if result.changed:
         print(f"grants_portal: ingested {result.row_count} rows (as_of {result.as_of})")
-        key = publish_grants_summary(storage, cfg)
-        print(f"grants_portal: published {key}")
     else:
         print("grants_portal: unchanged upstream, no-op")
 
@@ -47,8 +49,6 @@ def _run_ebudget_detail(storage: Storage, settings: Settings) -> None:
     run_ebudget_detail(storage, cfg, settings)
 
 
-# run-all executes in sorted order; ebudget_enacted sorts before ebudget_detail,
-# which the detail cross-source check relies on.
 def _run_usaspending(storage: Storage, settings: Settings) -> None:
     cfg = load_source(settings, "usaspending_ca")
     run_usaspending(storage, cfg, settings)
@@ -82,6 +82,20 @@ RUNNERS = {
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
 HEAVY = {"fiscal_vendor"}
 
+# EXPLICIT execution order for run-all: ebudget_enacted must publish the
+# waterfall before ebudget_detail cross-checks against it. (Alphabetical
+# ordering would run detail first — that was a real bug.)
+RUN_ORDER = [
+    "ebudget_enacted",
+    "ebudget_detail",
+    "grants_portal",
+    "grants_awards",
+    "usaspending_ca",
+    "bhcip_awards",
+    "fiscal_vendor",
+]
+assert set(RUN_ORDER) == set(RUNNERS), "RUN_ORDER must list every runner exactly once"
+
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="cadollar")
@@ -100,17 +114,41 @@ def main(argv: list[str] | None = None) -> int:
         dest = REPO_ROOT / "site" / "public" / "data"
         dest.mkdir(parents=True, exist_ok=True)
         copied = 0
+        current = set()
         for f in sorted(src.rglob("*.json")):
             rel = f.relative_to(src)
             (dest / rel).parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(f, dest / rel)
+            current.add(rel)
             copied += 1
+        # mirror semantics: prune site files no longer produced, so retired
+        # outputs don't serve stale numbers forever — but never mass-delete
+        # (a nearly-empty published/ dir means this run didn't produce much)
+        stale = [f for f in dest.rglob("*.json") if f.relative_to(dest) not in current]
+        if current and len(stale) <= max(3, len(current) // 4):
+            for f in stale:
+                f.unlink()
+                print(f"pruned stale {f.relative_to(dest)}")
+        elif stale:
+            print(f"WARNING: {len(stale)} stale file(s) NOT pruned (safety cap); review manually")
         print(f"synced {copied} published file(s) -> {dest}")
         return 0
 
-    sources = sorted(set(RUNNERS) - HEAVY) if args.cmd == "run-all" else [args.source]
+    sources = (
+        [s for s in RUN_ORDER if s not in HEAVY] if args.cmd == "run-all" else [args.source]
+    )
+    failures: list[str] = []
     for source in sources:
-        RUNNERS[source](storage, settings)
+        try:
+            RUNNERS[source](storage, settings)
+        except Exception as e:  # one failing source must not block the others
+            if args.cmd != "run-all":
+                raise
+            failures.append(source)
+            print(f"ERROR {source}: {e}", file=sys.stderr)
+    if failures:
+        print(f"run-all: {len(failures)} source(s) failed: {', '.join(failures)}", file=sys.stderr)
+        return 1
     return 0
 
 

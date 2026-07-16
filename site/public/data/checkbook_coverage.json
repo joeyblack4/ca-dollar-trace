@@ -5,21 +5,24 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T165202Z",
-  "ingested_at": "2026-07-16T16:52:02.628590+00:00",
+  "as_of": "2026-07-16T173039Z",
+  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
     "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Amounts are NET of reversal/adjustment entries, which FI$Cal publishes deliberately (see its Learning Center on 'Negative Expenditures' and account 5390950 'SCO Inbound Interface'). Where a vendor's adjustments are material we also publish gross payments recorded, and we surface each department's net SCO-interface effect rather than hiding it.",
     "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
     "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
   ],
   "data": {
     "latest_fiscal_year": "2025-26",
     "files_ingested": 889,
-    "departments_with_checkbook": 149,
-    "vendor_total_usd": 49562601287.1,
-    "confidential_total_usd": 2732396286.54,
+    "departments_with_checkbook": 151,
+    "note": "department figures use each department's own latest available fiscal year",
+    "vendor_total_usd": 49562625359.46,
+    "confidential_total_usd": 2732397084.06,
+    "amount_unparsed_total": 0,
     "unmatched_business_units": [
       {
         "org_cd": "3105",
@@ -32,14 +35,9 @@
         "vendor_total_usd": 4690625.95
       },
       {
-        "org_cd": "6240",
-        "title": "School for the Deaf-Fremont",
-        "vendor_total_usd": 4778024.93
-      },
-      {
-        "org_cd": "0531",
-        "title": "Office of Systems Integration",
-        "vendor_total_usd": 429585207.57
+        "org_cd": "6200",
+        "title": "CA School for the Blind",
+        "vendor_total_usd": 1401516.78
       },
       {
         "org_cd": "6260",
@@ -47,9 +45,19 @@
         "vendor_total_usd": 1512407.5
       },
       {
-        "org_cd": "6200",
-        "title": "CA School for the Blind",
-        "vendor_total_usd": 1401516.78
+        "org_cd": "0531",
+        "title": "Office of Systems Integration",
+        "vendor_total_usd": 429585207.57
+      },
+      {
+        "org_cd": "6240",
+        "title": "School for the Deaf-Fremont",
+        "vendor_total_usd": 4778024.93
+      },
+      {
+        "org_cd": "1690",
+        "title": "A E Alquist Seismic Safety",
+        "vendor_total_usd": 9486.36
       }
     ]
   }

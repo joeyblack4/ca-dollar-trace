@@ -63,9 +63,14 @@ export function BudgetSankey({
 
   const { nodes, links } = useMemo(() => {
     const gf = data.general_fund;
+    // the derived reserves band only exists when spending exceeds revenue;
+    // a surplus year must not feed d3-sankey a non-positive link
+    const deficit = gf.gap_usd > 0;
     const nodeList: NodeDatum[] = [
       ...gf.revenue.map((r) => ({ id: `rev:${r.name}`, name: r.name, side: "revenue" as Side })),
-      { id: "reserves", name: "Reserves & carryover", side: "reserves" as Side },
+      ...(deficit
+        ? [{ id: "reserves", name: "Reserves & carryover", side: "reserves" as Side }]
+        : []),
       { id: `gf:${GF}`, name: GF, side: "gf" as Side },
       ...gf.expenditure.map((e) => ({ id: `exp:${e.name}`, name: e.name, side: "spending" as Side })),
     ];
@@ -76,12 +81,16 @@ export function BudgetSankey({
         target: idx.get(`gf:${GF}`)!,
         value: r.usd,
       })),
-      {
-        source: idx.get("reserves")!,
-        target: idx.get(`gf:${GF}`)!,
-        value: gf.gap_usd,
-        derived: true,
-      },
+      ...(deficit
+        ? [
+            {
+              source: idx.get("reserves")!,
+              target: idx.get(`gf:${GF}`)!,
+              value: gf.gap_usd,
+              derived: true,
+            },
+          ]
+        : []),
       ...gf.expenditure.map((e) => ({
         source: idx.get(`gf:${GF}`)!,
         target: idx.get(`exp:${e.name}`)!,
@@ -157,13 +166,23 @@ export function BudgetSankey({
             return (
               <g
                 key={n.id}
+                role="button"
+                tabIndex={0}
+                aria-label={`${n.name}: ${fmtUsd(usd)}`}
                 onClick={() => {
                   setSelected(n.id);
                   if (onDrill && n.side === "spending") onDrill(n.name);
                 }}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setSelected(n.id);
+                    if (onDrill && n.side === "spending") onDrill(n.name);
+                  }
+                }}
                 onMouseEnter={() => setHovered(n.id)}
                 onMouseLeave={() => setHovered(null)}
-                className="cursor-pointer"
+                className="cursor-pointer focus:outline-none focus-visible:opacity-80"
               >
                 {/* generous hit target */}
                 <rect
@@ -220,9 +239,11 @@ export function BudgetSankey({
       </div>
 
       <p className="mt-2 text-xs text-fog">
-        General Fund only, {data.budget_year} enacted ({asOfLabel}). The striped band is
-        derived: enacted spending exceeds revenues by {fmtUsd(data.general_fund.gap_usd)},
-        covered by reserves and carryover — shown, not hidden. Click any block to trace it.
+        General Fund only, {data.budget_year} enacted ({asOfLabel}).{" "}
+        {data.general_fund.gap_usd > 0
+          ? `The striped band is derived: enacted spending exceeds revenues by ${fmtUsd(data.general_fund.gap_usd)}, covered by reserves and carryover — shown, not hidden.`
+          : `Enacted revenues exceed spending by ${fmtUsd(-data.general_fund.gap_usd)} (surplus).`}{" "}
+        Click any block to trace it.
       </p>
 
       {detail && <DetailPanel detail={detail} inPageDrill={!!onDrill} />}
@@ -303,7 +324,8 @@ function DetailPanel({ detail, inPageDrill }: { detail: Detail; inPageDrill?: bo
         <span className="font-mono text-sm">{fmtUsd(detail.amountUsd)}</span>
         {detail.centsPerDollar !== undefined && (
           <span className="text-sm text-fog">
-            {detail.centsPerDollar.toFixed(0)}¢ of every General Fund dollar
+            {detail.centsPerDollar < 0.5 ? "<1" : detail.centsPerDollar.toFixed(0)}¢ of every
+            General Fund dollar
           </span>
         )}
       </div>

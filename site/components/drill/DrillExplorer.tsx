@@ -12,7 +12,7 @@ import { cn } from "@/lib/cn";
 import { CoverageBadge } from "@/components/ui/SourceChip";
 import { PublicSectorChip } from "@/components/agency/VendorsSection";
 import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
-import { fmtUsd, type BudgetWaterfall } from "@/lib/published";
+import { fmtFy, fmtUsd, type BudgetWaterfall } from "@/lib/published";
 import type { AgencyDoc, BhcipDoc, PathSeg, ProfilesDoc, VendorsDoc } from "./types";
 import type { Published } from "@/lib/published";
 
@@ -32,35 +32,61 @@ const FUND_COLORS: Record<string, string> = {
   "Other funds": "#8a8781",
 };
 
-/* ---------- tiny client-side fetch cache for published JSON ---------- */
+/* ---------- tiny client-side fetch cache for published JSON ----------
+   Failures are NOT cached (a transient error must not permanently mislabel
+   data as missing) and surface as an explicit "error" state, never as the
+   same value as "no data". */
 const cache = new Map<string, Promise<unknown>>();
 function fetchJson<T>(path: string): Promise<T> {
   if (!cache.has(path)) {
-    cache.set(
-      path,
-      fetch(path).then((r) => {
-        if (!r.ok) throw new Error(`${r.status} ${path}`);
-        return r.json();
-      })
-    );
+    const p = fetch(path).then((r) => {
+      if (!r.ok) throw new Error(`${r.status} ${path}`);
+      return r.json();
+    });
+    p.catch(() => cache.delete(path)); // do not cache rejections
+    cache.set(path, p);
   }
   return cache.get(path)! as Promise<T>;
 }
 
-function useJson<T>(path: string | null): T | null | "loading" {
-  const [state, setState] = useState<T | null | "loading">(path ? "loading" : null);
+type Fetched<T> = T | null | "loading" | "error";
+
+function useJson<T>(path: string | null): Fetched<T> {
+  const [state, setState] = useState<Fetched<T>>(path ? "loading" : null);
+  const [retry, setRetry] = useState(0);
   useEffect(() => {
     if (!path) return setState(null);
     let live = true;
     setState("loading");
     fetchJson<T>(path)
       .then((d) => live && setState(d))
-      .catch(() => live && setState(null));
+      .catch(() => live && setState("error"));
     return () => {
       live = false;
     };
-  }, [path]);
+  }, [path, retry]);
+  // expose retry via a custom event dispatched on window (simple, no context)
+  useEffect(() => {
+    const h = () => setRetry((n) => n + 1);
+    window.addEventListener("drill-retry", h);
+    return () => window.removeEventListener("drill-retry", h);
+  }, []);
   return state;
+}
+
+function FetchError({ what }: { what: string }) {
+  return (
+    <p className="text-sm text-fog">
+      Couldn&apos;t load {what} (network error — this is not a statement about the public
+      record).{" "}
+      <button
+        onClick={() => window.dispatchEvent(new Event("drill-retry"))}
+        className="underline underline-offset-2 hover:text-ink"
+      >
+        Retry
+      </button>
+    </p>
+  );
 }
 
 /* ---------- shared row primitive: proportional, clickable ---------- */
@@ -201,25 +227,41 @@ export function DrillExplorer({
     );
   }
 
-  const truncate = (i: number) => setPath(path.slice(0, i + 1));
+  const agency = agencyDoc && agencyDoc !== "loading" && agencyDoc !== "error" ? agencyDoc.data : null;
+  const dept =
+    deptSeg && agency
+      ? (agency.departments.find((d) => d.org_cd === deptSeg.orgCd) ?? null)
+      : null;
 
-  /* breadcrumb */
-  const crumbs: { label: string; amount?: number }[] = [{ label: "General Fund" }];
-  crumbs.push({ label: area.name });
-  const agency = agencyDoc && agencyDoc !== "loading" ? agencyDoc.data : null;
-  const dept = dept0();
-  function dept0() {
-    if (!deptSeg || !agency) return null;
-    return agency.departments.find((d) => d.org_cd === deptSeg.orgCd) ?? null;
+  /* breadcrumbs are built FROM the path (one crumb per segment, in order) so
+     clicking a crumb truncates to that exact segment — display never drifts
+     from state, even mid-fetch or with a recovered segment present */
+  const crumbs: { label: string; amount?: number; unit?: string; pathIndex: number }[] = [
+    { label: "2025-26 budget", pathIndex: -1 },
+  ];
+  for (let i = 0; i < path.length; i++) {
+    const seg = path[i];
+    if (seg.kind === "area") crumbs.push({ label: seg.name, pathIndex: i });
+    if (seg.kind === "agency")
+      crumbs.push(
+        agency
+          ? { label: agency.title, amount: agency.total_usd, unit: "all funds", pathIndex: i }
+          : { label: "…", pathIndex: i }
+      );
+    if (seg.kind === "dept")
+      crumbs.push(
+        dept
+          ? { label: dept.title, amount: dept.total_usd, unit: "all funds", pathIndex: i }
+          : { label: "…", pathIndex: i }
+      );
+    if (seg.kind === "checkbook") crumbs.push({ label: "checkbook", pathIndex: i });
+    if (seg.kind === "vendor") crumbs.push({ label: seg.name, pathIndex: i });
+    if (seg.kind === "recovered") crumbs.push({ label: "re-granted", pathIndex: i });
   }
-  if (agency) crumbs.push({ label: agency.title, amount: agency.total_usd });
-  if (dept) crumbs.push({ label: dept.title, amount: dept.total_usd });
-  if (checkbookSeg) crumbs.push({ label: "checkbook" });
-  if (vendorSeg) crumbs.push({ label: vendorSeg.name });
 
   const vendorDept =
-    deptSeg && vendorsDoc && vendorsDoc !== "loading"
-      ? vendorsDoc.data.departments.find((d) => d.org_cd === deptSeg.orgCd) ?? null
+    deptSeg && vendorsDoc && vendorsDoc !== "loading" && vendorsDoc !== "error"
+      ? (vendorsDoc.data.departments.find((d) => d.org_cd === deptSeg.orgCd) ?? null)
       : null;
 
   return (
@@ -230,14 +272,19 @@ export function DrillExplorer({
           <span key={`${c.label}-${i}`} className="flex items-center gap-1">
             {i > 0 && <span className="text-fog">→</span>}
             <button
-              onClick={() => truncate(Math.min(i - 1, path.length - 1))}
+              onClick={() => setPath(path.slice(0, c.pathIndex + 1))}
               className={cn(
                 "rounded px-1.5 py-0.5 hover:bg-poppy/10",
                 i === crumbs.length - 1 ? "font-semibold text-ink" : "text-fog"
               )}
             >
               {c.label}
-              {c.amount ? <span className="ml-1 font-mono">{fmtUsd(c.amount)}</span> : null}
+              {c.amount !== undefined && (
+                <span className="ml-1 font-mono">
+                  {fmtUsd(c.amount)}
+                  {c.unit && <span className="text-fog"> {c.unit}</span>}
+                </span>
+              )}
             </button>
           </span>
         ))}
@@ -268,21 +315,35 @@ export function DrillExplorer({
       {agencySeg && (
         <LevelCard
           step={2}
-          title={agency ? `${agency.title} — ${fmtUsd(agency.total_usd)} across ${agency.departments.length} departments` : "Loading departments…"}
+          title={agency ? `${agency.title} — ${fmtUsd(agency.total_usd)} across ${agency.departments.length} departments` : "Departments"}
           subtitle="All funds (state + federal passthrough). Click a department."
         >
+          {agencyDoc === "loading" && <p className="text-sm text-fog">Loading departments…</p>}
+          {agencyDoc === "error" && <FetchError what="this agency's departments" />}
           {agency &&
             agency.departments.slice(0, 30).map((d) => (
               <Row
                 key={d.org_cd}
                 label={d.title}
                 usd={d.total_usd}
-                maxUsd={agency.departments[0].total_usd}
+                maxUsd={agency.departments[0]?.total_usd ?? 1}
                 sub={`GF ${fmtUsd(d.general_fund_usd)}`}
                 selected={deptSeg?.orgCd === d.org_cd}
                 onClick={() => setPath([...path.slice(0, path.indexOf(agencySeg) + 1), { kind: "dept", orgCd: d.org_cd }])}
               />
             ))}
+          {agency && agency.departments.length > 30 && (
+            <p className="mt-2 text-xs text-fog">
+              Showing the 30 largest of {agency.departments.length} departments —{" "}
+              <a
+                href={`/data/agencies/${agencySeg.cd}.json`}
+                className="underline underline-offset-2 hover:text-ink"
+              >
+                all departments in the data
+              </a>{" "}
+              (the tail includes accounting offsets and small line items).
+            </p>
+          )}
         </LevelCard>
       )}
 
@@ -293,30 +354,48 @@ export function DrillExplorer({
           title={`${dept.title} — ${fmtUsd(dept.total_usd)}`}
           subtitle="Where it sits in the budget: fund mix and program lines."
         >
-          {Object.keys(dept.funds_by_class).length > 0 && (
-            <div className="mb-3">
-              <div className="flex h-3 overflow-hidden rounded-full">
-                {Object.entries(dept.funds_by_class).map(([label, usd]) => (
-                  <div
-                    key={label}
-                    title={`${label}: ${fmtUsd(usd)}`}
-                    style={{
-                      width: `${(usd / Object.values(dept.funds_by_class).reduce((a, b) => a + b, 0)) * 100}%`,
-                      background: FUND_COLORS[label] ?? "#8a8781",
-                    }}
-                  />
-                ))}
-              </div>
-              <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-fog">
-                {Object.entries(dept.funds_by_class).map(([label, usd]) => (
-                  <span key={label} className="flex items-center gap-1">
-                    <span className="h-2 w-2 rounded-sm" style={{ background: FUND_COLORS[label] ?? "#8a8781" }} />
-                    {label} {fmtUsd(usd)}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
+          {Object.keys(dept.funds_by_class).length > 0 &&
+            (() => {
+              // bars are drawn from POSITIVE components only; negative fund
+              // classes (offsets/credits) are disclosed in text, never used
+              // to distort segment widths
+              const entries = Object.entries(dept.funds_by_class);
+              const positives = entries.filter(([, usd]) => usd > 0);
+              const negatives = entries.filter(([, usd]) => usd < 0);
+              const posSum = positives.reduce((a, [, usd]) => a + usd, 0);
+              return (
+                <div className="mb-3">
+                  {posSum > 0 && (
+                    <div className="flex h-3 overflow-hidden rounded-full">
+                      {positives.map(([label, usd]) => (
+                        <div
+                          key={label}
+                          title={`${label}: ${fmtUsd(usd)}`}
+                          style={{
+                            width: `${(usd / posSum) * 100}%`,
+                            background: FUND_COLORS[label] ?? "#8a8781",
+                          }}
+                        />
+                      ))}
+                    </div>
+                  )}
+                  <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-fog">
+                    {entries.map(([label, usd]) => (
+                      <span key={label} className="flex items-center gap-1">
+                        <span className="h-2 w-2 rounded-sm" style={{ background: FUND_COLORS[label] ?? "#8a8781" }} />
+                        {label} {fmtUsd(usd)}
+                      </span>
+                    ))}
+                  </div>
+                  {negatives.length > 0 && (
+                    <p className="mt-1 text-[11px] text-fog">
+                      Negative amounts are budget offsets/credits — shown in the legend, excluded
+                      from the bar so it can&apos;t misstate the mix.
+                    </p>
+                  )}
+                </div>
+              );
+            })()}
           {dept.programs.slice(0, 10).map((p) => (
             <Row
               key={`${p.program_code}-${p.title}`}
@@ -326,6 +405,18 @@ export function DrillExplorer({
               color="#2a78d6"
             />
           ))}
+          {dept.programs.length > 10 && (
+            <p className="mt-1 text-xs text-fog">
+              Showing the 10 largest of {dept.programs.length} program lines — all are in the{" "}
+              <a
+                href={agencySeg ? `/data/agencies/${agencySeg.cd}.json` : "/data/"}
+                className="underline underline-offset-2 hover:text-ink"
+              >
+                published data
+              </a>
+              .
+            </p>
+          )}
 
           {vendorDept ? (
             <div className="mt-3">
@@ -337,13 +428,33 @@ export function DrillExplorer({
                 color="#1e7f4f"
                 selected={!!checkbookSeg}
                 onClick={() =>
-                  setPath([...path.filter((s) => s.kind !== "checkbook" && s.kind !== "vendor"), { kind: "checkbook", orgCd: dept.org_cd }])
+                  setPath([
+                    ...path.filter(
+                      (s) => s.kind !== "checkbook" && s.kind !== "vendor" && s.kind !== "recovered"
+                    ),
+                    { kind: "checkbook", orgCd: dept.org_cd },
+                  ])
                 }
               />
-              <Terminator flag="trail_ends_here">
-                The other {fmtUsd(dept.total_usd - vendorDept.vendor_total_usd)} never appears in
-                the checkbook — payroll and bulk benefit payments are excluded by design.
-              </Terminator>
+              {dept.total_usd - vendorDept.vendor_total_usd > 0 ? (
+                <Terminator flag="trail_ends_here">
+                  The other {fmtUsd(dept.total_usd - vendorDept.vendor_total_usd)} never appears
+                  in the checkbook — payroll and bulk benefit payments are excluded by design.
+                </Terminator>
+              ) : (
+                <Terminator flag="category_only">
+                  Checkbook payments here exceed this year&apos;s enacted budget by{" "}
+                  {fmtUsd(vendorDept.vendor_total_usd - dept.total_usd)} — payments can draw on
+                  prior-year appropriations and multi-year bond funds, so the two figures measure
+                  different things.
+                </Terminator>
+              )}
+            </div>
+          ) : vendorsDoc === "loading" ? (
+            <p className="mt-3 text-sm text-fog">Checking the checkbook…</p>
+          ) : vendorsDoc === "error" ? (
+            <div className="mt-3">
+              <FetchError what="the checkbook data" />
             </div>
           ) : (
             <Terminator flag="category_only">
@@ -373,7 +484,7 @@ export function DrillExplorer({
               key={v.name}
               label={v.name}
               usd={v.usd}
-              maxUsd={vendorDept.top_vendors[0].usd}
+              maxUsd={vendorDept.top_vendors[0]?.usd ?? 1}
               color={v.public_sector ? "#2a78d6" : "#1e7f4f"}
               chip={
                 v.masked ? (
@@ -386,10 +497,25 @@ export function DrillExplorer({
               onClick={
                 v.masked
                   ? undefined
-                  : () => setPath([...path.filter((s) => s.kind !== "vendor"), { kind: "vendor", name: v.name }])
+                  : () =>
+                      setPath([
+                        ...path.filter((s) => s.kind !== "vendor" && s.kind !== "recovered"),
+                        { kind: "vendor", name: v.name },
+                      ])
               }
             />
           ))}
+          <p className="mt-2 text-xs text-fog">
+            Showing {Math.min(15, vendorDept.top_vendors.length)} of{" "}
+            {vendorDept.vendor_count.toLocaleString()} vendors —{" "}
+            <a
+              href={agencySeg ? `/data/vendors/${agencySeg.cd}.json` : "/data/"}
+              className="underline underline-offset-2 hover:text-ink"
+            >
+              top 25 in the published data
+            </a>
+            ; the raw files carry every transaction.
+          </p>
           {vendorDept.confidential_usd > 0 && (
             <Terminator flag="masked">
               {fmtUsd(vendorDept.confidential_usd)} went to vendors named only
@@ -401,9 +527,10 @@ export function DrillExplorer({
 
       {/* Level 5: vendor profile */}
       {vendorSeg && (
-        <LevelCard step={5} title={vendorSeg.name} subtitle="Everything the checkbook shows for this vendor, FY2020 → today.">
+        <LevelCard step={5} title={vendorSeg.name} subtitle="Everything the checkbook shows for this vendor, FY2020-21 → today (latest year in progress).">
           {profilesDoc === "loading" && <p className="text-sm text-fog">Loading vendor history…</p>}
-          {profilesDoc && profilesDoc !== "loading" && (() => {
+          {profilesDoc === "error" && <FetchError what="the vendor history" />}
+          {profilesDoc && profilesDoc !== "loading" && profilesDoc !== "error" && (() => {
             const p = profilesDoc.data.vendors[vendorSeg.name];
             if (!p)
               return (
@@ -413,36 +540,65 @@ export function DrillExplorer({
                 </Terminator>
               );
             const years = Object.entries(p.years).sort();
-            const maxY = Math.max(...years.map(([, v]) => v));
+            const maxY = Math.max(1, ...years.map(([, v]) => v));
+            const lastFy = years[years.length - 1]?.[0];
             return (
               <div>
                 <p className="text-sm">
                   <span className="font-mono">{fmtUsd(p.total_usd)}</span>{" "}
-                  <span className="text-fog">from the State of California since FY2020</span>
+                  <span className="text-fog">
+                    net from the State of California since FY2020-21
+                  </span>
                 </p>
+                {p.years_gross && (
+                  <p className="mt-0.5 text-xs text-fog">
+                    Net of accounting adjustments — years with material adjustments show
+                    &quot;payments recorded&quot; separately below.
+                  </p>
+                )}
                 <div className="mt-3 flex items-end gap-2">
                   {years.map(([fy, usd]) => (
                     <div key={fy} className="flex flex-col items-center gap-1">
-                      <span className="font-mono text-[10px] text-fog">{fmtUsd(usd)}</span>
+                      <span className="font-mono text-[10px] text-fog">
+                        {fmtUsd(usd)}
+                        {p.years_gross?.[fy] !== undefined && "*"}
+                      </span>
                       <div
-                        className="w-10 rounded-t bg-traceable"
-                        style={{ height: `${Math.max(4, (usd / maxY) * 80)}px` }}
+                        className={cn(
+                          "w-10 rounded-t bg-traceable",
+                          fy === lastFy && "opacity-70" // year in progress
+                        )}
+                        style={{ height: `${Math.max(4, (Math.max(0, usd) / maxY) * 80)}px` }}
                       />
-                      <span className="text-[10px] text-fog">FY{fy.slice(2)}</span>
+                      <span className="text-[10px] text-fog">{fmtFy(fy)}</span>
                     </div>
                   ))}
                 </div>
+                <p className="mt-1 text-[10px] text-fog">
+                  Latest year is in progress (~60-day accounting lag).
+                  {p.years_gross &&
+                    " *Net of material adjustments: " +
+                      Object.entries(p.years_gross)
+                        .sort()
+                        .map(([fy, g]) => `${fmtFy(fy)} ${fmtUsd(g)} recorded`)
+                        .join(", ") +
+                      "."}
+                </p>
                 <div className="mt-4 grid gap-4 sm:grid-cols-2">
                   <div>
-                    <div className="text-xs font-medium text-fog">Paid by</div>
+                    <div className="text-xs font-medium text-fog">
+                      Paid by{p.departments.length > 5 && ` (top 5 of ${p.departments.length})`}
+                    </div>
                     {p.departments.slice(0, 5).map((d) => (
-                      <Row key={d.org_cd} label={d.title} usd={d.usd} maxUsd={p.departments[0].usd} color="#2a78d6" />
+                      <Row key={d.org_cd} label={d.title} usd={d.usd} maxUsd={p.departments[0]?.usd ?? 1} color="#2a78d6" />
                     ))}
                   </div>
                   <div>
-                    <div className="text-xs font-medium text-fog">Under programs</div>
+                    <div className="text-xs font-medium text-fog">
+                      Under programs{p.programs.length >= 6 && " (top programs)"}
+                    </div>
                     {p.programs.slice(0, 5).map((pr) => (
-                      <Row key={pr.program} label={pr.program} usd={pr.usd} maxUsd={p.programs[0].usd} color="#7c5cbf" />
+                      <Row key={pr.program} label={pr.program} usd={pr.usd} maxUsd={p.programs[0]?.usd ?? 1} color="#7c5cbf" />
                     ))}
                   </div>
                 </div>
@@ -485,8 +641,19 @@ export function DrillExplorer({
         </LevelCard>
       )}
 
-      {/* Level 6: recovered hop — BHCIP re-grants */}
-      {recoveredSeg?.program === "bhcip" && bhcipDoc && bhcipDoc !== "loading" && (
+      {/* Level 6: recovered hop — BHCIP re-grants.
+          Gated on the CURRENT vendor being the program administrator so a
+          stale segment can never attribute BHCIP to the wrong vendor. */}
+      {recoveredSeg?.program === "bhcip" &&
+        vendorSeg &&
+        RECOVERED_PROGRAMS[vendorSeg.name]?.program === "bhcip" &&
+        bhcipDoc === "error" && <FetchError what="the BHCIP award data" />}
+      {recoveredSeg?.program === "bhcip" &&
+        vendorSeg &&
+        RECOVERED_PROGRAMS[vendorSeg.name]?.program === "bhcip" &&
+        bhcipDoc &&
+        bhcipDoc !== "loading" &&
+        bhcipDoc !== "error" && (
         <LevelCard
           step={6}
           title={`Recovered hop: ${bhcipDoc.data.project_count} BHCIP projects at ${bhcipDoc.data.entity_count} organizations`}
@@ -504,9 +671,12 @@ export function DrillExplorer({
             <Row
               key={e.name}
               label={e.name}
-              sub={e.projects[0]?.project !== e.name ? e.projects.map((p) => p.project).join(" · ").slice(0, 90) : undefined}
+              sub={(() => {
+                const joined = e.projects.map((p) => p.project).join(" · ");
+                return joined.length > 90 ? `${joined.slice(0, 89)}…` : joined;
+              })()}
               usd={e.project_count}
-              maxUsd={bhcipDoc.data.entities[0].project_count}
+              maxUsd={bhcipDoc.data.entities[0]?.project_count ?? 1}
               color="#1e7f4f"
               valueLabel={`${e.project_count} project${e.project_count > 1 ? "s" : ""}`}
             />

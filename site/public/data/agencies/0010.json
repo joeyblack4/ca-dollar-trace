@@ -5,8 +5,8 @@
     "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
     "license": "Public record (California Department of Finance)"
   },
-  "as_of": "2026-07-16T124947Z",
-  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "as_of": "2026-07-16T172539Z",
+  "ingested_at": "2026-07-16T17:25:39.835631+00:00",
   "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
   "coverage_flag": "traceable",
   "caveats": [
@@ -49,6 +49,12 @@
             "positions": 917.3
           },
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 118195000,
+            "positions": null
+          },
+          {
             "program_code": "0130",
             "title": "Supreme Court",
             "usd": 55162000,
@@ -74,8 +80,8 @@
           "Federal funds": 6806000
         },
         "integrity": {
-          "program_lines_sum_usd": 5135835000,
-          "matches_department_total": false
+          "program_lines_sum_usd": 5254030000,
+          "matches_department_total": true
         }
       },
       {
@@ -110,6 +116,12 @@
             "positions": 257.0
           },
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 50548000,
+            "positions": null
+          },
+          {
             "program_code": "0390",
             "title": "Alfred E. Alquist Seismic Safety Commission",
             "usd": 2500000,
@@ -130,8 +142,8 @@
           "Bond funds": 3061000
         },
         "integrity": {
-          "program_lines_sum_usd": 4423204000,
-          "matches_department_total": false
+          "program_lines_sum_usd": 4473752000,
+          "matches_department_total": true
         }
       },
       {
@@ -494,6 +506,12 @@
         "positions": 0.0,
         "programs": [
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 250000000,
+            "positions": null
+          },
+          {
             "program_code": "0980",
             "title": "Support of the Office of the Legislative Analyst",
             "usd": 13334000,
@@ -514,8 +532,8 @@
         ],
         "funds_by_class": {},
         "integrity": {
-          "program_lines_sum_usd": 0,
-          "matches_department_total": false
+          "program_lines_sum_usd": 250000000,
+          "matches_department_total": true
         }
       },
       {

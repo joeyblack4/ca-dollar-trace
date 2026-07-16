@@ -5,8 +5,8 @@
     "url": "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025",
     "license": "Public Domain (other-pd)"
   },
-  "as_of": "2026-07-16T165001Z",
-  "ingested_at": "2026-07-16T16:50:01.531915+00:00",
+  "as_of": "2026-07-16T173030Z",
+  "ingested_at": "2026-07-16T17:30:30.421038+00:00",
   "cadence": "daily, published ~8:45pm PT",
   "coverage_flag": "traceable",
   "caveats": [
@@ -22,7 +22,8 @@
         "awarded_known_usd": 16899385527.0,
         "amount_unknown_count": 22,
         "with_subrecipients_usd": 4695820416.0,
-        "with_subrecipients_count": 1543
+        "with_subrecipients_count": 1543,
+        "subrecipient_flag_unknown_count": 0
       },
       {
         "fiscal_year": "2023-2024",
@@ -30,7 +31,8 @@
         "awarded_known_usd": 19686435392.0,
         "amount_unknown_count": 13,
         "with_subrecipients_usd": 4331194004.0,
-        "with_subrecipients_count": 1865
+        "with_subrecipients_count": 1865,
+        "subrecipient_flag_unknown_count": 0
       },
       {
         "fiscal_year": "2024-2025",
@@ -38,7 +40,8 @@
         "awarded_known_usd": 17757937718.0,
         "amount_unknown_count": 3,
         "with_subrecipients_usd": 2160834753.0,
-        "with_subrecipients_count": 943
+        "with_subrecipients_count": 943,
+        "subrecipient_flag_unknown_count": 0
       }
     ],
     "top_recipients": [
@@ -477,14 +480,14 @@
         "any_subrecipients": false
       },
       {
-        "recipient_name": "PSGM3, LLC (Pacific Steel Group)",
+        "recipient_name": "Element Lancaster 1 LLC",
         "recipient_type": "Business",
         "award_count": 1,
         "awarded_usd": 118483412.0,
         "any_subrecipients": false
       },
       {
-        "recipient_name": "Element Lancaster 1 LLC",
+        "recipient_name": "PSGM3, LLC (Pacific Steel Group)",
         "recipient_type": "Business",
         "award_count": 1,
         "awarded_usd": 118483412.0,
@@ -743,6 +746,7 @@
         "any_subrecipients": false
       }
     ],
+    "top_recipients_limit": 100,
     "by_agency": [
       {
         "agency_dept": "State Treasurer's Office",
@@ -984,6 +988,9 @@
         "awarded_usd": 58149918.0,
         "with_subrecipients_usd": 26430178.0
       }
-    ]
+    ],
+    "by_agency_limit": 40,
+    "agency_count_total": 63,
+    "agencies_not_shown_usd": 460852245.0
   }
 }

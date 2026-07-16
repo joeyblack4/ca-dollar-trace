@@ -85,7 +85,8 @@ def run_grants_awards(storage: Storage, cfg: SourceConfig, settings: Settings) -
                sum(award_usd)                                  AS awarded_known_usd,
                count(*) FILTER (award_usd IS NULL)             AS amount_unknown_count,
                sum(award_usd) FILTER (has_subrecipients)       AS with_subrecipients_usd,
-               count(*) FILTER (has_subrecipients)             AS with_subrecipients_count
+               count(*) FILTER (has_subrecipients)             AS with_subrecipients_count,
+               count(*) FILTER (has_subrecipients IS NULL)     AS subrecipient_flag_unknown_count
         FROM all_awards GROUP BY 1 ORDER BY 1""")
     top_recipients = _rows(conn, """
         SELECT recipient_name,
@@ -100,12 +101,21 @@ def run_grants_awards(storage: Storage, cfg: SourceConfig, settings: Settings) -
                sum(award_usd)                                  AS awarded_usd,
                sum(award_usd) FILTER (has_subrecipients)       AS with_subrecipients_usd
         FROM all_awards GROUP BY 1 ORDER BY 3 DESC NULLS LAST LIMIT 40""")
+    (agency_total, agencies_all_usd) = conn.execute(
+        "SELECT count(DISTINCT agency_dept), sum(award_usd) FROM all_awards"
+    ).fetchone()
     conn.close()
 
+    shown_usd = sum(a["awarded_usd"] or 0 for a in by_agency)
     doc = {
         "by_fiscal_year": by_fy,
         "top_recipients": top_recipients,
+        "top_recipients_limit": 100,
         "by_agency": by_agency,
+        # disclosure: the by_agency list is a TOP-40, not the universe
+        "by_agency_limit": 40,
+        "agency_count_total": int(agency_total),
+        "agencies_not_shown_usd": float(agencies_all_usd or 0) - shown_usd,
     }
     key = "published/grants_awards.json"
     storage.put_bytes(

@@ -36,19 +36,32 @@ from .http import fetch_bytes
 # departments, counties, cities, districts, public universities). These are
 # transfers within the public sector, not purchases from outside vendors —
 # mixing them changes what "who got paid" means. Published as a heuristic
-# flag (`public_sector`), rule list kept here in the open.
+# flag (`public_sector`), rule list kept here in the open; tested in
+# tests/test_public_sector_regex.py against real vendor names.
 PUBLIC_SECTOR_REGEX = (
     r"^(DEPT|DEPARTMENT) OF|"
     r"^STATE OF |^STATE (CONTROLLER|TREASURER|BAR)|"
     r"^(CA|CALIF|CALIFORNIA) (STATE|DEPT|DEPARTMENT|HIGHWAY|CONSERVATION)|"
-    r"^COUNTY OF |COUNTY (OF[ ,]|TREASURER|OFFICE OF ED)|^CITY OF |CITY & COUNTY|"
+    r"^COUNTY OF |COUNTY (OF[ ,]|TREASURER|OFFICE OF ED)|"
+    r"\bCOUNTY (SUPERINTENDENT|BEHAVIORAL|HEALTH|SHERIFF|PROBATION)|"
+    r"^CITY OF |CITY & COUNTY|^TOWN OF |"
     r"TREASURER OF |AUDITOR[- ]CONTROLLER|"
     r"^UNIVERSITY OF CALIFORNIA|^UC (REGENTS|DAVIS|LOS ANGELES|SAN|BERKELEY|IRVINE|RIVERSIDE)|"
-    r"^REGENTS OF|CAL(IFORNIA)? STATE UNIV|^CSU |"
-    r"SCHOOL DIST|UNIFIED|COMMUNITY COLLEGE|COUNTY SUPERINTENDENT|"
-    r"WATER DIST|IRRIGATION DIST|SANITATION DIST|TRANSIT (DIST|AUTH)|"
-    r"^JUDICIAL COUNCIL|^SUPERIOR COURT|^OFFICE OF THE |"
-    r"HOUSING AUTH|JOINT POWERS|^TOWN OF "
+    r"^REGENTS OF|CAL(IFORNIA)? STATE UNIV|^CSU |\bSTATE UNIVERSITY\b|"
+    r"SCHOOL DIST|UNIFIED (SCHOOL|SD)|\bUSD$|COMMUNITY COLLEGE|"
+    r"WATER DIST(RICT)?\b|IRRIGATION DIST(RICT)?\b|SANITATION DIST(RICT)?\b|"
+    r"TRANSIT (DIST|AUTH)|METROPOLITAN TRANSPORTATION AUTH|"
+    r"^JUDICIAL COUNCIL|^SUPERIOR COURT|"
+    r"^OFFICE OF THE (GOVERNOR|PRESIDENT OF THE|ATTORNEY|SECRETARY|INSPECTOR|STATE)|"
+    r"HOUSING AUTH|JOINT POWERS"
+)
+
+# Known private organizations whose names collide with the patterns above.
+PUBLIC_SECTOR_EXCEPTIONS_REGEX = r"^CITY OF HOPE|WATER DISTRIBUT|SANITATION DISTRIBUT"
+
+PUBLIC_SECTOR_SQL = (
+    f"(regexp_matches(upper({{col}}), '{PUBLIC_SECTOR_REGEX}') "
+    f"AND NOT regexp_matches(upper({{col}}), '{PUBLIC_SECTOR_EXCEPTIONS_REGEX}'))"
 )
 
 CLEANSE_SQL = """
@@ -96,9 +109,12 @@ def run_fiscal_vendor(
     for row in wanted:
         name = row["FileName"]
         state = file_state.get(name)
-        if state and state.get("upload_date") == row["UploadDate"] and state.get(
-            "file_size"
-        ) == row["FileSize"]:
+        if (
+            state
+            and state.get("upload_date") == row["UploadDate"]
+            and state.get("file_size") == row["FileSize"]
+            and storage.exists(state.get("parquet_key", ""))  # manifest may outlive data
+        ):
             skipped += 1
             continue
         file_state[name] = _ingest_file(storage, cfg, row, now)
@@ -187,54 +203,86 @@ def publish_vendor_summaries(
     dept_budget, dept_agency, dept_title = _budget_maps(storage)
 
     conn = duckdb.connect(":memory:")
-    latest_fy = max((s["fy"] for s in file_state.values()), default=None)
+    ps_dept = PUBLIC_SECTOR_SQL.format(col="t.vendor_name")
+    ps_top = PUBLIC_SECTOR_SQL.format(col="any_value(vendor_name)")
+    # per-department latest FY (departments upload on their own schedules; a
+    # single global latest-FY filter would silently drop everyone who hasn't
+    # posted the newest year yet)
     dept_rows = conn.execute(
         f"""
-        SELECT business_unit,
-               any_value(department_name),
+        WITH latest AS (
+            SELECT business_unit, max(fiscal_year_begin) AS fy
+            FROM read_parquet('{glob_path}') GROUP BY 1
+        )
+        SELECT t.business_unit,
+               any_value(t.department_name),
                count(*),
-               count(DISTINCT vendor_name),
-               sum(amount_usd),
-               sum(amount_usd) FILTER (is_confidential),
-               min(accounting_date), max(accounting_date),
-               sum(amount_usd) FILTER (regexp_matches(upper(vendor_name), '{PUBLIC_SECTOR_REGEX}'))
-        FROM read_parquet('{glob_path}')
-        WHERE fiscal_year_begin = '20{latest_fy}'
+               count(DISTINCT t.vendor_name),
+               sum(t.amount_usd),
+               sum(t.amount_usd) FILTER (t.is_confidential),
+               min(t.accounting_date), max(t.accounting_date),
+               sum(t.amount_usd) FILTER ({ps_dept}),
+               sum(t.amount_usd) FILTER (t.account_description = 'SCO Inbound Interface Dept Exp'),
+               count(*) FILTER (t.amount_usd IS NULL),
+               any_value(t.fiscal_year_begin)
+        FROM read_parquet('{glob_path}') t
+        JOIN latest l ON t.business_unit = l.business_unit AND t.fiscal_year_begin = l.fy
         GROUP BY 1
         """
     ).fetchall()
 
     by_agency: dict[str, list[dict[str, Any]]] = {}
     unmatched = []
-    for bu, dname, txns, vendors, total, confid, dmin, dmax, pub_usd in dept_rows:
+    for (
+        bu, dname, txns, vendors, total, confid, dmin, dmax, pub_usd, sco_usd,
+        unparsed, dept_fy,
+    ) in dept_rows:
+        fy_int = int(dept_fy)
         top = conn.execute(
             f"""
             SELECT vendor_name, sum(amount_usd), bool_or(is_confidential),
-                   regexp_matches(upper(any_value(vendor_name)), '{PUBLIC_SECTOR_REGEX}')
+                   {ps_top},
+                   sum(amount_usd) FILTER (amount_usd > 0)
             FROM read_parquet('{glob_path}')
-            WHERE business_unit = ? AND fiscal_year_begin = '20{latest_fy}'
+            WHERE business_unit = ? AND fiscal_year_begin = ?
             GROUP BY 1 ORDER BY 2 DESC LIMIT 25
             """,
-            [bu],
+            [bu, dept_fy],
         ).fetchall()
         budget = dept_budget.get(bu)
         entry = {
             "org_cd": bu,
             "title": dept_title.get(bu, dname),
-            "fiscal_year": f"20{latest_fy}-{latest_fy + 1}",
+            "fiscal_year": f"{fy_int}-{(fy_int + 1) % 100:02d}",
             "transactions": txns,
             "vendor_count": vendors,
             "vendor_total_usd": float(total or 0),
             "confidential_usd": float(confid or 0),
             "public_sector_usd": float(pub_usd or 0),
+            # net effect of account 5390950 (SCO-processed payments reclassified
+            # after the fact) — usually negative; totals above are net of it
+            "sco_interface_net_usd": float(sco_usd or 0),
+            # fail-honest: rows whose amount could not be parsed are counted,
+            # never silently dropped into the sums above
+            "amount_unparsed_count": int(unparsed or 0),
             "accounting_dates": [str(dmin), str(dmax)],
             "enacted_budget_usd": budget,
             "checkbook_coverage_pct": (
                 round(100 * float(total or 0) / budget, 1) if budget else None
             ),
+            "top_vendors_limit": 25,
             "top_vendors": [
-                {"name": v, "usd": float(a), "masked": bool(m), "public_sector": bool(ps)}
-                for v, a, m, ps in top
+                {
+                    "name": v,
+                    "usd": float(a),
+                    "masked": bool(m),
+                    "public_sector": bool(psf),
+                    # gross positives published when adjustments are material (>5%)
+                    "gross_usd": (
+                        float(g) if g and float(a) < float(g) * 0.95 else None
+                    ),
+                }
+                for v, a, m, psf, g in top
             ],
         }
         agency_cd = dept_agency.get(bu)
@@ -263,12 +311,15 @@ def publish_vendor_summaries(
 
     _publish_vendor_profiles(storage, cfg, conn_path=glob_path, now=now, dept_agency=dept_agency)
 
+    latest_fy = max((s["fy"] for s in file_state.values()), default=None)
     overview = {
         "latest_fiscal_year": f"20{latest_fy}-{latest_fy + 1}" if latest_fy else None,
         "files_ingested": len(file_state),
         "departments_with_checkbook": len(dept_rows),
+        "note": "department figures use each department's own latest available fiscal year",
         "vendor_total_usd": sum(float(r[4] or 0) for r in dept_rows),
         "confidential_total_usd": sum(float(r[5] or 0) for r in dept_rows),
+        "amount_unparsed_total": sum(int(r[10] or 0) for r in dept_rows),
         "unmatched_business_units": [
             {"org_cd": e["org_cd"], "title": e["title"], "vendor_total_usd": e["vendor_total_usd"]}
             for e in unmatched
@@ -303,7 +354,7 @@ def _publish_vendor_profiles(
     top = conn.execute(
         f"""
         SELECT vendor_name, sum(amount_usd) total, bool_or(is_confidential),
-               regexp_matches(upper(any_value(vendor_name)), '{PUBLIC_SECTOR_REGEX}')
+               {PUBLIC_SECTOR_SQL.format(col="any_value(vendor_name)")}
         FROM read_parquet('{conn_path}')
         GROUP BY 1 ORDER BY 2 DESC LIMIT 500
         """
@@ -312,7 +363,8 @@ def _publish_vendor_profiles(
     placeholders = ",".join("?" for _ in names)
 
     years = conn.execute(
-        f"""SELECT vendor_name, fiscal_year_begin, sum(amount_usd)
+        f"""SELECT vendor_name, fiscal_year_begin, sum(amount_usd),
+                   sum(amount_usd) FILTER (amount_usd > 0)
             FROM read_parquet('{conn_path}') WHERE vendor_name IN ({placeholders})
             GROUP BY 1,2""",
         names,
@@ -342,8 +394,11 @@ def _publish_vendor_profiles(
         }
         for name, total, masked, pub in top
     }
-    for name, fy, usd in years:
+    for name, fy, usd, gross in years:
         profiles[name]["years"][fy] = float(usd)
+        # keep gross alongside net where adjustments are material
+        if gross and float(usd) < float(gross) * 0.95:
+            profiles[name].setdefault("years_gross", {})[fy] = float(gross)
     for name, bu, dname, usd in depts:
         profiles[name]["departments"].append(
             {
@@ -375,16 +430,28 @@ def _publish_vendor_profiles(
 
 
 def _budget_maps(storage: Storage) -> tuple[dict, dict, dict]:
-    """org_cd -> enacted all-funds budget / agency_cd / title, from ebudget_detail output."""
+    """org_cd -> enacted all-funds budget / agency_cd / title, from ebudget_detail output.
+
+    Falls back to the committed site copies on fresh environments.
+    """
+    from ..config import REPO_ROOT
+
+    site_data = REPO_ROOT / "site" / "public" / "data"
+
+    def _read(key: str) -> bytes | None:
+        raw = storage.get_bytes(key)
+        if raw is None:
+            committed = site_data / key.removeprefix("published/")
+            raw = committed.read_bytes() if committed.exists() else None
+        return raw
+
     budgets: dict[str, float] = {}
     agency_of: dict[str, str] = {}
     titles: dict[str, str] = {}
-    raw = storage.get_bytes("published/budget_waterfall.json")
-    agency_cds = (
-        [a["org_cd"] for a in json.loads(raw)["data"]["agencies"]] if raw else []
-    )
+    raw = _read("published/budget_waterfall.json")
+    agency_cds = [a["org_cd"] for a in json.loads(raw)["data"]["agencies"]] if raw else []
     for cd in agency_cds:
-        doc = storage.get_bytes(f"published/agencies/{cd}.json")
+        doc = _read(f"published/agencies/{cd}.json")
         if not doc:
             continue
         for dept in json.loads(doc)["data"]["departments"]:

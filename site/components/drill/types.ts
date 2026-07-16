@@ -23,6 +23,8 @@ export interface VendorProfile {
   masked: boolean;
   public_sector: boolean;
   years: Record<string, number>;
+  /** gross positives, present only for years with material adjustments */
+  years_gross?: Record<string, number>;
   departments: { org_cd: string; title: string; agency_cd: string | null; usd: number }[];
   programs: { program: string; usd: number }[];
 }

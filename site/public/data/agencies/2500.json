@@ -5,8 +5,8 @@
     "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
     "license": "Public record (California Department of Finance)"
   },
-  "as_of": "2026-07-16T124947Z",
-  "ingested_at": "2026-07-16T12:49:47.012201+00:00",
+  "as_of": "2026-07-16T172539Z",
+  "ingested_at": "2026-07-16T17:25:39.835631+00:00",
   "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
   "coverage_flag": "traceable",
   "caveats": [
@@ -30,6 +30,12 @@
         "general_fund_usd": 133528000,
         "positions": 22614.2,
         "programs": [
+          {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 7330771000,
+            "positions": null
+          },
           {
             "program_code": "1835019",
             "title": "Capital Outlay Projects",
@@ -141,8 +147,8 @@
           "Bond funds": 17186000
         },
         "integrity": {
-          "program_lines_sum_usd": 18741967000,
-          "matches_department_total": true
+          "program_lines_sum_usd": 26072738000,
+          "matches_department_total": false
         }
       },
       {
@@ -171,6 +177,12 @@
             "positions": 1186.0
           },
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 79733000,
+            "positions": null
+          },
+          {
             "program_code": "2060",
             "title": "Vehicle Ownership Security",
             "usd": 77451000,
@@ -190,8 +202,8 @@
           "General Fund": 27978000
         },
         "integrity": {
-          "program_lines_sum_usd": 3478809000,
-          "matches_department_total": false
+          "program_lines_sum_usd": 3558542000,
+          "matches_department_total": true
         }
       },
       {
@@ -297,6 +309,12 @@
             "positions": 448.0
           },
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 5178000,
+            "positions": null
+          },
+          {
             "program_code": "2150",
             "title": "New Motor Vehicle Board",
             "usd": 2155000,
@@ -316,8 +334,8 @@
           "Federal funds": 1392000
         },
         "integrity": {
-          "program_lines_sum_usd": 1480619000,
-          "matches_department_total": false
+          "program_lines_sum_usd": 1485797000,
+          "matches_department_total": true
         }
       },
       {
@@ -350,6 +368,12 @@
         "positions": 517.0,
         "programs": [
           {
+            "program_code": null,
+            "title": "Capital outlay projects (separate ebudget schedule)",
+            "usd": 685283000,
+            "positions": null
+          },
+          {
             "program_code": "1960030",
             "title": "Construction Management",
             "usd": 53364000,
@@ -374,8 +398,8 @@
           "Other funds": 5157000
         },
         "integrity": {
-          "program_lines_sum_usd": 117466000,
-          "matches_department_total": false
+          "program_lines_sum_usd": 802749000,
+          "matches_department_total": true
         }
       },
       {

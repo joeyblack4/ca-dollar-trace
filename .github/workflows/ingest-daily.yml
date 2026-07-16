@@ -40,8 +40,11 @@ jobs:
         run: |
           uv run cadollar run-all
           uv run cadollar sync-site
+      # save manifests only on success: a failed run must be fully retried
+      # next time, not have its already-ingested changes swallowed by a
+      # matching content hash while the site copy was never updated
       - uses: actions/cache/save@v4
-        if: always()
+        if: success()
         with:
           path: data/manifest
           key: manifest-${{ github.run_id }}

@@ -5,12 +5,13 @@
     "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
     "license": "Public record (State of California)"
   },
-  "as_of": "2026-07-16T165202Z",
-  "ingested_at": "2026-07-16T16:52:02.628590+00:00",
+  "as_of": "2026-07-16T173039Z",
+  "ingested_at": "2026-07-16T17:30:39.399549+00:00",
   "cadence": "monthly, ~60-day accounting lag",
   "coverage_flag": "traceable",
   "caveats": [
     "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Amounts are NET of reversal/adjustment entries, which FI$Cal publishes deliberately (see its Learning Center on 'Negative Expenditures' and account 5390950 'SCO Inbound Interface'). Where a vendor's adjustments are material we also publish gross payments recorded, and we surface each department's net SCO-interface effect rather than hiding it.",
     "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
     "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
   ],
@@ -24,163 +25,191 @@
         "vendor_count": 1703,
         "vendor_total_usd": 1118864775.11,
         "confidential_usd": 7268834.74,
-        "public_sector_usd": 187831013.05,
+        "public_sector_usd": 187829130.97,
+        "sco_interface_net_usd": -381181804.73,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-31"
         ],
         "enacted_budget_usd": 1472226000,
         "checkbook_coverage_pct": 76.0,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 154559681.22,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "TURNER CONSTRUCTION CO",
             "usd": 113446590.92,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 158752910.9
           },
           {
             "name": "DPR CONSTRUCTION",
             "usd": 82886677.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "HENSEL PHELPS CONSTRUCTION CO",
             "usd": 72526136.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "THE DOLLYWOOD FOUNDATION",
             "usd": 39885000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ZOVICH CONSTRUCTION",
             "usd": 37355830.44,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ROEBBELEN CONTRACTING INC",
             "usd": 21703279.21,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PACIFIC GAS & ELECTRIC CO",
             "usd": 18798268.43,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 105866581.35
           },
           {
             "name": "PINNER CONSTRUCTION CO INC",
             "usd": 18759011.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SACRAMENTO MUNICIPAL UTIL DIST",
             "usd": 14244946.64,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 17727926.24
           },
           {
             "name": "CA STATE SENATE SENATE RULES COMM",
             "usd": 12627630.07,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "CLARK & SULLIVAN CONST &",
             "usd": 12623166.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CREEKSIDE COMMERCIAL BUILDERS",
             "usd": 9532916.06,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INTER-CON SECURITY SYSTEMS INC",
             "usd": 9239246.79,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 9945497.39
           },
           {
             "name": "PLATINUM SECURITY INC",
             "usd": 9068708.91,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "J C CHANG & ASSOC INC",
             "usd": 8928325.22,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "W E LYONS CONSTRUCTION CO",
             "usd": 8138384.1,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DOWNTOWN FORD SALES",
             "usd": 7959514.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 9128929.42
           },
           {
             "name": "CITY OF LOS ANGELES",
             "usd": 7426790.94,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "Z SQUARED CONSTRUCTION",
             "usd": 7374931.06,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 10526618.98
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 7268834.74,
             "masked": true,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NATIONAL SECURITY INDUSTRIES",
             "usd": 7208431.37,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "LIONAKIS",
             "usd": 7037384.1,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "MCCARTHY BUILDING COS INC",
             "usd": 7028050.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "WEX BANK",
             "usd": 6989259.27,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -193,162 +222,190 @@
         "vendor_total_usd": 617974936.33,
         "confidential_usd": 52152.5,
         "public_sector_usd": 8566813.85,
+        "sco_interface_net_usd": -194654.3,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
         ],
         "enacted_budget_usd": 798801000,
         "checkbook_coverage_pct": 77.4,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "TRANSPORTATION",
             "usd": 145410269.66,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AMERICAN DARK FIBER LLC",
             "usd": 109979227.08,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 182936540.91
           },
           {
             "name": "LEVEL 3 COMMUNICATIONS LLC",
             "usd": 64291248.11,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "RACKSPACE",
             "usd": 33093764.17,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DELL MARKETING LP",
             "usd": 26041894.32,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SISKIYOU TELEPHONE COMPANY",
             "usd": 17500000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INTERNATIONAL BUS MACH CORP",
             "usd": 17276787.71,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 18272667.82
           },
           {
             "name": "ZAYO GROUP LLC",
             "usd": 14808529.16,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CENIC CA MIDDLE MILE",
             "usd": 13476712.67,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "BOLDYN NETWORKS US III LLC",
             "usd": 10723336.98,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CVIN LLC",
             "usd": 9881268.02,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "COLUMBIA TELECOM CORP",
             "usd": 9862391.23,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CA INC",
             "usd": 9497740.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AT&T ENTERPRISES LLC",
             "usd": 6635999.2,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INSIGHT PUBLIC SECTOR INC",
             "usd": 6253773.57,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 7080521.17
           },
           {
             "name": "SOFTWARE AG LLC",
             "usd": 4850863.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DIRECT SYSTEMS SUPPORT",
             "usd": 4560784.02,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 4960634.23
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 4307334.98,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "VERO FIBER NETWORKS LLC",
             "usd": 4089137.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF FISH & WILDLIFE",
             "usd": 3784491.26,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "CRAYON SOFTWARE EXPERTS LLC",
             "usd": 3638825.41,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SHI INTERNATIONAL CORP",
             "usd": 3495071.7,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PRESIDIO HOLDINGS INC",
             "usd": 3386278.79,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "KARUK TRIBE",
             "usd": 3029332.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "KOVARUS INC",
             "usd": 3023130.93,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 3255330.68
           }
         ]
       },
@@ -360,163 +417,191 @@
         "vendor_count": 400,
         "vendor_total_usd": 257568632.88,
         "confidential_usd": 1217609.1,
-        "public_sector_usd": 45032259.34,
+        "public_sector_usd": 45033568.34,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
         ],
         "enacted_budget_usd": 1225174000,
         "checkbook_coverage_pct": 21.0,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "ONCORE CONSULTING LLC",
             "usd": 104465693.68,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 37455255.12,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 49330946.81
           },
           {
             "name": "ADVANCED INTEGRATED SOLNS INC",
             "usd": 16148458.88,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "US POSTAL SERVICE",
             "usd": 11677736.06,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 13677736.06
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 6637974.07,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "ELYON ENTERPRISE STRATEGIES",
             "usd": 4978589.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "IBM CORPORATION",
             "usd": 4617447.12,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INTER-CON SECURITY SYSTEMS INC",
             "usd": 4032828.79,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PITNEY BOWES RESERVE ACCOUNT",
             "usd": 4000000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "RICOH USA INC",
             "usd": 3592868.7,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PRESIDIO NETWORKED SOL GROUP",
             "usd": 3573247.94,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PRESIDIO HOLDINGS INC",
             "usd": 2935457.68,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 3433221.52
           },
           {
             "name": "PERFORMANCE TECH PARTNERS LLC",
             "usd": 2487302.16,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 4499004.32
           },
           {
             "name": "ABLEGOV INC",
             "usd": 2474757.37,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SOFTWARE AG LLC",
             "usd": 2376950.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INSIGHT PUBLIC SECTOR INC",
             "usd": 2005970.2,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 2442319.2
           },
           {
             "name": "IMPRESSION TECHNOLOGY",
             "usd": 1824574.03,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DILTEX INC",
             "usd": 1776481.97,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "KOVARUS INC",
             "usd": 1696210.82,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SECURE SMART SOLUTIONS LLC",
             "usd": 1605642.67,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SOLUTIONS SIMPLIFIED",
             "usd": 1295231.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PUBLIC CONSULTING GROUP LLC",
             "usd": 1264973.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 1217609.1,
             "masked": true,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ENTERPRISE NETWORKING SOLS INC",
             "usd": 1205654.76,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CHARIS CONSULTING GROUP LLC",
             "usd": 1159530.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -528,163 +613,191 @@
         "vendor_count": 386,
         "vendor_total_usd": 68391220.11,
         "confidential_usd": 1384432.25,
-        "public_sector_usd": 31711248.63,
+        "public_sector_usd": 31714248.63,
+        "sco_interface_net_usd": -139875.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-10",
           "2026-03-31"
         ],
         "enacted_budget_usd": 743947000,
         "checkbook_coverage_pct": 9.2,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 20506498.67,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 27121577.63
           },
           {
             "name": "DEPT OF MOTOR VEHICLES",
             "usd": 4938937.09,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "FAST ENTERPRISES LLC",
             "usd": 4650690.94,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 3807314.88,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "SICPA PRODUCT SECURITY",
             "usd": 2383710.79,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 1925810.78,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "MEDIWASTE DISPOSAL LLC",
             "usd": 1571065.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 1384432.25,
             "masked": true,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "LR-PEN 505 N BRAND VENTURE LLC",
             "usd": 1341555.84,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PITNEY BOWES PRESORT SVC LLC",
             "usd": 1272462.55,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INFORMATION INTEL GRP INC",
             "usd": 1100429.99,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ONE MACARTHUR PLACE LLC",
             "usd": 1045384.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "FIRST FIRE CONSULTING LLC",
             "usd": 967820.04,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF THE CA HIGHWAY PATROL",
             "usd": 953486.89,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "SCHNITZER INVESTMENT CORP",
             "usd": 872065.98,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF FOOD & AGRICULTURE",
             "usd": 867813.75,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "PC SPECIALISTS INC",
             "usd": 853719.68,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ZONES LLC",
             "usd": 813776.68,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "GREEN 485 OWNER LLC",
             "usd": 723284.09,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ABLEGOV INC",
             "usd": 664363.95,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SEC GOVT OPERATIONS AGENCY",
             "usd": 655000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CERRITOS TC PROP OWNER JV LLC",
             "usd": 620234.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PRESIDIO HOLDINGS INC",
             "usd": 619082.04,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "BAKER RIVER PARTNERS LP",
             "usd": 534775.41,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 512957.91,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -697,162 +810,190 @@
         "vendor_total_usd": 24680874.21,
         "confidential_usd": 31230.61,
         "public_sector_usd": 3717632.97,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-03",
           "2026-03-30"
         ],
         "enacted_budget_usd": 661725000,
         "checkbook_coverage_pct": 3.7,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "UNTD DOMESTIC WRKRS OF AMERICA",
             "usd": 3383569.05,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SERVICE EMP INT UNION LOCAL 99",
             "usd": 2637260.7,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SACRAMENTO CA I FGF LLC",
             "usd": 2525550.57,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SEIU LOCAL 521",
             "usd": 1953699.71,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 2217641.99
           },
           {
             "name": "OPTM",
             "usd": 1725000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 1457052.42,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "LOS RIOS COMMUNITY COLLEGE DIST",
             "usd": 1056150.0,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 943516.18,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 1046921.23
           },
           {
             "name": "CPS HR CONSULTING",
             "usd": 813387.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "COMPREHENSIVE DRUG TESTING INC",
             "usd": 771676.2,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "MOTHER LODE VAN & STORAGE INC",
             "usd": 501271.35,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ACUITY TECHNICAL SOLUTIONS LLC",
             "usd": 441236.24,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CAPITOL TECH SOLUTIONS",
             "usd": 372642.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "KRONICK MOSKOVITZ TIEDEMANN",
             "usd": 361931.43,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ABLEGOV INC",
             "usd": 314634.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "APPLICATION SOFTWARE INC",
             "usd": 299114.75,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STACKNEXUS INC",
             "usd": 297662.21,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STRATO COMMUNICATIONS INC",
             "usd": 276477.6,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CALLAN LLC",
             "usd": 272191.66,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ALLIED NETWORK SOLUTIONS INC",
             "usd": 265475.51,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ATKINSON ANDELSON LOYA",
             "usd": 228050.57,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "TABORDA SOLUTIONS INC",
             "usd": 222686.92,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ASSESSMENT SYSTEMS CORP",
             "usd": 217072.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 200621.42,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "PROPEL INC",
             "usd": 187500.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -865,162 +1006,190 @@
         "vendor_total_usd": 22589355.72,
         "confidential_usd": 3987.09,
         "public_sector_usd": 5174987.27,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
         ],
         "enacted_budget_usd": 167646000,
         "checkbook_coverage_pct": 13.5,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "CIVILIAN INC",
             "usd": 1493312.28,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "400 R ST SACRAMENTO OWNER LLC",
             "usd": 1324855.12,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "LOS ANGELES CNTY DIST ATTORNEY",
             "usd": 1192384.99,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 2098512.16
           },
           {
             "name": "COUNTY OF SANTA CLARA DA",
             "usd": 1104406.21,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "NAPA SOLANO SANE SART",
             "usd": 1026019.86,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ALAMEDA COUNTY DISTRICT ATTORNEY",
             "usd": 960783.89,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "MIRACLES COUNSELING CENTER INC",
             "usd": 705972.83,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "REGENTS OF THE UNIV OF CA SF",
             "usd": 626636.82,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "DOWNTOWN WOMENS CENTER",
             "usd": 612422.25,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 667836.23
           },
           {
             "name": "CITRUS COUNSELING SERVICES INC",
             "usd": 603608.68,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "UNIVERSITY OF SOUTHERN CA",
             "usd": 590101.28,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "THE UNIVERSITY CORPORATION",
             "usd": 585962.18,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONTRA COSTA FAM JUS ALLIANCE",
             "usd": 582907.77,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CSU LONG BEACH RESEARCH FDN",
             "usd": 575116.43,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "OLIVE VIEW-UCLA EDUCATION &",
             "usd": 554612.03,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AMANECER COMM COUNSELING SVC",
             "usd": 532338.36,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CITY & COUNTY OF SAN FRANCISCO",
             "usd": 512271.46,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "RUBYS PLACE INC",
             "usd": 503634.01,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "REGENTS OF UNIV OF CA DAVIS",
             "usd": 498801.08,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "HARBOR - UCLA MEDICAL CENTER",
             "usd": 432352.25,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PALOMAR HEALTH FOUNDATION",
             "usd": 430447.12,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "FAMILY DYNAMICS RESOURCE CTR",
             "usd": 377034.13,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CO OF SAN DIEGO DIST ATTORNEY",
             "usd": 368183.39,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PARTNERSHIPS FOR TRAUMA REC",
             "usd": 361713.01,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CITY OF LOS ANGELES",
             "usd": 354158.02,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           }
         ]
       },
@@ -1033,162 +1202,190 @@
         "vendor_total_usd": 7569227.23,
         "confidential_usd": 21481.42,
         "public_sector_usd": 2066348.21,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-25"
         ],
         "enacted_budget_usd": 24731000,
         "checkbook_coverage_pct": 30.6,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "SLALOM INC",
             "usd": 1434700.61,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 1075479.43,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 1140369.4
           },
           {
             "name": "WESTED",
             "usd": 628376.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 618226.92,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "HISPANAS ORGANIZED FOR",
             "usd": 500000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NATIONAL STUDENT CLEARINGHOUSE",
             "usd": 484760.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ENTERPRISE NETWORKING SOLS INC",
             "usd": 444820.9,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SOLUTIONS SIMPLIFIED",
             "usd": 338861.25,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "TAMR INC",
             "usd": 273000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SUNSTONEIT LLC",
             "usd": 221670.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF HUMAN RESOURCES",
             "usd": 193250.0,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "QUALAPPS INC",
             "usd": 185861.18,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "400 R ST SACRAMENTO OWNER LLC",
             "usd": 179426.38,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "10UP LLC",
             "usd": 105524.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "REGENTS OF UNIV OF CA DAVIS",
             "usd": 93307.0,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "INFINITE SOLUTIONS INC",
             "usd": 91777.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "EMPLOYMENT DEVELOPMENT DEPT",
             "usd": 86648.29,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "REGENTS OF THE UNIV OF CA",
             "usd": 84026.07,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "US BANK",
             "usd": 83313.86,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 106405.23
           },
           {
             "name": "PASSAGEWAYS INC",
             "usd": 50562.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "LEADING RESOURCES INC",
             "usd": 45725.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CAL INTERPRETING",
             "usd": 32011.94,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 29114.24,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STRATO COMMUNICATIONS INC",
             "usd": 27979.13,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STACKNEXUS INC",
             "usd": 26520.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -1201,162 +1398,190 @@
         "vendor_total_usd": 6974826.0,
         "confidential_usd": 6496.72,
         "public_sector_usd": 676571.64,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-01",
           "2026-03-30"
         ],
         "enacted_budget_usd": 25124000,
         "checkbook_coverage_pct": 27.8,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "NAVA TECHNOLOGIES",
             "usd": 1838052.05,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ANALYTICA CONSULTING LLC",
             "usd": 1060272.17,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "GOV BLOOM LLC",
             "usd": 943848.58,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ENTERPRISE NETWORKING SOLS INC",
             "usd": 476157.46,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ACUITY TECHNICAL SOLUTIONS LLC",
             "usd": 338920.3,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 218923.83,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "IOPREDICT INC",
             "usd": 202781.1,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CITY OF SACRAMENTO",
             "usd": 202754.24,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "BM ASSOCIATES INC",
             "usd": 162900.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PRODIGY CONSULTING LLC",
             "usd": 133537.57,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 126900.47,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 159244.72
           },
           {
             "name": "DEPT OF HUMAN RESOURCES",
             "usd": 112500.0,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 124380.0
           },
           {
             "name": "CARNEGIE ENDOWMENT FOR",
             "usd": 106191.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NATIX INC",
             "usd": 101323.36,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "INSIGHT PUBLIC SECTOR INC",
             "usd": 88977.85,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ADVANCED TECHNICAL SOLUTIONS",
             "usd": 86705.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "TECHNOLOGY CREST CORPORATION",
             "usd": 77000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STRATO COMMUNICATIONS INC",
             "usd": 64318.48,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ALLIED NETWORK SOLUTIONS INC",
             "usd": 61647.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "QUALITY TECH SOLUTIONS LLC",
             "usd": 59881.71,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "HAMUTECH CORP",
             "usd": 40250.11,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ONPAR ADVISORS LLC",
             "usd": 38648.6,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "ABLEGOV INC",
             "usd": 37949.16,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SEE STRATEGIES",
             "usd": 35580.75,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PACIFIC COPIER & COMPUTER",
             "usd": 33021.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -1369,162 +1594,190 @@
         "vendor_total_usd": 1696513.71,
         "confidential_usd": 2012.18,
         "public_sector_usd": 977266.05,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-07",
           "2026-03-30"
         ],
         "enacted_budget_usd": 14763000,
         "checkbook_coverage_pct": 11.5,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 925102.05,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": 1227603.53
           },
           {
             "name": "MITRATECH HOLDINGS INC",
             "usd": 122408.74,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "WEST A THOMSON REUTERS BUSINESS",
             "usd": 119854.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 143494.8
           },
           {
             "name": "ENCHOICE INC",
             "usd": 100792.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PLATINUM SECURITY INC",
             "usd": 85076.83,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 102353.39
           },
           {
             "name": "VISIONARY INTEGRATION PROF LLC",
             "usd": 83505.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 51103.2,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "NWN SOLUTIONS CORPORATION",
             "usd": 42325.41,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 46284.78
           },
           {
             "name": "NOTED TECHNOLOGY SOLUTIONS INC",
             "usd": 28403.55,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NORTHERN CALI COURT REPORTERS",
             "usd": 25301.75,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "T-MOBILE USA INC",
             "usd": 19534.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "QUADIENT FINANCE USA INC",
             "usd": 14000.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CIVICPLUS LLC",
             "usd": 11893.77,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NWN CORPORATION",
             "usd": 11030.36,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STRATO COMMUNICATIONS INC",
             "usd": 8994.96,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SAP PUBLIC SERVICES INC",
             "usd": 6481.55,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "SMILE BUSINESS PRODUCTS INC",
             "usd": 4428.14,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 3007.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "U S BANK NATIONAL ASSOCIATION",
             "usd": 2983.01,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "PAPER DISTRIBUTORS INC",
             "usd": 2960.18,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONTINUING EDU OF THE BAR",
             "usd": 2928.8,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "QUADIENT INC",
             "usd": 2913.4,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "LANGUAGE LINE SOLUTIONS",
             "usd": 2757.5,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONNECT CARD REGIONAL SVC CTR",
             "usd": 2708.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 2012.18,
             "masked": true,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           }
         ]
       },
@@ -1537,102 +1790,120 @@
         "vendor_total_usd": 579448.67,
         "confidential_usd": 767.85,
         "public_sector_usd": 200576.74,
+        "sco_interface_net_usd": 0.0,
+        "amount_unparsed_count": 0,
         "accounting_dates": [
           "2025-07-02",
           "2026-03-19"
         ],
         "enacted_budget_usd": 5889000,
         "checkbook_coverage_pct": 9.8,
+        "top_vendors_limit": 25,
         "top_vendors": [
           {
             "name": "300 CAPITOL MALL INVESTORS LP",
             "usd": 311718.96,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "DEPT OF GENERAL SERVICES",
             "usd": 174420.53,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "DEPARTMENT OF TECHNOLOGY",
             "usd": 25886.05,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "SMILE BUSINESS PRODUCTS INC",
             "usd": 23969.77,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "VALLEY COURIER XPRESS INC",
             "usd": 11870.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "EAGAN US HOLDCO LLC",
             "usd": 10119.6,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "US BANK",
             "usd": 9323.67,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "AT&T GLOBAL SERVICES INC",
             "usd": 8045.03,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "VERIZON WIRELESS SVCS LLC",
             "usd": 1815.26,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CONFIDENTIAL",
             "usd": 767.85,
             "masked": true,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "NWN SOLUTIONS CORPORATION",
             "usd": 617.84,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "WIND DANCER MOVING CO",
             "usd": 540.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "STATE CONTROLLER",
             "usd": 270.16,
             "masked": false,
-            "public_sector": true
+            "public_sector": true,
+            "gross_usd": null
           },
           {
             "name": "FEDERAL EXPRESS CORPORATION",
             "usd": 83.95,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": null
           },
           {
             "name": "CA CORRECTIONAL TRNG REHAB AUT",
             "usd": 0.0,
             "masked": false,
-            "public_sector": false
+            "public_sector": false,
+            "gross_usd": 531.0
           }
         ]
       }

@@ -18,6 +18,7 @@ max_row_drop_pct: 30
 coverage_flag: traceable
 caveats:
   - "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments — so checkbook totals are far below budget totals by design; we publish the coverage percentage per department."
+  - "Amounts are NET of reversal/adjustment entries, which FI$Cal publishes deliberately (see its Learning Center on 'Negative Expenditures' and account 5390950 'SCO Inbound Interface'). Where a vendor's adjustments are material we also publish gross payments recorded, and we surface each department's net SCO-interface effect rather than hiding it."
   - "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it."
   - "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
 info:

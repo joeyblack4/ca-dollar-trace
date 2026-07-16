@@ -20,7 +20,9 @@ interface FederalDoc {
 export default async function FederalPage() {
   const pub = await loadPublished<FederalDoc>("federal_ca");
   const d = pub.data;
-  const masked = d.recipients.find((r) => r.masked_aggregate);
+  // ALL masked aggregates (privacy-masked individuals, PII redactions) —
+  // every one is shown; none may silently vanish
+  const masked = d.recipients.filter((r) => r.masked_aggregate);
   const named = d.recipients.filter((r) => !r.masked_aggregate);
 
   return (
@@ -35,15 +37,23 @@ export default async function FederalPage() {
         flows <em>through</em> the state budget you see on the waterfall.
       </p>
 
-      {masked && (
+      {masked.length > 0 && (
         <div className="mt-6 max-w-2xl rounded-lg border border-dark-zone/30 p-4 [background-image:repeating-linear-gradient(45deg,transparent,transparent_6px,rgba(87,83,78,0.05)_6px,rgba(87,83,78,0.05)_12px)]">
           <div className="flex items-center gap-2 text-sm font-medium">
-            {fmtUsd(masked.amount_usd)} to individuals <CoverageBadge flag="masked" />
+            {fmtUsd(masked.reduce((s, m) => s + m.amount_usd, 0))} masked{" "}
+            <CoverageBadge flag="masked" />
           </div>
+          <ul className="mt-1 space-y-1 text-sm text-fog">
+            {masked.map((m) => (
+              <li key={m.name}>
+                <span className="font-mono text-xs">{fmtUsd(m.amount_usd)}</span> — {m.name}
+              </li>
+            ))}
+          </ul>
           <p className="mt-1 text-sm text-fog">
-            The single largest line is payments aggregated across many individual people (direct
-            benefits), masked for privacy by the federal government. We show it rather than
-            pretending it isn&apos;t there.
+            Payments aggregated across many individual people (direct benefits) or redacted for
+            privacy by the federal government. We show every masked line rather than pretending
+            it isn&apos;t there.
           </p>
         </div>
       )}
@@ -82,6 +92,9 @@ export default async function FederalPage() {
 
         <section>
           <h2 className="text-xl font-semibold">Which federal agencies send it</h2>
+          <p className="mt-1 text-xs text-fog">
+            Top 12 of {d.awarding_agencies.length} in the published data.
+          </p>
           <ul className="mt-3 space-y-1.5">
             {d.awarding_agencies.slice(0, 12).map((a) => {
               const max = d.awarding_agencies[0].amount_usd;

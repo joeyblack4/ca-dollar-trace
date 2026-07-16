@@ -73,7 +73,14 @@ def build_waterfall(
     sankey: dict[str, Any], stats: list[dict[str, Any]], settings: Settings
 ) -> dict[str, Any]:
     nodes = {n["node"]: n["name"] for n in sankey["nodes"]}
-    gf_id = next(i for i, name in nodes.items() if name == "")  # the center General Fund node
+    # the center General Fund hub is the blank-named node; anything else is a
+    # schema change we must not guess through
+    blanks = [i for i, name in nodes.items() if name == ""]
+    if len(blanks) != 1:
+        raise QualityGateError(
+            f"ebudget sankey: expected exactly one blank hub node, found {len(blanks)}"
+        )
+    gf_id = blanks[0]
 
     revenue = [
         {"name": nodes[link["source"]], "usd": link["value"] * SANKEY_UNIT}
@@ -90,9 +97,14 @@ def build_waterfall(
     expenditure_total = sankey["expenditureTotal"] * SANKEY_UNIT
 
     # --- fail-honest cross-checks: refuse to publish numbers that don't add up
-    if sum(r["usd"] for r in revenue) != revenue_total:
+    # (tolerance instead of float equality: fractional-million inputs must not
+    # spuriously trip the gate)
+    def _off(total: float, parts: float) -> bool:
+        return abs(total - parts) > max(1.0, abs(total) * 1e-9)
+
+    if _off(revenue_total, sum(r["usd"] for r in revenue)):
         raise QualityGateError("ebudget sankey: revenue links do not sum to revenueTotal")
-    if sum(e["usd"] for e in expenditure) != expenditure_total:
+    if _off(expenditure_total, sum(e["usd"] for e in expenditure)):
         raise QualityGateError("ebudget sankey: expenditure links do not sum to expenditureTotal")
 
     grand_totals = {a["stateGrandTotal"] for a in stats}
@@ -106,6 +118,7 @@ def build_waterfall(
             f"{state_grand_total} (>0.5% off)"
         )
 
+    hidden = [a for a in stats if a.get("displayOnWebFlg") != "Y"]
     agencies = sorted(
         (
             {
@@ -139,6 +152,13 @@ def build_waterfall(
             "gap_usd": expenditure_total - revenue_total,
         },
         "agencies": agencies,
+        # rows the source itself hides from display but counts in the grand
+        # total — disclosed so the published list reconciles to the total
+        "agencies_excluded_from_display": {
+            "count": len(hidden),
+            "state_funds_usd": sum((a.get("stateBudgetYearDols") or 0) for a in hidden)
+            * STATS_UNIT,
+        },
         "state_grand_total_usd": state_grand_total,
         "downstream_visibility": downstream,
     }

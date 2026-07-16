@@ -99,8 +99,11 @@ class R2Storage:
         try:
             self.client.head_object(Bucket=self.bucket, Key=key)
             return True
-        except Exception:
-            return False
+        except self.client.exceptions.ClientError as e:
+            code = e.response.get("ResponseMetadata", {}).get("HTTPStatusCode")
+            if code == 404:
+                return False
+            raise  # auth/network problems must not read as "object missing"
 
     def local_path(self, key: str) -> Path | None:
         return None

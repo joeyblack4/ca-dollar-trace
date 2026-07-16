@@ -65,6 +65,9 @@ def run_ebudget_detail(storage: Storage, cfg: SourceConfig, settings: Settings) 
                     "funds": _fetch_json_or_none(
                         cfg.endpoints["fund_support"].format(org_cd=org_cd)
                     ),
+                    "cap_outlay": _fetch_json_or_none(
+                        cfg.endpoints["cap_outlay"].format(org_cd=org_cd)
+                    ),
                 }
             )
             dept_count += 1
@@ -119,9 +122,17 @@ def run_ebudget_detail(storage: Storage, cfg: SourceConfig, settings: Settings) 
 def _load_summary(storage: Storage) -> dict[str, Any]:
     raw = storage.get_bytes("published/budget_waterfall.json")
     if raw is None:
-        raise QualityGateError(
-            "ebudget_detail requires budget_waterfall.json; run ebudget_enacted first"
-        )
+        # fresh environment (e.g. CI runner) where the enacted source no-op'd:
+        # fall back to the committed copy the site serves
+        from ..config import REPO_ROOT
+
+        committed = REPO_ROOT / "site" / "public" / "data" / "budget_waterfall.json"
+        if committed.exists():
+            raw = committed.read_bytes()
+        else:
+            raise QualityGateError(
+                "ebudget_detail requires budget_waterfall.json; run ebudget_enacted first"
+            )
     return json.loads(raw)["data"]
 
 
@@ -163,6 +174,22 @@ def build_agency_details(
                     }
                     for ln in m["programs"].get("lines", [])
                 ]
+                # capital outlay is published as a separate schedule; append it
+                # as its own line so program sums can honestly match totals
+                cap = sum(
+                    (f.get("byTotDols") or 0) * K
+                    for f in (m.get("cap_outlay") or [])
+                    if isinstance(f, dict)
+                )
+                if cap:
+                    lines.append(
+                        {
+                            "program_code": None,
+                            "title": "Capital outlay projects (separate ebudget schedule)",
+                            "usd": cap,
+                            "positions": None,
+                        }
+                    )
                 lines_sum = sum(ln["usd"] for ln in lines)
                 integrity = {
                     "program_lines_sum_usd": lines_sum,
