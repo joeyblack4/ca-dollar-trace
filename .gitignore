@@ -16,6 +16,10 @@ out/
 next-env.d.ts
 *.tsbuildinfo
 
+# playwright
+test-results/
+playwright-report/
+
 # env & os
 .env
 .env.*

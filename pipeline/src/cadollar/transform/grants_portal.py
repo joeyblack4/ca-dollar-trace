@@ -48,7 +48,9 @@ def cleanse(raw_csv: bytes, as_of: str, content_hash: str) -> tuple[bytes, int]:
 
         conn = duckdb.connect(":memory:")
         conn.execute(CLEANSE_SQL, ["grants_portal", as_of, content_hash, str(csv_path)])
-        (row_count,) = conn.execute("SELECT count(*) FROM cleansed").fetchone()
+        count_row = conn.execute("SELECT count(*) FROM cleansed").fetchone()
+        assert count_row is not None
+        (row_count,) = count_row
         conn.execute(f"COPY cleansed TO '{out_path}' (FORMAT PARQUET, COMPRESSION ZSTD)")
         conn.close()
         return out_path.read_bytes(), int(row_count)

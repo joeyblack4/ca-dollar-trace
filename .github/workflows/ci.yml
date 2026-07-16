@@ -15,6 +15,9 @@ jobs:
       - uses: astral-sh/setup-uv@v5
       - run: uv sync
       - run: uv run ruff check src tests
+      - run: uv run pyright
+      # pytest includes the published-data CONTRACT tests: every push must
+      # keep the committed site data consistent with what the UI renders
       - run: uv run pytest -q
 
   site:
@@ -28,3 +31,5 @@ jobs:
       - run: npm ci
       - run: npm run type-check
       - run: npm run build
+      - run: npx playwright install chromium --with-deps
+      - run: npx playwright test

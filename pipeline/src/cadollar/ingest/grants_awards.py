@@ -70,7 +70,9 @@ def run_grants_awards(storage: Storage, cfg: SourceConfig, settings: Settings) -
             conn.execute(f"CREATE TABLE awards_{name} AS SELECT * FROM awards")
             frames.append(f"SELECT * FROM awards_{name}")
         conn.execute(f"CREATE TABLE all_awards AS {' UNION ALL '.join(frames)}")
-        (total_rows,) = conn.execute("SELECT count(*) FROM all_awards").fetchone()
+        count_row = conn.execute("SELECT count(*) FROM all_awards").fetchone()
+        assert count_row is not None
+        (total_rows,) = count_row
         if total_rows < cfg.min_rows:
             raise QualityGateError(f"{cfg.source}: {total_rows} rows < {cfg.min_rows}")
 
@@ -101,9 +103,11 @@ def run_grants_awards(storage: Storage, cfg: SourceConfig, settings: Settings) -
                sum(award_usd)                                  AS awarded_usd,
                sum(award_usd) FILTER (has_subrecipients)       AS with_subrecipients_usd
         FROM all_awards GROUP BY 1 ORDER BY 3 DESC NULLS LAST LIMIT 40""")
-    (agency_total, agencies_all_usd) = conn.execute(
+    agency_row = conn.execute(
         "SELECT count(DISTINCT agency_dept), sum(award_usd) FROM all_awards"
     ).fetchone()
+    assert agency_row is not None
+    (agency_total, agencies_all_usd) = agency_row
     conn.close()
 
     shown_usd = sum(a["awarded_usd"] or 0 for a in by_agency)

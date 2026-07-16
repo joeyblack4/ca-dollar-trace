@@ -170,8 +170,9 @@ def _ingest_file(
         src.write_bytes(body)
         conn = duckdb.connect(":memory:")
         conn.execute(CLEANSE_SQL, [name, row["UploadDate"], now.isoformat(), str(src)])
-        (rows,) = conn.execute("SELECT count(*) FROM cleansed").fetchone()
-        (total,) = conn.execute("SELECT sum(amount_usd) FROM cleansed").fetchone()
+        stats_row = conn.execute("SELECT count(*), sum(amount_usd) FROM cleansed").fetchone()
+        assert stats_row is not None
+        rows, total = stats_row
         conn.execute(f"COPY cleansed TO '{out}' (FORMAT PARQUET, COMPRESSION ZSTD)")
         conn.close()
         parquet_key = f"cleansed/fiscal_vendor/fy{fy}/{bu}.parquet"
@@ -196,9 +197,10 @@ def publish_vendor_summaries(
     now: datetime,
 ) -> str:
     """Aggregate all cleansed parquet -> per-agency vendor JSON + coverage overview."""
-    glob_path = storage.local_path("cleansed/fiscal_vendor/*/*.parquet")
-    if glob_path is None:
+    local = storage.local_path("cleansed/fiscal_vendor/*/*.parquet")
+    if local is None:
         raise NotImplementedError("fiscal_vendor aggregation currently requires local storage")
+    glob_path = str(local)
 
     dept_budget, dept_agency, dept_title = _budget_maps(storage)
 
