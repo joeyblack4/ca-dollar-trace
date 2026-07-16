@@ -38,6 +38,37 @@ export interface CompensationDoc {
   >;
 }
 
+export interface EntitiesDoc {
+  name_index: Record<string, string>;
+  entities: Record<
+    string,
+    {
+      canonical_name: string;
+      ids: { ein?: string; uei?: string; ct_number?: string };
+      registry_status?: string;
+      may_operate?: boolean;
+      lane_count: number;
+      confidence: string;
+      ambiguous_identity?: boolean;
+      appearances: Record<
+        string,
+        {
+          note: string;
+          total_usd?: number;
+          awarded_usd?: number;
+          award_count?: number;
+          project_count?: number;
+          amount_usd?: number;
+          expended_usd?: number;
+          revenue_usd?: number;
+          entity_type?: string;
+          url?: string;
+        }
+      >;
+    }
+  >;
+}
+
 export interface K12Doc {
   fiscal_year: string;
   lea_count: number;

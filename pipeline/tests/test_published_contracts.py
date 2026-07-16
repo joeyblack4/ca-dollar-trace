@@ -372,3 +372,27 @@ def test_compensation_org_cd_join():
     for cd in ("4260", "5180", "4265", "2660"):  # DHCS, DSS, CDPH, Caltrans
         assert cd in m, f"department {cd} lost its payroll match"
         assert m[cd]["wages_usd"] > 0 and m[cd]["benefits_usd"] > 0
+
+
+# ---------- entity resolution crosswalk ----------
+
+
+def test_entities_contract():
+    d = load("entities.json")["data"]
+    assert d["entity_count"] >= 200
+    assert d["multi_lane_count"] >= 30, "cross-source unification collapsed"
+    assert d["identifier_anchored_count"] > 0
+    # every published entity is dossier-worthy (multi-lane or has an ID)
+    for key, e in d["entities"].items():
+        assert e["lane_count"] >= 2 or e["ids"], f"{key}: not dossier-worthy"
+        assert e["confidence"] in {"identifier-anchored", "name-matched", "single-source"}
+        if e.get("ambiguous_identity"):
+            assert e["ids"] == {}, "ambiguous entity must not publish IDs"
+    # the name index resolves to real entities
+    for raw, key in list(d["name_index"].items())[:50]:
+        assert key in d["entities"]
+    # a known cross-source org unifies (CALSTART: checkbook + grants + 990)
+    calstart = next(
+        (e for e in d["entities"].values() if "CALSTART" in e["canonical_name"].upper()), None
+    )
+    assert calstart and calstart["lane_count"] >= 3 and calstart["ids"].get("ein")

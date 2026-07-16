@@ -44,6 +44,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/gaps/" className="hover:text-ink">
                 Dark zones
               </Link>
+              <Link href="/methodology/" className="hover:text-ink">
+                Methodology
+              </Link>
             </div>
           </nav>
         </header>

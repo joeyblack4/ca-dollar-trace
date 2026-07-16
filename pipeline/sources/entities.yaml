@@ -1,0 +1,24 @@
+# Entity resolution: one organization, unified across every lane on the site.
+# Deterministic-first — normalized name is the join key (most sources carry
+# only names); strong identifiers (EIN, CT#, UEI, DUNS) are attached as
+# attributes wherever a source provides them, and a name that maps to two
+# different strong IDs is flagged ambiguous rather than guessed. Reads the
+# already-published lane outputs; produces the cross-source "follow the dollar"
+# dossiers. No network — runs last, after every source it consumes.
+source: entities
+dataset: crosswalk
+access: derived
+cadence: "recomputed each run from the published lane data"
+freshness_sla_hours: 1440
+min_rows: 200
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Organizations are matched across sources by normalized name; strong identifiers (EIN, UEI, charity CT number) are attached where a source publishes one. Name-only matches carry lower confidence than identifier-anchored ones."
+  - "A normalized name that resolves to two different strong identifiers is flagged ambiguous and not merged — better an unlinked record than a wrong one."
+  - "Amounts shown per lane keep each lane's own basis and year; they are NOT summed across lanes (a grant, a checkbook payment, and audited federal spending measure different things) — see the methodology page."
+info:
+  name: "Cross-Source Entity Crosswalk"
+  publisher: "CA Dollar Trace (derived from cited public sources)"
+  url: "https://github.com/joeyblack4/ca-dollar-trace"
+  license: "Derived work; each underlying figure keeps its source's license"

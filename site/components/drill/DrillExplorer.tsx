@@ -18,6 +18,7 @@ import type {
   BhcipDoc,
   CompensationDoc,
   CountyFinancesDoc,
+  EntitiesDoc,
   K12Doc,
   MedicalPlansDoc,
   NonprofitsDoc,
@@ -304,6 +305,7 @@ export function DrillExplorer({
   const nonprofitsDoc = useJson<Published<NonprofitsDoc>>(
     vendorSeg ? "/data/nonprofits.json" : null
   );
+  const entitiesDoc = useJson<Published<EntitiesDoc>>(vendorSeg ? "/data/entities.json" : null);
 
   if (!area) {
     return (
@@ -792,6 +794,59 @@ export function DrillExplorer({
                         </span>
                       )}
                     </p>
+                  );
+                })()}
+                {(() => {
+                  const ed =
+                    entitiesDoc && entitiesDoc !== "loading" && entitiesDoc !== "error"
+                      ? entitiesDoc.data
+                      : null;
+                  const key = ed?.name_index[vendorSeg.name.toUpperCase()];
+                  const e = key ? ed!.entities[key] : null;
+                  if (!e || e.lane_count < 2) return null;
+                  const LANE: Record<string, { label: string; amount?: number; href: string }> = {
+                    checkbook: { label: "State checkbook", amount: e.appearances.checkbook?.total_usd, href: "#drill" },
+                    grants: { label: "State grants", amount: e.appearances.grants?.awarded_usd, href: "/grants/" },
+                    bhcip: { label: "BHCIP projects", href: "/gaps/" },
+                    federal_recipient: { label: "Federal awards", amount: e.appearances.federal_recipient?.amount_usd, href: "/federal/" },
+                    federal_audit: { label: "Audited federal spending", amount: e.appearances.federal_audit?.expended_usd, href: "/federal/" },
+                    irs_990: { label: "IRS 990 revenue", amount: e.appearances.irs_990?.revenue_usd, href: e.appearances.irs_990?.url ?? "#" },
+                  };
+                  return (
+                    <div className="mt-3 rounded-md border border-rule bg-white/40 p-3">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-sm font-semibold">This organization across California</span>
+                        {Object.entries(e.ids).map(([k, v]) => (
+                          <span key={k} className="rounded border border-rule px-1.5 py-0.5 font-mono text-[10px] text-fog">
+                            {k.toUpperCase()} {v}
+                          </span>
+                        ))}
+                      </div>
+                      <ul className="mt-2 space-y-1 text-sm">
+                        {Object.keys(e.appearances).map((lane) => {
+                          const info = LANE[lane];
+                          if (!info) return null;
+                          return (
+                            <li key={lane} className="flex items-baseline justify-between gap-3">
+                              <a href={info.href} className="text-ink underline decoration-rule underline-offset-2 hover:text-poppy">
+                                {info.label}
+                              </a>
+                              <span className="shrink-0 font-mono text-xs">
+                                {info.amount != null ? fmtUsd(info.amount) : e.appearances[lane].project_count ? `${e.appearances[lane].project_count} projects` : "—"}
+                              </span>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                      <p className="mt-1.5 text-[11px] text-fog">
+                        Each figure is on its own source and basis — a grant, a payment, and audited
+                        federal spending measure different things and are{" "}
+                        <a href="/methodology/" className="underline underline-offset-2 hover:text-ink">
+                          not added together
+                        </a>
+                        .
+                      </p>
+                    </div>
                   );
                 })()}
                 <div className="mt-3 flex items-end gap-2">
