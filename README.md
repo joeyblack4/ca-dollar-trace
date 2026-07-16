@@ -60,7 +60,7 @@ cd site && npm run build && npx wrangler deploy
 | ebudget department detail (230 depts × programs + funds) | budget cycle | ✅ live |
 | [California Grants Portal](https://data.ca.gov/dataset/california-grants-portal) | daily | ✅ live |
 | USAspending federal-into-CA recipients | monthly-ish | ✅ live |
-| Open FI$Cal vendor transactions | monthly (60-day lag) | ⚠️ CAPTCHA-gated (see /gaps) |
+| Open FI$Cal vendor transactions (state checkbook) | monthly (60-day lag) | ✅ live (FY20+; heavy — run explicitly, excluded from cron) |
 | SCO ByTheNumbers | annual | planned (Phase 1) |
 | SACS / Ed-Data | annual | planned (Phase 1) |
 

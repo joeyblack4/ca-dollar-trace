@@ -1,0 +1,1015 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "departments": [
+      {
+        "org_cd": "3970",
+        "title": "Resources Recycling and Recovery",
+        "fiscal_year": "2025-26",
+        "transactions": 79724,
+        "vendor_count": 812,
+        "vendor_total_usd": 2818234701.96,
+        "confidential_usd": 2544003086.82,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 1952107000,
+        "checkbook_coverage_pct": 144.4,
+        "top_vendors": [
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 2544003086.82,
+            "masked": true
+          },
+          {
+            "name": "NORTHERN RECYCLING LLC",
+            "usd": 11347728.28,
+            "masked": false
+          },
+          {
+            "name": "ANDERSON LANDFILL INC",
+            "usd": 10556392.66,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF JUSTICE",
+            "usd": 7485864.16,
+            "masked": false
+          },
+          {
+            "name": "BLT ENTERPRISES OF FREMONT LLC",
+            "usd": 6799336.2,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES CNTY SANITATION",
+            "usd": 6496598.3,
+            "masked": false
+          },
+          {
+            "name": "CONSERVATION CORPS NORTH BAY",
+            "usd": 5761620.4,
+            "masked": false
+          },
+          {
+            "name": "MISFIT",
+            "usd": 5656081.4,
+            "masked": false
+          },
+          {
+            "name": "ENGINEERING REMEDIATION",
+            "usd": 5624152.12,
+            "masked": false
+          },
+          {
+            "name": "REPET INC",
+            "usd": 5593245.0,
+            "masked": false
+          },
+          {
+            "name": "SILICON VALLEY CLEAN WATER",
+            "usd": 5582099.52,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES CONSERVATION CORPS",
+            "usd": 5331105.6,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 5222735.76,
+            "masked": false
+          },
+          {
+            "name": "FARMWORKERS INSTITUTE OF EDU &",
+            "usd": 5084490.94,
+            "masked": false
+          },
+          {
+            "name": "ORANGE CO CONSERVATION CORPS",
+            "usd": 4919654.12,
+            "masked": false
+          },
+          {
+            "name": "CIVICORPS",
+            "usd": 4806182.18,
+            "masked": false
+          },
+          {
+            "name": "MINGS RESOURCE CORPORATION",
+            "usd": 4791506.5,
+            "masked": false
+          },
+          {
+            "name": "CROWE LLP",
+            "usd": 4757765.12,
+            "masked": false
+          },
+          {
+            "name": "SAN JOSE CONSERVATION CORPS",
+            "usd": 4757311.76,
+            "masked": false
+          },
+          {
+            "name": "SEQUOIA COMMUNITY CORPS",
+            "usd": 4474587.98,
+            "masked": false
+          },
+          {
+            "name": "TABORDA SOLUTIONS INC",
+            "usd": 4188653.18,
+            "masked": false
+          },
+          {
+            "name": "SAN JOAQUIN COUNTY OFC OF EDUC",
+            "usd": 3716721.82,
+            "masked": false
+          },
+          {
+            "name": "ENVIRONMENTAL PROTECTION AGY",
+            "usd": 3435303.46,
+            "masked": false
+          },
+          {
+            "name": "PENINSULA PLASTIC RECYCLING",
+            "usd": 3379650.0,
+            "masked": false
+          },
+          {
+            "name": "CONSERVATION CORPS OF LONG",
+            "usd": 3293513.28,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "3900",
+        "title": "State Air Resources Board",
+        "fiscal_year": "2025-26",
+        "transactions": 22065,
+        "vendor_count": 606,
+        "vendor_total_usd": 1208462772.3,
+        "confidential_usd": 1228067.08,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-27"
+        ],
+        "enacted_budget_usd": 841371000,
+        "checkbook_coverage_pct": 143.6,
+        "top_vendors": [
+          {
+            "name": "CALSTART INC",
+            "usd": 563989413.16,
+            "masked": false
+          },
+          {
+            "name": "COMM HOUSING DEV CORP OF",
+            "usd": 171230000.0,
+            "masked": false
+          },
+          {
+            "name": "SAN JOAQUIN VALLEY UNIFIED AIR",
+            "usd": 116070316.01,
+            "masked": false
+          },
+          {
+            "name": "SOUTH COAST AIR QUALITY MGMT DIST",
+            "usd": 47442680.45,
+            "masked": false
+          },
+          {
+            "name": "BAY AREA AIR QUALITY MGMT DIST",
+            "usd": 39493766.69,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN DIEGO AIR POLLUTION DIST",
+            "usd": 34135872.73,
+            "masked": false
+          },
+          {
+            "name": "ACLIMA INC",
+            "usd": 16164789.33,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 10374169.94,
+            "masked": false
+          },
+          {
+            "name": "PLACER COUNTY AIR POLLUTION",
+            "usd": 10197097.71,
+            "masked": false
+          },
+          {
+            "name": "CARBON MAPPER INC",
+            "usd": 8399771.14,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 8366011.2,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 7315400.96,
+            "masked": false
+          },
+          {
+            "name": "AIR POLLUTION CONTROL DISTRICT",
+            "usd": 6766325.0,
+            "masked": false
+          },
+          {
+            "name": "ONCORE CONSULTING LLC",
+            "usd": 6491108.33,
+            "masked": false
+          },
+          {
+            "name": "HENSEL PHELPS CONSTRUCTION CO",
+            "usd": 6295542.63,
+            "masked": false
+          },
+          {
+            "name": "IMPERIAL COUNTY AIR POLLUTION",
+            "usd": 6286134.79,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF VENTURA",
+            "usd": 5217047.15,
+            "masked": false
+          },
+          {
+            "name": "SACRAMENTO METRO AIR QUALITY",
+            "usd": 5110091.35,
+            "masked": false
+          },
+          {
+            "name": "CAPITAL PRGMS & CLIMATE FINANC",
+            "usd": 5000000.0,
+            "masked": false
+          },
+          {
+            "name": "AVL TEST SYSTEMS INC",
+            "usd": 4884108.76,
+            "masked": false
+          },
+          {
+            "name": "TOWN OF TIBURON",
+            "usd": 4197198.25,
+            "masked": false
+          },
+          {
+            "name": "SEC ENVIRONMENTL PROTECTION",
+            "usd": 3039874.52,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIV OF CA DAVIS",
+            "usd": 2623074.04,
+            "masked": false
+          },
+          {
+            "name": "STACKNEXUS INC",
+            "usd": 2572463.85,
+            "masked": false
+          },
+          {
+            "name": "ACUITY TECHNICAL SOLUTIONS LLC",
+            "usd": 2410776.81,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "3940",
+        "title": "State Water Resources Control Board",
+        "fiscal_year": "2025-26",
+        "transactions": 18475,
+        "vendor_count": 1079,
+        "vendor_total_usd": 1045883726.34,
+        "confidential_usd": 1994755.24,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 1564291000,
+        "checkbook_coverage_pct": 66.9,
+        "top_vendors": [
+          {
+            "name": "ELSINORE VLY MUNICIPAL WTR DIST",
+            "usd": 75827333.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SAN DIEGO",
+            "usd": 60180564.0,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 54009957.67,
+            "masked": false
+          },
+          {
+            "name": "CENTRAL CONTRA COSTA SANITARY",
+            "usd": 49589067.0,
+            "masked": false
+          },
+          {
+            "name": "LA DEPT OF WATER & POWER",
+            "usd": 34926905.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF PALO ALTO",
+            "usd": 34618862.0,
+            "masked": false
+          },
+          {
+            "name": "SELF HELP ENTERPRISES",
+            "usd": 32577146.37,
+            "masked": false
+          },
+          {
+            "name": "HI DESERT WATER DISTRICT",
+            "usd": 29691735.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SUNNYVALE",
+            "usd": 29084170.0,
+            "masked": false
+          },
+          {
+            "name": "COACHELLA VALLEY WATER DIST",
+            "usd": 21644013.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF DOS PALOS",
+            "usd": 15364761.0,
+            "masked": false
+          },
+          {
+            "name": "WEST BAY SANITARY DISTRICT",
+            "usd": 14845799.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SAN MATEO",
+            "usd": 14397217.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SANTA CRUZ",
+            "usd": 12457433.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF ARCATA",
+            "usd": 11650287.0,
+            "masked": false
+          },
+          {
+            "name": "SANTA CLARITA VALLEY",
+            "usd": 11160215.0,
+            "masked": false
+          },
+          {
+            "name": "UNION OIL COMP OF CALIFORNIA",
+            "usd": 10890100.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SANTA ANA",
+            "usd": 10417962.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 10278744.3,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SANTA BARBARA",
+            "usd": 10131451.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF ANAHEIM",
+            "usd": 10000000.0,
+            "masked": false
+          },
+          {
+            "name": "DELOITTE CONSULTING LLP",
+            "usd": 9636008.58,
+            "masked": false
+          },
+          {
+            "name": "CITY OF UKIAH",
+            "usd": 9391332.0,
+            "masked": false
+          },
+          {
+            "name": "RURAL COMM ASSISTANCE CORP",
+            "usd": 9173606.17,
+            "masked": false
+          },
+          {
+            "name": "CITY OF COLUSA",
+            "usd": 8009873.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "3960",
+        "title": "Department of Toxic Substances Control",
+        "fiscal_year": "2025-26",
+        "transactions": 12570,
+        "vendor_count": 378,
+        "vendor_total_usd": 193370198.78,
+        "confidential_usd": 627076.84,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 478444000,
+        "checkbook_coverage_pct": 40.4,
+        "top_vendors": [
+          {
+            "name": "PARSONS TRANSPORTATION GRP INC",
+            "usd": 43858401.42,
+            "masked": false
+          },
+          {
+            "name": "GSI ENVIRONMENTAL INC",
+            "usd": 26971824.79,
+            "masked": false
+          },
+          {
+            "name": "NEC GROUP INC",
+            "usd": 7893437.75,
+            "masked": false
+          },
+          {
+            "name": "CA DEPT OF TAX AND FEE ADMIN",
+            "usd": 6752511.0,
+            "masked": false
+          },
+          {
+            "name": "AECOM TECHNICAL SERVICES INC",
+            "usd": 5134674.93,
+            "masked": false
+          },
+          {
+            "name": "VEOLIA WATER WEST OPERATING",
+            "usd": 5018229.81,
+            "masked": false
+          },
+          {
+            "name": "STATE WATER RESOURCES CNTRL BD",
+            "usd": 4454631.58,
+            "masked": false
+          },
+          {
+            "name": "GHIRARDELLI ASSOCIATES INC",
+            "usd": 4205987.03,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LYNWOOD",
+            "usd": 4062590.28,
+            "masked": false
+          },
+          {
+            "name": "ENGINEERING REMEDIATION",
+            "usd": 3352044.11,
+            "masked": false
+          },
+          {
+            "name": "7TH STREET PROPERTIES II",
+            "usd": 3283449.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 3007264.1,
+            "masked": false
+          },
+          {
+            "name": "WSP USA INC",
+            "usd": 2917702.77,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF JUSTICE",
+            "usd": 2896015.02,
+            "masked": false
+          },
+          {
+            "name": "CITY OF COMMERCE",
+            "usd": 2872500.61,
+            "masked": false
+          },
+          {
+            "name": "CITY OF BELL GARDENS",
+            "usd": 2717068.16,
+            "masked": false
+          },
+          {
+            "name": "KLEINFELDER INC",
+            "usd": 2637824.83,
+            "masked": false
+          },
+          {
+            "name": "ANCON MARINE",
+            "usd": 2486968.31,
+            "masked": false
+          },
+          {
+            "name": "ALGARVE APT DEVELOPMENT LP",
+            "usd": 2401577.15,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 2398037.94,
+            "masked": false
+          },
+          {
+            "name": "NRC ENVIRONMENTAL SVCS INC",
+            "usd": 2322799.33,
+            "masked": false
+          },
+          {
+            "name": "VWR INTERNATIONAL LLC",
+            "usd": 2265539.44,
+            "masked": false
+          },
+          {
+            "name": "ENVIRONMENTAL PROTECTION AGY",
+            "usd": 2137796.81,
+            "masked": false
+          },
+          {
+            "name": "CITY OF WHITTIER",
+            "usd": 2064605.61,
+            "masked": false
+          },
+          {
+            "name": "OMNINET CC AVENIDA LLC",
+            "usd": 2024847.61,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "3930",
+        "title": "Department of Pesticide Regulation",
+        "fiscal_year": "2025-26",
+        "transactions": 17166,
+        "vendor_count": 253,
+        "vendor_total_usd": 25198032.77,
+        "confidential_usd": 200243.26,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 162495000,
+        "checkbook_coverage_pct": 15.5,
+        "top_vendors": [
+          {
+            "name": "DEPT OF FOOD & AGRICULTURE",
+            "usd": 7503446.55,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 2412964.58,
+            "masked": false
+          },
+          {
+            "name": "MERP SYSTEMS INC",
+            "usd": 1710048.38,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 1262765.03,
+            "masked": false
+          },
+          {
+            "name": "ENVIRONMENTAL PROTECTION AGY",
+            "usd": 875876.17,
+            "masked": false
+          },
+          {
+            "name": "CA AG COMMISSR & SEALERS ASSOC",
+            "usd": 852011.1,
+            "masked": false
+          },
+          {
+            "name": "HYPHEN",
+            "usd": 709061.34,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIV OF CA DAVIS",
+            "usd": 534213.02,
+            "masked": false
+          },
+          {
+            "name": "3077 FITE CIRCLE LP",
+            "usd": 478085.04,
+            "masked": false
+          },
+          {
+            "name": "INTERVISION SYSTEMS LLC",
+            "usd": 446564.5,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIVERSITY OF CA",
+            "usd": 440736.47,
+            "masked": false
+          },
+          {
+            "name": "PSI SERVICES LLC",
+            "usd": 321645.0,
+            "masked": false
+          },
+          {
+            "name": "PUBLIC CONSULTING GROUP LLC",
+            "usd": 315378.1,
+            "masked": false
+          },
+          {
+            "name": "WILD FARM ALLIANCE",
+            "usd": 299132.67,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA SF",
+            "usd": 287143.43,
+            "masked": false
+          },
+          {
+            "name": "SANTA ANA CA III SGF LLC",
+            "usd": 274768.74,
+            "masked": false
+          },
+          {
+            "name": "PESTEC",
+            "usd": 263572.71,
+            "masked": false
+          },
+          {
+            "name": "CA COUNCIL ON SCIENCE & TECH",
+            "usd": 211355.1,
+            "masked": false
+          },
+          {
+            "name": "CO OF RIVERSIDE AGRICULTURE",
+            "usd": 202575.91,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 200243.26,
+            "masked": true
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 184505.18,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA",
+            "usd": 180903.97,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 171900.29,
+            "masked": false
+          },
+          {
+            "name": "MADERA COUNTY",
+            "usd": 170259.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF VENTURA AG COMM",
+            "usd": 166075.85,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0555",
+        "title": "Environmental Protection, Secy",
+        "fiscal_year": "2025-26",
+        "transactions": 1423,
+        "vendor_count": 133,
+        "vendor_total_usd": 15755814.26,
+        "confidential_usd": 32501.5,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-23"
+        ],
+        "enacted_budget_usd": 43794000,
+        "checkbook_coverage_pct": 36.0,
+        "top_vendors": [
+          {
+            "name": "STATE AIR RESOURCES BOARD",
+            "usd": 2594692.9,
+            "masked": false
+          },
+          {
+            "name": "HF TECH SERVICES INC",
+            "usd": 1711511.8,
+            "masked": false
+          },
+          {
+            "name": "ONPAR ADVISORS LLC",
+            "usd": 1235727.06,
+            "masked": false
+          },
+          {
+            "name": "INTERACTIVE DIGITAL SOLNS LLC",
+            "usd": 775568.17,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 675658.32,
+            "masked": false
+          },
+          {
+            "name": "SOLUTIONS SIMPLIFIED",
+            "usd": 634189.0,
+            "masked": false
+          },
+          {
+            "name": "TABORDA SOLUTIONS INC",
+            "usd": 587005.18,
+            "masked": false
+          },
+          {
+            "name": "PRODIGY CONSULTING LLC",
+            "usd": 526459.31,
+            "masked": false
+          },
+          {
+            "name": "THE PITNEY BOWES BANK INC",
+            "usd": 447197.01,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 329417.81,
+            "masked": false
+          },
+          {
+            "name": "SUNSTONEIT LLC",
+            "usd": 324935.5,
+            "masked": false
+          },
+          {
+            "name": "HSB SOLUTIONS INC",
+            "usd": 284297.0,
+            "masked": false
+          },
+          {
+            "name": "PRESIDIO HOLDINGS INC",
+            "usd": 278296.98,
+            "masked": false
+          },
+          {
+            "name": "VETERAN ENHANCED TECH SOLNS",
+            "usd": 278142.27,
+            "masked": false
+          },
+          {
+            "name": "KOVARUS INC",
+            "usd": 264998.81,
+            "masked": false
+          },
+          {
+            "name": "RMA CONSULTING GROUP INC",
+            "usd": 236779.93,
+            "masked": false
+          },
+          {
+            "name": "THE CLIMATE REGISTRY",
+            "usd": 226923.4,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF PLACER",
+            "usd": 192038.0,
+            "masked": false
+          },
+          {
+            "name": "SOFTRATECH LLC",
+            "usd": 188300.35,
+            "masked": false
+          },
+          {
+            "name": "ASTUTE SOLUTIONS LLC",
+            "usd": 183561.32,
+            "masked": false
+          },
+          {
+            "name": "ENV HEALTH HAZARD ASSESSMENT",
+            "usd": 139800.97,
+            "masked": false
+          },
+          {
+            "name": "ALLIED NETWORK SOLUTIONS INC",
+            "usd": 133548.5,
+            "masked": false
+          },
+          {
+            "name": "HOOPA VALLEY TRIBE",
+            "usd": 127790.15,
+            "masked": false
+          },
+          {
+            "name": "ADVANCED TECHNICAL SOLUTIONS",
+            "usd": 111004.5,
+            "masked": false
+          },
+          {
+            "name": "PACOIMA BEAUTIFUL",
+            "usd": 110942.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "3980",
+        "title": "Environmental Health Hazard Assessment",
+        "fiscal_year": "2025-26",
+        "transactions": 1783,
+        "vendor_count": 106,
+        "vendor_total_usd": 4163977.0,
+        "confidential_usd": 56019.75,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 34230000,
+        "checkbook_coverage_pct": 12.2,
+        "top_vendors": [
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 804626.07,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA",
+            "usd": 762534.55,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA SF",
+            "usd": 466833.94,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIVERSITY OF CA",
+            "usd": 432606.47,
+            "masked": false
+          },
+          {
+            "name": "SEC ENVIRONMENTL PROTECTION",
+            "usd": 264479.65,
+            "masked": false
+          },
+          {
+            "name": "CAPIO GROUP",
+            "usd": 263303.0,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 141302.63,
+            "masked": false
+          },
+          {
+            "name": "INFINITE SOLUTIONS INC",
+            "usd": 107770.0,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIV OF CA MERCED",
+            "usd": 82984.73,
+            "masked": false
+          },
+          {
+            "name": "DISTLLERSR INC",
+            "usd": 68626.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 56019.75,
+            "masked": true
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 40236.61,
+            "masked": false
+          },
+          {
+            "name": "UNIVERSITY ENTERPRISES INC",
+            "usd": 37123.69,
+            "masked": false
+          },
+          {
+            "name": "CSU SAN MARCOS CORPORATION",
+            "usd": 36827.14,
+            "masked": false
+          },
+          {
+            "name": "NATIX INC",
+            "usd": 35312.72,
+            "masked": false
+          },
+          {
+            "name": "SUNSTONEIT LLC",
+            "usd": 30075.0,
+            "masked": false
+          },
+          {
+            "name": "SOUTHERN CA COASTAL WATER",
+            "usd": 29919.28,
+            "masked": false
+          },
+          {
+            "name": "EMPLOYMENT DEVELOPMENT DEPT",
+            "usd": 29270.81,
+            "masked": false
+          },
+          {
+            "name": "US BANK CORP PAYMENT SYSTEM",
+            "usd": 28525.0,
+            "masked": false
+          },
+          {
+            "name": "CAL INTERPRETING",
+            "usd": 25373.18,
+            "masked": false
+          },
+          {
+            "name": "SYSTEM SOLUTIONS DVBE INC",
+            "usd": 25065.0,
+            "masked": false
+          },
+          {
+            "name": "CRUSADE",
+            "usd": 24672.0,
+            "masked": false
+          },
+          {
+            "name": "CSU BAKERSFIELD AUX FOR SPNSOR",
+            "usd": 23191.11,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SACRAMENTO",
+            "usd": 23090.23,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 22419.22,
+            "masked": false
+          }
+        ]
+      }
+    ]
+  }
+}

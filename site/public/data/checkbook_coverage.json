@@ -1,0 +1,56 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "latest_fiscal_year": "2025-26",
+    "files_ingested": 149,
+    "departments_with_checkbook": 149,
+    "vendor_total_usd": 49562601287.1,
+    "confidential_total_usd": 2732396286.54,
+    "unmatched_business_units": [
+      {
+        "org_cd": "3105",
+        "title": "CA African American Museum",
+        "vendor_total_usd": 4082106.65
+      },
+      {
+        "org_cd": "6200",
+        "title": "CA School for the Blind",
+        "vendor_total_usd": 1401516.78
+      },
+      {
+        "org_cd": "6260",
+        "title": "Diagnostic Centers",
+        "vendor_total_usd": 1512407.5
+      },
+      {
+        "org_cd": "0531",
+        "title": "Office of Systems Integration",
+        "vendor_total_usd": 429585207.57
+      },
+      {
+        "org_cd": "6250",
+        "title": "School for the Deaf-Riverside",
+        "vendor_total_usd": 4690625.95
+      },
+      {
+        "org_cd": "6240",
+        "title": "School for the Deaf-Fremont",
+        "vendor_total_usd": 4778024.93
+      }
+    ]
+  }
+}

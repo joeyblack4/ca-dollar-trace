@@ -1,0 +1,3639 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "departments": [
+      {
+        "org_cd": "0690",
+        "title": "Office of Emergency Services",
+        "fiscal_year": "2025-26",
+        "transactions": 92902,
+        "vendor_count": 2592,
+        "vendor_total_usd": 3572319112.27,
+        "confidential_usd": 2041616.13,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 4473752000,
+        "checkbook_coverage_pct": 79.9,
+        "top_vendors": [
+          {
+            "name": "DEPT OF RESOURCES RECYCLING & RECOVERY",
+            "usd": 694460159.57,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 478313357.39,
+            "masked": false
+          },
+          {
+            "name": "DIGNITY HEALTH",
+            "usd": 219525766.01,
+            "masked": false
+          },
+          {
+            "name": "SUTTER HEALTH",
+            "usd": 117573938.26,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF PUBLIC HEALTH",
+            "usd": 84619217.14,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 67854657.14,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LOS ANGELES",
+            "usd": 56743449.17,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 50832626.9,
+            "masked": false
+          },
+          {
+            "name": "KAWEAH DELTA HEALTHCARE DIST",
+            "usd": 47745956.28,
+            "masked": false
+          },
+          {
+            "name": "ATOS PUBLIC SAFETY LLC",
+            "usd": 44752735.22,
+            "masked": false
+          },
+          {
+            "name": "PIH HEALTH INC",
+            "usd": 38917261.12,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN DIEGO",
+            "usd": 36710997.06,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF FINANCE",
+            "usd": 33606326.59,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF VENTURA",
+            "usd": 29170664.52,
+            "masked": false
+          },
+          {
+            "name": "HENRY MAYO NEWHALL MEM HOSP",
+            "usd": 26429107.94,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN MATEO",
+            "usd": 23799341.94,
+            "masked": false
+          },
+          {
+            "name": "U S DEPT OF HOMELAND SECURITY",
+            "usd": 23777314.39,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SANTA CLARA",
+            "usd": 22874919.09,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SANTA CRUZ",
+            "usd": 22349067.14,
+            "masked": false
+          },
+          {
+            "name": "BOSTON CONSULTING GROUP INC",
+            "usd": 21412010.0,
+            "masked": false
+          },
+          {
+            "name": "OXNARD HARBOR DISTRICT",
+            "usd": 21026343.62,
+            "masked": false
+          },
+          {
+            "name": "HAGERTY CONSULTING INC",
+            "usd": 20405733.33,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 18154939.75,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF RIVERSIDE",
+            "usd": 17944739.6,
+            "masked": false
+          },
+          {
+            "name": "NGA 911 LLC",
+            "usd": 17383350.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0250",
+        "title": "Judicial Branch",
+        "fiscal_year": "2025-26",
+        "transactions": 60950,
+        "vendor_count": 1520,
+        "vendor_total_usd": 1063686883.01,
+        "confidential_usd": 12695462.99,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 5254030000,
+        "checkbook_coverage_pct": 20.2,
+        "top_vendors": [
+          {
+            "name": "PRIDE INDUSTRIES ONE INC",
+            "usd": 80919378.85,
+            "masked": false
+          },
+          {
+            "name": "JUDICIAL COUNCIL OF CALIFORNIA",
+            "usd": 59112813.27,
+            "masked": false
+          },
+          {
+            "name": "MCCARTHY BUILDING COS INC",
+            "usd": 52458752.23,
+            "masked": false
+          },
+          {
+            "name": "STATE BAR OF CALIFORNIA",
+            "usd": 50722240.2,
+            "masked": false
+          },
+          {
+            "name": "LONG BEACH JUDICIAL PTRS LLC",
+            "usd": 50563659.02,
+            "masked": false
+          },
+          {
+            "name": "CHILDRENS LAW CENTER OF CA",
+            "usd": 49148087.56,
+            "masked": false
+          },
+          {
+            "name": "MACKONE DEVELOPMENT INC",
+            "usd": 39045390.82,
+            "masked": false
+          },
+          {
+            "name": "HENSEL PHELPS CONSTRUCTION CO",
+            "usd": 38588017.0,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES DEPENDENCY",
+            "usd": 35751475.36,
+            "masked": false
+          },
+          {
+            "name": "VEOLIA SUSTAINABLE BUILDINGS",
+            "usd": 29974577.61,
+            "masked": false
+          },
+          {
+            "name": "CLARK & SULLIVAN CONST &",
+            "usd": 27978327.23,
+            "masked": false
+          },
+          {
+            "name": "RUDOLPH & SLETTEN INC",
+            "usd": 24636838.91,
+            "masked": false
+          },
+          {
+            "name": "SEDGWICK CLAIMS MGMT SVCS  INC",
+            "usd": 23785058.76,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 15548578.12,
+            "masked": false
+          },
+          {
+            "name": "SWINERTON BUILDERS",
+            "usd": 14045966.7,
+            "masked": false
+          },
+          {
+            "name": "SUPERIOR COURT OF CA CO OF LA",
+            "usd": 13429867.15,
+            "masked": false
+          },
+          {
+            "name": "SOUTHERN CA EDISON CO",
+            "usd": 13407332.43,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 12694262.99,
+            "masked": true
+          },
+          {
+            "name": "PACIFIC GAS & ELECTRIC CO",
+            "usd": 11636153.35,
+            "masked": false
+          },
+          {
+            "name": "NWN CORPORATION",
+            "usd": 11208441.91,
+            "masked": false
+          },
+          {
+            "name": "ONE WORKPLACE L FERRARI LLC",
+            "usd": 9972433.98,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA APPELLATE PROJECT",
+            "usd": 9299761.42,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES COUNTY",
+            "usd": 7843140.13,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN DIEGO",
+            "usd": 7623401.06,
+            "masked": false
+          },
+          {
+            "name": "ORANGE COUNTY SUPERIOR COURT",
+            "usd": 7477671.02,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0845",
+        "title": "Department of Insurance",
+        "fiscal_year": "2025-26",
+        "transactions": 13857,
+        "vendor_count": 382,
+        "vendor_total_usd": 427837044.02,
+        "confidential_usd": 653295.92,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 361380000,
+        "checkbook_coverage_pct": 118.4,
+        "top_vendors": [
+          {
+            "name": "DOI SINGLE PAY",
+            "usd": 350913765.59,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES CNTY DIST ATTORNEY",
+            "usd": 7820371.0,
+            "masked": false
+          },
+          {
+            "name": "CO OF SAN DIEGO DIST ATTORNEY",
+            "usd": 6953775.0,
+            "masked": false
+          },
+          {
+            "name": "ORANGE COUNTY DIST ATTORNEY",
+            "usd": 6700445.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 5144721.72,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SANTA CLARA DA",
+            "usd": 4288195.0,
+            "masked": false
+          },
+          {
+            "name": "CNTY OF RIVERSIDE DISTRICT ATTORNEY OFC",
+            "usd": 2779692.0,
+            "masked": false
+          },
+          {
+            "name": "CNTY OF SAN BERNARDINO DAS OFC",
+            "usd": 2626352.0,
+            "masked": false
+          },
+          {
+            "name": "300 CAPITOL MALL INVESTORS LP",
+            "usd": 2456613.16,
+            "masked": false
+          },
+          {
+            "name": "SOF-XI WFO HARRISON OWNER LLC",
+            "usd": 2375275.14,
+            "masked": false
+          },
+          {
+            "name": "CRAYON SOFTWARE EXPERTS LLC",
+            "usd": 2132444.8,
+            "masked": false
+          },
+          {
+            "name": "ALAMEDA COUNTY DISTRICT ATTORNEY",
+            "usd": 1307886.0,
+            "masked": false
+          },
+          {
+            "name": "CNTY OF CONTRA COSTA DIST ATTY",
+            "usd": 1306856.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN MATEO DIST ATTY",
+            "usd": 1035925.0,
+            "masked": false
+          },
+          {
+            "name": "PRESIDIO HOLDINGS INC",
+            "usd": 949021.87,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 945229.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SACRAMENTO",
+            "usd": 887509.0,
+            "masked": false
+          },
+          {
+            "name": "MERP SYSTEMS INC",
+            "usd": 875103.06,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF FRESNO",
+            "usd": 867841.0,
+            "masked": false
+          },
+          {
+            "name": "CNTY OF MONTEREY DIST ATTY OFC",
+            "usd": 855789.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF VENTURA",
+            "usd": 790179.0,
+            "masked": false
+          },
+          {
+            "name": "NWN CORPORATION",
+            "usd": 766808.17,
+            "masked": false
+          },
+          {
+            "name": "VERTAFORE INC",
+            "usd": 704830.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 653295.92,
+            "masked": true
+          },
+          {
+            "name": "COUNTY OF TULARE DIST ATTORNEY",
+            "usd": 625276.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0509",
+        "title": "Governors Office of Bus, Econ Developm",
+        "fiscal_year": "2025-26",
+        "transactions": 4083,
+        "vendor_count": 504,
+        "vendor_total_usd": 418412734.37,
+        "confidential_usd": 269636.1,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 306297000,
+        "checkbook_coverage_pct": 136.6,
+        "top_vendors": [
+          {
+            "name": "FIDUCIARY TRUST INTERNATL CA",
+            "usd": 208926343.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF FRESNO",
+            "usd": 100170643.36,
+            "masked": false
+          },
+          {
+            "name": "EMPLOYMENT DEVELOPMENT DEPT",
+            "usd": 7540290.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 5560500.0,
+            "masked": false
+          },
+          {
+            "name": "CAL POLY HUMBOLDT SPONSORED",
+            "usd": 4623044.17,
+            "masked": false
+          },
+          {
+            "name": "LONG BEACH COMM COLLEGE DIST",
+            "usd": 4301462.55,
+            "masked": false
+          },
+          {
+            "name": "SOUTHWESTERN COMM COLLEGE DIST",
+            "usd": 3299434.07,
+            "masked": false
+          },
+          {
+            "name": "CSU FULLERTON AUX SVCS CORP",
+            "usd": 2706232.17,
+            "masked": false
+          },
+          {
+            "name": "REDF",
+            "usd": 2358511.21,
+            "masked": false
+          },
+          {
+            "name": "INITIATING CHANGE IN OUR",
+            "usd": 2159449.83,
+            "masked": false
+          },
+          {
+            "name": "PORT DEPT OF OAKLAND",
+            "usd": 2126786.02,
+            "masked": false
+          },
+          {
+            "name": "GOODWILL OF THE SF BAY",
+            "usd": 1603823.94,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 1429374.8,
+            "masked": false
+          },
+          {
+            "name": "CA MFG TECHNOLOGY CONSULTING",
+            "usd": 1301728.41,
+            "masked": false
+          },
+          {
+            "name": "CENTERS FOR EQUITY AND",
+            "usd": 1282667.97,
+            "masked": false
+          },
+          {
+            "name": "GHD SERVICES INC",
+            "usd": 1231588.86,
+            "masked": false
+          },
+          {
+            "name": "SHIELDS FOR FAMILIES INC",
+            "usd": 1204006.31,
+            "masked": false
+          },
+          {
+            "name": "OXNARD HARBOR DISTRICT",
+            "usd": 1160063.19,
+            "masked": false
+          },
+          {
+            "name": "UNCOMMON LAW",
+            "usd": 995305.11,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LOS ANGELES",
+            "usd": 918415.08,
+            "masked": false
+          },
+          {
+            "name": "IHS GLOBAL INC",
+            "usd": 882620.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LONG BEACH",
+            "usd": 863671.14,
+            "masked": false
+          },
+          {
+            "name": "GET LIT - WORDS IGNITE INC",
+            "usd": 842695.47,
+            "masked": false
+          },
+          {
+            "name": "LA CNTY DEPT OF PUBLIC HEALTH",
+            "usd": 810190.96,
+            "masked": false
+          },
+          {
+            "name": "PRC",
+            "usd": 786514.18,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0985",
+        "title": "School Finance Authority",
+        "fiscal_year": "2025-26",
+        "transactions": 1471,
+        "vendor_count": 460,
+        "vendor_total_usd": 151251658.66,
+        "confidential_usd": 3560.62,
+        "accounting_dates": [
+          "2025-07-10",
+          "2026-03-25"
+        ],
+        "enacted_budget_usd": 217637000,
+        "checkbook_coverage_pct": 69.5,
+        "top_vendors": [
+          {
+            "name": "RIVER SPRINGS CHARTER SCHOOL",
+            "usd": 3150771.09,
+            "masked": false
+          },
+          {
+            "name": "PALMDALE AEROSPACE ACADEMY INC",
+            "usd": 2305461.69,
+            "masked": false
+          },
+          {
+            "name": "CITIZENS OF THE WORLD CHARTER",
+            "usd": 2070589.38,
+            "masked": false
+          },
+          {
+            "name": "FORTUNE SCHOOL",
+            "usd": 1877582.51,
+            "masked": false
+          },
+          {
+            "name": "ORANGE CNTY SCHOOL OF THE ARTS",
+            "usd": 1598397.24,
+            "masked": false
+          },
+          {
+            "name": "SAN JACINTO VALLEY ACADEMY",
+            "usd": 1473256.15,
+            "masked": false
+          },
+          {
+            "name": "IMAGINE SCHOOLS RIVERSIDE CNTY",
+            "usd": 1424678.99,
+            "masked": false
+          },
+          {
+            "name": "HAWKING STEAM CHARTER",
+            "usd": 1339957.7,
+            "masked": false
+          },
+          {
+            "name": "MAKING WAVES ACADEMY",
+            "usd": 1296552.71,
+            "masked": false
+          },
+          {
+            "name": "NORTON SCIENCE & LANGUAGE ACAD",
+            "usd": 1256708.65,
+            "masked": false
+          },
+          {
+            "name": "VOICES COLLEGE-BOUND LANGUAGE",
+            "usd": 1206928.65,
+            "masked": false
+          },
+          {
+            "name": "KIPP CORAZON ACADEMY",
+            "usd": 1187324.99,
+            "masked": false
+          },
+          {
+            "name": "ABLE CHARTER SCHOOLS",
+            "usd": 1174681.03,
+            "masked": false
+          },
+          {
+            "name": "SAMUELI ACADEMY",
+            "usd": 1044983.98,
+            "masked": false
+          },
+          {
+            "name": "OAKLAND SCHOOL FOR THE ARTS",
+            "usd": 1038249.17,
+            "masked": false
+          },
+          {
+            "name": "GROW PUBLIC SCHOOLS",
+            "usd": 995584.55,
+            "masked": false
+          },
+          {
+            "name": "COMMUNITY OUTREACH ACADEMY",
+            "usd": 939747.42,
+            "masked": false
+          },
+          {
+            "name": "NEW DESIGNS CHARTER SCHOOL",
+            "usd": 926294.66,
+            "masked": false
+          },
+          {
+            "name": "ENTREPRENEUR HIGH SCHOOL",
+            "usd": 909123.6,
+            "masked": false
+          },
+          {
+            "name": "KIPP COMIENZA COMMUNITY PREP",
+            "usd": 877830.63,
+            "masked": false
+          },
+          {
+            "name": "HERITAGE K-8 CHARTER SCHOOL",
+            "usd": 862906.28,
+            "masked": false
+          },
+          {
+            "name": "GRANADA HILLS CHARTER HIGH SCH",
+            "usd": 822821.29,
+            "masked": false
+          },
+          {
+            "name": "ALBERT EINSTEIN ACADEMICS",
+            "usd": 768646.37,
+            "masked": false
+          },
+          {
+            "name": "EL SOL SCIENCE & ARTS ACADEMY",
+            "usd": 757416.09,
+            "masked": false
+          },
+          {
+            "name": "ENVIRONMENTAL CHARTER MIDDLE",
+            "usd": 757067.83,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0650",
+        "title": "Gov's Office of Land Use & Climate Innov",
+        "fiscal_year": "2025-26",
+        "transactions": 3453,
+        "vendor_count": 311,
+        "vendor_total_usd": 150055798.14,
+        "confidential_usd": 125355.92,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 647515000,
+        "checkbook_coverage_pct": 23.2,
+        "top_vendors": [
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 17568957.29,
+            "masked": false
+          },
+          {
+            "name": "CITY OF FRESNO",
+            "usd": 12570914.64,
+            "masked": false
+          },
+          {
+            "name": "FDN FOR CA COMMUNITY COLLEGES",
+            "usd": 9213770.96,
+            "masked": false
+          },
+          {
+            "name": "COMMUNITY PARTNERS",
+            "usd": 8260368.38,
+            "masked": false
+          },
+          {
+            "name": "SACRAMENTO HOUSING & REDEVELOP",
+            "usd": 7270672.6,
+            "masked": false
+          },
+          {
+            "name": "BAY AREA COMMUNITY RESOURCES",
+            "usd": 5290853.4,
+            "masked": false
+          },
+          {
+            "name": "CITY OF STOCKTON",
+            "usd": 4678511.85,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SAN DIEGO",
+            "usd": 4498661.04,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SACRAMENTO",
+            "usd": 3490616.2,
+            "masked": false
+          },
+          {
+            "name": "CITY OF ONTARIO",
+            "usd": 3374143.26,
+            "masked": false
+          },
+          {
+            "name": "CITY OF RIVERSIDE",
+            "usd": 3019750.9,
+            "masked": false
+          },
+          {
+            "name": "HOUSING AUTH OF CITY OF LA",
+            "usd": 2991303.12,
+            "masked": false
+          },
+          {
+            "name": "CITY OF RICHMOND",
+            "usd": 2879782.6,
+            "masked": false
+          },
+          {
+            "name": "THE CERES COMMUNITY PROJECT",
+            "usd": 2831221.27,
+            "masked": false
+          },
+          {
+            "name": "THE ENERGY COALITION",
+            "usd": 2273276.13,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIV OF CA DAVIS",
+            "usd": 1988090.36,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SAN JOSE",
+            "usd": 1873986.62,
+            "masked": false
+          },
+          {
+            "name": "THE SAN DIEGO FOUNDATION",
+            "usd": 1737712.88,
+            "masked": false
+          },
+          {
+            "name": "CITY OF OAKLAND",
+            "usd": 1731962.03,
+            "masked": false
+          },
+          {
+            "name": "RICHARD HEATH & ASSOCIATES INC",
+            "usd": 1541958.17,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LA PUENTE",
+            "usd": 1519728.25,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LONG BEACH",
+            "usd": 1313110.77,
+            "masked": false
+          },
+          {
+            "name": "PUBLIC HEALTH INSTITUTE",
+            "usd": 1296864.72,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SANTA ANA",
+            "usd": 1151045.86,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF UNIVERSITY OF CA",
+            "usd": 1141082.67,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0850",
+        "title": "State Lottery Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 159,
+        "vendor_count": 1,
+        "vendor_total_usd": 145682158.27,
+        "confidential_usd": 0.0,
+        "accounting_dates": [
+          "2025-07-08",
+          "2026-03-27"
+        ],
+        "enacted_budget_usd": 0,
+        "checkbook_coverage_pct": null,
+        "top_vendors": [
+          {
+            "name": "CA STATE LOTTERY COMMISSION",
+            "usd": 145682158.27,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0840",
+        "title": "State Controller",
+        "fiscal_year": "2025-26",
+        "transactions": 8653,
+        "vendor_count": 254,
+        "vendor_total_usd": 123364663.06,
+        "confidential_usd": 524515.16,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 435221000,
+        "checkbook_coverage_pct": 28.3,
+        "top_vendors": [
+          {
+            "name": "CGI TECHNOLOGIES & SOL INC",
+            "usd": 41310600.0,
+            "masked": false
+          },
+          {
+            "name": "PITNEY BOWES RESERVE ACCOUNT",
+            "usd": 14000000.0,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 13117456.25,
+            "masked": false
+          },
+          {
+            "name": "GUIDEHOUSE INC",
+            "usd": 9073433.28,
+            "masked": false
+          },
+          {
+            "name": "CROWE LLP",
+            "usd": 6419860.0,
+            "masked": false
+          },
+          {
+            "name": "THE PARK AT EAST SAC LP",
+            "usd": 4234983.91,
+            "masked": false
+          },
+          {
+            "name": "300 CAPITOL MALL INVESTORS LP",
+            "usd": 3104484.04,
+            "masked": false
+          },
+          {
+            "name": "WEST ADVANCED TECHNOLOGIES INC",
+            "usd": 2978316.5,
+            "masked": false
+          },
+          {
+            "name": "KELMAR ASSOCIATES LLC",
+            "usd": 2283150.64,
+            "masked": false
+          },
+          {
+            "name": "SOLUTIONS SIMPLIFIED",
+            "usd": 1876846.0,
+            "masked": false
+          },
+          {
+            "name": "CRAYON SOFTWARE EXPERTS LLC",
+            "usd": 1592356.15,
+            "masked": false
+          },
+          {
+            "name": "ESKATON CONSULTING LLC",
+            "usd": 1535392.5,
+            "masked": false
+          },
+          {
+            "name": "LOEB & LOEB",
+            "usd": 1354771.71,
+            "masked": false
+          },
+          {
+            "name": "CFT NV DEVELOPMENTS LLC",
+            "usd": 1202860.56,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 1162463.33,
+            "masked": false
+          },
+          {
+            "name": "SLED IT SOLUTIONS INC",
+            "usd": 1121313.55,
+            "masked": false
+          },
+          {
+            "name": "ENTISYS SOLUTIONS INC",
+            "usd": 1070624.47,
+            "masked": false
+          },
+          {
+            "name": "GARTNER INC",
+            "usd": 851973.0,
+            "masked": false
+          },
+          {
+            "name": "AVENU INSIGHTS & ANALYTICS LLC",
+            "usd": 816170.48,
+            "masked": false
+          },
+          {
+            "name": "INTERNATIONAL BUS MACH CORP",
+            "usd": 799000.0,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 756413.93,
+            "masked": false
+          },
+          {
+            "name": "RR DONNELLEY & SONS COMPANY",
+            "usd": 714670.63,
+            "masked": false
+          },
+          {
+            "name": "THE IFISH GROUP INC",
+            "usd": 632961.0,
+            "masked": false
+          },
+          {
+            "name": "ABLEGOV INC",
+            "usd": 603446.02,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 524515.16,
+            "masked": true
+          }
+        ]
+      },
+      {
+        "org_cd": "0855",
+        "title": "Gambling Control Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 619,
+        "vendor_count": 46,
+        "vendor_total_usd": 111706616.05,
+        "confidential_usd": 110999720.27,
+        "accounting_dates": [
+          "2025-07-09",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 155286000,
+        "checkbook_coverage_pct": 71.9,
+        "top_vendors": [
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 110999720.27,
+            "masked": true
+          },
+          {
+            "name": "NATOMAS GATEWAY CORPORATE CTR",
+            "usd": 443395.98,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 70529.74,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 28519.13,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 24915.59,
+            "masked": false
+          },
+          {
+            "name": "WEST A THOMSON REUTERS BUSINESS",
+            "usd": 19352.16,
+            "masked": false
+          },
+          {
+            "name": "ALLIED NETWORK SOLUTIONS INC",
+            "usd": 19192.0,
+            "masked": false
+          },
+          {
+            "name": "SOLUTIONS SIMPLIFIED",
+            "usd": 16012.0,
+            "masked": false
+          },
+          {
+            "name": "SURVEYMONKEY INC",
+            "usd": 15729.56,
+            "masked": false
+          },
+          {
+            "name": "TECH MASTERS LLC",
+            "usd": 14110.0,
+            "masked": false
+          },
+          {
+            "name": "CAPTURE TECHNOLOGIES",
+            "usd": 6262.28,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 6013.04,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 4282.84,
+            "masked": false
+          },
+          {
+            "name": "CONTINUING EDU OF THE BAR",
+            "usd": 4254.49,
+            "masked": false
+          },
+          {
+            "name": "IS INC",
+            "usd": 3195.0,
+            "masked": false
+          },
+          {
+            "name": "GPC GLOBAL TRADING LLC",
+            "usd": 3033.96,
+            "masked": false
+          },
+          {
+            "name": "WAVELENGTH AUTOMATION LLC",
+            "usd": 2988.0,
+            "masked": false
+          },
+          {
+            "name": "COMCAST",
+            "usd": 2723.38,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA GAMING ASSOCIATION",
+            "usd": 2500.0,
+            "masked": false
+          },
+          {
+            "name": "NATL COUN ON PROBLEM GAMBLING",
+            "usd": 2500.0,
+            "masked": false
+          },
+          {
+            "name": "ACUITY TECHNICAL SOLUTIONS LLC",
+            "usd": 2470.8,
+            "masked": false
+          },
+          {
+            "name": "QUADIENT INC",
+            "usd": 1776.0,
+            "masked": false
+          },
+          {
+            "name": "INTL ASSOC OF GAMNG REGULATORS",
+            "usd": 1755.0,
+            "masked": false
+          },
+          {
+            "name": "PAPER DISTRIBUTORS INC",
+            "usd": 1347.59,
+            "masked": false
+          },
+          {
+            "name": "ALL AMERICAN REPORTING &",
+            "usd": 1305.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0890",
+        "title": "Secretary of State",
+        "fiscal_year": "2025-26",
+        "transactions": 9121,
+        "vendor_count": 303,
+        "vendor_total_usd": 62173015.47,
+        "confidential_usd": 454364.44,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 202793000,
+        "checkbook_coverage_pct": 30.7,
+        "top_vendors": [
+          {
+            "name": "CGI TECHNOLOGIES & SOL INC",
+            "usd": 12698774.68,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 12213336.79,
+            "masked": false
+          },
+          {
+            "name": "LAW OFC OF MARK A REDMOND PC",
+            "usd": 4400000.0,
+            "masked": false
+          },
+          {
+            "name": "SAN MATEO COUNTY RECORDER",
+            "usd": 4075462.2,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 2881098.44,
+            "masked": false
+          },
+          {
+            "name": "ELAVON INC",
+            "usd": 2104884.1,
+            "masked": false
+          },
+          {
+            "name": "PLATINUM SECURITY INC",
+            "usd": 1654432.3,
+            "masked": false
+          },
+          {
+            "name": "UNIVERSITY ENTERPRISES INC",
+            "usd": 1629037.26,
+            "masked": false
+          },
+          {
+            "name": "SLED IT SOLUTIONS INC",
+            "usd": 1287958.08,
+            "masked": false
+          },
+          {
+            "name": "CPS HR CONSULTING",
+            "usd": 1089434.81,
+            "masked": false
+          },
+          {
+            "name": "APTAKRIT TECH SOLUTIONS LLC",
+            "usd": 928195.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LOS ANGELES",
+            "usd": 713539.38,
+            "masked": false
+          },
+          {
+            "name": "KOVARUS INC",
+            "usd": 713219.7,
+            "masked": false
+          },
+          {
+            "name": "ORANGE COUNTY",
+            "usd": 563676.07,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES COUNTY RECORDER",
+            "usd": 501434.04,
+            "masked": false
+          },
+          {
+            "name": "I3LOGIX INC",
+            "usd": 499998.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON BUSINESS NETWORK SVCS",
+            "usd": 489283.71,
+            "masked": false
+          },
+          {
+            "name": "SABOT CONSULTING",
+            "usd": 453600.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 453364.44,
+            "masked": true
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 417665.83,
+            "masked": false
+          },
+          {
+            "name": "TECUITY INC",
+            "usd": 397800.0,
+            "masked": false
+          },
+          {
+            "name": "EPLUS TECHNOLOGY INC",
+            "usd": 373405.47,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN DIEGO",
+            "usd": 373012.65,
+            "masked": false
+          },
+          {
+            "name": "AHEAD INC",
+            "usd": 343301.04,
+            "masked": false
+          },
+          {
+            "name": "CAPITOL TECH SOLUTIONS",
+            "usd": 326100.02,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0950",
+        "title": "State Treasurer",
+        "fiscal_year": "2025-26",
+        "transactions": 3000,
+        "vendor_count": 113,
+        "vendor_total_usd": 16246231.57,
+        "confidential_usd": 618381.84,
+        "accounting_dates": [
+          "2025-07-02",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 49526000,
+        "checkbook_coverage_pct": 32.8,
+        "top_vendors": [
+          {
+            "name": "STATE TREASURER",
+            "usd": 4008092.96,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 2697488.71,
+            "masked": false
+          },
+          {
+            "name": "ORRICK HERRINGTON & SUTCLIFFE",
+            "usd": 935166.75,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 692234.79,
+            "masked": false
+          },
+          {
+            "name": "STD & POORS FINANCIAL SERVICES",
+            "usd": 676160.0,
+            "masked": false
+          },
+          {
+            "name": "PUBLIC RESOURCES ADVISORY GRP",
+            "usd": 650997.9,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 618381.84,
+            "masked": true
+          },
+          {
+            "name": "MOODYS INVESTOR SERVICE",
+            "usd": 516100.0,
+            "masked": false
+          },
+          {
+            "name": "NWN SOLUTIONS CORPORATION",
+            "usd": 383456.22,
+            "masked": false
+          },
+          {
+            "name": "SAVANT SOLUTIONS INC",
+            "usd": 324823.44,
+            "masked": false
+          },
+          {
+            "name": "FITCH RATINGS INC",
+            "usd": 310000.0,
+            "masked": false
+          },
+          {
+            "name": "EXEMPLIFAI LLC",
+            "usd": 307925.0,
+            "masked": false
+          },
+          {
+            "name": "ABLEGOV INC",
+            "usd": 278400.0,
+            "masked": false
+          },
+          {
+            "name": "FIDELITY INFO SERVICES LLC",
+            "usd": 274788.48,
+            "masked": false
+          },
+          {
+            "name": "MOODYS ANALYTICS INC",
+            "usd": 269638.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF FINANCE",
+            "usd": 258710.0,
+            "masked": false
+          },
+          {
+            "name": "STRADLING YOCCA CARLSON & RAUT",
+            "usd": 231611.16,
+            "masked": false
+          },
+          {
+            "name": "BLOOMBERG FINANCE LP",
+            "usd": 179807.96,
+            "masked": false
+          },
+          {
+            "name": "BONDLINK INC",
+            "usd": 160000.0,
+            "masked": false
+          },
+          {
+            "name": "M & M MEDIA SOLUTIONS INC",
+            "usd": 154754.12,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF JUSTICE",
+            "usd": 147200.0,
+            "masked": false
+          },
+          {
+            "name": "MAXQ ANALYTICS",
+            "usd": 140124.0,
+            "masked": false
+          },
+          {
+            "name": "REFINITIV USL LLC",
+            "usd": 133200.0,
+            "masked": false
+          },
+          {
+            "name": "NIXON PEABODY LLP",
+            "usd": 98415.0,
+            "masked": false
+          },
+          {
+            "name": "G5 OFFICE INTERIORS LLC",
+            "usd": 97902.5,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0500",
+        "title": "Governors Office",
+        "fiscal_year": "2025-26",
+        "transactions": 1323,
+        "vendor_count": 30,
+        "vendor_total_usd": 3054151.5,
+        "confidential_usd": 89968.0,
+        "accounting_dates": [
+          "2025-07-08",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 30262000,
+        "checkbook_coverage_pct": 10.1,
+        "top_vendors": [
+          {
+            "name": "MULTIPLE",
+            "usd": 1685215.91,
+            "masked": false
+          },
+          {
+            "name": "KING & SPALDING LLP",
+            "usd": 396218.35,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 223625.77,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 200859.28,
+            "masked": false
+          },
+          {
+            "name": "MEBAR REALTY HOLDING TRUST",
+            "usd": 147666.77,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 122171.23,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 89968.0,
+            "masked": true
+          },
+          {
+            "name": "ADVANCED TECHNICAL SOLUTIONS",
+            "usd": 42676.7,
+            "masked": false
+          },
+          {
+            "name": "WESTERN GOVERNORS ASSOCIATION",
+            "usd": 39600.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK CORP PAYMENT SYSTEM",
+            "usd": 33161.51,
+            "masked": false
+          },
+          {
+            "name": "THE INSIDE SOURCE INC",
+            "usd": 32520.0,
+            "masked": false
+          },
+          {
+            "name": "US POSTMASTER GENERAL",
+            "usd": 6000.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 5994.64,
+            "masked": false
+          },
+          {
+            "name": "CALTRONICS BUSINESS SYSTEMS",
+            "usd": 5050.8,
+            "masked": false
+          },
+          {
+            "name": "PAPER DISTRIBUTORS INC",
+            "usd": 4574.67,
+            "masked": false
+          },
+          {
+            "name": "DELTA PRINT GROUP LLC",
+            "usd": 4099.89,
+            "masked": false
+          },
+          {
+            "name": "UNITED PARCEL SERVICE INC",
+            "usd": 3186.65,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 1688.17,
+            "masked": false
+          },
+          {
+            "name": "RILEY CONSULTING SERVICES LLC",
+            "usd": 1638.0,
+            "masked": false
+          },
+          {
+            "name": "QUADIENT INC",
+            "usd": 1496.22,
+            "masked": false
+          },
+          {
+            "name": "CALI BLINDS LA LLC",
+            "usd": 1368.0,
+            "masked": false
+          },
+          {
+            "name": "COMCAST BUSINESS COMMUNICATION",
+            "usd": 1201.02,
+            "masked": false
+          },
+          {
+            "name": "STERICYCLE INC",
+            "usd": 846.08,
+            "masked": false
+          },
+          {
+            "name": "ELLIAN RAFFOUL",
+            "usd": 800.0,
+            "masked": false
+          },
+          {
+            "name": "360 HOSTED LLC",
+            "usd": 682.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0870",
+        "title": "Office of Tax Appeals",
+        "fiscal_year": "2025-26",
+        "transactions": 1997,
+        "vendor_count": 53,
+        "vendor_total_usd": 2581480.14,
+        "confidential_usd": 52616.39,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 27609000,
+        "checkbook_coverage_pct": 9.4,
+        "top_vendors": [
+          {
+            "name": "400 R ST SACRAMENTO OWNER LLC",
+            "usd": 781132.81,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 356278.25,
+            "masked": false
+          },
+          {
+            "name": "CERRITOS CORPORATE CENTER",
+            "usd": 322887.43,
+            "masked": false
+          },
+          {
+            "name": "WEST A THOMSON REUTERS BUSINESS",
+            "usd": 202753.08,
+            "masked": false
+          },
+          {
+            "name": "ABLEGOV INC",
+            "usd": 124350.0,
+            "masked": false
+          },
+          {
+            "name": "THOMSON REUTERS TAX & ACTG INC",
+            "usd": 87617.17,
+            "masked": false
+          },
+          {
+            "name": "FRESNO CA I FGF LLC",
+            "usd": 56917.65,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 52616.39,
+            "masked": true
+          },
+          {
+            "name": "T-MOBILE USA INC",
+            "usd": 51162.06,
+            "masked": false
+          },
+          {
+            "name": "CROWE LLP",
+            "usd": 51000.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 50546.51,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 50018.27,
+            "masked": false
+          },
+          {
+            "name": "MERGENT SYSTEMS INC",
+            "usd": 43388.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIED NETWORK SOLUTIONS INC",
+            "usd": 39993.0,
+            "masked": false
+          },
+          {
+            "name": "UBEO BUSINESS SERVICES",
+            "usd": 37584.43,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF THE CA HIGHWAY PATROL",
+            "usd": 32445.68,
+            "masked": false
+          },
+          {
+            "name": "LEXISNEXIS",
+            "usd": 29943.36,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 26409.9,
+            "masked": false
+          },
+          {
+            "name": "TAX ANALYSTS",
+            "usd": 23008.05,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 17735.46,
+            "masked": false
+          },
+          {
+            "name": "SAVANT SOLUTIONS INC",
+            "usd": 12723.75,
+            "masked": false
+          },
+          {
+            "name": "IT DEVICES ONLINE INC",
+            "usd": 12500.33,
+            "masked": false
+          },
+          {
+            "name": "MOTHER LODE VAN & STORAGE INC",
+            "usd": 10488.0,
+            "masked": false
+          },
+          {
+            "name": "C&C EXPRESS DELIVERY INC",
+            "usd": 10432.77,
+            "masked": false
+          },
+          {
+            "name": "COMCAST HOLDINGS CORPORATION",
+            "usd": 8731.9,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0974",
+        "title": "Pollution Control Financing Authority",
+        "fiscal_year": "2025-26",
+        "transactions": 1372,
+        "vendor_count": 30,
+        "vendor_total_usd": 2578962.22,
+        "confidential_usd": 46053.82,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 23406000,
+        "checkbook_coverage_pct": 11.0,
+        "top_vendors": [
+          {
+            "name": "COMMUNITY CAPITAL ALLIANCE LLC",
+            "usd": 1600000.0,
+            "masked": false
+          },
+          {
+            "name": "MSTREETX INC",
+            "usd": 335500.0,
+            "masked": false
+          },
+          {
+            "name": "ZIONS BANCORPORATION NATL ASSN",
+            "usd": 281400.0,
+            "masked": false
+          },
+          {
+            "name": "LAW OFFICES OF LESLIE M LAVA",
+            "usd": 47800.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 46053.82,
+            "masked": true
+          },
+          {
+            "name": "STATE TREASURER",
+            "usd": 37000.0,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 36943.56,
+            "masked": false
+          },
+          {
+            "name": "RICHARDSON & COMPANY LLP",
+            "usd": 34795.0,
+            "masked": false
+          },
+          {
+            "name": "TECHNOLOGY INTEGRATION GROUP",
+            "usd": 30913.52,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 26035.72,
+            "masked": false
+          },
+          {
+            "name": "BONDLINK INC",
+            "usd": 21480.0,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 21095.92,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 12460.0,
+            "masked": false
+          },
+          {
+            "name": "DELL MARKETING LP",
+            "usd": 8027.36,
+            "masked": false
+          },
+          {
+            "name": "ARIZENT",
+            "usd": 8000.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 7142.76,
+            "masked": false
+          },
+          {
+            "name": "PROEXPOS LLC",
+            "usd": 3340.0,
+            "masked": false
+          },
+          {
+            "name": "BLX GROUP LLC",
+            "usd": 3100.0,
+            "masked": false
+          },
+          {
+            "name": "ZOOM VIDEO COMMUNICATIONS INC",
+            "usd": 2910.18,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 2582.36,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 2332.58,
+            "masked": false
+          },
+          {
+            "name": "ORRICK HERRINGTON & SUTCLIFFE",
+            "usd": 2315.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 2190.4,
+            "masked": false
+          },
+          {
+            "name": "COUNCIL OF DEV FIN AGENCIES",
+            "usd": 2150.0,
+            "masked": false
+          },
+          {
+            "name": "CA BLACK CHAMBER OF COMRCE FDN",
+            "usd": 1400.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0860",
+        "title": "State Board of Equalization",
+        "fiscal_year": "2025-26",
+        "transactions": 1694,
+        "vendor_count": 74,
+        "vendor_total_usd": 2109056.97,
+        "confidential_usd": 64401.35,
+        "accounting_dates": [
+          "2025-07-10",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 33783000,
+        "checkbook_coverage_pct": 6.2,
+        "top_vendors": [
+          {
+            "name": "PF PORTFOLIO 2 LP",
+            "usd": 921209.4,
+            "masked": false
+          },
+          {
+            "name": "SRI ELEVEN 621 CAPITOL MALL",
+            "usd": 208067.22,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 181550.59,
+            "masked": false
+          },
+          {
+            "name": "401 SM LLC",
+            "usd": 145701.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 80882.5,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 79203.7,
+            "masked": false
+          },
+          {
+            "name": "MEYERS NAVE A PRO CORP",
+            "usd": 65367.75,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 64401.35,
+            "masked": true
+          },
+          {
+            "name": "500 CAPITOL MALL TOWER LLC",
+            "usd": 61324.32,
+            "masked": false
+          },
+          {
+            "name": "SVACW 925 LLC",
+            "usd": 45054.39,
+            "masked": false
+          },
+          {
+            "name": "VERIZON BUSINESS NETWORK SVCS",
+            "usd": 30491.13,
+            "masked": false
+          },
+          {
+            "name": "PREMIER OFFICE CENTERS LLC",
+            "usd": 28280.0,
+            "masked": false
+          },
+          {
+            "name": "SATELLITE TELEWORK CENTERS INC",
+            "usd": 23355.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 15516.91,
+            "masked": false
+          },
+          {
+            "name": "BMI IMAGING SYSTEMS",
+            "usd": 14190.62,
+            "masked": false
+          },
+          {
+            "name": "RAILINC CORPORATION",
+            "usd": 12800.0,
+            "masked": false
+          },
+          {
+            "name": "CORELOGIC SOLUTIONS LLC",
+            "usd": 10154.41,
+            "masked": false
+          },
+          {
+            "name": "GLOBAL CAPTIONING SOLNS INC",
+            "usd": 10045.0,
+            "masked": false
+          },
+          {
+            "name": "NETCENTRIC TECHNOLOGIES INC",
+            "usd": 9592.0,
+            "masked": false
+          },
+          {
+            "name": "DLT SOLUTIONS LLC",
+            "usd": 7691.4,
+            "masked": false
+          },
+          {
+            "name": "THE STATE BAR OF CALIFORNIA",
+            "usd": 6440.0,
+            "masked": false
+          },
+          {
+            "name": "COMCAST",
+            "usd": 6023.9,
+            "masked": false
+          },
+          {
+            "name": "NATIONAL SECURITY INDUSTRIES",
+            "usd": 5935.86,
+            "masked": false
+          },
+          {
+            "name": "CAPITOL MORNING REPORT INC",
+            "usd": 5050.0,
+            "masked": false
+          },
+          {
+            "name": "MOTHER LODE VAN & STORAGE INC",
+            "usd": 5014.66,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0552",
+        "title": "Office of the Inspector General",
+        "fiscal_year": "2025-26",
+        "transactions": 1220,
+        "vendor_count": 63,
+        "vendor_total_usd": 2003508.19,
+        "confidential_usd": 67194.78,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-27"
+        ],
+        "enacted_budget_usd": 48110000,
+        "checkbook_coverage_pct": 4.2,
+        "top_vendors": [
+          {
+            "name": "DB FITE PROPERTIES INC",
+            "usd": 243820.8,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 223356.52,
+            "masked": false
+          },
+          {
+            "name": "HAVEN CENTER LTD",
+            "usd": 168886.16,
+            "masked": false
+          },
+          {
+            "name": "AHEAD INC",
+            "usd": 133660.8,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 120940.47,
+            "masked": false
+          },
+          {
+            "name": "TRINET EAST LLC",
+            "usd": 116481.06,
+            "masked": false
+          },
+          {
+            "name": "COMCAST BUSINESS COMMUNICATION",
+            "usd": 106584.94,
+            "masked": false
+          },
+          {
+            "name": "T-MOBILE USA INC",
+            "usd": 98372.12,
+            "masked": false
+          },
+          {
+            "name": "PRESIDIO NETWORKED SOL GROUP",
+            "usd": 91176.72,
+            "masked": false
+          },
+          {
+            "name": "WEST A THOMSON REUTERS BUSINESS",
+            "usd": 83397.52,
+            "masked": false
+          },
+          {
+            "name": "STRATO COMMUNICATIONS INC",
+            "usd": 74425.02,
+            "masked": false
+          },
+          {
+            "name": "BRIDGE MICRO",
+            "usd": 67756.25,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 67194.78,
+            "masked": true
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 65398.88,
+            "masked": false
+          },
+          {
+            "name": "NWN CORPORATION",
+            "usd": 42314.8,
+            "masked": false
+          },
+          {
+            "name": "ABLEGOV INC",
+            "usd": 38450.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 32126.03,
+            "masked": false
+          },
+          {
+            "name": "UNIVERSITY ENTERPRISES INC",
+            "usd": 30048.34,
+            "masked": false
+          },
+          {
+            "name": "PRESIDIO HOLDINGS INC",
+            "usd": 22547.04,
+            "masked": false
+          },
+          {
+            "name": "WEX BANK",
+            "usd": 18817.39,
+            "masked": false
+          },
+          {
+            "name": "GRANITE DATA SOLUTIONS",
+            "usd": 12768.0,
+            "masked": false
+          },
+          {
+            "name": "NWN SOLUTIONS CORPORATION",
+            "usd": 12695.37,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 10438.67,
+            "masked": false
+          },
+          {
+            "name": "SOFTCHOICE CORPORATION",
+            "usd": 9121.1,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 8880.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0977",
+        "title": "Health Facilities Financing Authority",
+        "fiscal_year": "2025-26",
+        "transactions": 1166,
+        "vendor_count": 28,
+        "vendor_total_usd": 1328305.95,
+        "confidential_usd": 13062.52,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 420864000,
+        "checkbook_coverage_pct": 0.3,
+        "top_vendors": [
+          {
+            "name": "EDUCATIONAL FACILITIES AUTH",
+            "usd": 475677.3,
+            "masked": false
+          },
+          {
+            "name": "STATE TREASURER",
+            "usd": 213363.25,
+            "masked": false
+          },
+          {
+            "name": "CA HEALTH FACILITIES FIN AUTH",
+            "usd": 200000.0,
+            "masked": false
+          },
+          {
+            "name": "ORRICK HERRINGTON & SUTCLIFFE",
+            "usd": 114166.5,
+            "masked": false
+          },
+          {
+            "name": "KNN PUBLIC FINANCE LLC",
+            "usd": 85612.52,
+            "masked": false
+          },
+          {
+            "name": "RICHARDSON & COMPANY LLP",
+            "usd": 58820.0,
+            "masked": false
+          },
+          {
+            "name": "TAP INTERNATIONAL INC",
+            "usd": 45445.0,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 21152.54,
+            "masked": false
+          },
+          {
+            "name": "NATL ASSN OF HEALTH EDUC FAC",
+            "usd": 17510.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 15011.28,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 14948.96,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 13150.38,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 13062.52,
+            "masked": true
+          },
+          {
+            "name": "DELL MARKETING LP",
+            "usd": 9369.3,
+            "masked": false
+          },
+          {
+            "name": "ROBERT E HERTZKA",
+            "usd": 6156.74,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 5690.0,
+            "masked": false
+          },
+          {
+            "name": "BLX GROUP LLC",
+            "usd": 5600.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 3575.22,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 2045.4,
+            "masked": false
+          },
+          {
+            "name": "ROBERT A CHERRY",
+            "usd": 1930.42,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 1559.08,
+            "masked": false
+          },
+          {
+            "name": "FEDERAL EXPRESS CORPORATION",
+            "usd": 1173.78,
+            "masked": false
+          },
+          {
+            "name": "KERI KROPKE",
+            "usd": 859.82,
+            "masked": false
+          },
+          {
+            "name": "A-TEAM MODULAR FURNITURE",
+            "usd": 680.0,
+            "masked": false
+          },
+          {
+            "name": "CA DENTAL ASSOCIATION FDN",
+            "usd": 675.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0971",
+        "title": "Alt Energy, Advanced Trans Fin Auth",
+        "fiscal_year": "2025-26",
+        "transactions": 1027,
+        "vendor_count": 36,
+        "vendor_total_usd": 1152023.43,
+        "confidential_usd": 8128.38,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 7921000,
+        "checkbook_coverage_pct": 14.5,
+        "top_vendors": [
+          {
+            "name": "ELECTRIC & GAS INDUSTRIES ASSN",
+            "usd": 262823.94,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 181833.57,
+            "masked": false
+          },
+          {
+            "name": "CONCORD SERVICING LLC",
+            "usd": 152500.0,
+            "masked": false
+          },
+          {
+            "name": "ZIONS BANCORPORATION NATL ASSN",
+            "usd": 140590.0,
+            "masked": false
+          },
+          {
+            "name": "VIRIDIS CONSULTING LLC",
+            "usd": 64510.27,
+            "masked": false
+          },
+          {
+            "name": "BLUE SKY CONSULTING GROUP LLC",
+            "usd": 61803.75,
+            "masked": false
+          },
+          {
+            "name": "ALLIED NETWORK SOLUTIONS INC",
+            "usd": 56520.0,
+            "masked": false
+          },
+          {
+            "name": "INCLUSIVE PROSPERITY CPTAL INC",
+            "usd": 53399.97,
+            "masked": false
+          },
+          {
+            "name": "STATE PERSONNEL BOARD",
+            "usd": 37253.33,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 22515.26,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 15966.48,
+            "masked": false
+          },
+          {
+            "name": "GILBERT CPAS",
+            "usd": 13500.0,
+            "masked": false
+          },
+          {
+            "name": "CHOICE TECHNICAL SERVICES INC",
+            "usd": 11964.86,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 9075.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 8128.38,
+            "masked": true
+          },
+          {
+            "name": "PROGILE TECH INC",
+            "usd": 7980.0,
+            "masked": false
+          },
+          {
+            "name": "TECHNOLOGY INTEGRATION GROUP",
+            "usd": 7330.89,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 6959.78,
+            "masked": false
+          },
+          {
+            "name": "COBBLESTONE CONSULTING INC",
+            "usd": 5388.0,
+            "masked": false
+          },
+          {
+            "name": "INNOVATIVE SOLUTIONS INC",
+            "usd": 4585.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 4305.29,
+            "masked": false
+          },
+          {
+            "name": "AMERICAN COUNCIL FOR AN ENERGY",
+            "usd": 3900.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 3624.42,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 3140.85,
+            "masked": false
+          },
+          {
+            "name": "OFFICE OF ADMINISTRATIVE LAW",
+            "usd": 2760.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0280",
+        "title": "Commission on Judicial Performance",
+        "fiscal_year": "2025-26",
+        "transactions": 599,
+        "vendor_count": 45,
+        "vendor_total_usd": 744179.83,
+        "confidential_usd": 28409.05,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 7207000,
+        "checkbook_coverage_pct": 10.3,
+        "top_vendors": [
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 265290.77,
+            "masked": false
+          },
+          {
+            "name": "RUBICONN LLC",
+            "usd": 100027.23,
+            "masked": false
+          },
+          {
+            "name": "JUDICIAL COUNCIL OF CALIFORNIA",
+            "usd": 75667.87,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 60905.81,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 28409.05,
+            "masked": true
+          },
+          {
+            "name": "UBEO BUSINESS SERVICES",
+            "usd": 22032.78,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 21180.82,
+            "masked": false
+          },
+          {
+            "name": "CUBIC TRANSPORTATION SYSTEM",
+            "usd": 19796.0,
+            "masked": false
+          },
+          {
+            "name": "RELX INC",
+            "usd": 19389.0,
+            "masked": false
+          },
+          {
+            "name": "MICHAEL MATTERS INC",
+            "usd": 16608.75,
+            "masked": false
+          },
+          {
+            "name": "AVAK A HOWSEPIAN",
+            "usd": 16500.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 16138.34,
+            "masked": false
+          },
+          {
+            "name": "CONTINUING EDU OF THE BAR",
+            "usd": 12112.82,
+            "masked": false
+          },
+          {
+            "name": "IRON MOUNTAIN INC",
+            "usd": 10931.14,
+            "masked": false
+          },
+          {
+            "name": "THE CORNER OFFICE INC",
+            "usd": 7684.41,
+            "masked": false
+          },
+          {
+            "name": "ODP BUSINESS SOLUTIONS LLC",
+            "usd": 7382.31,
+            "masked": false
+          },
+          {
+            "name": "WEST A THOMSON REUTERS BUSINESS",
+            "usd": 6745.68,
+            "masked": false
+          },
+          {
+            "name": "MATTHEW BENDER & CO INC",
+            "usd": 4819.28,
+            "masked": false
+          },
+          {
+            "name": "SHRED-IT USA LLC",
+            "usd": 3902.42,
+            "masked": false
+          },
+          {
+            "name": "ALTON L GARRETT JR",
+            "usd": 3226.75,
+            "masked": false
+          },
+          {
+            "name": "EMPLOYMENT DEVELOPMENT DEPT",
+            "usd": 3150.0,
+            "masked": false
+          },
+          {
+            "name": "KATHRYN COOPERMAN JUE",
+            "usd": 2691.18,
+            "masked": false
+          },
+          {
+            "name": "DAILY JOURNAL CORPORATION",
+            "usd": 2494.02,
+            "masked": false
+          },
+          {
+            "name": "COMCAST BUSINESS COMMUNICATION",
+            "usd": 2214.8,
+            "masked": false
+          },
+          {
+            "name": "GERALD C SHELTON",
+            "usd": 1787.64,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0968",
+        "title": "Tax Credit Allocation Committee",
+        "fiscal_year": "2025-26",
+        "transactions": 2321,
+        "vendor_count": 46,
+        "vendor_total_usd": 670695.37,
+        "confidential_usd": 273866.42,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 15926000,
+        "checkbook_coverage_pct": 4.2,
+        "top_vendors": [
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 273866.42,
+            "masked": true
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA",
+            "usd": 106422.0,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 104486.46,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 24879.43,
+            "masked": false
+          },
+          {
+            "name": "BOUTIN JONES INC",
+            "usd": 22195.0,
+            "masked": false
+          },
+          {
+            "name": "TECHNOLOGY INTEGRATION GROUP",
+            "usd": 21072.66,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 20434.79,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 11010.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 10414.24,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 9948.57,
+            "masked": false
+          },
+          {
+            "name": "NATIONAL COUNCIL OF",
+            "usd": 6435.0,
+            "masked": false
+          },
+          {
+            "name": "HOUSING CALIFORNIA",
+            "usd": 4425.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF FRESNO",
+            "usd": 4000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 4000.0,
+            "masked": false
+          },
+          {
+            "name": "NATIX INC",
+            "usd": 3644.69,
+            "masked": false
+          },
+          {
+            "name": "CITY OF IMPERIAL BEACH",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF KINGSBURG",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SAN JOSE",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF PALMDALE",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF PERRIS",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF IRVINE",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF MERCED",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF FONTANA",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LAKE FOREST",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "TOWN OF WINDSOR",
+            "usd": 2000.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0984",
+        "title": "CalSavers Retirement Savings Board",
+        "fiscal_year": "2025-26",
+        "transactions": 312,
+        "vendor_count": 27,
+        "vendor_total_usd": 550819.98,
+        "confidential_usd": 14092.85,
+        "accounting_dates": [
+          "2025-07-02",
+          "2026-03-27"
+        ],
+        "enacted_budget_usd": 7439000,
+        "checkbook_coverage_pct": 7.4,
+        "top_vendors": [
+          {
+            "name": "FRANCHISE TAX BOARD",
+            "usd": 196585.36,
+            "masked": false
+          },
+          {
+            "name": "MEKETA INVESTMENT GROUP INC",
+            "usd": 93750.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 88773.29,
+            "masked": false
+          },
+          {
+            "name": "AKF CONSULTING LLC",
+            "usd": 62026.91,
+            "masked": false
+          },
+          {
+            "name": "GILBERT CPAS",
+            "usd": 16500.0,
+            "masked": false
+          },
+          {
+            "name": "MACIAS GINI & OCONNELL LLP",
+            "usd": 15083.75,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 14092.85,
+            "masked": true
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 11340.76,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 9831.76,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 8030.94,
+            "masked": false
+          },
+          {
+            "name": "GEORGETOWN UNIVERSITY",
+            "usd": 4999.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 4866.14,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 4635.0,
+            "masked": false
+          },
+          {
+            "name": "EMPLOYMENT DEVELOPMENT DEPT",
+            "usd": 3832.81,
+            "masked": false
+          },
+          {
+            "name": "DELL MARKETING LP",
+            "usd": 2891.56,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 2630.21,
+            "masked": false
+          },
+          {
+            "name": "K & L GATES LLP",
+            "usd": 2560.0,
+            "masked": false
+          },
+          {
+            "name": "INNOVATIVE SOLUTIONS INC",
+            "usd": 2495.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 1539.85,
+            "masked": false
+          },
+          {
+            "name": "UNITED PROPERTY ADVOCATES INC",
+            "usd": 930.74,
+            "masked": false
+          },
+          {
+            "name": "STEPHEN PROUGH",
+            "usd": 870.32,
+            "masked": false
+          },
+          {
+            "name": "EL CLASIFICADO",
+            "usd": 720.0,
+            "masked": false
+          },
+          {
+            "name": "MICHELLE GASTELUM",
+            "usd": 543.97,
+            "masked": false
+          },
+          {
+            "name": "DAVID LOW",
+            "usd": 403.43,
+            "masked": false
+          },
+          {
+            "name": "RANCHO CORDOVA CHAMBER OF",
+            "usd": 365.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0750",
+        "title": "Office of the Lieutenant Governor",
+        "fiscal_year": "2025-26",
+        "transactions": 367,
+        "vendor_count": 22,
+        "vendor_total_usd": 240602.44,
+        "confidential_usd": 173478.78,
+        "accounting_dates": [
+          "2025-07-09",
+          "2026-03-26"
+        ],
+        "enacted_budget_usd": 2785000,
+        "checkbook_coverage_pct": 8.6,
+        "top_vendors": [
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 173478.78,
+            "masked": true
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 19266.76,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 9005.56,
+            "masked": false
+          },
+          {
+            "name": "AT&T MOBILITY",
+            "usd": 7044.77,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 6732.3,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 6376.65,
+            "masked": false
+          },
+          {
+            "name": "PC SPECIALISTS INC",
+            "usd": 4909.76,
+            "masked": false
+          },
+          {
+            "name": "NOTED TECHNOLOGY SOLUTIONS INC",
+            "usd": 2833.31,
+            "masked": false
+          },
+          {
+            "name": "BURKETTS OFFICE SUPPLIES INC",
+            "usd": 2465.35,
+            "masked": false
+          },
+          {
+            "name": "ACUITY TECHNICAL SOLUTIONS LLC",
+            "usd": 1500.0,
+            "masked": false
+          },
+          {
+            "name": "SINGLE PAY VENDOR",
+            "usd": 1441.97,
+            "masked": false
+          },
+          {
+            "name": "TECH MASTERS LLC",
+            "usd": 1210.0,
+            "masked": false
+          },
+          {
+            "name": "STATE HIGHER EDUC EXECUTIVE",
+            "usd": 1199.0,
+            "masked": false
+          },
+          {
+            "name": "SMILE BUSINESS PRODUCTS INC",
+            "usd": 816.3,
+            "masked": false
+          },
+          {
+            "name": "SECURE SMART SOLUTIONS LLC",
+            "usd": 670.57,
+            "masked": false
+          },
+          {
+            "name": "PCAM LLC",
+            "usd": 619.0,
+            "masked": false
+          },
+          {
+            "name": "SACRAMENTO BEE",
+            "usd": 359.99,
+            "masked": false
+          },
+          {
+            "name": "CA STATE SENATE SENATE RULES COMM",
+            "usd": 260.87,
+            "masked": false
+          },
+          {
+            "name": "ORANGE COUNTY REGISTER",
+            "usd": 135.95,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 120.55,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 80.0,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 75.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0956",
+        "title": "Debt Investment Advisory Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 247,
+        "vendor_count": 28,
+        "vendor_total_usd": 218854.62,
+        "confidential_usd": 11148.09,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-24"
+        ],
+        "enacted_budget_usd": 4469000,
+        "checkbook_coverage_pct": 4.9,
+        "top_vendors": [
+          {
+            "name": "STATE TREASURER",
+            "usd": 79750.0,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 35025.51,
+            "masked": false
+          },
+          {
+            "name": "ADVANCED PROBLEM SOLVING LLC",
+            "usd": 26040.0,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 11148.09,
+            "masked": true
+          },
+          {
+            "name": "SYSTEM SOLUTIONS DVBE INC",
+            "usd": 11091.52,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 9148.97,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 8268.2,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 4977.24,
+            "masked": false
+          },
+          {
+            "name": "JTC TECHNOLOGIES LLC",
+            "usd": 4398.03,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 3823.5,
+            "masked": false
+          },
+          {
+            "name": "ARIZENT",
+            "usd": 3750.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIED NETWORK SOLUTIONS INC",
+            "usd": 3712.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 3337.19,
+            "masked": false
+          },
+          {
+            "name": "MERGENT SYSTEMS INC",
+            "usd": 3013.51,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 2348.71,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA SPECIAL DIST ASSN",
+            "usd": 1872.0,
+            "masked": false
+          },
+          {
+            "name": "CA SOCIETY OF MUN FIN OFFIC",
+            "usd": 1390.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 1335.56,
+            "masked": false
+          },
+          {
+            "name": "CA MUNICIPAL TREASURERS ASSOC",
+            "usd": 1000.0,
+            "masked": false
+          },
+          {
+            "name": "BANK OF AMERICA",
+            "usd": 778.6,
+            "masked": false
+          },
+          {
+            "name": "GOVERNMENT FIN OFFICERS ASSOC",
+            "usd": 750.0,
+            "masked": false
+          },
+          {
+            "name": "CA ASSN OF CO TRE & TAX COLL",
+            "usd": 680.0,
+            "masked": false
+          },
+          {
+            "name": "A-TEAM MODULAR FURNITURE",
+            "usd": 340.0,
+            "masked": false
+          },
+          {
+            "name": "WOMEN IN PUBLIC FINANCE",
+            "usd": 240.0,
+            "masked": false
+          },
+          {
+            "name": "ELAVON INC",
+            "usd": 187.46,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0989",
+        "title": "Educational Facilities Authority",
+        "fiscal_year": "2025-26",
+        "transactions": 102,
+        "vendor_count": 17,
+        "vendor_total_usd": 201885.01,
+        "confidential_usd": 2266.48,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-23"
+        ],
+        "enacted_budget_usd": 1091000,
+        "checkbook_coverage_pct": 18.5,
+        "top_vendors": [
+          {
+            "name": "EDUCATIONAL FACILITIES AUTH",
+            "usd": 78291.48,
+            "masked": false
+          },
+          {
+            "name": "RICHARDSON & COMPANY LLP",
+            "usd": 52300.0,
+            "masked": false
+          },
+          {
+            "name": "STATE TREASURER",
+            "usd": 17000.0,
+            "masked": false
+          },
+          {
+            "name": "KNN PUBLIC FINANCE LLC",
+            "usd": 15537.5,
+            "masked": false
+          },
+          {
+            "name": "NATL ASSN OF HEALTH EDUC FAC",
+            "usd": 10700.0,
+            "masked": false
+          },
+          {
+            "name": "TAP INTERNATIONAL INC",
+            "usd": 5066.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 4544.52,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 4312.22,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 4161.24,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 2266.48,
+            "masked": true
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 1811.3,
+            "masked": false
+          },
+          {
+            "name": "DELL MARKETING LP",
+            "usd": 1691.24,
+            "masked": false
+          },
+          {
+            "name": "CA HEALTH FACILITIES FIN AUTH",
+            "usd": 1656.7,
+            "masked": false
+          },
+          {
+            "name": "BANK OF AMERICA",
+            "usd": 1285.23,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 1085.24,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 100.0,
+            "masked": false
+          },
+          {
+            "name": "FEDERAL EXPRESS CORPORATION",
+            "usd": 75.86,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0981",
+        "title": "California ABLE Act Board",
+        "fiscal_year": "2025-26",
+        "transactions": 352,
+        "vendor_count": 35,
+        "vendor_total_usd": 161106.82,
+        "confidential_usd": 7042.26,
+        "accounting_dates": [
+          "2025-07-07",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 1648000,
+        "checkbook_coverage_pct": 9.8,
+        "top_vendors": [
+          {
+            "name": "MEKETA INVESTMENT GROUP INC",
+            "usd": 56077.38,
+            "masked": false
+          },
+          {
+            "name": "AKF CONSULTING LLC",
+            "usd": 30400.83,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 9369.05,
+            "masked": false
+          },
+          {
+            "name": "SAGE STRATEGIES LLC",
+            "usd": 7777.75,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 7042.26,
+            "masked": true
+          },
+          {
+            "name": "EATON INTERPRETING SVCS INC",
+            "usd": 5115.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 4711.44,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 4680.19,
+            "masked": false
+          },
+          {
+            "name": "TECHNOLOGY INTEGRATION GROUP",
+            "usd": 4236.39,
+            "masked": false
+          },
+          {
+            "name": "PROF FIDUCIARY ASSN OF CA",
+            "usd": 3750.0,
+            "masked": false
+          },
+          {
+            "name": "ECAPTIONS",
+            "usd": 2750.0,
+            "masked": false
+          },
+          {
+            "name": "AUTISTRY STUDIOS",
+            "usd": 2600.0,
+            "masked": false
+          },
+          {
+            "name": "TICHENOR ORTHOPEDIC CLINIC FOR",
+            "usd": 2500.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 2272.91,
+            "masked": false
+          },
+          {
+            "name": "LAZAR TRANSLATING &",
+            "usd": 2200.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 2047.47,
+            "masked": false
+          },
+          {
+            "name": "SUPPORTED LIFE INSTITUTE",
+            "usd": 2000.0,
+            "masked": false
+          },
+          {
+            "name": "ZOOM VIDEO COMMUNICATIONS INC",
+            "usd": 1636.99,
+            "masked": false
+          },
+          {
+            "name": "ACTIVE 20-30 CLUB 1 SACRAMENTO",
+            "usd": 1500.0,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 1289.14,
+            "masked": false
+          },
+          {
+            "name": "EMPLOYMENT DEVELOPMENT DEPT",
+            "usd": 1127.0,
+            "masked": false
+          },
+          {
+            "name": "DISABILITY RIGHTS CALIFORNIA",
+            "usd": 1000.0,
+            "masked": false
+          },
+          {
+            "name": "NAMI CALIFORNIA",
+            "usd": 750.0,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC ADMINISTRATOR PUBLIC",
+            "usd": 750.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 598.96,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0680",
+        "title": "Gov Ofc Service and Community Engagement",
+        "fiscal_year": "2025-26",
+        "transactions": 33,
+        "vendor_count": 1,
+        "vendor_total_usd": 91652.34,
+        "confidential_usd": 0.0,
+        "accounting_dates": [
+          "2025-08-13",
+          "2026-03-13"
+        ],
+        "enacted_budget_usd": 228731000,
+        "checkbook_coverage_pct": 0.0,
+        "top_vendors": [
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 91652.34,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0957",
+        "title": "HOPE for Children Trust Account Prog Bd",
+        "fiscal_year": "2025-26",
+        "transactions": 48,
+        "vendor_count": 11,
+        "vendor_total_usd": 68637.8,
+        "confidential_usd": 0.0,
+        "accounting_dates": [
+          "2025-07-28",
+          "2026-03-25"
+        ],
+        "enacted_budget_usd": 39500000,
+        "checkbook_coverage_pct": 0.2,
+        "top_vendors": [
+          {
+            "name": "VISTASHARE LLC",
+            "usd": 55940.0,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 5562.46,
+            "masked": false
+          },
+          {
+            "name": "INTELLISTACK LLC",
+            "usd": 3187.99,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 1502.58,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 567.7,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 550.0,
+            "masked": false
+          },
+          {
+            "name": "FAWN ANNA ROBINSON",
+            "usd": 532.0,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 522.58,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 215.81,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 50.0,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 6.68,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0911",
+        "title": "Citizens Redistricting Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 113,
+        "vendor_count": 13,
+        "vendor_total_usd": 53226.08,
+        "confidential_usd": 1992.32,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-19"
+        ],
+        "enacted_budget_usd": 185000,
+        "checkbook_coverage_pct": 28.8,
+        "top_vendors": [
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 26026.67,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 11962.72,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 5692.38,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 3402.5,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 1992.32,
+            "masked": true
+          },
+          {
+            "name": "CLASS ACT ALLIANCE INC",
+            "usd": 1105.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 1040.44,
+            "masked": false
+          },
+          {
+            "name": "ESCRIBERS LLC",
+            "usd": 742.0,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 609.81,
+            "masked": false
+          },
+          {
+            "name": "LINDA AKUTAGAWA",
+            "usd": 207.76,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 165.0,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 146.48,
+            "masked": false
+          },
+          {
+            "name": "FEDERAL EXPRESS CORPORATION",
+            "usd": 133.0,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0959",
+        "title": "Debt Limit Allocation Committee",
+        "fiscal_year": "2025-26",
+        "transactions": 67,
+        "vendor_count": 10,
+        "vendor_total_usd": 25848.24,
+        "confidential_usd": 812.42,
+        "accounting_dates": [
+          "2025-07-14",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 3681000,
+        "checkbook_coverage_pct": 0.7,
+        "top_vendors": [
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 7146.09,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 6828.3,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 5634.54,
+            "masked": false
+          },
+          {
+            "name": "CONNECT CARD REGIONAL SVC CTR",
+            "usd": 2473.0,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 1051.28,
+            "masked": false
+          },
+          {
+            "name": "ALLIANT INSURANCE SVCS INC",
+            "usd": 1031.2,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 812.42,
+            "masked": true
+          },
+          {
+            "name": "CA COALITION FOR RURAL HOUSING",
+            "usd": 550.0,
+            "masked": false
+          },
+          {
+            "name": "VERIZON WIRELESS SVCS LLC",
+            "usd": 211.41,
+            "masked": false
+          },
+          {
+            "name": "CA PUBLIC EMPLOYEES RETIR SYST",
+            "usd": 110.0,
+            "masked": false
+          }
+        ]
+      }
+    ]
+  }
+}

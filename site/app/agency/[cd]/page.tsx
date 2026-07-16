@@ -3,10 +3,19 @@ import path from "path";
 import Link from "next/link";
 import { CoverageMeter } from "@/components/ui/CoverageMeter";
 import { DepartmentsTable } from "@/components/agency/DepartmentsTable";
+import { VendorsSection, type VendorDept } from "@/components/agency/VendorsSection";
 import { SourceChip } from "@/components/ui/SourceChip";
 import { loadPublished } from "@/lib/published-server";
 import { fmtUsd, type BudgetWaterfall, type Published } from "@/lib/published";
 import type { AgencyDetail } from "@/lib/agency";
+
+async function loadVendors(cd: string): Promise<Published<{ departments: VendorDept[] }> | null> {
+  try {
+    return await loadPublished<{ departments: VendorDept[] }>(`vendors/${cd}`);
+  } catch {
+    return null; // checkbook layer not ingested for this agency yet
+  }
+}
 
 async function agencyCodes(): Promise<string[]> {
   const dir = path.join(process.cwd(), "public", "data", "agencies");
@@ -27,7 +36,9 @@ export default async function AgencyPage({ params }: { params: Promise<{ cd: str
   const { cd } = await params;
   const pub = await loadPublished<AgencyDetail>(`agencies/${cd}`);
   const waterfall = await loadPublished<BudgetWaterfall>("budget_waterfall");
+  const vendors = await loadVendors(cd);
   const agency = pub.data;
+  const vendorTotal = vendors?.data.departments.reduce((s, d) => s + d.vendor_total_usd, 0) ?? 0;
   const downstream = waterfall.data.downstream_visibility.find((d) =>
     agency.title.includes(d.node) || d.node.includes(agency.title.replace(" thru ", "-"))
   );
@@ -69,12 +80,19 @@ export default async function AgencyPage({ params }: { params: Promise<{ cd: str
               ok: true,
               note: `${programCount} program lines, integrity-checked.`,
             },
-            {
-              label: "Payments to vendors",
-              ok: false,
-              note: "The state checkbook (Open FI$Cal) gates every download behind a CAPTCHA — no machine access.",
-              href: "/gaps/#fiscal-captcha",
-            },
+            vendors
+              ? {
+                  label: "Payments to vendors",
+                  ok: true,
+                  note: `${fmtUsd(vendorTotal)} visible in the checkbook (${((vendorTotal / agency.total_usd) * 100).toFixed(1)}% of budget — payroll & benefit payments are excluded by design).`,
+                  href: "/gaps/#fiscal-captcha",
+                }
+              : {
+                  label: "Payments to vendors",
+                  ok: false,
+                  note: "Checkbook layer not ingested for this agency yet.",
+                  href: "/gaps/#fiscal-captcha",
+                },
           ]}
         />
       </div>
@@ -84,6 +102,19 @@ export default async function AgencyPage({ params }: { params: Promise<{ cd: str
         Click a department to unfold its fund mix and program lines.
       </p>
       <DepartmentsTable departments={agency.departments} />
+
+      {vendors && <VendorsSection departments={vendors.data.departments} />}
+
+      {vendors && (
+        <SourceChip
+          source={vendors.source}
+          asOf={vendors.as_of}
+          cadence={vendors.cadence}
+          coverage={vendors.coverage_flag}
+          caveats={vendors.caveats}
+          dataHref={`/data/vendors/${cd}.json`}
+        />
+      )}
 
       {downstream && (
         <section className="mt-10">

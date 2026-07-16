@@ -1,0 +1,29 @@
+# Open FI$Cal — department vendor transaction files (the state checkbook).
+# A pointer CSV on Azure blob storage catalogs ~1,200 per-department, per-FY
+# CSV files with direct download URLs (no auth). Files are re-uploaded monthly
+# (~60-day accounting lag). We ingest fiscal years >= fy_min and re-download a
+# file only when its catalog UploadDate/FileSize changes.
+#
+# CORRECTION HISTORY: we initially reported these downloads as CAPTCHA-gated.
+# User testing showed the file URLs are direct; the reCAPTCHA on the page does
+# not gate the blob URLs. The /gaps entry was corrected on 2026-07-16.
+source: fiscal_vendor
+dataset: dept_vendor_transactions
+access: blob_catalog
+download_url: "https://adwoutputfilesadlsstore.blob.core.windows.net/transparency/DepartmentVendorTransactionPointer/DepartmentVendorTransactionPointer.csv"
+cadence: "monthly, ~60-day accounting lag"
+freshness_sla_hours: 1440
+min_rows: 100          # per-file sanity floor is separate; this gates the catalog
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments — so checkbook totals are far below budget totals by design; we publish the coverage percentage per department."
+  - "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it."
+  - "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+info:
+  name: "Open FI$Cal — Department Vendor Transactions"
+  publisher: "FI$Cal (State of California)"
+  url: "https://open.fiscal.ca.gov/dept_vendor_transaction.html"
+  license: "Public record (State of California)"
+extra:
+  fy_min: 20   # two-digit FY suffix in filenames; 20 => FY2020-21 files ("FY20")

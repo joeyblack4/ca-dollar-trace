@@ -32,6 +32,7 @@ class SourceConfig(BaseModel):
     coverage_flag: str = "traceable"  # traceable | category_only | trail_ends_here | masked
     caveats: list[str] = []
     info: SourceInfo
+    extra: dict = {}  # connector-specific knobs (e.g. fy_min, heavy)
 
 
 def load_source(settings: Settings, source: str) -> SourceConfig:

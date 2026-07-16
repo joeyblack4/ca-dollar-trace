@@ -1,0 +1,726 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "departments": [
+      {
+        "org_cd": "2665",
+        "title": "High-Speed Rail Authority",
+        "fiscal_year": "2025-26",
+        "transactions": 6222,
+        "vendor_count": 343,
+        "vendor_total_usd": 1320629223.66,
+        "confidential_usd": 3540164.26,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 802749000,
+        "checkbook_coverage_pct": 164.5,
+        "top_vendors": [
+          {
+            "name": "TUTOR PERINI ZACHRY PARSONS",
+            "usd": 398978550.83,
+            "masked": false
+          },
+          {
+            "name": "DRAGADOS FLATIRON JV",
+            "usd": 382958274.21,
+            "masked": false
+          },
+          {
+            "name": "BNSF RAILWAY COMPANY",
+            "usd": 72518779.89,
+            "masked": false
+          },
+          {
+            "name": "AECOM FLUOR JOINT VENTURE",
+            "usd": 69222563.3,
+            "masked": false
+          },
+          {
+            "name": "WONG HARRIS JV",
+            "usd": 54474502.88,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA RAIL BUILDERS LLC",
+            "usd": 40176032.53,
+            "masked": false
+          },
+          {
+            "name": "ARCADIS US INC",
+            "usd": 39890404.97,
+            "masked": false
+          },
+          {
+            "name": "PEN CORRIDOR JOINT POWERS BD",
+            "usd": 33201154.48,
+            "masked": false
+          },
+          {
+            "name": "SYSTRA TYPSA JOINT VENTURE",
+            "usd": 29347606.99,
+            "masked": false
+          },
+          {
+            "name": "HNTB CORPORATION",
+            "usd": 21147568.49,
+            "masked": false
+          },
+          {
+            "name": "STANTEC CONSULTING SVCS INC",
+            "usd": 18392567.4,
+            "masked": false
+          },
+          {
+            "name": "UNION PACIFIC RAILROAD COMPANY",
+            "usd": 14852771.72,
+            "masked": false
+          },
+          {
+            "name": "KPMG LLP",
+            "usd": 10660070.78,
+            "masked": false
+          },
+          {
+            "name": "AMT TITLE SERVICES CA INC",
+            "usd": 10225237.0,
+            "masked": false
+          },
+          {
+            "name": "PACIFIC GAS & ELECTRIC CO",
+            "usd": 9621530.19,
+            "masked": false
+          },
+          {
+            "name": "FP ARUP JV",
+            "usd": 8514698.0,
+            "masked": false
+          },
+          {
+            "name": "NETWORK RAIL CONSULTING INC",
+            "usd": 7662015.2,
+            "masked": false
+          },
+          {
+            "name": "IRIGOYEN FARMS INC",
+            "usd": 7437567.0,
+            "masked": false
+          },
+          {
+            "name": "DB ECO NORTH AMERICA INC",
+            "usd": 6371634.66,
+            "masked": false
+          },
+          {
+            "name": "FIRST AMERICAN TITLE COMPANY",
+            "usd": 5864177.1,
+            "masked": false
+          },
+          {
+            "name": "STV INCORPORATED",
+            "usd": 5580056.24,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF FRESNO",
+            "usd": 4001804.69,
+            "masked": false
+          },
+          {
+            "name": "COMMONWEALTH LAND TITLE CO",
+            "usd": 3888852.0,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA DEPT OF TRANS",
+            "usd": 3869927.84,
+            "masked": false
+          },
+          {
+            "name": "A & K RAILROAD MATERIALS INC",
+            "usd": 3840515.57,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "0521",
+        "title": "Transportation, Secy",
+        "fiscal_year": "2025-26",
+        "transactions": 5269,
+        "vendor_count": 482,
+        "vendor_total_usd": 786736193.02,
+        "confidential_usd": 73627.5,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 2014839000,
+        "checkbook_coverage_pct": 39.0,
+        "top_vendors": [
+          {
+            "name": "CALIFORNIA DEPT OF TRANS",
+            "usd": 428424956.99,
+            "masked": false
+          },
+          {
+            "name": "SACRAMENTO AREA COUN OF GOVTS",
+            "usd": 87036184.0,
+            "masked": false
+          },
+          {
+            "name": "RIVERSIDE COUNTY TRANS COMM",
+            "usd": 61846734.0,
+            "masked": false
+          },
+          {
+            "name": "VENTURA CTY TRANS COMMISSION",
+            "usd": 21268079.0,
+            "masked": false
+          },
+          {
+            "name": "SAN LUIS OBISPO COUNCIL OF GOV",
+            "usd": 17045977.91,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF THE CA HIGHWAY PATROL",
+            "usd": 16959866.93,
+            "masked": false
+          },
+          {
+            "name": "PEN CORRIDOR JOINT POWERS BD",
+            "usd": 12300000.0,
+            "masked": false
+          },
+          {
+            "name": "SAN BERNARDINO COUNTY TRNSPRTN",
+            "usd": 9840721.0,
+            "masked": false
+          },
+          {
+            "name": "PORT DEPT OF OAKLAND",
+            "usd": 9547796.87,
+            "masked": false
+          },
+          {
+            "name": "CAPITOL CORRIDOR JPA",
+            "usd": 8122586.0,
+            "masked": false
+          },
+          {
+            "name": "NEVADA COUNTY TRANSPORTATION COMMISSION",
+            "usd": 6274383.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 5446057.28,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA",
+            "usd": 4440243.57,
+            "masked": false
+          },
+          {
+            "name": "LOSSAN RAIL CORRIDOR AGENCY",
+            "usd": 4025195.13,
+            "masked": false
+          },
+          {
+            "name": "SONOMA MARIN AREA RAIL TRAN",
+            "usd": 3700000.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LOS ANGELES",
+            "usd": 3669226.18,
+            "masked": false
+          },
+          {
+            "name": "NORTH COUNTY TRANSIT DISTRICT",
+            "usd": 3490972.9,
+            "masked": false
+          },
+          {
+            "name": "PROPROSE LLC",
+            "usd": 3366876.77,
+            "masked": false
+          },
+          {
+            "name": "DEPT ALCOHOLIC BEVERAGE CNTRL",
+            "usd": 2740067.89,
+            "masked": false
+          },
+          {
+            "name": "SAN JOAQUIN JOINT POWERS AUTH",
+            "usd": 2229022.99,
+            "masked": false
+          },
+          {
+            "name": "COLUSA COUNTY",
+            "usd": 2223615.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF RIVERSIDE",
+            "usd": 2117693.7,
+            "masked": false
+          },
+          {
+            "name": "ORANGE COUNTY DIST ATTORNEY",
+            "usd": 2056267.25,
+            "masked": false
+          },
+          {
+            "name": "TUOLUMNE CNTY TRANS COUNCIL",
+            "usd": 1959901.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF TRINITY",
+            "usd": 1783399.14,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "2720",
+        "title": "Dept of the California Highway Patrol",
+        "fiscal_year": "2025-26",
+        "transactions": 116170,
+        "vendor_count": 3162,
+        "vendor_total_usd": 414494832.78,
+        "confidential_usd": 8205300.77,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 3558542000,
+        "checkbook_coverage_pct": 11.6,
+        "top_vendors": [
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 67871117.3,
+            "masked": false
+          },
+          {
+            "name": "COBAN TECHNOLOGIES INC",
+            "usd": 18387070.02,
+            "masked": false
+          },
+          {
+            "name": "WINNER CHEVROLET INC",
+            "usd": 14537127.84,
+            "masked": false
+          },
+          {
+            "name": "PINNACLE PETROLEUM INC",
+            "usd": 14099060.18,
+            "masked": false
+          },
+          {
+            "name": "ELK GROVE AUTO GROUP",
+            "usd": 13071686.84,
+            "masked": false
+          },
+          {
+            "name": "MOTOROLA SOLUTIONS INC",
+            "usd": 9323540.48,
+            "masked": false
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 8939416.52,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 8733989.1,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 8200954.13,
+            "masked": true
+          },
+          {
+            "name": "GROVE RIVER DISTRICT LLC",
+            "usd": 7757117.08,
+            "masked": false
+          },
+          {
+            "name": "WEX BANK",
+            "usd": 7642538.31,
+            "masked": false
+          },
+          {
+            "name": "CNC TECHNOLOGIES LLC",
+            "usd": 7345958.7,
+            "masked": false
+          },
+          {
+            "name": "PACIFIC GAS & ELECTRIC CO",
+            "usd": 6399210.56,
+            "masked": false
+          },
+          {
+            "name": "PALICON GROUP",
+            "usd": 5037065.0,
+            "masked": false
+          },
+          {
+            "name": "FALCON FUELS INC",
+            "usd": 4658093.91,
+            "masked": false
+          },
+          {
+            "name": "WATTCO EQUIPMENT INC",
+            "usd": 4189509.67,
+            "masked": false
+          },
+          {
+            "name": "BLACK BOX SAFETY INC",
+            "usd": 4156076.78,
+            "masked": false
+          },
+          {
+            "name": "LONG BEACH BMW MOTORCYCLES",
+            "usd": 3829528.17,
+            "masked": false
+          },
+          {
+            "name": "SOLUTIONS SIMPLIFIED",
+            "usd": 3239559.0,
+            "masked": false
+          },
+          {
+            "name": "CDW GOVERNMENT LLC",
+            "usd": 3229132.45,
+            "masked": false
+          },
+          {
+            "name": "TRACY CHP PARTNERS LLC",
+            "usd": 3198765.33,
+            "masked": false
+          },
+          {
+            "name": "SJ VALLEY LP",
+            "usd": 3141228.84,
+            "masked": false
+          },
+          {
+            "name": "CHP DEVELOPMENT LLC",
+            "usd": 2713529.91,
+            "masked": false
+          },
+          {
+            "name": "H & H AUTO PARTS WHOLESALE",
+            "usd": 2646852.28,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF INDUSTRIAL RELATIONS",
+            "usd": 2591717.13,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "2670",
+        "title": "Board of Pilot Commissioners",
+        "fiscal_year": "2025-26",
+        "transactions": 270,
+        "vendor_count": 24,
+        "vendor_total_usd": 1278087.23,
+        "confidential_usd": 4666.49,
+        "accounting_dates": [
+          "2025-07-18",
+          "2026-03-19"
+        ],
+        "enacted_budget_usd": 10701000,
+        "checkbook_coverage_pct": 11.9,
+        "top_vendors": [
+          {
+            "name": "GC EM CUBE LLC",
+            "usd": 223790.97,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF THE CA HIGHWAY PATROL",
+            "usd": 204516.68,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA SF",
+            "usd": 102953.0,
+            "masked": false
+          },
+          {
+            "name": "SAN FRANCISCO BAR PILOTS",
+            "usd": 99314.74,
+            "masked": false
+          },
+          {
+            "name": "ARTELIA",
+            "usd": 96000.0,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 95267.25,
+            "masked": false
+          },
+          {
+            "name": "DANIEL THINGER",
+            "usd": 76500.0,
+            "masked": false
+          },
+          {
+            "name": "CARL JOHNSON",
+            "usd": 76500.0,
+            "masked": false
+          },
+          {
+            "name": "LILLIAN GALLO",
+            "usd": 67392.86,
+            "masked": false
+          },
+          {
+            "name": "BRENDAN ROBERTS",
+            "usd": 63064.52,
+            "masked": false
+          },
+          {
+            "name": "STATE CONTROLLER",
+            "usd": 44466.25,
+            "masked": false
+          },
+          {
+            "name": "CSU MARITIME ACADEMY",
+            "usd": 42750.0,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA DEPT OF TRANS",
+            "usd": 32475.61,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 24797.44,
+            "masked": false
+          },
+          {
+            "name": "STATE COMP INSURANCE FUND",
+            "usd": 7138.76,
+            "masked": false
+          },
+          {
+            "name": "GUEVARA OFFICE SUPPLIES LLC",
+            "usd": 5923.94,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 4666.49,
+            "masked": true
+          },
+          {
+            "name": "AT&T ENTERPRISES LLC",
+            "usd": 3485.71,
+            "masked": false
+          },
+          {
+            "name": "COMCAST",
+            "usd": 2165.13,
+            "masked": false
+          },
+          {
+            "name": "US BANK",
+            "usd": 1780.65,
+            "masked": false
+          },
+          {
+            "name": "KENNEDY COURT REPORTERS INC",
+            "usd": 1275.0,
+            "masked": false
+          },
+          {
+            "name": "RASIX COMPUTER CENTER",
+            "usd": 1231.87,
+            "masked": false
+          },
+          {
+            "name": "SURVEYMONKEY INC",
+            "usd": 468.0,
+            "masked": false
+          },
+          {
+            "name": "FEDERAL EXPRESS CORPORATION",
+            "usd": 162.36,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "2600",
+        "title": "California Transportation Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 2072,
+        "vendor_count": 39,
+        "vendor_total_usd": 1078015.45,
+        "confidential_usd": 81775.01,
+        "accounting_dates": [
+          "2025-07-24",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 11044000,
+        "checkbook_coverage_pct": 9.8,
+        "top_vendors": [
+          {
+            "name": "UNIVERSITY OF CA BERKELEY",
+            "usd": 223369.95,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 180960.18,
+            "masked": false
+          },
+          {
+            "name": "CALIFORNIA DEPT OF TRANS",
+            "usd": 104981.76,
+            "masked": false
+          },
+          {
+            "name": "CONFIDENTIAL",
+            "usd": 81775.01,
+            "masked": true
+          },
+          {
+            "name": "NWN SOLUTIONS CORPORATION",
+            "usd": 75786.32,
+            "masked": false
+          },
+          {
+            "name": "MENTAL HEALTH EDUCATION GROUP",
+            "usd": 65165.89,
+            "masked": false
+          },
+          {
+            "name": "THE COMMUNITY COLLEGE FDN",
+            "usd": 63007.16,
+            "masked": false
+          },
+          {
+            "name": "QUALAPPS INC",
+            "usd": 49500.0,
+            "masked": false
+          },
+          {
+            "name": "SPERRY CAPITAL INC",
+            "usd": 48665.0,
+            "masked": false
+          },
+          {
+            "name": "UNSPOKEN LANGUAGE SERVICES INC",
+            "usd": 34019.93,
+            "masked": false
+          },
+          {
+            "name": "CSU SACRAMENTO",
+            "usd": 28353.14,
+            "masked": false
+          },
+          {
+            "name": "AT&T GLOBAL SERVICES INC",
+            "usd": 25200.9,
+            "masked": false
+          },
+          {
+            "name": "CPS HR CONSULTING",
+            "usd": 14537.5,
+            "masked": false
+          },
+          {
+            "name": "PAT DAVIS DESIGN GROUP INC",
+            "usd": 12255.0,
+            "masked": false
+          },
+          {
+            "name": "STATE COMPENSATION INSURNCE FD",
+            "usd": 12196.31,
+            "masked": false
+          },
+          {
+            "name": "TRANS-LANG",
+            "usd": 8409.15,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF THE CA HIGHWAY PATROL",
+            "usd": 5942.14,
+            "masked": false
+          },
+          {
+            "name": "SELF HELP COUNTIES COALITION",
+            "usd": 5250.0,
+            "masked": false
+          },
+          {
+            "name": "MILEAGE BASED USR FEE ALLIANCE",
+            "usd": 5000.0,
+            "masked": false
+          },
+          {
+            "name": "NATIONAL ACADEMY OF SCIENCES",
+            "usd": 4410.0,
+            "masked": false
+          },
+          {
+            "name": "UNITED SUPPLY ALLIANCE INC",
+            "usd": 4170.41,
+            "masked": false
+          },
+          {
+            "name": "AT&T MOBILITY",
+            "usd": 3397.75,
+            "masked": false
+          },
+          {
+            "name": "SMILE BUSINESS PRODUCTS INC",
+            "usd": 3365.99,
+            "masked": false
+          },
+          {
+            "name": "STATE COMP INSURANCE FUND",
+            "usd": 2946.24,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF RIVERSIDE",
+            "usd": 2600.85,
+            "masked": false
+          }
+        ]
+      }
+    ]
+  }
+}

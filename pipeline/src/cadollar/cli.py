@@ -16,6 +16,7 @@ from .config import REPO_ROOT, Settings, get_settings
 from .ingest.csv_download import run_csv_ingest
 from .ingest.ebudget import run_ebudget
 from .ingest.ebudget_detail import run_ebudget_detail
+from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.usaspending import run_usaspending
 from .publish.grants import publish_grants_summary
 from .sources import load_source
@@ -51,12 +52,21 @@ def _run_usaspending(storage: Storage, settings: Settings) -> None:
     run_usaspending(storage, cfg, settings)
 
 
+def _run_fiscal_vendor(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "fiscal_vendor")
+    run_fiscal_vendor(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
     "ebudget_detail": _run_ebudget_detail,
     "usaspending_ca": _run_usaspending,
+    "fiscal_vendor": _run_fiscal_vendor,
 }
+
+# multi-GB backfills that need a persistent data dir; run explicitly, not from cron
+HEAVY = {"fiscal_vendor"}
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -84,7 +94,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"synced {copied} published file(s) -> {dest}")
         return 0
 
-    sources = sorted(RUNNERS) if args.cmd == "run-all" else [args.source]
+    sources = sorted(set(RUNNERS) - HEAVY) if args.cmd == "run-all" else [args.source]
     for source in sources:
         RUNNERS[source](storage, settings)
     return 0

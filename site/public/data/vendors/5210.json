@@ -1,0 +1,163 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "departments": [
+      {
+        "org_cd": "5227",
+        "title": "Board of State and Community Corrections",
+        "fiscal_year": "2025-26",
+        "transactions": 4438,
+        "vendor_count": 457,
+        "vendor_total_usd": 345197135.41,
+        "confidential_usd": 263876.03,
+        "accounting_dates": [
+          "2025-07-09",
+          "2026-03-30"
+        ],
+        "enacted_budget_usd": 583229000,
+        "checkbook_coverage_pct": 59.2,
+        "top_vendors": [
+          {
+            "name": "CONTRA COSTA COUNTY",
+            "usd": 39423399.55,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF MENDOCINO",
+            "usd": 13290030.48,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF MERCED",
+            "usd": 11381432.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LOS ANGELES",
+            "usd": 10929682.0,
+            "masked": false
+          },
+          {
+            "name": "CITY & COUNTY OF SAN FRANCISCO",
+            "usd": 9574788.85,
+            "masked": false
+          },
+          {
+            "name": "IMPACT JUSTICE",
+            "usd": 8657704.0,
+            "masked": false
+          },
+          {
+            "name": "BUTTE COUNTY",
+            "usd": 8215926.3,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF COLUSA SHERIFFS OFC",
+            "usd": 7525386.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN MATEO",
+            "usd": 7203951.54,
+            "masked": false
+          },
+          {
+            "name": "AMADOR COUNTY",
+            "usd": 7006444.92,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF TEHAMA",
+            "usd": 6864525.68,
+            "masked": false
+          },
+          {
+            "name": "CITY OF FRESNO",
+            "usd": 5912594.0,
+            "masked": false
+          },
+          {
+            "name": "PLACER COUNTY FACILITIES MGMT",
+            "usd": 5141996.0,
+            "masked": false
+          },
+          {
+            "name": "YUBA COUNTY",
+            "usd": 5067692.89,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF LA SHERIFF DEPT",
+            "usd": 4887689.0,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SACRAMENTO",
+            "usd": 4877269.72,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF SAN DIEGO",
+            "usd": 4578301.35,
+            "masked": false
+          },
+          {
+            "name": "SAN JOAQUIN COUNTY",
+            "usd": 4511918.94,
+            "masked": false
+          },
+          {
+            "name": "CITY OF LOS ANGELES",
+            "usd": 4393156.3,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF VENTURA",
+            "usd": 4347584.54,
+            "masked": false
+          },
+          {
+            "name": "SIERRA HLTH FDN-CENTER FOR",
+            "usd": 3805260.0,
+            "masked": false
+          },
+          {
+            "name": "SAFE PASSAGES",
+            "usd": 3788220.0,
+            "masked": false
+          },
+          {
+            "name": "CITY OF SANTA MONICA",
+            "usd": 3682097.25,
+            "masked": false
+          },
+          {
+            "name": "COUNTY OF PLACER",
+            "usd": 3657316.01,
+            "masked": false
+          },
+          {
+            "name": "LOS ANGELES COUNTY",
+            "usd": 3588027.55,
+            "masked": false
+          }
+        ]
+      }
+    ]
+  }
+}

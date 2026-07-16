@@ -1,0 +1,417 @@
+{
+  "source": {
+    "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+    "publisher": "FI$Cal (State of California)",
+    "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+    "license": "Public record (State of California)"
+  },
+  "as_of": "2026-07-16T142845Z",
+  "ingested_at": "2026-07-16T14:28:45.043989+00:00",
+  "cadence": "monthly, ~60-day accounting lag",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+    "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+    "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+  ],
+  "data": {
+    "departments": [
+      {
+        "org_cd": "6870",
+        "title": "Board of Governors of Community Colleges",
+        "fiscal_year": "2025-26",
+        "transactions": 5011,
+        "vendor_count": 250,
+        "vendor_total_usd": 526083668.19,
+        "confidential_usd": 125179.92,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-31"
+        ],
+        "enacted_budget_usd": 14316484000,
+        "checkbook_coverage_pct": 3.7,
+        "top_vendors": [
+          {
+            "name": "RANCHO SANTIAGO COMM COLLEGE",
+            "usd": 181252232.83,
+            "masked": false
+          },
+          {
+            "name": "LONG BEACH COMM COLLEGE DIST",
+            "usd": 36538067.55,
+            "masked": false
+          },
+          {
+            "name": "LA COMMUNITY COLLEGE DIST",
+            "usd": 26799756.92,
+            "masked": false
+          },
+          {
+            "name": "MT SAN ANTONIO COMMUNITY",
+            "usd": 20779619.55,
+            "masked": false
+          },
+          {
+            "name": "BUTTE GLENN COMM COLLEGE DIST",
+            "usd": 19641811.68,
+            "masked": false
+          },
+          {
+            "name": "SANTA CLARITA COMM COLLEGE DST",
+            "usd": 18059326.93,
+            "masked": false
+          },
+          {
+            "name": "GROSSMONT CUYAMACA COMM",
+            "usd": 14751940.46,
+            "masked": false
+          },
+          {
+            "name": "COMPTON COMM COLLEGE DISTRICT",
+            "usd": 14540416.2,
+            "masked": false
+          },
+          {
+            "name": "REDWOODS COMM COLLEGE DIST",
+            "usd": 14204532.09,
+            "masked": false
+          },
+          {
+            "name": "FOOTHILL-DE ANZA COMMUNITY",
+            "usd": 10684389.51,
+            "masked": false
+          },
+          {
+            "name": "KERN COMMUNITY COLLEGE DIST",
+            "usd": 10510900.95,
+            "masked": false
+          },
+          {
+            "name": "PERALTA COMM COLLEGE DISTRICT",
+            "usd": 8781240.3,
+            "masked": false
+          },
+          {
+            "name": "SAN MATEO CNTY COMM COLLEGE",
+            "usd": 7302271.9,
+            "masked": false
+          },
+          {
+            "name": "NORTH ORANGE COMM COLLEGE DIST",
+            "usd": 7267175.58,
+            "masked": false
+          },
+          {
+            "name": "RIVERSIDE COMM COLLEGE DIST",
+            "usd": 7195204.38,
+            "masked": false
+          },
+          {
+            "name": "SHASTA TEHAMA-TRINITY JOINT",
+            "usd": 6876491.37,
+            "masked": false
+          },
+          {
+            "name": "LOS RIOS COMMUNITY COLLEGE DIST",
+            "usd": 6191613.91,
+            "masked": false
+          },
+          {
+            "name": "SANTA BARBARA COMM COLLEGE",
+            "usd": 5574229.13,
+            "masked": false
+          },
+          {
+            "name": "CABRILLO COMM COLLEGE DIST",
+            "usd": 4760807.25,
+            "masked": false
+          },
+          {
+            "name": "PALOMAR COMM COLLEGE DIST",
+            "usd": 4667686.37,
+            "masked": false
+          },
+          {
+            "name": "MT SAN JACINTO COMM COLLEGE",
+            "usd": 4621611.83,
+            "masked": false
+          },
+          {
+            "name": "NORTH ORANGE COUNTY COMM",
+            "usd": 4586760.0,
+            "masked": false
+          },
+          {
+            "name": "STUDENT SENATE FOR CA COMM",
+            "usd": 4579206.35,
+            "masked": false
+          },
+          {
+            "name": "COAST COMMUNITY COLLEGE DIST",
+            "usd": 4267323.21,
+            "masked": false
+          },
+          {
+            "name": "WEST HILLS COMM COLLEGE DIST",
+            "usd": 4128612.81,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "6980",
+        "title": "Student Aid Commission",
+        "fiscal_year": "2025-26",
+        "transactions": 1209,
+        "vendor_count": 125,
+        "vendor_total_usd": 42650250.11,
+        "confidential_usd": 29548.87,
+        "accounting_dates": [
+          "2025-07-01",
+          "2026-03-27"
+        ],
+        "enacted_budget_usd": 2963066000,
+        "checkbook_coverage_pct": 1.4,
+        "top_vendors": [
+          {
+            "name": "CALIFORNIA COLLEGE OF THE ARTS",
+            "usd": 20000000.0,
+            "masked": false
+          },
+          {
+            "name": "CA INDIAN NATIONS COLLEGE CORP",
+            "usd": 10000000.0,
+            "masked": false
+          },
+          {
+            "name": "RIVERSIDE COUNTY OFC OF EDUCATION",
+            "usd": 1029000.0,
+            "masked": false
+          },
+          {
+            "name": "UC SAN DIEGO",
+            "usd": 768235.96,
+            "masked": false
+          },
+          {
+            "name": "EAST BAY CONSORTIUM OF EDUC",
+            "usd": 765895.72,
+            "masked": false
+          },
+          {
+            "name": "UNIVERSITY ENTERPRISES CORP AT",
+            "usd": 735000.0,
+            "masked": false
+          },
+          {
+            "name": "EAST LOS ANGELES COLLEGE FDN",
+            "usd": 535458.52,
+            "masked": false
+          },
+          {
+            "name": "SACRAMENTO CNTY OFFICE OF EDUC",
+            "usd": 480694.41,
+            "masked": false
+          },
+          {
+            "name": "11120 INTL DR PROPERTY LLC",
+            "usd": 471877.92,
+            "masked": false
+          },
+          {
+            "name": "UC REGENTS SANTA CRUZ",
+            "usd": 393113.77,
+            "masked": false
+          },
+          {
+            "name": "CSU CHANNEL ISLANDS",
+            "usd": 385704.48,
+            "masked": false
+          },
+          {
+            "name": "DEPARTMENT OF TECHNOLOGY",
+            "usd": 340251.27,
+            "masked": false
+          },
+          {
+            "name": "CSU LONG BEACH RESEARCH FDN",
+            "usd": 322994.28,
+            "masked": false
+          },
+          {
+            "name": "KERN COMMUNITY COLLEGE DIST",
+            "usd": 320212.29,
+            "masked": false
+          },
+          {
+            "name": "ALLAN HANCOCK JT COMM COLL DIS",
+            "usd": 319285.47,
+            "masked": false
+          },
+          {
+            "name": "HUMBOLDT CNTY OFFICE OF EDUC",
+            "usd": 319281.06,
+            "masked": false
+          },
+          {
+            "name": "REBEKAH CHILDREN SERVICES",
+            "usd": 307416.82,
+            "masked": false
+          },
+          {
+            "name": "MERCED COUNTY CAL SOAP",
+            "usd": 305066.16,
+            "masked": false
+          },
+          {
+            "name": "CA ST UNIV FRESNO FOUNDATION",
+            "usd": 299965.99,
+            "masked": false
+          },
+          {
+            "name": "JAPANESE COMMUNITY YOUTH COUN",
+            "usd": 284811.03,
+            "masked": false
+          },
+          {
+            "name": "DYNAMIC SYSTEMS INC",
+            "usd": 239500.46,
+            "masked": false
+          },
+          {
+            "name": "CLOVERLEAF SOLUTIONS INC",
+            "usd": 233903.81,
+            "masked": false
+          },
+          {
+            "name": "SRI INFOTECH INC",
+            "usd": 230406.25,
+            "masked": false
+          },
+          {
+            "name": "XFUSION TECHNOLOGIES INC",
+            "usd": 210708.4,
+            "masked": false
+          },
+          {
+            "name": "RINGCENTRAL INC",
+            "usd": 198574.11,
+            "masked": false
+          }
+        ]
+      },
+      {
+        "org_cd": "6445",
+        "title": "Institute for Regenerative Medicine",
+        "fiscal_year": "2025-26",
+        "transactions": 104,
+        "vendor_count": 19,
+        "vendor_total_usd": 17722949.9,
+        "confidential_usd": 0.0,
+        "accounting_dates": [
+          "2025-07-11",
+          "2026-03-13"
+        ],
+        "enacted_budget_usd": 447137000,
+        "checkbook_coverage_pct": 4.0,
+        "top_vendors": [
+          {
+            "name": "UNIVERSITY OF CA LOS ANGELES",
+            "usd": 6086302.0,
+            "masked": false
+          },
+          {
+            "name": "STANFORD UNIVERSITY",
+            "usd": 4419364.0,
+            "masked": false
+          },
+          {
+            "name": "CEDARS-SINAI MEDICAL CENTER",
+            "usd": 2248954.0,
+            "masked": false
+          },
+          {
+            "name": "GATEWAY PORTFOLIO HOLDINGS LLC",
+            "usd": 1280728.18,
+            "masked": false
+          },
+          {
+            "name": "GREENSTONE BIOSCIENCES INC",
+            "usd": 830000.0,
+            "masked": false
+          },
+          {
+            "name": "UC SAN DIEGO",
+            "usd": 634225.0,
+            "masked": false
+          },
+          {
+            "name": "REGENTS OF THE UNIV OF CA SF",
+            "usd": 506588.0,
+            "masked": false
+          },
+          {
+            "name": "601 GATEWAY LLC",
+            "usd": 373696.88,
+            "masked": false
+          },
+          {
+            "name": "DEPT OF GENERAL SERVICES",
+            "usd": 309002.82,
+            "masked": false
+          },
+          {
+            "name": "CHILDRENS HOSP LOS ANGELES",
+            "usd": 304310.0,
+            "masked": false
+          },
+          {
+            "name": "J DAVID GLADSTONE INSTITUTE",
+            "usd": 218874.0,
+            "masked": false
+          },
+          {
+            "name": "EVERSANA LIFE SCIENCE SERVICES",
+            "usd": 200000.0,
+            "masked": false
+          },
+          {
+            "name": "UNIVERSITY OF CA BERKELEY",
+            "usd": 161340.0,
+            "masked": false
+          },
+          {
+            "name": "SANFORD BURNHAM PREBYS MEDICAL",
+            "usd": 100000.0,
+            "masked": false
+          },
+          {
+            "name": "NANOTOOLS BIOSCIENCE LLC",
+            "usd": 20000.0,
+            "masked": false
+          },
+          {
+            "name": "SCINTILLON INSTITUTE",
+            "usd": 20000.0,
+            "masked": false
+          },
+          {
+            "name": "U S BANK NATIONAL ASSOCIATION",
+            "usd": 11065.02,
+            "masked": false
+          },
+          {
+            "name": "SAM CLAR OFFICE FURNITURE INC",
+            "usd": 0.0,
+            "masked": false
+          },
+          {
+            "name": "EELCO DE KONING",
+            "usd": -1500.0,
+            "masked": false
+          }
+        ]
+      }
+    ]
+  }
+}

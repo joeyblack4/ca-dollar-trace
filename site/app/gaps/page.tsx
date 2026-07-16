@@ -10,17 +10,19 @@ export const metadata = { title: "Dark zones — CA Dollar Trace" };
 const GAPS = [
   {
     id: "fiscal-captcha",
-    title: "The state checkbook blocks machine access",
+    title: "The state checkbook: readable, but missing its biggest dollars",
     flag: "category_only" as const,
-    klass: "(d) Published, but unusable for systematic analysis",
-    size: "~79% of state expenditures are in Open FI$Cal — but only one manual download at a time",
+    klass: "(a)+(b) Statutory masking + structural exclusions",
+    size: "Vendor files cover ~79% of budgetary expenditures on paper — but for a department like DHCS, under 1% of its budget appears as vendor payments",
     body: [
-      "Open FI$Cal publishes vendor-level spending transactions, which should make state payments traceable. In practice, every bulk download on open.fiscal.ca.gov is gated behind a CAPTCHA that requires a human to click through for each file — there is no API, and the former data.ca.gov mirror no longer lists FI$Cal datasets (we checked: the FI$Cal organization on the portal exists but contains zero public datasets).",
-      "We verified this directly while building this site: the download pages call a CAPTCHA verification service before releasing each file URL. A transparency portal that cannot be read by software is, for continuous public analysis, category-level only.",
+      "Correction (2026-07-16): we initially reported that Open FI$Cal's downloads were CAPTCHA-gated and unusable by software. That was wrong — user testing showed the files sit on public cloud storage with direct URLs listed in a catalog file, and we now ingest them automatically. We're leaving this note up because a transparency project should show its own corrections. (The discoverability critique stands: there is no documented API, and the former data.ca.gov mirror still lists zero FI$Cal datasets.)",
+      "The real gap is what the checkbook excludes by design: state payroll, purchase-card spending, and — decisively — bulk benefit payments. Medi-Cal benefits, the largest single expenditure in the state, never appear as vendor transactions. Our ingest of the FY2025-26 files shows the Department of Health Care Services' checkbook contains roughly $1.4B in vendor payments against a $202.7B enacted budget — the coverage percentages on every agency page are computed from exactly this comparison.",
+      "On top of the exclusions, statutorily confidential vendors appear only as 'Confidential' — a third of DHCS's transaction rows. We count and display that share instead of dropping it.",
     ],
-    fix: "Restore the machine-readable mirror (CKAN) or publish stable direct download URLs. Until then: scheduled manual pulls, and a CPRA request for the underlying database in native format (Sierra Club v. Superior Court (2013) 57 Cal.4th 157 makes electronic records producible in native format at duplication cost).",
+    fix: "Publish the excluded flows at aggregate level (benefit payments by program and county), document the bulk-download catalog as a supported API, and restore the data.ca.gov mirror. The confidential-vendor masks are statutory and would need legislative change.",
     cites: [
       { label: "Open FI$Cal download page", url: "https://open.fiscal.ca.gov/download-expenditures.html" },
+      { label: "Open FI$Cal dataset notes (exclusions)", url: "https://open.fiscal.ca.gov/datasets.html" },
       { label: "data.ca.gov FI$Cal organization (empty)", url: "https://data.ca.gov/organization/fiscal" },
     ],
   },
