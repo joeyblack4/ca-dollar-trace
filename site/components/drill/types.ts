@@ -8,7 +8,29 @@ export type PathSeg =
   | { kind: "dept"; orgCd: string }
   | { kind: "checkbook"; orgCd: string }
   | { kind: "vendor"; name: string }
-  | { kind: "recovered"; program: string };
+  | { kind: "recovered"; program: string }
+  | { kind: "plans" };
+
+export interface MedicalPlansDoc {
+  latest_month: string;
+  total_enrollees: number;
+  plan_count: number;
+  plans: {
+    plan_name: string;
+    plan_type: string | null;
+    enrollees: number | null;
+    county_count: number;
+    suppressed_county_rows: number;
+    capitation: {
+      rate_year: number;
+      pmpm_range: [number, number];
+      rate_cells: number;
+      name_match: string;
+    } | null;
+  }[];
+  plans_with_capitation_match: number;
+  enrollee_weighted_match_pct: number | null;
+}
 
 export interface BhcipDoc {
   project_count: number;

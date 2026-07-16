@@ -19,6 +19,7 @@ from .ingest.ebudget import run_ebudget
 from .ingest.ebudget_detail import run_ebudget_detail
 from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.grants_awards import run_grants_awards
+from .ingest.medical_plans import run_medical_plans
 from .ingest.usaspending import run_usaspending
 from .publish.grants import publish_grants_summary
 from .sources import load_source
@@ -69,6 +70,11 @@ def _run_bhcip(storage: Storage, settings: Settings) -> None:
     run_bhcip(storage, cfg, settings)
 
 
+def _run_medical_plans(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "medical_plans")
+    run_medical_plans(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -77,6 +83,7 @@ RUNNERS = {
     "fiscal_vendor": _run_fiscal_vendor,
     "grants_awards": _run_grants_awards,
     "bhcip_awards": _run_bhcip,
+    "medical_plans": _run_medical_plans,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -92,6 +99,7 @@ RUN_ORDER = [
     "grants_awards",
     "usaspending_ca",
     "bhcip_awards",
+    "medical_plans",
     "fiscal_vendor",
 ]
 assert set(RUN_ORDER) == set(RUNNERS), "RUN_ORDER must list every runner exactly once"

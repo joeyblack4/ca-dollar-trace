@@ -1,0 +1,2836 @@
+{
+  "source": {
+    "name": "Medi-Cal Managed Care \u2014 Enrollment & Capitation Rates",
+    "publisher": "California DHCS (via CHHS Open Data)",
+    "url": "https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-report",
+    "license": "Open Data (CHHS Terms of Use)"
+  },
+  "as_of": "2026-07-16T184244Z",
+  "ingested_at": "2026-07-16T18:42:44.890791+00:00",
+  "cadence": "enrollment monthly; capitation rate certifications per rating period",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Enrollment counts are per plan per county per month as reported by DHCS; a plan's statewide figure sums its county rows.",
+    "Capitation rates are DHCS-certified RANGES (lower/midpoint/upper, per member per month) by rating period, county, and category of aid \u2014 they are prices, not amounts spent.",
+    "What each plan pays hospitals, clinics, and physicians remains non-public \u2014 this dataset extends visibility exactly one hop and no further."
+  ],
+  "data": {
+    "latest_month": "2026-06",
+    "total_enrollees": 13767872,
+    "plan_count": 194,
+    "plans": [
+      {
+        "plan_name": "L.A. Care Health Plan/Los Angeles",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 2102545,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            27.15,
+            11964.53
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions/Los Angeles",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 1079978,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "CalOptima/Orange",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 783907,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            34.07,
+            7156.41
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Inland Empire Health Plan/San Bernardino",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 689551,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2022,
+          "pmpm_range": [
+            84.77,
+            8054.64
+          ],
+          "rate_cells": 16,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Inland Empire Health Plan/Riverside",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 686144,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2022,
+          "pmpm_range": [
+            84.77,
+            8054.64
+          ],
+          "rate_cells": 16,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kern Health Systems/Kern",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 378232,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            38.85,
+            7540.75
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Alameda Alliance for Health/Alameda",
+        "plan_type": "Single",
+        "enrollees": 364227,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            55.26,
+            9995.89
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Los Angeles",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 339151,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Community Health Group/San Diego",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 332899,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            33.12,
+            8126.9
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "CalViva Health/Fresno",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 323305,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            26.17,
+            10646.55
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Liberty Dental Plan of CA/Sacramento",
+        "plan_type": "Dental",
+        "enrollees": 295106,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Santa Clara Family Health Plan/Santa Clara",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 283112,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            38.34,
+            13144.15
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Molina Healthcare of California/San Diego",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 245612,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            25.73,
+            10891.78
+          ],
+          "rate_cells": 92,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Contra Costa Health Plan/Contra Costa",
+        "plan_type": "Single",
+        "enrollees": 242962,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2022,
+          "pmpm_range": [
+            86.85,
+            11378.74
+          ],
+          "rate_cells": 8,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross/Sacramento",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 231353,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Gold Coast Health Plan/Ventura",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 225140,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            32.14,
+            10897.17
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Plan of San Joaquin/San Joaquin",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 216613,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            32.86,
+            16323.53
+          ],
+          "rate_cells": 92,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Net Comm Solutions SAC",
+        "plan_type": "Dental",
+        "enrollees": 194029,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Health Net Comm Solutions LA",
+        "plan_type": "Dental",
+        "enrollees": 191244,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Central California Alliance for Health/Monterey",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 179964,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            31.07,
+            18720.07
+          ],
+          "rate_cells": 115,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Blue Shield of California Promise/San Diego",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 172555,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2021,
+          "pmpm_range": [
+            79.93,
+            7981.33
+          ],
+          "rate_cells": 12,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "CenCal Health/Santa Barbara",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 164313,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            37.94,
+            11154.12
+          ],
+          "rate_cells": 46,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "San Francisco Health Plan/San Francisco",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 158744,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            30.75,
+            8252.92
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Plan of San Joaquin/Stanislaus",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 157963,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            32.86,
+            16323.53
+          ],
+          "rate_cells": 92,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Central California Alliance for Health/Merced",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 141809,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            31.07,
+            18720.07
+          ],
+          "rate_cells": 115,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Fresno",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 137744,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross/Tulare",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 135253,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions/Sacramento",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 133767,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Sacramento",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 132188,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions/Tulare",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 130880,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Health Plan of San Mateo/San Mateo",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 126472,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            35.43,
+            10738.05
+          ],
+          "rate_cells": 23,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Sonoma",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 100447,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/San Bernardino",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 100110,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Community Health Plan of Imperial Valley/Imperial",
+        "plan_type": "Single",
+        "enrollees": 94031,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            10009.97
+          ],
+          "rate_cells": 23,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Solano",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 93314,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Riverside",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 91709,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Liberty Dental Plan of CA/Los Angeles",
+        "plan_type": "Dental",
+        "enrollees": 88013,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Molina Healthcare of California/Riverside",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 84635,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            25.73,
+            10891.78
+          ],
+          "rate_cells": 92,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Butte",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 82792,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Kaiser Permanente/Alameda",
+        "plan_type": "Single",
+        "enrollees": 77773,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Molina Healthcare of California/San Bernardino",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 76700,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            25.73,
+            10891.78
+          ],
+          "rate_cells": 92,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Orange",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 72037,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Central California Alliance for Health/Santa Cruz",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 70684,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            31.07,
+            18720.07
+          ],
+          "rate_cells": 115,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/San Diego",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 70324,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "California Dental Network/Sacramento",
+        "plan_type": "Dental",
+        "enrollees": 68950,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Anthem Blue Cross/Santa Clara",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 63582,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Shasta",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 63306,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Molina Healthcare of California/Sacramento",
+        "plan_type": "Geographic Managed Care",
+        "enrollees": 62967,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            25.73,
+            10891.78
+          ],
+          "rate_cells": 92,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "CenCal Health/San Luis Obispo",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 62326,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            37.94,
+            11154.12
+          ],
+          "rate_cells": 46,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Contra Costa",
+        "plan_type": "Single",
+        "enrollees": 61971,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Placer",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 59330,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Health Net Community Solutions/Stanislaus",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 57178,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Humboldt",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 53604,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Yolo",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 51298,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Santa Clara",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 51135,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "CalViva Health/Madera",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 48023,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            26.17,
+            10646.55
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Kern",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 46470,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Sutter",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 43270,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Marin",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 41250,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Solano",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 39370,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross/San Francisco",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 38395,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Mendocino",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 38258,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "CalViva Health/Kings",
+        "plan_type": "Local Initiative (2 Plan)",
+        "enrollees": 37395,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            26.17,
+            10646.55
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/San Joaquin",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 36527,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Yuba",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 35680,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Health Net Community Solutions/San Joaquin",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 32302,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            22.2,
+            17110.95
+          ],
+          "rate_cells": 230,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Lake",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 32228,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Tehama",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 28063,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Nevada",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 27639,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Kaiser Permanente/Sonoma",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 26523,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Napa",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 25783,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Madera",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 24731,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/El Dorado",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 24634,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Kings",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 24571,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Kern",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 23675,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/San Francisco",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 23402,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Central California Alliance for Health/San Benito",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 20075,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            31.07,
+            18720.07
+          ],
+          "rate_cells": 115,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Foundation Health Plan/Placer",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 19112,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            22.55,
+            12109.71
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/San Mateo",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 19087,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "California Dental Network/Los Angeles",
+        "plan_type": "Dental",
+        "enrollees": 18485,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Siskiyou",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 17249,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "SCAN Health Plan/Los Angeles",
+        "plan_type": "SCAN",
+        "enrollees": 14680,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            42.59,
+            1723.45
+          ],
+          "rate_cells": 24,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Stanislaus",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 14530,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Glenn",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 12833,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Kaiser Permanente/Fresno",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 12333,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Ventura",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 12311,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Del Norte",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 11699,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Colusa",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 9662,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Kaiser Permanente/Napa",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 8297,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Lassen",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 8026,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Tuolumne",
+        "plan_type": "Regional Model",
+        "enrollees": 7802,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Marin",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 7787,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Mountain Valley Health Plan/El Dorado",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 7260,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Anthem Blue Cross/Calaveras",
+        "plan_type": "Regional Model",
+        "enrollees": 6806,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Yolo",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 6378,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Amador",
+        "plan_type": "Regional Model",
+        "enrollees": 6192,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions, Inc/Tuolumne",
+        "plan_type": "Regional Model",
+        "enrollees": 5997,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Heath Net Community Solutions, Inc/Calaveras",
+        "plan_type": "Regional Model",
+        "enrollees": 5526,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Central California Alliance for Health/Mariposa",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 5391,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            31.07,
+            18720.07
+          ],
+          "rate_cells": 115,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Plumas",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 5230,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Trinity",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 4840,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "AltaMed Health Sr. Buena Care/Los Angeles",
+        "plan_type": "Special Project",
+        "enrollees": 4827,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "SCAN Health Plan/Riverside",
+        "plan_type": "SCAN",
+        "enrollees": 4716,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            42.59,
+            1723.45
+          ],
+          "rate_cells": 24,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/El Dorado",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 4030,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "SCAN Health Plan/San Bernardino",
+        "plan_type": "SCAN",
+        "enrollees": 3701,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            42.59,
+            1723.45
+          ],
+          "rate_cells": 24,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Partnership Health Plan of California/Modoc",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 3646,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            23.91,
+            15408.21
+          ],
+          "rate_cells": 552,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "San Diego PACE/San Diego",
+        "plan_type": "PACE",
+        "enrollees": 3047,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            147.11,
+            7932.61
+          ],
+          "rate_cells": 6,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Inyo",
+        "plan_type": "Regional Model",
+        "enrollees": 2619,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "SCAN Health Plan/San Diego",
+        "plan_type": "SCAN",
+        "enrollees": 2555,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            42.59,
+            1723.45
+          ],
+          "rate_cells": 24,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Santa Cruz",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 2312,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Madera",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 2054,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Mono",
+        "plan_type": "Regional Model",
+        "enrollees": 1881,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions, Inc/Amador",
+        "plan_type": "Regional Model",
+        "enrollees": 1824,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Health Net Community Solutions, Inc/Inyo",
+        "plan_type": "Regional Model",
+        "enrollees": 1733,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Pacific PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 1559,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            189.46,
+            8415.31
+          ],
+          "rate_cells": 6,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "St. Paul's PACE/San Diego",
+        "plan_type": "PACE",
+        "enrollees": 1532,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            129.53,
+            6827.92
+          ],
+          "rate_cells": 6,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Innovative Integrated Health, Inc/Fresno",
+        "plan_type": "PACE",
+        "enrollees": 1249,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            153.18,
+            11006.38
+          ],
+          "rate_cells": 30,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Foundation Health Plan/Yuba",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 1208,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            22.55,
+            12109.71
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "ONLOK Senior Health Services/San Francisco",
+        "plan_type": "PACE",
+        "enrollees": 1139,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            221.0,
+            12096.69
+          ],
+          "rate_cells": 18,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Center for Elders Independence/Alameda",
+        "plan_type": "Special Project",
+        "enrollees": 1107,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            211.35,
+            9120.63
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Health Net Community Solutions, Inc./Mono",
+        "plan_type": "Regional Model",
+        "enrollees": 1081,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "LA Coast PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 1049,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            187.63,
+            9442.63
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Sequoia PACE/Fresno",
+        "plan_type": "PACE",
+        "enrollees": 1030,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            174.64,
+            8218.77
+          ],
+          "rate_cells": 24,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 1016,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Stockton PACE/San Joaquin",
+        "plan_type": "PACE",
+        "enrollees": 884,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            192.03,
+            8505.27
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "AIDS Healthcare Foundation/Los Angeles",
+        "plan_type": "Primary Care Case Management",
+        "enrollees": 854,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Partnership HealthPlan of California/Sierra",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 788,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "WelbeHealth Inland Empire/Riverside",
+        "plan_type": "PACE",
+        "enrollees": 748,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            165.07,
+            8854.09
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Sacramento",
+        "plan_type": "PACE",
+        "enrollees": 608,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "IIH, Inc dba Bakersfield PACE/Kern",
+        "plan_type": "PACE",
+        "enrollees": 594,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "CalOptima PACE/Orange",
+        "plan_type": "PACE",
+        "enrollees": 569,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2025,
+          "pmpm_range": [
+            34.07,
+            7156.41
+          ],
+          "rate_cells": 23,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Sutter SeniorCare/Sacramento",
+        "plan_type": "Special Project",
+        "enrollees": 567,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Stockton PACE/Stanislaus",
+        "plan_type": "PACE",
+        "enrollees": 553,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            192.03,
+            8505.27
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "AltaMed Senior Buena Care/Orange",
+        "plan_type": "PACE",
+        "enrollees": 534,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "ONLOK Lifeways/Santa Clara",
+        "plan_type": "PACE",
+        "enrollees": 513,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Center for Elders Independence/Contra Costa",
+        "plan_type": "Special Project",
+        "enrollees": 503,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            211.35,
+            9120.63
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Central PACE/Stanislaus",
+        "plan_type": "PACE",
+        "enrollees": 477,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Gary and Mary West PACE of N. San Diego/San Diego",
+        "plan_type": "PACE",
+        "enrollees": 476,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "ONLOK Senior Health Services/Alameda",
+        "plan_type": "PACE",
+        "enrollees": 440,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            221.0,
+            12096.69
+          ],
+          "rate_cells": 18,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Brandman Centers for Senior Care/Los Angeles",
+        "plan_type": "Special Project",
+        "enrollees": 439,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            154.13,
+            7726.64
+          ],
+          "rate_cells": 6,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Family Health Centers of San Diego/San Diego",
+        "plan_type": "PACE",
+        "enrollees": 438,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            137.28,
+            9405.33
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Amador",
+        "plan_type": "Regional Model",
+        "enrollees": 416,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "WelbeHealth Bay Area PACE/Santa Clara",
+        "plan_type": "PACE",
+        "enrollees": 398,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            216.38,
+            9213.84
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Riverside",
+        "plan_type": "PACE",
+        "enrollees": 350,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Neighborhood Healthcare PACE/Riverside",
+        "plan_type": "PACE",
+        "enrollees": 347,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            170.09,
+            9201.34
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Humboldt Senior Resource Center, Inc./Humboldt",
+        "plan_type": "PACE",
+        "enrollees": 309,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            160.12,
+            10249.66
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Kings",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 272,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "North East Medical Services PACE/San Francisco",
+        "plan_type": "PACE",
+        "enrollees": 234,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2024,
+          "pmpm_range": [
+            380.74,
+            10065.05
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Seen Health/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 221,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            153.89,
+            9574.99
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Innovative Integrated Health PACE/Orange",
+        "plan_type": "PACE",
+        "enrollees": 213,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            131.14,
+            8397.89
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "WelbeHealth - Stockton PACE/Sacramento",
+        "plan_type": "PACE",
+        "enrollees": 202,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Anthem Blue Cross Partnership Plan/Alpine",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 202,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            23.32,
+            17110.95
+          ],
+          "rate_cells": 345,
+          "name_match": "alias"
+        }
+      },
+      {
+        "plan_name": "Habitat Health Sacramento/Sacramento",
+        "plan_type": "PACE",
+        "enrollees": 199,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "High Desert PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 195,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            162.82,
+            8739.25
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "MyPlace Health PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 190,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            151.62,
+            9433.49
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "WelbeHealth San Bernardino PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 177,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            166.68,
+            8940.56
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Valley PACE/Fresno",
+        "plan_type": "PACE",
+        "enrollees": 161,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            159.3,
+            8511.49
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Central Valley PACE/Merced",
+        "plan_type": "PACE",
+        "enrollees": 157,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            192.03,
+            8335.39
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Tulare",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 154,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Chinatown Service Center/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 150,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            153.89,
+            9574.99
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "myPlace PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 137,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Loma Linda University Health PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 132,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            162.67,
+            8725.0
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "AgeWell PACE/Sonoma",
+        "plan_type": "PACE",
+        "enrollees": 131,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            195.19,
+            8292.14
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "ConcertoHealth PACE of Los Angeles/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 128,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            151.62,
+            9433.49
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Family Health Care Network/Tulare",
+        "plan_type": "PACE",
+        "enrollees": 123,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            160.14,
+            8564.33
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "K-Day PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 119,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            155.03,
+            9645.74
+          ],
+          "rate_cells": 6,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Neighborhood Healthcare PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 112,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            170.09,
+            9201.34
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "North East Medical Services (NEMS) PACE/Santa Clara",
+        "plan_type": "PACE",
+        "enrollees": 106,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2024,
+          "pmpm_range": [
+            380.74,
+            10065.05
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Providence PACE/Napa",
+        "plan_type": "PACE",
+        "enrollees": 95,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            180.99,
+            8455.04
+          ],
+          "rate_cells": 18,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Placer",
+        "plan_type": "PACE",
+        "enrollees": 74,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Sequoia PACE/Madera",
+        "plan_type": "PACE",
+        "enrollees": 69,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            174.64,
+            8218.77
+          ],
+          "rate_cells": 24,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Kaiser Foundation Health Plan/Sutter",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": 65,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            22.55,
+            12109.71
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Loma Linda University Health PACE/Riverside",
+        "plan_type": "PACE",
+        "enrollees": 53,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            162.67,
+            8725.0
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Asian Heritage PACE/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 46,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Sequoia PACE/Tulare",
+        "plan_type": "PACE",
+        "enrollees": 44,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            174.64,
+            8218.77
+          ],
+          "rate_cells": 24,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Mountain Valley Health Plan/Alpine",
+        "plan_type": "Commercial Plan (2 Plan)",
+        "enrollees": 40,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Innercare/Imperial",
+        "plan_type": "PACE",
+        "enrollees": 36,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            156.02,
+            8359.53
+          ],
+          "rate_cells": 6,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Central PACE/San Joaquin",
+        "plan_type": "PACE",
+        "enrollees": 32,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "WelbeHealth Bay Area PACE/Alameda",
+        "plan_type": "PACE",
+        "enrollees": 27,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            216.38,
+            9213.84
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/El Dorado",
+        "plan_type": "PACE",
+        "enrollees": 22,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Habitat Health South Los Angeles/Los Angeles",
+        "plan_type": "PACE",
+        "enrollees": 22,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "AltaMed PACE/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": 16,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
+      },
+      {
+        "plan_name": "Sequoia PACE/Kings",
+        "plan_type": "PACE",
+        "enrollees": 15,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            174.64,
+            8218.77
+          ],
+          "rate_cells": 24,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Yuba",
+        "plan_type": "PACE",
+        "enrollees": 15,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Providence PACE/Solano",
+        "plan_type": "PACE",
+        "enrollees": 11,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            180.99,
+            8455.04
+          ],
+          "rate_cells": 18,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Sutter",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Kaiser Foundation Health Plan/Mariposa",
+        "plan_type": "County Organized Health Systems",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            22.55,
+            12109.71
+          ],
+          "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "WelbeHealth Inland Empire/San Bernardino",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            165.07,
+            8854.09
+          ],
+          "rate_cells": 12,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/San Joaquin",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "WelbeHealth San Bernardino PACE/Riverside",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            166.68,
+            8940.56
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Habitat Health Sacramento/Placer",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": null
+      },
+      {
+        "plan_name": "Kaiser Permanente/Imperial",
+        "plan_type": "Single",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Providence PACE/Sonoma",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            180.99,
+            8455.04
+          ],
+          "rate_cells": 18,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "AgeWell PACE/Marin",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            195.19,
+            8292.14
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      }
+    ],
+    "plans_with_capitation_match": 157,
+    "enrollee_weighted_match_pct": 94.1,
+    "capitation_files_loaded": 7,
+    "capitation_files_skipped": []
+  }
+}

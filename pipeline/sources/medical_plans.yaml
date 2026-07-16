@@ -1,0 +1,30 @@
+# Medi-Cal managed care: the one real hop past DHCS that IS public.
+# Two CHHS open-data (CKAN) datasets:
+#   enrollment — monthly enrollees per plan per county (2007 -> present;
+#                CSV filename changes monthly, so resources are resolved via
+#                package_show each run)
+#   capitation — DHCS-certified capitation rate ranges (PMPM) per plan model,
+#                county, and category of aid
+# What is still dark: what each plan PAYS providers. That terminator stays.
+source: medical_plans
+dataset: enrollment_and_capitation
+access: ckan_api
+endpoints:
+  enrollment_pkg: "https://data.chhs.ca.gov/api/3/action/package_show?id=medi-cal-managed-care-enrollment-report"
+  capitation_pkg: "https://data.chhs.ca.gov/api/3/action/package_show?id=medi-cal-managed-care-capitation-rates-by-managed-care-plan-models-consolidated"
+cadence: "enrollment monthly; capitation rate certifications per rating period"
+freshness_sla_hours: 1440
+min_rows: 10000   # enrollment panel floor
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Enrollment counts are per plan per county per month as reported by DHCS; a plan's statewide figure sums its county rows."
+  - "Capitation rates are DHCS-certified RANGES (lower/midpoint/upper, per member per month) by rating period, county, and category of aid — they are prices, not amounts spent."
+  - "What each plan pays hospitals, clinics, and physicians remains non-public — this dataset extends visibility exactly one hop and no further."
+  - "Dental managed care (e.g. Liberty Dental) rates are certified separately and are not in these files; such plans show enrollment without a rate range."
+  - "Enrollment and rate datasets never agree on plan names; we join them with a published normalization + curated alias list and report the measured match rate (enrollee-weighted) instead of pretending it's complete."
+info:
+  name: "Medi-Cal Managed Care — Enrollment & Capitation Rates"
+  publisher: "California DHCS (via CHHS Open Data)"
+  url: "https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-report"
+  license: "Open Data (CHHS Terms of Use)"

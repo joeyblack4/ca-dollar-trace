@@ -53,6 +53,29 @@ test("six-hop drill: HHS -> DHCS -> checkbook -> AHP -> BHCIP, then vendor switc
   await expect(page.getByRole("heading", { name: /PRIME THERAPEUTICS/ })).toBeVisible();
 });
 
+test("Medi-Cal plans hop: DHCS -> named plans with rates -> dark-zone terminator", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page
+    .locator("g:has(> rect[fill='#e87722'])")
+    .filter({ hasText: "Health and Human Services" })
+    .first()
+    .click();
+  await page.getByRole("button", { name: /State Department of Health Care Services/ }).click();
+  await page.getByRole("button", { name: /Medi-Cal managed care plans/ }).click();
+
+  await expect(page.getByText(/managed care plan contracts — [\d,]+ Californians enrolled/)).toBeVisible();
+  await expect(page.getByText(/L\.A\. Care Health Plan/).first()).toBeVisible();
+  await expect(page.getByText(/certified rates .*\/member\/mo/).first()).toBeVisible();
+  await expect(page.getByText(/matching covers [\d.]+% of enrollees/)).toBeVisible();
+  await expect(page.getByText(/What each plan pays hospitals/)).toBeVisible();
+
+  // switching to the checkbook must clear the plans level (sibling exclusivity)
+  await page.getByRole("button", { name: /Open the checkbook/ }).click();
+  await expect(page.getByText(/managed care plan contracts/)).toHaveCount(0);
+});
+
 test("breadcrumb rewind truncates the trail", async ({ page }) => {
   await page.goto("/");
   await page

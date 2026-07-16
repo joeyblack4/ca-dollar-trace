@@ -13,7 +13,19 @@ import { CoverageBadge } from "@/components/ui/SourceChip";
 import { PublicSectorChip } from "@/components/agency/VendorsSection";
 import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
 import { fmtFy, fmtUsd, type BudgetWaterfall } from "@/lib/published";
-import type { AgencyDoc, BhcipDoc, PathSeg, ProfilesDoc, VendorsDoc } from "./types";
+import type {
+  AgencyDoc,
+  BhcipDoc,
+  MedicalPlansDoc,
+  PathSeg,
+  ProfilesDoc,
+  VendorsDoc,
+} from "./types";
+
+/** Departments with a recovered program-level hop past the checkbook */
+const DEPT_PLAN_HOP: Record<string, string> = {
+  "4260": "Follow the Benefits money: Medi-Cal managed care plans (the one public hop)",
+};
 import type { Published } from "@/lib/published";
 
 /* Vendors whose re-granted awards we've recovered from program reporting */
@@ -209,6 +221,7 @@ export function DrillExplorer({
   const recoveredSeg = path.find((s) => s.kind === "recovered") as
     | { kind: "recovered"; program: string }
     | undefined;
+  const plansSeg = path.find((s) => s.kind === "plans");
 
   const agencyDoc = useJson<AgencyDoc>(agencySeg ? `/data/agencies/${agencySeg.cd}.json` : null);
   const vendorsDoc = useJson<VendorsDoc>(agencySeg ? `/data/vendors/${agencySeg.cd}.json` : null);
@@ -217,6 +230,9 @@ export function DrillExplorer({
     recoveredSeg?.program === "bhcip" || (vendorSeg && RECOVERED_PROGRAMS[vendorSeg.name])
       ? "/data/bhcip_awards.json"
       : null
+  );
+  const plansDoc = useJson<Published<MedicalPlansDoc>>(
+    plansSeg ? "/data/medical_plans.json" : null
   );
 
   if (!area) {
@@ -257,6 +273,7 @@ export function DrillExplorer({
     if (seg.kind === "checkbook") crumbs.push({ label: "checkbook", pathIndex: i });
     if (seg.kind === "vendor") crumbs.push({ label: seg.name, pathIndex: i });
     if (seg.kind === "recovered") crumbs.push({ label: "re-granted", pathIndex: i });
+    if (seg.kind === "plans") crumbs.push({ label: "managed care plans", pathIndex: i });
   }
 
   const vendorDept =
@@ -418,6 +435,31 @@ export function DrillExplorer({
             </p>
           )}
 
+          {DEPT_PLAN_HOP[dept.org_cd] && (
+            <div className="mt-3">
+              <Row
+                label={DEPT_PLAN_HOP[dept.org_cd]}
+                usd={dept.total_usd}
+                maxUsd={dept.total_usd}
+                color="#1e7f4f"
+                selected={!!plansSeg}
+                valueLabel="recovered hop →"
+                onClick={() =>
+                  setPath([
+                    ...path.filter(
+                      (s) =>
+                        s.kind !== "plans" &&
+                        s.kind !== "checkbook" &&
+                        s.kind !== "vendor" &&
+                        s.kind !== "recovered"
+                    ),
+                    { kind: "plans" },
+                  ])
+                }
+              />
+            </div>
+          )}
+
           {vendorDept ? (
             <div className="mt-3">
               <Row
@@ -430,7 +472,11 @@ export function DrillExplorer({
                 onClick={() =>
                   setPath([
                     ...path.filter(
-                      (s) => s.kind !== "checkbook" && s.kind !== "vendor" && s.kind !== "recovered"
+                      (s) =>
+                        s.kind !== "checkbook" &&
+                        s.kind !== "vendor" &&
+                        s.kind !== "recovered" &&
+                        s.kind !== "plans"
                     ),
                     { kind: "checkbook", orgCd: dept.org_cd },
                   ])
@@ -638,6 +684,59 @@ export function DrillExplorer({
               </div>
             );
           })()}
+        </LevelCard>
+      )}
+
+      {/* Level 4-alt: Medi-Cal managed care plans (gated on DHCS being the
+          current department — a stale segment must not attach to another dept) */}
+      {plansSeg && dept && DEPT_PLAN_HOP[dept.org_cd] && (
+        <LevelCard
+          step={4}
+          title={
+            plansDoc && plansDoc !== "loading" && plansDoc !== "error"
+              ? `${plansDoc.data.plan_count} managed care plan contracts — ${plansDoc.data.total_enrollees.toLocaleString()} Californians enrolled (${plansDoc.data.latest_month})`
+              : "Managed care plans"
+          }
+          subtitle="Each plan is paid a DHCS-certified rate per member per month. Enrollment is per plan per county; rate ranges span categories of aid."
+        >
+          {plansDoc === "loading" && <p className="text-sm text-fog">Loading plans…</p>}
+          {plansDoc === "error" && <FetchError what="the managed care plan data" />}
+          {plansDoc && plansDoc !== "loading" && plansDoc !== "error" && (
+            <>
+              {plansDoc.data.plans.slice(0, 15).map((p) => (
+                <Row
+                  key={p.plan_name}
+                  label={p.plan_name}
+                  sub={
+                    p.capitation
+                      ? `certified rates ${fmtUsd(p.capitation.pmpm_range[0])}–${fmtUsd(p.capitation.pmpm_range[1])}/member/mo (${p.capitation.rate_year}, ${p.capitation.rate_cells} rate cells)`
+                      : "no rate match in the medical capitation files"
+                  }
+                  usd={p.enrollees ?? 0}
+                  maxUsd={plansDoc.data.plans[0]?.enrollees ?? 1}
+                  color="#2a78d6"
+                  valueLabel={`${(p.enrollees ?? 0).toLocaleString()} enrolled`}
+                />
+              ))}
+              <p className="mt-2 text-xs text-fog">
+                Showing 15 of {plansDoc.data.plan_count} plan/county contracts. Rate-to-plan name
+                matching covers {plansDoc.data.enrollee_weighted_match_pct}% of enrollees
+                (published method + alias list) —{" "}
+                <a
+                  href="/data/medical_plans.json"
+                  className="underline underline-offset-2 hover:text-ink"
+                >
+                  full data
+                </a>
+                .
+              </p>
+              <Terminator flag="trail_ends_here">
+                What each plan pays hospitals, clinics, and physicians is not public. Roughly 95%
+                of Medi-Cal members are behind this wall — the largest single dark zone in state
+                spending.
+              </Terminator>
+            </>
+          )}
         </LevelCard>
       )}
 

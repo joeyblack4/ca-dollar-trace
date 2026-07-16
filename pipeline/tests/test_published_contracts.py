@@ -175,6 +175,27 @@ def test_bhcip_contract():
     assert counts == sorted(counts, reverse=True)
 
 
+# ---------- medi-cal managed care plans ----------
+
+
+def test_medical_plans_contract():
+    d = load("medical_plans.json")["data"]
+    assert d["total_enrollees"] > 10_000_000, "Medi-Cal managed care should be ~14M people"
+    assert d["plan_count"] >= 100
+    assert d["capitation_files_skipped"] == [], "a capitation model file failed to parse"
+    assert d["enrollee_weighted_match_pct"] is not None
+    assert d["enrollee_weighted_match_pct"] >= 85, "rate-name match rate collapsed"
+    enrollees = [p["enrollees"] or 0 for p in d["plans"]]
+    assert enrollees == sorted(enrollees, reverse=True), "plans not sorted by enrollment"
+    assert abs(sum(enrollees) - d["total_enrollees"]) <= 1
+    for p in d["plans"]:
+        cap = p["capitation"]
+        if cap:
+            lo, hi = cap["pmpm_range"]
+            assert 0 < lo <= hi < 50_000, f"{p['plan_name']}: implausible PMPM {lo}-{hi}"
+            assert cap["name_match"] in {"exact", "alias", "prefix"}
+
+
 # ---------- federal ----------
 
 
