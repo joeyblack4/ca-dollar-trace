@@ -161,6 +161,9 @@ test("K-12 salary drill: districts expand into job-title pay bands, gaps stay ho
 
   // LAUSD: expands into title bands, with the labeled prior-year fallback
   await page.getByRole("button", { name: /Los Angeles Unified/ }).click();
+  // sent-vs-spent: the state's certified apportionment sits beside spending
+  await expect(page.getByText(/The state sent \$4\.\d+B/)).toBeVisible();
+  await expect(page.getByText(/Local\s+property taxes fund the rest/)).toBeVisible();
   await expect(page.getByText(/Its people: 97,232 positions/)).toBeVisible();
   await expect(page.getByText(/didn't report 2024 payroll .* showing 2023/)).toBeVisible();
   await expect(page.getByRole("cell", { name: "Teacher", exact: true })).toBeVisible();

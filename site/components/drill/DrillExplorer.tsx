@@ -20,6 +20,7 @@ import type {
   CountyFinancesDoc,
   EntitiesDoc,
   HospitalFinancesDoc,
+  K12ApportionmentDoc,
   K12CompDoc,
   K12Doc,
   MedicalPlansDoc,
@@ -311,6 +312,9 @@ export function DrillExplorer({
   const k12Doc = useJson<Published<K12Doc>>(districtsSeg ? "/data/k12_finances.json" : null);
   const k12CompDoc = useJson<Published<K12CompDoc>>(
     districtsSeg ? "/data/k12_compensation.json" : null
+  );
+  const k12AppDoc = useJson<Published<K12ApportionmentDoc>>(
+    districtsSeg ? "/data/k12_apportionment.json" : null
   );
   const nonprofitsDoc = useJson<Published<NonprofitsDoc>>(
     vendorSeg ? "/data/nonprofits.json" : null
@@ -1206,6 +1210,14 @@ export function DrillExplorer({
               {k12Doc.data.districts.slice(0, 15).map((d) => {
                 const key = (d.district ?? "").toUpperCase().split(/\s+/).join(" ");
                 const dc = comp?.districts[key] ?? null;
+                const app =
+                  k12AppDoc && k12AppDoc !== "loading" && k12AppDoc !== "error"
+                    ? (k12AppDoc.data.leas[d.cds] ?? null)
+                    : null;
+                const appMeta =
+                  k12AppDoc && k12AppDoc !== "loading" && k12AppDoc !== "error"
+                    ? k12AppDoc.data
+                    : null;
                 const isOpen = openDistrict === d.cds;
                 return (
                   <div key={d.cds}>
@@ -1220,6 +1232,20 @@ export function DrillExplorer({
                     />
                     {isOpen && (
                       <div className="mb-2 ml-3 rounded-md border border-rule bg-white/40 p-3">
+                        {app && appMeta && (
+                          <p className="mb-2 border-b border-rule/60 pb-2 text-xs">
+                            <span className="font-semibold text-ink">
+                              The state sent {fmtUsd(app.total_apportionment_usd)}
+                            </span>{" "}
+                            <span className="text-fog">
+                              in certified state aid for {appMeta.fiscal_year} (
+                              {fmtUsd(app.special_ed_usd)} of it special education). Local
+                              property taxes fund the rest of this district&apos;s formula —
+                              and the spending shown above is its {k12Doc.data.fiscal_year}{" "}
+                              report, so the two aren&apos;t subtracted.
+                            </span>
+                          </p>
+                        )}
                         {dc ? (
                           <>
                             <div className="text-sm font-semibold">

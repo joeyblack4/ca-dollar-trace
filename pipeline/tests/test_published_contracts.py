@@ -469,6 +469,21 @@ def test_search_index_contract():
     assert totals == sorted(totals, reverse=True)
 
 
+def test_k12_apportionment_contract():
+    d = load("k12_apportionment.json")["data"]
+    assert d["lea_count"] >= 1500
+    assert 30e9 < d["statewide_total_usd"] < 90e9, "statewide apportionment implausible"
+    sacs = load("k12_finances.json")["data"]
+    # the sent-vs-spent join must hold for the big published districts
+    hit = sum(1 for x in sacs["districts"][:15] if x["cds"] in d["leas"])
+    assert hit >= 12, f"only {hit}/15 top SACS districts join to an apportionment"
+    la = d["leas"].get("19647330000000")
+    assert la and la["total_apportionment_usd"] > 1e9, "LAUSD apportionment missing"
+    for cds, lea in list(d["leas"].items())[:200]:
+        assert len(cds) == 14 and cds.isdigit(), f"bad CDS key {cds!r}"
+        assert lea["name"].strip()
+
+
 def test_hospital_finances_contract():
     d = load("hospital_finances.json")["data"]
     assert d["hospital_count"] >= 300

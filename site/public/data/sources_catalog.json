@@ -5,15 +5,15 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying source keeps its own license"
   },
-  "as_of": "2026-07-17T140402Z",
-  "ingested_at": "2026-07-17T14:04:02.940426+00:00",
+  "as_of": "2026-07-17T145900Z",
+  "ingested_at": "2026-07-17T14:59:00.539483+00:00",
   "cadence": "regenerated each run from the source configs",
   "coverage_flag": "traceable",
   "caveats": [
     "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
   ],
   "data": {
-    "source_count": 19,
+    "source_count": 20,
     "layer_order": [
       "The state budget",
       "State spending",
@@ -221,6 +221,21 @@
         ],
         "layer": "Local government",
         "feeds": "K-12 school-district spending, self-reported unaudited actuals."
+      },
+      {
+        "source": "k12_apportionment",
+        "name": "CDE Principal Apportionment Summary",
+        "publisher": "California Department of Education",
+        "url": "https://www.cde.ca.gov/fg/aa/pa/",
+        "cadence": "certified ~3x/year (Advance Jul, P-1 Feb, P-2 Jun); URL pinned per certification",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "This is the STATE-AID portion of school funding \u2014 the Principal Apportionment the state pays through counties. Local property taxes that fund the rest of each district's LCFF entitlement are not in these figures.",
+          "Figures are the certified apportionment calculation for the fiscal year shown, including prior-year adjustments; monthly cash follows the State Controller's payment schedule.",
+          "The apportionment year is the CURRENT budget year, while district spending (SACS) reports the last completed year \u2014 the two sit side by side and are never subtracted from each other."
+        ],
+        "layer": "Local government",
+        "feeds": "What the state certified it would pay each school district \u2014 the sending side of K-12 money."
       },
       {
         "source": "city_checkbooks",

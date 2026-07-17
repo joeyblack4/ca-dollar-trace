@@ -1,0 +1,30 @@
+# Principal Apportionment (CDE): the state's certified payment calculation to
+# every school district, county office, and charter school — the SENDING side
+# of K-12 money. Pairs with SACS (what districts report spending) so the drill
+# can show sent vs. spent.
+#
+# cde.ca.gov's .asp pages sit behind a Radware bot wall, but the
+# /fg/aa/pa/documents/ files serve plain HTTP — the connector fetches the
+# pinned certification file directly. Bump the URL when CDE certifies the next
+# apportionment (P-1 ~Feb, P-2 ~Jun, Advance ~Jul).
+source: k12_apportionment
+dataset: pa_summary
+access: xlsx_download
+cadence: "certified ~3x/year (Advance Jul, P-1 Feb, P-2 Jun); URL pinned per certification"
+freshness_sla_hours: 8760
+min_rows: 1500
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "This is the STATE-AID portion of school funding — the Principal Apportionment the state pays through counties. Local property taxes that fund the rest of each district's LCFF entitlement are not in these figures."
+  - "Figures are the certified apportionment calculation for the fiscal year shown, including prior-year adjustments; monthly cash follows the State Controller's payment schedule."
+  - "The apportionment year is the CURRENT budget year, while district spending (SACS) reports the last completed year — the two sit side by side and are never subtracted from each other."
+info:
+  name: "CDE Principal Apportionment Summary"
+  publisher: "California Department of Education"
+  url: "https://www.cde.ca.gov/fg/aa/pa/"
+  license: "Public record (CDE)"
+extra:
+  file_url: "https://www.cde.ca.gov/fg/aa/pa/documents/pasummary25p2.xlsx"
+  fiscal_year: "2025-26"
+  certification: "Second Principal Apportionment (P-2)"

@@ -151,6 +151,25 @@ export interface EntitiesDoc {
   >;
 }
 
+export interface K12ApportionmentDoc {
+  fiscal_year: string;
+  certification: string;
+  lea_count: number;
+  statewide_total_usd: number;
+  leas: Record<
+    string,
+    {
+      name: string;
+      lea_type: string | null;
+      is_charter: boolean;
+      total_apportionment_usd: number;
+      lcff_state_aid_epa_usd: number;
+      epa_usd: number;
+      special_ed_usd: number;
+    }
+  >;
+}
+
 export interface K12CompDoc {
   year: number;
   district_count: number;
