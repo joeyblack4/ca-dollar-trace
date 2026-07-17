@@ -122,6 +122,34 @@ test("search offers no dead ends for an unpaid name", async ({ page }) => {
   await expect(page.getByRole("option")).toHaveCount(0);
 });
 
+test("K-12 salary drill: districts expand into job-title pay bands, gaps stay honest", async ({
+  page,
+}) => {
+  await page.goto("/");
+  await page
+    .locator("g:has(> rect[fill='#e87722'])")
+    .filter({ hasText: "K-12 Education" })
+    .first()
+    .click();
+  await page.getByRole("button", { name: /Department of Education/ }).first().click();
+  await page.getByRole("button", { name: /Follow it to the school districts/ }).click();
+
+  // statewide pay strip renders from real payroll data
+  await expect(page.getByText(/What K-12 jobs pay — [\d,]+ positions/)).toBeVisible();
+
+  // LAUSD: expands into title bands, with the labeled prior-year fallback
+  await page.getByRole("button", { name: /Los Angeles Unified/ }).click();
+  await expect(page.getByText(/Its people: 97,232 positions/)).toBeVisible();
+  await expect(page.getByText(/didn't report 2024 payroll .* showing 2023/)).toBeVisible();
+  await expect(page.getByRole("cell", { name: "Teacher", exact: true })).toBeVisible();
+  await expect(page.getByText(/removes names before publishing/)).toBeVisible();
+
+  // San Diego: a true non-filer shows the honest absence, never a zero
+  await page.getByRole("button", { name: /San Diego Unified/ }).click();
+  await expect(page.getByText(/No payroll on record/)).toBeVisible();
+  await expect(page.getByText(/absent from the public record, not zero/)).toBeVisible();
+});
+
 test("about page lists every source with a working outbound link", async ({ page }) => {
   await page.goto("/about/");
   await expect(page.getByRole("heading", { name: /Where the numbers come from — \d+ sources/ })).toBeVisible();

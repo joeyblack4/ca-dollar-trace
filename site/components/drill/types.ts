@@ -83,6 +83,40 @@ export interface EntitiesDoc {
   >;
 }
 
+export interface K12CompDoc {
+  year: number;
+  district_count: number;
+  positions: number;
+  wages_usd: number;
+  benefits_usd: number;
+  fallback_year?: number;
+  fallback_district_count?: number;
+  statewide_titles: {
+    title: string;
+    positions: number;
+    median_pay_usd: number;
+    max_pay_usd: number;
+  }[];
+  districts: Record<
+    string,
+    {
+      name: string;
+      year: number;
+      positions: number;
+      wages_usd: number;
+      benefits_usd: number;
+      title_count: number;
+      titles: {
+        title: string;
+        positions: number;
+        median_pay_usd: number;
+        max_pay_usd: number;
+        median_benefits_usd: number;
+      }[];
+    }
+  >;
+}
+
 export interface K12Doc {
   fiscal_year: string;
   lea_count: number;

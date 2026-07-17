@@ -352,16 +352,43 @@ def test_federal_subawards_contract():
 
 def test_compensation_contract():
     d = load("compensation.json")["data"]
-    assert d["statewide_wages_usd"] > 70e9, "state+county+city wages should exceed $70B"
-    assert d["statewide_benefits_usd"] > 20e9
-    for lv in ("state", "county", "city"):
+    assert d["statewide_wages_usd"] > 150e9, "all-level public wages should exceed $150B"
+    assert d["statewide_benefits_usd"] > 40e9
+    expected_levels = {
+        "state", "county", "city", "k12", "community_college", "csu", "uc",
+        "special_district", "superior_court",
+    }
+    assert set(d["levels"]) == expected_levels, "a payroll level went missing"
+    for lv in ("state", "county", "city", "k12", "uc"):
         x = d["levels"][lv]
         assert x["positions"] > 100_000, f"{lv}: too few positions"
-        assert x["wages_usd"] > 10e9
+        assert x["wages_usd"] > 4e9
         tw = [e["wages_usd"] + e["benefits_usd"] for e in x["top_employers"]]
         assert tw == sorted(tw, reverse=True), f"{lv} top_employers unsorted"
     # county names must resolve for the /local payroll column
     assert "LOS ANGELES" in d["by_employer"]
+
+
+def test_k12_compensation_contract():
+    d = load("k12_compensation.json")["data"]
+    assert d["district_count"] >= 300
+    assert d["positions"] > 400_000
+    # statewide teacher band is the headline salary figure — sane and present
+    teacher = next(t for t in d["statewide_titles"] if t["title"] == "Teacher")
+    assert 60_000 < teacher["median_pay_usd"] < 150_000
+    assert teacher["positions"] > 20_000
+    for key, dist in d["districts"].items():
+        assert key == " ".join(key.split()).upper(), f"non-normalized key {key!r}"
+        assert dist["year"] in (d["year"], d.get("fallback_year")), f"{key}: stray year"
+        assert dist["positions"] > 0
+        for t in dist["titles"]:
+            assert t["median_pay_usd"] <= t["max_pay_usd"], f"{key}/{t['title']}: median>max"
+    # LAUSD must be present via the labeled fallback year, never silently absent
+    la = d["districts"].get("LOS ANGELES UNIFIED")
+    assert la and la["year"] == d["fallback_year"] and la["positions"] > 50_000
+    # fallback never overwrites a latest-year filer
+    fresno = d["districts"].get("FRESNO UNIFIED")
+    assert fresno and fresno["year"] == d["year"]
 
 
 def test_compensation_org_cd_join():

@@ -10,12 +10,14 @@ dataset: gcc_2024
 access: curated_snapshot
 cadence: "annual (SCO publishes the prior calendar year each fall)"
 freshness_sla_hours: 8760
-min_rows: 500000   # total positions across the three files
+min_rows: 1000000   # total positions across all nine files
 max_row_drop_pct: 20
 coverage_flag: traceable
 caveats:
-  - "Government Compensation in California, reported to the State Controller. Public-employee names and salaries are disclosable (IFPTE Local 21 v. Superior Court, 2007); this is position-level, aggregated here to employer totals."
-  - "Covers state departments, counties, and cities for 2024 (the file set also offers UC, CSU, community colleges, special districts, and courts — added as captured)."
+  - "Government Compensation in California, reported to the State Controller. Each row is one position's actual pay and benefits for the year, with the job title — the SCO strips employee names before publishing."
+  - "Covers state departments, counties, cities, K-12 school districts, community college districts, CSU, UC, special districts, and superior courts for 2024."
+  - "Pay shown is actual wages received in the calendar year — someone hired mid-year shows a partial year, which pulls medians down."
+  - "Not every government files: several large school districts (San Diego, San Francisco, Elk Grove, and Oakland Unified among them) reported no 2024 payroll to the Controller. A district that filed a prior year is shown with that year labeled; a district that never filed shows no payroll at all — absence is never invented."
   - "Benefits shown are the employer's retirement + health/dental/vision contribution; pension unfunded-liability payments are reported separately by the systems."
 info:
   name: "Government Compensation in California (2024)"
@@ -27,4 +29,14 @@ extra:
     state: "2024-StateDepartment.zip"
     county: "2024-County.zip"
     city: "2024-City.zip"
+    k12: "2024-K12Education.zip"
+    community_college: "2024-CommunityCollegeDistrict.zip"
+    csu: "2024-CaliforniaStateUniversity.zip"
+    uc: "2024-UniversityOfCalifornia.zip"
+    special_district: "2024-SpecialDistrict.zip"
+    superior_court: "2024-SuperiorCourt.zip"
   year: 2024
+  # districts that skipped the latest year fall back to their last filed year,
+  # labeled as such (LAUSD filed 2023 but not 2024)
+  k12_fallback_file: "2023-K12Education.zip"
+  k12_fallback_year: 2023

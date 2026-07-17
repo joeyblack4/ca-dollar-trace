@@ -29,10 +29,11 @@ const FIGURES: Figure[] = [
   },
   {
     label: "Government payroll",
-    value: "$92.9B wages + $31.7B benefits",
-    basis: "Compensation reported to the State Controller",
-    year: "2024",
-    scope: "State + county + city employees; the checkbook's biggest exclusion",
+    value: "$169.6B wages + $52.7B benefits",
+    basis: "Compensation reported to the State Controller (2.3M positions, by job title)",
+    year: "2024 (a district that filed only 2023 is shown as 2023)",
+    scope:
+      "State, county, city, K-12, UC/CSU/community-college, special-district & court employees; the checkbook's biggest exclusion. Some districts never file — their payroll shows as absent, not zero",
   },
   {
     label: "Medi-Cal managed care",

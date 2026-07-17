@@ -19,6 +19,7 @@ import type {
   CompensationDoc,
   CountyFinancesDoc,
   EntitiesDoc,
+  K12CompDoc,
   K12Doc,
   MedicalPlansDoc,
   NonprofitsDoc,
@@ -302,10 +303,16 @@ export function DrillExplorer({
     countiesSeg ? "/data/county_finances.json" : null
   );
   const k12Doc = useJson<Published<K12Doc>>(districtsSeg ? "/data/k12_finances.json" : null);
+  const k12CompDoc = useJson<Published<K12CompDoc>>(
+    districtsSeg ? "/data/k12_compensation.json" : null
+  );
   const nonprofitsDoc = useJson<Published<NonprofitsDoc>>(
     vendorSeg ? "/data/nonprofits.json" : null
   );
   const entitiesDoc = useJson<Published<EntitiesDoc>>(vendorSeg ? "/data/entities.json" : null);
+
+  // which school district's payroll panel is open (leaf detail, not a path hop)
+  const [openDistrict, setOpenDistrict] = useState<string | null>(null);
 
   if (!area) {
     return (
@@ -1013,7 +1020,12 @@ export function DrillExplorer({
         >
           {k12Doc === "loading" && <p className="text-sm text-fog">Loading districts…</p>}
           {k12Doc === "error" && <FetchError what="the district finance data" />}
-          {k12Doc && k12Doc !== "loading" && k12Doc !== "error" && (
+          {k12Doc && k12Doc !== "loading" && k12Doc !== "error" && (() => {
+            const comp =
+              k12CompDoc && k12CompDoc !== "loading" && k12CompDoc !== "error"
+                ? k12CompDoc.data
+                : null;
+            return (
             <>
               <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-fog">
                 {k12Doc.data.statewide_by_class.map((c) => (
@@ -1022,16 +1034,115 @@ export function DrillExplorer({
                   </span>
                 ))}
               </div>
-              {k12Doc.data.districts.slice(0, 15).map((d) => (
-                <Row
-                  key={d.cds}
-                  label={d.district ?? `District ${d.cds}`}
-                  sub={`${d.county ?? ""} · biggest cost: ${d.spend_by_class[0]?.object_class ?? "—"}`}
-                  usd={d.spend_usd ?? 0}
-                  maxUsd={k12Doc.data.districts[0]?.spend_usd ?? 1}
-                  color="#b98300"
-                />
-              ))}
+              {comp && (
+                <div className="mb-3 rounded-md border border-rule bg-white/40 p-3">
+                  <div className="text-sm font-semibold">
+                    What K-12 jobs pay — {comp.positions.toLocaleString()} positions,{" "}
+                    {fmtUsd(comp.wages_usd)} in wages ({comp.year})
+                  </div>
+                  <div className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-xs text-fog">
+                    {comp.statewide_titles
+                      .filter((t) => t.positions > 3000 && t.median_pay_usd > 10_000)
+                      .slice(0, 5)
+                      .map((t) => (
+                        <span key={t.title}>
+                          {t.title}:{" "}
+                          <span className="font-mono text-ink">
+                            ${t.median_pay_usd.toLocaleString()}
+                          </span>{" "}
+                          median
+                        </span>
+                      ))}
+                  </div>
+                  <p className="mt-1.5 text-[11px] text-fog">
+                    Actual pay reported to the State Controller, by job title — names are
+                    removed by the Controller before publication. Click a district below for
+                    its own salaries.
+                  </p>
+                </div>
+              )}
+              {k12Doc.data.districts.slice(0, 15).map((d) => {
+                const key = (d.district ?? "").toUpperCase().split(/\s+/).join(" ");
+                const dc = comp?.districts[key] ?? null;
+                const isOpen = openDistrict === d.cds;
+                return (
+                  <div key={d.cds}>
+                    <Row
+                      label={d.district ?? `District ${d.cds}`}
+                      sub={`${d.county ?? ""} · biggest cost: ${d.spend_by_class[0]?.object_class ?? "—"}`}
+                      usd={d.spend_usd ?? 0}
+                      maxUsd={k12Doc.data.districts[0]?.spend_usd ?? 1}
+                      color="#b98300"
+                      selected={isOpen}
+                      onClick={() => setOpenDistrict(isOpen ? null : d.cds)}
+                    />
+                    {isOpen && (
+                      <div className="mb-2 ml-3 rounded-md border border-rule bg-white/40 p-3">
+                        {dc ? (
+                          <>
+                            <div className="text-sm font-semibold">
+                              Its people: {dc.positions.toLocaleString()} positions ·{" "}
+                              {fmtUsd(dc.wages_usd)} wages + {fmtUsd(dc.benefits_usd)}{" "}
+                              benefits ({dc.year})
+                            </div>
+                            {comp && dc.year !== comp.year && (
+                              <p className="mt-1 text-[11px] text-category-only">
+                                This district didn&apos;t report {comp.year} payroll to the
+                                State Controller — showing {dc.year}, its last filed year.
+                              </p>
+                            )}
+                            <table className="mt-2 w-full text-xs">
+                              <thead>
+                                <tr className="text-left text-fog">
+                                  <th className="py-1 pr-2 font-medium">Job title</th>
+                                  <th className="py-1 pr-2 text-right font-medium">People</th>
+                                  <th className="py-1 pr-2 text-right font-medium">
+                                    Median pay
+                                  </th>
+                                  <th className="py-1 text-right font-medium">Top pay</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {dc.titles.slice(0, 12).map((t) => (
+                                  <tr key={t.title} className="border-t border-rule/50">
+                                    <td className="py-1 pr-2">{t.title}</td>
+                                    <td className="py-1 pr-2 text-right font-mono">
+                                      {t.positions.toLocaleString()}
+                                    </td>
+                                    <td className="py-1 pr-2 text-right font-mono">
+                                      ${t.median_pay_usd.toLocaleString()}
+                                    </td>
+                                    <td className="py-1 text-right font-mono">
+                                      ${t.max_pay_usd.toLocaleString()}
+                                    </td>
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                            <p className="mt-1.5 text-[11px] text-fog">
+                              Top {Math.min(12, dc.titles.length)} of {dc.title_count} job
+                              titles. Actual pay for the calendar year — part-year hires pull
+                              medians down. The Controller removes names before publishing.
+                            </p>
+                          </>
+                        ) : (
+                          <p className="text-xs text-fog">
+                            <span className="font-medium text-ink">
+                              No payroll on record.
+                            </span>{" "}
+                            This district reported no recent payroll
+                            {comp
+                              ? ` (${comp.fallback_year ?? comp.year}–${comp.year})`
+                              : ""}{" "}
+                            to the State Controller — its salaries are absent from the public
+                            record, not zero.
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
               <p className="mt-2 text-xs text-fog">
                 Showing 15 of {k12Doc.data.lea_count.toLocaleString()} districts —{" "}
                 <a
@@ -1040,15 +1151,31 @@ export function DrillExplorer({
                 >
                   the largest {k12Doc.data.districts_published} with category detail
                 </a>
+                {comp && (
+                  <>
+                    {" "}
+                    ·{" "}
+                    <a
+                      href="/data/k12_compensation.json"
+                      className="underline underline-offset-2 hover:text-ink"
+                    >
+                      salaries for all {(
+                        comp.district_count + (comp.fallback_district_count ?? 0)
+                      ).toLocaleString()}{" "}
+                      reporting districts &amp; charters
+                    </a>
+                  </>
+                )}
                 ; every district is in the raw download.
               </p>
               <Terminator flag="category_only">
-                District reports categorize spending but never name who was paid — no school
-                district checkbook exists anywhere in California&apos;s public record. Finding
-                out requires asking each district directly.
+                What a district pays its own people is public (by job title, above). Who else
+                it paid is not — no school district publishes a vendor checkbook anywhere in
+                California. Finding out requires asking each district directly.
               </Terminator>
             </>
-          )}
+            );
+          })()}
         </LevelCard>
       )}
 
