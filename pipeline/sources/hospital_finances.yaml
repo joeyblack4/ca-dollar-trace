@@ -1,0 +1,32 @@
+# Hospital annual financial disclosures (HCAI, formerly OSHPD): every licensed
+# California hospital's own annual financial report — net patient revenue BY
+# PAYER (Medi-Cal traditional & managed care, Medicare, county, commercial),
+# expenses, and net income.
+#
+# This is the receiving end of the Medi-Cal managed-care pipe: plan->provider
+# payments are not public transaction-by-transaction, but each hospital
+# discloses its yearly NET Medi-Cal managed-care revenue here — the other side
+# of the site's biggest declared dark zone.
+source: hospital_finances
+dataset: hcai_annual_selected
+access: ckan_resource
+cadence: "annual filings; HCAI re-extracts ~twice a year as audits land"
+freshness_sla_hours: 8760
+min_rows: 300
+max_row_drop_pct: 20
+coverage_flag: traceable
+caveats:
+  - "Each figure is the hospital's own annual disclosure to HCAI (Hospital Annual Financial Disclosure Report). The prior fiscal year is mostly audited; the latest year is largely still in process — every hospital carries its report status."
+  - "Medi-Cal figures are net revenue the hospital reports receiving for Medi-Cal patients (traditional fee-for-service and managed care separately) — a yearly total per hospital, not plan-by-plan payments."
+  - "Hospitals only: Medi-Cal money flowing to physicians, clinics, pharmacies, and other non-hospital providers is not in this data."
+info:
+  name: "HCAI Hospital Annual Financial Data (Selected)"
+  publisher: "CA Department of Health Care Access and Information"
+  url: "https://data.chhs.ca.gov/dataset/hospital-annual-financial-data-selected-data-pivot-tables"
+  license: "Public record (HCAI via CHHS Open Data)"
+extra:
+  # fiscal-year label -> pinned CKAN resource URL (HCAI re-uploads in place)
+  files:
+    "2023-24": "https://data.chhs.ca.gov/dataset/ea0c8ca9-023e-46a3-b95b-b9d4ab8ec195/resource/304eec12-4282-407c-8db7-6b780cceaadf/download/hadr-2023-2024.xlsx"
+    "2024-25": "https://data.chhs.ca.gov/dataset/ea0c8ca9-023e-46a3-b95b-b9d4ab8ec195/resource/105ab534-3735-4595-aa23-a1810a0cfc78/download/hadr-2024-2025.xlsx"
+  headline_fy: "2023-24"   # the mostly-audited year carries the headline totals

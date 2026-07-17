@@ -19,6 +19,7 @@ import type {
   CompensationDoc,
   CountyFinancesDoc,
   EntitiesDoc,
+  HospitalFinancesDoc,
   K12CompDoc,
   K12Doc,
   MedicalPlansDoc,
@@ -285,6 +286,7 @@ export function DrillExplorer({
     | { kind: "recovered"; program: string }
     | undefined;
   const plansSeg = path.find((s) => s.kind === "plans");
+  const hospitalsSeg = path.find((s) => s.kind === "hospitals");
   const countiesSeg = path.find((s) => s.kind === "counties");
   const districtsSeg = path.find((s) => s.kind === "districts");
 
@@ -299,6 +301,9 @@ export function DrillExplorer({
   );
   const plansDoc = useJson<Published<MedicalPlansDoc>>(
     plansSeg ? "/data/medical_plans.json" : null
+  );
+  const hospitalsDoc = useJson<Published<HospitalFinancesDoc>>(
+    hospitalsSeg ? "/data/hospital_finances.json" : null
   );
   const countiesDoc = useJson<Published<CountyFinancesDoc>>(
     countiesSeg ? "/data/county_finances.json" : null
@@ -360,6 +365,7 @@ export function DrillExplorer({
     if (seg.kind === "vendor") crumbs.push({ label: seg.name, pathIndex: i });
     if (seg.kind === "recovered") crumbs.push({ label: "re-granted", pathIndex: i });
     if (seg.kind === "plans") crumbs.push({ label: "managed care plans", pathIndex: i });
+    if (seg.kind === "hospitals") crumbs.push({ label: "hospitals", pathIndex: i });
     if (seg.kind === "counties") crumbs.push({ label: "counties", pathIndex: i });
     if (seg.kind === "districts") crumbs.push({ label: "school districts", pathIndex: i });
   }
@@ -564,6 +570,7 @@ export function DrillExplorer({
                       ...path.filter(
                         (s) =>
                           s.kind !== "plans" &&
+                          s.kind !== "hospitals" &&
                           s.kind !== "counties" &&
                           s.kind !== "checkbook" &&
                           s.kind !== "vendor" &&
@@ -586,6 +593,7 @@ export function DrillExplorer({
                         (s) =>
                           s.kind !== "counties" &&
                           s.kind !== "plans" &&
+                          s.kind !== "hospitals" &&
                           s.kind !== "checkbook" &&
                           s.kind !== "vendor" &&
                           s.kind !== "recovered"
@@ -608,6 +616,7 @@ export function DrillExplorer({
                           s.kind !== "districts" &&
                           s.kind !== "counties" &&
                           s.kind !== "plans" &&
+                          s.kind !== "hospitals" &&
                           s.kind !== "checkbook" &&
                           s.kind !== "vendor" &&
                           s.kind !== "recovered"
@@ -632,6 +641,7 @@ export function DrillExplorer({
                           s.kind !== "vendor" &&
                           s.kind !== "recovered" &&
                           s.kind !== "plans" &&
+                          s.kind !== "hospitals" &&
                           s.kind !== "counties"
                       ),
                       { kind: "checkbook", orgCd: dept.org_cd },
@@ -865,6 +875,7 @@ export function DrillExplorer({
                     bhcip: { label: "BHCIP projects", href: "/gaps/" },
                     federal_recipient: { label: "Federal awards", amount: e.appearances.federal_recipient?.amount_usd, href: "/federal/" },
                     federal_audit: { label: "Audited federal spending", amount: e.appearances.federal_audit?.expended_usd, href: "/federal/" },
+                    hospital: { label: "Hospital Medi-Cal revenue", amount: e.appearances.hospital?.medical_usd, href: "/methodology/" },
                     irs_990: { label: "IRS 990 revenue", amount: e.appearances.irs_990?.revenue_usd, href: e.appearances.irs_990?.url ?? "#" },
                   };
                   return (
@@ -1045,13 +1056,96 @@ export function DrillExplorer({
                 </a>
                 .
               </p>
+              <div className="mt-3">
+                <FollowRow
+                  label="What the hospitals say Medi-Cal paid them"
+                  hint="every hospital's own annual financial disclosure — the receiving end of this money"
+                  selected={!!hospitalsSeg}
+                  onClick={() =>
+                    setPath([
+                      ...path.filter((s) => s.kind !== "hospitals"),
+                      { kind: "hospitals" },
+                    ])
+                  }
+                />
+              </div>
               <Terminator flag="trail_ends_here">
-                What each plan pays hospitals, clinics, and physicians is not public. Roughly 95%
-                of Medi-Cal members are behind this wall — the largest single dark zone in state
-                spending.
+                Plan-by-plan payments to providers are not public, and what plans pay
+                physicians, clinics, and pharmacies has no disclosure like the hospitals&apos; —
+                that part of the trail stays dark.
               </Terminator>
             </>
           )}
+        </LevelCard>
+      )}
+
+      {/* Level 5-alt: hospitals — the receiving end of Medi-Cal managed care */}
+      {hospitalsSeg && plansSeg && (
+        <LevelCard
+          step={5}
+          title={
+            hospitalsDoc && hospitalsDoc !== "loading" && hospitalsDoc !== "error"
+              ? (() => {
+                  const d = hospitalsDoc.data;
+                  const y = d.years[d.headline_fy];
+                  return `${d.hospital_count} hospitals reported ${fmtUsd(
+                    y.medical_ffs_usd + y.medical_managed_usd
+                  )} in Medi-Cal revenue (FY${d.headline_fy})`;
+                })()
+              : "Hospitals"
+          }
+          subtitle="Each hospital's own annual financial disclosure to the state (HCAI) — yearly totals per hospital, not plan-by-plan payments."
+        >
+          {hospitalsDoc === "loading" && <p className="text-sm text-fog">Loading hospitals…</p>}
+          {hospitalsDoc === "error" && <FetchError what="the hospital financial data" />}
+          {hospitalsDoc && hospitalsDoc !== "loading" && hospitalsDoc !== "error" && (() => {
+            const d = hospitalsDoc.data;
+            const fy = d.headline_fy;
+            const rows = Object.values(d.hospitals)
+              .map((h) => ({ h, y: h.years[fy] }))
+              .filter((r) => r.y)
+              .sort(
+                (a, b) =>
+                  b.y!.medical_ffs_usd + b.y!.medical_managed_usd -
+                  (a.y!.medical_ffs_usd + a.y!.medical_managed_usd)
+              );
+            const max = rows[0]
+              ? rows[0].y!.medical_ffs_usd + rows[0].y!.medical_managed_usd
+              : 1;
+            return (
+              <>
+                {rows.slice(0, 15).map(({ h, y }) => (
+                  <Row
+                    key={h.name}
+                    label={h.name}
+                    sub={`${h.county ?? ""} · ${h.control ?? ""} · ${fmtUsd(
+                      y!.net_patient_rev_usd
+                    )} total patient revenue${
+                      y!.report_status === "Audited" ? "" : " · report still in process"
+                    }`}
+                    usd={y!.medical_ffs_usd + y!.medical_managed_usd}
+                    maxUsd={max}
+                    color="#2a78d6"
+                  />
+                ))}
+                <p className="mt-2 text-xs text-fog">
+                  Showing 15 of {d.hospital_count} hospitals, ranked by Medi-Cal revenue
+                  (fee-for-service + managed care) —{" "}
+                  <a
+                    href="/data/hospital_finances.json"
+                    className="underline underline-offset-2 hover:text-ink"
+                  >
+                    every hospital with payer mix, expenses &amp; net income
+                  </a>
+                  .
+                </p>
+                <Terminator flag="category_only">
+                  A hospital&apos;s disclosure is a yearly total — which plan paid it, for what
+                  care, at what negotiated rate, remains confidential between plan and hospital.
+                </Terminator>
+              </>
+            );
+          })()}
         </LevelCard>
       )}
 

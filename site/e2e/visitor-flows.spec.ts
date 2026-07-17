@@ -57,6 +57,24 @@ test("six-hop drill: HHS -> DHCS -> checkbook -> AHP -> BHCIP, then vendor switc
   await expect(page.getByRole("heading", { name: /PRIME THERAPEUTICS/ })).toBeVisible();
 });
 
+test("Medi-Cal hospitals hop: plans -> what hospitals report receiving", async ({ page }) => {
+  await page.goto("/");
+  await page
+    .locator("g:has(> rect[fill='#e87722'])")
+    .filter({ hasText: "Health and Human Services" })
+    .first()
+    .click();
+  await page.getByRole("button", { name: /State Department of Health Care Services/ }).click();
+  await page.getByRole("button", { name: /Follow the Benefits money/ }).click();
+  await page.getByRole("button", { name: /What the hospitals say Medi-Cal paid them/ }).click();
+  // the receiving end renders with real audited totals
+  await expect(
+    page.getByRole("heading", { name: /hospitals reported .* in Medi-Cal revenue/ })
+  ).toBeVisible();
+  // and the remaining darkness stays labeled
+  await expect(page.getByText(/remains confidential between plan and hospital/)).toBeVisible();
+});
+
 test("Medi-Cal plans hop: DHCS -> named plans with rates -> dark-zone terminator", async ({
   page,
 }) => {
@@ -73,7 +91,7 @@ test("Medi-Cal plans hop: DHCS -> named plans with rates -> dark-zone terminator
   await expect(page.getByText(/L\.A\. Care Health Plan/).first()).toBeVisible();
   await expect(page.getByText(/certified rates .*\/member\/mo/).first()).toBeVisible();
   await expect(page.getByText(/matching covers [\d.]+% of enrollees/)).toBeVisible();
-  await expect(page.getByText(/What each plan pays hospitals/)).toBeVisible();
+  await expect(page.getByText(/Plan-by-plan payments to providers are not public/)).toBeVisible();
 
   // switching to the checkbook must clear the plans level (sibling exclusivity)
   await page.getByRole("button", { name: /Open the checkbook/ }).click();

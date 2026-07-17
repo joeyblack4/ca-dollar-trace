@@ -33,6 +33,8 @@ _FEEDS = {
     "compensation": "Government payroll — positions, wages, and benefits reported to the "
     "State Controller.",
     "medical_plans": "Medi-Cal managed-care enrollment and the certified rates paid per member.",
+    "hospital_finances": "Every hospital's own annual financials — including what it reports "
+    "receiving from Medi-Cal.",
     "county_finances": "County finances by category, self-reported to the State Controller.",
     "city_finances": "City finances by category, self-reported to the State Controller.",
     "district_finances": "Special-district finances by category, self-reported to the "
@@ -53,7 +55,7 @@ _LAYER = [
     ("The state budget", ["ebudget_enacted", "ebudget_detail"]),
     ("State spending", [
         "fiscal_vendor", "grants_portal", "grants_awards", "bhcip_awards",
-        "compensation", "medical_plans",
+        "compensation", "medical_plans", "hospital_finances",
     ]),
     ("Local government", [
         "county_finances", "city_finances", "district_finances", "sacs_k12", "city_checkbooks",

@@ -469,6 +469,25 @@ def test_search_index_contract():
     assert totals == sorted(totals, reverse=True)
 
 
+def test_hospital_finances_contract():
+    d = load("hospital_finances.json")["data"]
+    assert d["hospital_count"] >= 300
+    assert d["headline_fy"] in d["years"]
+    hl = d["years"][d["headline_fy"]]
+    # the headline year must be the mostly-audited one — that's the honesty bar
+    assert hl["audited_count"] > hl["in_process_count"], "headline year is mostly unaudited"
+    assert hl["net_patient_rev_usd"] > 150e9
+    medical = hl["medical_ffs_usd"] + hl["medical_managed_usd"]
+    assert 20e9 < medical < 100e9, f"Medi-Cal hospital revenue implausible: {medical}"
+    for fac, h in list(d["hospitals"].items())[:200]:
+        for fy, y in h["years"].items():
+            assert y["report_status"] in ("Audited", "In Process", None)
+    # name index resolves for the entity crosswalk join
+    for name, fac in list(d["name_index"].items())[:50]:
+        assert fac in d["hospitals"]
+        assert name == name.upper()
+
+
 def test_nonprofit_officers_contract():
     d = load("nonprofit_officers.json")["data"]
     assert d["org_count"] >= 100

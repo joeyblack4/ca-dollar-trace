@@ -43,6 +43,13 @@ const FIGURES: Figure[] = [
     scope: "Rates are prices, not dollars spent; plan-to-provider payments are not public",
   },
   {
+    label: "Hospital finances (HCAI)",
+    value: "$210.4B patient revenue; $45.9B from Medi-Cal",
+    basis: "Each hospital's own annual financial disclosure — net revenue by payer",
+    year: "FY2023-24 (mostly audited); FY2024-25 largely in process",
+    scope: "Hospitals only; yearly totals per hospital, not plan-by-plan payments",
+  },
+  {
     label: "K-12 school districts",
     value: "$112.1B",
     basis: "Unaudited actuals, self-reported by ~2,000 LEAs",

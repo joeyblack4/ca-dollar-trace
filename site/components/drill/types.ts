@@ -10,6 +10,7 @@ export type PathSeg =
   | { kind: "vendor"; name: string }
   | { kind: "recovered"; program: string }
   | { kind: "plans" }
+  | { kind: "hospitals" }
   | { kind: "counties" }
   | { kind: "districts" };
 
@@ -39,6 +40,48 @@ export interface NonprofitsDoc {
         latest_filing_year: number | null;
         total_revenue_usd: number | null;
       } | null;
+    }
+  >;
+}
+
+export interface HospitalFinancesDoc {
+  headline_fy: string;
+  hospital_count: number;
+  years: Record<
+    string,
+    {
+      hospital_count: number;
+      audited_count: number;
+      in_process_count: number;
+      net_patient_rev_usd: number;
+      medical_ffs_usd: number;
+      medical_managed_usd: number;
+      medicare_usd: number;
+    }
+  >;
+  name_index: Record<string, string>;
+  hospitals: Record<
+    string,
+    {
+      name: string;
+      county: string | null;
+      control: string | null;
+      care_type: string | null;
+      years: Record<
+        string,
+        {
+          report_status: string | null;
+          net_patient_rev_usd: number;
+          medical_ffs_usd: number;
+          medical_managed_usd: number;
+          medicare_usd: number;
+          county_usd: number;
+          commercial_usd: number;
+          operating_expenses_usd: number;
+          salaries_usd: number;
+          net_income_usd: number;
+        }
+      >;
     }
   >;
 }
@@ -97,6 +140,8 @@ export interface EntitiesDoc {
           project_count?: number;
           amount_usd?: number;
           expended_usd?: number;
+          medical_usd?: number;
+          net_patient_rev_usd?: number;
           revenue_usd?: number;
           entity_type?: string;
           url?: string;

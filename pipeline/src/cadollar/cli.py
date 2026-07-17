@@ -25,6 +25,7 @@ from .ingest.fac_sefa import run_fac_sefa
 from .ingest.federal_subawards import run_federal_subawards
 from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.grants_awards import run_grants_awards
+from .ingest.hospital_finances import run_hospital_finances
 from .ingest.medical_plans import run_medical_plans
 from .ingest.nonprofit_officers import run_nonprofit_officers
 from .ingest.nonprofits import run_nonprofits
@@ -151,6 +152,11 @@ def _run_nonprofit_officers(storage: Storage, settings: Settings) -> None:
     run_nonprofit_officers(storage, cfg, settings)
 
 
+def _run_hospital_finances(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "hospital_finances")
+    run_hospital_finances(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -170,6 +176,7 @@ RUNNERS = {
     "federal_subawards": _run_federal_subawards,
     "compensation": _run_compensation,
     "nonprofit_officers": _run_nonprofit_officers,
+    "hospital_finances": _run_hospital_finances,
     "entities": _run_entities,
     "search_index": _run_search_index,
     "sources_catalog": _run_sources_catalog,
@@ -189,6 +196,7 @@ RUN_ORDER = [
     "usaspending_ca",
     "bhcip_awards",
     "medical_plans",
+    "hospital_finances",
     "county_finances",
     "city_finances",
     "district_finances",

@@ -172,6 +172,21 @@ def run_entities(storage: Storage, cfg: SourceConfig, settings: Settings) -> str
                 "note": f"audited federal spending (AY{fa['data']['audit_year']})",
             }
 
+    # --- hospital annual financials (name only) ---
+    hf = _read(storage, "published/hospital_finances.json")
+    if hf:
+        fy = hf["data"]["headline_fy"]
+        for h in hf["data"]["hospitals"].values():
+            y = h["years"].get(fy)
+            if not y:
+                continue
+            e = ent(h["name"])
+            e["appearances"]["hospital"] = {
+                "net_patient_rev_usd": y["net_patient_rev_usd"],
+                "medical_usd": y["medical_ffs_usd"] + y["medical_managed_usd"],
+                "note": f"hospital financial disclosure (FY{fy}, HCAI)",
+            }
+
     # --- nonprofit registry + 990 (EIN, CT) — the identifier anchor ---
     np = _read(storage, "published/nonprofits.json")
     if np:

@@ -34,7 +34,7 @@ const GAPS = [
     size: "~$189B in Medi-Cal benefits flows through DHCS in 2025-26; ~95% of members are in managed care plans",
     body: [
       "The state's payment to each managed care plan (capitation) is public. What each plan pays hospitals, clinics, and physician groups is not. The largest flow in state government goes dark exactly one hop past the state.",
-      "You can see this on our Health & Human Services page: DHCS's Benefits program line is $189.3B of enacted budget — and below the plan level, no public dataset exists.",
+      "One side of this pipe IS now visible on this site: every hospital's own annual financial disclosure (HCAI) reports its yearly net Medi-Cal revenue — $45.9B across 446 hospitals in FY2023-24, shown in the drill under DHCS → managed care plans → hospitals. But that is a yearly total per hospital: which plan paid it, for what care, at what rate stays confidential, and payments to physicians, clinics, and pharmacies have no equivalent disclosure at all.",
     ],
     fix: "A managed-care payment transparency mandate (the AB 2833 model applied to plan-to-provider payments), or DHCS publishing plan encounter/payment aggregates. CalAIM contract reforms promise more subcontractor transparency; payment-level data is not yet public.",
     cites: [

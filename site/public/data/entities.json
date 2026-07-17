@@ -5,8 +5,8 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying figure keeps its source's license"
   },
-  "as_of": "2026-07-16T235037Z",
-  "ingested_at": "2026-07-16T23:50:37.588550+00:00",
+  "as_of": "2026-07-17T140402Z",
+  "ingested_at": "2026-07-17T14:04:02.642500+00:00",
   "cadence": "recomputed each run from the published lane data",
   "coverage_flag": "traceable",
   "caveats": [
@@ -15,8 +15,8 @@
     "Amounts shown per lane keep each lane's own basis and year; they are NOT summed across lanes (a grant, a checkbook payment, and audited federal spending measure different things) \u2014 see the methodology page."
   ],
   "data": {
-    "entity_count": 388,
-    "multi_lane_count": 95,
+    "entity_count": 391,
+    "multi_lane_count": 102,
     "identifier_anchored_count": 11,
     "ambiguous_count": 8,
     "name_index": {
@@ -24,13 +24,13 @@
       "CALSTART, INC.": "CALSTART",
       "CALSTART INC.": "CALSTART",
       "DELOITTE CONSULTING LLP": "DELOITTE CONSULTING",
-      "CHILD CARE RESOURCE CENTER INC": "CHILD CARE RESOURCE CENTER",
       "CHILD CARE RESOURCE CENTER, INC.": "CHILD CARE RESOURCE CENTER",
+      "CHILD CARE RESOURCE CENTER INC": "CHILD CARE RESOURCE CENTER",
       "CENTER FOR SUSTAINABLE ENERGY": "CENTER FOR SUSTAINABLE ENERGY",
       "KAISER FOUNDATION HOSPITALS": "KAISER FOUNDATION HOSPITALS",
       "DIGNITY HEALTH": "DIGNITY HEALTH",
-      "CRYSTAL STAIRS INC": "CRYSTAL STAIRS",
       "CRYSTAL STAIRS, INC.": "CRYSTAL STAIRS",
+      "CRYSTAL STAIRS INC": "CRYSTAL STAIRS",
       "EDUCATIONAL TESTING SERVICE": "EDUCATIONAL TESTING SERVICE",
       "PRIDE INDUSTRIES ONE INC": "PRIDE INDUSTRIES ONE",
       "SUTTER HEALTH": "SUTTER HEALTH",
@@ -72,9 +72,11 @@
       "SCRIPPS HEALTH": "SCRIPPS HEALTH",
       "UNIVERSITY OF SOUTHERN CALIFORNIA": "UNIVERSITY OF SOUTHERN CALIFORNIA",
       "STANFORD HEALTH CARE": "STANFORD HEALTH CARE",
+      "CHILDREN'S HOSPITAL OF ORANGE COUNTY": "CHILDREN S HOSPITAL OF ORANGE COUNTY",
       "COMMONSPIRIT HEALTH": "COMMONSPIRIT HEALTH",
       "APPLIED MATERIALS, INC.": "APPLIED MATERIALS",
       "EDEN HOUSING, INC.": "EDEN HOUSING",
+      "LUCILE SALTER PACKARD CHILDREN'S HOSPITAL AT STANFORD": "LUCILE SALTER PACKARD CHILDREN S HOSPITAL AT STANFORD",
       "MIDPEN HOUSING CORPORATION": "MIDPEN HOUSING",
       "RESOURCES FOR COMMUNITY DEVELOPMENT": "RESOURCES FOR COMMUNITY DEVELOPMENT",
       "BRIDGE HOUSING CORPORATION": "BRIDGE HOUSING",
@@ -129,8 +131,8 @@
       "ST. VINCENT BEHAVIORAL HEALTH CAMPUS": "ST VINCENT BEHAVIORAL HEALTH CAMPUS",
       "THE HAPPIER LIFE PROJECT": "HAPPIER LIFE PROJECT",
       "TULE RIVER INDIAN HEALTH CENTER, INC.": "TULE RIVER INDIAN HEALTH CENTER",
-      "UNITED INDIAN HEALTH SERVICES, INC.": "UNITED INDIAN HEALTH SERVICES",
       "UNITED INDIAN HEALTH SERVICES INC.": "UNITED INDIAN HEALTH SERVICES",
+      "UNITED INDIAN HEALTH SERVICES, INC.": "UNITED INDIAN HEALTH SERVICES",
       "UNITED INDIAN HEALTH SERVICES": "UNITED INDIAN HEALTH SERVICES",
       "VISTA DEL MAR CHILD AND FAMILY SERVICES": "VISTA DEL MAR CHILD AND FAMILY SERVICES",
       "WELLSPACE HEALTH": "WELLSPACE HEALTH",
@@ -166,8 +168,8 @@
       "FOOTHILL FAMILY SERVICE": "FOOTHILL FAMILY SERVICE",
       "FORD STREET PROJECT": "FORD STREET PROJECT",
       "FRED BROWN'S RECOVERY SERVICES, INC.": "FRED BROWN S RECOVERY SERVICES",
-      "THE FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS": "FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS",
       "FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS": "FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS",
+      "THE FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS": "FRIENDSHIP HOUSE ASSOCIATION OF AMERICAN INDIANS",
       "GLOBAL WOMEN FOUNDATION & BAND OF BROTHERS": "GLOBAL WOMEN FOUNDATION BAND OF BROTHERS",
       "GOOD SAMARITAN SHELTER": "GOOD SAMARITAN SHELTER",
       "GREATER HOPE FOUNDATION FOR CHILDREN, INC.": "GREATER HOPE FOUNDATION FOR CHILDREN",
@@ -183,13 +185,14 @@
       "JESUS PROVIDES OUR DAILY BREAD": "JESUS PROVIDES OUR DAILY BREAD",
       "LASSEN": "LASSEN",
       "LOS ANGELES JEWISH HOME FOR THE AGING": "LOS ANGELES JEWISH HOME FOR THE AGING",
+      "MAD RIVER COMMUNITY HOSPITAL": "MAD RIVER COMMUNITY HOSPITAL",
       "MARSHALL MEDICAL CENTER": "MARSHALL MEDICAL CENTER",
       "MCALISTER INSTITUTE FOR TREATMENT & EDUCATION, INC.": "MCALISTER INSTITUTE FOR TREATMENT EDUCATION",
       "MENTIS": "MENTIS",
       "NATE'S PLACE, A WELLNESS AND RECOVERY CENTER": "NATE S PLACE A WELLNESS AND RECOVERY CENTER",
       "NATIVE AMERICAN HEALTH CENTER, INC.": "NATIVE AMERICAN HEALTH CENTER",
-      "NATIVE DIRECTIONS, INC.": "NATIVE DIRECTIONS",
       "NATIVE DIRECTIONS INC.": "NATIVE DIRECTIONS",
+      "NATIVE DIRECTIONS, INC.": "NATIVE DIRECTIONS",
       "NORTH COAST SUBSTANCE ABUSE COUNCIL INC.": "NORTH COAST SUBSTANCE ABUSE COUNCIL",
       "NORTHBAY HEALTHCARE CORPORATION": "NORTHBAY HEALTHCARE",
       "OLE HEALTH": "OLE HEALTH",
@@ -199,8 +202,8 @@
       "PATHWAY SOCIETY, INC.": "PATHWAY SOCIETY",
       "PAVING THE WAY FOUNDATION": "PAVING THE WAY FOUNDATION",
       "RANCHO SAN ANTONIO BOYS HOME INC.": "RANCHO SAN ANTONIO BOYS HOME",
-      "REDWOOD COMMUNITY SERVICES INC.": "REDWOOD COMMUNITY SERVICES",
       "REDWOOD COMMUNITY SERVICES, INC.": "REDWOOD COMMUNITY SERVICES",
+      "REDWOOD COMMUNITY SERVICES INC.": "REDWOOD COMMUNITY SERVICES",
       "RITTER CENTER": "RITTER CENTER",
       "ROUND VALLEY INDIAN HEALTH CENTER": "ROUND VALLEY INDIAN HEALTH CENTER",
       "SISTAHFRIENDS": "SISTAHFRIENDS",
@@ -215,8 +218,8 @@
       "SONOMA COUNTY INDIAN HEALTH PROJECT, INC.": "SONOMA COUNTY INDIAN HEALTH PROJECT",
       "SOROPTIMIST HOUSE OF HOPE, INC": "SOROPTIMIST HOUSE OF HOPE",
       "SOUTHERN CALIFORNIA ALCOHOL AND DRUG PROGRAMS, INC.": "SOUTHERN CALIFORNIA ALCOHOL AND DRUG PROGRAMS",
-      "ST. ANNE'S FAMILY SERVICES": "ST ANNE S FAMILY SERVICES",
       "ST ANNE'S FAMILY SERVICES": "ST ANNE S FAMILY SERVICES",
+      "ST. ANNE'S FAMILY SERVICES": "ST ANNE S FAMILY SERVICES",
       "ST. JOHN'S COMMUNITY HEALTH": "ST JOHN S COMMUNITY HEALTH",
       "SUTTER COAST HOSPITAL": "SUTTER COAST HOSPITAL",
       "TOIYABE INDIAN HEALTH PROJECT, INC.": "TOIYABE INDIAN HEALTH PROJECT",
@@ -1259,6 +1262,11 @@
             "award_count": 3,
             "note": "state grant awards (AB 132)"
           },
+          "hospital": {
+            "net_patient_rev_usd": 6719548854.0,
+            "medical_usd": 565360832.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          },
           "irs_990": {
             "revenue_usd": 7049201975,
             "expenses_usd": 6584068268,
@@ -1269,11 +1277,29 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
-        "lane_count": 2,
+        "lane_count": 3,
         "ids": {
           "ein": "946174066",
           "ct_number": "CT0145166"
         },
+        "confidence": "name-matched"
+      },
+      "CHILDREN S HOSPITAL OF ORANGE COUNTY": {
+        "canonical_name": "Children's Hospital of Orange County",
+        "appearances": {
+          "grants": {
+            "awarded_usd": 410748711.0,
+            "award_count": 3,
+            "note": "state grant awards (AB 132)"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 1101015601.0,
+            "medical_usd": 502846554.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          }
+        },
+        "lane_count": 2,
+        "ids": {},
         "confidence": "name-matched"
       },
       "COMMONSPIRIT HEALTH": {
@@ -1361,6 +1387,24 @@
         "confidence": "name-matched",
         "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
+      "LUCILE SALTER PACKARD CHILDREN S HOSPITAL AT STANFORD": {
+        "canonical_name": "Lucile Salter Packard Children's Hospital at Stanford",
+        "appearances": {
+          "grants": {
+            "awarded_usd": 204000000.0,
+            "award_count": 1,
+            "note": "state grant awards (AB 132)"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 2392709163.0,
+            "medical_usd": 680074444.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          }
+        },
+        "lane_count": 2,
+        "ids": {},
+        "confidence": "name-matched"
+      },
       "MIDPEN HOUSING": {
         "canonical_name": "MidPen Housing Corporation",
         "appearances": {
@@ -1446,6 +1490,11 @@
             "award_count": 6,
             "note": "state grant awards (AB 132)"
           },
+          "hospital": {
+            "net_patient_rev_usd": 1395809744.0,
+            "medical_usd": 940118725.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          },
           "irs_990": {
             "revenue_usd": 1609939633,
             "expenses_usd": 1652929444,
@@ -1456,7 +1505,7 @@
         },
         "registry_status": "Exempt",
         "may_operate": true,
-        "lane_count": 2,
+        "lane_count": 3,
         "ids": {
           "ein": "951690977",
           "ct_number": "CT0000521"
@@ -1526,6 +1575,11 @@
             "award_count": 1,
             "note": "state grant awards (AB 132)"
           },
+          "hospital": {
+            "net_patient_rev_usd": 690601149.0,
+            "medical_usd": 574458448.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          },
           "irs_990": {
             "revenue_usd": 4063376,
             "expenses_usd": 394330,
@@ -1536,7 +1590,7 @@
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
-        "lane_count": 2,
+        "lane_count": 3,
         "ids": {
           "ein": "330565591",
           "ct_number": "086625"
@@ -2387,6 +2441,11 @@
             "project_count": 2,
             "note": "behavioral-health infrastructure grants"
           },
+          "hospital": {
+            "net_patient_rev_usd": 50189386.0,
+            "medical_usd": 0.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          },
           "irs_990": {
             "revenue_usd": 89841,
             "expenses_usd": 617838,
@@ -2397,7 +2456,7 @@
         },
         "registry_status": "Current",
         "may_operate": true,
-        "lane_count": 2,
+        "lane_count": 3,
         "ids": {
           "ein": "883360044",
           "ct_number": "CT0287542"
@@ -3515,21 +3574,43 @@
         },
         "confidence": "single-source"
       },
+      "MAD RIVER COMMUNITY HOSPITAL": {
+        "canonical_name": "Mad River Community Hospital",
+        "appearances": {
+          "bhcip": {
+            "project_count": 1,
+            "note": "behavioral-health infrastructure grants"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 49506203.0,
+            "medical_usd": 15360198.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
+          }
+        },
+        "lane_count": 2,
+        "ids": {},
+        "confidence": "name-matched"
+      },
       "MARSHALL MEDICAL CENTER": {
         "canonical_name": "Marshall Medical Center",
         "appearances": {
           "bhcip": {
             "project_count": 1,
             "note": "behavioral-health infrastructure grants"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 314810633.0,
+            "medical_usd": 62628821.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
           }
         },
         "registry_status": "Exempt",
         "may_operate": true,
-        "lane_count": 1,
+        "lane_count": 2,
         "ids": {
           "ein": "941450151"
         },
-        "confidence": "single-source"
+        "confidence": "name-matched"
       },
       "MCALISTER INSTITUTE FOR TREATMENT EDUCATION": {
         "canonical_name": "McAlister Institute for Treatment & Education, Inc.",
@@ -3673,16 +3754,22 @@
           "bhcip": {
             "project_count": 1,
             "note": "behavioral-health infrastructure grants"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 29644572.0,
+            "medical_usd": 6682540.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
           }
         },
         "registry_status": "Current - Reporting Incomplete",
         "may_operate": true,
-        "lane_count": 1,
+        "lane_count": 2,
         "ids": {
           "ein": "680474996",
           "ct_number": "123134"
         },
-        "confidence": "single-source"
+        "confidence": "name-matched",
+        "identity_caution": "This name may refer to more than one organization; identifiers shown are the best available match, not a proven link."
       },
       "PACIFIC CLINICS": {
         "canonical_name": "Pacific Clinics",
@@ -4067,16 +4154,21 @@
           "bhcip": {
             "project_count": 1,
             "note": "behavioral-health infrastructure grants"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 107954424.0,
+            "medical_usd": 29292974.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
           }
         },
         "registry_status": "Exempt",
         "may_operate": true,
-        "lane_count": 1,
+        "lane_count": 2,
         "ids": {
           "ein": "942988520",
           "ct_number": "060933"
         },
-        "confidence": "single-source"
+        "confidence": "name-matched"
       },
       "TOIYABE INDIAN HEALTH PROJECT": {
         "canonical_name": "TOIYABE INDIAN HEALTH PROJECT, INC.",
@@ -5693,13 +5785,18 @@
           "federal_recipient": {
             "amount_usd": 139733291.82,
             "note": "federal awards performed in CA (FY2025)"
+          },
+          "hospital": {
+            "net_patient_rev_usd": 4386711562.0,
+            "medical_usd": 424636053.0,
+            "note": "hospital financial disclosure (FY2023-24, HCAI)"
           }
         },
-        "lane_count": 1,
+        "lane_count": 2,
         "ids": {
           "uei": "NCSMA19DF7E6"
         },
-        "confidence": "single-source"
+        "confidence": "name-matched"
       },
       "VERTEX AEROSPACE": {
         "canonical_name": "VERTEX AEROSPACE LLC",

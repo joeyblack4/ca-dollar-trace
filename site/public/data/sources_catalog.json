@@ -5,15 +5,15 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying source keeps its own license"
   },
-  "as_of": "2026-07-17T020407Z",
-  "ingested_at": "2026-07-17T02:04:07.077320+00:00",
+  "as_of": "2026-07-17T140402Z",
+  "ingested_at": "2026-07-17T14:04:02.940426+00:00",
   "cadence": "regenerated each run from the source configs",
   "coverage_flag": "traceable",
   "caveats": [
     "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
   ],
   "data": {
-    "source_count": 18,
+    "source_count": 19,
     "layer_order": [
       "The state budget",
       "State spending",
@@ -145,6 +145,21 @@
         ],
         "layer": "State spending",
         "feeds": "Medi-Cal managed-care enrollment and the certified rates paid per member."
+      },
+      {
+        "source": "hospital_finances",
+        "name": "HCAI Hospital Annual Financial Data (Selected)",
+        "publisher": "CA Department of Health Care Access and Information",
+        "url": "https://data.chhs.ca.gov/dataset/hospital-annual-financial-data-selected-data-pivot-tables",
+        "cadence": "annual filings; HCAI re-extracts ~twice a year as audits land",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Each figure is the hospital's own annual disclosure to HCAI (Hospital Annual Financial Disclosure Report). The prior fiscal year is mostly audited; the latest year is largely still in process \u2014 every hospital carries its report status.",
+          "Medi-Cal figures are net revenue the hospital reports receiving for Medi-Cal patients (traditional fee-for-service and managed care separately) \u2014 a yearly total per hospital, not plan-by-plan payments.",
+          "Hospitals only: Medi-Cal money flowing to physicians, clinics, pharmacies, and other non-hospital providers is not in this data."
+        ],
+        "layer": "State spending",
+        "feeds": "Every hospital's own annual financials \u2014 including what it reports receiving from Medi-Cal."
       },
       {
         "source": "county_finances",
