@@ -29,6 +29,7 @@ from .ingest.medical_plans import run_medical_plans
 from .ingest.nonprofits import run_nonprofits
 from .ingest.sacs import run_sacs
 from .ingest.search_index import run_search_index
+from .ingest.sources_catalog import run_sources_catalog
 from .ingest.usaspending import run_usaspending
 from .publish.grants import publish_grants_summary
 from .sources import load_source
@@ -139,6 +140,11 @@ def _run_search_index(storage: Storage, settings: Settings) -> None:
     run_search_index(storage, cfg, settings)
 
 
+def _run_sources_catalog(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "sources_catalog")
+    run_sources_catalog(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -159,6 +165,7 @@ RUNNERS = {
     "compensation": _run_compensation,
     "entities": _run_entities,
     "search_index": _run_search_index,
+    "sources_catalog": _run_sources_catalog,
 }
 
 # multi-GB backfills that need a persistent data dir; run explicitly, not from cron
@@ -187,6 +194,7 @@ RUN_ORDER = [
     "fiscal_vendor",
     "entities",
     "search_index",
+    "sources_catalog",
 ]
 assert set(RUN_ORDER) == set(RUNNERS), "RUN_ORDER must list every runner exactly once"
 

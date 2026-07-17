@@ -440,3 +440,17 @@ def test_search_index_contract():
     # sorted by descending spend so the box surfaces the biggest first
     totals = [e["total_usd"] for e in d["vendors"]]
     assert totals == sorted(totals, reverse=True)
+
+
+def test_sources_catalog_contract():
+    d = load("sources_catalog.json")["data"]
+    assert d["source_count"] == len(d["sources"])
+    assert d["source_count"] >= 15, "catalog lost sources"
+    assert d["layer_order"], "no layer ordering"
+    for s in d["sources"]:
+        assert s["layer"] in d["layer_order"], f"{s['source']}: layer off the ordering"
+        assert s["url"].startswith("http"), f"{s['source']}: source must link out"
+        assert s["coverage_flag"] in COVERAGE_FLAGS
+        for f in ("name", "publisher", "cadence", "feeds"):
+            assert s[f], f"{s['source']}: empty {f}"
+    assert d["derived"], "derived crosswalks not disclosed"

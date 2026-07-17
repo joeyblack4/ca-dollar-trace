@@ -1,0 +1,297 @@
+{
+  "source": {
+    "name": "Sources Catalog",
+    "publisher": "CA Dollar Trace (derived from the cited source configs)",
+    "url": "https://github.com/joeyblack4/ca-dollar-trace",
+    "license": "Derived work; each underlying source keeps its own license"
+  },
+  "as_of": "2026-07-17T010004Z",
+  "ingested_at": "2026-07-17T01:00:04.827329+00:00",
+  "cadence": "regenerated each run from the source configs",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
+  ],
+  "data": {
+    "source_count": 17,
+    "layer_order": [
+      "The state budget",
+      "State spending",
+      "Local government",
+      "Federal money",
+      "Recipient registries"
+    ],
+    "sources": [
+      {
+        "source": "ebudget_enacted",
+        "name": "California Enacted Budget 2025-26 (ebudget)",
+        "publisher": "California Department of Finance",
+        "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+        "cadence": "budget cycle (enacted June/July; revised at Governor's Budget & May Revision)",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "General Fund view: enacted-budget figures (budgetary/legal basis), not actual cash spent; actuals arrive via Open FI$Cal with a ~60-day lag and will not reconcile exactly.",
+          "GF expenditures ($228.4B) exceed GF revenues ($215.7B) in the enacted plan; the difference is covered by reserves/carryover, and we show that gap rather than hiding it.",
+          "Agency all-funds totals include federal funds and reimbursements passing through the state budget."
+        ],
+        "layer": "The state budget",
+        "feeds": "The enacted state budget \u2014 what the Legislature appropriated, by fund and program area."
+      },
+      {
+        "source": "ebudget_detail",
+        "name": "California Enacted Budget 2025-26 \u2014 Department Detail (ebudget)",
+        "publisher": "California Department of Finance",
+        "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
+        "cadence": "budget cycle (enacted June/July); re-polled with the summary source",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Enacted-budget program and fund detail (budgetary/legal basis), not actual cash spent.",
+          "Department program lines are validated to sum to each department's published total; departments where they do not are flagged, not silently dropped.",
+          "Fund classes: G=General Fund, S=special, F=federal, B=bond. Federal funds are federal money administered through the state budget."
+        ],
+        "layer": "The state budget",
+        "feeds": "Department- and program-level detail beneath each agency's budget."
+      },
+      {
+        "source": "fiscal_vendor",
+        "name": "Open FI$Cal \u2014 Department Vendor Transactions",
+        "publisher": "FI$Cal (State of California)",
+        "url": "https://open.fiscal.ca.gov/dept_vendor_transaction.html",
+        "cadence": "monthly, ~60-day accounting lag",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Vendor Transactions cover ~79% of state budgetary expenditures and EXCLUDE payroll, most social-service benefit payments (e.g. Medi-Cal benefits), purchase-card, and interfaced non-FI$Cal departments \u2014 so checkbook totals are far below budget totals by design; we publish the coverage percentage per department.",
+          "Amounts are NET of reversal/adjustment entries, which FI$Cal publishes deliberately (see its Learning Center on 'Negative Expenditures' and account 5390950 'SCO Inbound Interface'). Where a vendor's adjustments are material we also publish gross payments recorded, and we surface each department's net SCO-interface effect rather than hiding it.",
+          "Statutorily confidential vendors appear as 'Confidential'; we count and publish that share rather than dropping it.",
+          "Amounts are modified-accrual accounting transactions; they will not reconcile exactly to enacted budget figures."
+        ],
+        "layer": "State spending",
+        "feeds": "The state's checkbook \u2014 actual vendor payments, name by name."
+      },
+      {
+        "source": "grants_portal",
+        "name": "California Grants Portal",
+        "publisher": "California State Library",
+        "url": "https://data.ca.gov/dataset/california-grants-portal",
+        "cadence": "daily, published ~8:45pm PT",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Awardee-level at best; the portal collects no subrecipient detail (only a flag that subrecipients exist).",
+          "EstAvailFunds is self-reported by grantmakers and may be blank; blanks are reported as 'amount unknown', never zero."
+        ],
+        "layer": "State spending",
+        "feeds": "State grant programs open for application, refreshed nightly."
+      },
+      {
+        "source": "grants_awards",
+        "name": "California Grants Portal \u2014 Grant Awards",
+        "publisher": "California State Library",
+        "url": "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025",
+        "cadence": "daily, published ~8:45pm PT",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Post-award data exists only for grants closing on/after July 1, 2022 (AB 132) \u2014 earlier grant awards are not published here.",
+          "The portal records only WHETHER subrecipients exist per award, never who they are \u2014 every award marked 'has subrecipients' is a flagged dead end.",
+          "Award amounts are as reported by the granting agency; blanks are counted as unknown, never zero."
+        ],
+        "layer": "State spending",
+        "feeds": "The organizations awarded state grants, and for how much."
+      },
+      {
+        "source": "bhcip_awards",
+        "name": "BHCIP Awardees (Rounds 1-5 + Bond Rounds 1-2)",
+        "publisher": "DHCS / Advocates for Human Potential (program administrator)",
+        "url": "https://www.infrastructure.buildingcalhhs.com/bhcip-data-dashboards/all-rounds-dashboard/",
+        "cadence": "manual re-capture when new BHCIP rounds are announced",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Awardee names, projects, and rounds only \u2014 per-project dollar amounts are published by DHCS/AHP in round announcements (PDF/web), not yet machine-readable here.",
+          "Snapshot captured from AHP's public Tableau dashboard 2026-07-16; it reflects grantee self-reported project data.",
+          "BHCIP money reaches these entities through AHP, a private third-party administrator \u2014 this hop exists in no state accounting dataset, which is why we recovered it from the program's own reporting."
+        ],
+        "layer": "State spending",
+        "feeds": "Behavioral-health infrastructure grants and the projects they funded."
+      },
+      {
+        "source": "compensation",
+        "name": "Government Compensation in California (2024)",
+        "publisher": "California State Controller's Office",
+        "url": "https://gcc.sco.ca.gov/",
+        "cadence": "annual (SCO publishes the prior calendar year each fall)",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Government Compensation in California, reported to the State Controller. Public-employee names and salaries are disclosable (IFPTE Local 21 v. Superior Court, 2007); this is position-level, aggregated here to employer totals.",
+          "Covers state departments, counties, and cities for 2024 (the file set also offers UC, CSU, community colleges, special districts, and courts \u2014 added as captured).",
+          "Benefits shown are the employer's retirement + health/dental/vision contribution; pension unfunded-liability payments are reported separately by the systems."
+        ],
+        "layer": "State spending",
+        "feeds": "Government payroll \u2014 positions, wages, and benefits reported to the State Controller."
+      },
+      {
+        "source": "medical_plans",
+        "name": "Medi-Cal Managed Care \u2014 Enrollment & Capitation Rates",
+        "publisher": "California DHCS (via CHHS Open Data)",
+        "url": "https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-report",
+        "cadence": "enrollment monthly; capitation rate certifications per rating period",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Enrollment counts are per plan per county per month as reported by DHCS; a plan's statewide figure sums its county rows.",
+          "Capitation rates are DHCS-certified RANGES (lower/midpoint/upper, per member per month) by rating period, county, and category of aid \u2014 they are prices, not amounts spent.",
+          "What each plan pays hospitals, clinics, and physicians remains non-public \u2014 this dataset extends visibility exactly one hop and no further.",
+          "Dental managed care (e.g. Liberty Dental) rates are certified separately and are not in these files; such plans show enrollment without a rate range.",
+          "Enrollment and rate datasets never agree on plan names; we join them with a published normalization + curated alias list and report the measured match rate (enrollee-weighted) instead of pretending it's complete."
+        ],
+        "layer": "State spending",
+        "feeds": "Medi-Cal managed-care enrollment and the certified rates paid per member."
+      },
+      {
+        "source": "county_finances",
+        "name": "SCO ByTheNumbers \u2014 County Expenditures",
+        "publisher": "California State Controller's Office",
+        "url": "https://bythenumbers.sco.ca.gov/",
+        "cadence": "annual, rolling as late filers report (~18-month lag typical)",
+        "coverage_flag": "category_only",
+        "caveats": [
+          "Self-reported by counties and 'posted as submitted' \u2014 the State Controller does not audit or restate these figures.",
+          "Category level only: there is no vendor detail here, and most counties publish no vendor-level checkbook anywhere.",
+          "Fiscal years appear as the ending year (2024 = FY2023-24); late-filing counties can be a year behind their peers.",
+          "57 counties appear here, not 58: the City and County of San Francisco reports through the cities dataset instead."
+        ],
+        "layer": "Local government",
+        "feeds": "County finances by category, self-reported to the State Controller."
+      },
+      {
+        "source": "city_finances",
+        "name": "SCO ByTheNumbers \u2014 City Expenditures",
+        "publisher": "California State Controller's Office",
+        "url": "https://bythenumbers.sco.ca.gov/",
+        "cadence": "annual, rolling as late filers report (~18-month lag typical)",
+        "coverage_flag": "category_only",
+        "caveats": [
+          "Self-reported by cities and 'posted as submitted' \u2014 the State Controller does not audit or restate these figures.",
+          "Category level only; a handful of cities (LA, SF, San Diego) publish real vendor checkbooks elsewhere \u2014 most publish nothing deeper than this.",
+          "Detail is published for the largest cities by spending; the remainder is disclosed as an aggregate, with every city in the raw download."
+        ],
+        "layer": "Local government",
+        "feeds": "City finances by category, self-reported to the State Controller."
+      },
+      {
+        "source": "district_finances",
+        "name": "SCO ByTheNumbers \u2014 Special District Expenditures",
+        "publisher": "California State Controller's Office",
+        "url": "https://bythenumbers.sco.ca.gov/",
+        "cadence": "annual, rolling as late filers report",
+        "coverage_flag": "category_only",
+        "caveats": [
+          "Self-reported by districts and 'posted as submitted' \u2014 no vendor detail exists, and no special district publishes a checkbook.",
+          "Independent special districts are the layer of California government residents know least; JPAs report even less consistently.",
+          "Detail is published for the largest districts by spending; the remainder is disclosed as an aggregate, with every district in the raw download."
+        ],
+        "layer": "Local government",
+        "feeds": "Special-district finances by category, self-reported to the State Controller."
+      },
+      {
+        "source": "sacs_k12",
+        "name": "SACS Unaudited Actuals \u2014 K-12 District Finances",
+        "publisher": "California Department of Education",
+        "url": "https://www.cde.ca.gov/ds/fd/dv/",
+        "cadence": "annual (unaudited actuals publish ~8-9 months after FY end)",
+        "coverage_flag": "category_only",
+        "caveats": [
+          "Unaudited actuals, self-reported by ~2,000 local educational agencies; audited figures can differ.",
+          "SACS accounts categorize spending (salaries, benefits, services, capital) \u2014 vendor names do not exist anywhere in this system; who a district actually paid requires district-by-district records requests.",
+          "Amounts are decoded from SACS account strings by fund and object code; the full account detail is preserved in the raw archive."
+        ],
+        "layer": "Local government",
+        "feeds": "K-12 school-district spending, self-reported unaudited actuals."
+      },
+      {
+        "source": "city_checkbooks",
+        "name": "City Vendor Checkbooks \u2014 Los Angeles & San Francisco",
+        "publisher": "LA Controller / DataSF",
+        "url": "https://controllerdata.lacity.org/",
+        "cadence": "LA: continuous (transactions); SF: weekly contract-system refresh",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Los Angeles figures are actual payment transactions for the most recent COMPLETE city fiscal year (LA's year ends June 30). Large financial-institution payees (custodial banks, bond trustees) reflect money movement, not purchases.",
+          "San Francisco figures are cumulative payments to date on contracts in the city's current procurement system \u2014 a different measure than annual spending; treat the two cities' numbers as incomparable.",
+          "These two checkbooks exist because each city chose to publish one \u2014 most of California's cities and counties publish nothing like this."
+        ],
+        "layer": "Local government",
+        "feeds": "Transaction-level checkbooks for the cities that publish one (LA & SF)."
+      },
+      {
+        "source": "usaspending_ca",
+        "name": "USAspending \u2014 federal awards into California (FY2025)",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://www.usaspending.gov/search",
+        "cadence": "monthly-ish (agency submissions roll in continuously; subawards ~monthly)",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Transaction obligations for awards performed in California, federal FY2025 (Oct 2024-Sep 2025); obligations are not the same as cash outlays.",
+          "'MULTIPLE RECIPIENTS' aggregates payments to individuals (e.g. direct benefits) that are masked for privacy \u2014 shown as masked, not omitted.",
+          "Subaward reporting below prime recipients is federally required only above $30,000 and is known to be incomplete."
+        ],
+        "layer": "Federal money",
+        "feeds": "Federal awards flowing into California, with subaward hand-offs where reported."
+      },
+      {
+        "source": "fac_sefa",
+        "name": "Federal Audit Clearinghouse \u2014 California Single Audits",
+        "publisher": "U.S. GSA (Federal Audit Clearinghouse)",
+        "url": "https://www.fac.gov/",
+        "cadence": "rolling (audits filed ~9 months after each entity's fiscal year end)",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Covers entities that expended at least the single-audit threshold ($750k, raised to $1M for fiscal years starting Oct 2024) in federal awards \u2014 smaller recipients are not audited here.",
+          "Amounts are each entity's total federal expenditures per its audited SEFA, not payments between entities; documented federal-agency coding error rates apply.",
+          "The most recent audit year is always incomplete (audits arrive ~9 months after each entity's year ends); we publish the latest year with substantial coverage and disclose counts."
+        ],
+        "layer": "Federal money",
+        "feeds": "Independently audited federal spending (single audits) \u2014 the one audited source."
+      },
+      {
+        "source": "federal_subawards",
+        "name": "USAspending \u2014 Federal Subawards in California",
+        "publisher": "U.S. Department of the Treasury",
+        "url": "https://www.usaspending.gov/search",
+        "cadence": "subawards reported ~monthly; compliance is federally acknowledged as incomplete",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Subaward reporting is required only above $30,000 and compliance is notoriously incomplete \u2014 these are the reported edges, not all edges.",
+          "Amounts are subaward obligations for awards performed in California in the stated federal fiscal year.",
+          "A state agency appearing as prime recipient with a county as sub-awardee is the federal slice of the state-to-county pass-through \u2014 state-funded flows to the same counties are not in this dataset."
+        ],
+        "layer": "Federal money",
+        "feeds": "Federal money re-granted to sub-recipients, one hop past the prime."
+      },
+      {
+        "source": "nonprofits",
+        "name": "CA AG Charity Registry + IRS 990 (via ProPublica)",
+        "publisher": "California DOJ / ProPublica Nonprofit Explorer",
+        "url": "https://oag.ca.gov/charities/reports",
+        "cadence": "AG registry updated 1st & 3rd Wednesday monthly; 990 data lags 12-18 months",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Matching is by normalized organization name \u2014 a published match rate, not a guarantee; unmatched entities may still be registered under a different legal name.",
+          "'May not operate' status means the AG registry lists the charity as delinquent, suspended, or revoked \u2014 it is a compliance flag, not a fraud finding.",
+          "990 figures lag 12-18 months behind reality and cover the organization's whole operation, not its California government revenue."
+        ],
+        "layer": "Recipient registries",
+        "feeds": "Charity registration standing and IRS Form 990 filings for nonprofits."
+      }
+    ],
+    "derived": [
+      {
+        "source": "entities",
+        "name": "Cross-Source Entity Crosswalk",
+        "feeds": "One organization unified across every source above, so its full footprint reads as a single profile."
+      },
+      {
+        "source": "search_index",
+        "name": "Vendor Search Index",
+        "feeds": "The name-search index that jumps you straight to an organization's trail."
+      }
+    ]
+  }
+}

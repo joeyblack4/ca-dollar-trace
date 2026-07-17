@@ -26,6 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               CA <span className="text-poppy">Dollar</span> Trace
             </Link>
             <div className="flex gap-5 text-sm text-fog">
+              <Link href="/about/" className="hover:text-ink">
+                About
+              </Link>
               <Link href="/explore/" className="hover:text-ink">
                 Agencies
               </Link>

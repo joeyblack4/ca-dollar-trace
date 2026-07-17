@@ -1,0 +1,19 @@
+# Sources catalog: the public list of where every number on the site comes
+# from. Derived, network-free — reads the other source configs' own provenance
+# blocks so the About page stays accurate by construction and can never claim a
+# source the pipeline doesn't ingest. Runs last.
+source: sources_catalog
+dataset: catalog
+access: derived
+cadence: "regenerated each run from the source configs"
+freshness_sla_hours: 1440
+min_rows: 10
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
+info:
+  name: "Sources Catalog"
+  publisher: "CA Dollar Trace (derived from the cited source configs)"
+  url: "https://github.com/joeyblack4/ca-dollar-trace"
+  license: "Derived work; each underlying source keeps its own license"

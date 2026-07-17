@@ -122,6 +122,18 @@ test("search offers no dead ends for an unpaid name", async ({ page }) => {
   await expect(page.getByRole("option")).toHaveCount(0);
 });
 
+test("about page lists every source with a working outbound link", async ({ page }) => {
+  await page.goto("/about/");
+  await expect(page.getByRole("heading", { name: /Where the numbers come from — \d+ sources/ })).toBeVisible();
+  // the layer groups and a few known sources are present
+  await expect(page.getByText("The state budget").first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /Open FI\$Cal/ })).toHaveAttribute("href", /fiscal/i);
+  await expect(page.getByRole("link", { name: /Federal Audit Clearinghouse/ })).toBeVisible();
+  // honest framing is present, not buried
+  await expect(page.getByText(/cannot add figures from different sources together/)).toBeVisible();
+  await expect(page.getByText(/Independent, not government/)).toBeVisible();
+});
+
 test("no raw negative garbage anywhere on key pages", async ({ page }) => {
   for (const path of ["/", "/grants/", "/federal/", "/gaps/", "/receipt/", "/explore/"]) {
     await page.goto(path);
