@@ -22,6 +22,7 @@ import type {
   K12CompDoc,
   K12Doc,
   MedicalPlansDoc,
+  NonprofitOfficersDoc,
   NonprofitsDoc,
   PathSeg,
   ProfilesDoc,
@@ -308,6 +309,9 @@ export function DrillExplorer({
   );
   const nonprofitsDoc = useJson<Published<NonprofitsDoc>>(
     vendorSeg ? "/data/nonprofits.json" : null
+  );
+  const officersDoc = useJson<Published<NonprofitOfficersDoc>>(
+    vendorSeg ? "/data/nonprofit_officers.json" : null
   );
   const entitiesDoc = useJson<Published<EntitiesDoc>>(vendorSeg ? "/data/entities.json" : null);
 
@@ -773,7 +777,14 @@ export function DrillExplorer({
                       ? nonprofitsDoc.data.organizations[vendorSeg.name]
                       : null;
                   if (!org) return null;
+                  const od =
+                    officersDoc && officersDoc !== "loading" && officersDoc !== "error"
+                      ? officersDoc.data
+                      : null;
+                  const oKey = od?.name_index[vendorSeg.name.toUpperCase()];
+                  const officers = oKey ? od!.organizations[oKey] : null;
                   return (
+                    <>
                     <p className="mt-1.5 text-xs">
                       {org.may_operate ? (
                         <span className="text-traceable">
@@ -801,6 +812,43 @@ export function DrillExplorer({
                         </span>
                       )}
                     </p>
+                    {officers && officers.officers.length > 0 && (
+                      <div className="mt-3 rounded-md border border-rule bg-white/40 p-3">
+                        <div className="text-sm font-semibold">
+                          Who runs it — from its own IRS filing ({officers.tax_year})
+                        </div>
+                        <table className="mt-2 w-full text-xs">
+                          <thead>
+                            <tr className="text-left text-fog">
+                              <th className="py-1 pr-2 font-medium">Name</th>
+                              <th className="py-1 pr-2 font-medium">Title</th>
+                              <th className="py-1 text-right font-medium">Total pay</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {officers.officers.slice(0, 6).map((p) => (
+                              <tr key={p.name} className="border-t border-rule/50">
+                                <td className="py-1 pr-2">{p.name}</td>
+                                <td className="py-1 pr-2 text-fog">{p.title}</td>
+                                <td className="py-1 text-right font-mono">
+                                  {p.total_comp_usd > 0
+                                    ? `$${p.total_comp_usd.toLocaleString()}`
+                                    : "unpaid"}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                        <p className="mt-1.5 text-[11px] text-fog">
+                          {officers.paid_count} paid of {officers.people_reported} listed in
+                          Form 990 Part VII for tax year {officers.tax_year} — the
+                          organization&apos;s own signed federal disclosure (pay includes
+                          related organizations and estimated other compensation). The IRS
+                          releases filings on a one-to-two-year delay.
+                        </p>
+                      </div>
+                    )}
+                    </>
                   );
                 })()}
                 {(() => {

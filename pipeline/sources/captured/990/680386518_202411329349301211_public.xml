@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2022v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2024-05-11T15:57:52+00:00</ReturnTs>
+    <TaxPeriodEndDt>2023-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>350921680</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>CROWE LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>575 Market Street Suite 3300</AddressLine1Txt>
+        <CityNm>San Francisco</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>941055829</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2022-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>680386518</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Chico State Enterprises</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>CHIC</BusinessNameControlTxt>
+      <PhoneNum>5308986362</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>25 Main Street 203</AddressLine1Txt>
+        <CityNm>Chico</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>959295388</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Jamie Camaren</PersonNm>
+      <PersonTitleTxt>TREASURER</PersonTitleTxt>
+      <SignatureDt>2024-05-11</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <SigningOfficerGrp>
+      <PersonFullName>
+        <PersonFirstNm>Jamie</PersonFirstNm>
+        <PersonLastNm>Camaren</PersonLastNm>
+      </PersonFullName>
+      <SSN>999009999</SSN>
+    </SigningOfficerGrp>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Diane Kirmaci</PreparerPersonNm>
+      <PTIN>P01578407</PTIN>
+      <PhoneNum>4155761100</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2022</TaxYr>
+    <BuildTS>2023-04-26 12:10:37Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990 documentId="IRS990" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <PrincipalOfcrBusinessName>
+        <BusinessNameLine1Txt>Leslie Cornick</BusinessNameLine1Txt>
+      </PrincipalOfcrBusinessName>
+      <USAddress>
+        <AddressLine1Txt>25 Main Street 203</AddressLine1Txt>
+        <CityNm>Chico</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>959295388</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>59890244</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>false</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>https://www.csuchico.edu/cse/</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1997</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>To promote and assist the educational and public service functions of CSU, Chico.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>14</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>5</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>1407</TotalEmployeeCnt>
+      <TotalVolunteersCnt>560</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>23700</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>43868844</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>49240705</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>7490067</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>8456085</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>1123268</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>307911</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>1816902</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>1560600</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>54299081</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>59565301</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>3031577</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>3647139</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>24177126</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>29152350</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>25542764</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>27580334</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>52751467</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>60379823</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>1547614</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>-814522</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>47005351</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>48002702</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>15440678</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>16400287</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>31564673</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>31602415</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>To promote and assist the educational and public service functions of CSU, Chico by administering grants, farm operations and other activities.</MissionDesc>
+      <SignificantNewProgramSrvcInd>false</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>false</SignificantChangeInd>
+      <ExpenseAmt>46526617</ExpenseAmt>
+      <GrantAmt>3647139</GrantAmt>
+      <RevenueAmt>3393807</RevenueAmt>
+      <Desc>THE GENERATION AND ADMINISTRATION OF OVER 400 EXTERNALLY FUNDED TEACHING, RESEARCH AND SERVICE PROJECTS FROM FEDERAL, STATE, AND PRIVATE SOURCES (CONTRACTS AND GRANTS) EACH YEAR. THE MAJORITY OF THESE "SPONSORED PROGRAMS" PROVIDE EDUCATIONAL OPPORTUNITIES FOR STUDENTS AS WELL.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>2110155</ExpenseAmt>
+        <RevenueAmt>2538154</RevenueAmt>
+        <Desc>CAMPUS PROGRAMS OPERATE TO SUPPORT THE MISSION OF CHICO STATE ENTERPRISES AND SUPPORT CSU, CHICO. THESE PROGRAMS INCLUDE NON-CREDIT BEARING REGIONAL AND CONTINUING EDUCATION ACTIVITIES, AND UNIVERSITY PERFORMANCES WHICH PROVIDE BENEFITS TO BOTH CAMPUS AND THE COMMUNITY.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>2056030</ExpenseAmt>
+        <RevenueAmt>2524124</RevenueAmt>
+        <Desc>ADMINISTRATIVE SUPPORT IS PROVIDED TO ALL PROGRAMS OPERATING THROUGH CHICO STATE ENTERPRISES. THESE PROGRAMS PROVIDE EDUCATIONAL OPPORTUNITIES AND INCOME IN SUPPORT OF THE ACADEMIC PROGRAM. ADMINISTRATIVE SUPPORT IS ALSO GIVEN TO THE UNIVERSITY FOUNDATION, WHICH HANDLES ALL PHILANTHROPIC FUNDS FOR CSU, CHICO.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <TotalProgramServiceExpensesAmt>50692802</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="IRS990ScheduleA">true</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="IRS990ScheduleB">true</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <DonorAdvisedFundInd>false</DonorAdvisedFundInd>
+      <ConservationEasementsInd>false</ConservationEasementsInd>
+      <CollectionsOfArtInd>false</CollectionsOfArtInd>
+      <CreditCounselingInd>false</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>false</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="IRS990ScheduleD">true</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd>false</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd>false</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="IRS990ScheduleD">true</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="IRS990ScheduleD">true</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="IRS990ScheduleD">true</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">true</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">true</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <ForeignActivitiesInd referenceDocumentId="IRS990ScheduleF">true</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>false</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>false</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>false</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>false</FundraisingActivitiesInd>
+      <GamingActivitiesInd>false</GamingActivitiesInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <GrantsToOrganizationsInd referenceDocumentId="IRS990ScheduleI">true</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="IRS990ScheduleI">true</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="IRS990ScheduleJ">true</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>false</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>false</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>false</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>false</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>false</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>false</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>false</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd referenceDocumentId="IRS990ScheduleM">true</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>false</DeductibleArtContributionInd>
+      <TerminateOperationsInd>false</TerminateOperationsInd>
+      <PartialLiquidationInd>false</PartialLiquidationInd>
+      <DisregardedEntityInd>false</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="IRS990ScheduleR">true</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>false</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>true</ScheduleORequiredInd>
+      <IRPDocumentCnt>739</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>true</BackupWthldComplianceInd>
+      <EmployeeCnt>1407</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>true</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>true</UnrelatedBusIncmOverLimitInd>
+      <Form990TFiledInd>true</Form990TFiledInd>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>false</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>false</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>false</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>false</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>false</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>false</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>14</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>5</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>false</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>false</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>false</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>false</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>false</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>false</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>false</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>true</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>true</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>false</OfficerMailingAddressInd>
+      <LocalChaptersInd>false</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>true</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>true</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>true</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>true</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>true</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>true</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>true</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>true</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>false</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <OwnWebsiteInd>X</OwnWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>Vance Kelly</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>5308986362</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>25 Main Street Suite 203</AddressLine1Txt>
+          <CityNm>Chico</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>959285388</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ann Sherman</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Treasurer/CSU Chico VP Business and Finance</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>266879</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>50525</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Debra Larson</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board President/CSU Chico Provost</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>296261</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>99761</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ahmad Boura</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico VP Advancement</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>307518</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>59473</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Angel Trethewayy</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico College Dean</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>186227</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>58971</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Anita Chaudhry</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Boar Member/CSU Chico Faculty</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>115304</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>44953</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ben Seipel</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico Faculty</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>115375</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>38318</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Bob Kittredge</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/Community Member</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>David Hassenzahl</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico College Dean</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>196901</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>65271</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Gayle Hutchinson</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico President</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>523353</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>131809</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>John Carlon</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/Community Member</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Kristen Chatham</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico Student</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Shane Mayor</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico Faculty</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>93953</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>28817</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Tod Kimmelshue</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/Community Member</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Tom Lando</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/Community Member (thru Dec 2022)</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Mary Sidney</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Secretary, CSE CEO</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>216453</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>15422</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Jason Schwenkler</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director, Geological Information Center</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>142785</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>38656</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Kristin Gruneisen</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>CHC Director</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>144105</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>48649</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Michele Flowerdew</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Sponsored Programs Administration</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>146290</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>38857</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Russell Wittmeier</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Human Resources</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>141998</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>27000</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Vance Kelly</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Finance and Accounting</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>152967</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>42531</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>944598</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>2101771</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>789013</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>6</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>false</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>true</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>false</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <RelatedOrganizationsAmt>1265719</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>47419306</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>555680</AllOtherContributionsAmt>
+      <NoncashContributionsAmt>62902</NoncashContributionsAmt>
+      <TotalContributionsAmt>49240705</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>UNIVERSITY PROGRAM RECEIPTS</Desc>
+        <BusinessCd>611710</BusinessCd>
+        <TotalRevenueColumnAmt>2782814</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>2782814</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>SPONSORED PROGRAM RECEIPTS</Desc>
+        <BusinessCd>611710</BusinessCd>
+        <TotalRevenueColumnAmt>4461260</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>4461260</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>ADMIN FEES INCOME</Desc>
+        <BusinessCd>611710</BusinessCd>
+        <TotalRevenueColumnAmt>454019</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>454019</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>OTHER INCOME</Desc>
+        <BusinessCd>611710</BusinessCd>
+        <TotalRevenueColumnAmt>757992</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>757992</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>8456085</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>297204</TotalRevenueColumnAmt>
+        <ExclusionAmt>297204</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>119393</TotalRevenueColumnAmt>
+        <ExclusionAmt>119393</ExclusionAmt>
+      </RoyaltiesRevenueGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>0</RealAmt>
+        <PersonalAmt>0</PersonalAmt>
+      </RentalIncomeOrLossGrp>
+      <GrossAmountSalesAssetsGrp>
+        <OtherAmt>19900</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <OtherAmt>9193</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>0</SecuritiesAmt>
+        <OtherAmt>10707</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>10707</TotalRevenueColumnAmt>
+        <ExclusionAmt>10707</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <GrossSalesOfInventoryAmt>1733257</GrossSalesOfInventoryAmt>
+      <CostOfGoodsSoldAmt>315750</CostOfGoodsSoldAmt>
+      <NetIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>1417507</TotalRevenueColumnAmt>
+        <ExclusionAmt>1417507</ExclusionAmt>
+      </NetIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Orion Newspaper</Desc>
+        <BusinessCd>541810</BusinessCd>
+        <TotalRevenueColumnAmt>1200</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>1200</UnrelatedBusinessRevenueAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Campus Housing Partners</Desc>
+        <BusinessCd>541810</BusinessCd>
+        <TotalRevenueColumnAmt>22500</TotalRevenueColumnAmt>
+        <UnrelatedBusinessRevenueAmt>22500</UnrelatedBusinessRevenueAmt>
+      </OtherRevenueMiscGrp>
+      <MiscellaneousRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>0</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </MiscellaneousRevenueGrp>
+      <OtherRevenueTotalAmt>23700</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>59565301</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>8456085</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>23700</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>1844811</ExclusionAmt>
+      </TotalRevenueGrp>
+      <InfoInScheduleOPartIXInd>X</InfoInScheduleOPartIXInd>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>273841</TotalAmt>
+        <ProgramServicesAmt>273841</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>3373298</TotalAmt>
+        <ProgramServicesAmt>3373298</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>231875</TotalAmt>
+        <ManagementAndGeneralAmt>231875</ManagementAndGeneralAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>23628987</TotalAmt>
+        <ProgramServicesAmt>18579806</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5049181</ManagementAndGeneralAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>794964</TotalAmt>
+        <ProgramServicesAmt>619417</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>175547</ManagementAndGeneralAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>2954239</TotalAmt>
+        <ProgramServicesAmt>2313890</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>640349</ManagementAndGeneralAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>1542285</TotalAmt>
+        <ProgramServicesAmt>1201712</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>340573</ManagementAndGeneralAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>27244</TotalAmt>
+        <ProgramServicesAmt>10010</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17234</ManagementAndGeneralAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>111500</TotalAmt>
+        <ProgramServicesAmt>19000</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>92500</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>21397</TotalAmt>
+        <ManagementAndGeneralAmt>21397</ManagementAndGeneralAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>13905391</TotalAmt>
+        <ProgramServicesAmt>12979066</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>926325</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>283160</TotalAmt>
+        <ProgramServicesAmt>266334</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>16826</ManagementAndGeneralAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>805484</TotalAmt>
+        <ProgramServicesAmt>687034</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>118450</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>615813</TotalAmt>
+        <ProgramServicesAmt>571135</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>44678</ManagementAndGeneralAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>267100</TotalAmt>
+        <ProgramServicesAmt>267100</ProgramServicesAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>1011613</TotalAmt>
+        <ProgramServicesAmt>994095</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17518</ManagementAndGeneralAmt>
+      </TravelGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>78148</TotalAmt>
+        <ProgramServicesAmt>66041</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12107</ManagementAndGeneralAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>38471</TotalAmt>
+        <ManagementAndGeneralAmt>38471</ManagementAndGeneralAmt>
+      </InterestGrp>
+      <PaymentsToAffiliatesGrp>
+        <TotalAmt>1921692</TotalAmt>
+        <ProgramServicesAmt>1397842</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>523850</ManagementAndGeneralAmt>
+      </PaymentsToAffiliatesGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>1302377</TotalAmt>
+        <ProgramServicesAmt>511234</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>791143</ManagementAndGeneralAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>481798</TotalAmt>
+        <ProgramServicesAmt>27167</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>454631</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Materials &amp; supplies</Desc>
+        <TotalAmt>1779852</TotalAmt>
+        <ProgramServicesAmt>1767126</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12726</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>EQUIP, MAINT, REPAIRS</Desc>
+        <TotalAmt>1258395</TotalAmt>
+        <ProgramServicesAmt>1233360</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>25035</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>SPONSORED PROGRAMS</Desc>
+        <TotalAmt>2626631</TotalAmt>
+        <ProgramServicesAmt>2626631</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Taxes, permits, licenses</Desc>
+        <TotalAmt>340625</TotalAmt>
+        <ProgramServicesAmt>319839</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>20786</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>703643</TotalAmt>
+        <ProgramServicesAmt>587824</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>115819</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>60379823</TotalAmt>
+        <ProgramServicesAmt>50692802</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>9687021</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>8127951</BOYAmt>
+        <EOYAmt>5340428</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>485625</BOYAmt>
+        <EOYAmt>36909</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>13046440</BOYAmt>
+        <EOYAmt>14508269</EOYAmt>
+      </AccountsReceivableGrp>
+      <ReceivablesFromOfficersEtcGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </ReceivablesFromOfficersEtcGrp>
+      <RcvblFromDisqualifiedPrsnGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </RcvblFromDisqualifiedPrsnGrp>
+      <OthNotesLoansReceivableNetGrp>
+        <BOYAmt>638024</BOYAmt>
+        <EOYAmt>681886</EOYAmt>
+      </OthNotesLoansReceivableNetGrp>
+      <InventoriesForSaleOrUseGrp>
+        <BOYAmt>185120</BOYAmt>
+        <EOYAmt>181941</EOYAmt>
+      </InventoriesForSaleOrUseGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>245409</BOYAmt>
+        <EOYAmt>314700</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>29539103</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>20301116</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>9272389</BOYAmt>
+        <EOYAmt>9237987</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>9450196</BOYAmt>
+        <EOYAmt>10983355</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <BOYAmt>1749921</BOYAmt>
+        <EOYAmt>1789435</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <InvestmentsProgramRelatedGrp>
+        <BOYAmt>0</BOYAmt>
+      </InvestmentsProgramRelatedGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>3804276</BOYAmt>
+        <EOYAmt>4927792</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>47005351</BOYAmt>
+        <EOYAmt>48002702</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>6140476</BOYAmt>
+        <EOYAmt>5146209</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>3526810</BOYAmt>
+        <EOYAmt>4842375</EOYAmt>
+      </DeferredRevenueGrp>
+      <LoansFromOfficersDirectorsGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </LoansFromOfficersDirectorsGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>5773392</BOYAmt>
+        <EOYAmt>6411703</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>15440678</BOYAmt>
+        <EOYAmt>16400287</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrgDoesNotFollowFASB117Ind>X</OrgDoesNotFollowFASB117Ind>
+      <RtnEarnEndowmentIncmOthFndsGrp>
+        <BOYAmt>31564673</BOYAmt>
+        <EOYAmt>31602415</EOYAmt>
+      </RtnEarnEndowmentIncmOthFndsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>31564673</BOYAmt>
+        <EOYAmt>31602415</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>47005351</BOYAmt>
+        <EOYAmt>48002702</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>-814522</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>852264</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>false</AccountantCompileOrReviewInd>
+      <FSAuditedInd>true</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolAndSepBasisFinclStmtInd>X</ConsolAndSepBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>true</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>true</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>true</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="IRS990ScheduleA" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <SupportingOrganization509a3Ind>X</SupportingOrganization509a3Ind>
+      <SupportingOrgType1Ind>X</SupportingOrgType1Ind>
+      <SupportedOrganizationsCnt>1</SupportedOrganizationsCnt>
+      <SupportedOrgInformationGrp>
+        <SupportedOrganizationName>
+          <BusinessNameLine1Txt>California State University Chico</BusinessNameLine1Txt>
+        </SupportedOrganizationName>
+        <EIN>680219874</EIN>
+        <OrganizationTypeCd>6</OrganizationTypeCd>
+        <GoverningDocumentListedInd>true</GoverningDocumentListedInd>
+        <SupportAmt>273841</SupportAmt>
+        <OtherSupportAmt>0</OtherSupportAmt>
+      </SupportedOrgInformationGrp>
+      <SupportedOrganizationsTotalCnt>1</SupportedOrganizationsTotalCnt>
+      <SupportSumAmt>273841</SupportSumAmt>
+      <OtherSupportSumAmt>0</OtherSupportSumAmt>
+      <Form990SchASupportingOrgGrp>
+        <ListedByNameGoverningDocInd>true</ListedByNameGoverningDocInd>
+        <SuprtOrgNoIRSDeterminationInd>true</SuprtOrgNoIRSDeterminationInd>
+        <SupportedOrgSectionC456Ind>false</SupportedOrgSectionC456Ind>
+        <SupportedOrgNotOrganizedUSInd>false</SupportedOrgNotOrganizedUSInd>
+        <OrganizationChangeSuprtOrgInd>false</OrganizationChangeSuprtOrgInd>
+        <SupportNonSupportedOrgInd>false</SupportNonSupportedOrgInd>
+        <PaymentSubstantialContribtrInd>false</PaymentSubstantialContribtrInd>
+        <LoanDisqualifiedPersonInd>false</LoanDisqualifiedPersonInd>
+        <ControlledDisqualifiedPrsnInd>false</ControlledDisqualifiedPrsnInd>
+        <DisqualifiedPrsnControllIntInd>false</DisqualifiedPrsnControllIntInd>
+        <DisqualifiedPrsnOwnrIntInd>false</DisqualifiedPrsnOwnrIntInd>
+        <ExcessBusinessHoldingsRulesInd>false</ExcessBusinessHoldingsRulesInd>
+        <ContributionControllerInd>false</ContributionControllerInd>
+        <ContributionFamilyInd>false</ContributionFamilyInd>
+        <Contribution35ControlledInd>false</Contribution35ControlledInd>
+      </Form990SchASupportingOrgGrp>
+      <Form990SchAType1SuprtOrgGrp>
+        <PowerAppointMajorityDirTrstInd>true</PowerAppointMajorityDirTrstInd>
+        <OperateBenefitNonSuprtOrgInd>false</OperateBenefitNonSuprtOrgInd>
+      </Form990SchAType1SuprtOrgGrp>
+      <Form990ScheduleAPartVIGrp>
+        <FormAndLineReferenceDesc>Schedule A, Part IV, Section A, Line 2 Supported Org. Without IRS Status 509(a)1 or (2)</FormAndLineReferenceDesc>
+        <ExplanationTxt>The supported organization of Chico State Enterprises is a State University, and therefore does not have an IRS determination of status under Section 509(a)(1) or (2).</ExplanationTxt>
+      </Form990ScheduleAPartVIGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="IRS990ScheduleB" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="IRS990ScheduleD" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>3979132</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>3979132</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>7853099</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>6065215</DepreciationAmt>
+        <BookValueAmt>1787884</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>871870</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>558965</DepreciationAmt>
+        <BookValueAmt>312905</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>16649951</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>13676936</DepreciationAmt>
+        <BookValueAmt>2973015</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>185051</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>185051</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>9237987</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>Unbilled revenue</Desc>
+        <BookValueAmt>4519230</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>Deposits</Desc>
+        <BookValueAmt>254560</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>Deferred outflows - OPEB</Desc>
+        <BookValueAmt>154002</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>4927792</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>RESERVE FOR GRANT COST DISALLOWANCE</Desc>
+        <Amt>330000</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>POST RETIREMENT HEALTH RESERVE</Desc>
+        <Amt>731791</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Payable to Trustees of CSU</Desc>
+        <Amt>1830000</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Other Liabilities</Desc>
+        <Amt>3234748</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Deferred Inflows - OPEB</Desc>
+        <Amt>285164</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>6411703</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>60711671</TotalRevEtcAuditedFinclStmtAmt>
+      <NetUnrealizedGainsInvstAmt>852264</NetUnrealizedGainsInvstAmt>
+      <OtherRevenueAmt>315750</OtherRevenueAmt>
+      <RevenueNotReportedAmt>1168014</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>59543657</RevenueSubtotalAmt>
+      <InvestmentExpensesNotIncldAmt>21397</InvestmentExpensesNotIncldAmt>
+      <OtherRevenuesNotIncludedAmt>247</OtherRevenuesNotIncludedAmt>
+      <RevenueNotReportedFinclStmtAmt>21644</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>59565301</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>60673929</TotExpnsEtcAuditedFinclStmtAmt>
+      <OtherExpensesIncludedAmt>315750</OtherExpensesIncludedAmt>
+      <ExpensesNotReportedAmt>315750</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>60358179</ExpensesSubtotalAmt>
+      <InvestmentExpensesNotIncld2Amt>21397</InvestmentExpensesNotIncld2Amt>
+      <OtherExpensesNotIncludedAmt>247</OtherExpensesNotIncludedAmt>
+      <ExpensesNotRptFinclStmtAmt>21644</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>60379823</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part X, Line 2 FIN 48 (ASC 740) footnote</FormAndLineReferenceDesc>
+        <ExplanationTxt>Chico State Enterprises is exempt from income taxes under Section 501(c)(3) of the Internal Revenue Code and Section 23701(d) of the California Revenue and Taxation Code. However, income from certain activities not directly related to the tax-exempt purpose is subject to taxation as unrelated business income. Expenses have exceeded the business income; accordingly, no provision for income taxes has been recorded. CSE functionally supports CSU, Chico and has been classified in accordance with Section 509(a)(3), Type I. CSE accounts for income taxes in accordance with FASB ASC 740, Income Taxes, which clarifies the accounting for uncertainty in income taxes recognized in CSE's financial statements and prescribes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return. FASB ASC 740, Income Taxes, also provides guidance on derecognition and measurement of a tax position taken or expected to be taken in a tax return. Based on this analysis, a liability is recorded if uncertain tax benefits have been received. CSE's practice is to recognize interest and penalties, if any, related to uncertain tax positions in the tax expense.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part XI, Line 2(d) Other revenues in audited financial statements not in form 990</FormAndLineReferenceDesc>
+        <ExplanationTxt>Cost of Goods Sold - 315750</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part XI, Line 4(b) Other revenues in form 990 not in audited financial statements</FormAndLineReferenceDesc>
+        <ExplanationTxt>Reclass contribution to affiliate - 1300 FS reclass for debt service - -1053</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part XII, Line 2(d) Other expenses in audited financial statements not in form 990</FormAndLineReferenceDesc>
+        <ExplanationTxt>Cost of Goods Sold - 315750</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule D, Part XII, Line 4(b) Other expenses in form 990 not in audited financial statements</FormAndLineReferenceDesc>
+        <ExplanationTxt>Reclass contribution to affiliate - 1300 FS reclass for debt service - -1053</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleF documentId="IRS990ScheduleF" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <AccountActivitiesOutsideUSGrp>
+        <RegionTxt>Central America and the Caribbean</RegionTxt>
+        <OfficesCnt>0</OfficesCnt>
+        <EmployeeCnt>0</EmployeeCnt>
+        <TypeOfActivitiesConductedTxt>Investments</TypeOfActivitiesConductedTxt>
+        <RegionTotalExpendituresAmt>630245</RegionTotalExpendituresAmt>
+      </AccountActivitiesOutsideUSGrp>
+      <SubtotalOfficesCnt>0</SubtotalOfficesCnt>
+      <SubtotalEmployeesCnt>0</SubtotalEmployeesCnt>
+      <ContinuationTotalOfficeCnt>0</ContinuationTotalOfficeCnt>
+      <ContinuationTotalEmployeeCnt>0</ContinuationTotalEmployeeCnt>
+      <TotalOfficeCnt>0</TotalOfficeCnt>
+      <TotalEmployeeCnt>0</TotalEmployeeCnt>
+      <SubtotalSpentAmt>630245</SubtotalSpentAmt>
+      <ContinuationSpentAmt>0</ContinuationSpentAmt>
+      <TotalSpentAmt>630245</TotalSpentAmt>
+      <TransferToForeignCorpInd>true</TransferToForeignCorpInd>
+      <InterestInForeignTrustInd>false</InterestInForeignTrustInd>
+      <ForeignCorpOwnershipInd>true</ForeignCorpOwnershipInd>
+      <PassiveForeignInvestmestCoInd>false</PassiveForeignInvestmestCoInd>
+      <ForeignPartnershipInd>false</ForeignPartnershipInd>
+      <BoycottCountriesInd>false</BoycottCountriesInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule F, Part I, Line 3 Method used to account for expenditures on org's financial statements</FormAndLineReferenceDesc>
+        <ExplanationTxt>CENTRAL AMERICA AND THE CARIBBEAN-Accrual</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleF>
+    <IRS990ScheduleI documentId="IRS990ScheduleI" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <GrantRecordsMaintainedInd>true</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>California State University Chico</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>401 West 1st Street</AddressLine1Txt>
+          <CityNm>Chico</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95929</ZIPCd>
+        </USAddress>
+        <RecipientEIN>680219874</RecipientEIN>
+        <IRCSectionDesc>State of CA</IRCSectionDesc>
+        <CashGrantAmt>273841</CashGrantAmt>
+        <PurposeOfGrantTxt>Student Scholarships</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>1</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>AWARD, Student Payments, Summer Scholarships</GrantTypeTxt>
+        <RecipientCnt>34</RecipientCnt>
+        <CashGrantAmt>10912</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>STIPEND</GrantTypeTxt>
+        <RecipientCnt>1179</RecipientCnt>
+        <CashGrantAmt>3362386</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule I, Part I, Line 2 Procedures for monitoring use of grant funds.</FormAndLineReferenceDesc>
+        <ExplanationTxt>CHICO STATE ENTERPRISES HAS ESTABLISHED POLICIES AND PROCEDURES TO ENSURE GRANT FUNDS ARE DISTRIBUTED PROPERLY. ADDITIONALLY, CHICO STATE ENTERPRISES UNDERGOES SEVERAL AUDITS BY FUNDING AGENCIES THROUGHOUT THE YEAR. FURTHERMORE, CHICO STATE ENTERPRISES IS AUDITED ANNUALLY BY AN INDEPENDENT FIRM AND TRI-ANNUALLY BY THE CHANCELLOR'S OFFICE TO ENSURE COMPLIANCE WITH THESE POLICIES AND PROCEDURES.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="IRS990ScheduleJ" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>false</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>false</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>false</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>false</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>false</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>false</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>false</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>false</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>false</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Debra Larson</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board President/CSU Chico Provost</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>291999</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>762</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>89212</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>10549</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>396022</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ann Sherman</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Treasurer/CSU Chico VP Business and Finance</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>263121</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>258</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>39616</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>10909</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>317404</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Gayle Hutchinson</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico President</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>458305</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>65048</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>114796</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>17013</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>655162</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ahmad Boura</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico VP Advancement</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>258236</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>41692</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>7590</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>39653</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>19820</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>366991</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>David Hassenzahl</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico College Dean</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>193143</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>258</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>40536</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>24735</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>262172</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Angel Trethewayy</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico College Dean</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>182469</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>258</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>40696</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>18275</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>245198</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Anita Chaudhry</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Boar Member/CSU Chico Faculty</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>111804</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>34454</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>10499</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>160257</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Ben Seipel</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Member/CSU Chico Faculty</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>111875</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>3500</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>27820</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>10498</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>153693</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Mary Sidney</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Board Secretary, CSE CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>216453</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>15422</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>231875</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Jason Schwenkler</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director, Geological Information Center</TitleTxt>
+        <BaseCompensationFilingOrgAmt>142785</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>26799</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>11857</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>181441</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Vance Kelly</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Finance and Accounting</TitleTxt>
+        <BaseCompensationFilingOrgAmt>152967</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>14382</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>28149</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>195498</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Russell Wittmeier</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Human Resources</TitleTxt>
+        <BaseCompensationFilingOrgAmt>141998</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>27000</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>168998</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Michele Flowerdew</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>Director of Sponsored Programs Administration</TitleTxt>
+        <BaseCompensationFilingOrgAmt>146290</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>27000</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>11857</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>185147</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <BusinessName>
+          <BusinessNameLine1Txt>Kristin Gruneisen</BusinessNameLine1Txt>
+        </BusinessName>
+        <TitleTxt>CHC Director</TitleTxt>
+        <BaseCompensationFilingOrgAmt>144105</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>20500</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>28149</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>192754</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleM documentId="IRS990ScheduleM" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <OtherNonCashContriTableGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <Desc>Lambs</Desc>
+        <ContributionCnt>2</ContributionCnt>
+        <NoncashContributionsRptF990Amt>50540</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Market value</MethodOfDeterminingRevenuesTxt>
+      </OtherNonCashContriTableGrp>
+      <OtherNonCashContriTableGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <Desc>Trees</Desc>
+        <ContributionCnt>1</ContributionCnt>
+        <NoncashContributionsRptF990Amt>12362</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>Market value</MethodOfDeterminingRevenuesTxt>
+      </OtherNonCashContriTableGrp>
+      <Form8283ReceivedCnt>0</Form8283ReceivedCnt>
+      <AnyPropertyThatMustBeHeldInd>false</AnyPropertyThatMustBeHeldInd>
+      <ReviewProcessUnusualNCGiftsInd>true</ReviewProcessUnusualNCGiftsInd>
+      <ThirdPartiesUsedInd>false</ThirdPartiesUsedInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Schedule M, Part I Explanations of reporting method for number of contributions</FormAndLineReferenceDesc>
+        <ExplanationTxt>Other - Lambs NUMBER OF CONTRIBUTIONS Other - Trees NUMBER OF CONTRIBUTIONS</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleM>
+    <IRS990ScheduleO documentId="IRS990ScheduleO" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Line 11b Review of form 990 by governing body</FormAndLineReferenceDesc>
+        <ExplanationTxt>An electronic copy of the Form 990 is sent to the governing board prior to filing with the IRS. If changes are necessary, the revised 990 is redistributed prior to filing; otherwise, the Form 990 is filed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Line 12c Conflict of interest policy</FormAndLineReferenceDesc>
+        <ExplanationTxt>The governing board members and employees are required to receive and sign an annual Conflict of Interest Statement which is maintained by the CSE administrative office. To avoid contracts or transactions entered into by the governing borad of CSE, a Board of Directors member must: 1) disclose any financial interest which could be affected by the action of the Board of Directors and 2) Refrain from any action to influence or approve such a transaction. The CSE Chief Executive Officer shall provide the CSU, Chico Chief Financial Officer with a report of compliance with this policy. This report should include the names , positions, terms of office and the date the compliance statement were signed. This report shall be forwarded to the CSU, Chico Chief Financial Officer annually by June 30th. Violations of the Conflict of Interest Policy shall be reported to the CSU, Chico Chief Financial Officer.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Line 15a Process to establish compensation of top management official</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Board of Directors approves compensation based on the CSU system-wide comparability data as well as regional and local bench marking comparability data. If any Board Member has a conflict of interest regarding compensation, the Board Member may not participate in, or influence, the decision making process. The last such compensation decision was in 2022.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Line 15b Process to establish compensation of other employees</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Board of Directors approves compensation based on the CSU system-wide comparability data as well as regional and local bench marking comparability data. If any Board Member has a conflict of interest regarding compensation, the Board Member may not participate in, or influence, the decision making process. The last such compensation decision was in 2022.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Line 19 Required documents available to the public</FormAndLineReferenceDesc>
+        <ExplanationTxt>The CSE's governing documents, conflict of interest policy, tax returns and financial statements are available to the public upon request and via the organization's website.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 11g Other Fees</FormAndLineReferenceDesc>
+        <ExplanationTxt>Contract services - Total Expense: 13905391, Program Service Expense: 12979066, Management and General Expenses: 926325, Fundraising Expenses: ;</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="IRS990ScheduleR" softwareId="22016089" softwareVersionNum="2022v5.0">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>CALIFORNIA STATE UNIVERSITY CHICO</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>400 WEST FIRST STREET</AddressLine1Txt>
+          <CityNm>CHICO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95929</ZIPCd>
+        </USAddress>
+        <EIN>680219874</EIN>
+        <PrimaryActivitiesTxt>UNIVERSITY</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(1)</ExemptCodeSectionTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>false</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>ASSOCIATED STUDENTS OF CSU CHICO</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>400 WEST FIRST STREET</AddressLine1Txt>
+          <AddressLine2Txt>BMU ROOM 218</AddressLine2Txt>
+          <CityNm>CHICO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95929</ZIPCd>
+        </USAddress>
+        <EIN>941254630</EIN>
+        <PrimaryActivitiesTxt>AUXILIARY ORGANIZATION</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Type III-FI</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>California State University Chico</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>false</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>THE UNIVERSITY FOUNDATION CSU CHICO</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>25 MAIN STREET</AddressLine1Txt>
+          <AddressLine2Txt>SUITE 203</AddressLine2Txt>
+          <CityNm>CHICO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>959285388</ZIPCd>
+        </USAddress>
+        <EIN>951230865</EIN>
+        <PrimaryActivitiesTxt>PHILANTHROPIC ORGANIZATION</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>5</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>California State University Chico</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>false</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>false</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>true</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>true</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>false</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>false</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>false</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>false</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>false</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>false</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>true</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>true</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>false</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>true</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>false</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>false</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>true</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>true</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>true</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>true</TransferFromOtherOrgInd>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

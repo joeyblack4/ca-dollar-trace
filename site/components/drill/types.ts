@@ -43,6 +43,29 @@ export interface NonprofitsDoc {
   >;
 }
 
+export interface NonprofitOfficersDoc {
+  org_count: number;
+  officer_count: number;
+  name_index: Record<string, string>;
+  organizations: Record<
+    string,
+    {
+      registry_name: string | null;
+      tax_year: number | null;
+      people_reported: number;
+      paid_count: number;
+      officers: {
+        name: string;
+        title: string;
+        org_comp_usd: number;
+        related_comp_usd: number;
+        other_comp_usd: number;
+        total_comp_usd: number;
+      }[];
+    }
+  >;
+}
+
 export interface CompensationDoc {
   year: number;
   state_by_org_cd: Record<

@@ -1,0 +1,869 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-14T16:02:01-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>954557617</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Harrington Group CPAs LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2698 Mataro Street</AddressLine1Txt>
+        <CityNm>Pasadena</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91107</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>237110152</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Los Angeles Centers for Alcohol and Drug</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>Abuse</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>LOSA</BusinessNameControlTxt>
+      <PhoneNum>5627777500</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>12070 Telegraph Rd 207</AddressLine1Txt>
+        <CityNm>Santa Fe Springs</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>906708213</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Juan Navarro</PersonNm>
+      <PersonTitleTxt>Executive Director</PersonTitleTxt>
+      <PhoneNum>5627777500</PhoneNum>
+      <SignatureDt>2025-05-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>0</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Oswaldo D Torres CPA</PreparerPersonNm>
+      <PTIN>P02465082</PTIN>
+      <PhoneNum>6264036801</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>Juan Navarro</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>12070 Telegraph Rd 207</AddressLine1Txt>
+        <CityNm>Santa Fe Springs</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>906708213</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>59539556</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.LACADA.COM</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1971</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>See Schedule O</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>9</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>9</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>750</TotalEmployeeCnt>
+      <TotalVolunteersCnt>35</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>50242912</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>58964659</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>214202</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>474013</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>0</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>0</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>144641</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>100884</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>50601755</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>59539556</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>0</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>31960645</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>39903299</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>14628056</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>16909937</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>46588701</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>56813236</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>4013054</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>2726320</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>28304221</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>35093466</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>18978898</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>23041823</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>9325323</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>12051643</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>Our Vision is to enhance the educational and economic well-being of the people we serve by means of direct human services, advocacy, and referrals.Our Mission is to save lives, unite families, and protect the community through addiction treatment and healthy living education.Our Values embrace the empowerment of people through compassion, perseverance, and respect. We are able to provide a wide range of services thanks to a collaborative approach compatible with healthy communities, dedicated partners, and unique foundation.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>17653800</ExpenseAmt>
+      <RevenueAmt>474013</RevenueAmt>
+      <Desc>Outpatient and Community Services:In June 29, 2020, LACADA was awarded the Client Engagement and Navigation Services (CENS) contract for Service Provider Area 7. This contract makes LACADA the lead SUD provider for all SPA 7, and an extension of SAPC's aggressive campaign to increase accessibility to treatment. As a result of an excellent First Quarter, SAPC increased the CENS contract for LACADA from 1,689,085 a year to $2,629,026 a year, or an increase of Drug Medical Outpatient and Intensive Outpatient Services located in Santa Fe Springs, Los Angeles, and Long Beach, are bi-lingual services staffed with culturally competent Managers, Clinicians, Counselors, and case managers. Services include crisis intervention, individual counseling, group counseling, family counseling, support groups, instruction in community-based prevention and diversion strategies and workshops in health education, life skills and parenting classes. Outpatient served 1,216 clients in 2023/2024. Outpatient also holds 7 field-based service locations where staff provide treatment services to patients who are active in other types of programs that don't offer SUD services. The four field based service locations are connected to Bellflower Middle School, El Rancho Unified School District, L.A. LGBT Center, Victory Starts Now, Christ Center Ministries, Transitional Living Homes, and Homeboy Industries. The most striking difference between this program and its corresponding program site in Santa Fe Springs is that Downtown was created to combat homelessness, due to the facility's proximity to Skid Row.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>16729733</ExpenseAmt>
+        <Desc>Residential Treatment Centers:Allen House is a licensed 60-bed residential treatment program offering men and women, age 18 and over, a comprehensive and integrated treatment model to address the complex needs of persons with substance use and/or co-occurring disorders. The Allen House offers a fully customizable program of recovery, with length of treatment varying based on the needs of each individual entering the program. The Allen House offers individual counseling sessions, group sessions, narcotics anonymous meetings, HIV/AIDS education, support and relapse prevention, psychosocial assessments, evaluation, and referral.Alice's House opened July 1, 2019 and is a licensed 18-bed residential treatment program specializing in treating pregnant and post-partum women with a substance use disorder ("SUD") and their infants who often face critical barriers to optimal care such as legal consequences. The goal of these efforts is to protect the fetus or infant from drug exposure, but these legal consequences may drive women away from available care, seeking care or continuing to engage in care thereby potentially leading to worse outcomes for both the fetus and mother. The shame associated with a SUD during pregnancy, motherhood can be overwhelming, and Alice's House provides a safe home-like environment to learn new parenting skills while simultaneously treating their addiction.Nuestra Casa is a licensed 45 bed residential treatment program offering men, women and transgender persons, age 18 and over, a comprehensive and integrated treatment model to address the complex needs of systems impacted and vulnerable persons with substance use and co-occurring disorders. Nuestra Casa offers bi-lingual (Spanish) treatment programing and with length of treatment varying based on the needs of each individual entering the program.LACADA residential programs treated 492 individuals and 141 treatment beds through the Drug Medi-Cal Organized Delivery System in either a 3.5 or 3.1 level of care in 2023/2024.Safe Haven is a licensed 16-bed crisis residential program contracted with the Department of Mental Health. The program offers a homelike environment designed to interrupt the cycle of arrest, hospitalization, and release to the street. LACADA's primary focus is to stabilize persons with severe mental health and assist the individual with building a supportive foundation that sets them up for a successful transition to a transitional living facility and possibly permanent supportive housing. Safe Haven opened its doors on April 4, 2022 and has approximately 30 patients with an average length of stay for 45 days.The Female Community Reentry Program (FCRP) previously known as CCTRP currently serves incarcerated women with 45 days to 2 years remaining on their sentence by providing them a transitional living facility located in Santa Fe Springs. During their stay, participants received counseling and supportive services to enable their success in the community. FCRP works to ensure that clients leave with the ability to live crime and drug-free lifestyles, gain employment, and strengthen family relationships. All of which reduce rates of recidivism. FCRP increased its capacity to 112 women to date and 147 women received services in 2023/2024 fiscal year.The Community Prisoner Mother Program allows housing for 24 participants and up to 40 children. The California Department of Corrections and Rehabilitation pursuant to California Penal Code Sections 3410 through 3424 established the Community Prisoner Mother Program (CPMP). The CPMP provides an opportunity for pregnant individuals and mothers with one or more children, six years of age or younger, the opportunity to be housed with their children in a supervised facility away from the prison setting. The primary focus of the CPMP is to reunite mothers with their children and re-integrate them back into society as productive citizens by providing a safe, stable, wholesome, and stimulating environment. CPMP also looks to establish stability in the parent-child relationship, provide the opportunity for mothers who are incarcerated individuals to bond with their children and strengthen the family unit.CPMP received its first participants in June 2022. We first received four women, one pregnant, one pending reunification with her infant child, and two women with infant children. We currently have eight participants with five children, and three pending reunifications with their children.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>17523209</ExpenseAmt>
+        <RevenueAmt>97884</RevenueAmt>
+        <Desc>Homeless Outreach programs:31 Cities receive services for LACADA whereby we operate within and in coordination with local City Police Departments.Homeless Outreach Program are funded by San Gabriel Valley Council of Governments (SGVCOG) Direct contracts with the cities of Alhambra, Arcadia, Glendora, Hawthorne, Rosemead, San Dimas, West Covina, and Hermosa Beach.In addition to this, we operate 3 Tiny Homes projects in partnership with Montebello, Azusa, and Hawthorne.Correctional Health Services:The Substance Use and Re Entry Transition (START) Program is a correctional health service that offers substance use disorder counseling group therapy, and case management to incarcerated individuals. The program's goal is to reduce recidivism and drug use by providing evidence-based individuals. The program's goal is to reduce recidivism and drug use by providing evidence-based treatment and post-release support services. The program offers: In custody SUD services, group therapy, case management, cognitive behavioral therapy, motivational interviewing, and trauma informed approached.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <ExpenseAmt>1941457</ExpenseAmt>
+        <Desc>Youth Services: At LACADA we acknowledge that substance use is often a primary symptom of underlying issues within a teen's life. Thus, our youth team is focused on making sure each client has an individualized care plan to help address the needs of both the youth, as well as their family. When entering our services, youth (ages 13-17), transitional age youth (ages 18-20) can expect our staff to follow the motto of, 'No Shame, No Blame, No Judgement' -- where they receive unconditional positive regard and support. Our educators, counselors and clinicians are committed to providing a safe, confidential and judgement-free atmosphere, where youth can thrive in both their recovery and day-to-day lives.LACADA's youth programs offer a variety of services including prevention services, patient and family education, wraparound, outpatient treatment and mental health services, as well as other specialized care. LACADA strives to increase community involvement by educating local organizations, partners, and school faculty on the risks associated with drug and alcohol use amongst teens. LACADA knows that youth do not always understand that they have a problem with alcohol or drug use and can be hesitant to accept services; our counselors and clinicians are trained to roll with resistance meeting youth where they are at and allowing a gradual trust to be built. The heart and successes of LACADA's youth services, are rooted within the relationships built between our caring professionals and the youth and families we serve - often finding that our youth graduates return as peer advocates, volunteers or go on to seek higher education in the helping professions. Approximately 101 adolescents participated in the youth services prevention and intervention treatment programs in 2023/2024.Federal SAMHSA Grants:SAMHSA grants allow LACADA to enhance our existing services at our service locations. Assertive Community Treatment allow us to continue mental health services in the community.Certified Community Behavioral allow us to integrate care for enhanced service provision. HIV Prevention Navigator Program gives us funding to provide HIV services. Care Council Partnership for Success Project enhances our youth prevention efforts at the schools.DFC Coalition STOP Project increase youth treatment and prevention services.Medication for Addiction Treatment (MAT) Program Treatment for Pregnant and Parenting Women provides care coordination for our clients who are mothers. Building Community of Recovery allow us to create a safety net of support for our clients. Adult Reentry Project allow us to provide wrap around care coordination to individuals reentering to community. Recovery Bridge Housing Program:According to the American Society of Addiction Medicine (ASAM) criteria, a comprehensive SUD assessment should include the consideration of six dimensions to determine appropriate level of care (LOC) placement for patients diagnosed with a substance use disorder. Recovery/Living Environment (Dimension 6) explores an individual's recovery or living situation and is one of the six dimensions that should be factored into a level of care decision. Importantly, homelessness or lack of safe, stable housing does not in and of itself mean that a patient would be appropriate for placement in a residential treatment setting and therefore appropriately placed in LACADA's Recovery Bridge Housing defined by SAPC as a type of abstinence-based, peer supported housing that combines a subsidy for recovery residences with concurrent treatment in outpatient (OP), intensive outpatient (IOP), Opioid Treatment Program (OTP), or outpatient withdrawal management (OP-WM) settings. LACADA has 373 Recovery Bridge Housing beds and has provided Recovery Bridge Housing to 683 individuals in 2023/2024.HIV Services:LACADA received funding through the County of Los Angeles, Department of Public Health Division of HIV and STD Programs, to provide HIV Testing Services (HTS) - Social and Sexual Networks to those at high risk for infection, linkage to HIV care for persons testing HIV-positive, and education about and referral to appropriate biomedical prevention programs, with a focus on men who have sex with men (MSM); transgender persons; cisgender women of color; and injection/non-injection drug users in Los Angeles County. Social and Sexual Networks is a recruitment strategy whereby HIV testing, linkage to medical care for HIV-positive testers, and biomedical prevention education is disseminated through the community by working within the social and sexual networks of persons who are members of the community. The social and sexual network strategy was developed with the recognition that risk for HIV is confounded by many co-factors such as poverty, transphobia, homelessness, and sexual violence among many others. This strategy is based on the concept that individuals are linked together to form large social and sexual networks, and that infectious diseases often spread through these networks.LGBTQ-IA + Services:LACADA provides a robust continuum of care for our LGBTQ-IA+ community offering L.A. County's first LGBTQ-IA Recovery Bridge Housing, The Art House. In addition to the Art House, LACADA now operates 3 Recovery Bridge Housing sites specifically servicing LGBTQ members; the Art House, The Start House, and Heart House. LACADA has LGBTQ-specific programming located within our Downtown Los Angeles San Pedro Location, and at our Downtown Los Angeles Central location. Services are bolstered with our Building Communities of Recovery (BCOR) SAMHSA grant. Lastly, LACADA partners with the Los Angeles County Public Defender's Office in a collaborative court specific for LGBTQ individuals, called the Rainbow Court.</Desc>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalOtherProgSrvcExpenseAmt>1941457</TotalOtherProgSrvcExpenseAmt>
+      <TotalProgramServiceExpensesAmt>53848199</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">1</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd referenceDocumentId="RetDoc1042800001">0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd referenceDocumentId="RetDoc1042800001">0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd referenceDocumentId="RetDoc1042800001">0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="RetDoc1042800001">1</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd>0</DisregardedEntityInd>
+      <RelatedEntityInd>0</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>27</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>750</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>0</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>9</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>9</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>Lisa Lozano Finance Director</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>5627777512</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>12070 Telegraph Rd 207</AddressLine1Txt>
+          <CityNm>Santa Fe Springs</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>906708213</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Arthur Monreal</PersonNm>
+        <TitleTxt>President</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Annette Rodriguez</PersonNm>
+        <TitleTxt>Vice President</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Tom Ramirez</PersonNm>
+        <TitleTxt>Secretary</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Robert Rodriguez</PersonNm>
+        <TitleTxt>Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Francisco De Leon</PersonNm>
+        <TitleTxt>Assistant Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Thanya Mercado</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mario Trujillo</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Gerald Roodzant DDS</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Fabiola Saavedra</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>5.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Juan Navarro</PersonNm>
+        <TitleTxt>Executive Director</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>231697</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Lia Lisa Lozano</PersonNm>
+        <TitleTxt>Director of Finance</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>137940</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ariella Morrow</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>248262</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Angela Ofoegbu</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>219856</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Nnenna Weathers</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>186984</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Margaret Egnew</PersonNm>
+        <TitleTxt>C.P.A</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>152787</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Lisa Berger</PersonNm>
+        <TitleTxt>Development Officer</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>150090</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>1327616</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>0</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>10</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <GovernmentGrantsAmt>58819872</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>144787</AllOtherContributionsAmt>
+      <TotalContributionsAmt>58964659</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Special programs</Desc>
+        <BusinessCd>621420</BusinessCd>
+        <TotalRevenueColumnAmt>249586</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>249586</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Treatment services</Desc>
+        <BusinessCd>621420</BusinessCd>
+        <TotalRevenueColumnAmt>126070</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>126070</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Court ordered fees</Desc>
+        <BusinessCd>624190</BusinessCd>
+        <TotalRevenueColumnAmt>98357</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>98357</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>474013</TotalProgramServiceRevenueAmt>
+      <GrossRentsGrp>
+        <RealAmt>97884</RealAmt>
+      </GrossRentsGrp>
+      <LessRentalExpensesGrp>
+        <RealAmt>0</RealAmt>
+      </LessRentalExpensesGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>97884</RealAmt>
+      </RentalIncomeOrLossGrp>
+      <NetRentalIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>97884</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>97884</RelatedOrExemptFuncIncomeAmt>
+      </NetRentalIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Other income</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>3000</TotalRevenueColumnAmt>
+        <ExclusionAmt>3000</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>3000</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>59539556</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>571897</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>3000</ExclusionAmt>
+      </TotalRevenueGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>393789</TotalAmt>
+        <ProgramServicesAmt>390777</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3012</ManagementAndGeneralAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>33934547</TotalAmt>
+        <ProgramServicesAmt>33675008</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>259539</ManagementAndGeneralAmt>
+      </OtherSalariesAndWagesGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>2844966</TotalAmt>
+        <ProgramServicesAmt>2810755</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>34211</ManagementAndGeneralAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>2729997</TotalAmt>
+        <ProgramServicesAmt>2708053</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>21944</ManagementAndGeneralAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>61398</TotalAmt>
+        <ManagementAndGeneralAmt>61398</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>944663</TotalAmt>
+        <ProgramServicesAmt>939302</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5361</ManagementAndGeneralAmt>
+      </FeesForServicesOtherGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>707029</TotalAmt>
+        <ProgramServicesAmt>689688</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17341</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <OccupancyGrp>
+        <TotalAmt>4637396</TotalAmt>
+        <ProgramServicesAmt>4510658</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>126738</ManagementAndGeneralAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>275715</TotalAmt>
+        <ProgramServicesAmt>275715</ProgramServicesAmt>
+      </TravelGrp>
+      <InterestGrp>
+        <TotalAmt>305691</TotalAmt>
+        <ProgramServicesAmt>291755</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>13936</ManagementAndGeneralAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>185711</TotalAmt>
+        <ProgramServicesAmt>180088</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5623</ManagementAndGeneralAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>687164</TotalAmt>
+        <ProgramServicesAmt>642743</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>44421</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Building refurbishment</Desc>
+        <TotalAmt>2444959</TotalAmt>
+        <ProgramServicesAmt>975000</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1469959</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Repairs and maintenance</Desc>
+        <TotalAmt>1953229</TotalAmt>
+        <ProgramServicesAmt>1749047</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>204182</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Program supplies</Desc>
+        <TotalAmt>1734420</TotalAmt>
+        <ProgramServicesAmt>1684595</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>49825</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Food</Desc>
+        <TotalAmt>1241726</TotalAmt>
+        <ProgramServicesAmt>1203353</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>38373</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>1730836</TotalAmt>
+        <ProgramServicesAmt>1121662</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>609174</ManagementAndGeneralAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>56813236</TotalAmt>
+        <ProgramServicesAmt>53848199</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2965037</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>630727</BOYAmt>
+        <EOYAmt>1697327</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>6422584</BOYAmt>
+        <EOYAmt>9640139</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>449442</BOYAmt>
+        <EOYAmt>510233</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>15472307</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>2190450</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>13150900</BOYAmt>
+        <EOYAmt>13281857</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>7650568</BOYAmt>
+        <EOYAmt>9963910</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>28304221</BOYAmt>
+        <EOYAmt>35093466</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>4607069</BOYAmt>
+        <EOYAmt>4914659</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <EOYAmt>1240531</EOYAmt>
+      </DeferredRevenueGrp>
+      <MortgNotesPyblScrdInvstPropGrp>
+        <BOYAmt>6737399</BOYAmt>
+        <EOYAmt>6843626</EOYAmt>
+      </MortgNotesPyblScrdInvstPropGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>7634430</BOYAmt>
+        <EOYAmt>10043007</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>18978898</BOYAmt>
+        <EOYAmt>23041823</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>3517684</BOYAmt>
+        <EOYAmt>12051643</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>5807639</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>9325323</BOYAmt>
+        <EOYAmt>12051643</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>28304221</BOYAmt>
+        <EOYAmt>35093466</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>2726320</ReconcilationRevenueExpnssAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <SeparateBasisFinclStmtInd>X</SeparateBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>172988</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>2364042</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>34416528</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>50242912</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>58964659</CurrentTaxYearAmt>
+        <TotalAmt>146161129</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>172988</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>2364042</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>34416528</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>50242912</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>58964659</CurrentTaxYearAmt>
+        <TotalAmt>146161129</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <PublicSupportTotal170Amt>146161129</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus3YearsAmt>368213</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>275426</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>140641</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>97884</CurrentTaxYearAmt>
+        <TotalAmt>882164</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearMinus2YearsAmt>45840</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>4000</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>3000</CurrentTaxYearAmt>
+        <TotalAmt>52840</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>147096133</TotalSupportAmt>
+      <GrossReceiptsRltdActivitiesAmt>890834</GrossReceiptsRltdActivitiesAmt>
+      <PublicSupportCY170Pct>0.99360</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.99050</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>9111771</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>9111771</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>6360536</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>2190450</DepreciationAmt>
+        <BookValueAmt>4170086</BookValueAmt>
+      </BuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>13281857</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>Deposits</Desc>
+        <BookValueAmt>246329</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>Right-of-use assets - operating leases</Desc>
+        <BookValueAmt>9202678</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>Right-of-use assets - financing leases</Desc>
+        <BookValueAmt>514903</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>9963910</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Client trust account</Desc>
+        <Amt>159054</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Lease liabilities - operating leases</Desc>
+        <Amt>9362546</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Lease liabilities - financing leases</Desc>
+        <Amt>521407</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>10043007</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>59539556</TotalRevEtcAuditedFinclStmtAmt>
+      <RevenueNotReportedAmt>0</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>59539556</RevenueSubtotalAmt>
+      <RevenueNotReportedFinclStmtAmt>0</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>59539556</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>56813236</TotExpnsEtcAuditedFinclStmtAmt>
+      <ExpensesNotReportedAmt>0</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>56813236</ExpensesSubtotalAmt>
+      <ExpensesNotRptFinclStmtAmt>0</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>56813236</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part X, Line 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA is exempt from taxation under Internal Revenue Code Section 501(c)(3) and California Revenue and Taxation Code Section 23701d. Generally accepted accounting principles provide accounting and disclosure guidance about positions taken by an organization in its tax returns that might be uncertain. Management has considered its tax positions and believes that all of the positions taken by LACADA in its federal and state exempt organization tax returns are more likely than not to be sustained upon examination. LACADA's returns are subject to examination by federal and state taxing authorities, generally for three and four years, respectively, after they are filed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Ariella Morrow</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <BaseCompensationFilingOrgAmt>248262</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>248262</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Juan Navarro</PersonNm>
+        <TitleTxt>Executive Director</TitleTxt>
+        <BaseCompensationFilingOrgAmt>231697</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>231697</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Angela Ofoegbu</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <BaseCompensationFilingOrgAmt>219856</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>219856</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Nnenna Weathers</PersonNm>
+        <TitleTxt>Psych. Nurse Practitioner</TitleTxt>
+        <BaseCompensationFilingOrgAmt>186984</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>186984</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Margaret Egnew</PersonNm>
+        <TitleTxt>C.P.A</TitleTxt>
+        <BaseCompensationFilingOrgAmt>152787</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>152787</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Lisa Berger</PersonNm>
+        <TitleTxt>Development Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>150090</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>150090</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleL documentId="RetDoc1042800001">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <BusinessName>
+            <BusinessNameLine1Txt>Priscilla Rodriguez</BusinessNameLine1Txt>
+          </BusinessName>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>Daughter of the Board Vice President</RelationshipDescriptionTxt>
+        <TransactionAmt>62956</TransactionAmt>
+        <TransactionDesc>Compensation</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+    </IRS990ScheduleL>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part I, Line 1, Description of Significant Activities:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The mission of LACADA is a commitment to saving lives, empowering individuals, and families, and strengthening communities through innovative, client-centered, culturally sensitive substance use and behavioral health services. LACADA has developed a comprehensive continuum of services including youth treatment, early intervention and prevention services, outpatient/intensive outpatient treatment services, residential treatment services for adults and specializing in pregnant and post-partum women, reentry services, HIV services, Homeless Outreach services including but not limited to Recovery Bridge Housing and various community fee for service programming aimed at providing court referred drug diversion classes, 52-week parenting and Anger Management classes and Homeless Outreach Programs. LACADA has renewed the "gold standard" accreditation from The Commission on Accreditation of Rehabilitation Facilities, CARF International, an independent nonprofit accreditor of health and human services. In addition, LACADA completed a transition to integrated healthcare services, and standardized the use of evidence-based prevention and treatment practices in all agency programs.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part III, Line 4c</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA's KE programs provide up to 45-days of emergency shelter to stabilize survivors of crime who have substance use and/or mental health disorders. Our shelter residents typically become victims of crime via interpersonal violence, in situations associated with alcohol and drug use, and through sex work, including LGBTQ+ victims. Victims who use alcohol and other drugs (and those with co-occurring mental health disorders) have special shelter needs. LACADA has a 50-year history in helping L.A. County crime victims with behavioral health issues to achieve sobriety, safety, stable housing, and independence. We work with the courts, the Probation Department, the Department of Children and Family Services, local jails, and the prison system to achieve this goal. LACADA is an LGBTQ+-affirming agency that specializes in services to low-income, disadvantaged populations, including victims of crime.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA's finance committee reviews the Form 990. The Form 990 is then reviewed and approved by the organization's CEO and Director of Finance. Subsequently Form 990, complete with all schedules, is then provided to the full board before filing with the IRS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 12c</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA has a conflict of interest policy which covers the board of directors, officers, and employees ("covered persons"). It is the policy of LACADA that all officers, directors, and employees disclose any situation which does or may involve a conflict of interest between their personal interests and the interests of the organization. The organization maintains a record of all actual or potential conflicts of interest disclosed by covered persons. Financial transactions covered under the policy include: (1) Any transaction to which a corporation, its parent, or its subsidiary was a party, and to which a covered person had a direct or indirect material financial interest which involved more than fifty thousand dollars ($50,000) or was one of a number of transactions with the same interested person involving, in the aggregate, more than fifty thousand dollars ($50,000). For this purpose, an "interested person" is either of the following: (A) Any director or officer of a corporation, its parent, or subsidiary (but mere common directorship shall not be considered such an interest); or (B) Any holder of more than ten percent (10%) of the voting power of the corporation, its parent, or its subsidiary. The statement shall include a brief description of the transaction, the names of interested persons involved, their relationship to the corporation, the nature of their interest in the transaction and, if practicable, the amount of that interest, provided that if the transaction was with a partnership in which the interested person is a partner, only the interest of the partnership need be stated. (2) Any indemnifications or advances aggregating more than ten thousand dollars ($10,000) paid during the fiscal year to any officer or director of such corporation unless that indemnification has already been approved by the board members. Situations that involve a conflict of interest between personal interests and the interests of LACADA must be discussed with management in order to protect the interests of both parties. While it is impossible to list every circumstance that may create possible conflicts of interest, the following should serve as a guide to the types of activities which may cause conflicts. 1. Disclosure or use of confidential, proprietary, or financial information of the organization, including information regarding projects, client costs, or systems to anyone not connected with the organization whether or not for personal profit. 2. A financial interest in an outside concern which does business with or is a competitor of the organization (except where such ownership consists of securities of a publicly owned corporation regularly traded on the public stock market). 3. Rendering of directive, managerial, or consultant services to any outside concern which does business with, or is a competitor of, the organization, except with the organization's knowledge and consent. 4. Unless such items or actions are readily available to the general public, acceptance of gifts of more than $25.00 value, loans, excessive entertainment, or other substantial favors from any outside concern which does, or is seeking to do business with, or is a competitor of, the organization, without full disclosure to and approval from management. 5. Representation of the organization in any transaction in which a personal interest exists. 6. Outside employment, directly or through an intermediary, which can or will adversely affect an employee's productivity or availability, including employment by competitor. 7. Removal of forms, books, records, and systems from the organization's premises for use by other firms. 8. No employee of LACADA may be employed by the County of Los Angeles or the State of California in any position which enables the employee to influence the award of any contract, nor may the spouse or economic dependent of an organizational employee be so employed. The above list is not intended as a substitute for good judgement. If an officer, director or employee discovers a situation which may possible give rise to a conflict of interest of which may in any way detract from the performance of the officer, director or employee's duties at the organization, disclosure should be made to LACADA in order to protect the interest of the cover person and the organization.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA's board of directors has a process for reviewing and approving the compensation of officers and key employees on an annual basis to determine it is fair and reasonable with the goal of retaining employees at compensation levels within appropriate market range. The process for determining the compensation paid to the Executive Director, officers, and key employees include the approval of the compensation arrangement in advance, by the board of directors, with all persons with a conflict of interest abstaining from the board's deliberation and discussion. The board reviews data of comparable positions based on CNM's annual compensation survey for Executive Directors/CEOs the documentation of the board includes the terms of the transaction and the date of approval, the members who were present during the debate and vote on the transaction, a description of the comparable data and how it was obtained, and documentation of the basis for the determination.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>LACADA will provide a copy of the tax return upon request for the current year. However current tax law does not require the governing documents, conflict of interest policy or financials be provided to the public.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>

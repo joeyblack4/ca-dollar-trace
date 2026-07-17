@@ -113,6 +113,10 @@ test("search jumps straight to a vendor's profile with its dossier", async ({ pa
   await expect(trail).not.toContainText("…");
   // the cross-source dossier is present and does NOT overclaim the link
   await expect(page.getByText("This organization across California")).toBeVisible();
+  // named leadership pay from the org's own IRS filing
+  await expect(page.getByText(/Who runs it — from its own IRS filing \(\d{4}\)/)).toBeVisible();
+  await expect(page.getByRole("cell", { name: "Gregory Adams" })).toBeVisible();
+  await expect(page.getByText(/releases filings on a one-to-two-year delay/)).toBeVisible();
 });
 
 test("search offers no dead ends for an unpaid name", async ({ page }) => {

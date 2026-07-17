@@ -44,6 +44,8 @@ _FEEDS = {
     "fac_sefa": "Independently audited federal spending (single audits) — the one audited source.",
     "federal_subawards": "Federal money re-granted to sub-recipients, one hop past the prime.",
     "nonprofits": "Charity registration standing and IRS Form 990 filings for nonprofits.",
+    "nonprofit_officers": "Who runs each nonprofit and what they're paid — named officers "
+    "from IRS Form 990.",
 }
 
 # display order: which sources sit under each resident-facing layer.
@@ -57,7 +59,7 @@ _LAYER = [
         "county_finances", "city_finances", "district_finances", "sacs_k12", "city_checkbooks",
     ]),
     ("Federal money", ["usaspending_ca", "fac_sefa", "federal_subawards"]),
-    ("Recipient registries", ["nonprofits"]),
+    ("Recipient registries", ["nonprofits", "nonprofit_officers"]),
 ]
 
 # derived crosswalks — computed FROM the sources above, not pulled from anywhere

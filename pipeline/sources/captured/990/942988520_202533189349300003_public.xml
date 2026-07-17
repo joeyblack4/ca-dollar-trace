@@ -1,0 +1,2569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xsi:schemaLocation="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2024v5.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-11-13T23:11:37-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ERNST &amp; YOUNG US LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>560 MISSION ST STE 1600</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>942988520</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>SUTTER COAST HOSPITAL</BusinessNameLine1Txt>
+      </BusinessName>
+      <InCareOfNm>% KENNETH YOUNG</InCareOfNm>
+      <BusinessNameControlTxt>SUTT</BusinessNameControlTxt>
+      <PhoneNum>9162866665</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95833</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>RONNIE YAMANAKA</PersonNm>
+      <PersonTitleTxt>CFO</PersonTitleTxt>
+      <PhoneNum>9162866665</PhoneNum>
+      <SignatureDt>2025-11-06</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>EVA Nitta</PreparerPersonNm>
+      <PTIN>P01286320</PTIN>
+      <PhoneNum>4158948000</PhoneNum>
+      <PreparationDt>2025-11-04</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990 documentId="IRS990" referenceDocumentId="IRS990ScheduleO">
+      <AddressChangeInd>X</AddressChangeInd>
+      <PrincipalOfficerNm>MICHAEL LANE</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>SAME AS C ABOVE</AddressLine1Txt>
+        <CityNm>SACRAMENTO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>95833</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>122087456</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>false</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.SUTTERHEALTH.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1985</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>SEE SCHEDULE O</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>9</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>7</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>476</TotalEmployeeCnt>
+      <TotalVolunteersCnt>18</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>1963664</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>209744</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>108203714</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>121697318</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>156718</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>138020</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>26108</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>27457</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>110350204</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>122072539</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>11543</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>31315</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>48185477</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>55794626</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>57853576</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>58400833</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>106050596</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>114226774</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>4299608</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>7845765</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>50009071</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>65116267</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>8541112</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>10881267</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>41467959</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>54235000</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>SEE SCHEDULE O</MissionDesc>
+      <SignificantNewProgramSrvcInd>false</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>false</SignificantChangeInd>
+      <ExpenseAmt>103431042</ExpenseAmt>
+      <GrantAmt>31315</GrantAmt>
+      <RevenueAmt>121701657</RevenueAmt>
+      <Desc>PROGRAM SERVICE ACCOMPLISHMENTS: Sutter Coast Hospital is the sole community provider located in the Del Norte county seat of Crescent City, California. Sutter Coast serves a population of over 40,000 stretched along 80 miles of Pacific Northwest coastline from south of Crescent City, California to Gold Beach, Oregon. A community-based board of trustees governs Sutter Coast Hospital. Sutter Coast Hospital is a 49-bed acute care full-service hospital offering critical care, emergency services, family practice, obstetrics, gynecology, internal medicine, orthopedics, otolaryngology, oncology, general surgery, radiology, neurology and pathology. The hospital also offers physical, occupational, speech and respiratory therapies, a full service computerized laboratory, social services, wound care, infusion services, acute rehabilitation and a clinical pharmacy. Other specialized services include ambulatory clinics, cardiopulmonary, prenatal care and EEG/EKG. There were 9,045 patient days in 2024.</Desc>
+      <TotalProgramServiceExpensesAmt>103431042</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="IRS990ScheduleA">true</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="IRS990ScheduleB">true</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>false</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="IRS990ScheduleD">false</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="IRS990ScheduleD">false</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="IRS990ScheduleD">false</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="IRS990ScheduleD">false</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd referenceDocumentId="IRS990ScheduleD">false</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="IRS990ScheduleD">true</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="IRS990ScheduleD">false</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="IRS990ScheduleD">false</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="IRS990ScheduleD">true</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="IRS990ScheduleD">true</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="IRS990ScheduleD">true</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">false</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">true</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <ForeignActivitiesInd>false</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>false</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>false</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>false</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>false</FundraisingActivitiesInd>
+      <GamingActivitiesInd>false</GamingActivitiesInd>
+      <OperateHospitalInd referenceDocumentId="IRS990ScheduleH">true</OperateHospitalInd>
+      <AuditedFinancialStmtAttInd referenceDocumentId="BinaryAttach BinaryAttachN1">true</AuditedFinancialStmtAttInd>
+      <GrantsToOrganizationsInd referenceDocumentId="IRS990ScheduleI">true</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="IRS990ScheduleI">true</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="IRS990ScheduleJ">true</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>false</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>false</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>false</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>false</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>false</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>false</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>false</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>false</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>false</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>false</DeductibleArtContributionInd>
+      <TerminateOperationsInd>false</TerminateOperationsInd>
+      <PartialLiquidationInd>false</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="IRS990ScheduleR">false</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="IRS990ScheduleR">true</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>true</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd referenceDocumentId="IRS990ScheduleR">true</TransactionWithControlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="IRS990ScheduleR">false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="IRS990ScheduleR">false</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>false</ScheduleORequiredInd>
+      <IRPDocumentCnt>42</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>true</BackupWthldComplianceInd>
+      <EmployeeCnt>476</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>true</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>false</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>false</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>false</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>false</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>false</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>false</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>9</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>7</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>false</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>false</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>true</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>false</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>true</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>true</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>true</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>true</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>true</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>false</OfficerMailingAddressInd>
+      <LocalChaptersInd>false</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>false</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>true</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>true</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>true</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>true</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>true</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>true</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>true</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>false</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <PersonNm>KENNETH YOUNG</PersonNm>
+        <PhoneNum>9162866665</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <InfoInScheduleOPartVIIInd>X</InfoInScheduleOPartVIIInd>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Rachael McKinney</PersonNm>
+        <TitleTxt>Director, President Sac. Div.</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>1396095</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>709166</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ronnie Yamanaka</PersonNm>
+        <TitleTxt>CFO, SACRAMENTO DIVISION</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>819338</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>356615</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Mitch Hanna</PersonNm>
+        <TitleTxt>CEO SCH &amp; SAFH (PT-YR)</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>668823</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>67940</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Francis S Lee</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>635470</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>45598</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Michael Lane</PersonNm>
+        <TitleTxt>CEO, SCH (PT-YR)</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>368886</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>292533</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Albert A McClain</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>454349</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>33980</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Adam Holleran</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>403008</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>45582</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>John Kirk</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>410226</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>33980</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ellie Popadic</PersonNm>
+        <TitleTxt>Senior Director, Ops</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>267117</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>89772</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Adour R Adrouny</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>323882</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>11494</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Rosemary Corcoran</PersonNm>
+        <TitleTxt>clinical perf. improv. consult</TitleTxt>
+        <AverageHoursPerWeekRt>40.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.0</AverageHoursPerWeekRltdOrgRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>114588</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>41720</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>2271</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Carroll Christie MD</PersonNm>
+        <TitleTxt>Director, Chief of Med. Staff</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Roland Hart</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jim Merrill</PersonNm>
+        <TitleTxt>Director, chair of F&amp;P</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Clarke Moore</PersonNm>
+        <TitleTxt>Director, Chair</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Celia Perez</PersonNm>
+        <TitleTxt>Director/Secretary</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Patricia Piper</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>John Pritchett</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>1.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Ronald Sandler</PersonNm>
+        <TitleTxt>Director, Vice-Chair</TitleTxt>
+        <AverageHoursPerWeekRt>2.0</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.0</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>2608640</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>3294862</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>1688931</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>165</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>true</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>true</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>false</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>FRANK M BOOTH INC</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>222 THIRD ST</AddressLine1Txt>
+            <CityNm>MARYSVILLE</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>95901</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Construction svcs</ServicesDesc>
+        <CompensationAmt>1622349</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>CEP AMERICA CALIFORNIA</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>2100 POWELL ST STE 400</AddressLine1Txt>
+            <CityNm>EMERYVILLE</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>946081803</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Physician Services</ServicesDesc>
+        <CompensationAmt>1393333</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>CHG COMPANIES INC</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 972651</AddressLine1Txt>
+            <CityNm>DALLAS</CityNm>
+            <StateAbbreviationCd>TX</StateAbbreviationCd>
+            <ZIPCd>753972651</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Healthcare Staffing</ServicesDesc>
+        <CompensationAmt>1363602</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>S AND B JAMES CONSTRUCTION CO</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>2055 CARDINAL AVE</AddressLine1Txt>
+            <CityNm>MEDFORD</CityNm>
+            <StateAbbreviationCd>OR</StateAbbreviationCd>
+            <ZIPCd>975049746</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>CONSTRUCTION SVCS</ServicesDesc>
+        <CompensationAmt>1324993</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <PersonNm>SDA SERVICES OF CA PC</PersonNm>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 331086</AddressLine1Txt>
+            <CityNm>NASHVILLE</CityNm>
+            <StateAbbreviationCd>TN</StateAbbreviationCd>
+            <ZIPCd>372037508</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>Anesthesia Services</ServicesDesc>
+        <CompensationAmt>1234357</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>25</CntrctRcvdGreaterThan100KCnt>
+      <GovernmentGrantsAmt>126244</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>83500</AllOtherContributionsAmt>
+      <TotalContributionsAmt>209744</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>PATIENT SERVICE REVENUE</Desc>
+        <BusinessCd>621110</BusinessCd>
+        <TotalRevenueColumnAmt>121697318</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>121697318</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>0</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>121697318</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>126813</TotalRevenueColumnAmt>
+        <ExclusionAmt>126813</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <IncmFromInvestBondProceedsGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </IncmFromInvestBondProceedsGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </RoyaltiesRevenueGrp>
+      <GrossRentsGrp>
+        <RealAmt>23180</RealAmt>
+      </GrossRentsGrp>
+      <LessRentalExpensesGrp>
+        <RealAmt>62</RealAmt>
+      </LessRentalExpensesGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>23118</RealAmt>
+        <PersonalAmt>0</PersonalAmt>
+      </RentalIncomeOrLossGrp>
+      <NetRentalIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>23118</TotalRevenueColumnAmt>
+        <ExclusionAmt>23118</ExclusionAmt>
+      </NetRentalIncomeOrLossGrp>
+      <GrossAmountSalesAssetsGrp>
+        <OtherAmt>26062</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <SecuritiesAmt>6335</SecuritiesAmt>
+        <OtherAmt>8520</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <SecuritiesAmt>-6335</SecuritiesAmt>
+        <OtherAmt>17542</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>11207</TotalRevenueColumnAmt>
+        <ExclusionAmt>11207</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <FundraisingGrossIncomeAmt>0</FundraisingGrossIncomeAmt>
+      <FundraisingDirectExpensesAmt>0</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <GamingGrossIncomeAmt>0</GamingGrossIncomeAmt>
+      <GamingDirectExpensesAmt>0</GamingDirectExpensesAmt>
+      <NetIncomeFromGamingGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetIncomeFromGamingGrp>
+      <GrossSalesOfInventoryAmt>0</GrossSalesOfInventoryAmt>
+      <CostOfGoodsSoldAmt>0</CostOfGoodsSoldAmt>
+      <NetIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>PATERNITY DECLARATIONS</Desc>
+        <BusinessCd>621110</BusinessCd>
+        <TotalRevenueColumnAmt>1120</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1120</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>MISCELLANEOUS REVENUE</Desc>
+        <BusinessCd>621110</BusinessCd>
+        <TotalRevenueColumnAmt>3219</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>3219</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>4339</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>122072539</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>121701657</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>161138</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>21315</TotalAmt>
+        <ProgramServicesAmt>21315</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>10000</TotalAmt>
+        <ProgramServicesAmt>10000</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>0</TotalAmt>
+      </ForeignGrantsGrp>
+      <BenefitsToMembersGrp>
+        <TotalAmt>0</TotalAmt>
+      </BenefitsToMembersGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>356889</TotalAmt>
+        <ManagementAndGeneralAmt>356889</ManagementAndGeneralAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <CompDisqualPersonsGrp>
+        <TotalAmt>0</TotalAmt>
+      </CompDisqualPersonsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>36788931</TotalAmt>
+        <ProgramServicesAmt>36171192</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>617739</ManagementAndGeneralAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>889548</TotalAmt>
+        <ProgramServicesAmt>868307</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>21241</ManagementAndGeneralAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>14788615</TotalAmt>
+        <ProgramServicesAmt>14523109</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>265506</ManagementAndGeneralAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>2970643</TotalAmt>
+        <ProgramServicesAmt>2899707</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>70936</ManagementAndGeneralAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>270680</TotalAmt>
+        <ManagementAndGeneralAmt>270680</ManagementAndGeneralAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>543492</TotalAmt>
+        <ProgramServicesAmt>543492</ProgramServicesAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesLobbyingGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesLobbyingGrp>
+      <FeesForServicesProfFundraising>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesProfFundraising>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>10638</TotalAmt>
+        <ManagementAndGeneralAmt>10638</ManagementAndGeneralAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>14998145</TotalAmt>
+        <ProgramServicesAmt>14846852</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>151293</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>66133</TotalAmt>
+        <ManagementAndGeneralAmt>66133</ManagementAndGeneralAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>1288847</TotalAmt>
+        <ProgramServicesAmt>330473</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>958374</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>4977998</TotalAmt>
+        <ProgramServicesAmt>2862636</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2115362</ManagementAndGeneralAmt>
+      </InformationTechnologyGrp>
+      <RoyaltiesGrp>
+        <TotalAmt>0</TotalAmt>
+      </RoyaltiesGrp>
+      <OccupancyGrp>
+        <TotalAmt>1355787</TotalAmt>
+        <ProgramServicesAmt>1255867</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>99920</ManagementAndGeneralAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>213141</TotalAmt>
+        <ProgramServicesAmt>174442</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>38699</ManagementAndGeneralAmt>
+      </TravelGrp>
+      <PymtTravelEntrtnmntPubOfclGrp>
+        <TotalAmt>0</TotalAmt>
+      </PymtTravelEntrtnmntPubOfclGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>23547</TotalAmt>
+        <ProgramServicesAmt>17338</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>6209</ManagementAndGeneralAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>265333</TotalAmt>
+        <ProgramServicesAmt>265333</ProgramServicesAmt>
+      </InterestGrp>
+      <PaymentsToAffiliatesGrp>
+        <TotalAmt>0</TotalAmt>
+      </PaymentsToAffiliatesGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>4459749</TotalAmt>
+        <ProgramServicesAmt>4102706</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>357043</ManagementAndGeneralAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>839857</TotalAmt>
+        <ProgramServicesAmt>693174</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>146683</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>MEDICAL SUPPLIES</Desc>
+        <TotalAmt>14483598</TotalAmt>
+        <ProgramServicesAmt>14483598</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>SYSTEM ALLOCATION FEE</Desc>
+        <TotalAmt>9895244</TotalAmt>
+        <ProgramServicesAmt>5003383</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>4891861</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>PURCHASED SERVICES</Desc>
+        <TotalAmt>3399925</TotalAmt>
+        <ProgramServicesAmt>3195593</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>204332</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>FOOD SUPPLY</Desc>
+        <TotalAmt>361446</TotalAmt>
+        <ProgramServicesAmt>361073</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>373</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>947273</TotalAmt>
+        <ProgramServicesAmt>801452</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>145821</ManagementAndGeneralAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>114226774</TotalAmt>
+        <ProgramServicesAmt>103431042</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>10795732</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>3636276</BOYAmt>
+        <EOYAmt>4228136</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>10694867</BOYAmt>
+        <EOYAmt>12763468</EOYAmt>
+      </AccountsReceivableGrp>
+      <ReceivablesFromOfficersEtcGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </ReceivablesFromOfficersEtcGrp>
+      <RcvblFromDisqualifiedPrsnGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </RcvblFromDisqualifiedPrsnGrp>
+      <OthNotesLoansReceivableNetGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </OthNotesLoansReceivableNetGrp>
+      <InventoriesForSaleOrUseGrp>
+        <BOYAmt>1206319</BOYAmt>
+        <EOYAmt>1423409</EOYAmt>
+      </InventoriesForSaleOrUseGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>779843</BOYAmt>
+        <EOYAmt>1018848</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>101521867</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>73647356</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>23907379</BOYAmt>
+        <EOYAmt>27874511</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <InvestmentsProgramRelatedGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </InvestmentsProgramRelatedGrp>
+      <IntangibleAssetsGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </IntangibleAssetsGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>9784387</BOYAmt>
+        <EOYAmt>17807895</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>50009071</BOYAmt>
+        <EOYAmt>65116267</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>7887544</BOYAmt>
+        <EOYAmt>10435230</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <GrantsPayableGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </GrantsPayableGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </DeferredRevenueGrp>
+      <TaxExemptBondLiabilitiesGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </TaxExemptBondLiabilitiesGrp>
+      <EscrowAccountLiabilityGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </EscrowAccountLiabilityGrp>
+      <LoansFromOfficersDirectorsGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </LoansFromOfficersDirectorsGrp>
+      <MortgNotesPyblScrdInvstPropGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </MortgNotesPyblScrdInvstPropGrp>
+      <UnsecuredNotesLoansPayableGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </UnsecuredNotesLoansPayableGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>653568</BOYAmt>
+        <EOYAmt>446037</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>8541112</BOYAmt>
+        <EOYAmt>10881267</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>41295973</BOYAmt>
+        <EOYAmt>54063014</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>171986</BOYAmt>
+        <EOYAmt>171986</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>41467959</BOYAmt>
+        <EOYAmt>54235000</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>50009071</BOYAmt>
+        <EOYAmt>65116267</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>7845765</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>23395</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>4897881</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>false</AccountantCompileOrReviewInd>
+      <FSAuditedInd>true</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolidatedBasisFinclStmtInd>X</ConsolidatedBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>true</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>false</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="IRS990ScheduleA">
+      <HospitalInd>X</HospitalInd>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="IRS990ScheduleB">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="IRS990ScheduleD">
+      <ArtPublicExhibitionAmountsGrp />
+      <HeldWorksArtGrp />
+      <CYMinus3YrEndwmtFundGrp />
+      <CYMinus4YrEndwmtFundGrp />
+      <LandGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>482823</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>482823</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>54490813</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>41200580</DepreciationAmt>
+        <BookValueAmt>13290233</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>746504</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>746504</DepreciationAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>36190893</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>31276804</DepreciationAmt>
+        <BookValueAmt>4914089</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <InvestmentCostOrOtherBasisAmt>0</InvestmentCostOrOtherBasisAmt>
+        <OtherCostOrOtherBasisAmt>9610834</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>423468</DepreciationAmt>
+        <BookValueAmt>9187366</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>27874511</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>OTHER RECEIVABLES</Desc>
+        <BookValueAmt>227958</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>OTHER ASSETS</Desc>
+        <BookValueAmt>404360</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>HOSPITAL FEE PROGRAM RECEIV.</Desc>
+        <BookValueAmt>17175577</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>17807895</TotalBookValueOtherAssetsAmt>
+      <FederalIncomeTaxLiabilityAmt>0</FederalIncomeTaxLiabilityAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>THIRD-PARTY SETTLEMENTS</Desc>
+        <Amt>33941</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>INSURANCE LIABILITIES</Desc>
+        <Amt>412096</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>446037</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE D, PART X, LINE 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>ASC 740 FOOTNOTE FROM AUDIT: THIS ORGANIZATION WAS PART OF A CONSOLIDATED FINANCIAL SYSTEM AUDIT. THE ASC 740 AUDIT FOOTNOTE DISCLOSURE FOR THE SUTTER SYSTEM IS AS FOLLOWS: SUTTER HEALTH, THE LEGAL ENTITY, AND MANY AFFILIATES HAVE BEEN DETERMINED TO BE EXEMPT ORGANIZATIONS BY THE INTERNAL REVENUE SERVICE AND THE CALIFORNIA FRANCHISE TAX BOARD AND GENERALLY ARE NOT SUBJECT TO TAXES ON INCOME. CERTAIN ACTIVITIES OF SUTTER ARE SUBJECT TO INCOME TAXES; HOWEVER, SUCH ACTIVITIES ARE NOT SIGNIFICANT TO THE CONSOLIDATED FINANCIAL STATEMENTS. WITH RESPECT TO ITS TAXABLE ACTIVITIES, SUTTER RECORDS INCOME TAXES USING THE LIABILITY METHOD, UNDER WHICH DEFERRED TAX ASSETS AND LIABILITIES ARE DETERMINED BASED ON THE DIFFERENCES BETWEEN THE FINANCIAL ACCOUNTING AND TAX BASIS OF ASSETS AND LIABILITIES. DEFERRED TAX ASSETS OR LIABILITIES AT THE END OF EACH PERIOD ARE DETERMINED USING THE CURRENTLY ENACTED TAX RATE EXPECTED TO APPLY TO TAXABLE INCOME IN THE PERIODS THAT THE DEFERRED TAX ASSET OR LIABILITY IS EXPECTED TO BE REALIZED OR SETTLED. SUTTER RECOGNIZES THE TAX BENEFIT FROM UNCERTAIN TAX POSITIONS, ONLY IF IT IS MORE LIKELY THAN NOT THAT THE TAX POSITIONS WILL BE SUSTAINED ON EXAMINATION BY THE TAX AUTHORITIES, BASED ON THE TECHNICAL MERITS OF THE POSITION. THE TAX BENEFIT IS MEASURED BASED ON THE LARGEST BENEFIT THAT HAS A GREATER THAN 50% LIKELIHOOD OF BEING REALIZED UPON ULTIMATE SETTLEMENT. THE STATUTE OF LIMITATIONS FOR TAX YEARS 2021 THROUGH 2023 REMAIN OPEN IN U.S. TAX JURISDICTIONS IN WHICH SUTTER AND ITS AFFILIATES ARE SUBJECT TO TAXATION. SUTTER RECOGNIZES INTEREST AND PENALTIES RELATED TO INCOME TAX MATTERS IN OPERATING EXPENSES. There were no such uncertain tax positions recognized for the years ended December 31, 2024 and 2023.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleH documentId="IRS990ScheduleH">
+      <FinancialAssistancePolicyInd>true</FinancialAssistancePolicyInd>
+      <WrittenPolicyInd>true</WrittenPolicyInd>
+      <AllHospitalsPolicyInd>X</AllHospitalsPolicyInd>
+      <FPGReferenceFreeCareInd>true</FPGReferenceFreeCareInd>
+      <FreeCareOthPercentageGrp>
+        <OtherInd>X</OtherInd>
+        <FreeCareOtherPct>400.</FreeCareOtherPct>
+      </FreeCareOthPercentageGrp>
+      <FreeCareMedicallyIndigentInd>true</FreeCareMedicallyIndigentInd>
+      <FinancialAssistanceBudgetInd>false</FinancialAssistanceBudgetInd>
+      <AnnualCommunityBnftReportInd>true</AnnualCommunityBnftReportInd>
+      <ReportPublicallyAvailableInd>true</ReportPublicallyAvailableInd>
+      <FinancialAssistanceAtCostTyp>
+        <TotalCommunityBenefitExpnsAmt>1346031</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>1346031</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.01180</TotalExpensePct>
+      </FinancialAssistanceAtCostTyp>
+      <TotalFinancialAssistanceTyp>
+        <TotalCommunityBenefitExpnsAmt>1346031</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>1346031</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.01180</TotalExpensePct>
+      </TotalFinancialAssistanceTyp>
+      <CommunityHealthServicesGrp>
+        <TotalCommunityBenefitExpnsAmt>32483</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>32483</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00030</TotalExpensePct>
+      </CommunityHealthServicesGrp>
+      <SubsidizedHealthServicesGrp>
+        <TotalCommunityBenefitExpnsAmt>10328035</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>6732667</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>3595368</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.03140</TotalExpensePct>
+      </SubsidizedHealthServicesGrp>
+      <CashAndInKindContributionsGrp>
+        <TotalCommunityBenefitExpnsAmt>179360</TotalCommunityBenefitExpnsAmt>
+        <NetCommunityBenefitExpnsAmt>179360</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.00160</TotalExpensePct>
+      </CashAndInKindContributionsGrp>
+      <TotalOtherBenefitsGrp>
+        <TotalCommunityBenefitExpnsAmt>10539878</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>6732667</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>3807211</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.03330</TotalExpensePct>
+      </TotalOtherBenefitsGrp>
+      <TotalCommunityBenefitsGrp>
+        <TotalCommunityBenefitExpnsAmt>11885909</TotalCommunityBenefitExpnsAmt>
+        <DirectOffsettingRevenueAmt>6732667</DirectOffsettingRevenueAmt>
+        <NetCommunityBenefitExpnsAmt>5153242</NetCommunityBenefitExpnsAmt>
+        <TotalExpensePct>0.04510</TotalExpensePct>
+      </TotalCommunityBenefitsGrp>
+      <BadDebtExpenseReportedInd>false</BadDebtExpenseReportedInd>
+      <ReimbursedByMedicareAmt>33350553</ReimbursedByMedicareAmt>
+      <CostOfCareReimbursedByMedcrAmt>39372166</CostOfCareReimbursedByMedcrAmt>
+      <MedicareSurplusOrShortfallAmt>-6021613</MedicareSurplusOrShortfallAmt>
+      <CostingMethodologyUsedGrp>
+        <CostToChargeRatioInd>X</CostToChargeRatioInd>
+      </CostingMethodologyUsedGrp>
+      <WrittenDebtCollectionPolicyInd>true</WrittenDebtCollectionPolicyInd>
+      <FinancialAssistancePrvsnInd>true</FinancialAssistancePrvsnInd>
+      <HospitalFacilitiesCnt>1</HospitalFacilitiesCnt>
+      <HospitalFacilitiesGrp>
+        <FacilityNum>1</FacilityNum>
+        <BusinessName>
+          <BusinessNameLine1Txt>SUTTER COAST HOSPITAL</BusinessNameLine1Txt>
+        </BusinessName>
+        <USAddress>
+          <AddressLine1Txt>800 E WASHINGTON BLVD</AddressLine1Txt>
+          <CityNm>CRESCENT CITY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>955318359</ZIPCd>
+        </USAddress>
+        <WebsiteAddressTxt>WWW.SUTTERCOAST.ORG</WebsiteAddressTxt>
+        <StateLicenseNum>LICENSE #110000067</StateLicenseNum>
+        <LicensedHospitalInd>X</LicensedHospitalInd>
+        <GeneralMedicalAndSurgicalInd>X</GeneralMedicalAndSurgicalInd>
+        <EmergencyRoom24HrsInd>X</EmergencyRoom24HrsInd>
+      </HospitalFacilitiesGrp>
+      <HospitalFcltyPoliciesPrctcGrp>
+        <HospitalFacilityName>
+          <BusinessNameLine1Txt>SUTTER COAST HOSPITAL</BusinessNameLine1Txt>
+        </HospitalFacilityName>
+        <FacilityNum>1</FacilityNum>
+        <FirstLicensedCYOrPYInd>false</FirstLicensedCYOrPYInd>
+        <TaxExemptHospitalCYOrPYInd>false</TaxExemptHospitalCYOrPYInd>
+        <CHNAConductedInd>true</CHNAConductedInd>
+        <CommunityDefinitionInd>X</CommunityDefinitionInd>
+        <CommunityDemographicsInd>X</CommunityDemographicsInd>
+        <ExistingResourcesInd>X</ExistingResourcesInd>
+        <HowDataObtainedInd>X</HowDataObtainedInd>
+        <CommunityHealthNeedsInd>X</CommunityHealthNeedsInd>
+        <OtherHealthIssuesInd>X</OtherHealthIssuesInd>
+        <CommunityHlthNeedsIdProcessInd>X</CommunityHlthNeedsIdProcessInd>
+        <ConsultingProcessInd>X</ConsultingProcessInd>
+        <PriorCHNAImpactInd>X</PriorCHNAImpactInd>
+        <CHNAConductedYr>22</CHNAConductedYr>
+        <TakeIntoAccountOthersInputInd>true</TakeIntoAccountOthersInputInd>
+        <CHNAConductedWithOtherFcltsInd>false</CHNAConductedWithOtherFcltsInd>
+        <CHNAConductedWithNonFcltsInd>false</CHNAConductedWithNonFcltsInd>
+        <CHNAReportWidelyAvailableInd>true</CHNAReportWidelyAvailableInd>
+        <RptAvailableOnOwnWebsiteInd>X</RptAvailableOnOwnWebsiteInd>
+        <OwnWebsiteURLTxt>SEE PART V, SECTION C</OwnWebsiteURLTxt>
+        <OtherWebsiteInd>X</OtherWebsiteInd>
+        <OtherWebsiteURLTxt>SEE PART V, SECTION C</OtherWebsiteURLTxt>
+        <PaperCopyPublicInspectionInd>X</PaperCopyPublicInspectionInd>
+        <ImplementationStrategyAdoptInd>true</ImplementationStrategyAdoptInd>
+        <ImplementationStrategyAdptYr>22</ImplementationStrategyAdptYr>
+        <StrategyPostedWebsiteInd>true</StrategyPostedWebsiteInd>
+        <StrategyWebsiteURLTxt>SEE PART V, SECTION C</StrategyWebsiteURLTxt>
+        <OrganizationIncurExciseTaxInd>false</OrganizationIncurExciseTaxInd>
+        <EligCriteriaExplainedInd>true</EligCriteriaExplainedInd>
+        <FPGFamilyIncmLmtFreeDscntInd>X</FPGFamilyIncmLmtFreeDscntInd>
+        <FPGFamilyIncmLmtFreeCarePct>400.</FPGFamilyIncmLmtFreeCarePct>
+        <FPGFamilyIncmLmtDscntCarePct>0.</FPGFamilyIncmLmtDscntCarePct>
+        <MedicalIndigencyCriteriaInd>X</MedicalIndigencyCriteriaInd>
+        <InsuranceStatusCriteriaInd>X</InsuranceStatusCriteriaInd>
+        <ExplainedBasisInd>true</ExplainedBasisInd>
+        <AppFinancialAsstExplnInd>true</AppFinancialAsstExplnInd>
+        <DescribedInfoInd>X</DescribedInfoInd>
+        <DescribedSuprtDocInd>X</DescribedSuprtDocInd>
+        <ProvidedHospitalContactInd>X</ProvidedHospitalContactInd>
+        <ProvidedNonprofitContactInd>X</ProvidedNonprofitContactInd>
+        <OtherMethodInd>X</OtherMethodInd>
+        <IncludesPublicityMeasuresInd>true</IncludesPublicityMeasuresInd>
+        <FAPAvailableOnWebsiteInd>X</FAPAvailableOnWebsiteInd>
+        <FAPAvailableOnWebsiteURLTxt>See Part V, Section C</FAPAvailableOnWebsiteURLTxt>
+        <FAPAppAvailableOnWebsiteInd>X</FAPAppAvailableOnWebsiteInd>
+        <FAPAppAvailableOnWebsiteURLTxt>See Part V, Section C</FAPAppAvailableOnWebsiteURLTxt>
+        <FAPSummaryOnWebsiteInd>X</FAPSummaryOnWebsiteInd>
+        <FAPSummaryOnWebsiteURLTxt>See Part V, Section C</FAPSummaryOnWebsiteURLTxt>
+        <FAPAvlblOnRequestNoChargeInd>X</FAPAvlblOnRequestNoChargeInd>
+        <FAPAppAvlblOnRequestNoChrgInd>X</FAPAppAvlblOnRequestNoChrgInd>
+        <FAPSumAvlblOnRequestNoChrgInd>X</FAPSumAvlblOnRequestNoChrgInd>
+        <NotifiedFAPCopyBillDisplayInd>X</NotifiedFAPCopyBillDisplayInd>
+        <CommuntityNotifiedFAPInd>X</CommuntityNotifiedFAPInd>
+        <FAPTranslatedInd>X</FAPTranslatedInd>
+        <OtherPublicityInd>X</OtherPublicityInd>
+        <FAPActionsOnNonpaymentInd>true</FAPActionsOnNonpaymentInd>
+        <PermitNoActionsInd>X</PermitNoActionsInd>
+        <CollectionActivitiesInd>false</CollectionActivitiesInd>
+        <ProvidedWrittenNoticeInd>X</ProvidedWrittenNoticeInd>
+        <MadeEffortOrallyNotifyInd>X</MadeEffortOrallyNotifyInd>
+        <ProcessedFAPApplicationInd>X</ProcessedFAPApplicationInd>
+        <MadePresumptiveEligDetermInd>X</MadePresumptiveEligDetermInd>
+        <NondisEmergencyCarePolicyInd>true</NondisEmergencyCarePolicyInd>
+        <ProspectiveMedicareMedicaidInd>X</ProspectiveMedicareMedicaidInd>
+        <AmountsGenerallyBilledInd>false</AmountsGenerallyBilledInd>
+        <GrossChargesInd>false</GrossChargesInd>
+      </HospitalFcltyPoliciesPrctcGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 3E</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE SIGNIFICANT HEALTH NEEDS ARE A PRIORITIZED DESCRIPTION OF THE SIGNIFICANT HEALTH NEEDS OF THE COMMUNITY AND IDENTIFIED THROUGH THE CHNA.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 5</FormAndLineReferenceDesc>
+        <ExplanationTxt>IN CONDUCTING ITS MOST RECENT COMMUNITY HEALTH NEEDS ASSESSMENT (CHNA), SUTTER COAST HOSPITAL (SCH) DID TAKE INTO ACCOUNT INPUT FROM PERSONS WHO REPRESENT THE BROAD INTERESTS OF THE COMMUNITY IN THE HOSPITAL'S SERVICE AREA (HSA). INPUT FROM THE COMMUNITY SERVED BY SCH WAS COLLECTED THROUGH TWO MAIN MECHANISMS. FIRST, KEY INFORMANT INTERVIEWS WERE CONDUCTED WITH COMMUNITY HEALTH EXPERTS AND AREA SERVICE PROVIDERS (I.E., MEMBERS OF SOCIAL SERVICE NONPROFIT ORGANIZATIONS AND RELATED HEALTHCARE ORGANIZATIONS). THESE INTERVIEWS OCCURRED IN BOTH ONE-ON-ONE AND IN GROUP INTERVIEW SETTINGS BETWEEN SEPTEMBER AND OCTOBER 2021. SECOND, FOCUS GROUPS WERE CONDUCTED WITH COMMUNITY RESIDENTS THAT WERE IDENTIFIED AS POPULATIONS EXPERIENCING DISPARITIES. ALL PARTICIPANTS WERE GIVEN AN INFORMED CONSENT FORM PRIOR TO THEIR PARTICIPATION, WHICH PROVIDED INFORMATION ABOUT THE PROJECT, ASKED FOR PERMISSION TO RECORD THE INTERVIEW, AND LISTED THE POTENTIAL BENEFITS AND RISKS FOR INVOLVEMENT IN THE INTERVIEW. ALL INTERVIEW DATA WERE COLLECTED THROUGH NOTE TAKING AND, IN SOME INSTANCES, RECORDING. PRIMARY DATA COLLECTION WITH KEY INFORMANTS INCLUDED TWO PHASES. FIRST, PHASE ONE BEGAN BY INTERVIEWING AREA-WIDE SERVICE PROVIDERS WITH KNOWLEDGE OF THE SERVICE AREA, INCLUDING INPUT FROM THE DESIGNATED PUBLIC HEALTH DEPARTMENT. DATA FROM THESE AREA-WIDE INFORMANTS, COUPLED WITH SOCIO-DEMOGRAPHIC DATA, WAS USED TO IDENTIFY ADDITIONAL KEY INFORMANTS FOR THE ASSESSMENT THAT WERE INCLUDED IN PHASE TWO. AS A PART OF THE INTERVIEW PROCESS, ALL KEY INFORMANTS WERE ASKED TO IDENTIFY VULNERABLE POPULATIONS. THE INTERVIEWER ASKED EACH PARTICIPANT TO VERBALLY EXPLAIN WHAT VULNERABLE POPULATIONS EXISTED IN THE COUNTY. AS NEEDED FOR A VISUAL AID, KEY INFORMANTS WERE PROVIDED A MAP OF THE HSA TO DIRECTLY POINT TO THE GEOGRAPHIC LOCATIONS OF THESE VULNERABLE COMMUNITIES. ADDITIONAL KEY INFORMANT INTERVIEWS WERE FOCUSED ON THE GEOGRAPHIC LOCATIONS AND/OR SUBGROUPS IDENTIFIED IN THE EARLIER PHASE. FOCUS GROUP INTERVIEWS WERE CONDUCTED WITH COMMUNITY MEMBERS LIVING IN GEOGRAPHIC AREAS OF THE SERVICE AREA IDENTIFIED AS LOCATIONS OR POPULATIONS EXPERIENCING A DISPARATE AMOUNT OF POOR SOCIOECONOMIC CONDITIONS AND POOR HEALTH OUTCOMES. RECRUITMENT CONSISTED OF REFERRALS FROM DESIGNATED SERVICE PROVIDERS REPRESENTING VULNERABLE POPULATIONS, AS WELL AS DIRECT OUTREACH TO SPECIAL POPULATION GROUPS. THE FINDINGS FROM KEY INFORMANT INTERVIEWS AND FOCUS GROUPS IN SUTTER COAST HOSPITAL'S CHNA ARE AVAILABLE AT https://www.sutterhealth.org/ about-us/community-benefit/community-health-needs-assessment SCHEDULE H, PART V, SECTION B, LINE 6 NO OTHER HOSPITALS COLLABORATED ON THE 2022 CHNA OF SUTTER COAST HOSPITAL, MAINLY DUE TO THE RURAL LOCATION AND GEOGRAPHY OF THE HOSPITAL.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 7A, 7B, 10A</FormAndLineReferenceDesc>
+        <ExplanationTxt>FILING ORGANIZATION WEBSITE: HTTP://WWW.SUTTERCOAST.ORG/ABOUT/INDEX.HTML OTHER WEBSITE: HTTPS://WWW.SUTTERHEALTH.ORG/ABOUT-US/ COMMUNITY-HEALTH-NEEDS-ASSESSMENT</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 11</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FOLLOWING SIGNIFICANT HEALTH NEEDS IDENTIFIED IN THE 2022 COMMUNITY HEALTH NEEDS ASSESSMENT ARE NEEDS THAT SUTTER COAST HOSPITAL INTENDS TO ADDRESS THROUGH ITS IMPLEMENTATION STRATEGY: -ACCESS TO BASIC NEEDS SUCH AS HOUSING, JOBS, AND FOOD -ACCESS TO MENTAL/BEHAVIOR/SUBSTANCE-ABUSE SERVICES -ACCESS TO SPECIALTY AND EXTENDED CARE -ACCESS TO QUALITY PRIMARY HEALTHCARE SERVICES -ACCESS AND FUNCTIONAL NEEDS DESCRIPTIONS OF THE COMMUNITY BENEFIT PROGRAMS THAT ADDRESS THESE SIGNIFICANT HEALTH NEEDS CAN BE FOUND IN PART VI. NO HOSPITAL CAN ADDRESS ALL OF THE HEALTH NEEDS PRESENT IN ITS COMMUNITY. SUTTER COAST HOSPITAL IS COMMITTED TO SERVING THE COMMUNITY BY ADHERING TO ITS MISSION, USING ITS SKILLS AND CAPABILITIES, AND REMAINING A STRONG ORGANIZATION SO THAT IT CAN CONTINUE TO PROVIDE A WIDE RANGE OF COMMUNITY BENEFITS. THE HOSPITAL DOES NOT PLAN TO ADDRESS THE FOLLOWING SIGNIFICANT HEALTH NEEDS THAT WERE IDENTIFIED IN THE 2022 COMMUNITY HEALTH NEEDS ASSESSMENT: -INJURY AND DISEASE PREVENTION AND MANAGEMENT - WHILE SCH WILL NOT SPECIFICALLY ADDRESS THIS AREA, WE WILL IMPROVE ACCESS TO PRIMARY AND SPECIALTY CARE. THIS IN TURN WILL ALLOW MORE PATIENTS TO BETTER PREVENT AND MANAGE THEIR CHRONIC CONDITIONS. -ACCESS TO ACTIVE LIVING AND HEALTHY EATING - DUE TO LIMITED CAPACITY AND RESOURCES SCH WILL NOT BE FOCUSED ON THIS AREA. -SAFE AND VIOLENCE-FREE ENVIRONMENT - DUE TO LIMITED CAPACITY AND RESOURCES SCH WILL NOT BE FOCUSED ON THIS AREA. -ACCESS TO DENTAL CARE AND PREVENTATIVE SERVICES - DUE TO LIMITED CAPACITY AND RESOURCES SCH WILL NOT BE FOCUSED ON THIS AREA. -INCREASED COMMUNITY CONNECTIONS - WHILE SCH WILL NOT SPECIFICALLY FOCUS ON AND ADDRESS THIS AREA, WE WILL CONTINUE TO COLLABORATE REGARDING COMMUNITY INITIATIVES AND WHERE POSSIBLE AND APPROPRIATE, HOST OR PARTICIPATE IN EVENTS THAT CONNECT COMMUNITY MEMBERS WITH AVAILABLE RESOURCES.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 15E</FormAndLineReferenceDesc>
+        <ExplanationTxt>METHOD FOR APPLYING FOR FINANCIAL ASSISTANCE-OTHER: PATIENTS MAY REQUEST ASSISTANCE WITH COMPLETING THE APPLICATION FOR FINANCIAL ASSISTANCE IN PERSON AT THE HOSPITAL, OVER THE PHONE, THROUGH THE MAIL, OR VIA THE SUTTER HEALTH WEBSITE.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINES 16A, 16B, &amp; 16C</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE FINANCIAL ASSISTANCE POLICY, APPLICATION FORM, AND PLAIN LANGUAGE SUMMARY ARE WIDELY AVAILABLE ON THE SUTTER COAST HOSPITAL WEBSITE AT: HTTP://WWW.SUTTERHEALTH.ORG/COAST/FOR-PATIENTS/FINANCIAL-ASSISTANCE</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B LINE 16J</FormAndLineReferenceDesc>
+        <ExplanationTxt>MEASURES USED TO PUBLICIZE THE FACILITY'S FINANCIAL ASSISTANCE POLICY: THE FINANCIAL ASSISTANCE POLICY IS AVAILABLE IN THE PRIMARY LANGUAGES OF THE HOSPITAL'S SERVICE AREA. DURING PREADMISSION OR REGISTRATION ALL PATIENTS WILL BE PROVIDED A PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY AND ALSO INFORMATION REGARDING THE RIGHT TO REQUEST AN ESTIMATE OF THEIR FINANCIAL RESPONSIBILITY FOR SERVICES. PATIENTS WHO MAY BE UNINSURED WILL BE ASSIGNED A FINANCIAL COUNSELOR WHO WILL VISIT WITH THE PATIENT IN PERSON AT THE HOSPITAL AND CAN PROVIDE ADDITIONAL INFORMATION ABOUT THE FINANCIAL ASSISTANCE POLICY AND ASSIST WITH THE APPLICATION PROCESS. AT THE TIME OF DISCHARGE ALL PATIENTS WILL BE PROVIDED THE PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY. SUTTER HEALTH WILL PLACE AN ADVERTISEMENT REGARDING THE AVAILABILITY OF FINANCIAL ASSISTANCE AT THE ORGANIZATION IN THE PRINCIPAL NEWSPAPER IN THE COMMUNITY OR WHEN DOING SO IS NOT PRACTICAL SUTTER WILL ISSUE A PRESS RELEASE CONTAINING THE INFORMATION OR USE OTHER MEANS THAT WILL WIDELY PUBLICIZE THE AVAILABILITY OF THE POLICY. SUTTER HEALTH WILL WORK WITH AFFILIATED ORGANIZATIONS, PHYSICIANS, COMMUNITY CLINICS AND OTHER HEALTH CARE PROVIDERS TO NOTIFY MEMBERS OF THE COMMUNITY ABOUT THE AVAILABILITY OF FINANCIAL ASSISTANCE.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <SupplementalInformationGrp>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART V, SECTION B, LINE 22D</FormAndLineReferenceDesc>
+        <ExplanationTxt>AMOUNTS CHARGED TO FAP-ELIGIBLE INDIVIDUALS: THE ORGANIZATION'S FINANCIAL ASSISTANCE POLICY PROVIDES FOR FULL WRITE OFF OF ALL CHARGES FOR AN UNINSURED PATIENT WITH A FAMILY INCOME AT OR BELOW 400% OF THE MOST RECENT FEDERAL POVERTY LEVEL. IN ACCORDANCE WITH INTERNAL REVENUE CODE SECTION 1.501(R)-5, THIS ORGANIZATION ADOPTS THE PROSPECTIVE MEDICARE METHOD FOR AMOUNTS GENERALLY BILLED; HOWEVER, PATIENTS WHO ARE ELIGIBLE FOR FINANCIAL ASSISTANCE ARE NOT FINANCIALLY RESPONSIBLE FOR MORE THAN THE AMOUNTS GENERALLY BILLED BECAUSE ELIGIBLE PATIENTS DO NOT PAY ANY AMOUNT.</ExplanationTxt>
+      </SupplementalInformationGrp>
+      <FacilityNum>2</FacilityNum>
+      <OthHlthCareFcltsNotHospitalGrp>
+        <OthHlthCareFcltsGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>SUTTER COAST HLTH CTR BROOKINGS-HARBOR</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>555 5TH STREET</AddressLine1Txt>
+            <CityNm>BROOKINGS</CityNm>
+            <StateAbbreviationCd>OR</StateAbbreviationCd>
+            <ZIPCd>97415</ZIPCd>
+          </USAddress>
+          <FacilityTxt>OUTPATIENT SERVICES</FacilityTxt>
+        </OthHlthCareFcltsGrp>
+        <OthHlthCareFcltsGrp>
+          <BusinessName>
+            <BusinessNameLine1Txt>SUTTER COAST WALK-IN CLINIC</BusinessNameLine1Txt>
+          </BusinessName>
+          <USAddress>
+            <AddressLine1Txt>780 E WASHINGTON BLVD</AddressLine1Txt>
+            <CityNm>CRESCENT CITY</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>95531</ZIPCd>
+          </USAddress>
+          <FacilityTxt>OUTPATIENT SERVICES</FacilityTxt>
+        </OthHlthCareFcltsGrp>
+      </OthHlthCareFcltsNotHospitalGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART I, LINES 3A &amp; 3C</FormAndLineReferenceDesc>
+        <ExplanationTxt>FINANCIAL ASSISTANCE ELIGIBILITY CRITERIA: FOR UNINSURED PATIENTS TO BE ELIGIBLE FOR FREE CARE THE ORGANIZATION USES THE FEDERAL POVERTY GUIDELINES (FPG) FOR FAMILY INCOMES THAT ARE AT OR BELOW 400% OF FPG. IN ADDITION THE ORGANIZATION HAS A HIGH MEDICAL COST CHARITY CARE CATEGORY IN WHICH A WRITE OFF OF THE PATIENT RESPONSIBILITY FOR HOSPITAL SERVICES CAN OCCUR IF THE INSURED PATIENT HAS FAMILY INCOME AT OR BELOW 400% FPG AND EXPENSES INCURRED FOR THEMSELVES OR THEIR FAMILY EXCEED 10% OF THE PATIENT'S FAMILY INCOME.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART I, LINE 3B</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUTTER COAST HOSPITAL IS COMMITTED TO PROVIDING CHARITY CARE AND THEREFORE, PROVIDES FREE CARE AT HIGH PERCENTAGE OF FPG. THE ORGANIZATION DOES NOT PROVIDE DISCOUNTED CARE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART I, LINE 6A</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUTTER HEALTH (EIN: 94-2788907), A RELATED ORGANIZATION, PREPARES A COMBINED COMMUNITY BENEFIT REPORT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART I, LINE 7</FormAndLineReferenceDesc>
+        <ExplanationTxt>COSTING METHODOLOGY USED: COST TO CHARGE RATIO UTILIZING WORKSHEET 2 METHODOLOGY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART I, LINE 7G</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE AMOUNT OF COSTS ASSOCIATED WITH PHYSICIAN CLINICS IS $3,595,368. SCHEDULE H, PART II COMMUNITY BUILDING: SUTTER COAST HOSPITAL DID NOT HAVE ANY COMMUNITY BUILDING ACTIVITIES TO REPORT IN 2024.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART III, SECTION B, LINE 6</FormAndLineReferenceDesc>
+        <ExplanationTxt>AUDIT FOOTNOTE: THE ORGANIZATION IS AN AFFILIATE OF SUTTER HEALTH WHICH UNDERWENT A SYSTEM-WIDE AUDIT. THE AUDIT REPORT DOES NOT INCLUDE A BAD DEBT EXPENSE FOOTNOTE. EFFECTIVE JANUARY 1, 2018, SUTTER ENTITIES IMPLEMENTED THE FINANCIAL ACCOUNTING STANDARDS BOARD (FASB) ACCOUNTING STANDARDS UPDATE (ASU), REVENUE FROM CONTRACTS WITH CUSTOMERS (TOPIC 606). THE ACCOUNTING CHANGE MODIFIED BAD DEBT REPORTING, AND AS A RESULT, BAD DEBT IS ONLY REPORTED IN LIMITED SITUATIONS. SCHEDULE H, PART III, LINE 7 MEDICARE COSTS: MEDICARE COST REPORTS THAT THE ORGANIZATION FILES DO NOT INCLUDE ALL OF THE COSTS REQUIRED TO TREAT MEDICARE PATIENTS. SCHEDULE H, PART III, LINE 8: COSTING METHODOLOGY: MEDICARE ALLOWABLE COSTS WERE CALCULATED USING A COST TO CHARGE RATIO. COMMUNITY BENEFIT MEDICARE SHORTFALL: THE IRS COMMUNITY BENEFIT STANDARD INCLUDES THE PROVISION OF CARE TO THE ELDERLY AND MEDICARE PATIENTS. CARING FOR MEDICARE PATIENTS FULFILLS A COMMUNITY NEED AND RELIEVES A GOVERNMENT BURDEN AS THESE PATIENTS TYPICALLY HAVE LOW AND/OR FIXED INCOMES. MEDICARE DOES NOT PROVIDE SUFFICIENT REIMBURSEMENT TO COVER THE COST OF PROVIDING CARE FOR THESE PATIENTS FORCING THE HOSPITAL TO USE OTHER FUNDS TO COVER THE DEFICIT. SCHEDULE H, PART III, LINE 9B: DEBT COLLECTION POLICY: COLLECTION PRACTICES ARE CONSISTENT FOR ALL PATIENTS AND COMPLY WITH APPLICABLE PROVISIONS OF FEDERAL AND CALIFORNIA LAW. DURING PREADMISSION OR REGISTRATION, THE HOSPITAL PROVIDES ALL PATIENTS WITH INFORMATION REGARDING THE AVAILABILITY OF FINANCIAL ASSISTANCE. AN UNINSURED PATIENT WHO INDICATES THE FINANCIAL INABILITY TO PAY A BILL IS EVALUATED FOR FINANCIAL ASSISTANCE. AT DISCHARGE PATIENTS WILL BE GIVEN AN APPLICATION WHICH WILL DOCUMENT THE PATIENT'S OVERALL FINANCIAL SITUATION. IF AN UNINSURED PATIENT DOES NOT COMPLETE THE APPLICATION FORM WITHIN 30 DAYS OF DELIVERY, THE HOSPITAL WILL NOTIFY THE PATIENT THAT THE APPLICATION HAS NOT BEEN RECEIVED AND WILL PROVIDE THE PATIENT AN ADDITIONAL 210 DAYS TO COMPLETE THE APPLICATION. IF A PATIENT HAS APPLIED FOR CHARITY CARE, HAS BEEN APPROVED TO RECEIVE CHARITY CARE, OR IS COOPERATING WITH THE HOSPITAL'S EFFORTS TO SETTLE AN OUTSTANDING BILL WITHIN A REASONABLE TIME PERIOD, THE HOSPITAL WILL NOT PURSUE COLLECTIONS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART VI, LINE 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION DOES NOT CONDUCT ANY ADDITIONAL COMMUNITY HEALTH CARE NEEDS ASSESSMENTS OUTSIDE OF THE 2022-2024 COMMUNITY HEALTH NEEDS ASSESSMENT REFERENCED.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART VI, LINE 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>PATIENT EDUCATION OF ELIGIBILITY FOR ASSISTANCE: SUTTER HOSPITALS FOLLOW A SUTTER HEALTH SYSTEM-WIDE FINANCIAL ASSISTANCE POLICY, WHICH INCLUDES THE FOLLOWING DETAILS OF HOW THE ORGANIZATION INFORMS AND EDUCATES PATIENTS AND PERSONS WHO MAY BE BILLED FOR PATIENT CARE. LANGUAGES: THE POLICY SHALL BE AVAILABLE IN THE PRIMARY LANGUAGE(S) OF HOSPITAL'S SERVICE AREA. IN ADDITION, ALL NOTICES/COMMUNICATIONS PROVIDED IN THIS SECTION SHALL BE AVAILABLE IN PRIMARY LANGUAGE(S) OF HOSPITAL'S SERVICE AREA AND IN A MANNER CONSISTENT WITH ALL APPLICABLE FEDERAL AND STATE LAWS AND REGULATIONS. INFORMATION PROVIDED TO PATIENTS DURING THE PROVISION OF HOSPITAL SERVICES: A. DURING PREADMISSION OR REGISTRATION (OR AS SOON THEREAFTER AS PRACTICABLE) HOSPITALS SHALL PROVIDE ALL PATIENTS WITH A COPY OF A PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY AND IDENTIFY THE DEPARTMENT THAT PATIENTS CAN VISIT TO RECEIVE INFORMATION ABOUT, AND ASSISTANCE WITH APPLYING FOR, FINANCIAL ASSISTANCE. B. FINANCIAL ASSISTANCE COUNSELORS: PATIENTS WHO MAY BE UNINSURED PATIENTS SHALL BE ASSIGNED FINANCIAL COUNSELORS, WHO SHALL VISIT WITH THE PATIENTS IN PERSON AT THE HOSPITAL, PROVIDE PATIENTS A FINANCIAL ASSISTANCE APPLICATION, ASSIST WITH THE APPLICATION PROCESS, AND PROVIDE A CONTACT INFORMATION FOR THE PATIENT TO CALL FOR QUESTIONS. C. EMERGENCY SERVICES: IN THE CASE OF EMERGENCY SERVICES, HOSPITALS SHALL PROVIDE ALL PATIENTS A PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY AS SOON AS PRACTICABLE AFTER STABILIZATION OF THE PATIENT'S EMERGENCY MEDICAL CONDITION OR UPON DISCHARGE. D. APPLICATIONS PROVIDED AT DISCHARGE: AT THE TIME OF DISCHARGE, HOSPITALS SHALL PROVIDE ALL PATIENTS WITH A COPY OF A PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY. E. INFORMATION PROVIDE TO PATIENTS AT OTHER TIMES: 1. CONTACT INFORMATION WHICH INCLUDES A PHONE NUMBER AND HOSPITAL DEPARTMENT TO OBTAIN ADDITIONAL INFORMATION ABOUT FINANCIAL ASSISTANCE AND ASSISTANCE WITH THE APPLICATION PROCESS. 2. BILLING STATEMENTS: BILLING STATEMENTS PROVIDED TO PATIENTS SHALL INCLUDE A PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY, A PHONE NUMBER FOR PATIENTS TO CALL WITH QUESTIONS ABOUT FINANCIAL ASSISTANCE, AND THE WEBSITE ADDRESS WHERE PATIENTS CAN OBTAIN ADDITIONAL INFORMATION ABOUT FINANCIAL ASSISTANCE INCLUDING THE FINANCIAL ASSISTANCE POLICY, A PLAIN LANGUAGE SUMMARY OF THE POLICY, AND THE APPLICATION FOR FINANCIAL ASSISTANCE. 3. UPON REQUEST: HOSPITALS SHALL PROVIDE PATIENTS WITH PAPER COPIES OF THE FINANCIAL ASSISTANCE POLICY, THE APPLICATION FOR FINANCIAL ASSISTANCE, AND THE PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY UPON REQUEST AND WITHOUT CHARGE. F. PUBLICITY OF FINANCIAL ASSISTANCE INFORMATION 1. PUBLIC POSTING: HOSPITALS SHALL POST COPIES OF THE FINANCIAL ASSISTANCE POLICY, THE APPLICATION FOR FINANCIAL ASSISTANCE, AND THE PLAIN LANGUAGE SUMMARY OF THE FINANCIAL ASSISTANCE POLICY IN A PROMINENT LOCATION IN THE EMERGENCY ROOM, ADMISSIONS AREA, AND ANY OTHER LOCATION IN THE HOSPITAL WHERE THERE IS A HIGH VOLUME OF PATIENT TRAFFIC, INCLUDING BUT NOT LIMITED TO THE WAITING ROOMS, BILLING OFFICES, AND HOSPITAL OUTPATIENT SERVICE SETTINGS. THESE PUBLIC NOTICES SHALL INCLUDE INFORMATION ABOUT THE RIGHT TO REQUEST AN ESTIMATE OF FINANCIAL RESPONSIBILITY FOR SERVICES. 2. WEBSITE: THE FINANCIAL ASSISTANCE POLICY, APPLICATION FOR FINANCIAL ASSISTANCE AND PLAIN LANGUAGE SUMMARY SHALL BE AVAILABLE IN A PROMINENT PLACE ON THE SUTTER HEALTH WEBSITE (WWW.SUTTERHEALTH.ORG) AND ON EACH INDIVIDUAL HOSPITAL'S WEBSITE. PERSONS SEEKING INFORMATION ABOUT FINANCIAL ASSISTANCE SHALL NOT BE REQUIRED TO CREATE AN ACCOUNT OR PROVIDE ANY PERSONAL INFORMATION BEFORE RECEIVING INFORMATION ABOUT FINANCIAL ASSISTANCE. 3. MAIL: PATIENTS MAY REQUEST A COPY OF THE FINANCIAL ASSISTANCE POLICY, APPLICATION FOR FINANCIAL ASSISTANCE AND PLAIN LANGUAGE SUMMARY BE SENT BY MAIL, AT NO COST TO THE PATIENT. 4. ADVERTISEMENTS/PRESS RELEASES: AS NECESSARY AND ON AT LEAST AN ANNUAL BASIS, SUTTER HEALTH WILL PLACE AN ADVERTISEMENT REGARDING THE AVAILABILITY OF FINANCIAL ASSISTANCE AT HOSPITALS IN THE PRINCIPAL NEWSPAPER(S) IN THE COMMUNITIES SERVED BY SUTTER HEALTH, OR WHEN DOING SO IS NOT PRACTICAL, SUTTER WILL ISSUE A PRESS RELEASE CONTAINING THIS INFORMATION, OR USE OTHER MEANS THAT SUTTER HEALTH CONCLUDES WILL WIDELY PUBLICIZE THE AVAILABILITY OF THE POLICY TO AFFECTED PATIENTS IN OUR COMMUNITIES. 5. COMMUNITY AWARENESS: SUTTER HEALTH WILL WORK WITH AFFILIATED ORGANIZATIONS, PHYSICIANS, COMMUNITY CLINICS AND OTHER HEALTH CARE PROVIDERS TO NOTIFY MEMBERS OF THE COMMUNITY (ESPECIALLY THOSE WHO ARE MOST LIKELY TO REQUIRE FINANCIAL ASSISTANCE) ABOUT THE AVAILABILITY OF FINANCIAL ASSISTANCE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART VI, LINE 4</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUTTER COAST HOSPITAL IS LOCATED IN CRESCENT CITY, CALIFORNIA, A COASTAL COMMUNITY LOCATED IN DEL NORTE COUNTY, WHICH SITS ON THE NORTHWEST CALIFORNIA/OREGON BORDER. THE COMMUNITY SERVED BY SCH, OR THE HOSPITAL SERVICE AREA (HSA), WAS DEFINED BY FIVE ZIP CODES 95531, 95543, 95548, 95567, AND 97415. THIS AREA WAS IDENTIFIED AS THE HSA BECAUSE MOST OF SCH'S PATIENTS RESIDED IN THESE ZIP CODES. ALL ZIP CODES ARE LOCATED IN CALIFORNIA (DEL NORTE COUNTY) EXCEPT 97415, WHICH COVERS THE COMMUNITIES OF BROOKINGS AND HARBOR, LOCATED IN SOUTHERN CURRY COUNTY, OR (CURRY COUNTY). SUTTER COAST HOSPITAL IS THE ONLY HOSPITAL SERVING THE COMMUNITY. AN IN-DEPTH VIEW OF THE DEMOGRAPHICS AND GEOGRAPHY OF THE SERVICE AREA IS AVAILABLE IN THE SUTTER COAST HOSPITAL CHNA AT HTTPS://WWW.SUTTERHEALTH.ORG/ABOUT-US/ COMMUNITY-HEALTH-NEEDS-ASSESSMENT SCHEDULE H, PART VI, LINE 5 SUTTER HEALTH REACHES BEYOND THE WALLS OF OUR HOSPITALS AND care FACILITIES through our community health initiatives. OUR AFFILIATES FURTHER THEIR TAX-EXEMPT PURPOSE BY: -BUILDING RELATIONSHIPS OF TRUST BY WORKING COLLABORATIVELY WITH COMMUNITY GROUPS, SCHOOLS AND GOVERNMENT ORGANIZATIONS TO EFFECTIVELY LEVERAGE RESOURCES AND ADDRESS IDENTIFIED COMMUNITY NEEDS; -SUPPORTING NONPROFIT ORGANIZATIONS THAT ARE COMMITTED TO COMMUNITY HEALTH IMPROVEMENT THROUGH FINANCIAL INVESTMENTS, IN-KIND SERVICES AND EMPLOYEE VOLUNTEERISM; AND -PROVIDING GENEROUS CHARITY CARE POLICIES FOR OUR MOST VULNERABLE COMMUNITY MEMBERS. THE 2022 - 2024 IMPLEMENTATION STRATEGY FOR SUTTER COAST HOSPITAL DEFINES A VARIETY OF PROGRAMS AND PARTNERSHIPS THAT ADDRESS IDENTIFIED PRIORITY HEALTH NEEDS AND IMPROVES THE OVERALL HEALTH OF THE COMMUNITY IT SERVES. A FEW OF THOSE PROGRAMS AND PARTNERSHIPS ARE DESCRIBED BELOW, organized by significant health need: PROGRAMS ADDRESSING ACCESS TO BASIC NEEDS SUCH AS HOUSING, JOBS, AND FOOD SAFE PATIENT DISCHARGE COLLABORATIVE THE SAFE PATIENT DISCHARGE COLLABORATIVE IS OFFERED IN PARTNERSHIP WITH A NONPROFIT HOMELESS SERVICES ORGANIZATION. . THE PROGRAM PROVIDES FOR HOUSING FOR UP TO 5 DAYS FOR A PATIENT TO RECUPERATE POST DISCHARGE AND AN AVENUE FOR HOME HEALTH CARE FOLLOW UP IF NEEDED. WHILE HOUSED THE INDIVIDUAL WILL BE CONNECTED TO OTHER SERVICES THAT MAY PROVIDE PERMANENT HOUSING AS WELL AS NOURISHMENT. THESE PATIENTS ARE HOMELESS INDIVIDUALS WHO OTHERWISE WOULD BE DISCHARGED TO THE STREET OR CARED FOR IN AN INPATIENT SETTING ONLY. THE PROGRAM IS DESIGNED TO OFFER TEMPORARY HOUSING SO THAT THE PATIENT CAN FOCUS ON RECOVERY. IN 2024 SCH IMPLEMENTED A PROCESS TO REFER UNHOUSED PATIENTS TO A LOCAL NONPROFIT HOMELESS SERVICE ORGANIZATION FOR HOTEL/HOUSING AND ADDITIONAL COMMUNITY RESOURCES. THERE HAS BEEN A DECREASE IN READMISSION RATES FOR THOSE INDIVIDUALS. APPROXIMATELY 175 PATIENTS WERE SERVED REPRESENTING APPROXIMATELY 1,800 NIGHTS HOUSED. ENABLING PATIENTS TO FOCUS ON HEALING IN A SANITARY, DRY ENVIRONMENT. PROGRAMS ADDRESSING ACCESS TO MENTAL/BEHAVIOR/SUBSTANCE-ABUSE SERVICES SUBSTANCE USE NAVIGATOR (SUN) SUTTER COAST HOSPITAL IS DEVELOPING A SUBSTANCE USE NAVIGATOR PROGRAM DESIGNED TO DEDICATE A CARE COORDINATOR AS PART OF THE INTEGRATED EMERGENCY DEPARTMENT TEAM TO IMPROVE ACCESS TO MEDICATIONS AND TREATMENT FOR SUBSTANCE USE DISORDERS. THE GOAL OF THE SUN PROGRAM IS TO CONNECT PATIENTS WITH SERVICES AND SUPPORT FOLLOWING SUBSTANCE USE/ABUSE. IN 2024, THE IMPLEMENTATION OF THE SUN PROGRAM HAS ASSISTED APPROXIMATELY 40 PATIENTS, ALL OF WHOM WERE LINKED BY THE SUN TO COMMUNITY RESOURCES AND FOLLOW UP FOR SUBSTANCE USE DISORDER TREATMENT. AREA WIDE MENTAL HEALTH STRATEGY THE NEED FOR MENTAL HEALTH SERVICES AND RESOURCES, ESPECIALLY FOR THE UNDERSERVED, HAS REACHED A BREAKING POINT. THIS IS WHY WE ARE FOCUSED ON BUILDING A COMPREHENSIVE MENTAL HEALTH STRATEGY THAT INTEGRATES KEY ELEMENTS SUCH AS POLICY AND ADVOCACY, COUNTY SPECIFIC INVESTMENTS, STIGMA REDUCTION, INCREASED AWARENESS AND EDUCATION, WITH TANGIBLE OUTREACH SUCH AS EXPANDED MENTAL HEALTH RESOURCES TO PROFESSIONALS IN THE WORKPLACE AND TELEPSYCH OPTIONS TO THE UNDERSERVED. BY LINKING THESE VARIOUS STRATEGIES AND EFFORTS THROUGH ENGAGING IN STATEWIDE AND LOCAL PARTNERSHIPS, REPLICATING BEST PRACTICES, AND SECURING INNOVATION GRANTS AND AWARD OPPORTUNITIES, WE HAVE THE ABILITY TO CREATE AN EXPANDED MENTAL HEALTH CARE RESOURCES SO DESPERATELY NEEDED IN THE COMMUNITIES WE SERVE. SUTTER COAST HOSPITAL IS ENGAGED WITH MULTIPLE PUBLIC AND PRIVATE ORGANIZATIONS DEVELOPING AND EXECUTING A MENTAL HEALTH STRATEGY TO SUPPORT THE COMMUNITY. THESE EFFORTS ARE ONGOING. SCH IS IN THE PROCESS OF BUILDING AN EMERGENCY PSYCHIATRY ASSESSMENT, TREATMENT AND HEALING (EMPATH) UNIT. SCH IS ALSO WORKING WITH DEL NORTE COUNTY, LOCAL TRIBAL COUNCILS, EMS AND LAW ENFORCEMENT ON THE DEVELOPMENT OF A MOBILE CRISIS STABILIZATION TEAM/UNIT, THIS TEAM BEGAN SEEING PATIENTS IN THE FIELD IN 2024. SCH HAS ALSO WORKED ON IMPLEMENTING TELE-PSYCH SERVICES FOR CLINIC-BASED PATIENTS WHICH WENT LIVE IN THE BEGINNING OF 2025. PROGRAMS ADDRESSING ACCESS TO SPECIALTY AND EXTENDED CARE RECRUITMENT FOR SPECIALTY PROVIDERS WHILE RETAINING CURRENT PHYSICIANS, CONTINUE TO RECRUIT INTO SPECIALTY DISCIPLINES INCLUSIVE OF GASTROENTEROLOGY; ORTHOPEDICS; AND UROLOGY THE GOAL OF THE PROGRAM IS TO IMPROVE ACCESS TO SPECIALTY SERVICES LOCALLY AND REDUCE THE NUMBER OF PATIENTS HAVING TO OBTAIN SERVICES OUTSIDE OF THE COMMUNITY BY ADDING A FULL TIME EQUIVALENT SPECIALTY PROVIDER TO THE COMMUNITY. IN 2024, SCH HAS BEEN SUCCESSFUL IN RECRUITING SPECIALISTS IN THE AREAS OF UROLOGY AND GASTROENTEROLOGY. PROGRAMS ADDRESSING ACCESS TO QUALITY PRIMARY HEALTHCARE SERVICES RECRUITMENT AND RETENTION OF PRIMARY CARE PROVIDERS ACCESS TO PRIMARY CARE SERVICES IS DIRECTLY TIED TO RETENTION AND RECRUITMENT. FREQUENTLY, THE IMPORTANCE OF RETENTION IS OVERLOOKED. SCH WILL UTILIZE VARIOUS DATA SOURCES TO DISCERN AND IDENTIFY TACTICS THAT INCREASE THE LIKELIHOOD OF RETAINING PRIMARY CARE PROVIDERS, E.G., INCREASING CONNECTION OF THE SCHOOL DISTRICT FOR PROVIDERS WITH CHILDREN; LOOKING AT SOCIAL CAPITAL AND THE OPPORTUNITIES FOR SPOUSES OF PROVIDERS TO HAVE ENHANCED OPPORTUNITIES IN THE LOCAL JOB MARKET. PLAN TO REVIEW EXIT SURVEYS OF PROVIDERS LEAVING THE COMMUNITY TO DEVELOP AN APPROPRIATE RETENTION PLAN. THE GOAL OF THE PROGRAM IS TO INCREASE LOCAL PRIMARY CARE PROVIDERS FTE BY AT LEAST 1 FTE. PRIMARY CARE RECRUITMENT AND RETENTION HAS BEEN AND REMAINS A HIGH PRIORITY. SUTTER COAST HAS BEEN EFFECTIVE IN THE RETENTION OF 8 PRIMARY CARE PROVIDERS (IM, PEDS, FM, WOMEN'S HEALTH). THE COMMUNITY HAS ALSO EXPERIENCED THE RETIREMENT OF A COUPLE OF PRIMARY CARE PROVIDERS FURTHERING THE NEED FOR CONTINUED FOCUS IN THIS AREA. FAMILY MEDICINE RURAL RESIDENCY PROGRAM DEVELOP AN ACCREDITED RURAL FAMILY MEDICINE RESIDENCY PROGRAM IN DEL NORTE COUNTY. THE GOAL OF THE PROGRAM IS TO INCREASE ACCESS TO FAMILY MEDICINE PHYSICIANS INTERESTED IN PRACTICING IN RURAL COMMUNITIES SPECIFICALLY STAYING LOCALLY TO CARE FOR PATIENTS POST RESIDENCY. IN 2024, SCH HAS DEVELOPED A RESIDENCY PROGRAM THAT IS SLATED FOR ACGME APPROVAL IN APRIL OF 2025, REALIZING ITS FIRST RESIDENTS IN 2026. ONGOING CLINIC INVESTMENTS WITH ACCESS TO CARE, INCLUDING PRIMARY, AND SPECIALTY CARE CONTINUING TO BE A MAJOR PRIORITY IN THE SCH HEALTH SERVICE AREA, WE WILL CONTINUE TO MAKE STRATEGIC INVESTMENTS IN OUR LOCAL COMMUNITY CLINIC TO INCREASE CLINIC CAPACITY AND SERVICES OFFERED. CREATIVE COLLABORATIONS AND INNOVATIVE OPPORTUNITIES WITH OUR CLINIC PARTNERS WILL CONTINUE TO EVOLVE WITH THE NEEDS OF THE COMMUNITY. THE GOAL OF THE PROGRAM IS TO EXPAND ACCESS TO CARE, ESPECIALLY FOR UNDERSERVED POPULATIONS WHO HAVE BARRIERS TO RECEIVING PROPER MEDICAL CARE. IN 2024, SCH DEVELOPED AN APPROXIMATELY $3 MIL MEDICAL OFFICE BUILDING EXPANSION PROJECT THAT IS ANTICIPATED TO BE LICENSED IN Q2 OF 2025. THIS EXPANSION WILL ALLOW FOR UP TO AN ADDITIONAL 6 PROVIDERS TO PRACTICE EXPANDING ACCESS TO PRIMARY CARE. PROGRAMS ADDRESSING ACCESS AND FUNCTIONAL NEEDS TRANSPORTATION PROGRAM THIS INVESTMENT WILL PROVIDE NON-EMERGENCY MEDICAL TRANSPORTATION ON AN ADVANCE RESERVATION, SHARED-RIDE BASIS FOR ELIGIBLE RESIDENTS IN SCH'S SERVICE AREA. BECAUSE WE KNOW SCHEDULING AND KEEPING NON-EMERGENCY MEDICAL APPOINTMENTS IS ESSENTIAL TO PREVENTATIVE HEALTH THIS PROGRAM WILL PROVIDE TRANSPORTATION TO AND FROM MEDICAL APPOINTMENTS FOR UNDERSERVED, VULNERABLE AND ELDERLY POPULATION, WHO ARE UNABLE TO ACCESS NECESSARY MEDICAL CARE, DUE TO TRANSPORTATION CONSTRAINTS. THE GOAL OF THE PROGRAM IS TO PROVIDE TRANSPORTATION ASSISTANCE FOR INDIVIDUALS TO CONSISTENTLY ATTEND THEIR MEDICAL APPOINTMENTS. FROM 2022 THROUGH 2024, SCH PROVIDED APPROXIMATELY 400 TAXI VOUCHERS AND 210 BUS VOUCHERS OVER THE PAST THREE YEARS TO INDIVIDUALS IN NEED OF TRANSPORTATION ASSISTANCE FOR MEDICAL CARE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART VI, LINE 6</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUTTER COAST HOSPITAL IS AFFILIATED WITH SUTTER HEALTH, A NOT-FOR-PROFIT, INTEGRATED HEALTHCARE SYSTEM THAT IS COMMITTED TO DELIVERING INNOVATIVE, HIGH-QUALITY, EQUITABLE PATIENT CARE AND HELPING TO IMPROVE THE OVERALL HEALTH OF THE COMMUNITIES IT SERVES. SUTTER HEALTH IS A NOT-FOR-PROFIT HEALTHCARE SYSTEM DEDICATED TO PROVIDING COMPREHENSIVE, HIGH-QUALITY CARE THROUGHOUT CALIFORNIA. COMMITTED TO INNOVATIVE, HIGH-QUALITY PATIENT CARE AND COMMUNITY PARTNERSHIPS, SUTTER HEALTH IS PURSUING A BOLD NEW PLAN TO REACH MORE PEOPLE AND MAKE EXCELLENT HEALTHCARE MORE CONNECTED AND ACCESSIBLE. CURRENTLY SERVING 3.5 MILLION PATIENTS, THANKS TO OUR DEDICATED TEAM OF APPROXIMATELY 60,000 EMPLOYEES AND CLINICIANS, AND 14,000+ AFFILIATED PHYSICIANS AND ADVANCED PRACTICE CLINICIANS, WITH A UNIFIED FOCUS ON EXPANDING CARE TO SERVE MORE PATIENTS. SUTTER HEALTH DELIVERS EXCEPTIONAL AND AFFORDABLE CARE THROUGH ITS HOSPITALS, MEDICAL GROUPS, AMBULATORY SURGERY CENTERS, URGENT CARE CLINICS, TELEHEALTH, HOME HEALTH, AND HOSPICE SERVICES. DEDICATED TO TRANSFORMING HEALTHCARE, AT SUTTER HEALTH, GETTING BETTER NEVER STOPS. LEARN MORE ABOUT HOW SUTTER HEALTH IS TRANSFORMING HEALTHCARE AT SUTTERHEALTH.ORG AND VITALS.SUTTERHEALTH.ORG. AS PART OF SUTTER HEALTH'S COMMITMENT TO FULFILL ITS NOT-FOR-PROFIT MISSION AND TO HELP SERVE SOME OF THE MOST VULNERABLE IN ITS COMMUNITIES, SUTTER INVESTS ANNUALLY IN COMMUNITY BENEFIT PROGRAMS THAT HELP IMPROVE THE OVERALL HEALTH AND WELLBEING OF THE REGIONS SUTTER SERVES. SUTTER'S INVESTMENTS IN COMMUNITY BENEFIT PROGRAMS AND SERVICES INCREASED TO MORE THAN $1 BILLION IN 2024. THIS INVESTMENT INCLUDES $96 MILLION IN TRADITIONAL CHARITY CARE, WHICH COVERS MEDICALLY NECESSARY CARE TO ELIGIBLE PATIENTS, REGARDLESS OF THEIR ABILITY TO PAY; $665 MILLION IN UNREIMBURSED COSTS OF PROVIDING CARE TO MEDI-CAL PATIENTS; AND INVESTMENTS IN COMMUNITY HEALTH PROGRAMS TO ADDRESS IDENTIFIED COMMUNITY HEALTH NEEDS. IN 2024, SUTTER SHARPENED ITS FOCUS TO ADDRESS PRESSING COMMUNITY NEEDS IN THREE MAIN PRIORITY AREAS: WORKFORCE DEVELOPMENT, ACCESS TO MENTAL HEALTHCARE SERVICES AND SUBSTANCE USE TREATMENT, AND CHRONIC DISEASE PREVENTION. SEE MORE ABOUT HOW SUTTER HEALTH REINVESTS INTO THE COMMUNITY AND WORKS TO ACHIEVE HEALTH EQUITY BY VISITING SUTTERHEALTH.ORG/COMMUNITY-BENEFIT. SUTTER'S CHARITY CARE POLICY FOR HOSPITAL SERVICES IS POSTED ON SUTTER'S WEB SITE AT SUTTERHEALTH.ORG/FOR-PATIENTS/FINANCIAL-ASSISTANCE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE H, PART VI, LINE 7</FormAndLineReferenceDesc>
+        <ExplanationTxt>STATE FILING OF COMMUNITY BENEFIT REPORT: CALIFORNIA</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleH>
+    <IRS990ScheduleI documentId="IRS990ScheduleI">
+      <GrantRecordsMaintainedInd>true</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>SHASTA COUNTY PRIVATE COUNCIL</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>1201 PLACER ST</AddressLine1Txt>
+          <CityNm>REDDING</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>960011016</ZIPCd>
+        </USAddress>
+        <RecipientEIN>942652801</RecipientEIN>
+        <IRCSectionDesc>501(c)(3)</IRCSectionDesc>
+        <CashGrantAmt>10240</CashGrantAmt>
+        <PurposeOfGrantTxt>Cash</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>1</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>Scholarships for High School students</GrantTypeTxt>
+        <RecipientCnt>11</RecipientCnt>
+        <CashGrantAmt>10000</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE I, PART I, LINE 2</FormAndLineReferenceDesc>
+        <ExplanationTxt>In order to closely monitor efficiency and effectiveness, the Community Benefit function outlines measurable reporting (quarterly, six-month and/or year-end), program and funding requirements in a Memorandum of Understanding (MOU), Business Services Agreement (BSA), or Joint Venture Agreement for each investment made with a community partner. Where it is determined necessary, additional efforts are made to monitor effectiveness and efficiency of investments, which could include: -Quarterly meetings with community partners -E-mail and telephonic communications with community partners -Continued dialogue with involved hospital staff and community partners throughout duration of program -Site visits with community partners -Review of quarterly, six-month and/or year-end outcomes reports with community partners -Review of hospital usage and patient level data -Collection of patient/participant stories and narratives -Collaborative discussions around ad-hoc successes and challenges that arise -If any grant funds remained unspent, a year-end financial summary that compares actual expenditures to the funded project's budget is requested. At the end of the appropriate reporting period, Community Benefit analyzes data to ensure community partners met the objectives outlined in the MOU or BSA. If the community partners did not reach the anticipated outcomes, Community Benefit works to understand what circumstances prevented the organization from meeting the goals to help identify ways to improve or perhaps re-evaluate what success of this program looks like, and makes the determination to continue or terminate funding. We also rely on the governance practices of the recipient organization to monitor the use of the funds.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="IRS990ScheduleJ">
+      <SeverancePaymentInd>false</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>true</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>false</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>false</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>false</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>false</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>false</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>true</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>false</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Rachael McKinney</PersonNm>
+        <TitleTxt>Director, President Sac. Div.</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>773885</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>516057</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>106153</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>660009</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>49157</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>2105261</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>80936</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Ronnie Yamanaka</PersonNm>
+        <TitleTxt>CFO, SACRAMENTO DIVISION</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>549965</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>224912</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>44461</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>327842</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>28773</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>1175953</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>33522</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Mitch Hanna</PersonNm>
+        <TitleTxt>CEO SCH &amp; SAFH (PT-YR)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>47059</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>287917</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>333847</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>60657</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>7283</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>736763</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Francis S Lee</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <BaseCompensationFilingOrgAmt>399506</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>230964</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6657</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>38941</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>681068</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Michael Lane</PersonNm>
+        <TitleTxt>CEO, SCH (PT-YR)</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>292231</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>27511</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>49144</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>259347</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>33186</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>661419</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Adam Holleran</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <BaseCompensationFilingOrgAmt>403008</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6657</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>38925</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>448590</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Albert A McClain</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <BaseCompensationFilingOrgAmt>448349</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>6000</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6657</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>27323</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>488329</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>John Kirk</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <BaseCompensationFilingOrgAmt>345511</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>64715</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6657</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>27323</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>444206</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Ellie Popadic</PersonNm>
+        <TitleTxt>Senior Director, Ops</TitleTxt>
+        <BaseCompensationFilingOrgAmt>222131</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>41340</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>3646</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>49334</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>40438</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>356889</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Adour R Adrouny</PersonNm>
+        <TitleTxt>Clinical Physician</TitleTxt>
+        <BaseCompensationFilingOrgAmt>222045</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>101837</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>4285</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>7209</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>335376</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Rosemary Corcoran</PersonNm>
+        <TitleTxt>clinical perf. improv. consult</TitleTxt>
+        <BaseCompensationFilingOrgAmt>114588</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>41720</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>2211</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>60</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>116859</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>41720</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE J, PART I, LINE 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>SUPPLEMENTAL COMPENSATION INFORMATION: THE COMPENSATION COMMITTEE OF THE SUTTER HEALTH BOARD OF DIRECTORS RETAINS ULTIMATE DISCRETIONARY AUTHORITY OVER ALL ELEMENTS OF COMPENSATION TO ASSURE THAT ORGANIZATIONAL PURPOSES ARE APPROPRIATELY BEING SERVED. THE COMPENSATION COMMITTEE USES CREDIBLE INDEPENDENT DATA SOURCES AND MAINTAINS AN OBJECTIVE "ARMS LENGTH" DECISION-MAKING PROCESS, ENSURING THE INTEGRITY OF SUTTER'S EXECUTIVE PROGRAMS AND CONSISTENCY WITH THE ORGANIZATION'S OVERALL MISSION. SEE SCHEDULE O NARRATIVE FOR PART VI, LINE 15 FOR A FULL DESCRIPTION OF THE COMPENSATION APPROVAL PROCESS COMPLETED BY SUTTER HEALTH.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE J, PART I, LINE 4B</FormAndLineReferenceDesc>
+        <ExplanationTxt>NONQUALIFIED RETIREMENT PLAN: THE PURPOSE OF THE NONQUALIFIED RETIREMENT PLAN IS TO PROVIDE SUTTER HEALTH EXECUTIVES WITH A COMPETITIVE RETIREMENT BENEFIT CONSISTENT WITH SUTTER HEALTH'S OVERALL COMPENSATION PHILOSOPHY FOR ALL EMPLOYEES. CONTRIBUTIONS ARE DESIGNED TAKING INTO CONSIDERATION LOST RETIREMENT BENEFITS THAT WOULD OTHERWISE BE OBTAINED THROUGH THE QUALIFIED PENSION PLAN AND SOCIAL SECURITY BENEFITS. SUTTER'S PLANS ARE DESIGNED CONSISTENT WITH COMPETITIVE INDUSTRY PRACTICES. THE RETIREMENT PLAN FOR SUTTER HEALTH EMPLOYEES IS A COMBINATION OF 403(B) EMPLOYER MATCH CONTRIBUTIONS AND QUALIFIED PENSION PLAN BENEFITS. SUTTER HEALTH EXECUTIVES ARE GENERALLY INELIGIBLE FOR EMPLOYER MATCH CONTRIBUTIONS. TO ENSURE A COMPETITIVE RETIREMENT BENEFIT, SUTTER HEALTH MAKES AN ANNUAL CONTRIBUTION TO A NON-QUALIFIED 457(F) PLAN FOR ITS EXECUTIVES. THE FORMULA PROVIDES 6% TO 16% OF BASE SALARY PLUS ANNUAL INCENTIVE PLAN AWARD (COMMENSURATE WITH MANAGEMENT LEVEL). UNLIKE SUTTER HEALTH'S QUALIFIED PENSION PLAN WHERE EMPLOYEE BENEFITS ARE GUARANTEED (I.E., A DEFINED BENEFIT), SUTTER'S NON-QUALIFIED PLAN BENEFITS ARE NOT GUARANTEED BY SUTTER HEALTH. INVESTMENT RISK IS BORNE BY PARTICIPANTS AND BENEFITS ARE NOT PROTECTED SHOULD SUTTER HEALTH BECOME INSOLVENT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE J, PART I, LINE 7</FormAndLineReferenceDesc>
+        <ExplanationTxt>NON-FIXED PAYMENTS: SPOT AWARDS ARE INFREQUENTLY USED TO REWARD EMPLOYEES. THERE ARE NO SPECIFIC GUIDELINES FOR THE AMOUNT OF THE SPOT AWARD BUT THE AMOUNT TENDS TO NOT EXCEED 5% TO 15% OF GROSS ANNUAL SALARY. ANNUAL INCENTIVE PLAN (AIP): THE PURPOSE OF THE PLAN IS TO FOCUS EXECUTIVES ON SPECIFIC, SHORTER-TERM GOALS THAT ARE CRITICAL TO THE ACHIEVEMENT OF AFFILIATE, OPERATING UNIT AND SYSTEM-WIDE OBJECTIVES THAT DRIVE OVERALL ORGANIZATION PERFORMANCE. LONG-TERM PERFORMANCE PLANS: SUTTER HEALTH ALSO EMPLOYS LONG-TERM PERFORMANCE PLANS WHICH ARE DESIGNED TO FOCUS ON LONGER TERM STRATEGIC OBJECTIVES OF THE ORGANIZATION. SUTTER'S LONG TERM PERFORMANCE PLAN APPROACH IS A COMBINATION OF BOTH LONGER TERM MEASURES OF ORGANIZATION SUCCESS AND KEY ORGANIZATION STRATEGIES WHICH REQUIRE THE COMBINED EFFORT OF ALL LEADERSHIP TO ACHIEVE SUCCESS. SUTTER USES A COMMON FATE APPROACH IN THAT ALL LONG TERM PERFORMANCE PLAN PARTICIPANTS ARE MEASURED AGAINST THE SAME, ORGANIZATION-WIDE CRITERIA VS. INDIVIDUAL EFFORTS. THIS FOSTERS A COMMON PURPOSE ACROSS LEADERSHIP AND A SHARED SENSE OF ACCOUNTABILITY FOR THE OVERALL SUCCESS OF SUTTER HEALTH. IN ALL CASES, THE COMPENSATION COMMITTEE OF THE BOARD DETERMINES ACHIEVEMENT OF ORGANIZATION GOALS AND MAKES FINAL AWARD DETERMINATION WHICH MAY RESULT IN A REDUCTION OF AWARD IF APPROPRIATE. ALL SENIOR EXECUTIVE AWARDS ARE REVIEWED FOR COMPENSATION REASONABLENESS AND APPROVED BY THE COMPENSATION COMMITTEE PRIOR TO PAYMENT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="IRS990ScheduleO">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART I, LINE 1 AND PART III, LINE 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>MISSION STATEMENT: MISSION: CARING FOR OUR PATIENTS FIRST AND OUR PEOPLE ALWAYS. VISION: TO BE THE MOST COMPREHENSIVE, INTEGRATED AND CONNECTED HEALTH SYSTEM FOR GETTING AND STAYING WELL. VALUES: EXCELLENCE - We deliver high-quality, equitable care and take on the toughest challenges. CURIOSITY - We are constantly learning and creating new ways to advance healthcare. TEAMWORK - We collaborate with humility and solve for ONE Sutter. COMPASSION - We show empathy and understanding in every personal interaction. INCLUSION - We respect our differences and similarities, and cultivate a sense of belonging. INTEGRITY - We earn trust by doing the right thing and delivering on our commitments.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, Line 4</FormAndLineReferenceDesc>
+        <ExplanationTxt>2024 BYLAW AMENDMENTS: PREVIOUS: The officers of the Corporation shall be a Chair, a Vice Chair, a Chair of the Finance and Planning Committee, a Chief Executive Officer, a Chief Financial Officer and a Secretary. NEW: The officers of the Corporation shall be a Chair, a Vice Chair, a Chief Executive Officer of the Corporation, a Chief Financial Officer of the Corporation, a Corporate Secretary and any Assistant Secretary(ies). The bylaws of Sutter Coast Hospital have been amended to update the composition of officer positions on the board. The chair of the finance and planning committee position has been eliminated and its responsibilities absorbed by the board.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, Lines 6 &amp; 7a</FormAndLineReferenceDesc>
+        <ExplanationTxt>CLASSES OF PERSONS AND THE NATURE OF THEIR RIGHTS: THIS CORPORATION IS AN AFFILIATE OF SUTTER HEALTH, A CALIFORNIA NONPROFIT PUBLIC BENEFIT CORPORATION. SUTTER HEALTH IS THE SOLE MEMBER WITH THE RIGHT TO ELECT AT LEAST A MAJORITY OF THE MEMBERS OF THE BOARD OF DIRECTORS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, Line 7b</FormAndLineReferenceDesc>
+        <ExplanationTxt>CLASSES OF PERSONS, DECISIONS REQUIRING APPROVAL &amp; TYPE OF VOTING RIGHTS: SUTTER HEALTH AS THE SOLE MEMBER OF THE ORGANIZATION IS ENTITLED TO EXERCISE FULLY ALL RIGHTS AND PRIVILEGES OF MEMBERS OF NONPROFIT CORPORATIONS UNDER THE CALIFORNIA NONPROFIT PUBLIC BENEFIT CORPORATION LAW, AND ALL OTHER APPLICABLE LAWS. THE MEMBER HAS THE RIGHTS AND POWERS TO APPOINT (AND REMOVE) MEMBERS OF THE CORPORATION'S BOARD OF DIRECTORS, SUBJECT TO THE PROVISIONS OF THE BYLAWS. IN ADDITION, THE MEMBER HAS THE RIGHT TO APPROVE THE FOLLOWING ACTIONS OF THE CORPORATION'S BOARD OF DIRECTORS: A. MERGER, CONSOLIDATION, REORGANIZATION, OR DISSOLUTION OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; B. AMENDMENT OR RESTATEMENT OF THE ARTICLES OF INCORPORATION OR THE BYLAWS OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; C. ADOPTION OF OPERATING BUDGETS OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY, INCLUDING CONSOLIDATED OR COMBINED BUDGETS OF THE CORPORATION AND ALL SUBSIDIARY ORGANIZATIONS OF THE CORPORATION; D. ADOPTION OF CAPITAL BUDGETS OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; E. AGGREGATE OPERATING OR CAPITAL EXPENDITURES ON AN ANNUAL BASIS THAT EXCEED APPROVED OPERATING OR CAPITAL BUDGETS BY A SPECIFIED DOLLAR AMOUNT TO BE DETERMINED FROM TIME TO TIME BY THE GENERAL MEMBER; F. LONG-TERM OR MATERIAL AGREEMENTS INCLUDING, BUT NOT LIMITED TO, BORROWINGS, EQUITY FINANCINGS, CAPITALIZED LEASES AND INSTALLMENT CONTRACTS; AND PURCHASE, SALE, LEASE, DISPOSITION, HYPOTHECATION, EXCHANGE, GIFT, PLEDGE, OR ENCUMBRANCE OF ANY ASSET, REAL OR PERSONAL, WITH A FAIR MARKET VALUE IN EXCESS OF A DOLLAR AMOUNT TO BE DETERMINED FROM TIME TO TIME BY THE DIRECTORS OF THE GENERAL MEMBER, WHICH SHALL NOT BE LESS THAN 10% OF THE TOTAL ANNUAL CAPITAL BUDGET OF THE CORPORATION; G. APPOINTMENT OF AN INDEPENDENT AUDITOR AND HIRING OF INDEPENDENT COUNSEL EXCEPT IN CONFLICT SITUATIONS BETWEEN THE GENERAL MEMBER AND THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; H. THE CREATION OR ACQUISITION OF ANY SUBSIDIARY OR AFFILIATE ENTITY; I. CONTRACTING WITH AN UNRELATED THIRD-PARTY FOR ALL OR SUBSTANTIALLY ALL OF THE MANAGEMENT OF THE ASSETS OR OPERATIONS OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; J. APPROVAL OF MAJOR NEW PROGRAMS AND CLINICAL SERVICES OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY. THE GENERAL MEMBER SHALL FROM TIME TO TIME DEFINE THE TERM "MAJOR" IN THIS CONTEXT; K. APPROVAL OF STRATEGIC PLANS OF THE CORPORATION OR ANY SUBSIDIARY OR AFFILIATE ENTITY; L. ADOPTION OF QUALITY ASSURANCE POLICIES NOT IN CONFORMITY WITH POLICIES ESTABLISHED BY THE GENERAL MEMBER; M. ANY TRANSACTION BETWEEN THE CORPORATION, A SUBSIDIARY OR AFFILIATE AND A DIRECTOR OF THE CORPORATION OR AN AFFILIATE OF SUCH DIRECTOR. IN ADDITION, THE GENERAL MEMBER SHALL HAVE THE AUTHORITY (BY A VOTE OF NOT LESS THAN TWO-THIRDS (2/3) OF ITS BOARD), TO DECLARE A MAJOR ACTIVITY REQUIRING APPROVAL.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>PROCESS USED BY MANAGEMENT &amp;/OR GOVERNING BODY TO REVIEW FORM 990: SUTTER HEALTH HAS A CENTRALIZED TAX DEPARTMENT RESPONSIBLE FOR THE PREPARATION OF THE FORM 990. ANNUALLY THE TAX DEPARTMENT PROVIDES TRAINING AND EDUCATION TO AFFILIATE PERSONNEL WHO ASSIST THE TAX DEPARTMENT IN COLLECTING AND REVIEWING DATA TO BE REPORTED ON THE FORM 990. THE PREPARATION MATERIAL IS REVIEWED BY VARIOUS DEPARTMENTS INCLUDING TAX, FINANCE, LEGAL, AND HUMAN RESOURCES. A NATIONAL ACCOUNTING FIRM PREPARES AND/OR REVIEWS THE RETURN. A COMPLETED RETURN IS THEN REVIEWED BY THE TAX DEPARTMENT, THE AFFILIATE, AND THE CFO BEFORE THE RETURN IS FILED.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 12</FormAndLineReferenceDesc>
+        <ExplanationTxt>PROCESS TO MONITOR TRANSACTIONS FOR CONFLICTS OF INTEREST: EMPLOYEES ARE EDUCATED ON THE CONFLICT OF INTEREST POLICY AND THE NEED TO MAKE DISCLOSURE AS PART OF ANNUAL COMPLIANCE EDUCATION. IN ADDITION, ANNUALLY A DISCLOSURE STATEMENT IS COMPLETED BY ALL DIRECTORS, OFFICERS AND KEY EMPLOYEES. ON THIS STATEMENT THE INDIVIDUAL WILL LIST A WIDE RANGE OF INFORMATION WHICH INCLUDES BUSINESS RELATIONSHIPS, EMPLOYMENT RELATIONSHIPS, PROPERTY INTERESTS, AND THOSE OF RELATED PARTIES. IF THERE IS A POTENTIAL CONFLICT OF INTEREST RELATED TO A PARTICULAR TRANSACTION, THE INTERESTED INDIVIDUAL MUST DISCLOSE THE EXISTENCE AND NATURE OF THE RELATIONSHIP. THE BOARD CHAIR MAY APPOINT A DISINTERESTED PERSON OR COMMITTEE TO INVESTIGATE THE CONFLICT. THE BOARD MAY CONSULT WITH THE OFFICE OF THE GENERAL COUNSEL AS NECESSARY. UNTIL THE POTENTIAL CONFLICT IS RESOLVED, THE BOARD CHAIR (OR COMMITTEE CHAIR AS APPLICABLE) MAY REQUEST THE INDIVIDUAL TO NOT PARTICIPATE DURING RELATED PRESENTATIONS AND DISCUSSIONS. IN ALL CIRCUMSTANCES INVOLVING AN ACTUAL CONFLICT, THE INTERESTED INDIVIDUAL SHALL LEAVE THE ROOM PRIOR TO THE BOARD'S FINAL DISCUSSION AND VOTE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Lines 15a &amp; 15b</FormAndLineReferenceDesc>
+        <ExplanationTxt>PROCESS FOR DETERMINING COMPENSATION: THE COMPENSATION COMMITTEE OF THE SUTTER HEALTH BOARD OF DIRECTORS RETAINS ULTIMATE DISCRETIONARY AUTHORITY OVER ALL ELEMENTS OF COMPENSATION TO ASSURE THAT ORGANIZATIONAL PURPOSES ARE APPROPRIATELY BEING SERVED. THE COMPENSATION COMMITTEE USES CREDIBLE INDEPENDENT DATA SOURCES AND MAINTAINS AN OBJECTIVE "ARMS LENGTH" DECISION-MAKING PROCESS, ENSURING THE INTEGRITY OF SUTTER'S EXECUTIVE PROGRAMS AND CONSISTENCY WITH THE ORGANIZATION'S OVERALL MISSION. TO ENSURE EXTERNAL COMPETITIVENESS, NATIONAL COMPENSATION DATA COMPARISONS ARE REVIEWED. COMPETITIVE ANALYSIS INCLUDES: (A) BASE SALARY, (B) TOTAL CASH (BASE SALARY + ANNUAL INCENTIVE), (C) TOTAL DIRECT CASH (BASE SALARY + ANNUAL INCENTIVE + LONG TERM INCENTIVE) AND (D) TOTAL REMUNERATION (BASE SALARY + ANNUAL INCENTIVE + BENEFITS AND LONG TERM INCENTIVE). THIS ANALYSIS INCLUDES NATIONAL COMPARISONS FOR ORGANIZATIONS SIMILAR IN SIZE, SCOPE AND COMPLEXITY AS SUTTER HEALTH, ADJUSTED TO THE CALIFORNIA MARKET. THIS METHOD IS MOST APPROPRIATE SINCE IT IS A NATIONAL MARKETPLACE IN WHICH SUTTER COMPETES FOR EXECUTIVE TALENT. OFFICERS AND KEY EMPLOYEES OF THIS ORGANIZATION UNDERGO AN ANNUAL REVIEW BY THE COMPENSATION COMMITTEE OR A DELEGATED SUB-COMMITTEE. APPROVAL IS RECORDED IN THE MINUTES. THE 2023 EXECUTIVE COMPENSATION APPROVAL WAS COMPLETED IN APRIL 2024.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, Line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>AVAILABILITY OF GOVERNING DOCUMENTS, COI POLICY, &amp; FINANCIAL STATEMENTS: THE SUTTER HEALTH SYSTEM POSTS ITS CURRENT AND PAST AUDITED FINANCIAL STATEMENTS AT SUTTERHEALTH.ORG. OTHER DOCUMENTS ARE ALSO LOCATED AT THIS WEBSITE INCLUDING THE ANNUAL REPORT, MISSION STATEMENT, HISTORY, AND LINKS TO AFFILIATE WEBSITES. THE GOVERNING DOCUMENTS AND CONFLICT OF INTEREST POLICY ARE NOT AVAILABLE TO THE PUBLIC AT THIS TIME.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VII, Section A</FormAndLineReferenceDesc>
+        <ExplanationTxt>COMPENSATION OF BOARD MEMBERS: THE FOLLOWING BOARD MEMBERS OF THE ORGANIZATION ARE FULL-TIME EMPLOYEES (40 HOURS PER WEEK) OF SUTTER HEALTH AND THEIR SUTTER HEALTH SALARIES ARE REPORTED HEREIN. THESE INDIVIDUALS RECEIVE NO COMPENSATION FOR THEIR SERVICE AS BOARD MEMBERS OF THIS ORGANIZATION: - Mitch Hanna COMMON LAW EMPLOYEES: INDIVIDUALS LISTED AS OFFICERS AND KEY EMPLOYEES OF THE ORGANIZATION THAT ARE PAID FULLTIME BY A RELATED ORGANIZATION ARE COMMON LAW EMPLOYEES OF SUTTER HEALTH, A SEPARATE LEGAL ENTITY. IT IS THE INTENTION OF SUTTER HEALTH AND THE FILING ORGANIZATION TO MAKE INFORMATION ACCESSIBLE AND TRANSPARENT, REPORTING THOSE SUTTER HEALTH EMPLOYEES WHO HAVE OFFICER AND KEY EMPLOYEE RESPONSIBILITIES TO THE FILING ORGANIZATION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part XI, Line 9</FormAndLineReferenceDesc>
+        <ExplanationTxt>OTHER CHANGES IN NET ASSETS OR FUND BALANCES: EQUITY TRANSFERS (NET) $ 4,897,881 ------------- TOTAL: $ 4,897,881</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990 PART IX LINE 11G</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION:PROF FEES - PHYSICIAN TOTAL FEES:7866571</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990 PART IX LINE 11G</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION:THERAPISTS/OTHER MEDICAL TOTAL FEES:3107019</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990 PART IX LINE 11G</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION:NURSE REGISTRY FEES TOTAL FEES:4024555</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="IRS990ScheduleR">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>CALIFORNIA PACIFIC MEDICAL CTR FOUND</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>942728423</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER BH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER COMMUNITY HEALTH</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>510172285</EIN>
+        <PrimaryActivitiesTxt>HEALTHCARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER BH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>MEMORIAL HOSPITAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>942290244</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>12A - I</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>MILLS-PENINSULA HOSPITAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>237288765</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER BH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER AUBURN FAITH HOSPITAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>942594966</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER BAY HOSPITALS</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>940562680</EIN>
+        <PrimaryActivitiesTxt>HOSPITAL</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER BAY MEDICAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>941156581</EIN>
+        <PrimaryActivitiesTxt>HEALTHCARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER DAVIS HOSPITAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680217870</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER HEALTH</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>942788907</EIN>
+        <PrimaryActivitiesTxt>SUPPORTING OR</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>12C III-FI</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>false</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER HEALTH PACIFIC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>91-2301 FT WEAVER RD</AddressLine1Txt>
+          <CityNm>EWA BEACH</CityNm>
+          <StateAbbreviationCd>HI</StateAbbreviationCd>
+          <ZIPCd>96706</ZIPCd>
+        </USAddress>
+        <EIN>990298651</EIN>
+        <PrimaryActivitiesTxt>HOSPITAL</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER HEALTH ALLIANCE</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>461183948</EIN>
+        <PrimaryActivitiesTxt>HEALTH PLAN</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(4)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>N/A</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER INSURANCE SERVICES CORPORATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>745 FORT STREET SUITE 1100</AddressLine1Txt>
+          <CityNm>HONOLULU</CityNm>
+          <StateAbbreviationCd>HI</StateAbbreviationCd>
+          <ZIPCd>96813</ZIPCd>
+        </USAddress>
+        <EIN>990289310</EIN>
+        <PrimaryActivitiesTxt>INSURANCE SER</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>HI</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>12C III-FI</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER MEDICAL CENTER FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>942788906</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER ROSEVILLE MEDICAL CTR FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680040113</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER VALLEY HOSPITALS</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>941156621</EIN>
+        <PrimaryActivitiesTxt>HOSPITAL</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER VALLEY MEDICAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680273974</EIN>
+        <PrimaryActivitiesTxt>HEALTHCARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SUTTER VISITING NURSE ASSOC AND HOSPICE</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>946068843</EIN>
+        <PrimaryActivitiesTxt>HEALTHCARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>10</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>TRACY HOSPITAL FOUNDATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680318845</EIN>
+        <PrimaryActivitiesTxt>FUNDRAISING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>12A - I</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER VH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SANSUM CLINIC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>C/O SH TAX 2300 RIVER PLAZA DR</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>956419205</EIN>
+        <PrimaryActivitiesTxt>Hospital</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>3</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>SUTTER HLTH</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SURGERY CENTER OF ALTA BATES SMC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>3875 TELEGRAPH</AddressLine1Txt>
+          <CityNm>OAKLAND</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+        <EIN>470946086</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>CALIFORNIA PACIFIC ADV IMAGING LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>PO BOX 6102</AddressLine1Txt>
+          <CityNm>NOVATO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94598</ZIPCd>
+        </USAddress>
+        <EIN>562311840</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>DIVISADERO HOLDINGS LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>1635 DIVISADERO</AddressLine1Txt>
+          <CityNm>SAN FRANCISCO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94115</ZIPCd>
+        </USAddress>
+        <EIN>320621050</EIN>
+        <PrimaryActivitiesTxt>Care Management</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MAGNETIC IMAGING AFFILIATES LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2125 OAK GROVE ROAD</AddressLine1Txt>
+          <CityNm>WALNUT CREEK</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94598</ZIPCd>
+        </USAddress>
+        <EIN>473696091</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SAN FRANCISCO ENDOSCOPY CENTER</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>912160588</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>PENINSULA ENDOSCOPY</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>271905059</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ASC OPERATORS - SANTA ROSA LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>263386169</EIN>
+        <PrimaryActivitiesTxt>CARE MANAGEMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SUTTER FAIRFIELD SURGERY CENTER LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>300233892</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SUTTER AMADOR SURGERY CENTER LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>461398093</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ROSEVILLE ENDOSCOPY CENTER</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>870710513</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ASC OPERATORS LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>208970704</EIN>
+        <PrimaryActivitiesTxt>CARE MANAGEMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MEMORIAL MEDICAL BUILDING</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>1800 COFFEE RD 76</AddressLine1Txt>
+          <CityNm>MODESTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95355</ZIPCd>
+        </USAddress>
+        <EIN>770234236</EIN>
+        <PrimaryActivitiesTxt>OFFICE RENTAL</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>South Placer Surgery Center</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>421540694</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>Sacramento Surgery Center Associates LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680516588</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>Fort Sutter Surgery Center</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>680116391</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>Sutter Alhambra Surgery Center</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>631221949</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>Auburn Surgical Center</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>364123623</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>D E SHAW ALL COUNTRY GLOBAL ALPHA PLUS</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>1166 AVENUE OF THE AMERICAS - 9TH F</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10036</ZIPCd>
+        </USAddress>
+        <EIN>882890454</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ICG CREDIT OPPORTUNITIES FUND 1A LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>11111 SANTA MONICA BLVD SUITE 2100</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90025</ZIPCd>
+        </USAddress>
+        <EIN>825045573</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ICG CREDIT OPPORTUNITIES FUND 2A LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>11111 SANTA MONICA BLVD SUITE 2100</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90025</ZIPCd>
+        </USAddress>
+        <EIN>852303976</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MAKENA REAL ESTATE II LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2755 Sand Hill Road Suite 200</AddressLine1Txt>
+          <CityNm>Menlo Park</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94025</ZIPCd>
+        </USAddress>
+        <EIN>981298071</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ICG CREDIT OPP FUND LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>11111 SANTA MONICA BLVD STE 2100</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90025</ZIPCd>
+        </USAddress>
+        <EIN>814220441</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>D E SHAW ALL COUNTRY GLOBAL ALPHA LL</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>1166 AVENUE OF THE AMERICAS - 9TH F</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10036</ZIPCd>
+        </USAddress>
+        <EIN>832024364</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ICG SPECIAL OPPORTUNITIES FUND I LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>11111 SANTA MONICA BLVD SUITE 2100</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90025</ZIPCd>
+        </USAddress>
+        <EIN>863196460</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>TAP CMDITYBLDR FUND</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>257 PARK AVENUE S SUITE 700</AddressLine1Txt>
+          <CityNm>NEW YORK</CityNm>
+          <StateAbbreviationCd>NY</StateAbbreviationCd>
+          <ZIPCd>10010</ZIPCd>
+        </USAddress>
+        <EIN>274871720</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>NY</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>Makena Strategic Opportunities Fund - SH</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2755 SAND HILL ROAD SUITE 200</AddressLine1Txt>
+          <CityNm>MENLO PARK</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94025</ZIPCd>
+        </USAddress>
+        <EIN>844965838</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>DE</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ASC OPERATORS - SAN LUIS OBISPO LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>272673776</EIN>
+        <PrimaryActivitiesTxt>CARE MANAGEMENT</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>CARLSBAD SURGERY CENTER LLC</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>201413484</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>EHC SURGERY CENTER</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>943214614</EIN>
+        <PrimaryActivitiesTxt>PATIENT CARE</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>AG Net Lease Realty Fund V-QTE</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <ForeignAddress>
+          <AddressLine1Txt>100 KING ST</AddressLine1Txt>
+          <CityNm>TORONTO</CityNm>
+          <CountryCd>CA</CountryCd>
+          <ForeignPostalCd>M5X1B8</ForeignPostalCd>
+        </ForeignAddress>
+        <EIN>981743643</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CA</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SUTTER HEALTH DEFERRED COMP PLANS TRUST</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2300 RIVER PLAZA DRIVE</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <EIN>276851989</EIN>
+        <PrimaryActivitiesTxt>RABBI TRUST</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>TRUST</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>NORTHWOOD EUROPE TE FEEDER LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>1819 WAZEE ST 2ND FLOOR</AddressLine1Txt>
+          <CityNm>DENVER</CityNm>
+          <StateAbbreviationCd>CO</StateAbbreviationCd>
+          <ZIPCd>80202</ZIPCd>
+        </USAddress>
+        <EIN>981272216</EIN>
+        <PrimaryActivitiesTxt>HOLDING COMPANY</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C CORP</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>WilSOP Segregated Portfolio 1</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO box 10008 Willow House</AddressLine1Txt>
+          <CityNm>Cricket Square</CityNm>
+          <ProvinceOrStateNm>grand cayman</ProvinceOrStateNm>
+          <CountryCd>CJ</CountryCd>
+          <ForeignPostalCd>KY1-10001</ForeignPostalCd>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C corp</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>WilSOP Segregated Portfolio 2</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <ForeignAddress>
+          <AddressLine1Txt>PO box 10008 Willow House</AddressLine1Txt>
+          <CityNm>Cricket Square</CityNm>
+          <ProvinceOrStateNm>grand cayman</ProvinceOrStateNm>
+          <CountryCd>CJ</CountryCd>
+          <ForeignPostalCd>KY1-10001</ForeignPostalCd>
+        </ForeignAddress>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>c corp</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>BRIGADE LEVERAGED CAPITAL STRUCTURE OFFS</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <ForeignAddress>
+          <AddressLine1Txt>ONE NEXUS WAY</AddressLine1Txt>
+          <CityNm>CAMANA BAY</CityNm>
+          <ProvinceOrStateNm>GRAND CAYMAN</ProvinceOrStateNm>
+          <CountryCd>CJ</CountryCd>
+          <ForeignPostalCd>KY1-9005</ForeignPostalCd>
+        </ForeignAddress>
+        <EIN>981020330</EIN>
+        <PrimaryActivitiesTxt>Investment</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C Corp</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <IdRelatedOrgTxblCorpTrGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>AQR MULTI-STRATEGY FUND XXIII LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>ONE GREENWICH PLAZA STE 130</AddressLine1Txt>
+          <CityNm>GREENWICH</CityNm>
+          <StateAbbreviationCd>CT</StateAbbreviationCd>
+          <ZIPCd>06830</ZIPCd>
+        </USAddress>
+        <EIN>981716386</EIN>
+        <PrimaryActivitiesTxt>INVESTMENT</PrimaryActivitiesTxt>
+        <LegalDomicileForeignCountryCd>CJ</LegalDomicileForeignCountryCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>NA</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <EntityTypeTxt>C CORP</EntityTypeTxt>
+        <ControlledOrganizationInd>true</ControlledOrganizationInd>
+      </IdRelatedOrgTxblCorpTrGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>false</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>false</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>false</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>false</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>false</LoansOrGuaranteesFromOthOrgInd>
+      <AssetSaleToOtherOrgInd>false</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>false</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>false</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>false</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>false</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>false</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>false</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>false</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>false</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>true</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>false</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>true</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>true</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Sutter Bay Hospitals</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+        <InvolvedAmt>1051541</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Sutter Valley Medical Foundation</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+        <InvolvedAmt>1177291</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Sutter Insurance Services Corporation</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>P</TransactionTypeTxt>
+        <InvolvedAmt>885873</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Sutter Valley Hospitals</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>S</TransactionTypeTxt>
+        <InvolvedAmt>426527</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

@@ -469,6 +469,26 @@ def test_search_index_contract():
     assert totals == sorted(totals, reverse=True)
 
 
+def test_nonprofit_officers_contract():
+    d = load("nonprofit_officers.json")["data"]
+    assert d["org_count"] >= 100
+    assert d["officer_count"] >= 500
+    for key, ein in list(d["name_index"].items())[:50]:
+        assert ein in d["organizations"]
+        assert key == key.upper(), "name_index keys must be upper for the site join"
+    for ein, o in d["organizations"].items():
+        assert len(ein) == 9 and ein.isdigit(), f"bad EIN key {ein!r}"
+        assert o["tax_year"] and 2018 <= o["tax_year"] <= 2026, f"{ein}: bad tax year"
+        assert o["officers"], f"{ein}: published with no officers"
+        totals = [p["total_comp_usd"] for p in o["officers"]]
+        assert totals == sorted(totals, reverse=True), f"{ein}: officers unsorted"
+        for p in o["officers"]:
+            assert p["name"].strip(), f"{ein}: unnamed officer row"
+            assert p["total_comp_usd"] == (
+                p["org_comp_usd"] + p["related_comp_usd"] + p["other_comp_usd"]
+            ), f"{ein}/{p['name']}: total != parts"
+
+
 def test_sources_catalog_contract():
     d = load("sources_catalog.json")["data"]
     assert d["source_count"] == len(d["sources"])

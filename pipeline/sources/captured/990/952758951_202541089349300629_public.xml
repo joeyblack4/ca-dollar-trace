@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-04-18T11:27:21-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>814234542</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>BPM LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>3800 KILROY AIRPORT WAY SUITE 250</AddressLine1Txt>
+        <CityNm>LONG BEACH</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>908066865</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>952758951</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>CRI-HELP INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>CRI-</BusinessNameControlTxt>
+      <PhoneNum>8189858323</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>11027 BURBANK BLVD</AddressLine1Txt>
+        <CityNm>NORTH HOLLYWOOD</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91601</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>BRANDON FERNANDEZ-COMER</PersonNm>
+      <PersonTitleTxt>CEO</PersonTitleTxt>
+      <PhoneNum>8189858323</PhoneNum>
+      <SignatureDt>2025-04-17</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>ANTHONY J GALES</PreparerPersonNm>
+      <PTIN>P01241476</PTIN>
+      <PhoneNum>5624203100</PhoneNum>
+      <PreparationDt>2025-04-17</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="9">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>BRANDON FERNANDEZ-COMER</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>11027 BURBANK BLVD</AddressLine1Txt>
+        <CityNm>NORTH HOLLYWOOD</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91601</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>50379551</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.CRI-HELP.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1971</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>SUBSTANCE USE DISORDER TREATMENT</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>6</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>5</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>198</TotalEmployeeCnt>
+      <TotalVolunteersCnt>1</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>2766897</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>20236393</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>14686522</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>20921234</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>885375</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>408438</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>904721</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>1411990</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>19243515</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>42978055</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>0</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>8952128</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>10886092</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>560947</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>5764353</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>6167479</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>14716481</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>17053571</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>4527034</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>25924484</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>22637361</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>50794955</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>7320567</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>9553677</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>15316794</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>41241278</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>SUBSTANCE USE DISORDER TREATMENT</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>15411565</ExpenseAmt>
+      <RevenueAmt>22332259</RevenueAmt>
+      <Desc>SINCE 1971, CRI-HELP HAS BEEN A LEADER IN EFFECTIVE DRUG AND ALCOHOL TREATMENT IN SOUTHERN CALIFORNIA. OUR MISSION IS FULFILLED THROUGH INTEGRATED PROGRAMS, INCLUDING DETOXIFICATION, RESIDENTIAL REHABILITATION, AFTERCARE, AND DRUG-FREE LIVING, OFFERED IN ENGLISH AND SPANISH. SERVICES ARE DELIVERED IN SAFE, SUPPORTIVE ENVIRONMENTS AND ENHANCED BY GRIEF COUNSELING, EDUCATIONAL AND VOCATIONAL SUPPORT, AND 12-STEP PROGRAM PARTICIPATION. ALL STAFF ARE CERTIFIED IN SUBSTANCE COUNSELING UNDER LICENSED CLINICIANS' SUPERVISION. WE ALSO MAINTAIN ONE OF SOUTHERN CALIFORNIA'S MOST DYNAMIC ALUMNI PROGRAMS, WITH OVER 400 VOLUNTEERS AND ALUMNI AIDING CLIENT TRANSITIONS TO COMMUNITY LIVING.</Desc>
+      <TotalProgramServiceExpensesAmt>15411565</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="RetDoc1041300001">0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd referenceDocumentId="RetDoc1041300001">0</FundraisingActivitiesInd>
+      <GamingActivitiesInd referenceDocumentId="RetDoc1041300001">1</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd referenceDocumentId="RetDoc1042800001">0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd referenceDocumentId="RetDoc1042800001">0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd referenceDocumentId="RetDoc1042800001">0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd referenceDocumentId="RetDoc1042800001">1</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="RetDoc1042800001">0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>56</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <EmployeeCnt>198</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>0</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>6</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>5</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>0</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>BRANDON FERNANDEZ-COMER</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>8189858323</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>11027 BURBANK BLVD</AddressLine1Txt>
+          <CityNm>NORTH HOLLYWOOD</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91601</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JACK BERNSTEIN</PersonNm>
+        <TitleTxt>PRESIDENT</TitleTxt>
+        <AverageHoursPerWeekRt>35.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>5.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>142210</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARCUS SOLA</PersonNm>
+        <TitleTxt>CHAIRMAN (THROUGH 05/24)</TitleTxt>
+        <AverageHoursPerWeekRt>8.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>VICTORIA BALET</PersonNm>
+        <TitleTxt>SECRETARY / TREASURER</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ARTHUR LEWIS</PersonNm>
+        <TitleTxt>BOARD MEMBER</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CARA SANDWEISS</PersonNm>
+        <TitleTxt>BOARD MEMBER</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ANTHONY EDMONDSON</PersonNm>
+        <TitleTxt>BOARD MEMBER</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PATRICK MAHONEY</PersonNm>
+        <TitleTxt>BOARD MEMBER</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>BRANDON FERNANDEZ-COMER</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <AverageHoursPerWeekRt>35.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>5.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>225100</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>10430</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARLENE NADEL</PersonNm>
+        <TitleTxt>DIRECTOR OF CLIENT SERVICE</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>128728</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>519</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DAYNA DEWITT MATAISZ</PersonNm>
+        <TitleTxt>DIRECTOR OF NURSING</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>117236</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>5354</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>GARY HOREJSI</PersonNm>
+        <TitleTxt>PROGRAM DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>105696</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>5145</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>718970</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>21448</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>5</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>PATRICIA FRANCO</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>1133 BAL HARBOR BLVD STE 1139</AddressLine1Txt>
+            <CityNm>PUNTA GORDA</CityNm>
+            <StateAbbreviationCd>FL</StateAbbreviationCd>
+            <ZIPCd>33950</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>ACCOUNTING</ServicesDesc>
+        <CompensationAmt>211875</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>CHARLES BURSTIN</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>135 S MACCART DR 402</AddressLine1Txt>
+            <CityNm>BEVERLY HILLS</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90212</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>PHYSICIAN</ServicesDesc>
+        <CompensationAmt>202835</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>MALLORY MILAM</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>148 S ANITA AVE</AddressLine1Txt>
+            <CityNm>LOS ANGELES</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>90049</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>PHYSICIAN</ServicesDesc>
+        <CompensationAmt>129570</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>DR DAN BEGAL DBA ACOUSTIC PSYCHOMETRY SY</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>4424 WHITSETT AVE UNIT 109</AddressLine1Txt>
+            <CityNm>STUDIO CITY</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>91604</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>PHYSICIAN</ServicesDesc>
+        <CompensationAmt>100125</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>4</CntrctRcvdGreaterThan100KCnt>
+      <GovernmentGrantsAmt>20214086</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>22307</AllOtherContributionsAmt>
+      <TotalContributionsAmt>20236393</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>DRUG MEDI-CAL</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>20298143</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>20298143</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>CLIENT FEES - RESIDENTIAL</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>507639</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>507639</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>CLIENT FEES - DETOX</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>92991</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>92991</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>CLIENT FEES - ALCOHOL &amp; DRUG-FREE</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>22461</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>22461</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>20921234</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>409403</TotalRevenueColumnAmt>
+        <ExclusionAmt>409403</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <GrossAmountSalesAssetsGrp>
+        <OtherAmt>2795</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <OtherAmt>3760</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <OtherAmt>-965</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>-965</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>-965</RelatedOrExemptFuncIncomeAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <GamingGrossIncomeAmt>8770748</GamingGrossIncomeAmt>
+      <GamingDirectExpensesAmt>7397736</GamingDirectExpensesAmt>
+      <NetIncomeFromGamingGrp>
+        <TotalRevenueColumnAmt>1373012</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1373012</RelatedOrExemptFuncIncomeAmt>
+      </NetIncomeFromGamingGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>OTHER INCOME</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>38978</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>38978</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>38978</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>42978055</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>22332259</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>409403</ExclusionAmt>
+      </TotalRevenueGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>385302</TotalAmt>
+        <ProgramServicesAmt>357357</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>16152</ManagementAndGeneralAmt>
+        <FundraisingAmt>11793</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>8585598</TotalAmt>
+        <ProgramServicesAmt>7961743</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>361730</ManagementAndGeneralAmt>
+        <FundraisingAmt>262125</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>308969</TotalAmt>
+        <ProgramServicesAmt>287745</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11117</ManagementAndGeneralAmt>
+        <FundraisingAmt>10107</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>904947</TotalAmt>
+        <ProgramServicesAmt>842782</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>32561</ManagementAndGeneralAmt>
+        <FundraisingAmt>29604</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>701276</TotalAmt>
+        <ProgramServicesAmt>630120</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>51596</ManagementAndGeneralAmt>
+        <FundraisingAmt>19560</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>54271</TotalAmt>
+        <ManagementAndGeneralAmt>54271</ManagementAndGeneralAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>179003</TotalAmt>
+        <ManagementAndGeneralAmt>179003</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>442542</TotalAmt>
+        <ProgramServicesAmt>180394</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>248853</ManagementAndGeneralAmt>
+        <FundraisingAmt>13295</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>38576</TotalAmt>
+        <ProgramServicesAmt>35901</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2538</ManagementAndGeneralAmt>
+        <FundraisingAmt>137</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>415754</TotalAmt>
+        <ProgramServicesAmt>386925</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>27349</ManagementAndGeneralAmt>
+        <FundraisingAmt>1480</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <OccupancyGrp>
+        <TotalAmt>851207</TotalAmt>
+        <ProgramServicesAmt>769170</ProgramServicesAmt>
+        <FundraisingAmt>82037</FundraisingAmt>
+      </OccupancyGrp>
+      <InterestGrp>
+        <TotalAmt>14861</TotalAmt>
+        <ProgramServicesAmt>13830</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>978</ManagementAndGeneralAmt>
+        <FundraisingAmt>53</FundraisingAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>497726</TotalAmt>
+        <ProgramServicesAmt>468526</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>29200</ManagementAndGeneralAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>519160</TotalAmt>
+        <ProgramServicesAmt>467692</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>38968</ManagementAndGeneralAmt>
+        <FundraisingAmt>12500</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>CLIENT EXPENSE - FOOD</Desc>
+        <TotalAmt>990711</TotalAmt>
+        <ProgramServicesAmt>990711</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>CLIENT EXPENSE - MEDICA</Desc>
+        <TotalAmt>538729</TotalAmt>
+        <ProgramServicesAmt>538729</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>FACILITY REPAIRS</Desc>
+        <TotalAmt>432012</TotalAmt>
+        <ProgramServicesAmt>427997</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1382</ManagementAndGeneralAmt>
+        <FundraisingAmt>2633</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>FACILITY SUPPLIES</Desc>
+        <TotalAmt>393794</TotalAmt>
+        <ProgramServicesAmt>389888</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1111</ManagementAndGeneralAmt>
+        <FundraisingAmt>2795</FundraisingAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>799133</TotalAmt>
+        <ProgramServicesAmt>662055</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>24250</ManagementAndGeneralAmt>
+        <FundraisingAmt>112828</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>17053571</TotalAmt>
+        <ProgramServicesAmt>15411565</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1081059</ManagementAndGeneralAmt>
+        <FundraisingAmt>560947</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>2955304</BOYAmt>
+        <EOYAmt>2804781</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>6115386</BOYAmt>
+        <EOYAmt>7656012</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>2114504</BOYAmt>
+        <EOYAmt>2763522</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>641634</BOYAmt>
+        <EOYAmt>992018</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>45885194</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>10449975</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>8965377</BOYAmt>
+        <EOYAmt>35435219</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>1845156</BOYAmt>
+        <EOYAmt>1143403</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>22637361</BOYAmt>
+        <EOYAmt>50794955</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>1451870</BOYAmt>
+        <EOYAmt>3746842</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>4418006</BOYAmt>
+        <EOYAmt>4768181</EOYAmt>
+      </DeferredRevenueGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>1450691</BOYAmt>
+        <EOYAmt>1038654</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>7320567</BOYAmt>
+        <EOYAmt>9553677</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>15316794</BOYAmt>
+        <EOYAmt>41241278</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>15316794</BOYAmt>
+        <EOYAmt>41241278</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>22637361</BOYAmt>
+        <EOYAmt>50794955</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>25924484</ReconcilationRevenueExpnssAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <InfoInScheduleOPartXIIInd>X</InfoInScheduleOPartXIIInd>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolidatedBasisFinclStmtInd>X</ConsolidatedBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>10551477</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>10622561</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>9046358</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>16973304</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>41219377</CurrentTaxYearAmt>
+        <TotalAmt>88413077</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>10551477</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>10622561</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>9046358</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>16973304</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>41219377</CurrentTaxYearAmt>
+        <TotalAmt>88413077</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <PublicSupportTotal170Amt>88413077</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>56131</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>3239</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>6810</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>123081</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>409403</CurrentTaxYearAmt>
+        <TotalAmt>598664</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>91552</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>145319</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>445089</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>113153</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>38978</CurrentTaxYearAmt>
+        <TotalAmt>834091</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>89845832</TotalSupportAmt>
+      <PublicSupportCY170Pct>0.98410</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.73630</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+      <Form990ScheduleAPartVIGrp>
+        <FormAndLineReferenceDesc>SCHEDULE A, PART II, LINE 10, EXPLANATION OF OTHER INCOME:</FormAndLineReferenceDesc>
+        <ExplanationTxt>MANAGEMENT FEES AND OTHER INCOME - 2019 AMOUNT: $ 91,552. 2020 AMOUNT: $ 145,319. 2021 AMOUNT: $ 445,089. 2022 AMOUNT: $ 113,153. 2023 AMOUNT: $ 38,978.</ExplanationTxt>
+      </Form990ScheduleAPartVIGrp>
+      <Form990ScheduleAPartVIGrp>
+        <FormAndLineReferenceDesc>GOVERNMENT GRANT REPORTED ON FORM 990, PART VIII AND SCHEDULE A, PART II</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION RECEIVED A GOVERNMENT GRANT FROM: COUNTY OF LA - DEPARTMENT OF HEALTH SERVICES (DHSP) COUNTY OF LA - DEPARTMENT OF HEALTH SERVICES (SAPC) ADVOCATES FOR HUMAN POTENTIAL, INC. (AHP) MEDICATION ASSISTED TREATMENT (MAT) GRANT PROGRAM DURING THE TAX YEAR. THIS GRANT WAS USED TO SUPPORT SUBSTANCE ABUSE. FOR PURPOSES OF FORM 990, PART VIII, THE GRANT IS REPORTED AS PROGRAM SERVICE REVENUE ON LINE 1E, AS IT REPRESENTS PAYMENT FOR SPECIFIC SERVICES RENDERED IN ACCORDANCE WITH THE ORGANIZATION'S EXEMPT PURPOSE. FOR PURPOSES OF SCHEDULE A, PART II, THE GRANT IS APPROPRIATELY REPORTED AS A GOVERNMENT GRANT ON LINES 1 AND 5, AS THE SOURCE OF THE FUNDING IS A GOVERNMENT ENTITY AND QUALIFIES AS PUBLIC SUPPORT UNDER THE IRS PUBLIC CHARITY TEST. THIS DUAL TREATMENT IS CONSISTENT WITH IRS GUIDELINES, WHICH DISTINGUISH BETWEEN THE NATURE OF INCOME (PART VIII) AND THE SOURCE OF SUPPORT (SCHEDULE A).</ExplanationTxt>
+      </Form990ScheduleAPartVIGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>3043324</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>3043324</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>13034502</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>7515903</DepreciationAmt>
+        <BookValueAmt>5518599</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>217757</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>109084</DepreciationAmt>
+        <BookValueAmt>108673</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>1869685</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>1720084</DepreciationAmt>
+        <BookValueAmt>149601</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>27719926</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>1104904</DepreciationAmt>
+        <BookValueAmt>26615022</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>35435219</TotalBookValueLandBuildingsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>OPERATING LEASE LIABILITIES</Desc>
+        <Amt>1018937</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>FINANCE LEASE LIABILITIES</Desc>
+        <Amt>19717</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>1038654</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART X, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>CRI-HELP, INC. IS EXEMPT FROM FEDERAL INCOME TAXES UNDER SECTION 501(C)(3) OF THE INTERNAL REVENUE CODE AND IS EXEMPT FROM CALIFORNIA STATE FRANCHISE TAXES UNDER SECTION 23701(D) OF THE CALIFORNIA REVENUE AND TAXATION CODE. TO THE EXTENT THAT THE ORGANIZATION HAS UNRELATED BUSINESS INCOME, AS DEFINED BY SECTION 509(A)(1) OF THE INTERNAL REVENUE CODE, THAT INCOME MAY BE SUBJECT TO FEDERAL INCOME TAX. HOWEVER, THE ORGANIZATION DOES NOT BELIEVE THAT DURING THE YEAR ENDED JUNE 30, 2024, IT HAD ANY NET UNRELATED BUSINESS INCOME AND ACCORDINGLY, NO PROVISION FOR INCOME TAXES HAS BEEN RECORDED IN THE ACCOMPANYING CONSOLIDATED FINANCIAL STATEMENTS. THE ORGANIZATION FOLLOWS THE GUIDANCE OF FASB ASC 740, ACCOUNTING FOR INCOME TAXES, RELATED TO UNCERTAINTIES IN INCOME TAXES, WHICH PRESCRIBES A THRESHOLD OF MORE LIKELY THAN NOT FOR RECOGNITION AND DERECOGNITION OF TAX POSITIONS TAKEN OR EXPECTED TO BE TAKEN IN A TAX RETURN. THE ORGANIZATION HAS DETERMINED THAT THERE ARE NO MATERIAL UNCERTAIN TAX POSITIONS THAT REQUIRE RECOGNITION OR DISCLOSURE IN THE CONSOLIDATED FINANCIAL STATEMENTS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleG documentId="RetDoc1041300001">
+      <GamingInformationGrp>
+        <GrossRevenueBingoAmt>1588933</GrossRevenueBingoAmt>
+        <CashPrizesBingoAmt>1301340</CashPrizesBingoAmt>
+        <RentFacilityCostsBingoAmt>398025</RentFacilityCostsBingoAmt>
+        <OtherDirectExpensesBingoAmt>963329</OtherDirectExpensesBingoAmt>
+        <VolunteerLaborBingoInd>1</VolunteerLaborBingoInd>
+        <VolunteerLaborBingoPct>1.00000</VolunteerLaborBingoPct>
+        <GrossRevenuePullTabsAmt>7181815</GrossRevenuePullTabsAmt>
+        <CashPrizesPullTabsAmt>4735042</CashPrizesPullTabsAmt>
+        <VolunteerLaborPullTabsInd>1</VolunteerLaborPullTabsInd>
+        <VolunteerLaborPullTabsPct>1.00000</VolunteerLaborPullTabsPct>
+        <GrossRevenueTotalGamingAmt>8770748</GrossRevenueTotalGamingAmt>
+        <CashPrizesTotalGamingAmt>6036382</CashPrizesTotalGamingAmt>
+        <RentFcltyCostsTotalGamingAmt>398025</RentFcltyCostsTotalGamingAmt>
+        <OthDirectExpnssTotalGamingAmt>963329</OthDirectExpnssTotalGamingAmt>
+        <DirectExpenseSummaryGamingAmt>7397736</DirectExpenseSummaryGamingAmt>
+        <NetGamingIncomeSummaryAmt>1373012</NetGamingIncomeSummaryAmt>
+      </GamingInformationGrp>
+      <StatesWhereGamingConductedCd>CA</StatesWhereGamingConductedCd>
+      <LicensedInd>1</LicensedInd>
+      <LicenseSuspendedEtcInd>0</LicenseSuspendedEtcInd>
+      <GamingWithNonmembersInd>1</GamingWithNonmembersInd>
+      <MemberOfOtherEntityInd>0</MemberOfOtherEntityInd>
+      <GamingOwnFacilityPct>1.00000</GamingOwnFacilityPct>
+      <PersonsWithBooksName>
+        <BusinessNameLine1Txt>PAT FRANCO</BusinessNameLine1Txt>
+      </PersonsWithBooksName>
+      <PersonsWithBooksUSAddress>
+        <AddressLine1Txt>11027 BURBANK BLVD</AddressLine1Txt>
+        <CityNm>NORTH HOLLYWOOD</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91601</ZIPCd>
+      </PersonsWithBooksUSAddress>
+      <CntrctWith3rdPrtyForGameRevInd>0</CntrctWith3rdPrtyForGameRevInd>
+      <GamingManagerBusinessName>
+        <BusinessNameLine1Txt>MIKE BARABOO</BusinessNameLine1Txt>
+      </GamingManagerBusinessName>
+      <GamingManagerServicesProvTxt>VOLUNTEER-OVERSIGHT OF ALL BINGO/PULL</GamingManagerServicesProvTxt>
+      <CharitableDistributionRqrInd>0</CharitableDistributionRqrInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE G, PART III GAMING</FormAndLineReferenceDesc>
+        <ExplanationTxt>CRI-HELP, INC, ENGAGES IN GAMING ACTIVITIES, NAMELY BINGO AND INSTANT BINGO/PULL-TABS. THE ORGANIZATION DOES NOT REPORT THE REVENUE FROM ITS BINGO GAMING ACTIVITIES AS UNRELATED BUSINESS INCOME BECAUSE THE GAMES MEET THE DEFINITION OF BINGO UNDER THE CODE &amp; REGULATIONS, DO NOT VIOLATE STATE OR LOCAL LAW, AND ARE PLAYED IN A JURISDICTION WHERE BINGO GAMES ARE NOT REGULARLY CARRIED ON BY FOR-PROFIT ORGANIZATIONS. FURTHERMORE, THE ORGANIZATION OPERATES ITS GAMING USING VOLUNTEERS, WITH SUBSTANTIALLY ALL OF THE WORK OF THE ORGANIZATION'S GAMING OPERATIONS PERFORMED BY VOLUNTEERS (INDIVIDUALS WHO ARE NOT COMPENSATED). ACCORDINGLY, THE ORGANIZATION MEETS THE EXCEPTION FOR REPORTING ANY GAMING REVENUE (BINGO, INSTANT BINGO OR PULL-TABS) AS UNRELATED BUSINESS INCOME AND THEREFORE, HAS NO REQUIREMENT TO FILE IRS FORM 990T [TREASURY REGULATION SECTION 1.6012-2(E)] SINCE THE ORGANIZATION DOES NOT HAVE UNRELATED BUSINESS INCOME.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleG>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <Form990OfOtherOrganizationsInd>X</Form990OfOtherOrganizationsInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>1</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>1</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>BRANDON FERNANDEZ-COMER</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>207766</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>5000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>12334</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>9010</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>1420</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>235530</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>COMPENSATION OF EXECUTIVE DIRECTOR: THE EXECUTIVE DIRECTOR'S SALARY IS REVIEWED ANNUALLY BY THE BOARD USING THE ASSOCIATION COMPENSATION AND BENEFITS STUDY AS WELL AS THE CHARITY NAVIGATOR CEO COMPENSATION STUDY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 4A</FormAndLineReferenceDesc>
+        <ExplanationTxt>JACK BERNSTEIN = $165,639.42</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 7</FormAndLineReferenceDesc>
+        <ExplanationTxt>JACK BERNSTEIN RECEIVED NONFIXED PAYMENTS. THESE PAYMENTS WERE DETERMINED BY THE BOARD OF DIRECTORS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleL documentId="RetDoc1042800001">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <PersonNm>MARCUS SOLA</PersonNm>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>OFFICER</RelationshipDescriptionTxt>
+        <TransactionAmt>84000</TransactionAmt>
+        <TransactionDesc>CONSULTING SERVICES</TransactionDesc>
+        <SharingOfRevenuesInd>0</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+    </IRS990ScheduleL>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11B</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION'S PRESIDENT/CEO AND CHAIRMAN OF THE BOARD OF DIRECTORS WILL CAREFULLY REVIEW THE FORM 990 PRIOR TO SIGNING AND MAILING THE RETURN TO THE INTERNAL REVENUE SERVICE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>EACH BOARD MEMBER SIGNS A CONFLICT OF INTEREST ANNUALLY AND IF ANY CONFLICTS OF INTEREST ARISE DURING THE YEAR, THEY ARE REQUIRED TO DISCLOSE THEM. NEW MEMBERS SIGN THE CONFLICT OF INTEREST POLICY UPON ELECTION TO THE BOARD.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE EXECUTIVE DIRECTOR'S SALARY IS REVIEWED ANNUALLY BY THE BOARD USING THE ASSOCIATION COMPENSATION AND BENEFITS STUDY AS WELL AS THE CHARITY NAVIGATOR CEO COMPENSATION STUDY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION MAKES ITS GOVERNING DOCUMENTS, CONFLICT OF INTEREST POLICY, FINANCIAL STATEMENTS, AND OTHER PERTINENT DOCUMENTS AVAILABLE TO THE PUBLIC UPON REQUEST.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART XII, LINE 2C</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE PROCESS HAS NOT CHANGED FROM THE PRIOR YEAR.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>I-ADARP</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>8330 LANKERSHIM BLVD</AddressLine1Txt>
+          <CityNm>NORTH HOLLYWOOD</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91605</ZIPCd>
+        </USAddress>
+        <EIN>952860051</EIN>
+        <PrimaryActivitiesTxt>REHAB</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>0</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>0</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>0</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>0</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>1</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>I-ADARP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>Q</TransactionTypeTxt>
+        <InvolvedAmt>355376</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

@@ -1,0 +1,28 @@
+# Nonprofit leadership pay: the named officers, directors, and key employees of
+# the charities this site tracks, with their reported compensation — straight
+# from each organization's IRS Form 990, Part VII (a public disclosure the
+# organization itself signs).
+#
+# XMLs are pulled from the IRS's official bulk e-file releases
+# (irs.gov Form 990 series downloads) into sources/captured/990/ — one file per
+# organization, its latest available filing. The IRS posts bulk XML on a lag
+# (roughly a year behind the paper deadline), so filing years trail today; each
+# is labeled. Re-capture: rerun the fetch script when the IRS posts new zips.
+source: nonprofit_officers
+dataset: irs990_part_vii
+access: curated_snapshot
+cadence: "IRS posts bulk e-file XML monthly, ~a year behind filing; re-captured when new zips land"
+freshness_sla_hours: 17520
+min_rows: 100
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Names, titles, and compensation come from each organization's own IRS Form 990, Part VII — a public federal disclosure. Compensation is what the organization reported paying that person for the filing year shown."
+  - "Total shown is compensation from the organization plus related organizations plus estimated other compensation, as reported on the form."
+  - "The IRS releases e-filed returns on a delay, so the latest available filing is typically one to two years old; every figure carries its filing year."
+  - "An organization missing here either isn't in the IRS bulk XML yet or files a form without Part VII — absence is not a zero."
+info:
+  name: "IRS Form 990 Part VII — Officers, Directors & Key Employees"
+  publisher: "Internal Revenue Service (e-file bulk data)"
+  url: "https://www.irs.gov/charities-non-profits/form-990-series-downloads"
+  license: "Public record (IRS)"

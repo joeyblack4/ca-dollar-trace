@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2024v5.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-11-14T13:14:49-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>680204223</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>ULLRICH DELEVATI CPAS</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>433 2ND ST STE 106</AddressLine1Txt>
+        <CityNm>WOODLAND</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>956954065</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>680413703</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>ARCHWAY RECOVERY SERVICES INC</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>ARCH</BusinessNameControlTxt>
+      <PhoneNum>7073999190</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>609 JEFFERSON ST</AddressLine1Txt>
+        <CityNm>FAIRFIELD</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94533</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>BILLY GAITHER JR</PersonNm>
+      <PersonTitleTxt>CHAIRMAN</PersonTitleTxt>
+      <PhoneNum>7073999190</PhoneNum>
+      <SignatureDt>2025-11-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>MARCUS E ULLRICH CPA</PreparerPersonNm>
+      <PTIN>P00015442</PTIN>
+      <PhoneNum>5306666671</PhoneNum>
+      <PreparationDt>2025-11-12</PreparationDt>
+      <SelfEmployedInd>X</SelfEmployedInd>
+    </PreparerPersonGrp>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990 documentId="RetDoc2" referenceDocumentId="RetDoc6">
+      <PrincipalOfficerNm>BILLY GAITHER JR</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>201 ASHWOOD DRIVE</AddressLine1Txt>
+        <CityNm>SUISUN CITY</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94585</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>11706282</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>false</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.ARCHWAYRECOVERY.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2002</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>ARCHWAY RECOVERY SERVICES PROVIDES COMPASSIONATE, EVIDENCE-BASED TREATMENT AND PREVENTION SERVICES THAT SERVE TO ADDRESS ADDICTION AND ITS ROOT CAUSES - EMPOWERING INDIVIDUALS TO RECOVER, FAMILES TO HEAL, AND COMMUNITIES TO THRIVE.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>6</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>5</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>185</TotalEmployeeCnt>
+      <TotalVolunteersCnt>6</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <PYContributionsGrantsAmt>710892</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>1694641</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>5977624</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>10000175</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>-3644</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>5835</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>28272</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>5382</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>6713144</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>11706033</CYTotalRevenueAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>3697370</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>6552281</CYSalariesCompEmpBnftPaidAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>25530</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>1582952</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>2929431</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>5280322</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>9481712</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>1432822</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>2224321</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>3738614</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>5194059</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>1218766</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>1033555</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>2519848</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>4160504</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>ARCHWAY RECOVERY SERVICES PROVIDES COMPASSIONATE, EVIDENCE-BASED TREATMENT AND PREVENTION SERVICES THAT SERVE TO ADDRESS ADDICTION AND ITS ROOT CAUSES - EMPOWERING INDIVIDUALS TO RECOVER, FAMILES TO HEAL, AND COMMUNITIES TO THRIVE.</MissionDesc>
+      <SignificantNewProgramSrvcInd>false</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>false</SignificantChangeInd>
+      <ExpenseAmt>5229637</ExpenseAmt>
+      <RevenueAmt>7169548</RevenueAmt>
+      <Desc>ARCHWAY RECOVERY SERVICES (ARS) REMAINS THE LEADING DRUG &amp; ALCOHOL REHABILITATION PROGRAM FOR RESIDENTS OF SOLANO AND NAPA COUNTIES, CALIFORNIA, IN NEED OF FINANCIALLY ASSISTED ADDICTION THERAPY AND SUPPORT. WE OFFER DETOX AND RESIDENTIAL SUBSTANCE ABUSE TREATMENT IN WARM, CARING ENVIRONMENTS, AS WELL AS OUTPATIENT PROGRAMS AND SOBER-LIVING HOMES. IN 2024, ARS OPERATED 14 FACILITIES IN FAIRFIELD, CALIFORNIA AND ONE FACILITY IN NAPA: TWO RESIDENTIAL TREATMENT PROGRAMS FOR MEN AND WOMEN, ONE INTENSIVE OUTPATIENT PROGRAM FOR MEN AND WOMEN, AN ADMINISTRATIVE OFFICE AND NINE SOBER LIVING ENVIRONMENTS FOR MEN AND WOMEN. DURING 2024 WE INVESTED IN CONSOLIDATING TWO OUTPATIENT TREAMENT PROGRAMS INTO ONE NEW FACILITY. THIS HAS LED TO FURTHER IMPROVEMENT IN CLIENT SERVICES AND OUTCOMES. THE YEAR 2024 SAW ANOTHER YEAR OF GROWTH FOR ARS' SERVICES. THE ORGANIZATION EXPANDED THE NUMBER OF PEOPLE SERVED, SUPPORTING NEW RELATIONSHIPS WITH REFERRAL PARTNERS FORMED IN PRIOR YEARS. ARS SERVED MEN REFERRED FROM WITH THE CALIFORNIA DEPARTMENT OF CORRECTIONS AND REHABILITATION, AS WELL AS MEN AND WOMEN REFERRED BY THE SOLANO COUNTY DEPARTMENT OF PROBATION, THE SOLANO COUNTY DISTRICT COURT, AND THE FEDERAL COURT. THE ORGANIZATION WAS AWARDED A NUMBER OF MULTI-YEAR GRANTS AND CONTRACTS BEGINNING IN 2022 AND THROUGH 2024, WHICH CONTINUE TO SUPPORT THE GROWTH WE HAVE BEEN EXPERIENCING.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>2375582</ExpenseAmt>
+        <RevenueAmt>2830627</RevenueAmt>
+        <Desc>IN SEEKING TO EXPAND OUR SERVICES TO ASSIST MORE LOCAL INDIVIDUALS, ARCHWAY IS PARTNERING WITH NAPA COUNTY, SOLANO COUNTY, LAKE COUNTY, AND THE CITIES OF FAIRFIELD, VALLEJO, VACAVILLE, DIXON, AND RIO VISTA TO ASSIST THESE POLITICAL SUBDIVISIONS OF THE STATE OF CALIFORNIA IN FULFILLING THEIR OBLIGATIONS UNDER THE CALIFORNIA DEPARTMENT OF HEALTH CARE SERVICES BEHAVIORAL HEALTH CONTINUUM INFRASTRUCTURE PROGRAM. IN 2023, USING FUNDS PROVIDED BY THE NAPA COUNTY BOARD OF SUPERVISORS, WE REHABILITATED A FACILITY ON THE GROUNDS OF THE NAPA STATE HOSPITAL. THE NEW RESIDENTIAL TREATMENT PROGRAM OPENED IN FEBRUARY 2024. THE ORGANIZATION HAS ALSO BEEN AWARDED A GRANT OF 14,274,608 FOR THE CONSTRUCTION OF A NEW RESIDENTIAL TREATMENT FACILITY IN FAIRFIELD. FUNDING OF THE AWARD BEGAN IN 2023 WITH THE COMPLETION OF DEVELOPMENT PHASE OF THE PROJECT IN 2024. CONSTRUCTION ON THE NEW FACILITY WILL BEGIN IN LATE 2025.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <TotalProgramServiceExpensesAmt>7605219</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc7">true</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd>false</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>false</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc3">false</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc3">false</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc3">false</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc3">false</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd referenceDocumentId="RetDoc3">false</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc3">true</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc3">false</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc3">false</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc3">true</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc3">true</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc3">false</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc3">false</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc3">false</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <ForeignActivitiesInd>false</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>false</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>false</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>false</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>false</FundraisingActivitiesInd>
+      <GamingActivitiesInd>false</GamingActivitiesInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc4">true</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>false</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd referenceDocumentId="RetDoc5">false</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd referenceDocumentId="RetDoc5">false</PYExcessBenefitTransInd>
+      <LoanOutstandingInd referenceDocumentId="RetDoc5">false</LoanOutstandingInd>
+      <GrantToRelatedPersonInd referenceDocumentId="RetDoc5">false</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd referenceDocumentId="RetDoc5">false</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="RetDoc5">true</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd referenceDocumentId="RetDoc5">false</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>false</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>false</DeductibleArtContributionInd>
+      <TerminateOperationsInd>false</TerminateOperationsInd>
+      <PartialLiquidationInd>false</PartialLiquidationInd>
+      <DisregardedEntityInd>false</DisregardedEntityInd>
+      <RelatedEntityInd>false</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>false</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>true</ScheduleORequiredInd>
+      <IRPDocumentCnt>20</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <EmployeeCnt>185</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>true</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>false</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>false</NondeductibleContributionsInd>
+      <IndoorTanningServicesInd>false</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>false</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>6</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>5</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>false</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>false</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>false</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>false</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>false</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>false</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>false</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>true</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>true</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>false</OfficerMailingAddressInd>
+      <LocalChaptersInd>false</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>false</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>true</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>true</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>true</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>true</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>true</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>true</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>true</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>false</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <OtherWebsiteInd>X</OtherWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <PersonNm>JUAN VARGAS</PersonNm>
+        <PhoneNum>7073999190</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>609 JEFFERSON ST</AddressLine1Txt>
+          <CityNm>FAIRFIELD</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94533</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KEVIN PHILLIPS</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <KeyEmployeeInd>X</KeyEmployeeInd>
+        <ReportableCompFromOrgAmt>197708</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>17275</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>WANDA COOK</PersonNm>
+        <TitleTxt>COO</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>138008</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>14388</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHRISTOPHER AUDETTE</PersonNm>
+        <TitleTxt>DIR OF FACIL</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>126500</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>12007</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JULIE LAKE</PersonNm>
+        <TitleTxt>EXECUTIVE DI</TitleTxt>
+        <AverageHoursPerWeekRt>0.00</AverageHoursPerWeekRt>
+        <FormerOfcrDirectorTrusteeInd>X</FormerOfcrDirectorTrusteeInd>
+        <ReportableCompFromOrgAmt>101010</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>BENTLEY SMITH</PersonNm>
+        <TitleTxt>TREASURER</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>19250</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHERI AUBERT</PersonNm>
+        <TitleTxt>SECRETARY</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CHRISTINE BROCKMAN</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ERIK JOHNSON</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>BILLY GAITHER JR</PersonNm>
+        <TitleTxt>CHAIRMAN</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SANDY WHALEY</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>1.50</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>582476</TotalReportableCompFromOrgAmt>
+      <TotalOtherCompensationAmt>43670</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>4</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>true</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>true</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>false</CompensationFromOtherSrcsInd>
+      <GovernmentGrantsAmt>816756</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>877885</AllOtherContributionsAmt>
+      <TotalContributionsAmt>1694641</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>MEDICATION ASSISTED TREATMENT</Desc>
+        <TotalRevenueColumnAmt>7720908</TotalRevenueColumnAmt>
+        <ExclusionAmt>7720908</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>COUNTY OF NAPA - REHAB CONTR</Desc>
+        <TotalRevenueColumnAmt>1196420</TotalRevenueColumnAmt>
+        <ExclusionAmt>1196420</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>STOP PROGRAM</Desc>
+        <TotalRevenueColumnAmt>633580</TotalRevenueColumnAmt>
+        <ExclusionAmt>633580</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>RE-ENTRY PROGRAMS</Desc>
+        <TotalRevenueColumnAmt>355244</TotalRevenueColumnAmt>
+        <ExclusionAmt>355244</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>PRIVATE PAY FEES</Desc>
+        <TotalRevenueColumnAmt>81982</TotalRevenueColumnAmt>
+        <ExclusionAmt>81982</ExclusionAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalOthProgramServiceRevGrp>
+        <TotalRevenueColumnAmt>12041</TotalRevenueColumnAmt>
+        <ExclusionAmt>12041</ExclusionAmt>
+      </TotalOthProgramServiceRevGrp>
+      <TotalProgramServiceRevenueAmt>10000175</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>5835</TotalRevenueColumnAmt>
+        <ExclusionAmt>5835</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <GrossRentsGrp>
+        <RealAmt>5600</RealAmt>
+      </GrossRentsGrp>
+      <LessRentalExpensesGrp>
+        <RealAmt>249</RealAmt>
+      </LessRentalExpensesGrp>
+      <RentalIncomeOrLossGrp>
+        <RealAmt>5351</RealAmt>
+      </RentalIncomeOrLossGrp>
+      <NetRentalIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>5351</TotalRevenueColumnAmt>
+        <ExclusionAmt>5351</ExclusionAmt>
+      </NetRentalIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>DHCS - MISC PAYMENT</Desc>
+        <TotalRevenueColumnAmt>31</TotalRevenueColumnAmt>
+        <ExclusionAmt>31</ExclusionAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>31</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>11706033</TotalRevenueColumnAmt>
+        <ExclusionAmt>10011392</ExclusionAmt>
+      </TotalRevenueGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>197709</TotalAmt>
+        <ProgramServicesAmt>59313</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>118625</ManagementAndGeneralAmt>
+        <FundraisingAmt>19771</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <CompDisqualPersonsGrp>
+        <TotalAmt>101010</TotalAmt>
+        <ManagementAndGeneralAmt>101010</ManagementAndGeneralAmt>
+      </CompDisqualPersonsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>5498514</TotalAmt>
+        <ProgramServicesAmt>4617904</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>880610</ManagementAndGeneralAmt>
+      </OtherSalariesAndWagesGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>278520</TotalAmt>
+        <ProgramServicesAmt>153298</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>122004</ManagementAndGeneralAmt>
+        <FundraisingAmt>3218</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>476528</TotalAmt>
+        <ProgramServicesAmt>378789</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>96385</ManagementAndGeneralAmt>
+        <FundraisingAmt>1354</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>63559</TotalAmt>
+        <ProgramServicesAmt>49967</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>13592</ManagementAndGeneralAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>17111</TotalAmt>
+        <ManagementAndGeneralAmt>17111</ManagementAndGeneralAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>29960</TotalAmt>
+        <ManagementAndGeneralAmt>29960</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>93159</TotalAmt>
+        <ProgramServicesAmt>68347</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>24812</ManagementAndGeneralAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>9723</TotalAmt>
+        <ProgramServicesAmt>7247</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2476</ManagementAndGeneralAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>72003</TotalAmt>
+        <ProgramServicesAmt>54362</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17641</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>147383</TotalAmt>
+        <ProgramServicesAmt>17332</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>130051</ManagementAndGeneralAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>1455279</TotalAmt>
+        <ProgramServicesAmt>1364616</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>90663</ManagementAndGeneralAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>45792</TotalAmt>
+        <ProgramServicesAmt>42737</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3055</ManagementAndGeneralAmt>
+      </TravelGrp>
+      <InterestGrp>
+        <TotalAmt>5133</TotalAmt>
+        <ProgramServicesAmt>83</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5050</ManagementAndGeneralAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>69117</TotalAmt>
+        <ProgramServicesAmt>48741</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>20354</ManagementAndGeneralAmt>
+        <FundraisingAmt>22</FundraisingAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>414523</TotalAmt>
+        <ProgramServicesAmt>347575</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>65783</ManagementAndGeneralAmt>
+        <FundraisingAmt>1165</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>OTHER PROGRAM COSTS</Desc>
+        <TotalAmt>323156</TotalAmt>
+        <ProgramServicesAmt>323156</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>PAYROLL PROCESSING FEES</Desc>
+        <TotalAmt>89401</TotalAmt>
+        <ManagementAndGeneralAmt>89401</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>DHCS TREATMENT LICENSES</Desc>
+        <TotalAmt>52354</TotalAmt>
+        <ProgramServicesAmt>52354</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>DHSC TREATMENT LICENSES</Desc>
+        <TotalAmt>17505</TotalAmt>
+        <ProgramServicesAmt>17505</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>24273</TotalAmt>
+        <ProgramServicesAmt>1893</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>22380</ManagementAndGeneralAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>9481712</TotalAmt>
+        <ProgramServicesAmt>7605219</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1850963</ManagementAndGeneralAmt>
+        <FundraisingAmt>25530</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>1372261</BOYAmt>
+        <EOYAmt>953721</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>1159798</BOYAmt>
+        <EOYAmt>143021</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>549898</BOYAmt>
+        <EOYAmt>1923256</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>37720</BOYAmt>
+        <EOYAmt>210341</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>1118498</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>159429</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>194481</BOYAmt>
+        <EOYAmt>959069</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <IntangibleAssetsGrp>
+        <BOYAmt>42346</BOYAmt>
+      </IntangibleAssetsGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>382110</BOYAmt>
+        <EOYAmt>1004651</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>3738614</BOYAmt>
+        <EOYAmt>5194059</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>41406</BOYAmt>
+        <EOYAmt>57847</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>1007816</BOYAmt>
+        <EOYAmt>253478</EOYAmt>
+      </DeferredRevenueGrp>
+      <UnsecuredNotesLoansPayableGrp>
+        <BOYAmt>161361</BOYAmt>
+        <EOYAmt>152551</EOYAmt>
+      </UnsecuredNotesLoansPayableGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>8183</BOYAmt>
+        <EOYAmt>569679</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>1218766</BOYAmt>
+        <EOYAmt>1033555</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>2496776</BOYAmt>
+        <EOYAmt>4160504</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>23072</BOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>2519848</BOYAmt>
+        <EOYAmt>4160504</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>3738614</BOYAmt>
+        <EOYAmt>5194059</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>2224321</ReconcilationRevenueExpnssAmt>
+      <PriorPeriodAdjustmentsAmt>-591045</PriorPeriodAdjustmentsAmt>
+      <OtherChangesInNetAssetsAmt>7380</OtherChangesInNetAssetsAmt>
+      <InfoInScheduleOPartXIIInd>X</InfoInScheduleOPartXIIInd>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>false</AccountantCompileOrReviewInd>
+      <FSAuditedInd>false</FSAuditedInd>
+      <FederalGrantAuditRequiredInd>true</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>false</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc7">
+      <PubliclySupportedOrg509a2Ind>X</PubliclySupportedOrg509a2Ind>
+      <GiftsGrantsContrisRcvd509Grp>
+        <CurrentTaxYearMinus4YearsAmt>124297</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>34327</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>194352</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>710892</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>1694641</CurrentTaxYearAmt>
+        <TotalAmt>2758509</TotalAmt>
+      </GiftsGrantsContrisRcvd509Grp>
+      <GrossReceiptsNonUnrltBusGrp>
+        <CurrentTaxYearMinus4YearsAmt>1683002</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>2757872</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4028910</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>5977624</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>10000175</CurrentTaxYearAmt>
+        <TotalAmt>24447583</TotalAmt>
+      </GrossReceiptsNonUnrltBusGrp>
+      <Total509Grp>
+        <CurrentTaxYearMinus4YearsAmt>1807299</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>2792199</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4223262</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>6688516</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>11694816</CurrentTaxYearAmt>
+        <TotalAmt>27206092</TotalAmt>
+      </Total509Grp>
+      <PublicSupportTotal509Amt>27206092</PublicSupportTotal509Amt>
+      <GrossInvestmentIncome509Grp>
+        <CurrentTaxYearMinus2YearsAmt>6003</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>18078</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>11435</CurrentTaxYearAmt>
+        <TotalAmt>35516</TotalAmt>
+      </GrossInvestmentIncome509Grp>
+      <InvestmentIncomeAndUBTIGrp>
+        <CurrentTaxYearMinus2YearsAmt>6003</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>18078</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>11435</CurrentTaxYearAmt>
+        <TotalAmt>35516</TotalAmt>
+      </InvestmentIncomeAndUBTIGrp>
+      <NetIncomeFromOtherUBIGrp>
+        <CurrentTaxYearMinus1YearAmt>9630</CurrentTaxYearMinus1YearAmt>
+        <TotalAmt>9630</TotalAmt>
+      </NetIncomeFromOtherUBIGrp>
+      <OtherIncome509Grp>
+        <CurrentTaxYearMinus3YearsAmt>214</CurrentTaxYearMinus3YearsAmt>
+        <TotalAmt>214</TotalAmt>
+      </OtherIncome509Grp>
+      <TotalSupportCalendarYearGrp>
+        <CurrentTaxYearMinus4YearsAmt>1807299</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>2792413</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4229265</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>6716224</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>11706251</CurrentTaxYearAmt>
+        <TotalAmt>27251452</TotalAmt>
+      </TotalSupportCalendarYearGrp>
+      <PublicSupportCY509Pct>0.99830</PublicSupportCY509Pct>
+      <PublicSupportPY509Pct>0.99800</PublicSupportPY509Pct>
+      <InvestmentIncomeCYPct>0.00000</InvestmentIncomeCYPct>
+      <InvestmentIncomePYPct>0.00000</InvestmentIncomePYPct>
+      <ThirtyThrPctSuprtTestsCY509Ind>X</ThirtyThrPctSuprtTestsCY509Ind>
+      <Form990ScheduleAPartVIGrp>
+        <FormAndLineReferenceDesc>PART III, LINE 12</FormAndLineReferenceDesc>
+        <ExplanationTxt>MISCELLANEOUS INCOME 214</ExplanationTxt>
+      </Form990ScheduleAPartVIGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleD documentId="RetDoc3">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>138556</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>138556</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>339225</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>3533</DepreciationAmt>
+        <BookValueAmt>335692</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>294950</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>45466</DepreciationAmt>
+        <BookValueAmt>249484</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>287472</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>96489</DepreciationAmt>
+        <BookValueAmt>190983</BookValueAmt>
+      </EquipmentGrp>
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>58295</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>13941</DepreciationAmt>
+        <BookValueAmt>44354</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>959069</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>CONSTRUCTION IN PROGRESS</Desc>
+        <BookValueAmt>1004651</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>1004651</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ACCRUED LITIGATION SETTLEMENT</Desc>
+        <Amt>384000</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ACCRUED VACATION</Desc>
+        <Amt>157095</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ADP RETIREMENT CONTRIBUTIONS</Desc>
+        <Amt>21097</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ACCRUED INTEREST</Desc>
+        <Amt>4063</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>HOUSING DEPOSIT</Desc>
+        <Amt>1800</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>PAYROLL TAXES PAYABLE</Desc>
+        <Amt>1624</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>569679</TotalLiabilityAmt>
+    </IRS990ScheduleD>
+    <IRS990ScheduleJ documentId="RetDoc4">
+      <SeverancePaymentInd>false</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>false</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>false</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>false</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>false</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>false</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>false</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>false</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>false</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>KEVIN PHILLIPS</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>197708</BaseCompensationFilingOrgAmt>
+        <NontaxableBenefitsFilingOrgAmt>17275</NontaxableBenefitsFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>214983</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>WANDA COOK</PersonNm>
+        <TitleTxt>COO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>138008</BaseCompensationFilingOrgAmt>
+        <NontaxableBenefitsFilingOrgAmt>14388</NontaxableBenefitsFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>152396</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>JULIE LAKE</PersonNm>
+        <TitleTxt>EXECUTIVE DIRECTOR</TitleTxt>
+        <BaseCompensationFilingOrgAmt>101010</BaseCompensationFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>101010</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleL documentId="RetDoc5">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <PersonNm>ELIZABETH PHILLIPS</PersonNm>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>SISTER</RelationshipDescriptionTxt>
+        <TransactionAmt>102000</TransactionAmt>
+        <TransactionDesc>RENT - 609 JEFFERSON</TransactionDesc>
+        <SharingOfRevenuesInd>false</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <BusinessName>
+            <BusinessNameLine1Txt>NURSING THE SYSTEM</BusinessNameLine1Txt>
+          </BusinessName>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>DAUGHTER</RelationshipDescriptionTxt>
+        <TransactionAmt>4691</TransactionAmt>
+        <TransactionDesc>CONSULTANT</TransactionDesc>
+        <SharingOfRevenuesInd>false</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>SCHEDULE L, PART V</FormAndLineReferenceDesc>
+        <ExplanationTxt>ELIZABETH PHILLIPS IS THE TRUSTEE OF THE WAYNE E. PHILLIPS AND MARGARET M. PHILLIPS REMAINDER TRUST, FROM WHOM THE ORGANIZATION RENTS PART OF THE BUILDING AT 609 JEFFERSON. TWO-THIRDS OF THE SPACE AT 609 JEFFERSON IS USED FOR ADMINISTRATIVE OFFICES AND ONE-THIRD IS USED FOR PROGRAM SERVICES. THE BUILDING IS LEASED AT A BELOW-MARKET RATE. CLAIRE PHILLIPS CONSULTS ON THE CONTINUING IMPLEMENTATION OF THE ORGANIZATION'S ELECTRONIC MEDICAL RECORDS SYSTEM, WHICH SHE HELPED TO IMPLEMENT IN 2022. SHE HAS A PH.D. IN HEALTHCARE SYSTEMS WITH UNIQUE INSIGHT IN USING ELECTRONIC MEDICAL RECORDS FOR BETTER SERVICE TO PATIENTS AND CLIENTS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleL>
+    <IRS990ScheduleO documentId="RetDoc6">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990 - ORGANIZATION'S MISSION</FormAndLineReferenceDesc>
+        <ExplanationTxt>ARCHWAY RECOVERY SERVICES PROVIDES COMPASSIONATE, EVIDENCE-BASED TREATMENT AND PREVENTION SERVICES THAT SERVE TO ADDRESS ADDICTION AND ITS ROOT CAUSES - EMPOWERING INDIVIDUALS TO RECOVER, FAMILES TO HEAL, AND COMMUNITIES TO THRIVE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 1, PART I, LINE 6</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE VOLUNTEERS ARE BOARD MEMBERS WHO SERVE WITHOUT COMPENSATION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 2, PART III, LINE 4A</FormAndLineReferenceDesc>
+        <ExplanationTxt>ARCHWAY RECOVERY SERVICES (ARS) REMAINS THE LEADING DRUG &amp; ALCOHOL REHABILITATION PROGRAM FOR RESIDENTS OF SOLANO AND NAPA COUNTIES, CALIFORNIA, IN NEED OF FINANCIALLY ASSISTED ADDICTION THERAPY AND SUPPORT. WE OFFER DETOX AND RESIDENTIAL SUBSTANCE ABUSE TREATMENT IN WARM, CARING ENVIRONMENTS, AS WELL AS OUTPATIENT PROGRAMS AND SOBER-LIVING HOMES. IN 2024, ARS OPERATED 14 FACILITIES IN FAIRFIELD, CALIFORNIA AND ONE FACILITY IN NAPA: TWO RESIDENTIAL TREATMENT PROGRAMS FOR MEN AND WOMEN, ONE INTENSIVE OUTPATIENT PROGRAM FOR MEN AND WOMEN, AN ADMINISTRATIVE OFFICE AND NINE SOBER LIVING ENVIRONMENTS FOR MEN AND WOMEN. DURING 2024 WE INVESTED IN CONSOLIDATING TWO OUTPATIENT TREAMENT PROGRAMS INTO ONE NEW FACILITY. THIS HAS LED TO FURTHER IMPROVEMENT IN CLIENT SERVICES AND OUTCOMES. THE YEAR 2024 SAW ANOTHER YEAR OF GROWTH FOR ARS' SERVICES. THE ORGANIZATION EXPANDED THE NUMBER OF PEOPLE SERVED, SUPPORTING NEW RELATIONSHIPS WITH REFERRAL PARTNERS FORMED IN PRIOR YEARS. ARS SERVED MEN REFERRED FROM WITH THE CALIFORNIA DEPARTMENT OF CORRECTIONS AND REHABILITATION, AS WELL AS MEN AND WOMEN REFERRED BY THE SOLANO COUNTY DEPARTMENT OF PROBATION, THE SOLANO COUNTY DISTRICT COURT, AND THE FEDERAL COURT. THE ORGANIZATION WAS AWARDED A NUMBER OF MULTI-YEAR GRANTS AND CONTRACTS BEGINNING IN 2022 AND THROUGH 2024, WHICH CONTINUE TO SUPPORT THE GROWTH WE HAVE BEEN EXPERIENCING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 2, PART III, LINE 4B</FormAndLineReferenceDesc>
+        <ExplanationTxt>IN SEEKING TO EXPAND OUR SERVICES TO ASSIST MORE LOCAL INDIVIDUALS, ARCHWAY IS PARTNERING WITH NAPA COUNTY, SOLANO COUNTY, LAKE COUNTY, AND THE CITIES OF FAIRFIELD, VALLEJO, VACAVILLE, DIXON, AND RIO VISTA TO ASSIST THESE POLITICAL SUBDIVISIONS OF THE STATE OF CALIFORNIA IN FULFILLING THEIR OBLIGATIONS UNDER THE CALIFORNIA DEPARTMENT OF HEALTH CARE SERVICES BEHAVIORAL HEALTH CONTINUUM INFRASTRUCTURE PROGRAM. IN 2023, USING FUNDS PROVIDED BY THE NAPA COUNTY BOARD OF SUPERVISORS, WE REHABILITATED A FACILITY ON THE GROUNDS OF THE NAPA STATE HOSPITAL. THE NEW RESIDENTIAL TREATMENT PROGRAM OPENED IN FEBRUARY 2024. THE ORGANIZATION HAS ALSO BEEN AWARDED A GRANT OF 14,274,608 FOR THE CONSTRUCTION OF A NEW RESIDENTIAL TREATMENT FACILITY IN FAIRFIELD. FUNDING OF THE AWARD BEGAN IN 2023 WITH THE COMPLETION OF DEVELOPMENT PHASE OF THE PROJECT IN 2024. CONSTRUCTION ON THE NEW FACILITY WILL BEGIN IN LATE 2025.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 6, PART VI, LINE 11B</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE CFO, THE BOARD CHAIRMAN AND THE EXECUTIVE DIRECTOR REVIEW THE FORM 990 PRIOR TO FILING THE RETURNS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 6, PART VI, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>TRANSACTIONS IN WHICH ARCHWAY RECOVERY SERVICES, INC. IS A PARTY AND IN WHICH ONE OR MORE BOARD MEMBERS HAS A MATERIAL FINANCIAL INTEREST IS PERMITTED ONLY IF THE ORGANIZATION IS ACTING IN ITS OWN INTEREST AND FOR ITS OWN BENEFIT RATHER THAN FOR THE BENEFIT OF THE BOARD MEMBER. BEFORE THE TRANSACTION IS APPROVED BY THE BOARD, IT WILL REASONABLY INVESTIGATE AND CONSIDER ALTERNATIVE ARRANGEMENTS IN GOOD FAITH AND IT MUST BE DETERMINED THAT THE ORGANIZATION COULD NOT HAVE OBTAINED A MORE ADVANTAGEOUS ARRANGEMENT ELSEWHERE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 6, PART VI, LINE 15A</FormAndLineReferenceDesc>
+        <ExplanationTxt>A REVIEW OF SALARIES FOR SIMILAR POSITIONS IN THE REGION ASSISTS THE BOARD IN DETERMINING APPROPRIATE SALARIES.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 6, PART VI, LINE 15B</FormAndLineReferenceDesc>
+        <ExplanationTxt>A REVIEW OF SALARIES FOR SIMILAR POSITIONS IN THE REGION ASSISTS THE BOARD IN DETERMINING APPROPRIATE SALARIES.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 6, PART VI, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>GOVERNING DOCUMENTS ARE MADE AVAILABLE TO THE PUBLIC TO REVIEW UPON REQUEST.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART XI, LINE 9</FormAndLineReferenceDesc>
+        <ExplanationTxt>BOOK / TAX DEPRECIATION DIFFERENCE 2 A/R BALANCE CHANGED FROM PRIOR YEAR 2,968 A/P BALANCE CHANGED FROM PRIOR YEAR 4,410 TOTAL 7,380</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PAGE 12, PART XII, LINE 3B</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION HAS CONTRACTED WITH AN ACCOUNTING FIRM TO BEGIN THE AUDIT OF THE 2024 CALENDAR YEAR LATER THIS YEAR. THE AUDITS FOR 2021 THROUGH 2023 WERE COMPLETED AND DELIVERED IN OCTOBER 2025.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>

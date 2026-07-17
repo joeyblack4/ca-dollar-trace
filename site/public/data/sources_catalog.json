@@ -5,15 +5,15 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying source keeps its own license"
   },
-  "as_of": "2026-07-17T010004Z",
-  "ingested_at": "2026-07-17T01:00:04.827329+00:00",
+  "as_of": "2026-07-17T020407Z",
+  "ingested_at": "2026-07-17T02:04:07.077320+00:00",
   "cadence": "regenerated each run from the source configs",
   "coverage_flag": "traceable",
   "caveats": [
     "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
   ],
   "data": {
-    "source_count": 17,
+    "source_count": 18,
     "layer_order": [
       "The state budget",
       "State spending",
@@ -120,8 +120,10 @@
         "cadence": "annual (SCO publishes the prior calendar year each fall)",
         "coverage_flag": "traceable",
         "caveats": [
-          "Government Compensation in California, reported to the State Controller. Public-employee names and salaries are disclosable (IFPTE Local 21 v. Superior Court, 2007); this is position-level, aggregated here to employer totals.",
-          "Covers state departments, counties, and cities for 2024 (the file set also offers UC, CSU, community colleges, special districts, and courts \u2014 added as captured).",
+          "Government Compensation in California, reported to the State Controller. Each row is one position's actual pay and benefits for the year, with the job title \u2014 the SCO strips employee names before publishing.",
+          "Covers state departments, counties, cities, K-12 school districts, community college districts, CSU, UC, special districts, and superior courts for 2024.",
+          "Pay shown is actual wages received in the calendar year \u2014 someone hired mid-year shows a partial year, which pulls medians down.",
+          "Not every government files: several large school districts (San Diego, San Francisco, Elk Grove, and Oakland Unified among them) reported no 2024 payroll to the Controller. A district that filed a prior year is shown with that year labeled; a district that never filed shows no payroll at all \u2014 absence is never invented.",
           "Benefits shown are the employer's retirement + health/dental/vision contribution; pension unfunded-liability payments are reported separately by the systems."
         ],
         "layer": "State spending",
@@ -279,6 +281,22 @@
         ],
         "layer": "Recipient registries",
         "feeds": "Charity registration standing and IRS Form 990 filings for nonprofits."
+      },
+      {
+        "source": "nonprofit_officers",
+        "name": "IRS Form 990 Part VII \u2014 Officers, Directors & Key Employees",
+        "publisher": "Internal Revenue Service (e-file bulk data)",
+        "url": "https://www.irs.gov/charities-non-profits/form-990-series-downloads",
+        "cadence": "IRS posts bulk e-file XML monthly, ~a year behind filing; re-captured when new zips land",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Names, titles, and compensation come from each organization's own IRS Form 990, Part VII \u2014 a public federal disclosure. Compensation is what the organization reported paying that person for the filing year shown.",
+          "Total shown is compensation from the organization plus related organizations plus estimated other compensation, as reported on the form.",
+          "The IRS releases e-filed returns on a delay, so the latest available filing is typically one to two years old; every figure carries its filing year.",
+          "An organization missing here either isn't in the IRS bulk XML yet or files a form without Part VII \u2014 absence is not a zero."
+        ],
+        "layer": "Recipient registries",
+        "feeds": "Who runs each nonprofit and what they're paid \u2014 named officers from IRS Form 990."
       }
     ],
     "derived": [

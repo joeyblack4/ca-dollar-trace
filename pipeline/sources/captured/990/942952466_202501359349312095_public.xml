@@ -1,0 +1,2857 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-15T17:05:30-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>941250261</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>LINDQUIST VON HUSEN &amp; JOYCE LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>301 HOWARD STREET SUITE 850</AddressLine1Txt>
+        <CityNm>SAN FRANCISCO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94105</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>942952466</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>RESO</BusinessNameControlTxt>
+      <PhoneNum>5108414410</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+        <CityNm>BERKELEY</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94704</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>ERIC KNECHT</PersonNm>
+      <PersonTitleTxt>CFO</PersonTitleTxt>
+      <PhoneNum>5108414410</PhoneNum>
+      <SignatureDt>2025-05-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>JOE HUIE</PreparerPersonNm>
+      <PTIN>P00422192</PTIN>
+      <PhoneNum>4159579999</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="10">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>DAN SAWISLAK</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+        <CityNm>BERKELEY</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94704</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>23289251</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.RCDHOUSING.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1984</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>RESOURCES FOR COMMUNITY DEVELOPMENT CREATES AND PRESERVES AFFORDABLE HOUSING FOR PEOPLE WITH THE FEWEST OPTIONS, TO BUILD COMMUNITY AND ENRICH LIVES.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>9</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>9</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>54</TotalEmployeeCnt>
+      <TotalVolunteersCnt>88</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>23334861</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>15604042</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>9667752</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>7062940</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>974559</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>606729</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>-2193</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>-3801</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>33974979</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>23269910</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>12704076</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>10509226</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>6258771</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>6605783</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>194231</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>3938238</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>3672055</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>22901085</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>20787064</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>11073894</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>2482846</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>105128932</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>101999952</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>33309943</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>27698117</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>71818989</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>74301835</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <MissionDesc>RESOURCES FOR COMMUNITY DEVELOPMENT CREATES AND PRESERVES AFFORDABLE HOUSING FOR PEOPLE WITH THE FEWEST OPTIONS, TO BUILD COMMUNITY AND ENRICH LIVES.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>12625655</ExpenseAmt>
+      <GrantAmt>10190487</GrantAmt>
+      <RevenueAmt>4149980</RevenueAmt>
+      <Desc>REAL ESTATE DEVELOPMENT: RCD HAS A STRONG RECORD OF DEVELOPING AND PRESERVING AFFORDABLE HOUSING AND COMMUNITY-SERVING FACILITIES, INCLUDING MULTI-FAMILY, SENIOR AND SPECIAL NEEDS PROPERTIES PROVIDING RENTAL APARTMENTS. ABOUT A THIRD OF OUR PORTFOLIO UNITS ARE RESERVED FOR PEOPLE WITH SPECIAL NEEDS. RCD IS ALSO A LEADER IN USING GREEN BUILDING CONSTRUCTION METHODS.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>3558592</ExpenseAmt>
+        <GrantAmt>151521</GrantAmt>
+        <RevenueAmt>1595061</RevenueAmt>
+        <Desc>ASSET MANAGEMENT:RCD'S PORTFOLIO OF 64 PROPERTIES IS MANAGED BY THE ASSET MANAGEMENT DEPARTMENT. THE DEPARTMENT'S OBJECTIVES FALL INTO TWO CATEGORIES, OPERATIONAL AND FINANCIAL. OPERATIONAL GOALS INCLUDE MAINTAINING PROJECTS IN SAFE, HABITABLE AND RENTABLE CONDITIONS AND MAINTAINING TENANT SATISFACTION. FINANCIAL GOALS INCLUDE MAINTAINING POSITIVE CASH FLOW AND PRESERVING HEALTHY RESERVES AND MANAGING ITS USE FOR GENERAL OPERATIONS AND CONTINGENCIES. PORTFOLIO REHABILITATION EFFORTS COMBINE THESE TWO AREAS, ADDING NEW FUNDING SOURCES TO PAY FOR IMPROVEMENTS WHICH EXTEND THE PROPERTIES' USEFUL LIVES.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>1760640</ExpenseAmt>
+        <GrantAmt>33400</GrantAmt>
+        <RevenueAmt>1317896</RevenueAmt>
+        <Desc>RESIDENT SERVICES PROGRAM: RCD'S RESIDENT SERVICES PROGRAM ADDRESSES THE MANY CHALLENGES THAT VULNERABLE POPULATIONS FACE IN RETAINING THEIR HOUSING AND MOVING FORWARD SOCIALLY AND ECONOMICALLY. RCD PROVIDES INDIVIDUAL COUNSELING THROUGH SOCIAL SERVICES PARTNERSHIPS AND SERVICE REFERRALS AS WELL AS COORDINATION OF ONSITE SERVICE PROGRAMS FOR RESIDENTS. IN ADDITION RCD PROVIDES AFTER SCHOOL PROGRAMS FOR YOUTH, COMPUTER TRAINING, EDUCATIONAL WORKSHOPS, AND RECREATIONAL AND SOCIAL ACTIVITIES.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <ProgSrvcAccomActyOtherGrp>
+        <ExpenseAmt>405499</ExpenseAmt>
+        <GrantAmt>133818</GrantAmt>
+        <Desc>COMMUNITY DEVELOPMENT:RCD'S COMMUNITY DEVELOPMENT INITIATIVE EXTENDS BEYOND OUR DEVELOPMENTS TO THE SURROUNDING NEIGHBORHOODS. USING PLACEMAKING STRATEGIES THAT ALLOW RESIDENTS TO DEFINE AND DEVELOP WHAT WILL STRENGTHEN THEIR NEIGHBORHOODS, WE HELP SUPPORT LOW-INCOME COMMUNITIES AS THEY RESPOND TO OPPORTUNITIES AND CHALLENGES.</Desc>
+      </ProgSrvcAccomActyOtherGrp>
+      <TotalOtherProgSrvcExpenseAmt>405499</TotalOtherProgSrvcExpenseAmt>
+      <TotalOtherProgSrvcGrantAmt>133818</TotalOtherProgSrvcGrantAmt>
+      <TotalProgramServiceExpensesAmt>18350386</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd referenceDocumentId="RetDoc1039600001">0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd referenceDocumentId="RetDoc1039600001">1</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd referenceDocumentId="RetDoc1039600001">0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">1</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="RetDoc1041300001">0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd referenceDocumentId="RetDoc1041300001">1</FundraisingActivitiesInd>
+      <GamingActivitiesInd referenceDocumentId="RetDoc1041300001">0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd referenceDocumentId="RetDoc1041900001">1</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd referenceDocumentId="RetDoc1041900001">1</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">1</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>1</RelatedOrganizationCtrlEntInd>
+      <TransactionWithControlEntInd referenceDocumentId="RetDoc1043400001">0</TransactionWithControlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">1</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>78</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>1</BackupWthldComplianceInd>
+      <EmployeeCnt>54</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>1</QuidProQuoContributionsInd>
+      <QuidProQuoContriDisclInd>1</QuidProQuoContriDisclInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>9</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>9</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>0</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>1</InvestmentInJointVentureInd>
+      <WrittenPolicyOrProcedureInd>1</WrittenPolicyOrProcedureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <OtherWebsiteInd>X</OtherWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>THE ORGANIZATION</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>5108414410</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ARTISE HARDY</PersonNm>
+        <TitleTxt>VICE CHAIR</TitleTxt>
+        <AverageHoursPerWeekRt>0.30</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.10</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>COURTNEY JONES</PersonNm>
+        <TitleTxt>DIRECTOR-LEFT ON 10/18/23</TitleTxt>
+        <AverageHoursPerWeekRt>0.10</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.10</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DAVID TOM</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>0.20</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.30</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DIANNA GARRETT</PersonNm>
+        <TitleTxt>DIRECTOR-LEFT ON 10/18/23</TitleTxt>
+        <AverageHoursPerWeekRt>0.20</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.30</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>RICHARD SHAPIRO</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>0.20</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.30</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JANET KENNEDY</PersonNm>
+        <TitleTxt>CHAIR</TitleTxt>
+        <AverageHoursPerWeekRt>0.40</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.70</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KATTYE GILES</PersonNm>
+        <TitleTxt>SECRETARY</TitleTxt>
+        <AverageHoursPerWeekRt>0.30</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MARIAN WOLFE</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>0.30</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>PHILP PALMER</PersonNm>
+        <TitleTxt>TREASURER</TitleTxt>
+        <AverageHoursPerWeekRt>0.40</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>2.30</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>SUSAN SHELTON</PersonNm>
+        <TitleTxt>DIRECTOR-LEFT ON 10/18/23</TitleTxt>
+        <AverageHoursPerWeekRt>0.30</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.10</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>WILLIE PHILLIPS</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>0.40</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>2.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>WILLIAM GOODWIN</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHoursPerWeekRt>0.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.70</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DAN SAWISLAK</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <AverageHoursPerWeekRt>39.90</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.10</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>225019</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>55612</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ERIC KNECHT</PersonNm>
+        <TitleTxt>CFO</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>165140</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>42554</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>KATHERINE MCKEAN</PersonNm>
+        <TitleTxt>CONTROLLER</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>141192</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>14690</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>CAROLYN BOOKHART</PersonNm>
+        <TitleTxt>DIRECTOR OF REAL ESTATE DEVEOPMENT</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>194647</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8939</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>NICK GRIFFIN</PersonNm>
+        <TitleTxt>DIRECTOR OF ASSET MANAGEMENT</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>130901</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>42832</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>DAN HARDY</PersonNm>
+        <TitleTxt>DIRECTOR OF I.T.</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>147650</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>22170</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>NICK CRANMER</PersonNm>
+        <TitleTxt>ASSOCIATE DIRECTOR OF RED ACQ</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>132809</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>30188</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>1137358</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>216985</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>24</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>LIFELONG MEDICAL CARE INC</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>PO BOX 11247</AddressLine1Txt>
+            <CityNm>BERKELEY</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94712</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>SERVICE PROVIDER</ServicesDesc>
+        <CompensationAmt>305581</CompensationAmt>
+      </ContractorCompensationGrp>
+      <ContractorCompensationGrp>
+        <ContractorName>
+          <BusinessName>
+            <BusinessNameLine1Txt>ABODE SERVICES INC</BusinessNameLine1Txt>
+          </BusinessName>
+        </ContractorName>
+        <ContractorAddress>
+          <USAddress>
+            <AddressLine1Txt>40849 FREMONT BOULEVARD</AddressLine1Txt>
+            <CityNm>FREMONT</CityNm>
+            <StateAbbreviationCd>CA</StateAbbreviationCd>
+            <ZIPCd>94538</ZIPCd>
+          </USAddress>
+        </ContractorAddress>
+        <ServicesDesc>SERVICE PROVIDER</ServicesDesc>
+        <CompensationAmt>180729</CompensationAmt>
+      </ContractorCompensationGrp>
+      <CntrctRcvdGreaterThan100KCnt>2</CntrctRcvdGreaterThan100KCnt>
+      <FundraisingAmt>63060</FundraisingAmt>
+      <RelatedOrganizationsAmt>65506</RelatedOrganizationsAmt>
+      <GovernmentGrantsAmt>14893687</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>581789</AllOtherContributionsAmt>
+      <TotalContributionsAmt>15604042</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>DEVELOPMENT FEES</Desc>
+        <BusinessCd>531390</BusinessCd>
+        <TotalRevenueColumnAmt>4149980</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>4149980</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>MANAGEMENT FEES</Desc>
+        <BusinessCd>531390</BusinessCd>
+        <TotalRevenueColumnAmt>3087722</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>3087722</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>RENTAL INCOME</Desc>
+        <BusinessCd>531390</BusinessCd>
+        <TotalRevenueColumnAmt>1918133</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1918133</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>MISCELLANEOUS</Desc>
+        <BusinessCd>531390</BusinessCd>
+        <TotalRevenueColumnAmt>110148</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>110148</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>LOSS FROM PARTNERSHIPS</Desc>
+        <BusinessCd>531390</BusinessCd>
+        <TotalRevenueColumnAmt>-2203043</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>-2203043</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>7062940</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>606729</TotalRevenueColumnAmt>
+        <ExclusionAmt>606729</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <FundraisingGrossIncomeAmt>15540</FundraisingGrossIncomeAmt>
+      <ContriRptFundraisingEventAmt>63060</ContriRptFundraisingEventAmt>
+      <FundraisingDirectExpensesAmt>19341</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>-3801</TotalRevenueColumnAmt>
+        <ExclusionAmt>-3801</ExclusionAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>23269910</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>7062940</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>602928</ExclusionAmt>
+      </TotalRevenueGrp>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>10475826</TotalAmt>
+        <ProgramServicesAmt>10475826</ProgramServicesAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>33400</TotalAmt>
+        <ProgramServicesAmt>33400</ProgramServicesAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>462857</TotalAmt>
+        <ProgramServicesAmt>262704</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>194703</ManagementAndGeneralAmt>
+        <FundraisingAmt>5450</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>5077271</TotalAmt>
+        <ProgramServicesAmt>3464192</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1478491</ManagementAndGeneralAmt>
+        <FundraisingAmt>134588</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>161793</TotalAmt>
+        <ProgramServicesAmt>126286</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>30277</ManagementAndGeneralAmt>
+        <FundraisingAmt>5230</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>492930</TotalAmt>
+        <ProgramServicesAmt>386910</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>91082</ManagementAndGeneralAmt>
+        <FundraisingAmt>14938</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>410932</TotalAmt>
+        <ProgramServicesAmt>315472</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>83572</ManagementAndGeneralAmt>
+        <FundraisingAmt>11888</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>106914</TotalAmt>
+        <ProgramServicesAmt>106914</ProgramServicesAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>273739</TotalAmt>
+        <ProgramServicesAmt>65026</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>208713</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>133023</TotalAmt>
+        <ProgramServicesAmt>118828</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12427</ManagementAndGeneralAmt>
+        <FundraisingAmt>1768</FundraisingAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>7405</TotalAmt>
+        <ProgramServicesAmt>5604</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>1577</ManagementAndGeneralAmt>
+        <FundraisingAmt>224</FundraisingAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>134206</TotalAmt>
+        <ProgramServicesAmt>120251</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12217</ManagementAndGeneralAmt>
+        <FundraisingAmt>1738</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <OccupancyGrp>
+        <TotalAmt>114870</TotalAmt>
+        <ProgramServicesAmt>114140</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>639</ManagementAndGeneralAmt>
+        <FundraisingAmt>91</FundraisingAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>80797</TotalAmt>
+        <ProgramServicesAmt>64199</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>14531</ManagementAndGeneralAmt>
+        <FundraisingAmt>2067</FundraisingAmt>
+      </TravelGrp>
+      <InterestGrp>
+        <TotalAmt>253635</TotalAmt>
+        <ProgramServicesAmt>239280</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12567</ManagementAndGeneralAmt>
+        <FundraisingAmt>1788</FundraisingAmt>
+      </InterestGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>479141</TotalAmt>
+        <ProgramServicesAmt>466098</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11419</ManagementAndGeneralAmt>
+        <FundraisingAmt>1624</FundraisingAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>135931</TotalAmt>
+        <ProgramServicesAmt>129784</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5381</ManagementAndGeneralAmt>
+        <FundraisingAmt>766</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>SUPPORTIVE SERVICES</Desc>
+        <TotalAmt>558185</TotalAmt>
+        <ProgramServicesAmt>558185</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>OPERATING &amp; MAINTENANCE</Desc>
+        <TotalAmt>518324</TotalAmt>
+        <ProgramServicesAmt>512588</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5022</ManagementAndGeneralAmt>
+        <FundraisingAmt>714</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>ADMINISTRATIVE</Desc>
+        <TotalAmt>397415</TotalAmt>
+        <ProgramServicesAmt>312647</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>74210</ManagementAndGeneralAmt>
+        <FundraisingAmt>10558</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>DEVELOPMENT</Desc>
+        <TotalAmt>217843</TotalAmt>
+        <ProgramServicesAmt>217843</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>260627</TotalAmt>
+        <ProgramServicesAmt>254209</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>5619</ManagementAndGeneralAmt>
+        <FundraisingAmt>799</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>20787064</TotalAmt>
+        <ProgramServicesAmt>18350386</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2242447</ManagementAndGeneralAmt>
+        <FundraisingAmt>194231</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>2583486</BOYAmt>
+        <EOYAmt>8161752</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>2411555</BOYAmt>
+        <EOYAmt>3184581</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <BOYAmt>17827560</BOYAmt>
+        <EOYAmt>8592186</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>160911</BOYAmt>
+        <EOYAmt>131829</EOYAmt>
+      </AccountsReceivableGrp>
+      <OthNotesLoansReceivableNetGrp>
+        <BOYAmt>1408500</BOYAmt>
+        <EOYAmt>37458</EOYAmt>
+      </OthNotesLoansReceivableNetGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>122589</BOYAmt>
+        <EOYAmt>311915</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>21522855</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>8373503</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>13528954</BOYAmt>
+        <EOYAmt>13149352</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <IntangibleAssetsGrp>
+        <BOYAmt>170644</BOYAmt>
+        <EOYAmt>199113</EOYAmt>
+      </IntangibleAssetsGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>66914733</BOYAmt>
+        <EOYAmt>68231766</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>105128932</BOYAmt>
+        <EOYAmt>101999952</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>816793</BOYAmt>
+        <EOYAmt>1009778</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <DeferredRevenueGrp>
+        <BOYAmt>75344</BOYAmt>
+        <EOYAmt>483274</EOYAmt>
+      </DeferredRevenueGrp>
+      <MortgNotesPyblScrdInvstPropGrp>
+        <BOYAmt>15836400</BOYAmt>
+        <EOYAmt>17032110</EOYAmt>
+      </MortgNotesPyblScrdInvstPropGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>16581406</BOYAmt>
+        <EOYAmt>9172955</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>33309943</BOYAmt>
+        <EOYAmt>27698117</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>71243942</BOYAmt>
+        <EOYAmt>73611578</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>575047</BOYAmt>
+        <EOYAmt>690257</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>71818989</BOYAmt>
+        <EOYAmt>74301835</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>105128932</BOYAmt>
+        <EOYAmt>101999952</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>2482846</ReconcilationRevenueExpnssAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <InfoInScheduleOPartXIIInd>X</InfoInScheduleOPartXIIInd>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolidatedBasisFinclStmtInd>X</ConsolidatedBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>1</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>1</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>1199447</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>3222514</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4381120</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>24124067</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>15604042</CurrentTaxYearAmt>
+        <TotalAmt>48531190</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>1199447</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>3222514</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4381120</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>24124067</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>15604042</CurrentTaxYearAmt>
+        <TotalAmt>48531190</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <PublicSupportTotal170Amt>48531190</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>851151</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>585157</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>633358</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>974559</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>606729</CurrentTaxYearAmt>
+        <TotalAmt>3650954</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <UnrelatedBusinessNetIncm170Grp>
+        <CurrentTaxYearMinus4YearsAmt>102333</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>65678</CurrentTaxYearMinus3YearsAmt>
+        <TotalAmt>168011</TotalAmt>
+      </UnrelatedBusinessNetIncm170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearAmt>15540</CurrentTaxYearAmt>
+        <TotalAmt>15540</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>52365695</TotalSupportAmt>
+      <GrossReceiptsRltdActivitiesAmt>39416557</GrossReceiptsRltdActivitiesAmt>
+      <PublicSupportCY170Pct>0.92680</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.90990</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleC documentId="RetDoc1039600001">
+      <TotalGrassrootsLobbyingGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotalGrassrootsLobbyingGrp>
+      <TotalLobbyingExpendGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotalLobbyingExpendGrp>
+      <OtherExemptPurposeExpendGrp>
+        <FilingOrganizationsTotalAmt>20787064</FilingOrganizationsTotalAmt>
+      </OtherExemptPurposeExpendGrp>
+      <TotalExemptPurposeExpendGrp>
+        <FilingOrganizationsTotalAmt>20787064</FilingOrganizationsTotalAmt>
+      </TotalExemptPurposeExpendGrp>
+      <LobbyingNontaxableAmountGrp>
+        <FilingOrganizationsTotalAmt>1000000</FilingOrganizationsTotalAmt>
+      </LobbyingNontaxableAmountGrp>
+      <GrassrootsNontaxableGrp>
+        <FilingOrganizationsTotalAmt>250000</FilingOrganizationsTotalAmt>
+      </GrassrootsNontaxableGrp>
+      <TotLbbyngGrassrootMnsNonTxGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotLbbyngGrassrootMnsNonTxGrp>
+      <TotLbbyExpendMnsLbbyngNonTxGrp>
+        <FilingOrganizationsTotalAmt>0</FilingOrganizationsTotalAmt>
+      </TotLbbyExpendMnsLbbyngNonTxGrp>
+      <AvgLobbyingNontaxableAmountGrp>
+        <CurrentYearMinus3Amt>641550</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>668513</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>1000000</CurrentYearMinus1Amt>
+        <CurrentYearAmt>1000000</CurrentYearAmt>
+        <TotalAmt>3310063</TotalAmt>
+      </AvgLobbyingNontaxableAmountGrp>
+      <LobbyingCeilingAmt>4965095</LobbyingCeilingAmt>
+      <AvgTotalLobbyingExpendGrp>
+        <CurrentYearMinus3Amt>10000</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>9750</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>29750</CurrentYearMinus1Amt>
+        <TotalAmt>49500</TotalAmt>
+      </AvgTotalLobbyingExpendGrp>
+      <AvgGrassrootsNontaxableGrp>
+        <CurrentYearMinus3Amt>160388</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>167128</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>250000</CurrentYearMinus1Amt>
+        <CurrentYearAmt>250000</CurrentYearAmt>
+        <TotalAmt>827516</TotalAmt>
+      </AvgGrassrootsNontaxableGrp>
+      <GrassrootsCeilingAmt>1241274</GrassrootsCeilingAmt>
+      <AvgGrassrootsLobbyingExpendGrp>
+        <CurrentYearMinus3Amt>10000</CurrentYearMinus3Amt>
+        <CurrentYearMinus2Amt>9750</CurrentYearMinus2Amt>
+        <CurrentYearMinus1Amt>29750</CurrentYearMinus1Amt>
+        <TotalAmt>49500</TotalAmt>
+      </AvgGrassrootsLobbyingExpendGrp>
+    </IRS990ScheduleC>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>4463447</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>4463447</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>15793978</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>7610929</DepreciationAmt>
+        <BookValueAmt>8183049</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>711652</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>236623</DepreciationAmt>
+        <BookValueAmt>475029</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>553778</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>525951</DepreciationAmt>
+        <BookValueAmt>27827</BookValueAmt>
+      </EquipmentGrp>
+      <TotalBookValueLandBuildingsAmt>13149352</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>RESTRICTED CASH &amp; DEPOSITS</Desc>
+        <BookValueAmt>2243688</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>RELATED PARTY RECEIVABLE</Desc>
+        <BookValueAmt>27186937</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>INVESTMENTS IN OTHER COMPANIES</Desc>
+        <BookValueAmt>7409992</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>RELATED PARTY NOTES RECEIVABLE</Desc>
+        <BookValueAmt>30906062</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>DEVELOPMENT IN PROGRESS</Desc>
+        <BookValueAmt>485087</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>68231766</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>TENANT SECURITY DEPOSITS</Desc>
+        <Amt>84090</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ACCRUED INTEREST PAYABLE</Desc>
+        <Amt>4153741</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>RELATED PARTY PAYABLE</Desc>
+        <Amt>367940</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>DEVELOPMENT GRANTS PAYABLE</Desc>
+        <Amt>4567184</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>9172955</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART X, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>RESOURCES FOR COMMUNITY DEVELOPMENT AND AFFILIATES BELIEVE THAT THEY HAVE APPROPRIATE SUPPORT FOR TAX POSITIONS TAKEN, AND AS SUCH, DO NOT HAVE ANY UNCERTAIN TAX POSITIONS THAT ARE MATERIAL TO THE FINANCIAL STATEMENTS. RESOURCES FOR COMMUNITY DEVELOPMENT AND AFFILIATES' FEDERAL AND STATE INCOME TAX AND INFORMATION RETURNS FOR THE YEARS 2020 THROUGH 2023 ARE SUBJECT TO EXAMINATION BY REGULATORY AGENCIES, GENERALLY FOR THREE YEARS AND FOUR YEARS AFTER THEY WERE FILED FOR FEDERAL AND STATE, RESPECTIVELY.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleG documentId="RetDoc1041300001">
+      <FundraisingEventInformationGrp>
+        <Event1Nm>ANNUAL EVENT</Event1Nm>
+        <GrossReceiptsEvent1Amt>78600</GrossReceiptsEvent1Amt>
+        <CharitableContriEvent1Amt>63060</CharitableContriEvent1Amt>
+        <GrossRevenueEvent1Amt>15540</GrossRevenueEvent1Amt>
+        <RentFacilityCostsEvent1Amt>962</RentFacilityCostsEvent1Amt>
+        <FoodAndBeverageEvent1Amt>12736</FoodAndBeverageEvent1Amt>
+        <EntertainmentEvent1Amt>1250</EntertainmentEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>4393</OtherDirectExpensesEvent1Amt>
+        <GrossReceiptsTotalAmt>78600</GrossReceiptsTotalAmt>
+        <CharitableContributionsTotAmt>63060</CharitableContributionsTotAmt>
+        <GrossRevenueTotalEventsAmt>15540</GrossRevenueTotalEventsAmt>
+        <RentFcltyCostsTotalEventsAmt>962</RentFcltyCostsTotalEventsAmt>
+        <FoodAndBeverageTotalEventsAmt>12736</FoodAndBeverageTotalEventsAmt>
+        <EntertainmentTotalEventsAmt>1250</EntertainmentTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>4393</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>19341</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>-3801</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+    </IRS990ScheduleG>
+    <IRS990ScheduleI documentId="RetDoc1041900001">
+      <GrantRecordsMaintainedInd>1</GrantRecordsMaintainedInd>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ALAMEDA COUNTY COMMUNITY DEVELOPMENT AGENCY</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>224 W/ WINTON AVE ROOM 108</AddressLine1Txt>
+          <CityNm>HAYWARD</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94544</ZIPCd>
+        </USAddress>
+        <IRCSectionDesc>GOVERNMENT ORG.</IRCSectionDesc>
+        <CashGrantAmt>133094</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PASSTHROUGH DEVELOPMENT GRANTS ON TRANSIT-ORIENTED DEVELOPMENT.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>STATE OF CALIFORNIA HOUSING AND COMMUNITY DEVELOPMENT DIVISION</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>2020 WEST EL CAMINO</AddressLine1Txt>
+          <CityNm>SACRAMENTO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>95833</ZIPCd>
+        </USAddress>
+        <IRCSectionDesc>GOVERNMENT ORG.</IRCSectionDesc>
+        <CashGrantAmt>10217640</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PASSTHROUGH DEVELOPMENT GRANTS ON TRANSIT-ORIENTED DEVELOPMENT.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>ALAMEDA COUNTY</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>1221 OAK STREET</AddressLine1Txt>
+          <CityNm>OAKLAND</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94612</ZIPCd>
+        </USAddress>
+        <IRCSectionDesc>GOVERNMENT ORG.</IRCSectionDesc>
+        <CashGrantAmt>66283</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>PASSTHROUGH DEVELOPMENT GRANTS ON TRANSIT-ORIENTED DEVELOPMENT.</PurposeOfGrantTxt>
+      </RecipientTable>
+      <RecipientTable>
+        <RecipientBusinessName>
+          <BusinessNameLine1Txt>EAST BAY COMMUNITY FOUNDATION</BusinessNameLine1Txt>
+        </RecipientBusinessName>
+        <USAddress>
+          <AddressLine1Txt>200 FRANK H OGAWA PLAZA</AddressLine1Txt>
+          <CityNm>OAKLAND</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94612</ZIPCd>
+        </USAddress>
+        <RecipientEIN>946070996</RecipientEIN>
+        <IRCSectionDesc>501(C)(3)</IRCSectionDesc>
+        <CashGrantAmt>15000</CashGrantAmt>
+        <NonCashAssistanceAmt>0</NonCashAssistanceAmt>
+        <PurposeOfGrantTxt>RCD CONTRIBUTED BERKELEY WAIVED UACH SURPLUS TO JUBILEE</PurposeOfGrantTxt>
+      </RecipientTable>
+      <Total501c3OrgCnt>4</Total501c3OrgCnt>
+      <TotalOtherOrgCnt>0</TotalOtherOrgCnt>
+      <GrantsOtherAsstToIndivInUSGrp>
+        <GrantTypeTxt>IRWIN MUSSEN SCHOLARSHIP</GrantTypeTxt>
+        <RecipientCnt>14</RecipientCnt>
+        <CashGrantAmt>33400</CashGrantAmt>
+      </GrantsOtherAsstToIndivInUSGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>PART I, LINE 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE IRWIN MUSSEN SCHOLARSHIP WAS ESTABLISHED IN MEMORY OF LONGTIME AFFORDABLE HOUSING ADVOCATE, AND FORMER RCD BOARD MEMBER, IRWIN MUSSEN. THE SCHOLARSHIP SERVES TO PROVIDE RCD RESIDENTS WITH FUNDING TO HELP THEM FURTHER THEIR EDUCATION. APPLICANTS MUST BE RESIDENTS AT ONE OF RCD'S PROPERTIES, IN GOOD FINANCIAL STANDING, AND PROVIDE PROOF OF ENROLLMENT IN A GED/VOCATIONAL TRAINING PROGRAM, OR A 2 YEAR OR 4 YEAR EDUCATIONAL INSTITUTION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleI>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <IndependentConsultantInd>X</IndependentConsultantInd>
+      <CompensationSurveyInd>X</CompensationSurveyInd>
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>DAN SAWISLAK</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>225019</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>10725</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>44887</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>280631</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ERIC KNECHT</PersonNm>
+        <TitleTxt>CFO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>165140</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>8246</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>34308</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>207694</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>CAROLYN BOOKHART</PersonNm>
+        <TitleTxt>DIRECTOR OF REAL ESTATE DEVEOPMENT</TitleTxt>
+        <BaseCompensationFilingOrgAmt>194647</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>8759</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>180</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>203586</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>NICK GRIFFIN</PersonNm>
+        <TitleTxt>DIRECTOR OF ASSET MANAGEMENT</TitleTxt>
+        <BaseCompensationFilingOrgAmt>130901</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6688</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>36144</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>173733</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>DAN HARDY</PersonNm>
+        <TitleTxt>DIRECTOR OF I.T.</TitleTxt>
+        <BaseCompensationFilingOrgAmt>147650</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6702</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>15468</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>169820</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>NICK CRANMER</PersonNm>
+        <TitleTxt>ASSOCIATE DIRECTOR OF RED ACQ</TitleTxt>
+        <BaseCompensationFilingOrgAmt>132809</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6387</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>23801</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>162997</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>KATHERINE MCKEAN</PersonNm>
+        <TitleTxt>CONTROLLER</TitleTxt>
+        <BaseCompensationFilingOrgAmt>141192</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>6623</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>8067</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>155882</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11B</FormAndLineReferenceDesc>
+        <ExplanationTxt>FORM 990 REVIEW PROCESS: A DRAFT OF THE FORM 990 IS REVIEWED BY THE CONTROLLER. AFTER ANY NECESSARY CORRECTIONS ARE MADE, AN ELECTRONIC COPY IS E-MAILED TO THE BOARD AND THE EXECUTIVE DIRECTOR. A MEETING OF THE EXECUTIVE COMMITTEE OF THE BOARD IS CALLED TO REVIEW AND APPROVE THE FORM 990. STAFF INPUT IS PROVIDED TO ANSWER QUESTIONS AND PROVIDE ANY ADDITIONAL INFORMATION REQUESTED.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>EXPLANATION OF MONITORING AND ENFORCEMENT OF CONFLICTS: ALL BOARD MEMBERS, OFFICERS, AND KEY EMPLOYEES ARE REQUIRED TO COMPLETE AN ANNUAL QUESTIONNAIRE WHICH ASKS THEM TO DISCLOSE IF THEY, THEIR FAMILY MEMBERS, ANY ENTITY WHERE THEY OR THEIR FAMILY MEMBER OWNED MORE THAN 35% OR ANY PROFIT ENTITY WHERE THEY OR THEIR FAMILY MEMBER OWNED MORE THAN 5% ENGAGED IN ANY BUSINESS TRANSACTIONS OVER $10,000 WITH RCD OR ANY OF ITS RELATED ENTITIES. IT ALSO ASKS WHETHER THEY HAD A FAMILY OR BUSINESS RELATIONSHIP WITH ANY OTHER BOARD MEMBER OR KEY EMPLOYEE. RCD'S BYLAWS AND PERSONNEL HANDBOOK GOVERN HOW ACTUAL OR APPARENT CONFLICTS OF INTERESTS THAT MAY IMPACT THE ORGANIZATION'S STAFF OR BOARD OF DIRECTORS ARE HANDLED. STAFF ARE TO AVOID EVEN THE APPEARANCE OF A CONFLICT OF INTEREST, AND GIFTS AND REMUNERATIVE ACTIVITY RELATED TO RCD DUTIES ARE STRICTLY LIMITED. THE BYLAWS REQUIRE THAT NO MEMBER OF THE BOARD OF DIRECTORS SHALL HAVE ANY FINANCIAL INTEREST IN AN ORGANIZATION DOING BUSINESS WITH RCD WITHOUT DISCLOSURE TO THE BOARD. AT THAT POINT, THE MAJORITY OF THE BOARD MUST VOTE ON A FINDING THAT THE ORGANIZATION COULD NOT OBTAIN A MORE ADVANTAGEOUS ARRANGEMENT WITH REASONABLE EFFORT, THAT THE TRANSACTION IS TO THE BENEFIT OF THE ORGANIZATION, AND IT IS AT A FAIR AND REASONABLE PRICE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>RCD HAS INSTITUTED A PROCESS TO DETERMINE FAIR COMPENSATION FOR ITS CEO AND KEY EMPLOYEES AS FOLLOWS: THE CEO'S PERFORMANCE AND COMPENSATION IS EVALUATED ANNUALLY BY AN EXECUTIVE COMMITTEE OF THE BOARD OF DIRECTORS. THE EXECUTIVE COMMITTEE IS PROVIDED WITH THIRD-PARTY COMPENSATION STUDIES FOR THE CEO ROLE BY THE CFO. THE EXECUTIVE COMMITTEE THEN DETERMINATES THE CEO'S SALARY BASED ON THE INFORMATION PROVIDED, INDEPENDENT RESEARCH IT MAY UNDERTAKE, AND CEO PERFORMANCE. NON-CEO COMPENSATION FOR OFFICERS AND KEY EMPLOYEES ARE APPROVED BY THE CEO BASED ON A COMBINATION OF THIRD-PARTY COMPENSATION STUDIES AND EMPLOYEE PERFORMANCE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE ORGANIZATION DOES NOT MAKE ITS GOVERNING DOCUMENTS, CONFLICT OF INTEREST POLICY AND FINANCIAL STATEMENTS AVAILABLE TO THE GENERAL PUBLIC BECAUSE THE ORGANIZATION CONSIDERS THEM TO BE INTERNAL DOCUMENTS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 16:</FormAndLineReferenceDesc>
+        <ExplanationTxt>ALL PROJECTS THAT RCD ENTERS INTO MUST FALL WITHIN OUR MISSION TO DEVELOP AND OPERATE RENT RESTRICTED AFFORDABLE HOUSING AND BE COMPATIBLE WITH OUR TAX-EXEMPT STATUS. ALL PROJECTS MUST BE APPROVED BY THE INTERNAL OVERSIGHT COMMITTEE AND THE BOARD HOUSING AND FINANCE COMMITTEE. ANY JOINT VENTURE THAT WE ENTER INTO WITH A TAXABLE ENTITY WOULD BE GOVERNED BY A PARTNERSHIP AGREEMENT TO ENSURE THAT THEIR OPERATIONS ARE CONSISTENT WITH RCD'S TAX-EXEMPT MISSION.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VIII:</FormAndLineReferenceDesc>
+        <ExplanationTxt>POLICY RE: FASB 116 AND 117: STARTING WITH FISCAL YEAR 6/30/95, ORGANIZATION RESOURCES FOR COMMUNITY DEVELOPMENT (RCD) HAS ELECTED TO FOLLOW FASB 116 &amp; 117. WE HAVE DETERMINED THAT UNDER FASB 116 &amp; 117 AMOUNTS PAID BY A GOVERNMENTAL UNIT DO NOT QUALIFY AS CONTRIBUTIONS BUT RATHER AS EXCHANGE TRANSACTIONS, BECAUSE THE GOVERNMENT IS IN THE BUSINESS OF PROVIDING SERVICES TO THE GENERAL PUBLIC. THAT INCOME IS SHOWN ON THE FINANCIAL STATEMENTS AS GOVERNMENT CONTRACTS RATHER THAN AS CONTRIBUTIONS. THEREFORE WE HAVE RECORDED THESE AMOUNTS AS INCOME WHEN EARNED INSTEAD OF WHEN WE RECEIVED AN UNCONDITIONAL PROMISE TO PAY. HOWEVER, ON FORM 990 AND SCHEDULE A, IN ACCORDANCE WITH IRS REGULATIONS, WE HAVE CLASSIFIED AS CONTRIBUTIONS AMOUNTS RECEIVED FROM A GOVERNMENTAL UNIT, SINCE ALL FUNDS RECEIVED BY RCD FROM THE GOVERNMENT ARE FOR THE PURPOSE OF PROVIDING A SERVICE TO THE GENERAL PUBLIC. FURTHERMORE, IN ORDER TO KEEP THE TOTAL INCOME ON THE TAX RETURN CONSISTENT WITH THE FINANCIAL STATEMENTS, WE ARE NOT RECOGNIZING ON THE FORM 990 THE FUTURE INCOME THAT FASB 116 WOULD REQUIRE. THIS IS CONSISTENT WITH THE IRS POSITION THAT REPORTING GRANTS RECEIVED IN ACCORDANCE WITH FASB 116 FOR 990 PURPOSES IS ACCEPTABLE BUT NOT REQUIRED. REF: IRS 1995 PUBLICATION 557, CHAPTER 3, PAGE 28, SUPPORT FROM A GOVERNMENTAL UNIT; 1995 FORM 990 INSTRUCTIONS, PAGE 1, CHANGES TO NOTE; AND 11/14/96 CONVERSATION WITH LYNN KAWECKI, IRS EXEMPT ORGANIZATION DIVISION, WASHINGTON OFFICE.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART XII, LINE 2C:</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE PROCESS HAS NOT CHANGED FROM PRIOR YEARS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>AMBASSADOR HOMES LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>35789</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>13218901</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>FOX COURTS LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>270359487</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>-7322</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>3508914</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>112458</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>-12856401</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>OXFORD COMMERCIAL LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>118812</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>4489708</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>STARGELL COMMONS LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>86747</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>823278</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>57336</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>-1838414</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>89618</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>14261201</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>RCD GP IV LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>0</TotalIncomeAmt>
+        <EndOfYearAssetsAmt>25000</EndOfYearAssetsAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>112 ALVES LANE INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>680341940</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>3250 SACRAMENTO HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943266005</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>ALL HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>942905995</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 12A, I</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>ALVAREZ COURT INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943363372</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>ASPEN DRIVE HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943247491</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>BAY BRIDGE CORPORATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943236429</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>BONIFACIO PLACE INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943332432</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>DRACHMA HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>020638493</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>DWIGHT WAY HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943266037</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>EASTMONT COURT INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>800030637</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>HARRISON HOTEL INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943199191</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>JUBILEE SENIOR HOMES INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>113666500</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>ROSEVINE INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>680398093</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>SOUTH BERKELEY COMMUNITY HOUSING DEVELOPMENT CORPORATION</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943065407</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>VERNON STREET HOUSING INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD STREET</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943192548</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(C)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>LINE 7</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>1</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>1701 MLK LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>463921301</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>30710</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>174922</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ADELINE STREET APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943364098</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>25036</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>113315</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ALBANY CREEKSIDE APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943305319</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>15003</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>246162</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ALMADEN AFFORDABLE HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>862718927</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-13017</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>5304087</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ANTIOCH RECAP LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>830747592</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>35940</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>4287129</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ARBORS PRESERVATION LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>141949011</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ASHLAND FAMILY HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>452609759</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>17179</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>557659</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>BELL STREET GARDENS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>844847136</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-12539</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>45798460</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>BELLA MONTE APARTMENTS</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>061704423</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-82614</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>2918119</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.30000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>BERELLESA PALMS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>270419861</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>CARENA ASSOCIATES LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>815153821</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>366</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>5276514</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>CLARA GARDENS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>874393072</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>7642</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>1380565</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>COLISEUM PLACE II LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>843145812</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-196</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>4375498</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>DRACHMA HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>522354939</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>35627</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>133957</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>EAST 11TH LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>262768382</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>ELDRIDGE LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>461164070</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>EMBARK APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>473822670</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>STARGELL COMMONS LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>23497</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>1855596</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>EVOY LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>843794565</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-55035</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>20958705</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>FAIRFAX AFFORDABLE HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>831519821</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>29933</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>14495155</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>FOX COURT LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>364608204</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>FOX COURT LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-389078</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>3215735</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.18500</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>GALINDO LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>841990371</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-14130</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>24819044</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>HARRISON MENLO PRESERVATION LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>815053776</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-201937</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>3481107</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>HOUSING ALLIANCE LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>371475625</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>153066</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>365076</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>LAKESIDE APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>651203252</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>48092</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>352468</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>LAUREL GARDEN PARTNERS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>030430400</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-11411</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>230920</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.15000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>LONGFELLOW CORNER LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>824241190</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-4190</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>9205422</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>LOS MEDANOS VILLAGE LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>263061474</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MADRONE TERRACE LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>843415018</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>329</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>40034177</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>MAUDELLE SHIREK LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>843491861</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-1</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>58933963</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>NORTHGATE GRAND VIEW LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>542063521</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>54491</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>262047</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>OHLONE GARDENS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>264782465</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>24897</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>397160</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>OXFORD PLAZA LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>651234974</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-274415</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>2807991</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.20000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>PARCEL GROUP 8 LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>882725308</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-2000</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>1179452</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>QUETZAL GARDENS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>815142953</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>29830</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>4832230</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>RIVIERA FAMILY APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>464748853</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>STARGELL COMMONS LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>31010</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>6381241</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SAN PABLO PRESERVATION LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>820961013</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-70</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>6717695</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SANGO COURT LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>832573074</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>10764</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>49892716</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SEMINARY HAVENSCOURT LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943344121</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>27948</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>-67825</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00050</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SHINSEI GARDENS APARTMENTS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>261720210</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SHIPP LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>882858542</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-800</ShareOfTotalIncomeAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>SP COMMONS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>824061081</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP III LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>27201</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>741635</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>STANLEY AVENUE AFFORDABLE HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943394154</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>665</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>425775</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>STARGELL COMMONS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>473210229</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>STARGELL COMMONS LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>31896</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>116995</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>THE ALAMEDA ISLANDER LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>452100343</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>THE AMBASSADOR LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>453516550</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>AMBASSADOR HOMES LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>35181</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>13440482</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>THE BREAKERS AT BAYPORT</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>341984284</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>92574</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>649806</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>THORNTON AFFORDABLE HOUSING LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>882896959</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP II LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-2000</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>8469807</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.00010</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>UA HOMES LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>454709958</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>UACH LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>463362620</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>30111</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>391057</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>VILLA VASCONCELLOS LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>680619589</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RESOURCES FOR COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-97870</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>452020</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.30000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>WM BYRON RUMFORD SR PLAZA ASSOCIATES</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>943115442</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>0</GeneralOrManagingPartnerInd>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <IdRelatedOrgTxblPartnershipGrp>
+        <RelatedOrganizationName>
+          <BusinessNameLine1Txt>YVR LP</BusinessNameLine1Txt>
+        </RelatedOrganizationName>
+        <USAddress>
+          <AddressLine1Txt>2220 OXFORD ST</AddressLine1Txt>
+          <CityNm>BERKELEY</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94704</ZIPCd>
+        </USAddress>
+        <EIN>862235211</EIN>
+        <PrimaryActivitiesTxt>LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>RCD GP LLC</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <PredominantIncomeTypeTxt>RELATED</PredominantIncomeTypeTxt>
+        <ShareOfTotalIncomeAmt>-39212</ShareOfTotalIncomeAmt>
+        <ShareOfEOYAssetsAmt>10445960</ShareOfEOYAssetsAmt>
+        <DisproportionateAllocationsInd>0</DisproportionateAllocationsInd>
+        <GeneralOrManagingPartnerInd>1</GeneralOrManagingPartnerInd>
+        <OwnershipPct>0.01000</OwnershipPct>
+      </IdRelatedOrgTxblPartnershipGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>1</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>1</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>1</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>1</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>1</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>0</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>1</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>1</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>1</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>1</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>1</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>112 ALVES LANE INC</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>C</TransactionTypeTxt>
+        <InvolvedAmt>65506</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>ALVAREZ HOUSING INC</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>68585</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>ASPEN DRIVE HOUSING INC</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>66242</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>FOX COURTS LP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>92408</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>STANLEY AFFORDABLE HOUSING LP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>51254</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>NORTHGATE GRAND VIEW LP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>71184</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>THE BREAKERS AT BAYPORT LP</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>L</TransactionTypeTxt>
+        <InvolvedAmt>97890</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV - ARMS LENGTH</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

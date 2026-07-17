@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-12T12:30:48-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>953001179</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>WINDES INC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2050 MAIN ST STE 1300</AddressLine1Txt>
+        <CityNm>IRVINE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92614</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990EZ</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>883360044</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>GATEWAYS HOSPITAL AND MENTAL HEALTH</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>CENTER FOUNDATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>GATE</BusinessNameControlTxt>
+      <PhoneNum>3236442000</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>1891 EFFIE STREET</AddressLine1Txt>
+        <CityNm>LOS ANGELES</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>90026</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>BRIAN THORNE</PersonNm>
+      <PersonTitleTxt>CEO</PersonTitleTxt>
+      <PhoneNum>3236442000</PhoneNum>
+      <SignatureDt>2025-05-12</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>ELEANOR A LIVINGSTON CPA MST</PreparerPersonNm>
+      <PTIN>P00226461</PTIN>
+      <PhoneNum>9498529433</PhoneNum>
+      <PreparationDt>2025-04-28</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990EZ documentId="RetDoc1234200001" referenceDocumentId="RetDoc1051800001 RetDoc2278000001">
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <WebsiteAddressTxt>HTTPS://WWW.GATEWAYSHOSPITAL.ORG/</WebsiteAddressTxt>
+      <Organization501c3Ind referenceDocumentId="RetDoc1039100001">X</Organization501c3Ind>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <GrossReceiptsAmt>165186</GrossReceiptsAmt>
+      <InfoInScheduleOPartIInd>X</InfoInScheduleOPartIInd>
+      <ContributionsGiftsGrantsEtcAmt>126507</ContributionsGiftsGrantsEtcAmt>
+      <FundraisingGrossIncomeAmt referenceDocumentId="RetDoc1041300001" fndrsngEventContriPrevRptAmt="94150">38679</FundraisingGrossIncomeAmt>
+      <SpecialEventsDirectExpensesAmt>109550</SpecialEventsDirectExpensesAmt>
+      <SpecialEventsNetIncomeLossAmt>-70871</SpecialEventsNetIncomeLossAmt>
+      <TotalRevenueAmt>55636</TotalRevenueAmt>
+      <GrantsAndSimilarAmountsPaidAmt>5000</GrantsAndSimilarAmountsPaidAmt>
+      <SalariesOtherCompEmplBnftAmt>388842</SalariesOtherCompEmplBnftAmt>
+      <FeesAndOtherPymtToIndCntrctAmt>331833</FeesAndOtherPymtToIndCntrctAmt>
+      <OccupancyRentUtltsAndMaintAmt>1201</OccupancyRentUtltsAndMaintAmt>
+      <PrintingPublicationsPostageAmt>54744</PrintingPublicationsPostageAmt>
+      <OtherExpensesTotalAmt>173478</OtherExpensesTotalAmt>
+      <TotalExpensesAmt>955098</TotalExpensesAmt>
+      <ExcessOrDeficitForYearAmt>-899462</ExcessOrDeficitForYearAmt>
+      <NetAssetsOrFundBalancesBOYAmt>-527997</NetAssetsOrFundBalancesBOYAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <NetAssetsOrFundBalancesEOYAmt>-1427459</NetAssetsOrFundBalancesEOYAmt>
+      <InfoInScheduleOPartIIInd>X</InfoInScheduleOPartIIInd>
+      <OtherAssetsTotalDetail>
+        <BOYAmt>172210</BOYAmt>
+        <EOYAmt>66870</EOYAmt>
+      </OtherAssetsTotalDetail>
+      <Form990TotalAssetsGrp>
+        <BOYAmt>172210</BOYAmt>
+        <EOYAmt>66870</EOYAmt>
+      </Form990TotalAssetsGrp>
+      <SumOfTotalLiabilitiesGrp>
+        <BOYAmt>700207</BOYAmt>
+        <EOYAmt>1494329</EOYAmt>
+      </SumOfTotalLiabilitiesGrp>
+      <NetAssetsOrFundBalancesGrp>
+        <BOYAmt>-527997</BOYAmt>
+        <EOYAmt>-1427459</EOYAmt>
+      </NetAssetsOrFundBalancesGrp>
+      <InfoInScheduleOPartIIIInd>X</InfoInScheduleOPartIIIInd>
+      <PrimaryExemptPurposeTxt>THE GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER FOUNDATION'S (FOUNDATION) PRIMARY ACTIVITY IS TO RAISE AND MANAGE DONATIONS ON BEHALF OF GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER (HOSPITAL). THE HOSPITAL (EIN 95-1691011) IS TAX EXEMPT UNDER 501(C)(3) OF THE INTERNAL REVENUE CODE. THE FOUNDATION WILL ALSO HELP WITH AWARENESS RELATED TO THE HOSPITAL AND MISSION OF MENTAL HEALTH. THE FORMATION OF THE FOUNDATION WILL RELIEVE THE HOSPITAL OF FUNDRAISING ACTIVITIES WHICH PROVIDES THE BENEFIT OF ALLOWING THE HOSPITAL TO FOCUS ALL RESOURCES PROVIDING CLINICAL SERVICES TO THEIR PATIENTS AND TO THE COMMUNITY.</PrimaryExemptPurposeTxt>
+      <ProgramSrvcAccomplishmentGrp>
+        <DescriptionProgramSrvcAccomTxt>THE GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER FOUNDATION'S (FOUNDATION) PRIMARY ACTIVITY IS TO RAISE AND MANAGE DONATIONS ON BEHALF OF GATEWAYS HOSPITAL AND MENTAL HEALTH CENTER (HOSPITAL). THE HOSPITAL (EIN 95-1691011) IS TAX EXEMPT UNDER 501(C)(3) OF THE INTERNAL REVENUE CODE. THE FOUNDATION WILL ALSO HELP WITH AWARENESS RELATED TO THE HOSPITAL AND MISSION OF MENTAL HEALTH. THE FORMATION OF THE FOUNDATION WILL RELIEVE THE HOSPITAL OF FUNDRAISING ACTIVITIES WHICH PROVIDES THE BENEFIT OF ALLOWING THE HOSPITAL TO FOCUS ALL RESOURCES PROVIDING CLINICAL SERVICES TO THEIR PATIENTS AND TO THE COMMUNITY.</DescriptionProgramSrvcAccomTxt>
+        <GrantsAndAllocationsAmt>0</GrantsAndAllocationsAmt>
+        <ProgramServiceExpensesAmt>0</ProgramServiceExpensesAmt>
+      </ProgramSrvcAccomplishmentGrp>
+      <TotalProgramServiceExpensesAmt>0</TotalProgramServiceExpensesAmt>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>BRIAN THORNE</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>40.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>312719</CompensationAmt>
+        <EmployeeBenefitProgramAmt>15001</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>ALEJANDRO GUERRERO</PersonNm>
+        <TitleTxt>BOARD CHAIR</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>KEN AGEMA</PersonNm>
+        <TitleTxt>SECRETARY</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>DAVID STURMAN</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>PHIL WONG</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <OfficerDirectorTrusteeEmplGrp>
+        <PersonNm>JESS BEATTIE</PersonNm>
+        <TitleTxt>DIRECTOR</TitleTxt>
+        <AverageHrsPerWkDevotedToPosRt>1.00</AverageHrsPerWkDevotedToPosRt>
+        <CompensationAmt>0</CompensationAmt>
+        <EmployeeBenefitProgramAmt>0</EmployeeBenefitProgramAmt>
+        <ExpenseAccountOtherAllwncAmt>0</ExpenseAccountOtherAllwncAmt>
+      </OfficerDirectorTrusteeEmplGrp>
+      <InfoInScheduleOPartVInd>X</InfoInScheduleOPartVInd>
+      <ActivitiesNotPreviouslyRptInd>0</ActivitiesNotPreviouslyRptInd>
+      <ChgMadeToOrgnzngDocNotRptInd>0</ChgMadeToOrgnzngDocNotRptInd>
+      <OrganizationHadUBIInd>0</OrganizationHadUBIInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <OrganizationDissolvedEtcInd>0</OrganizationDissolvedEtcInd>
+      <DirectIndirectPltclExpendAmt>0</DirectIndirectPltclExpendAmt>
+      <MadeLoansToFromOfficersInd>0</MadeLoansToFromOfficersInd>
+      <TaxImposedUnderIRC4911Amt>0</TaxImposedUnderIRC4911Amt>
+      <TaxImposedUnderIRC4912Amt>0</TaxImposedUnderIRC4912Amt>
+      <TaxImposedUnderIRC4955Amt>0</TaxImposedUnderIRC4955Amt>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <TaxImposedOnOrganizationMgrAmt>0</TaxImposedOnOrganizationMgrAmt>
+      <TaxReimbursedByOrganizationAmt>0</TaxReimbursedByOrganizationAmt>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <BooksInCareOfDetail>
+        <PersonNm>JAY CHOI</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>1891 EFFIE STREET</AddressLine1Txt>
+          <CityNm>LOS ANGELES</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>90026</ZIPCd>
+        </USAddress>
+        <PhoneNum>3236442000</PhoneNum>
+      </BooksInCareOfDetail>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <DonorAdvisedFndsInd>0</DonorAdvisedFndsInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <TanningServicesProvidedInd>0</TanningServicesProvidedInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <PartVIOfCompOfHghstPdEmplTxt>NONE</PartVIOfCompOfHghstPdEmplTxt>
+      <PartVIHghstPdCntrctProfSrvcTxt>NONE</PartVIHghstPdCntrctProfSrvcTxt>
+      <FiledScheduleAInd>1</FiledScheduleAInd>
+    </IRS990EZ>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus1YearAmt>135161</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>126507</CurrentTaxYearAmt>
+        <TotalAmt>261668</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus1YearAmt>135161</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>126507</CurrentTaxYearAmt>
+        <TotalAmt>261668</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <PublicSupportTotal170Amt>261668</PublicSupportTotal170Amt>
+      <TotalSupportAmt>261668</TotalSupportAmt>
+      <First5Years170Ind>X</First5Years170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleG documentId="RetDoc1041300001">
+      <FundraisingEventInformationGrp>
+        <Event1Nm>GOLF TOURNAMENT</Event1Nm>
+        <GrossReceiptsEvent1Amt>132829</GrossReceiptsEvent1Amt>
+        <CharitableContriEvent1Amt>94150</CharitableContriEvent1Amt>
+        <GrossRevenueEvent1Amt>38679</GrossRevenueEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>109550</OtherDirectExpensesEvent1Amt>
+        <GrossReceiptsTotalAmt>132829</GrossReceiptsTotalAmt>
+        <CharitableContributionsTotAmt>94150</CharitableContributionsTotAmt>
+        <GrossRevenueTotalEventsAmt>38679</GrossRevenueTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>109550</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>109550</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>-70871</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+    </IRS990ScheduleG>
+    <IRS990ScheduleO documentId="RetDoc1051800001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART I, LINE 10 - GRANTS AND SIMILAR AMOUNTS PAID</FormAndLineReferenceDesc>
+        <ExplanationTxt>ACTIVITY CLASSIFICATION: CHARITABLE CONTRIBUTIONS. GRANTEE NAME: THE WHOLE CHILD. GRANTEE ADDRESS: 10155 COLIMA ROAD WHITTIER, CA 90603. GRANTEE RELATIONSHIP: NONE. AMOUNT GIVEN: 5,000.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART I, LINE 16 - OTHER EXPENSES</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: MANAGEMENT FEES. AMOUNT: 135,877. DESCRIPTION: INSURANCE. AMOUNT: 13,850. DESCRIPTION: TRAVEL. AMOUNT: 78. DESCRIPTION: TRAINING, MEETING &amp; CONFERENCE. AMOUNT: 9,325. DESCRIPTION: LICENSES AND TAXES. AMOUNT: 6,737. DESCRIPTION: OUTREACH ACTIVITIES. AMOUNT: 7,500. DESCRIPTION: DEPRECIATION. AMOUNT: 111. TOTAL TO FORM 990-EZ, LINE 16: 173,478.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART II, LINE 24 - OTHER ASSETS</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: INTERCOMPANY RECEIVABLE. BEG. OF YEAR AMOUNT: 172,210. END OF YEAR AMOUNT: 66,870.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990-EZ, PART II, LINE 26 - OTHER LIABILITIES</FormAndLineReferenceDesc>
+        <ExplanationTxt>DESCRIPTION: ACCOUNTS PAYABLE. BEG. OF YEAR AMOUNT: 700,207. END OF YEAR AMOUNT: 1,494,329.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <TransferPrsnlBnftContractsDecl documentId="RetDoc2278000001">
+      <DeclarationDesc>THE ORGANIZATION DID NOT, DURING THE YEAR, RECEIVE ANY FUNDS, DIRECTLY,OR INDIRECTLY, TO PAY PREMIUMS ON A PERSONAL BENEFIT CONTRACT.THE ORGANIZATION, DID NOT, DURING THE YEAR, PAY ANY PREMIUMS, DIRECTLY,OR INDIRECTLY, ON A PERSONAL BENEFIT CONTRACT.</DeclarationDesc>
+    </TransferPrsnlBnftContractsDecl>
+  </ReturnData>
+</Return>

@@ -26,6 +26,7 @@ from .ingest.federal_subawards import run_federal_subawards
 from .ingest.fiscal_vendor import run_fiscal_vendor
 from .ingest.grants_awards import run_grants_awards
 from .ingest.medical_plans import run_medical_plans
+from .ingest.nonprofit_officers import run_nonprofit_officers
 from .ingest.nonprofits import run_nonprofits
 from .ingest.sacs import run_sacs
 from .ingest.search_index import run_search_index
@@ -145,6 +146,11 @@ def _run_sources_catalog(storage: Storage, settings: Settings) -> None:
     run_sources_catalog(storage, cfg, settings)
 
 
+def _run_nonprofit_officers(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "nonprofit_officers")
+    run_nonprofit_officers(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -163,6 +169,7 @@ RUNNERS = {
     "nonprofits": _run_nonprofits,
     "federal_subawards": _run_federal_subawards,
     "compensation": _run_compensation,
+    "nonprofit_officers": _run_nonprofit_officers,
     "entities": _run_entities,
     "search_index": _run_search_index,
     "sources_catalog": _run_sources_catalog,
@@ -191,6 +198,7 @@ RUN_ORDER = [
     "federal_subawards",
     "compensation",
     "nonprofits",
+    "nonprofit_officers",
     "fiscal_vendor",
     "entities",
     "search_index",

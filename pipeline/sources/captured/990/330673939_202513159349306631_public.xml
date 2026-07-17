@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2024v5.2">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-11-11T18:44:08-06:00</ReturnTs>
+    <TaxPeriodEndDt>2024-12-31</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>473535842</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>DAVIS FARR LLP</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>18201 VON KARMAN AVE SUITE 1100</AddressLine1Txt>
+        <CityNm>IRVINE</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92612</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2024-01-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>330673939</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY</BusinessNameLine1Txt>
+        <BusinessNameLine2Txt>DEVELOPMENT CORPORATION</BusinessNameLine2Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>PACI</BusinessNameControlTxt>
+      <PhoneNum>8586750506</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>16935 WEST BERNARDO DRIVE 238</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92127</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>ROBERT W LAING</PersonNm>
+      <PersonTitleTxt>PRESIDENT/EXECUTIVE DIRECTOR</PersonTitleTxt>
+      <PhoneNum>7606750506</PhoneNum>
+      <SignatureDt>2025-11-11</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>TRITIA FOSTER</PreparerPersonNm>
+      <PTIN>P02164134</PTIN>
+      <PhoneNum>9494742020</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2024</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="6">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>ROBERT W LAING</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>16935 WEST BERNARDO DRIVE 238</AddressLine1Txt>
+        <CityNm>SAN DIEGO</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>92127</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>9146318</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>WWW.PSWCDC.ORG</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>1996</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>THE CORPORATION IS ORGANIZED AND OPERATED EXCLUSIVELY AS AN IRC 501(C)(3) CHARITABLE ORGANIZATION TO CONSTRUCT, PROVIDE, SPONSOR, MANAGE, REHABILITATE, AND PRESERVE AFFORDABLE HOUSING AND TO CREATE OPPORTUNITIES FOR ECONOMIC DEVELOPMENT.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>3</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>3</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>45</TotalEmployeeCnt>
+      <TotalVolunteersCnt>85</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>3933587</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>7305</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>3688520</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>9065824</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>1077375</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>43166</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>30331</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>30023</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>8729813</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>9146318</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>2500</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>1564489</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>1725904</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>5194825</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>552513</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>6761814</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>2278417</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>1967999</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>6867901</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>55485008</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>67009769</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>11812168</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>17092942</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>43672840</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>49916827</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>THE CORPORATION IS ORGANIZED AND OPERATED EXCLUSIVELY AS AN IRC 501(C)(3) CHARITABLE ORGANIZATION TO CONSTRUCT, PROVIDE, SPONSOR, MANAGE, REHABILITATE, AND PRESERVE AFFORDABLE HOUSING AND TO CREATE OPPORTUNITIES FOR ECONOMIC DEVELOPMENT.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>2106045</ExpenseAmt>
+      <RevenueAmt>9065824</RevenueAmt>
+      <Desc>THE NON-PROFIT CORPORATION PROVIDES SERVICES IN CONNECTION WITH SPONSORSHIP, MANAGEMENT, REHABILITATION, AND PRESERVATION OF AFFORDABLE HOUSING BY ACTING AS A MANAGING GENERAL PARTNER FOR LOW AND MODERATE INCOME PROPERTIES LOCATED IN CALIFORNIA. IT'S INVESTMENTS ALSO INCLUDE CARRYING BELOW MARKET RATE LOANS ON THESE INVESTMENTS. THE ORGANIZATION UTILIZES THIS INCOME TO SERVE MORE THAN 8000 FAMILIES WITH COMPREHENSIVE SERVICES THAT BESIDES THE ABOVE MENTIONED ALSO INCLUDES 1) YOUTH SERVICES I.E. COMPUTER ENRICHMENT AND READING PROGRAMS; 2) ADULT SERVICES I.E. ENGLISH AS A SECOND LANGUAGE; 3) SENIOR SERVICES I.E. HEALTH, FITNESS, AND TRANSPORTATION; AND 4) OTHER I.E. FOOD PROGRAMS AND CRIME PREVENTION.</Desc>
+      <TotalProgramServiceExpensesAmt>2106045</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd>0</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">1</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">1</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">0</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">1</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">0</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>2</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <EmployeeCnt>45</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>1</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>0</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>3</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>3</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>0</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>0</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>0</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>0</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>ROBERT W LAING</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>7606750506</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>16935 WEST BERNARDO DRIVE 238</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>MICHAEL T WALSH</PersonNm>
+        <TitleTxt>CHAIRMAN OF THE BOARD</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TONY REYES</PersonNm>
+        <TitleTxt>SECRETARY/TREASURER</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>TOM DUBOSE</PersonNm>
+        <TitleTxt>MEMBER</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>ROBERT W LAING</PersonNm>
+        <TitleTxt>PRESIDENT/EXECUTIVE DIRECT</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>320250</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>12920</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>JUAN P ARROYO</PersonNm>
+        <TitleTxt>EXECUTIVE VICE PRESIDENT</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>149840</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>470090</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>0</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>12920</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>2</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <AllOtherContributionsAmt>7305</AllOtherContributionsAmt>
+      <TotalContributionsAmt>7305</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>PARTNERSHIP FEES</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>7531330</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>7531330</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>PROGRAM INCOME</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>1534494</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1534494</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>9065824</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>43166</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>42993</RelatedOrExemptFuncIncomeAmt>
+        <ExclusionAmt>173</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>MISCELLANEOUS</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>30023</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>30023</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>30023</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>9146318</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>9138840</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>173</ExclusionAmt>
+      </TotalRevenueGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>483010</TotalAmt>
+        <ProgramServicesAmt>434709</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>48301</ManagementAndGeneralAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>1036638</TotalAmt>
+        <ProgramServicesAmt>1036638</ProgramServicesAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>10433</TotalAmt>
+        <ProgramServicesAmt>10433</ProgramServicesAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>83774</TotalAmt>
+        <ProgramServicesAmt>83774</ProgramServicesAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>112049</TotalAmt>
+        <ProgramServicesAmt>100844</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11205</ManagementAndGeneralAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>1600</TotalAmt>
+        <ManagementAndGeneralAmt>1600</ManagementAndGeneralAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>75858</TotalAmt>
+        <ManagementAndGeneralAmt>75858</ManagementAndGeneralAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>48006</TotalAmt>
+        <ProgramServicesAmt>40614</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>7392</ManagementAndGeneralAmt>
+      </FeesForServicesOtherGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>23962</TotalAmt>
+        <ProgramServicesAmt>11981</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11981</ManagementAndGeneralAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>26599</TotalAmt>
+        <ProgramServicesAmt>22503</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>4096</ManagementAndGeneralAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>33894</TotalAmt>
+        <ProgramServicesAmt>33894</ProgramServicesAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>6740</TotalAmt>
+        <ProgramServicesAmt>6740</ProgramServicesAmt>
+      </TravelGrp>
+      <InterestGrp>
+        <TotalAmt>9600</TotalAmt>
+        <ProgramServicesAmt>9600</ProgramServicesAmt>
+      </InterestGrp>
+      <InsuranceGrp>
+        <TotalAmt>18022</TotalAmt>
+        <ProgramServicesAmt>6083</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11939</ManagementAndGeneralAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>PROGRAM EXPENSES</Desc>
+        <TotalAmt>182373</TotalAmt>
+        <ProgramServicesAmt>182373</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>GRANT AND CONTRACT EXPE</Desc>
+        <TotalAmt>87685</TotalAmt>
+        <ProgramServicesAmt>87685</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>TAXES AND PERMITS</Desc>
+        <TotalAmt>34779</TotalAmt>
+        <ProgramServicesAmt>34779</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>MISCELLANEOUS</Desc>
+        <TotalAmt>3395</TotalAmt>
+        <ProgramServicesAmt>3395</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>2278417</TotalAmt>
+        <ProgramServicesAmt>2106045</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>172372</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>1229608</BOYAmt>
+        <EOYAmt>1791034</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>105533</BOYAmt>
+        <EOYAmt>105546</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>1851745</BOYAmt>
+        <EOYAmt>2660418</EOYAmt>
+      </AccountsReceivableGrp>
+      <OthNotesLoansReceivableNetGrp>
+        <BOYAmt>19684686</BOYAmt>
+        <EOYAmt>24081931</EOYAmt>
+      </OthNotesLoansReceivableNetGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>13136</BOYAmt>
+        <EOYAmt>13136</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>43685</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>43685</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>0</BOYAmt>
+        <EOYAmt>0</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>32600300</BOYAmt>
+        <EOYAmt>38357704</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>55485008</BOYAmt>
+        <EOYAmt>67009769</EOYAmt>
+      </TotalAssetsGrp>
+      <MortgNotesPyblScrdInvstPropGrp>
+        <BOYAmt>11667786</BOYAmt>
+        <EOYAmt>16957660</EOYAmt>
+      </MortgNotesPyblScrdInvstPropGrp>
+      <UnsecuredNotesLoansPayableGrp>
+        <BOYAmt>85296</BOYAmt>
+        <EOYAmt>76196</EOYAmt>
+      </UnsecuredNotesLoansPayableGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>59086</BOYAmt>
+        <EOYAmt>59086</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>11812168</BOYAmt>
+        <EOYAmt>17092942</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>43672840</BOYAmt>
+        <EOYAmt>49916827</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>43672840</BOYAmt>
+        <EOYAmt>49916827</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>55485008</BOYAmt>
+        <EOYAmt>67009769</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>6867901</ReconcilationRevenueExpnssAmt>
+      <PriorPeriodAdjustmentsAmt>-627520</PriorPeriodAdjustmentsAmt>
+      <OtherChangesInNetAssetsAmt>3606</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>0</FSAuditedInd>
+      <FederalGrantAuditRequiredInd>0</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <PubliclySupportedOrg509a2Ind>X</PubliclySupportedOrg509a2Ind>
+      <GiftsGrantsContrisRcvd509Grp>
+        <CurrentTaxYearMinus4YearsAmt>38123</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>175478</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>7000</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>3350106</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>7305</CurrentTaxYearAmt>
+        <TotalAmt>3578012</TotalAmt>
+      </GiftsGrantsContrisRcvd509Grp>
+      <GrossReceiptsAdmissionsGrp>
+        <CurrentTaxYearMinus4YearsAmt>940372</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1290139</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>3586284</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>3688520</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>9065824</CurrentTaxYearAmt>
+        <TotalAmt>18571139</TotalAmt>
+      </GrossReceiptsAdmissionsGrp>
+      <Total509Grp>
+        <CurrentTaxYearMinus4YearsAmt>978495</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1465617</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>3593284</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>7038626</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>9073129</CurrentTaxYearAmt>
+        <TotalAmt>22149151</TotalAmt>
+      </Total509Grp>
+      <AmountsRcvdDsqlfyPersonGrp>
+        <TotalAmt>0</TotalAmt>
+      </AmountsRcvdDsqlfyPersonGrp>
+      <SubstantialContributorsAmtGrp>
+        <TotalAmt>0</TotalAmt>
+      </SubstantialContributorsAmtGrp>
+      <SubstAndDsqlfyPrsnsTotGrp>
+        <TotalAmt>0</TotalAmt>
+      </SubstAndDsqlfyPrsnsTotGrp>
+      <PublicSupportTotal509Amt>22149151</PublicSupportTotal509Amt>
+      <GrossInvestmentIncome509Grp>
+        <CurrentTaxYearMinus4YearsAmt>453048</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>453261</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>649764</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1077375</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>43166</CurrentTaxYearAmt>
+        <TotalAmt>2676614</TotalAmt>
+      </GrossInvestmentIncome509Grp>
+      <InvestmentIncomeAndUBTIGrp>
+        <CurrentTaxYearMinus4YearsAmt>453048</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>453261</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>649764</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>1077375</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>43166</CurrentTaxYearAmt>
+        <TotalAmt>2676614</TotalAmt>
+      </InvestmentIncomeAndUBTIGrp>
+      <OtherIncome509Grp>
+        <CurrentTaxYearMinus4YearsAmt>6271</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>12231</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>10587</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>30332</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>30023</CurrentTaxYearAmt>
+        <TotalAmt>89444</TotalAmt>
+      </OtherIncome509Grp>
+      <TotalSupportCalendarYearGrp>
+        <CurrentTaxYearMinus4YearsAmt>1437814</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>1931109</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>4253635</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>8146333</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>9146318</CurrentTaxYearAmt>
+        <TotalAmt>24915209</TotalAmt>
+      </TotalSupportCalendarYearGrp>
+      <PublicSupportCY509Pct>0.88900</PublicSupportCY509Pct>
+      <PublicSupportPY509Pct>0.83590</PublicSupportPY509Pct>
+      <InvestmentIncomeCYPct>0.10740</InvestmentIncomeCYPct>
+      <InvestmentIncomePYPct>0.15850</InvestmentIncomePYPct>
+      <ThirtyThrPctSuprtTestsCY509Ind>X</ThirtyThrPctSuprtTestsCY509Ind>
+      <Form990ScheduleAPartVIGrp>
+        <FormAndLineReferenceDesc>SCHEDULE A, PART III, LINE 12, EXPLANATION OF OTHER INCOME:</FormAndLineReferenceDesc>
+        <ExplanationTxt>OTHER INCOME - 2020 AMOUNT: $ 68. OTHER PROGRAM REVENUE - 2020 AMOUNT: $ 6,203. 2021 AMOUNT: $ 12,231. 2022 AMOUNT: $ 10,587. 2023 AMOUNT: $ 30,332. 2024 AMOUNT: $ 30,023.</ExplanationTxt>
+      </Form990ScheduleAPartVIGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <OtherLandBuildingsGrp>
+        <OtherCostOrOtherBasisAmt>43685</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>43685</DepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </OtherLandBuildingsGrp>
+      <TotalBookValueLandBuildingsAmt>0</TotalBookValueLandBuildingsAmt>
+      <OtherAssetsOrgGrp>
+        <Desc>ACCRUED INCOME</Desc>
+        <BookValueAmt>653423</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>INTEREST RECEIVABLE</Desc>
+        <BookValueAmt>218325</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>INVESTMENTS IN TAX CREDIT PARTNERSHIPS</Desc>
+        <BookValueAmt>37482669</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <OtherAssetsOrgGrp>
+        <Desc>INVESTMENTS IN OTHER PARTNERSHIPS</Desc>
+        <BookValueAmt>3287</BookValueAmt>
+      </OtherAssetsOrgGrp>
+      <TotalBookValueOtherAssetsAmt>38357704</TotalBookValueOtherAssetsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>ACCRUED COMPENSATED ABSENCES</Desc>
+        <Amt>59086</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>59086</TotalLiabilityAmt>
+    </IRS990ScheduleD>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>ROBERT W LAING</PersonNm>
+        <TitleTxt>PRESIDENT/EXECUTIVE DIRECT</TitleTxt>
+        <BaseCompensationFilingOrgAmt>261250</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>0</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>59000</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>12920</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>0</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>333170</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>0</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 11B</FormAndLineReferenceDesc>
+        <ExplanationTxt>RETURN WILL BE REVIEWED BY BOARD PRIOR TO FILING.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 12C</FormAndLineReferenceDesc>
+        <ExplanationTxt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT CORPORATION IS CONCERNED WITH CONFLICTS OF INTEREST THAT CREATE ACTUAL OR POTENTIAL JOB-RELATED CONCERNS, ESPECIALLY IN THE AREAS OF CONFIDENTIALITY, CUSTOMER RELATIONS, SAFETY, SECURITY, AND MORALE. IF THERE IS ANY ACTUAL OR POTENTIAL CONFLICT OF INTEREST BETWEEN YOU AND A COMPETITOR, SUPPLIER, DISTRIBUTOR, OR CONTRACTOR TO THE COMPANY, YOU MUST DISCLOSE IT TO YOUR SUPERVISOR. IF AN ACTUAL OR POTENTIAL CONFLICT OF INTEREST IS DETERMINED TO EXIST, THE COMPANY WILL TAKE SUCH STEPS AS IT DEEMS NECESSARY TO REDUCE OR ELIMINATE THIS CONFLICT.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION B, LINE 15A</FormAndLineReferenceDesc>
+        <ExplanationTxt>THE BOARD REVIEWS COMPENSATION POLICIES OF EXECUTIVE DIRECTOR AND DETERMINES RAISES, BONUSES, AND OTHER COMPENSATION AWARDS.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART VI, SECTION C, LINE 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>THESE DOCUMENTS AVAILABLE UPON REQUEST.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>FORM 990, PART XI, LINE 9:</FormAndLineReferenceDesc>
+        <ExplanationTxt>TO ADJUST ACCUMULATED DEPRECIATION 3,606.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>AVIARA PSCDC LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881107403</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>GRANITE POINTE MGP LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>334544602</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>OAKLAND VENTURE MGP LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>844408492</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PACIFIC SCDC MGP LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>922800587</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PINOLE PSCDC LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>873398592</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC 3481 VISTA LANE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>883659138</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC AE DIAMOND VALLEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881194157</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC AE-1 DIAMOND VALLEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881249151</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC AE-2 DIAMOND VALLEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881274770</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC AE-3 DIAMOND VALLEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881306566</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC ALDEA PARK LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>850527657</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC AVALON NICOLET</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>333651071</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC BALER LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>994448317</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC DELIVERANCE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>821663454</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <TotalIncomeAmt>12299</TotalIncomeAmt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC DIAMOND SPRINGS TWO LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881103896</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC DIAMOND VALLEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>862027408</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC DRY CREEK CROSSING</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>882792296</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC EL DORADO ONE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881046746</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC EL DORADO TWO LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881051437</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC FOUR LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>884182049</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC HEBER DEL SOL LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>882651503</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC ISLAND LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>884090698</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC LACOUNTY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881158390</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC MALLARD LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>861983501</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC MCKINNEY LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>333678006</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC MIDDLETOWN LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>861995279</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC MORRO DEL MAR LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>471119012</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC NAPA COVE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>881135045</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC NATIONAL AV LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>933891375</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC ONE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>854325331</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC PARDES 1 LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>933516160</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC PINNACLE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>994397818</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC PRAIRIE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>884382337</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC PRIME SD LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>991783837</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC SALTAIR LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>862527482</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC SCOTTS LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>994427844</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC SFV LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>820805672</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC SOHI LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>991726145</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC THE BLUFFS LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>882677037</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC THE GRANT LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>932248573</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC THREE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>920670342</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC TWO LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>920651222</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC WESTSIDE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>994361689</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PSCDC WIGHTMAN PLACE LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>933697862</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+      <IdDisregardedEntitiesGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>PUEBLO PSCDC LLC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>16935 W BERNARDO DR</AddressLine1Txt>
+          <CityNm>SAN DIEGO</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92127</ZIPCd>
+        </USAddress>
+        <EIN>853522162</EIN>
+        <PrimaryActivitiesTxt>RENTAL OF LOW INCOME HOUSING</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>PACIFIC SOUTHWEST COMMUNITY DEVELOPMENT</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+      </IdDisregardedEntitiesGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.irs.gov/efile" returnVersion="2023v6.0">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-15T16:39:04-05:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>582487348</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>Aprio Advisory Group LLC</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>2002 Summit Boulevard Suite 120</AddressLine1Txt>
+        <CityNm>Atlanta</CityNm>
+        <StateAbbreviationCd>GA</StateAbbreviationCd>
+        <ZIPCd>30319</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>464433655</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>Bay Area Community Services Housing Corp</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>BAYA</BusinessNameControlTxt>
+      <PhoneNum>5106130330</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94609</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Benjamin Blake</PersonNm>
+      <PersonTitleTxt>CEO</PersonTitleTxt>
+      <PhoneNum>5106130330</PhoneNum>
+      <SignatureDt>2025-05-14</SignatureDt>
+      <DiscussWithPaidPreparerInd>1</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>1</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Stacy Cullen</PreparerPersonNm>
+      <PTIN>P00974308</PTIN>
+      <PhoneNum>4048929651</PhoneNum>
+      <PreparationDt>2025-05-14</PreparationDt>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="7">
+    <IRS990 documentId="RetDoc1038000001" referenceDocumentId="RetDoc1044400001">
+      <PrincipalOfficerNm>Benjamin Blake</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+        <CityNm>Oakland</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>94609</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>11985712</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>0</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>N/A</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2013</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>Improve the quality of life for the people in Alameda and Conta Costa Counties, California with specific needs imposed by age or disability.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>5</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>5</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>0</TotalEmployeeCnt>
+      <TotalVolunteersCnt>5</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <NetUnrelatedBusTxblIncmAmt>0</NetUnrelatedBusTxblIncmAmt>
+      <PYContributionsGrantsAmt>18104949</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>9990472</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>2645745</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>1763154</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>0</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>232086</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>43212</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>0</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>20793906</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>11985712</CYTotalRevenueAmt>
+      <PYGrantsAndSimilarPaidAmt>0</PYGrantsAndSimilarPaidAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <PYBenefitsPaidToMembersAmt>0</PYBenefitsPaidToMembersAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>96382</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>102558</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>0</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>0</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>0</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>2962943</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>3303780</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>3059325</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>3406338</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>17734581</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>8579374</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>51630154</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>67372779</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>77729</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>8549792</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>51552425</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>58822987</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>Improve the quality of life for individuals in Alameda County, Contra Costa County, Solano County, Monterey County, Sacramento County and the surrounding area in the State of California.</MissionDesc>
+      <SignificantNewProgramSrvcInd>0</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>0</SignificantChangeInd>
+      <ExpenseAmt>2874045</ExpenseAmt>
+      <RevenueAmt>1763154</RevenueAmt>
+      <Desc>Housing and housing related services, including the rehabilitation and construction of low to moderate income and affordable housing, for behavioral health individuals including teens, adults, older adults, and families.</Desc>
+      <TotalProgramServiceExpensesAmt>2874045</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="RetDoc1039100001">1</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd referenceDocumentId="RetDoc1234500001">1</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>0</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>0</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>0</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="RetDoc1040000001">0</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="RetDoc1040000001">0</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="RetDoc1040000001">0</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="RetDoc1040000001">0</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd>0</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="RetDoc1040000001">1</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="RetDoc1040000001">0</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="RetDoc1040000001">0</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="RetDoc1040000001">0</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="RetDoc1040000001">0</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="RetDoc1040000001">1</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">0</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="RetDoc1040000001">1</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>0</SchoolOperatingInd>
+      <ForeignOfficeInd>0</ForeignOfficeInd>
+      <ForeignActivitiesInd>0</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>0</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>0</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd>0</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd>0</FundraisingActivitiesInd>
+      <GamingActivitiesInd>0</GamingActivitiesInd>
+      <OperateHospitalInd>0</OperateHospitalInd>
+      <GrantsToOrganizationsInd>0</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>0</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="RetDoc1042400001">1</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>0</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd>0</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd>0</PYExcessBenefitTransInd>
+      <LoanOutstandingInd>0</LoanOutstandingInd>
+      <GrantToRelatedPersonInd>0</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd>0</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd>0</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd>0</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd>0</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd>0</DeductibleArtContributionInd>
+      <TerminateOperationsInd>0</TerminateOperationsInd>
+      <PartialLiquidationInd>0</PartialLiquidationInd>
+      <DisregardedEntityInd referenceDocumentId="RetDoc1043400001">0</DisregardedEntityInd>
+      <RelatedEntityInd referenceDocumentId="RetDoc1043400001">1</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>0</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd referenceDocumentId="RetDoc1043400001">0</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd referenceDocumentId="RetDoc1043400001">0</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>1</ScheduleORequiredInd>
+      <IRPDocumentCnt>0</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <EmployeeCnt>0</EmployeeCnt>
+      <UnrelatedBusIncmOverLimitInd>0</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>0</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>0</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>0</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>0</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>0</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>0</Form8282PropertyDisposedOfInd>
+      <RcvFndsToPayPrsnlBnftCntrctInd>0</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>0</PayPremiumsPrsnlBnftCntrctInd>
+      <IndoorTanningServicesInd>0</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>0</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>0</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>5</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>5</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>0</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>0</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>0</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>0</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>0</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>1</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>0</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>1</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>1</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>0</OfficerMailingAddressInd>
+      <LocalChaptersInd>0</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>1</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>1</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>1</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>1</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>1</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>1</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>1</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>1</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>0</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <UponRequestInd>X</UponRequestInd>
+      <BooksInCareOfDetail>
+        <BusinessName>
+          <BusinessNameLine1Txt>The Organization</BusinessNameLine1Txt>
+        </BusinessName>
+        <PhoneNum>5103186130</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+          <CityNm>Oakland</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>John Steinfirst</PersonNm>
+        <TitleTxt>Chair</TitleTxt>
+        <AverageHoursPerWeekRt>1.80</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.75</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Judith Bloom</PersonNm>
+        <TitleTxt>Vice Chair</TitleTxt>
+        <AverageHoursPerWeekRt>1.80</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.75</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Armando Pastran JR</PersonNm>
+        <TitleTxt>Secretary &amp; Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>1.80</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.75</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Eric Dyce</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>1.80</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.75</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Scott Verges</PersonNm>
+        <TitleTxt>Board Member</TitleTxt>
+        <AverageHoursPerWeekRt>1.80</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>1.75</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jaime Almanza</PersonNm>
+        <TitleTxt>CEO- Upto April 24</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>410178</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>22500</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Benjamin Blake</PersonNm>
+        <TitleTxt>Chief Engagement Officer</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>230415</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>30000</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Betsy Schwarzwalder</PersonNm>
+        <TitleTxt>Senior HR Director</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>203978</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>30000</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jovan Yglecias</PersonNm>
+        <TitleTxt>Chief Program Officer</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>237229</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>4682</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Berger Christopher E</PersonNm>
+        <TitleTxt>Psychiatrist</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>364205</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>16490</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Renee Tripp</PersonNm>
+        <TitleTxt>CAO</TitleTxt>
+        <AverageHoursPerWeekRt>1.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>40.00</AverageHoursPerWeekRltdOrgRt>
+        <HighestCompensatedEmployeeInd>X</HighestCompensatedEmployeeInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>155546</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>21141</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>0</TotalReportableCompFromOrgAmt>
+      <TotReportableCompRltdOrgAmt>1601551</TotReportableCompRltdOrgAmt>
+      <TotalOtherCompensationAmt>124813</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>0</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>0</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>1</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>0</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <GovernmentGrantsAmt>7256128</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>2734344</AllOtherContributionsAmt>
+      <TotalContributionsAmt>9990472</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Rent</Desc>
+        <BusinessCd>531110</BusinessCd>
+        <TotalRevenueColumnAmt>1763154</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1763154</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>1763154</TotalProgramServiceRevenueAmt>
+      <GrossAmountSalesAssetsGrp>
+        <OtherAmt>232086</OtherAmt>
+      </GrossAmountSalesAssetsGrp>
+      <LessCostOthBasisSalesExpnssGrp>
+        <OtherAmt>0</OtherAmt>
+      </LessCostOthBasisSalesExpnssGrp>
+      <GainOrLossGrp>
+        <OtherAmt>232086</OtherAmt>
+      </GainOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>232086</TotalRevenueColumnAmt>
+        <ExclusionAmt>232086</ExclusionAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>11985712</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>1763154</RelatedOrExemptFuncIncomeAmt>
+        <UnrelatedBusinessRevenueAmt>0</UnrelatedBusinessRevenueAmt>
+        <ExclusionAmt>232086</ExclusionAmt>
+      </TotalRevenueGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>92646</TotalAmt>
+        <ProgramServicesAmt>92646</ProgramServicesAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>2175</TotalAmt>
+        <ProgramServicesAmt>2175</ProgramServicesAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>3734</TotalAmt>
+        <ProgramServicesAmt>3734</ProgramServicesAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>4003</TotalAmt>
+        <ProgramServicesAmt>4003</ProgramServicesAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>202596</TotalAmt>
+        <ProgramServicesAmt>202596</ProgramServicesAmt>
+      </FeesForServicesOtherGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>12618</TotalAmt>
+        <ProgramServicesAmt>12618</ProgramServicesAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>44643</TotalAmt>
+        <ProgramServicesAmt>44643</ProgramServicesAmt>
+      </InformationTechnologyGrp>
+      <OccupancyGrp>
+        <TotalAmt>162779</TotalAmt>
+        <ProgramServicesAmt>162779</ProgramServicesAmt>
+      </OccupancyGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>1008985</TotalAmt>
+        <ProgramServicesAmt>1008985</ProgramServicesAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>94052</TotalAmt>
+        <ProgramServicesAmt>94052</ProgramServicesAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Property Taxes</Desc>
+        <TotalAmt>1051174</TotalAmt>
+        <ProgramServicesAmt>1051174</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Admin Expenses</Desc>
+        <TotalAmt>310640</TotalAmt>
+        <ManagementAndGeneralAmt>310640</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Bank Fees</Desc>
+        <TotalAmt>147136</TotalAmt>
+        <ManagementAndGeneralAmt>147136</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Repairs and Maintenance</Desc>
+        <TotalAmt>106996</TotalAmt>
+        <ProgramServicesAmt>106996</ProgramServicesAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>162161</TotalAmt>
+        <ProgramServicesAmt>87644</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>74517</ManagementAndGeneralAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>3406338</TotalAmt>
+        <ProgramServicesAmt>2874045</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>532293</ManagementAndGeneralAmt>
+        <FundraisingAmt>0</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>1582648</BOYAmt>
+        <EOYAmt>4708424</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <EOYAmt>7359133</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>428578</BOYAmt>
+        <EOYAmt>503272</EOYAmt>
+      </AccountsReceivableGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>125000</BOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>59234339</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>4532406</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>49278928</BOYAmt>
+        <EOYAmt>54701933</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>215000</BOYAmt>
+        <EOYAmt>100017</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>51630154</BOYAmt>
+        <EOYAmt>67372779</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>15095</BOYAmt>
+        <EOYAmt>24539</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>62634</BOYAmt>
+        <EOYAmt>8525253</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>77729</BOYAmt>
+        <EOYAmt>8549792</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>51222313</BOYAmt>
+        <EOYAmt>57018754</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>330112</BOYAmt>
+        <EOYAmt>1804233</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>51552425</BOYAmt>
+        <EOYAmt>58822987</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>51630154</BOYAmt>
+        <EOYAmt>67372779</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <ReconcilationRevenueExpnssAmt>8579374</ReconcilationRevenueExpnssAmt>
+      <PriorPeriodAdjustmentsAmt>-1308812</PriorPeriodAdjustmentsAmt>
+      <OtherChangesInNetAssetsAmt>0</OtherChangesInNetAssetsAmt>
+      <InfoInScheduleOPartXIIInd>X</InfoInScheduleOPartXIIInd>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>0</AccountantCompileOrReviewInd>
+      <FSAuditedInd>1</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <ConsolAndSepBasisFinclStmtInd>X</ConsolAndSepBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>1</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>0</FederalGrantAuditRequiredInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="RetDoc1039100001">
+      <SupportingOrganization509a3Ind>X</SupportingOrganization509a3Ind>
+      <SupportingOrgType1Ind>X</SupportingOrgType1Ind>
+      <SupportedOrganizationsCnt>1</SupportedOrganizationsCnt>
+      <SupportedOrgInformationGrp>
+        <SupportedOrganizationName>
+          <BusinessNameLine1Txt>Bay Area Community Services Inc</BusinessNameLine1Txt>
+        </SupportedOrganizationName>
+        <EIN>941708069</EIN>
+        <OrganizationTypeCd>7</OrganizationTypeCd>
+        <GoverningDocumentListedInd>1</GoverningDocumentListedInd>
+        <SupportAmt>8631685</SupportAmt>
+        <OtherSupportAmt>0</OtherSupportAmt>
+      </SupportedOrgInformationGrp>
+      <SupportedOrganizationsTotalCnt>1</SupportedOrganizationsTotalCnt>
+      <SupportSumAmt>8631685</SupportSumAmt>
+      <OtherSupportSumAmt>0</OtherSupportSumAmt>
+      <Form990SchASupportingOrgGrp>
+        <ListedByNameGoverningDocInd>1</ListedByNameGoverningDocInd>
+        <SuprtOrgNoIRSDeterminationInd>0</SuprtOrgNoIRSDeterminationInd>
+        <SupportedOrgSectionC456Ind>0</SupportedOrgSectionC456Ind>
+        <SupportedOrgNotOrganizedUSInd>0</SupportedOrgNotOrganizedUSInd>
+        <OrganizationChangeSuprtOrgInd>0</OrganizationChangeSuprtOrgInd>
+        <SupportNonSupportedOrgInd>0</SupportNonSupportedOrgInd>
+        <PaymentSubstantialContribtrInd>0</PaymentSubstantialContribtrInd>
+        <LoanDisqualifiedPersonInd>0</LoanDisqualifiedPersonInd>
+        <ControlledDisqualifiedPrsnInd>0</ControlledDisqualifiedPrsnInd>
+        <DisqualifiedPrsnControllIntInd>0</DisqualifiedPrsnControllIntInd>
+        <DisqualifiedPrsnOwnrIntInd>0</DisqualifiedPrsnOwnrIntInd>
+        <ExcessBusinessHoldingsRulesInd>0</ExcessBusinessHoldingsRulesInd>
+        <ContributionControllerInd>0</ContributionControllerInd>
+        <ContributionFamilyInd>0</ContributionFamilyInd>
+        <Contribution35ControlledInd>0</Contribution35ControlledInd>
+      </Form990SchASupportingOrgGrp>
+      <Form990SchAType1SuprtOrgGrp>
+        <PowerAppointMajorityDirTrstInd>1</PowerAppointMajorityDirTrstInd>
+        <OperateBenefitNonSuprtOrgInd>0</OperateBenefitNonSuprtOrgInd>
+      </Form990SchAType1SuprtOrgGrp>
+    </IRS990ScheduleA>
+    <IRS990ScheduleB documentId="RetDoc1234500001">
+      <ContributorInformationGrp>
+        <ContributorNum>RESTRICTED</ContributorNum>
+        <ContributorBusinessName>
+          <BusinessNameLine1>RESTRICTED</BusinessNameLine1>
+        </ContributorBusinessName>
+        <ContributorUSAddress>
+          <AddressLine1>RESTRICTED</AddressLine1>
+          <AddressLine2>RESTRICTED</AddressLine2>
+          <City>RESTRICTED</City>
+          <State>RESTRICTED</State>
+          <ZIPCode>RESTRICTED</ZIPCode>
+        </ContributorUSAddress>
+        <TotalContributionsAmt>RESTRICTED</TotalContributionsAmt>
+      </ContributorInformationGrp>
+    </IRS990ScheduleB>
+    <IRS990ScheduleD documentId="RetDoc1040000001">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>15006382</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>15006382</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>43909144</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>4215600</DepreciationAmt>
+        <BookValueAmt>39693544</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>299175</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>297168</DepreciationAmt>
+        <BookValueAmt>2007</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>19638</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>19638</DepreciationAmt>
+        <BookValueAmt>0</BookValueAmt>
+      </EquipmentGrp>
+      <TotalBookValueLandBuildingsAmt>54701933</TotalBookValueLandBuildingsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Other Liabilities</Desc>
+        <Amt>81266</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Accrued Receivables</Desc>
+        <Amt>102557</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Opearting Acct 5998</Desc>
+        <Amt>8341430</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>8525253</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>13865194</TotalRevEtcAuditedFinclStmtAmt>
+      <OtherRevenueAmt>1879482</OtherRevenueAmt>
+      <RevenueNotReportedAmt>1879482</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>11985712</RevenueSubtotalAmt>
+      <RevenueNotReportedFinclStmtAmt>0</RevenueNotReportedFinclStmtAmt>
+      <TotalRevenuePerForm990Amt>11985712</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>5179567</TotExpnsEtcAuditedFinclStmtAmt>
+      <OtherExpensesIncludedAmt>1773229</OtherExpensesIncludedAmt>
+      <ExpensesNotReportedAmt>1773229</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>3406338</ExpensesSubtotalAmt>
+      <ExpensesNotRptFinclStmtAmt>0</ExpensesNotRptFinclStmtAmt>
+      <TotalExpensesPerForm990Amt>3406338</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part X, Line 2:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Organization is exempt from Federal and State Income taxes under Internal Revenue Code Section 501(c)(3) and California Franchise Tax Board Code Section 23701d. Therefore, no provision for income taxes has been made in the accompanying consolidated financial statements. In addition, the Internal Revenue Service has determined The Organization is not a "private foundation" within the meaning of Section 509(a) of the Internal Revenue Code. Management of the Organization considers the likelihood of changes by taxing authorities in its filed tax returns and recognizes a liability for or discloses potential significant changes if management believes it is more likely than not for a change to occur, including changes to the Organization's status as a not-forprofit entity. Management believes the Organization met the requirements to maintain its tax-exempt status and has no income subject to unrelated business income tax. The Organization's tax returns for the past three years are subject to examination by tax authorities and may change upon examination.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XI, Line 2d - Other Adjustments:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Revenue from Other Affiliates of Organization 1,879,482.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XII, Line 2d - Other Adjustments:</FormAndLineReferenceDesc>
+        <ExplanationTxt>Expenses from Other Affiliates of Organization 1,773,229.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleJ documentId="RetDoc1042400001">
+      <BoardOrCommitteeApprovalInd>X</BoardOrCommitteeApprovalInd>
+      <SeverancePaymentInd>0</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>0</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>0</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>0</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>0</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>0</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>0</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>0</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>0</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Jaime Almanza</PersonNm>
+        <TitleTxt>CEO- Upto April 24</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>410178</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>22500</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>432678</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Berger Christopher E</PersonNm>
+        <TitleTxt>Psychiatrist</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>364205</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>16490</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>380695</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Benjamin Blake</PersonNm>
+        <TitleTxt>Chief Engagement Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>230415</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>30000</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>260415</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Jovan Yglecias</PersonNm>
+        <TitleTxt>Chief Program Officer</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>237229</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>4682</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>241911</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Betsy Schwarzwalder</PersonNm>
+        <TitleTxt>Senior HR Director</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>203978</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>30000</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>233978</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Renee Tripp</PersonNm>
+        <TitleTxt>CAO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>0</BaseCompensationFilingOrgAmt>
+        <CompensationBasedOnRltdOrgsAmt>155546</CompensationBasedOnRltdOrgsAmt>
+        <BonusFilingOrganizationAmount>0</BonusFilingOrganizationAmount>
+        <BonusRelatedOrganizationsAmt>0</BonusRelatedOrganizationsAmt>
+        <OtherCompensationFilingOrgAmt>0</OtherCompensationFilingOrgAmt>
+        <OtherCompensationRltdOrgsAmt>0</OtherCompensationRltdOrgsAmt>
+        <DeferredCompensationFlngOrgAmt>0</DeferredCompensationFlngOrgAmt>
+        <DeferredCompRltdOrgsAmt>21141</DeferredCompRltdOrgsAmt>
+        <NontaxableBenefitsFilingOrgAmt>0</NontaxableBenefitsFilingOrgAmt>
+        <NontaxableBenefitsRltdOrgsAmt>0</NontaxableBenefitsRltdOrgsAmt>
+        <TotalCompensationFilingOrgAmt>0</TotalCompensationFilingOrgAmt>
+        <TotalCompensationRltdOrgsAmt>176687</TotalCompensationRltdOrgsAmt>
+        <CompReportPrior990FilingOrgAmt>0</CompReportPrior990FilingOrgAmt>
+        <CompReportPrior990RltdOrgsAmt>0</CompReportPrior990RltdOrgsAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 3</FormAndLineReferenceDesc>
+        <ExplanationTxt>Bay Area Community Services strives to maintain both internal and external equity. Internal equity is the same pay range. External equity is maintained by comparing wages to what other similarly situated organizations (non-profits) pay for comparable positions. It is the goal of Bay Area Community Services to eventually arrive at wages that are at the 75th percentile of comparable positions in the non-profit sector.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleO documentId="RetDoc1044400001">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section A, line 7a</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Board of Directors is appointed by the board of directors of the Bay Area Community Services, inc, a 501(c)(3) organization.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Form 990 is reviewed by the CFO and Executive Director. The Executive Director briefs the board of directors and gets the board's concurrence prior to submission.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 12c</FormAndLineReferenceDesc>
+        <ExplanationTxt>Policies and procedures are disseminated to all of the working sites of bay area community services. These include personnel policies, accounting policies, petty cash procedures in addition to program procedures required for each site dependent on contract requirements.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, line 15</FormAndLineReferenceDesc>
+        <ExplanationTxt>The organization strives to maintain both internal and external equity. Internal equity is the same pay range. External equity is maintained by comparing wages to what other similarly situated organizations (nonprofits) pay for comparable positions. It is the goal of the organization to eventually arrive at wages that are at 75th percentile of comparable positions in the non profit sector.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>The governing documents, conflict of interest policy and financial statements are made available upon request.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part XII, Line 2c:</FormAndLineReferenceDesc>
+        <ExplanationTxt>The organization has a committee that assumes responsibility for oversight of the audit.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+    <IRS990ScheduleR documentId="RetDoc1043400001">
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>Bay Area Community Services Inc</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+          <CityNm>Oakland</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+        <EIN>941708069</EIN>
+        <PrimaryActivitiesTxt>Community</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 7</PublicCharityStatusTxt>
+        <DirectControllingNACd>N/A</DirectControllingNACd>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>East Bay Transitional Homes Inc</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+          <CityNm>Oakland</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+        <EIN>942831141</EIN>
+        <PrimaryActivitiesTxt>Housing</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 10</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>Adolescent Treatment Centers Inc</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+          <CityNm>Oakland</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+        <EIN>680088443</EIN>
+        <PrimaryActivitiesTxt>Treatment</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 10</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <IdRelatedTaxExemptOrgGrp>
+        <DisregardedEntityName>
+          <BusinessNameLine1Txt>BACS Prevention Platform INC</BusinessNameLine1Txt>
+        </DisregardedEntityName>
+        <USAddress>
+          <AddressLine1Txt>390 40th Street</AddressLine1Txt>
+          <CityNm>oakland</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>94609</ZIPCd>
+        </USAddress>
+        <EIN>871047278</EIN>
+        <PrimaryActivitiesTxt>Information technology</PrimaryActivitiesTxt>
+        <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+        <ExemptCodeSectionTxt>501(c)(3)</ExemptCodeSectionTxt>
+        <PublicCharityStatusTxt>Line 10</PublicCharityStatusTxt>
+        <DirectControllingEntityName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </DirectControllingEntityName>
+        <ControlledOrganizationInd>0</ControlledOrganizationInd>
+      </IdRelatedTaxExemptOrgGrp>
+      <ReceiptOfIntAnntsRntsRyltsInd>0</ReceiptOfIntAnntsRntsRyltsInd>
+      <GiftGrntOrCapContriToOthOrgInd>0</GiftGrntOrCapContriToOthOrgInd>
+      <GiftGrntCapContriFromOthOrgInd>1</GiftGrntCapContriFromOthOrgInd>
+      <LoansOrGuaranteesToOtherOrgInd>0</LoansOrGuaranteesToOtherOrgInd>
+      <LoansOrGuaranteesFromOthOrgInd>0</LoansOrGuaranteesFromOthOrgInd>
+      <DivRelatedOrganizationInd>0</DivRelatedOrganizationInd>
+      <AssetSaleToOtherOrgInd>0</AssetSaleToOtherOrgInd>
+      <AssetPurchaseFromOtherOrgInd>0</AssetPurchaseFromOtherOrgInd>
+      <AssetExchangeInd>0</AssetExchangeInd>
+      <RentalOfFacilitiesToOthOrgInd>1</RentalOfFacilitiesToOthOrgInd>
+      <RentalOfFcltsFromOthOrgInd>0</RentalOfFcltsFromOthOrgInd>
+      <PerformOfServicesForOthOrgInd>0</PerformOfServicesForOthOrgInd>
+      <PerformOfServicesByOtherOrgInd>0</PerformOfServicesByOtherOrgInd>
+      <SharingOfFacilitiesInd>0</SharingOfFacilitiesInd>
+      <PaidEmployeesSharingInd>1</PaidEmployeesSharingInd>
+      <ReimbursementPaidToOtherOrgInd>0</ReimbursementPaidToOtherOrgInd>
+      <ReimbursementPaidByOtherOrgInd>0</ReimbursementPaidByOtherOrgInd>
+      <TransferToOtherOrgInd>0</TransferToOtherOrgInd>
+      <TransferFromOtherOrgInd>0</TransferFromOtherOrgInd>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>C</TransactionTypeTxt>
+        <InvolvedAmt>7173128</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>J</TransactionTypeTxt>
+        <InvolvedAmt>1356000</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+      <TransactionsRelatedOrgGrp>
+        <OtherOrganizationName>
+          <BusinessNameLine1Txt>Bay Area Community Services</BusinessNameLine1Txt>
+        </OtherOrganizationName>
+        <TransactionTypeTxt>O</TransactionTypeTxt>
+        <InvolvedAmt>102557</InvolvedAmt>
+        <MethodOfAmountDeterminationTxt>FMV</MethodOfAmountDeterminationTxt>
+      </TransactionsRelatedOrgGrp>
+    </IRS990ScheduleR>
+  </ReturnData>
+</Return>

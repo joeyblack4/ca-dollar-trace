@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Return xmlns="http://www.irs.gov/efile" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" returnVersion="2023v6.0" xsi:schemaLocation="http://www.irs.gov/efile">
+  <ReturnHeader binaryAttachmentCnt="0">
+    <ReturnTs>2025-05-15T15:49:15-07:00</ReturnTs>
+    <TaxPeriodEndDt>2024-06-30</TaxPeriodEndDt>
+    <PreparerFirmGrp>
+      <PreparerFirmEIN>954401626</PreparerFirmEIN>
+      <PreparerFirmName>
+        <BusinessNameLine1Txt>VASIN HEYN AND COMPANY</BusinessNameLine1Txt>
+      </PreparerFirmName>
+      <PreparerUSAddress>
+        <AddressLine1Txt>5000 N PKWY CALABASAS STE 104</AddressLine1Txt>
+        <CityNm>CALABASAS</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91302</ZIPCd>
+      </PreparerUSAddress>
+    </PreparerFirmGrp>
+    <ReturnTypeCd>990</ReturnTypeCd>
+    <TaxPeriodBeginDt>2023-07-01</TaxPeriodBeginDt>
+    <Filer>
+      <EIN>300421837</EIN>
+      <BusinessName>
+        <BusinessNameLine1Txt>The Teen Project Inc</BusinessNameLine1Txt>
+      </BusinessName>
+      <BusinessNameControlTxt>TEEN</BusinessNameControlTxt>
+      <PhoneNum>9492831260</PhoneNum>
+      <USAddress>
+        <AddressLine1Txt>14530 Sylvan St</AddressLine1Txt>
+        <CityNm>Van Nuys</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91411</ZIPCd>
+      </USAddress>
+    </Filer>
+    <BusinessOfficerGrp>
+      <PersonNm>Lauri L Burns</PersonNm>
+      <PersonTitleTxt>CEO</PersonTitleTxt>
+      <SignatureDt>2025-05-15</SignatureDt>
+      <DiscussWithPaidPreparerInd>true</DiscussWithPaidPreparerInd>
+    </BusinessOfficerGrp>
+    <IRSResponsiblePrtyInfoCurrInd>true</IRSResponsiblePrtyInfoCurrInd>
+    <PreparerPersonGrp>
+      <PreparerPersonNm>Lauren Schmidt</PreparerPersonNm>
+      <PTIN>P03074741</PTIN>
+      <PhoneNum>8182223500</PhoneNum>
+    </PreparerPersonGrp>
+    <TaxYr>2023</TaxYr>
+    <BuildTS>2025-03-06 01:10:19Z</BuildTS>
+  </ReturnHeader>
+  <ReturnData documentCnt="8">
+    <IRS990 documentId="IRS990" referenceDocumentId="IRS990ScheduleO" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <AddressChangeInd>X</AddressChangeInd>
+      <PrincipalOfficerNm>Lauri L Burns</PrincipalOfficerNm>
+      <USAddress>
+        <AddressLine1Txt>14530 Sylvan St</AddressLine1Txt>
+        <CityNm>Van Nuys</CityNm>
+        <StateAbbreviationCd>CA</StateAbbreviationCd>
+        <ZIPCd>91411</ZIPCd>
+      </USAddress>
+      <GrossReceiptsAmt>12567098</GrossReceiptsAmt>
+      <GroupReturnForAffiliatesInd>false</GroupReturnForAffiliatesInd>
+      <Organization501c3Ind>X</Organization501c3Ind>
+      <WebsiteAddressTxt>www.theteenproject.com</WebsiteAddressTxt>
+      <TypeOfOrganizationCorpInd>X</TypeOfOrganizationCorpInd>
+      <FormationYr>2007</FormationYr>
+      <LegalDomicileStateCd>CA</LegalDomicileStateCd>
+      <ActivityOrMissionDesc>The Teen Project, Inc. was founded in 2007 and is privately funded non-profit California corporation. It provides housing, education, sober living and mentoring to youth ages 18 to 24 (transitional age youth). See Schedule O for further details.</ActivityOrMissionDesc>
+      <VotingMembersGoverningBodyCnt>5</VotingMembersGoverningBodyCnt>
+      <VotingMembersIndependentCnt>4</VotingMembersIndependentCnt>
+      <TotalEmployeeCnt>121</TotalEmployeeCnt>
+      <TotalVolunteersCnt>10</TotalVolunteersCnt>
+      <TotalGrossUBIAmt>0</TotalGrossUBIAmt>
+      <PYContributionsGrantsAmt>9187627</PYContributionsGrantsAmt>
+      <CYContributionsGrantsAmt>11909753</CYContributionsGrantsAmt>
+      <PYProgramServiceRevenueAmt>98248</PYProgramServiceRevenueAmt>
+      <CYProgramServiceRevenueAmt>487621</CYProgramServiceRevenueAmt>
+      <PYInvestmentIncomeAmt>692</PYInvestmentIncomeAmt>
+      <CYInvestmentIncomeAmt>348</CYInvestmentIncomeAmt>
+      <PYOtherRevenueAmt>937449</PYOtherRevenueAmt>
+      <CYOtherRevenueAmt>-563348</CYOtherRevenueAmt>
+      <PYTotalRevenueAmt>10224016</PYTotalRevenueAmt>
+      <CYTotalRevenueAmt>11834374</CYTotalRevenueAmt>
+      <CYGrantsAndSimilarPaidAmt>0</CYGrantsAndSimilarPaidAmt>
+      <CYBenefitsPaidToMembersAmt>0</CYBenefitsPaidToMembersAmt>
+      <PYSalariesCompEmpBnftPaidAmt>6456194</PYSalariesCompEmpBnftPaidAmt>
+      <CYSalariesCompEmpBnftPaidAmt>6740608</CYSalariesCompEmpBnftPaidAmt>
+      <PYTotalProfFndrsngExpnsAmt>48000</PYTotalProfFndrsngExpnsAmt>
+      <CYTotalProfFndrsngExpnsAmt>44000</CYTotalProfFndrsngExpnsAmt>
+      <CYTotalFundraisingExpenseAmt>53265</CYTotalFundraisingExpenseAmt>
+      <PYOtherExpensesAmt>4220644</PYOtherExpensesAmt>
+      <CYOtherExpensesAmt>4149789</CYOtherExpensesAmt>
+      <PYTotalExpensesAmt>10724838</PYTotalExpensesAmt>
+      <CYTotalExpensesAmt>10934397</CYTotalExpensesAmt>
+      <PYRevenuesLessExpensesAmt>-500822</PYRevenuesLessExpensesAmt>
+      <CYRevenuesLessExpensesAmt>899977</CYRevenuesLessExpensesAmt>
+      <TotalAssetsBOYAmt>14816539</TotalAssetsBOYAmt>
+      <TotalAssetsEOYAmt>18124142</TotalAssetsEOYAmt>
+      <TotalLiabilitiesBOYAmt>7906102</TotalLiabilitiesBOYAmt>
+      <TotalLiabilitiesEOYAmt>10603989</TotalLiabilitiesEOYAmt>
+      <NetAssetsOrFundBalancesBOYAmt>6910437</NetAssetsOrFundBalancesBOYAmt>
+      <NetAssetsOrFundBalancesEOYAmt>7520153</NetAssetsOrFundBalancesEOYAmt>
+      <MissionDesc>The Teen Project, Inc. was founded in 2007 and is privately funded non-profit California corporation. It provides housing, education, sober living and mentoring to youth ages 18 to 24 (transitional age youth). See Schedule O for further details.</MissionDesc>
+      <SignificantNewProgramSrvcInd>false</SignificantNewProgramSrvcInd>
+      <SignificantChangeInd>false</SignificantChangeInd>
+      <ExpenseAmt>6033381</ExpenseAmt>
+      <Desc>Freehab reduced Beds from 74 to 24 this fiscal year. Freehab specializes in providing residential substance abuse treatment to the at risk population. Freehab focuses on females 18-35 that are at risk, aging out of foster care and victims of human trafficking. Freehab also has an additional 16 beds for Crisis Residential Treatment. The focus at the CRTP is treating acute mental health.</Desc>
+      <ProgSrvcAccomActy2Grp>
+        <ExpenseAmt>4388951</ExpenseAmt>
+        <Desc>Veras Sanctuary is the only licensed residential drug treatment site in Orange County dedicated to victims of human trafficking. Vera's Sanctuary's residential treatment drug treatment ASAM levels 3.1, 3.3 and 3.5 and social model detox services to prior foster youth and pregnant young women lacking family support who has been victims of human trafficking and are 18-26 years old. VSW also administers the Sanctuary Recovery Center which is a 6 bed Residential SUD treatment program. The SRC serves adolescents ages 13-17.</Desc>
+      </ProgSrvcAccomActy2Grp>
+      <ProgSrvcAccomActy3Grp>
+        <ExpenseAmt>229924</ExpenseAmt>
+        <Desc>Lake Forest Sober College House - free room and board and full life support for homeless and prior foster young women interested in pursuing in higher education. This is a two year program in a beautiful home in a family neighborhood. The young women in our program are in college or trade schools, they have paid internships in their field, an automobile attainment program and savings for life program. In addition, there is an Outpatient component to the services provided in the area.</Desc>
+      </ProgSrvcAccomActy3Grp>
+      <TotalProgramServiceExpensesAmt>10652256</TotalProgramServiceExpensesAmt>
+      <DescribedInSection501c3Ind referenceDocumentId="IRS990ScheduleA">true</DescribedInSection501c3Ind>
+      <ScheduleBRequiredInd>false</ScheduleBRequiredInd>
+      <PoliticalCampaignActyInd>false</PoliticalCampaignActyInd>
+      <LobbyingActivitiesInd>false</LobbyingActivitiesInd>
+      <SubjectToProxyTaxInd>false</SubjectToProxyTaxInd>
+      <DonorAdvisedFundInd referenceDocumentId="IRS990ScheduleD">false</DonorAdvisedFundInd>
+      <ConservationEasementsInd referenceDocumentId="IRS990ScheduleD">false</ConservationEasementsInd>
+      <CollectionsOfArtInd referenceDocumentId="IRS990ScheduleD">false</CollectionsOfArtInd>
+      <CreditCounselingInd referenceDocumentId="IRS990ScheduleD">false</CreditCounselingInd>
+      <DonorRstrOrQuasiEndowmentsInd referenceDocumentId="IRSScheduleD">false</DonorRstrOrQuasiEndowmentsInd>
+      <ReportLandBuildingEquipmentInd referenceDocumentId="IRS990ScheduleD">true</ReportLandBuildingEquipmentInd>
+      <ReportInvestmentsOtherSecInd referenceDocumentId="IRS990ScheduleD">false</ReportInvestmentsOtherSecInd>
+      <ReportProgramRelatedInvstInd referenceDocumentId="IRS990ScheduleD">false</ReportProgramRelatedInvstInd>
+      <ReportOtherAssetsInd referenceDocumentId="IRS990ScheduleD">false</ReportOtherAssetsInd>
+      <ReportOtherLiabilitiesInd referenceDocumentId="IRS990ScheduleD">true</ReportOtherLiabilitiesInd>
+      <IncludeFIN48FootnoteInd referenceDocumentId="IRS990ScheduleD">true</IncludeFIN48FootnoteInd>
+      <IndependentAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">true</IndependentAuditFinclStmtInd>
+      <ConsolidatedAuditFinclStmtInd referenceDocumentId="IRS990ScheduleD">false</ConsolidatedAuditFinclStmtInd>
+      <SchoolOperatingInd>false</SchoolOperatingInd>
+      <ForeignOfficeInd>false</ForeignOfficeInd>
+      <ForeignActivitiesInd>false</ForeignActivitiesInd>
+      <MoreThan5000KToOrgInd>false</MoreThan5000KToOrgInd>
+      <MoreThan5000KToIndividualsInd>false</MoreThan5000KToIndividualsInd>
+      <ProfessionalFundraisingInd referenceDocumentId="IRS990ScheduleG">true</ProfessionalFundraisingInd>
+      <FundraisingActivitiesInd referenceDocumentId="IRS990ScheduleG">true</FundraisingActivitiesInd>
+      <GamingActivitiesInd referenceDocumentId="IRS990ScheduleG">false</GamingActivitiesInd>
+      <OperateHospitalInd>false</OperateHospitalInd>
+      <GrantsToOrganizationsInd>false</GrantsToOrganizationsInd>
+      <GrantsToIndividualsInd>false</GrantsToIndividualsInd>
+      <ScheduleJRequiredInd referenceDocumentId="IRS990ScheduleJ">true</ScheduleJRequiredInd>
+      <TaxExemptBondsInd>false</TaxExemptBondsInd>
+      <EngagedInExcessBenefitTransInd referenceDocumentId="IRS990ScheduleL">false</EngagedInExcessBenefitTransInd>
+      <PYExcessBenefitTransInd referenceDocumentId="IRS990ScheduleL">false</PYExcessBenefitTransInd>
+      <LoanOutstandingInd referenceDocumentId="IRS990ScheduleL">false</LoanOutstandingInd>
+      <GrantToRelatedPersonInd referenceDocumentId="IRS990ScheduleL">false</GrantToRelatedPersonInd>
+      <BusinessRlnWithOrgMemInd referenceDocumentId="IRS990ScheduleL">false</BusinessRlnWithOrgMemInd>
+      <BusinessRlnWithFamMemInd referenceDocumentId="IRS990ScheduleL">false</BusinessRlnWithFamMemInd>
+      <BusinessRlnWith35CtrlEntInd referenceDocumentId="IRSScheduleL">false</BusinessRlnWith35CtrlEntInd>
+      <DeductibleNonCashContriInd referenceDocumentId="IRS990ScheduleM">true</DeductibleNonCashContriInd>
+      <DeductibleArtContributionInd referenceDocumentId="IRS990ScheduleM">false</DeductibleArtContributionInd>
+      <TerminateOperationsInd>false</TerminateOperationsInd>
+      <PartialLiquidationInd>false</PartialLiquidationInd>
+      <DisregardedEntityInd>false</DisregardedEntityInd>
+      <RelatedEntityInd>false</RelatedEntityInd>
+      <RelatedOrganizationCtrlEntInd>false</RelatedOrganizationCtrlEntInd>
+      <TrnsfrExmptNonChrtblRltdOrgInd>false</TrnsfrExmptNonChrtblRltdOrgInd>
+      <ActivitiesConductedPrtshpInd>false</ActivitiesConductedPrtshpInd>
+      <ScheduleORequiredInd>true</ScheduleORequiredInd>
+      <IRPDocumentCnt>16</IRPDocumentCnt>
+      <IRPDocumentW2GCnt>0</IRPDocumentW2GCnt>
+      <BackupWthldComplianceInd>false</BackupWthldComplianceInd>
+      <EmployeeCnt>121</EmployeeCnt>
+      <EmploymentTaxReturnsFiledInd>true</EmploymentTaxReturnsFiledInd>
+      <UnrelatedBusIncmOverLimitInd>false</UnrelatedBusIncmOverLimitInd>
+      <ForeignFinancialAccountInd>false</ForeignFinancialAccountInd>
+      <ProhibitedTaxShelterTransInd>false</ProhibitedTaxShelterTransInd>
+      <TaxablePartyNotificationInd>false</TaxablePartyNotificationInd>
+      <NondeductibleContributionsInd>false</NondeductibleContributionsInd>
+      <QuidProQuoContributionsInd>false</QuidProQuoContributionsInd>
+      <Form8282PropertyDisposedOfInd>false</Form8282PropertyDisposedOfInd>
+      <Form8282FiledCnt>0</Form8282FiledCnt>
+      <RcvFndsToPayPrsnlBnftCntrctInd>false</RcvFndsToPayPrsnlBnftCntrctInd>
+      <PayPremiumsPrsnlBnftCntrctInd>false</PayPremiumsPrsnlBnftCntrctInd>
+      <Form8899Filedind>false</Form8899Filedind>
+      <Form1098CFiledInd>false</Form1098CFiledInd>
+      <IndoorTanningServicesInd>false</IndoorTanningServicesInd>
+      <SubjToTaxRmnrtnExPrchtPymtInd>false</SubjToTaxRmnrtnExPrchtPymtInd>
+      <SubjectToExcsTaxNetInvstIncInd>false</SubjectToExcsTaxNetInvstIncInd>
+      <InfoInScheduleOPartVIInd>X</InfoInScheduleOPartVIInd>
+      <GoverningBodyVotingMembersCnt>5</GoverningBodyVotingMembersCnt>
+      <IndependentVotingMemberCnt>4</IndependentVotingMemberCnt>
+      <FamilyOrBusinessRlnInd>false</FamilyOrBusinessRlnInd>
+      <DelegationOfMgmtDutiesInd>false</DelegationOfMgmtDutiesInd>
+      <ChangeToOrgDocumentsInd>false</ChangeToOrgDocumentsInd>
+      <MaterialDiversionOrMisuseInd>false</MaterialDiversionOrMisuseInd>
+      <MembersOrStockholdersInd>false</MembersOrStockholdersInd>
+      <ElectionOfBoardMembersInd>false</ElectionOfBoardMembersInd>
+      <DecisionsSubjectToApprovaInd>false</DecisionsSubjectToApprovaInd>
+      <MinutesOfGoverningBodyInd>true</MinutesOfGoverningBodyInd>
+      <MinutesOfCommitteesInd>true</MinutesOfCommitteesInd>
+      <OfficerMailingAddressInd>false</OfficerMailingAddressInd>
+      <LocalChaptersInd>false</LocalChaptersInd>
+      <Form990ProvidedToGvrnBodyInd>false</Form990ProvidedToGvrnBodyInd>
+      <ConflictOfInterestPolicyInd>true</ConflictOfInterestPolicyInd>
+      <AnnualDisclosureCoveredPrsnInd>true</AnnualDisclosureCoveredPrsnInd>
+      <RegularMonitoringEnfrcInd>false</RegularMonitoringEnfrcInd>
+      <WhistleblowerPolicyInd>true</WhistleblowerPolicyInd>
+      <DocumentRetentionPolicyInd>true</DocumentRetentionPolicyInd>
+      <CompensationProcessCEOInd>true</CompensationProcessCEOInd>
+      <CompensationProcessOtherInd>false</CompensationProcessOtherInd>
+      <InvestmentInJointVentureInd>false</InvestmentInJointVentureInd>
+      <StatesWhereCopyOfReturnIsFldCd>CA</StatesWhereCopyOfReturnIsFldCd>
+      <OtherWebsiteInd>X</OtherWebsiteInd>
+      <UponRequestInd>X</UponRequestInd>
+      <OtherInd>X</OtherInd>
+      <BooksInCareOfDetail>
+        <PersonNm>Bertrand Paras</PersonNm>
+        <PhoneNum>8185828832</PhoneNum>
+        <USAddress>
+          <AddressLine1Txt>14530 Sylvan St</AddressLine1Txt>
+          <CityNm>Van Nuys</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>91411</ZIPCd>
+        </USAddress>
+      </BooksInCareOfDetail>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Lauri L Burns</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>250015</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>14141</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Bert Paras</PersonNm>
+        <TitleTxt>COO</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <ReportableCompFromOrgAmt>210280</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>10853</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Anasheh Safarian</PersonNm>
+        <TitleTxt>Dir. of Operations</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <ReportableCompFromOrgAmt>178661</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8093</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jewelana Kayanan</PersonNm>
+        <TitleTxt>Senior Program Dir</TitleTxt>
+        <AverageHoursPerWeekRt>40.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <ReportableCompFromOrgAmt>132630</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>8594</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Jeffery K Rubenstein</PersonNm>
+        <TitleTxt>President</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Darren P Calbay</PersonNm>
+        <TitleTxt>Treasurer</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Rochelle Price</PersonNm>
+        <TitleTxt>Secretary</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <OfficerInd>X</OfficerInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <Form990PartVIISectionAGrp>
+        <PersonNm>Nicholas Kochek</PersonNm>
+        <TitleTxt>Director</TitleTxt>
+        <AverageHoursPerWeekRt>2.00</AverageHoursPerWeekRt>
+        <AverageHoursPerWeekRltdOrgRt>0.00</AverageHoursPerWeekRltdOrgRt>
+        <IndividualTrusteeOrDirectorInd>X</IndividualTrusteeOrDirectorInd>
+        <ReportableCompFromOrgAmt>0</ReportableCompFromOrgAmt>
+        <ReportableCompFromRltdOrgAmt>0</ReportableCompFromRltdOrgAmt>
+        <OtherCompensationAmt>0</OtherCompensationAmt>
+      </Form990PartVIISectionAGrp>
+      <TotalReportableCompFromOrgAmt>771586</TotalReportableCompFromOrgAmt>
+      <TotalOtherCompensationAmt>41681</TotalOtherCompensationAmt>
+      <IndivRcvdGreaterThan100KCnt>4</IndivRcvdGreaterThan100KCnt>
+      <FormerOfcrEmployeesListedInd>false</FormerOfcrEmployeesListedInd>
+      <TotalCompGreaterThan150KInd>true</TotalCompGreaterThan150KInd>
+      <CompensationFromOtherSrcsInd>false</CompensationFromOtherSrcsInd>
+      <CntrctRcvdGreaterThan100KCnt>0</CntrctRcvdGreaterThan100KCnt>
+      <FundraisingAmt>2188840</FundraisingAmt>
+      <GovernmentGrantsAmt>7386483</GovernmentGrantsAmt>
+      <AllOtherContributionsAmt>2334430</AllOtherContributionsAmt>
+      <NoncashContributionsAmt>118106</NoncashContributionsAmt>
+      <TotalContributionsAmt>11909753</TotalContributionsAmt>
+      <ProgramServiceRevenueGrp>
+        <Desc>Fees for services</Desc>
+        <BusinessCd>624100</BusinessCd>
+        <TotalRevenueColumnAmt>459878</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>459878</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <ProgramServiceRevenueGrp>
+        <Desc>Program reveue</Desc>
+        <BusinessCd>624100</BusinessCd>
+        <TotalRevenueColumnAmt>27743</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>27743</RelatedOrExemptFuncIncomeAmt>
+      </ProgramServiceRevenueGrp>
+      <TotalProgramServiceRevenueAmt>487621</TotalProgramServiceRevenueAmt>
+      <InvestmentIncomeGrp>
+        <TotalRevenueColumnAmt>348</TotalRevenueColumnAmt>
+        <ExclusionAmt>348</ExclusionAmt>
+      </InvestmentIncomeGrp>
+      <IncmFromInvestBondProceedsGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </IncmFromInvestBondProceedsGrp>
+      <RoyaltiesRevenueGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </RoyaltiesRevenueGrp>
+      <NetRentalIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetRentalIncomeOrLossGrp>
+      <NetGainOrLossInvestmentsGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetGainOrLossInvestmentsGrp>
+      <FundraisingGrossIncomeAmt>251500</FundraisingGrossIncomeAmt>
+      <ContriRptFundraisingEventAmt>2188840</ContriRptFundraisingEventAmt>
+      <FundraisingDirectExpensesAmt>732724</FundraisingDirectExpensesAmt>
+      <NetIncmFromFundraisingEvtGrp>
+        <TotalRevenueColumnAmt>-481224</TotalRevenueColumnAmt>
+      </NetIncmFromFundraisingEvtGrp>
+      <NetIncomeFromGamingGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetIncomeFromGamingGrp>
+      <NetIncomeOrLossGrp>
+        <TotalRevenueColumnAmt>0</TotalRevenueColumnAmt>
+      </NetIncomeOrLossGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Loss on property and equipment</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>-148106</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>-148106</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueMiscGrp>
+        <Desc>Other income</Desc>
+        <BusinessCd>900099</BusinessCd>
+        <TotalRevenueColumnAmt>65982</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>65982</RelatedOrExemptFuncIncomeAmt>
+      </OtherRevenueMiscGrp>
+      <OtherRevenueTotalAmt>-82124</OtherRevenueTotalAmt>
+      <TotalRevenueGrp>
+        <TotalRevenueColumnAmt>11834374</TotalRevenueColumnAmt>
+        <RelatedOrExemptFuncIncomeAmt>405497</RelatedOrExemptFuncIncomeAmt>
+        <ExclusionAmt>348</ExclusionAmt>
+      </TotalRevenueGrp>
+      <InfoInScheduleOPartIXInd>X</InfoInScheduleOPartIXInd>
+      <GrantsToDomesticOrgsGrp>
+        <TotalAmt>0</TotalAmt>
+      </GrantsToDomesticOrgsGrp>
+      <GrantsToDomesticIndividualsGrp>
+        <TotalAmt>0</TotalAmt>
+      </GrantsToDomesticIndividualsGrp>
+      <ForeignGrantsGrp>
+        <TotalAmt>0</TotalAmt>
+      </ForeignGrantsGrp>
+      <BenefitsToMembersGrp>
+        <TotalAmt>0</TotalAmt>
+      </BenefitsToMembersGrp>
+      <CompCurrentOfcrDirectorsGrp>
+        <TotalAmt>255051</TotalAmt>
+        <ProgramServicesAmt>111853</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>49343</ManagementAndGeneralAmt>
+        <FundraisingAmt>93855</FundraisingAmt>
+      </CompCurrentOfcrDirectorsGrp>
+      <CompDisqualPersonsGrp>
+        <TotalAmt>0</TotalAmt>
+      </CompDisqualPersonsGrp>
+      <OtherSalariesAndWagesGrp>
+        <TotalAmt>5675382</TotalAmt>
+        <ProgramServicesAmt>5629612</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>95167</ManagementAndGeneralAmt>
+        <FundraisingAmt>-49397</FundraisingAmt>
+      </OtherSalariesAndWagesGrp>
+      <PensionPlanContributionsGrp>
+        <TotalAmt>117726</TotalAmt>
+        <ProgramServicesAmt>115447</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>3351</ManagementAndGeneralAmt>
+        <FundraisingAmt>-1072</FundraisingAmt>
+      </PensionPlanContributionsGrp>
+      <OtherEmployeeBenefitsGrp>
+        <TotalAmt>253512</TotalAmt>
+        <ProgramServicesAmt>250726</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>4488</ManagementAndGeneralAmt>
+        <FundraisingAmt>-1702</FundraisingAmt>
+      </OtherEmployeeBenefitsGrp>
+      <PayrollTaxesGrp>
+        <TotalAmt>438937</TotalAmt>
+        <ProgramServicesAmt>425546</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>10506</ManagementAndGeneralAmt>
+        <FundraisingAmt>2885</FundraisingAmt>
+      </PayrollTaxesGrp>
+      <FeesForServicesManagementGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesManagementGrp>
+      <FeesForServicesLegalGrp>
+        <TotalAmt>65690</TotalAmt>
+        <ProgramServicesAmt>65690</ProgramServicesAmt>
+      </FeesForServicesLegalGrp>
+      <FeesForServicesAccountingGrp>
+        <TotalAmt>38130</TotalAmt>
+        <ProgramServicesAmt>36966</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>913</ManagementAndGeneralAmt>
+        <FundraisingAmt>251</FundraisingAmt>
+      </FeesForServicesAccountingGrp>
+      <FeesForServicesLobbyingGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesLobbyingGrp>
+      <FeesForServicesProfFundraising>
+        <TotalAmt>44000</TotalAmt>
+        <FundraisingAmt>44000</FundraisingAmt>
+      </FeesForServicesProfFundraising>
+      <FeesForSrvcInvstMgmntFeesGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForSrvcInvstMgmntFeesGrp>
+      <FeesForServicesOtherGrp>
+        <TotalAmt>0</TotalAmt>
+      </FeesForServicesOtherGrp>
+      <AdvertisingGrp>
+        <TotalAmt>0</TotalAmt>
+      </AdvertisingGrp>
+      <OfficeExpensesGrp>
+        <TotalAmt>59363</TotalAmt>
+        <ProgramServicesAmt>59261</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>75</ManagementAndGeneralAmt>
+        <FundraisingAmt>27</FundraisingAmt>
+      </OfficeExpensesGrp>
+      <InformationTechnologyGrp>
+        <TotalAmt>0</TotalAmt>
+      </InformationTechnologyGrp>
+      <RoyaltiesGrp>
+        <TotalAmt>0</TotalAmt>
+      </RoyaltiesGrp>
+      <OccupancyGrp>
+        <TotalAmt>357065</TotalAmt>
+        <ProgramServicesAmt>357065</ProgramServicesAmt>
+      </OccupancyGrp>
+      <TravelGrp>
+        <TotalAmt>14417</TotalAmt>
+        <ProgramServicesAmt>13080</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>606</ManagementAndGeneralAmt>
+        <FundraisingAmt>731</FundraisingAmt>
+      </TravelGrp>
+      <PymtTravelEntrtnmntPubOfclGrp>
+        <TotalAmt>0</TotalAmt>
+      </PymtTravelEntrtnmntPubOfclGrp>
+      <ConferencesMeetingsGrp>
+        <TotalAmt>71504</TotalAmt>
+        <ProgramServicesAmt>71413</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>91</ManagementAndGeneralAmt>
+      </ConferencesMeetingsGrp>
+      <InterestGrp>
+        <TotalAmt>354864</TotalAmt>
+        <ProgramServicesAmt>344038</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>10826</ManagementAndGeneralAmt>
+      </InterestGrp>
+      <PaymentsToAffiliatesGrp>
+        <TotalAmt>0</TotalAmt>
+      </PaymentsToAffiliatesGrp>
+      <DepreciationDepletionGrp>
+        <TotalAmt>0</TotalAmt>
+      </DepreciationDepletionGrp>
+      <InsuranceGrp>
+        <TotalAmt>351044</TotalAmt>
+        <ProgramServicesAmt>337002</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>11936</ManagementAndGeneralAmt>
+        <FundraisingAmt>2106</FundraisingAmt>
+      </InsuranceGrp>
+      <OtherExpensesGrp>
+        <Desc>Depreciation</Desc>
+        <TotalAmt>477982</TotalAmt>
+        <ProgramServicesAmt>460982</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>17000</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Computer Expenses</Desc>
+        <TotalAmt>379833</TotalAmt>
+        <ProgramServicesAmt>375948</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>2044</ManagementAndGeneralAmt>
+        <FundraisingAmt>1841</FundraisingAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Supplies, food service</Desc>
+        <TotalAmt>360547</TotalAmt>
+        <ProgramServicesAmt>359633</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>914</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <OtherExpensesGrp>
+        <Desc>Repairs and Maintenance</Desc>
+        <TotalAmt>300307</TotalAmt>
+        <ProgramServicesAmt>287625</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>12682</ManagementAndGeneralAmt>
+      </OtherExpensesGrp>
+      <AllOtherExpensesGrp>
+        <TotalAmt>1319043</TotalAmt>
+        <ProgramServicesAmt>1350369</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>8934</ManagementAndGeneralAmt>
+        <FundraisingAmt>-40260</FundraisingAmt>
+      </AllOtherExpensesGrp>
+      <TotalFunctionalExpensesGrp>
+        <TotalAmt>10934397</TotalAmt>
+        <ProgramServicesAmt>10652256</ProgramServicesAmt>
+        <ManagementAndGeneralAmt>228876</ManagementAndGeneralAmt>
+        <FundraisingAmt>53265</FundraisingAmt>
+      </TotalFunctionalExpensesGrp>
+      <CashNonInterestBearingGrp>
+        <BOYAmt>818914</BOYAmt>
+        <EOYAmt>1080972</EOYAmt>
+      </CashNonInterestBearingGrp>
+      <SavingsAndTempCashInvstGrp>
+        <BOYAmt>1921112</BOYAmt>
+        <EOYAmt>1604193</EOYAmt>
+      </SavingsAndTempCashInvstGrp>
+      <PledgesAndGrantsReceivableGrp>
+        <EOYAmt>0</EOYAmt>
+      </PledgesAndGrantsReceivableGrp>
+      <AccountsReceivableGrp>
+        <BOYAmt>1712593</BOYAmt>
+        <EOYAmt>1094864</EOYAmt>
+      </AccountsReceivableGrp>
+      <ReceivablesFromOfficersEtcGrp>
+        <EOYAmt>0</EOYAmt>
+      </ReceivablesFromOfficersEtcGrp>
+      <RcvblFromDisqualifiedPrsnGrp>
+        <EOYAmt>0</EOYAmt>
+      </RcvblFromDisqualifiedPrsnGrp>
+      <OthNotesLoansReceivableNetGrp>
+        <EOYAmt>0</EOYAmt>
+      </OthNotesLoansReceivableNetGrp>
+      <InventoriesForSaleOrUseGrp>
+        <EOYAmt>0</EOYAmt>
+      </InventoriesForSaleOrUseGrp>
+      <PrepaidExpensesDefrdChargesGrp>
+        <BOYAmt>347710</BOYAmt>
+        <EOYAmt>777540</EOYAmt>
+      </PrepaidExpensesDefrdChargesGrp>
+      <LandBldgEquipCostOrOtherBssAmt>15376485</LandBldgEquipCostOrOtherBssAmt>
+      <LandBldgEquipAccumDeprecAmt>2613582</LandBldgEquipAccumDeprecAmt>
+      <LandBldgEquipBasisNetGrp>
+        <BOYAmt>8718436</BOYAmt>
+        <EOYAmt>12762903</EOYAmt>
+      </LandBldgEquipBasisNetGrp>
+      <InvestmentsPubTradedSecGrp>
+        <BOYAmt>2603</BOYAmt>
+        <EOYAmt>117579</EOYAmt>
+      </InvestmentsPubTradedSecGrp>
+      <InvestmentsOtherSecuritiesGrp>
+        <EOYAmt>0</EOYAmt>
+      </InvestmentsOtherSecuritiesGrp>
+      <InvestmentsProgramRelatedGrp>
+        <EOYAmt>0</EOYAmt>
+      </InvestmentsProgramRelatedGrp>
+      <IntangibleAssetsGrp>
+        <EOYAmt>0</EOYAmt>
+      </IntangibleAssetsGrp>
+      <OtherAssetsTotalGrp>
+        <BOYAmt>1295171</BOYAmt>
+        <EOYAmt>686091</EOYAmt>
+      </OtherAssetsTotalGrp>
+      <TotalAssetsGrp>
+        <BOYAmt>14816539</BOYAmt>
+        <EOYAmt>18124142</EOYAmt>
+      </TotalAssetsGrp>
+      <AccountsPayableAccrExpnssGrp>
+        <BOYAmt>499812</BOYAmt>
+        <EOYAmt>1451048</EOYAmt>
+      </AccountsPayableAccrExpnssGrp>
+      <GrantsPayableGrp>
+        <BOYAmt>204817</BOYAmt>
+        <EOYAmt>499034</EOYAmt>
+      </GrantsPayableGrp>
+      <MortgNotesPyblScrdInvstPropGrp>
+        <BOYAmt>6656806</BOYAmt>
+        <EOYAmt>8109240</EOYAmt>
+      </MortgNotesPyblScrdInvstPropGrp>
+      <OtherLiabilitiesGrp>
+        <BOYAmt>544667</BOYAmt>
+        <EOYAmt>544667</EOYAmt>
+      </OtherLiabilitiesGrp>
+      <TotalLiabilitiesGrp>
+        <BOYAmt>7906102</BOYAmt>
+        <EOYAmt>10603989</EOYAmt>
+      </TotalLiabilitiesGrp>
+      <OrganizationFollowsFASB117Ind>X</OrganizationFollowsFASB117Ind>
+      <NoDonorRestrictionNetAssetsGrp>
+        <BOYAmt>6548469</BOYAmt>
+        <EOYAmt>7158185</EOYAmt>
+      </NoDonorRestrictionNetAssetsGrp>
+      <DonorRestrictionNetAssetsGrp>
+        <BOYAmt>361968</BOYAmt>
+        <EOYAmt>361968</EOYAmt>
+      </DonorRestrictionNetAssetsGrp>
+      <TotalNetAssetsFundBalanceGrp>
+        <BOYAmt>6910437</BOYAmt>
+        <EOYAmt>7520153</EOYAmt>
+      </TotalNetAssetsFundBalanceGrp>
+      <TotLiabNetAssetsFundBalanceGrp>
+        <BOYAmt>14816539</BOYAmt>
+        <EOYAmt>18124142</EOYAmt>
+      </TotLiabNetAssetsFundBalanceGrp>
+      <InfoInScheduleOPartXIInd>X</InfoInScheduleOPartXIInd>
+      <ReconcilationRevenueExpnssAmt>899977</ReconcilationRevenueExpnssAmt>
+      <NetUnrlzdGainsLossesInvstAmt>3485</NetUnrlzdGainsLossesInvstAmt>
+      <OtherChangesInNetAssetsAmt>-293746</OtherChangesInNetAssetsAmt>
+      <MethodOfAccountingAccrualInd>X</MethodOfAccountingAccrualInd>
+      <AccountantCompileOrReviewInd>false</AccountantCompileOrReviewInd>
+      <FSAuditedInd>true</FSAuditedInd>
+      <FSAuditedBasisGrp>
+        <SeparateBasisFinclStmtInd>X</SeparateBasisFinclStmtInd>
+      </FSAuditedBasisGrp>
+      <AuditCommitteeInd>true</AuditCommitteeInd>
+      <FederalGrantAuditRequiredInd>true</FederalGrantAuditRequiredInd>
+      <FederalGrantAuditPerformedInd>true</FederalGrantAuditPerformedInd>
+    </IRS990>
+    <IRS990ScheduleA documentId="IRS990ScheduleA" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <PublicOrganization170Ind>X</PublicOrganization170Ind>
+      <GiftsGrantsContriRcvd170Grp>
+        <CurrentTaxYearMinus4YearsAmt>6323218</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>7786732</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>10467373</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>9072735</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>12043147</CurrentTaxYearAmt>
+        <TotalAmt>45693205</TotalAmt>
+      </GiftsGrantsContriRcvd170Grp>
+      <TaxRevLeviedOrgnztnlBnft170Grp>
+        <TotalAmt>0</TotalAmt>
+      </TaxRevLeviedOrgnztnlBnft170Grp>
+      <GovtFurnSrvcFcltsVl170Grp>
+        <TotalAmt>0</TotalAmt>
+      </GovtFurnSrvcFcltsVl170Grp>
+      <TotalCalendarYear170Grp>
+        <CurrentTaxYearMinus4YearsAmt>6323218</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>7786732</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>10467373</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>9072735</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>12043147</CurrentTaxYearAmt>
+        <TotalAmt>45693205</TotalAmt>
+      </TotalCalendarYear170Grp>
+      <SubstantialContributorsTotAmt>0</SubstantialContributorsTotAmt>
+      <PublicSupportTotal170Amt>45693205</PublicSupportTotal170Amt>
+      <GrossInvestmentIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>225</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>260</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>507</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>692</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>348</CurrentTaxYearAmt>
+        <TotalAmt>2032</TotalAmt>
+      </GrossInvestmentIncome170Grp>
+      <UnrelatedBusinessNetIncm170Grp>
+        <TotalAmt>0</TotalAmt>
+      </UnrelatedBusinessNetIncm170Grp>
+      <OtherIncome170Grp>
+        <CurrentTaxYearMinus4YearsAmt>68246</CurrentTaxYearMinus4YearsAmt>
+        <CurrentTaxYearMinus3YearsAmt>42861</CurrentTaxYearMinus3YearsAmt>
+        <CurrentTaxYearMinus2YearsAmt>215566</CurrentTaxYearMinus2YearsAmt>
+        <CurrentTaxYearMinus1YearAmt>23863</CurrentTaxYearMinus1YearAmt>
+        <CurrentTaxYearAmt>-82124</CurrentTaxYearAmt>
+        <TotalAmt>268412</TotalAmt>
+      </OtherIncome170Grp>
+      <TotalSupportAmt>45963649</TotalSupportAmt>
+      <PublicSupportCY170Pct>0.99410</PublicSupportCY170Pct>
+      <PublicSupportPY170Pct>0.99010</PublicSupportPY170Pct>
+      <ThirtyThrPctSuprtTestsCY170Ind>X</ThirtyThrPctSuprtTestsCY170Ind>
+    </IRS990ScheduleA>
+    <IRS990ScheduleD documentId="IRS990ScheduleD" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <LandGrp>
+        <OtherCostOrOtherBasisAmt>2045803</OtherCostOrOtherBasisAmt>
+        <BookValueAmt>2045803</BookValueAmt>
+      </LandGrp>
+      <BuildingsGrp>
+        <OtherCostOrOtherBasisAmt>10709314</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>400797</DepreciationAmt>
+        <BookValueAmt>10308517</BookValueAmt>
+      </BuildingsGrp>
+      <LeaseholdImprovementsGrp>
+        <OtherCostOrOtherBasisAmt>2200568</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>1891080</DepreciationAmt>
+        <BookValueAmt>309488</BookValueAmt>
+      </LeaseholdImprovementsGrp>
+      <EquipmentGrp>
+        <OtherCostOrOtherBasisAmt>420800</OtherCostOrOtherBasisAmt>
+        <DepreciationAmt>321705</DepreciationAmt>
+        <BookValueAmt>99095</BookValueAmt>
+      </EquipmentGrp>
+      <TotalBookValueLandBuildingsAmt>12762903</TotalBookValueLandBuildingsAmt>
+      <OtherLiabilitiesOrgGrp>
+        <Desc>Right of use liability</Desc>
+        <Amt>544667</Amt>
+      </OtherLiabilitiesOrgGrp>
+      <TotalLiabilityAmt>544667</TotalLiabilityAmt>
+      <FootnoteTextInd>X</FootnoteTextInd>
+      <TotalRevEtcAuditedFinclStmtAmt>12276837</TotalRevEtcAuditedFinclStmtAmt>
+      <NetUnrealizedGainsInvstAmt>3485</NetUnrealizedGainsInvstAmt>
+      <OtherRevenueAmt>438978</OtherRevenueAmt>
+      <RevenueNotReportedAmt>442463</RevenueNotReportedAmt>
+      <RevenueSubtotalAmt>11834374</RevenueSubtotalAmt>
+      <TotalRevenuePerForm990Amt>11834374</TotalRevenuePerForm990Amt>
+      <TotExpnsEtcAuditedFinclStmtAmt>11667121</TotExpnsEtcAuditedFinclStmtAmt>
+      <OtherExpensesIncludedAmt>732724</OtherExpensesIncludedAmt>
+      <ExpensesNotReportedAmt>732724</ExpensesNotReportedAmt>
+      <ExpensesSubtotalAmt>10934397</ExpensesSubtotalAmt>
+      <TotalExpensesPerForm990Amt>10934397</TotalExpensesPerForm990Amt>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part X : FIN48 Footnote</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Teen Project, Inc. is exempt from Federal income taxes under Section 501(c)(3) of the Internal Revenue Code and California income taxes under section 23701(d) of the California Revenue and Taxation Code. The IRS classified the organization as one that is not a private foundation within the meaning of section 509(a) of the Code because it is an organization described in section(s) 509(a)(1) and 170(b)(1)(A)(vi).The Teen Project, Inc. has adopted Financial Accounting Standards Board Accounting Standards Codification (ASC) Section 740-10, which clarifies the accounting for uncertainty in income taxes. ASC Section 740-10 prescribes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return. ASC Section 740-10 requires that an organization recognize in the financial statements the impact of the tax position if that position will more likely than not be sustained on audit, based on the technical merits of the position. As of and for the year ended June 30, 2024, The Teen Project, Inc. had no material unrecognized tax benefits, tax penalties or interest.The Teen Project, Inc.s Forms 990, Return of Organization Exempt from Income Tax, for each of the tax years ended June 30, 2023, 2022, and 2021, are subject to examination by the IRS, generally for 3 years after they were filed.The Teen Project, Inc.'s Forms 199, California Exempt Organization Return, for each of the tax years ended June 30, 2023, 2022, 2021, and 2020, are subject to examination by the Franchise Tax Board, generally for 4 years after they were filed.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XI, Line 2d: Other revenue amounts included in F/S but not included on form 990</FormAndLineReferenceDesc>
+        <ExplanationTxt>Reinstatement of net assets $-293746 Fundraising expenses $732724</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part XII, Line 2d: Other expenses and losses per audited F/S</FormAndLineReferenceDesc>
+        <ExplanationTxt>Fundraising expenses $732724</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleD>
+    <IRS990ScheduleG documentId="IRS990ScheduleG" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <MailSolicitationsInd>X</MailSolicitationsInd>
+      <EmailSolicitationsInd>X</EmailSolicitationsInd>
+      <SolicitationOfNonGovtGrantsInd>X</SolicitationOfNonGovtGrantsInd>
+      <SolicitationOfGovtGrantsInd>X</SolicitationOfGovtGrantsInd>
+      <SpecialFundraisingEventsInd>X</SpecialFundraisingEventsInd>
+      <AgrmtProfFundraisingActyInd>true</AgrmtProfFundraisingActyInd>
+      <FundraiserActivityInfoGrp>
+        <PersonNm>YES Ventures Grants Inc</PersonNm>
+        <USAddress>
+          <AddressLine1Txt>43376 Cook Street Unit 1</AddressLine1Txt>
+          <CityNm>Palm Desert</CityNm>
+          <StateAbbreviationCd>CA</StateAbbreviationCd>
+          <ZIPCd>92211</ZIPCd>
+        </USAddress>
+        <ActivityTxt>Grant Writing Services</ActivityTxt>
+        <FundraiserControlOfFundsInd>false</FundraiserControlOfFundsInd>
+        <RetainedByContractorAmt>44000</RetainedByContractorAmt>
+      </FundraiserActivityInfoGrp>
+      <TotalRetainedByContractorsAmt>44000</TotalRetainedByContractorsAmt>
+      <LicensedStatesCd>CA</LicensedStatesCd>
+      <FundraisingEventInformationGrp>
+        <Event1Nm>Concert</Event1Nm>
+        <GrossReceiptsEvent1Amt>2389492</GrossReceiptsEvent1Amt>
+        <CharitableContriEvent1Amt>2138992</CharitableContriEvent1Amt>
+        <GrossRevenueEvent1Amt>250500</GrossRevenueEvent1Amt>
+        <OtherDirectExpensesEvent1Amt>712405</OtherDirectExpensesEvent1Amt>
+        <Event2Nm>Fashion Show</Event2Nm>
+        <GrossReceiptsEvent2Amt>50848</GrossReceiptsEvent2Amt>
+        <CharitableContriEvent2Amt>49848</CharitableContriEvent2Amt>
+        <GrossRevenueEvent2Amt>1000</GrossRevenueEvent2Amt>
+        <OtherDirectExpensesEvent2Amt>20319</OtherDirectExpensesEvent2Amt>
+        <GrossReceiptsTotalAmt>2440340</GrossReceiptsTotalAmt>
+        <CharitableContributionsTotAmt>2188840</CharitableContributionsTotAmt>
+        <GrossRevenueTotalEventsAmt>251500</GrossRevenueTotalEventsAmt>
+        <OthDirectExpnssTotalEventsAmt>732724</OthDirectExpnssTotalEventsAmt>
+        <DirectExpenseSummaryEventsAmt>732724</DirectExpenseSummaryEventsAmt>
+        <NetIncomeSummaryAmt>-481224</NetIncomeSummaryAmt>
+      </FundraisingEventInformationGrp>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part I, Line 2b - Fundraiser Additional Information</FormAndLineReferenceDesc>
+        <ExplanationTxt>Kelly Kester Yes Ventures43376 Cook Street, Unit 181Palm Desert, CA 92211-3122</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleG>
+    <IRS990ScheduleJ documentId="IRS990ScheduleJ" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <WrittenEmploymentContractInd>X</WrittenEmploymentContractInd>
+      <SeverancePaymentInd>false</SeverancePaymentInd>
+      <SupplementalNonqualRtrPlanInd>false</SupplementalNonqualRtrPlanInd>
+      <EquityBasedCompArrngmInd>false</EquityBasedCompArrngmInd>
+      <CompBasedOnRevenueOfFlngOrgInd>false</CompBasedOnRevenueOfFlngOrgInd>
+      <CompBsdOnRevRelatedOrgsInd>false</CompBsdOnRevRelatedOrgsInd>
+      <CompBsdNetEarnsFlngOrgInd>false</CompBsdNetEarnsFlngOrgInd>
+      <CompBsdNetEarnsRltdOrgsInd>false</CompBsdNetEarnsRltdOrgsInd>
+      <AnyNonFixedPaymentsInd>false</AnyNonFixedPaymentsInd>
+      <InitialContractExceptionInd>false</InitialContractExceptionInd>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Anasheh Safarian</PersonNm>
+        <TitleTxt>Dir. of Operations</TitleTxt>
+        <BaseCompensationFilingOrgAmt>178661</BaseCompensationFilingOrgAmt>
+        <DeferredCompensationFlngOrgAmt>4467</DeferredCompensationFlngOrgAmt>
+        <NontaxableBenefitsFilingOrgAmt>3626</NontaxableBenefitsFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>186754</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Bert Paras</PersonNm>
+        <TitleTxt>COO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>210280</BaseCompensationFilingOrgAmt>
+        <DeferredCompensationFlngOrgAmt>5921</DeferredCompensationFlngOrgAmt>
+        <NontaxableBenefitsFilingOrgAmt>4932</NontaxableBenefitsFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>221133</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+      <RltdOrgOfficerTrstKeyEmplGrp>
+        <PersonNm>Lauri L Burns</PersonNm>
+        <TitleTxt>CEO</TitleTxt>
+        <BaseCompensationFilingOrgAmt>250015</BaseCompensationFilingOrgAmt>
+        <DeferredCompensationFlngOrgAmt>6501</DeferredCompensationFlngOrgAmt>
+        <NontaxableBenefitsFilingOrgAmt>7640</NontaxableBenefitsFilingOrgAmt>
+        <TotalCompensationFilingOrgAmt>264156</TotalCompensationFilingOrgAmt>
+      </RltdOrgOfficerTrstKeyEmplGrp>
+    </IRS990ScheduleJ>
+    <IRS990ScheduleL documentId="IRS990ScheduleL" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <PersonNm>Rochelle Price</PersonNm>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>Board Member</RelationshipDescriptionTxt>
+        <TransactionAmt>1023</TransactionAmt>
+        <TransactionDesc>Professional Services</TransactionDesc>
+        <SharingOfRevenuesInd>false</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+      <BusTrInvolveInterestedPrsnGrp>
+        <NameOfInterested>
+          <PersonNm>Jefrey Rubenstien</PersonNm>
+        </NameOfInterested>
+        <RelationshipDescriptionTxt>Board Member</RelationshipDescriptionTxt>
+        <TransactionAmt>8435</TransactionAmt>
+        <TransactionDesc>Professional Services</TransactionDesc>
+        <SharingOfRevenuesInd>false</SharingOfRevenuesInd>
+      </BusTrInvolveInterestedPrsnGrp>
+    </IRS990ScheduleL>
+    <IRS990ScheduleM documentId="IRS990ScheduleM" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <ClothingAndHouseholdGoodsGrp>
+        <NonCashCheckboxInd>X</NonCashCheckboxInd>
+        <NoncashContributionsRptF990Amt>118106</NoncashContributionsRptF990Amt>
+        <MethodOfDeterminingRevenuesTxt>FMV</MethodOfDeterminingRevenuesTxt>
+      </ClothingAndHouseholdGoodsGrp>
+      <AnyPropertyThatMustBeHeldInd>false</AnyPropertyThatMustBeHeldInd>
+      <ReviewProcessUnusualNCGiftsInd>false</ReviewProcessUnusualNCGiftsInd>
+      <ThirdPartiesUsedInd>false</ThirdPartiesUsedInd>
+    </IRS990ScheduleM>
+    <IRS990ScheduleO documentId="IRS990ScheduleO" softwareId="23017517" softwareVersionNum="2023v6.0">
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 11b</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Chief Executive Officer reviews the 990 before finalizing and filing. There is no Board review. The Board will review and approve the Amended Returns at a later time.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section B, Line 15a</FormAndLineReferenceDesc>
+        <ExplanationTxt>Compensation is reviewed by the Board of Directors with comparisons of salaries of Executives in similar positions.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, Line 18</FormAndLineReferenceDesc>
+        <ExplanationTxt>Governing documents are available upon request.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part VI, Section C, Line 19</FormAndLineReferenceDesc>
+        <ExplanationTxt>No documents available to the public.</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Auto Expense: Column (A) - Total = $66333; Column (B) - Program Services = $64914; Column (C) - Management &amp; General = $1419; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Bank Charges: Column (A) - Total = $41042; Column (B) - Program Services = $5829; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $35213</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Child Related Costs: Column (A) - Total = $216178; Column (B) - Program Services = $215766; Column (C) - Management &amp; General = $412; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Dues and Subscriptions: Column (A) - Total = $1237; Column (B) - Program Services = $1237; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Education and Training: Column (A) - Total = $51386; Column (B) - Program Services = $50906; Column (C) - Management &amp; General = $360; Column (D) - Fundraising = $120</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Equipment Rental &amp; Maintenance: Column (A) - Total = $8291; Column (B) - Program Services = $8291; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>In-kind expenses and Matching: Column (A) - Total = $118106; Column (B) - Program Services = $118106; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Interships expense: Column (A) - Total = $9108; Column (B) - Program Services = $9108; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Licenses and Permits: Column (A) - Total = $41797; Column (B) - Program Services = $41774; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $23</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Miscellaneous Expense: Column (A) - Total = $50; Column (B) - Program Services = $7808; Column (C) - Management &amp; General = $-7087; Column (D) - Fundraising = $-671</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Other fundraising misc. exp: Column (A) - Total = $5277; Column (B) - Program Services = $5277; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Outreach expense: Column (A) - Total = $15970; Column (B) - Program Services = $11761; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $4209</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Outside Services: Column (A) - Total = $87616; Column (B) - Program Services = $85984; Column (C) - Management &amp; General = $1332; Column (D) - Fundraising = $300</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Postage and Shipping: Column (A) - Total = $3885; Column (B) - Program Services = $3885; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Printing and Publications: Column (A) - Total = $29532; Column (B) - Program Services = $29239; Column (C) - Management &amp; General = $293; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Professional Fees: Column (A) - Total = $-33085; Column (B) - Program Services = $50994; Column (C) - Management &amp; General = $-868; Column (D) - Fundraising = $-83211</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Property Taxes and Fees: Column (A) - Total = $1821; Column (B) - Program Services = $1689; Column (C) - Management &amp; General = $132; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Provision for uncollectable: Column (A) - Total = $123105; Column (B) - Program Services = $123105; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Public Relations: Column (A) - Total = $16296; Column (B) - Program Services = $12577; Column (C) - Management &amp; General = $0; Column (D) - Fundraising = $3719</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Small Equipment: Column (A) - Total = $209811; Column (B) - Program Services = $205462; Column (C) - Management &amp; General = $4349; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Supplies, medical: Column (A) - Total = $49622; Column (B) - Program Services = $48446; Column (C) - Management &amp; General = $1176; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Telephone: Column (A) - Total = $88294; Column (B) - Program Services = $85718; Column (C) - Management &amp; General = $2538; Column (D) - Fundraising = $38</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part IX, Line 24e</FormAndLineReferenceDesc>
+        <ExplanationTxt>Utilities: Column (A) - Total = $167371; Column (B) - Program Services = $162493; Column (C) - Management &amp; General = $4878; Column (D) - Fundraising = $0</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Form 990, Part XI, Line 9</FormAndLineReferenceDesc>
+        <ExplanationTxt>Reinstatement of net assets = -$293746</ExplanationTxt>
+      </SupplementalInformationDetail>
+      <SupplementalInformationDetail>
+        <FormAndLineReferenceDesc>Part III Statement of Program Service Accomplishments - Line 1</FormAndLineReferenceDesc>
+        <ExplanationTxt>The Teen Project, Inc. was founded in 2007 and is privately funded non-profit California corporation. The Teen Project, Inc. receives government funding through grants and contracts. It provides housing, education, sober living and mentoring to youth ages 18 to 24 (transitional age youth) aging out of the foster care system to homelessness. The Teen Project seeks to aid these youths exiting foster care and at risk homeless youth with all the resources and support of an intact family allowing the greatest opportunity for success and a smooth transition to adulthood. The focus is on young women.</ExplanationTxt>
+      </SupplementalInformationDetail>
+    </IRS990ScheduleO>
+  </ReturnData>
+</Return>
