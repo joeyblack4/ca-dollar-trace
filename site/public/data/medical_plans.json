@@ -5,14 +5,16 @@
     "url": "https://data.chhs.ca.gov/dataset/medi-cal-managed-care-enrollment-report",
     "license": "Open Data (CHHS Terms of Use)"
   },
-  "as_of": "2026-07-16T184244Z",
-  "ingested_at": "2026-07-16T18:42:44.890791+00:00",
+  "as_of": "2026-07-17T073115Z",
+  "ingested_at": "2026-07-17T07:31:15.460083+00:00",
   "cadence": "enrollment monthly; capitation rate certifications per rating period",
   "coverage_flag": "traceable",
   "caveats": [
     "Enrollment counts are per plan per county per month as reported by DHCS; a plan's statewide figure sums its county rows.",
     "Capitation rates are DHCS-certified RANGES (lower/midpoint/upper, per member per month) by rating period, county, and category of aid \u2014 they are prices, not amounts spent.",
-    "What each plan pays hospitals, clinics, and physicians remains non-public \u2014 this dataset extends visibility exactly one hop and no further."
+    "What each plan pays hospitals, clinics, and physicians remains non-public \u2014 this dataset extends visibility exactly one hop and no further.",
+    "Dental managed care (e.g. Liberty Dental) rates are certified separately and are not in these files; such plans show enrollment without a rate range.",
+    "Enrollment and rate datasets never agree on plan names; we join them with a published normalization + curated alias list and report the measured match rate (enrollee-weighted) instead of pretending it's complete."
   ],
   "data": {
     "latest_month": "2026-06",
@@ -74,12 +76,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2022,
+          "rate_year": 2026,
           "pmpm_range": [
-            84.77,
-            8054.64
+            33.54,
+            9580.72
           ],
-          "rate_cells": 16,
+          "rate_cells": 46,
           "name_match": "exact"
         }
       },
@@ -90,12 +92,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2022,
+          "rate_year": 2026,
           "pmpm_range": [
-            84.77,
-            8054.64
+            33.54,
+            9580.72
           ],
-          "rate_cells": 16,
+          "rate_cells": 46,
           "name_match": "exact"
         }
       },
@@ -194,10 +196,10 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2023,
+          "rate_year": 2026,
           "pmpm_range": [
-            38.34,
-            13144.15
+            29.49,
+            10355.11
           ],
           "rate_cells": 23,
           "name_match": "exact"
@@ -226,12 +228,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2022,
+          "rate_year": 2026,
           "pmpm_range": [
-            86.85,
-            11378.74
+            31.1,
+            15201.71
           ],
-          "rate_cells": 8,
+          "rate_cells": 23,
           "name_match": "exact"
         }
       },
@@ -322,12 +324,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2025,
+          "rate_year": 2022,
           "pmpm_range": [
-            31.07,
-            18720.07
+            81.71,
+            12138.21
           ],
-          "rate_cells": 115,
+          "rate_cells": 33,
           "name_match": "exact"
         }
       },
@@ -402,12 +404,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2025,
+          "rate_year": 2022,
           "pmpm_range": [
-            31.07,
-            18720.07
+            81.71,
+            12138.21
           ],
-          "rate_cells": 115,
+          "rate_cells": 33,
           "name_match": "exact"
         }
       },
@@ -674,12 +676,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2025,
+          "rate_year": 2022,
           "pmpm_range": [
-            31.07,
-            18720.07
+            81.71,
+            12138.21
           ],
-          "rate_cells": 115,
+          "rate_cells": 33,
           "name_match": "exact"
         }
       },
@@ -1170,12 +1172,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2025,
+          "rate_year": 2022,
           "pmpm_range": [
-            31.07,
-            18720.07
+            81.71,
+            12138.21
           ],
-          "rate_cells": 115,
+          "rate_cells": 33,
           "name_match": "exact"
         }
       },
@@ -1474,12 +1476,12 @@
         "county_count": 1,
         "suppressed_county_rows": 0,
         "capitation": {
-          "rate_year": 2025,
+          "rate_year": 2022,
           "pmpm_range": [
-            31.07,
-            18720.07
+            81.71,
+            12138.21
           ],
-          "rate_cells": 115,
+          "rate_cells": 33,
           "name_match": "exact"
         }
       },
@@ -2196,14 +2198,6 @@
         }
       },
       {
-        "plan_name": "WelbeHealth - Stockton PACE/Sacramento",
-        "plan_type": "PACE",
-        "enrollees": 202,
-        "county_count": 1,
-        "suppressed_county_rows": 0,
-        "capitation": null
-      },
-      {
         "plan_name": "Anthem Blue Cross Partnership Plan/Alpine",
         "plan_type": "Commercial Plan (2 Plan)",
         "enrollees": 202,
@@ -2218,6 +2212,14 @@
           "rate_cells": 345,
           "name_match": "alias"
         }
+      },
+      {
+        "plan_name": "WelbeHealth - Stockton PACE/Sacramento",
+        "plan_type": "PACE",
+        "enrollees": 202,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": null
       },
       {
         "plan_name": "Habitat Health Sacramento/Sacramento",
@@ -2644,22 +2646,6 @@
         "capitation": null
       },
       {
-        "plan_name": "Sequoia PACE/Kings",
-        "plan_type": "PACE",
-        "enrollees": 15,
-        "county_count": 1,
-        "suppressed_county_rows": 0,
-        "capitation": {
-          "rate_year": 2026,
-          "pmpm_range": [
-            174.64,
-            8218.77
-          ],
-          "rate_cells": 24,
-          "name_match": "prefix"
-        }
-      },
-      {
         "plan_name": "InnovAge PACE/Yuba",
         "plan_type": "PACE",
         "enrollees": 15,
@@ -2672,6 +2658,22 @@
             8662.99
           ],
           "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "Sequoia PACE/Kings",
+        "plan_type": "PACE",
+        "enrollees": 15,
+        "county_count": 1,
+        "suppressed_county_rows": 0,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            174.64,
+            8218.77
+          ],
+          "rate_cells": 24,
           "name_match": "prefix"
         }
       },
@@ -2692,7 +2694,23 @@
         }
       },
       {
-        "plan_name": "InnovAge PACE/Sutter",
+        "plan_name": "AgeWell PACE/Marin",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            195.19,
+            8292.14
+          ],
+          "rate_cells": 12,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Providence PACE/Sonoma",
         "plan_type": "PACE",
         "enrollees": null,
         "county_count": 1,
@@ -2700,11 +2718,11 @@
         "capitation": {
           "rate_year": 2023,
           "pmpm_range": [
-            143.92,
-            8662.99
+            180.99,
+            8455.04
           ],
           "rate_cells": 18,
-          "name_match": "prefix"
+          "name_match": "exact"
         }
       },
       {
@@ -2720,6 +2738,22 @@
             12109.71
           ],
           "rate_cells": 69,
+          "name_match": "exact"
+        }
+      },
+      {
+        "plan_name": "Kaiser Permanente/Imperial",
+        "plan_type": "Single",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2026,
+          "pmpm_range": [
+            21.67,
+            17110.95
+          ],
+          "rate_cells": 138,
           "name_match": "exact"
         }
       },
@@ -2741,6 +2775,22 @@
       },
       {
         "plan_name": "InnovAge PACE/San Joaquin",
+        "plan_type": "PACE",
+        "enrollees": null,
+        "county_count": 1,
+        "suppressed_county_rows": 1,
+        "capitation": {
+          "rate_year": 2023,
+          "pmpm_range": [
+            143.92,
+            8662.99
+          ],
+          "rate_cells": 18,
+          "name_match": "prefix"
+        }
+      },
+      {
+        "plan_name": "InnovAge PACE/Sutter",
         "plan_type": "PACE",
         "enrollees": null,
         "county_count": 1,
@@ -2778,54 +2828,6 @@
         "county_count": 1,
         "suppressed_county_rows": 1,
         "capitation": null
-      },
-      {
-        "plan_name": "Kaiser Permanente/Imperial",
-        "plan_type": "Single",
-        "enrollees": null,
-        "county_count": 1,
-        "suppressed_county_rows": 1,
-        "capitation": {
-          "rate_year": 2026,
-          "pmpm_range": [
-            21.67,
-            17110.95
-          ],
-          "rate_cells": 138,
-          "name_match": "exact"
-        }
-      },
-      {
-        "plan_name": "Providence PACE/Sonoma",
-        "plan_type": "PACE",
-        "enrollees": null,
-        "county_count": 1,
-        "suppressed_county_rows": 1,
-        "capitation": {
-          "rate_year": 2023,
-          "pmpm_range": [
-            180.99,
-            8455.04
-          ],
-          "rate_cells": 18,
-          "name_match": "exact"
-        }
-      },
-      {
-        "plan_name": "AgeWell PACE/Marin",
-        "plan_type": "PACE",
-        "enrollees": null,
-        "county_count": 1,
-        "suppressed_county_rows": 1,
-        "capitation": {
-          "rate_year": 2026,
-          "pmpm_range": [
-            195.19,
-            8292.14
-          ],
-          "rate_cells": 12,
-          "name_match": "exact"
-        }
       }
     ],
     "plans_with_capitation_match": 157,
