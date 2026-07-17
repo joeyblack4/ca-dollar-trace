@@ -1,0 +1,22 @@
+# Search index: name -> the drill path that reaches that vendor's profile.
+# Derived, network-free. Reads the published vendor profiles, the budget
+# waterfall (for the reachable agency set), and the entity crosswalk (to flag
+# which vendors carry a cross-source dossier). Runs last, after every source it
+# consumes. Only vendors whose drill path genuinely resolves are published — a
+# search result must never lead to a dead click.
+source: search_index
+dataset: vendors
+access: derived
+cadence: "recomputed each run from the published lane data"
+freshness_sla_hours: 1440
+min_rows: 200
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Search covers organizations paid through the state checkbook (Open FI$Cal vendor payments). Organizations that appear only in federal or nonprofit data are reached through those sections, not this box."
+  - "Selecting a result opens the drill at the vendor's largest-paying department; the profile itself lists every department that paid it."
+info:
+  name: "Vendor Search Index"
+  publisher: "CA Dollar Trace (derived from cited public sources)"
+  url: "https://github.com/joeyblack4/ca-dollar-trace"
+  license: "Derived work; each underlying figure keeps its source's license"

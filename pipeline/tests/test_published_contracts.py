@@ -406,3 +406,37 @@ def test_entities_contract():
         (e for e in d["entities"].values() if "CALSTART" in e["canonical_name"].upper()), None
     )
     assert calstart and calstart["lane_count"] >= 3 and calstart["ids"].get("ein")
+
+
+def test_search_index_contract():
+    d = load("search_index.json")["data"]
+    assert d["vendor_count"] >= 200
+    # nothing published should be unreachable — that's the whole point of the
+    # index (a search result must never lead to a dead click)
+    assert d["vendors_unreachable"] == 0
+    profiles = load("vendor_profiles.json")["data"]["vendors"]
+    area_names = {"Health and Human Services", "K-12 Education", "Higher Education",
+                  "Corrections and Rehabilitation", "Other"}
+    vfiles: dict[str, set[str]] = {}
+
+    def dept_codes(agency_cd: str) -> set[str]:
+        if agency_cd not in vfiles:
+            f = DATA / "vendors" / f"{agency_cd}.json"
+            doc = json.loads(f.read_text())["data"] if f.exists() else {"departments": []}
+            vfiles[agency_cd] = {dep["org_cd"] for dep in doc["departments"]}
+        return vfiles[agency_cd]
+
+    for e in d["vendors"]:
+        assert e["area"] in area_names, f"{e['name']}: bad area {e['area']}"
+        assert e["name"] in profiles, f"{e['name']}: not a real vendor profile"
+        assert isinstance(e["dossier"], bool)
+        # the chosen drill path must land on a real department in a real file
+        assert e["dept_org_cd"] in dept_codes(e["agency_cd"]), (
+            f"{e['name']}: path {e['agency_cd']}/{e['dept_org_cd']} does not resolve"
+        )
+        # a public-agency or masked payee is never a followable search result
+        assert not profiles[e["name"]].get("public_sector")
+        assert not profiles[e["name"]].get("masked")
+    # sorted by descending spend so the box surfaces the biggest first
+    totals = [e["total_usd"] for e in d["vendors"]]
+    assert totals == sorted(totals, reverse=True)

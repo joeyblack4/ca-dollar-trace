@@ -96,6 +96,32 @@ test("breadcrumb rewind truncates the trail", async ({ page }) => {
   await expect(page.getByText(/Click a department/)).toBeVisible();
 });
 
+test("search jumps straight to a vendor's profile with its dossier", async ({ page }) => {
+  await page.goto("/");
+  // type a name and pick the top match
+  await page.locator("#vendor-search").fill("kaiser");
+  const option = page.getByRole("option", { name: /KAISER FOUNDATION HOSPITALS/ });
+  await expect(option).toBeVisible();
+  await expect(option).toContainText("traced across California"); // dossier flag
+  await option.click();
+  // lands on the vendor profile, deep in the trail — not the top of the drill
+  await expect(page.getByRole("heading", { name: /KAISER FOUNDATION HOSPITALS/ })).toBeVisible();
+  await expect(page.getByText(/net from the State of California/)).toBeVisible();
+  // the full breadcrumb resolved (no stranded "…" crumbs)
+  const trail = page.locator("#drill .sticky");
+  await expect(trail).toContainText("checkbook");
+  await expect(trail).not.toContainText("…");
+  // the cross-source dossier is present and does NOT overclaim the link
+  await expect(page.getByText("This organization across California")).toBeVisible();
+});
+
+test("search offers no dead ends for an unpaid name", async ({ page }) => {
+  await page.goto("/");
+  await page.locator("#vendor-search").fill("zzzznotarealvendor");
+  await expect(page.getByText(/No state-checkbook payments/)).toBeVisible();
+  await expect(page.getByRole("option")).toHaveCount(0);
+});
+
 test("no raw negative garbage anywhere on key pages", async ({ page }) => {
   for (const path of ["/", "/grants/", "/federal/", "/gaps/", "/receipt/", "/explore/"]) {
     await page.goto(path);

@@ -13,6 +13,19 @@ export type PathSeg =
   | { kind: "counties" }
   | { kind: "districts" };
 
+export interface SearchIndexDoc {
+  vendor_count: number;
+  dossier_count: number;
+  vendors: {
+    name: string;
+    total_usd: number;
+    area: string;
+    agency_cd: string;
+    dept_org_cd: string;
+    dossier: boolean;
+  }[];
+}
+
 export interface NonprofitsDoc {
   organizations: Record<
     string,

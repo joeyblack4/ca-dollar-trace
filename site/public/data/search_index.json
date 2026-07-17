@@ -1,0 +1,2479 @@
+{
+  "source": {
+    "name": "Vendor Search Index",
+    "publisher": "CA Dollar Trace (derived from cited public sources)",
+    "url": "https://github.com/joeyblack4/ca-dollar-trace",
+    "license": "Derived work; each underlying figure keeps its source's license"
+  },
+  "as_of": "2026-07-17T001425Z",
+  "ingested_at": "2026-07-17T00:14:25.538497+00:00",
+  "cadence": "recomputed each run from the published lane data",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Search covers organizations paid through the state checkbook (Open FI$Cal vendor payments). Organizations that appear only in federal or nonprofit data are reached through those sections, not this box.",
+    "Selecting a result opens the drill at the vendor's largest-paying department; the profile itself lists every department that paid it."
+  ],
+  "data": {
+    "vendor_count": 307,
+    "vendors_unreachable": 0,
+    "dossier_count": 13,
+    "vendors": [
+      {
+        "name": "SOCALGAS",
+        "total_usd": 4793439044,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "PACIFIC GAS & ELECTRIC CO",
+        "total_usd": 4509034899,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES UNIFIED SCH DIST",
+        "total_usd": 3255726298,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "DOI SINGLE PAY",
+        "total_usd": 3188938262,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0845",
+        "dossier": false
+      },
+      {
+        "name": "HENSEL PHELPS CONSTRUCTION CO",
+        "total_usd": 2402189044,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "EMPLOYMENT DEVELOPMENT DEPT",
+        "total_usd": 2374526798,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": false
+      },
+      {
+        "name": "TUTOR PERINI ZACHRY PARSONS",
+        "total_usd": 1862849120,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "CALSTART INC",
+        "total_usd": 1807514855,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": true
+      },
+      {
+        "name": "DRAGADOS FLATIRON JV",
+        "total_usd": 1580646048,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "RANCHO SANTIAGO COMM COLLEGE",
+        "total_usd": 1358751281,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "ADVOCATES FOR HUMAN POTENTIAL",
+        "total_usd": 1337983576,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "SAN JOAQUIN VALLEY UNIFIED AIR",
+        "total_usd": 1242048951,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "SIERRA HLTH FDN-CENTER FOR",
+        "total_usd": 1123270351,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "TURNER CONSTRUCTION CO",
+        "total_usd": 1120714076,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "OPTUMSERVE HEALTH SERVICES INC",
+        "total_usd": 1085834097,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "L A CNTY METRO TRANS AUTH",
+        "total_usd": 983549362,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "REVVITY HEALTH SCIENCES INC",
+        "total_usd": 963662050,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "RUDOLPH & SLETTEN INC",
+        "total_usd": 936198754,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "DEPT FORESTRY & FIRE PROTECT",
+        "total_usd": 923223555,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "TREASURER SAN FRANCISCO CNTY",
+        "total_usd": 920021094,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "LA COUNTY DEV AUTHORITY",
+        "total_usd": 916934514,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "SOUTH COAST AIR QUALITY MGMT DIST",
+        "total_usd": 894969306,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "LA DEPT OF WATER & POWER",
+        "total_usd": 891211942,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "DELOITTE CONSULTING LLP",
+        "total_usd": 869081499,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": true
+      },
+      {
+        "name": "US BANK",
+        "total_usd": 859504460,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "METROPOLITAN TRANSP COMMISSION",
+        "total_usd": 805832382,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "CHILD CARE RESOURCE CENTER INC",
+        "total_usd": 795812017,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": true
+      },
+      {
+        "name": "CENTER FOR SUSTAINABLE ENERGY",
+        "total_usd": 753641004,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "ONCORE CONSULTING LLC",
+        "total_usd": 646867887,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7730",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO GAS & ELECTRIC CO",
+        "total_usd": 641355644,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "MCCARTHY BUILDING COS INC",
+        "total_usd": 633253326,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "ACCENTURE LLP",
+        "total_usd": 620766164,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "KAISER FOUNDATION HOSPITALS",
+        "total_usd": 614864080,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": true
+      },
+      {
+        "name": "DUNCAN CHANNON INC",
+        "total_usd": 602340161,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "CITIBANK NA",
+        "total_usd": 574765792,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "AT&T ENTERPRISES LLC",
+        "total_usd": 555679900,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "SOUTHERN CA EDISON CO",
+        "total_usd": 528903161,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4700",
+        "dossier": false
+      },
+      {
+        "name": "PRIME THERAPEUTICS MGMT LLC",
+        "total_usd": 521380150,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO CNTY OFFICE OF EDUC",
+        "total_usd": 517759863,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "CHILD DEVELOPMENT ASSOC INC",
+        "total_usd": 514510734,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "TRUCONNECT COMMUNICATIONS INC",
+        "total_usd": 510100244,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "CGI TECHNOLOGIES & SOL INC",
+        "total_usd": 505988812,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0840",
+        "dossier": false
+      },
+      {
+        "name": "CLARK CONST GROUP CA LP",
+        "total_usd": 499000557,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "TETRA TECH INC",
+        "total_usd": 482557826,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "DIGNITY HEALTH",
+        "total_usd": 478713433,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "COMMUNITY ACTION PARTNERSHIP",
+        "total_usd": 475549652,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4700",
+        "dossier": false
+      },
+      {
+        "name": "CRYSTAL STAIRS INC",
+        "total_usd": 474744441,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": true
+      },
+      {
+        "name": "TREASR OF SAN LUIS OBISPO CNTY",
+        "total_usd": 465138308,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "ARCADIS US INC",
+        "total_usd": 456606083,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "EDUCATIONAL TESTING SERVICE",
+        "total_usd": 452066138,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "FRESNO COMM HOSPITAL & MED CTR",
+        "total_usd": 441937681,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "CALIFORNIA RAIL BUILDERS LLC",
+        "total_usd": 439973294,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "FIDUCIARY TRUST INTERNATL CA",
+        "total_usd": 412441868,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0509",
+        "dossier": false
+      },
+      {
+        "name": "DPR CONSTRUCTION",
+        "total_usd": 408762841,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "ANVIL BUILDERS INC",
+        "total_usd": 404828665,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "CHILDRENS LAW CENTER OF CA",
+        "total_usd": 399123542,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "PUBLIC CONSULTING GROUP LLC",
+        "total_usd": 392021236,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "PACIFIC STATES-SUKUT-P31 A",
+        "total_usd": 388067585,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "PRIDE INDUSTRIES ONE INC",
+        "total_usd": 384402771,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "FRESNO UNIF SCH DIST",
+        "total_usd": 380021915,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "MAXIMUS US SERVICES INC",
+        "total_usd": 379183969,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": false
+      },
+      {
+        "name": "RIVERSIDE COUNTY OFC OF EDUCATION",
+        "total_usd": 365858577,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "HAGERTY CONSULTING INC",
+        "total_usd": 362884476,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "BAY AREA AIR QUALITY MGMT DIST",
+        "total_usd": 356086547,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES CNTY DEPT OF HLTH",
+        "total_usd": 353650771,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "NWN CORPORATION",
+        "total_usd": 351224570,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "NWN SOLUTIONS CORPORATION",
+        "total_usd": 349516445,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "OFC TECH & SLTNS INTEGRATION",
+        "total_usd": 340751581,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "SNAPMEDTECH INC",
+        "total_usd": 338178051,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "CHILDRENS HOME SOCIETY OF CA",
+        "total_usd": 331956119,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "AMERICAN DARK FIBER LLC",
+        "total_usd": 328363892,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "TABORDA SOLUTIONS INC",
+        "total_usd": 311521576,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "LONG BEACH JUDICIAL PTRS LLC",
+        "total_usd": 304909395,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "POOL ADMINISTRATORS INC",
+        "total_usd": 304188382,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "WSP USA INC",
+        "total_usd": 298826602,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES DEPENDENCY",
+        "total_usd": 294680360,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "NEC GROUP INC",
+        "total_usd": 293855453,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3960",
+        "dossier": false
+      },
+      {
+        "name": "AMENTUM SERVICES INC",
+        "total_usd": 290385080,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "ALLIED NETWORK SOLUTIONS INC",
+        "total_usd": 280917351,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7730",
+        "dossier": false
+      },
+      {
+        "name": "GOODFELLOW-TEICHERT-ODIN A JV",
+        "total_usd": 277933312,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "RUNYON SALTZMAN INC",
+        "total_usd": 277868268,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "FIDELITY INFO SERVICES LLC",
+        "total_usd": 277652057,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0950",
+        "dossier": false
+      },
+      {
+        "name": "WESTED",
+        "total_usd": 276577378,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "WEX BANK",
+        "total_usd": 268858374,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "AMERISOURCE BERGEN DRUG CORP",
+        "total_usd": 266606768,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "ASSURANCE WIRELESS OF SC LLC",
+        "total_usd": 265467087,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "SUTTER HEALTH",
+        "total_usd": 263838452,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "ORANGE COUNTY TRANS AUTHORITY",
+        "total_usd": 263058145,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "EQUILON ENTERPRISES LLC",
+        "total_usd": 262749869,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "TRANSPORTATION",
+        "total_usd": 260382375,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "CRAYON SOFTWARE EXPERTS LLC",
+        "total_usd": 259712299,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "WONG HARRIS JV",
+        "total_usd": 258779932,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "CHILD ACTION INC",
+        "total_usd": 256243344,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "AIR METHODS CORPORATION",
+        "total_usd": 251127093,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "AECOM FLUOR JOINT VENTURE",
+        "total_usd": 250288958,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "SUKUT ODIN P31 JW BAMFORD",
+        "total_usd": 247454042,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "COMM HOUSING DEV CORP OF",
+        "total_usd": 245941529,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "USDA FOREST SERVICE",
+        "total_usd": 245440425,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "CNTY OF LA AGING & DISAB DEPT",
+        "total_usd": 245322065,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4170",
+        "dossier": false
+      },
+      {
+        "name": "SELF HELP ENTERPRISES",
+        "total_usd": 244357747,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": true
+      },
+      {
+        "name": "KLAMATH RIVER RENEWAL CORP",
+        "total_usd": 243000000,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "0540",
+        "dossier": false
+      },
+      {
+        "name": "COLOR HEALTH INC",
+        "total_usd": 238948352,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "OUTREACH SOLUTIONS AS A",
+        "total_usd": 238521164,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": false
+      },
+      {
+        "name": "PRIME THERAPEUTICS STATE",
+        "total_usd": 234455397,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "ORANGE CNTY TREASURER-TAX COLLECTOR",
+        "total_usd": 232470730,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4170",
+        "dossier": false
+      },
+      {
+        "name": "OPTIONS FOR LEARNING",
+        "total_usd": 229616024,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "VERIZON VALUE INC",
+        "total_usd": 227339575,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "MACKONE DEVELOPMENT INC",
+        "total_usd": 226945874,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "KERN COUNTY SUPT OF SCHOOLS",
+        "total_usd": 226517396,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "ATOS PUBLIC SAFETY LLC",
+        "total_usd": 226408787,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "LEVEL 3 COMMUNICATIONS LLC",
+        "total_usd": 225511566,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "MEXICAN AMERICAN OPPTY FDN",
+        "total_usd": 223983656,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO MUNICIPAL UTIL DIST",
+        "total_usd": 223938179,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "ORANGE COUNTY FIRE AUTHORITY",
+        "total_usd": 223863881,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "PROLINK HEALTHCARE LLC",
+        "total_usd": 222736909,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "SLS HEALTH SERVICES LLC",
+        "total_usd": 222592047,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO CITY UNFD SCHL DIST",
+        "total_usd": 218654722,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CATHOLIC CHARITIES DIOCESE OF",
+        "total_usd": 216661815,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "BNSF RAILWAY COMPANY",
+        "total_usd": 214462549,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "PUBLIC HEALTH INSTITUTE",
+        "total_usd": 214085458,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "LOGISTIC SPECIALTIES INC",
+        "total_usd": 212773437,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "ELSINORE VLY MUNICIPAL WTR DIST",
+        "total_usd": 212693345,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "PERIMETER SOLUTIONS LP",
+        "total_usd": 209900000,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "CTL FOREST MANAGEMENT INC",
+        "total_usd": 208747338,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "EMERGENT DEVICES INC",
+        "total_usd": 208047568,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "RIVERSIDE COUNTY TRANS COMM",
+        "total_usd": 200614156,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "ELK GROVE UNIF SCH DIST",
+        "total_usd": 200355429,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO METRO TRANSIT SYSTEM MTS",
+        "total_usd": 197335279,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "BP PRODUCTS NORTH AMERICA INC",
+        "total_usd": 191635661,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "RESCUE AGCY PUBLIC BENEFIT LLC",
+        "total_usd": 191511706,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4250",
+        "dossier": false
+      },
+      {
+        "name": "STANISLAUS REGIONAL WATER AUTH",
+        "total_usd": 190987744,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "UNION OIL COMP OF CALIFORNIA",
+        "total_usd": 189071216,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "VEOLIA SUSTAINABLE BUILDINGS",
+        "total_usd": 187380689,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "CHABOT-LAS POSITAS COMM",
+        "total_usd": 186617399,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO AREA COUN OF GOVTS",
+        "total_usd": 184730906,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "GARDEN GROVE UNIFIED SCH DIST",
+        "total_usd": 183599419,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "HNTB CORPORATION",
+        "total_usd": 181091240,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "KPMG LLP",
+        "total_usd": 179730011,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "INTERNATIONAL BUS MACH CORP",
+        "total_usd": 176708714,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "ECC CONSTRUCTORS LLC",
+        "total_usd": 176366634,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": true
+      },
+      {
+        "name": "HOPE THE MISSION",
+        "total_usd": 174927804,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "SO CA ASSN OF GOVERNMENTS",
+        "total_usd": 174128197,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "SILICON VALLEY CLEAN WATER",
+        "total_usd": 173503520,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": true
+      },
+      {
+        "name": "PUBLIC HEALTH FOUNDATION ENT",
+        "total_usd": 173133227,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "US FOODS INC",
+        "total_usd": 170561341,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8955",
+        "dossier": true
+      },
+      {
+        "name": "FORGEN DRC JV",
+        "total_usd": 170478449,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "FAMILY RESOURCE & REFERRAL",
+        "total_usd": 168890295,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES COUNTY FIRE DEPT",
+        "total_usd": 168300669,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "BUTTE GLENN COMM COLLEGE DIST",
+        "total_usd": 168292878,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "PITNEY BOWES RESERVE ACCOUNT",
+        "total_usd": 167021064,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0840",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO IMPERIAL COUNTIES",
+        "total_usd": 166782669,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "NORTH LA CNTY REGIONAL CTR INC",
+        "total_usd": 166208219,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "ORANGE CO DEPT OF EDUCATION",
+        "total_usd": 164002916,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "VERIZON BUSINESS SERVICES",
+        "total_usd": 162940578,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": false
+      },
+      {
+        "name": "BOP A JOINT VENTURE",
+        "total_usd": 157376584,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "PRESIDIO NETWORKED SOL GROUP",
+        "total_usd": 157339107,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "COCOKIDS INC",
+        "total_usd": 157231817,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "CORONA-NORCO UNIF SCH DIST",
+        "total_usd": 156015308,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "DYNCORP INTERNATIONAL LLC",
+        "total_usd": 154525033,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "CHEVRON USA INC",
+        "total_usd": 152614182,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": true
+      },
+      {
+        "name": "LOS ANGELES HOMELESS SVCS AUTH",
+        "total_usd": 152110725,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "MILITARY DEPARTMENT",
+        "total_usd": 151925677,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "SOUTHWEST GAS CORP",
+        "total_usd": 151801365,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "CAL FOODS LOGISTICS",
+        "total_usd": 151112303,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "INTUITIVE HEALTH SERVICE INC",
+        "total_usd": 150750725,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "U S BANK NATIONAL ASSOCIATION",
+        "total_usd": 149925771,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "AT&T CALIFORNIA",
+        "total_usd": 149877581,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES REGIONAL FOOD BANK",
+        "total_usd": 147121073,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "CA INST FOR BEHAVIORAL HEALTH",
+        "total_usd": 147043721,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "MT SAN ANTONIO COMMUNITY",
+        "total_usd": 145811541,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "FRESNO CNTY ECON OPP COMM",
+        "total_usd": 145656306,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4700",
+        "dossier": false
+      },
+      {
+        "name": "MOTOROLA SOLUTIONS INC",
+        "total_usd": 144961899,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2720",
+        "dossier": false
+      },
+      {
+        "name": "METRC LLC",
+        "total_usd": 144385286,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "1115",
+        "dossier": false
+      },
+      {
+        "name": "PINNACLE HEALTH SERVICE INC",
+        "total_usd": 143432196,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "MANATT HEALTH STRATEGIES LLC",
+        "total_usd": 143068798,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "CATALYST FAMILY INC",
+        "total_usd": 142203543,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "UNIVERSITY ENTERPRISES INC",
+        "total_usd": 142150930,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "SOUTH CENTRAL LA REG CNTR FOR",
+        "total_usd": 140887498,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "INLAND EMPIRE UTILITIES AGENCY",
+        "total_usd": 140861491,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "CHULA VISTA ELEM SCHL DIST",
+        "total_usd": 140413999,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "M CORP",
+        "total_usd": 139964929,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "MCKINSEY & COMPANY INC",
+        "total_usd": 139620380,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "BROWARD BUILDERS INC",
+        "total_usd": 138271742,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "CONDUENT STATE & LOCAL SOL INC",
+        "total_usd": 137440083,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3790",
+        "dossier": false
+      },
+      {
+        "name": "TULARE CNTY OFC OF EDUCATION",
+        "total_usd": 137310933,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "CENTRAL VALLEY REGIONAL CENTER",
+        "total_usd": 136552379,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "KAISER FDN HEALTH PLAN INC",
+        "total_usd": 136422844,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4800",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO ASSN OF GOVERNMENTS",
+        "total_usd": 136123404,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "SOLUTIONS SIMPLIFIED",
+        "total_usd": 136026825,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "MORENO VALLEY UNIFIED SCH DIST",
+        "total_usd": 134775998,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "KOVARUS INC",
+        "total_usd": 134583909,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "CHICO STATE ENTERPRISES",
+        "total_usd": 134077350,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "STANTEC CONSULTING SVCS INC",
+        "total_usd": 133414832,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2665",
+        "dossier": false
+      },
+      {
+        "name": "U S DEPT OF HOMELAND SECURITY",
+        "total_usd": 132968082,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "GO KIDS INC",
+        "total_usd": 132604079,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "PACIFIC BELL TELEPHONE COMPANY",
+        "total_usd": 130304411,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "WEINGART CENTER ASSOCIATION",
+        "total_usd": 130053094,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "ELK GROVE AUTO GROUP",
+        "total_usd": 129869292,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2720",
+        "dossier": false
+      },
+      {
+        "name": "SUNDT CONSTRUCTION INC",
+        "total_usd": 129345713,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "MOUNTAINS REC & CONSER AUTH",
+        "total_usd": 128875472,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3810",
+        "dossier": false
+      },
+      {
+        "name": "OFFICE OF EMERGENCY SERVICES",
+        "total_usd": 128415734,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": true
+      },
+      {
+        "name": "ABBOTT RAPID DX N AMER LLC",
+        "total_usd": 126661632,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO UNIFIED PORT DIST",
+        "total_usd": 126482190,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3560",
+        "dossier": false
+      },
+      {
+        "name": "CHILD DEVELOPMENT INC",
+        "total_usd": 125677142,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "CNTY OF SAN DIEGO AG WEIGHTS",
+        "total_usd": 124396903,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8570",
+        "dossier": false
+      },
+      {
+        "name": "THOMPSON BUILDERS CORP",
+        "total_usd": 124049128,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "PORT OF SAN FRANCISCO",
+        "total_usd": 123806359,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3560",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO BEHAVIORAL",
+        "total_usd": 122985319,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "SEDGWICK CLAIMS MGMT SVCS  INC",
+        "total_usd": 122314631,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "TRI COUNTIES REGIONAL CENTER",
+        "total_usd": 122119469,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "ZOVICH CONSTRUCTION",
+        "total_usd": 121809901,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "DOWNTOWN FORD SALES",
+        "total_usd": 121683967,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "REGIONAL CTR OF ORANGE CNTY",
+        "total_usd": 121635890,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "TTEC GOVERNMENT SOLUTIONS LLC",
+        "total_usd": 120780123,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4800",
+        "dossier": false
+      },
+      {
+        "name": "CAPITAL PRGMS & CLIMATE FINANC",
+        "total_usd": 120708929,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "ORANGE COUNTY BEH HEALTH SVCS",
+        "total_usd": 119970000,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "BOOMERANG WIRELESS LLC",
+        "total_usd": 119552177,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "DELL MARKETING LP",
+        "total_usd": 117937397,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7502",
+        "dossier": false
+      },
+      {
+        "name": "CALIFORNIA ASSN OF FOOD BANKS",
+        "total_usd": 117705763,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO CO HLTH & HUM SVC AG",
+        "total_usd": 116191002,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "EMERGENCY MEDICAL SERVICE AUTH",
+        "total_usd": 115954836,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "SUPPORTIVE SERVICES INC",
+        "total_usd": 115252289,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "SOLANO FAMILY & CHILDRENS COUN",
+        "total_usd": 114962297,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "POTRERO HOUSING ASSOC II LP",
+        "total_usd": 114836486,
+        "area": "Other",
+        "agency_cd": "1000",
+        "dept_org_cd": "2240",
+        "dossier": false
+      },
+      {
+        "name": "PALM SPRINGS UNIFIED SCH DIST",
+        "total_usd": 114684027,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "COALITION FOR HUM IMMGRTN RTS",
+        "total_usd": 114349001,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "BAY AREA UASI",
+        "total_usd": 113534507,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO METRO AIR QUALITY",
+        "total_usd": 112946374,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3900",
+        "dossier": false
+      },
+      {
+        "name": "FOOTHILL-DE ANZA COMMUNITY",
+        "total_usd": 112335507,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "M & M MEDIA SOLUTIONS INC",
+        "total_usd": 112188486,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "US POSTAL SERVICE",
+        "total_usd": 111766696,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7730",
+        "dossier": false
+      },
+      {
+        "name": "NGA 911 LLC",
+        "total_usd": 111721737,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      },
+      {
+        "name": "LOS ANGELES CNTY DIST ATTORNEY",
+        "total_usd": 111252046,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0845",
+        "dossier": false
+      },
+      {
+        "name": "PALMDALE ELEMEMTARY SCH DIST",
+        "total_usd": 110413057,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "AECOM TECHNICAL SERVICES INC",
+        "total_usd": 110244102,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": true
+      },
+      {
+        "name": "CHILD DEV RESOURCES OF VENTURA",
+        "total_usd": 110153713,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "ALLIANT INSURANCE SVCS INC",
+        "total_usd": 109946661,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0250",
+        "dossier": false
+      },
+      {
+        "name": "FAST ENTERPRISES LLC",
+        "total_usd": 109089261,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7600",
+        "dossier": false
+      },
+      {
+        "name": "VERIZON WIRELESS",
+        "total_usd": 108473198,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": false
+      },
+      {
+        "name": "ENTERPRISE NETWORKING SOLS INC",
+        "total_usd": 108345562,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "CHILD CARE PROVIDERS UNITED CA",
+        "total_usd": 108321802,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "PINNACLE CLAIMS MANAGEMENT INC",
+        "total_usd": 108220042,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4800",
+        "dossier": false
+      },
+      {
+        "name": "AMERIMEX COMMUNICATIONS CORP",
+        "total_usd": 107812320,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "WINNER CHEVROLET INC",
+        "total_usd": 107399810,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2720",
+        "dossier": false
+      },
+      {
+        "name": "SACRAMENTO AREA SEWER DISTRICT",
+        "total_usd": 107242645,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "DESERT SANDS UNIFIED SCH DIST",
+        "total_usd": 107097564,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "FRESNO COUNCIL OF GOVERNMENTS",
+        "total_usd": 106654171,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "0521",
+        "dossier": false
+      },
+      {
+        "name": "KIDANGO INC",
+        "total_usd": 106642350,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CALIFORNIA WATER SERVICE CO",
+        "total_usd": 105965433,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "MONTEBELLO UNIFIED SCH DIST",
+        "total_usd": 105350320,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CA ST UNIV FRESNO FOUNDATION",
+        "total_usd": 104276252,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "PARSONS TRANSPORTATION GRP INC",
+        "total_usd": 104147389,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3960",
+        "dossier": false
+      },
+      {
+        "name": "INLAND COUNTIES REGIONAL CTR",
+        "total_usd": 103935945,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "SWEETWATER UNION HIGH SCH DIST",
+        "total_usd": 103263946,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "LONG BEACH COMM COLLEGE DIST",
+        "total_usd": 103083401,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "SAN DIEGO STATE UNIV FDN",
+        "total_usd": 102341240,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "DREW CHILD DEV CORPORATION INC",
+        "total_usd": 101648968,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "PINNACLE PETROLEUM INC",
+        "total_usd": 101138164,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2720",
+        "dossier": false
+      },
+      {
+        "name": "LUNDQUIST INST FOR BIOMEDICAL",
+        "total_usd": 100602322,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "UPS SUPPLY CHAIN SOLUTIONS",
+        "total_usd": 99879744,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "I-WIRELESS LLC",
+        "total_usd": 99808165,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "DRILTEK INC",
+        "total_usd": 99678816,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3480",
+        "dossier": false
+      },
+      {
+        "name": "ABLEGOV INC",
+        "total_usd": 99645208,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7730",
+        "dossier": false
+      },
+      {
+        "name": "CA NATURAL RESOURCES AGENCY",
+        "total_usd": 99586357,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "WALSH CONSTRUCTION CO II LLC",
+        "total_usd": 99262136,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8940",
+        "dossier": false
+      },
+      {
+        "name": "COBAN TECHNOLOGIES INC",
+        "total_usd": 99160332,
+        "area": "Other",
+        "agency_cd": "2500",
+        "dept_org_cd": "2720",
+        "dossier": false
+      },
+      {
+        "name": "SANTA BARBARA CNTY EDU OFC",
+        "total_usd": 98737857,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "WSP USA SOLUTIONS INC",
+        "total_usd": 98068351,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3970",
+        "dossier": false
+      },
+      {
+        "name": "CENTRAL CONTRA COSTA SANITARY",
+        "total_usd": 97454476,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "HF TECH SERVICES INC",
+        "total_usd": 97012782,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7350",
+        "dossier": false
+      },
+      {
+        "name": "MAXIMUS HUMAN SERVICES INC",
+        "total_usd": 96787582,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8660",
+        "dossier": false
+      },
+      {
+        "name": "CATHOLIC CHARITIES OF CA INC",
+        "total_usd": 96291629,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "HELICOPTER TRANSPORT SVCS LLC",
+        "total_usd": 95120743,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "ALAMEDA COUNTY PUBLIC HEALTH",
+        "total_usd": 93790981,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "TORRES MARTINEZ DESERT",
+        "total_usd": 93331489,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "SANTA CLARITA VALLEY FOOD SVCS",
+        "total_usd": 93151807,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "INTER-CON SECURITY SYSTEMS INC",
+        "total_usd": 92908159,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7100",
+        "dossier": true
+      },
+      {
+        "name": "KITCHELL CEM INC",
+        "total_usd": 92669745,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "YOUNG MENS CHRISTIAN ASSN OF",
+        "total_usd": 92241465,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CA MENTAL HLTH SVCS AUTHORITY",
+        "total_usd": 92211890,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4260",
+        "dossier": false
+      },
+      {
+        "name": "CHILDRENS COUNCIL OF SF",
+        "total_usd": 91509938,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "VAL VERDE UNIFIED SCH DIST",
+        "total_usd": 90920695,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CO OF SAN DIEGO DIST ATTORNEY",
+        "total_usd": 90910452,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0845",
+        "dossier": false
+      },
+      {
+        "name": "CALIFORNIA HEALTH AND RECOVERY",
+        "total_usd": 90630374,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4440",
+        "dossier": false
+      },
+      {
+        "name": "MONTEREY CNTY AGRICULTURAL",
+        "total_usd": 89278213,
+        "area": "Other",
+        "agency_cd": "8000",
+        "dept_org_cd": "8570",
+        "dossier": false
+      },
+      {
+        "name": "COMM ACTION PARTNERSHIP OF",
+        "total_usd": 88665780,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "US GEOLOGICAL SURVEY",
+        "total_usd": 88166610,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "PJ HELICOPTERS INC",
+        "total_usd": 88126019,
+        "area": "Other",
+        "agency_cd": "3000",
+        "dept_org_cd": "3540",
+        "dossier": false
+      },
+      {
+        "name": "REGIONAL CTR OF EAST BAY INC",
+        "total_usd": 88101647,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "ALTA CAL REGIONAL CNTR INC",
+        "total_usd": 87665765,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4300",
+        "dossier": false
+      },
+      {
+        "name": "AREA 4 AGENCY ON AGING",
+        "total_usd": 87598619,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4170",
+        "dossier": false
+      },
+      {
+        "name": "EQUIFAX WORKFORCE SOLS LLC",
+        "total_usd": 87330826,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "5180",
+        "dossier": false
+      },
+      {
+        "name": "LAKE ELSINORE UNIFIED SCH DIST",
+        "total_usd": 87040082,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "AT&T GLOBAL SERVICES INC",
+        "total_usd": 86887667,
+        "area": "Other",
+        "agency_cd": "7000",
+        "dept_org_cd": "7350",
+        "dossier": false
+      },
+      {
+        "name": "ESCONDIDO UNION SCH DISTRICT",
+        "total_usd": 85777186,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "NUWEST GROUP HOLDINGS LLC",
+        "total_usd": 85700877,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "NATIONAL SECURITY INDUSTRIES",
+        "total_usd": 85459190,
+        "area": "Other",
+        "agency_cd": "7500",
+        "dept_org_cd": "7760",
+        "dossier": false
+      },
+      {
+        "name": "METROPOLITAN WAT DIST OF SO CA",
+        "total_usd": 85182820,
+        "area": "Other",
+        "agency_cd": "3890",
+        "dept_org_cd": "3940",
+        "dossier": false
+      },
+      {
+        "name": "SAN BERNARDINO COMM COLL DIST",
+        "total_usd": 84867075,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "MANIFEST MEDEX",
+        "total_usd": 84793441,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "WEST HILLS COMM COLLEGE DIST",
+        "total_usd": 84628124,
+        "area": "Higher Education",
+        "agency_cd": "6013",
+        "dept_org_cd": "6870",
+        "dossier": false
+      },
+      {
+        "name": "GROSSMONT UNION HS DISTRICT",
+        "total_usd": 84509631,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "PANAMA-BUENA VISTA UN SCH DIST",
+        "total_usd": 84278939,
+        "area": "K-12 Education",
+        "agency_cd": "6010",
+        "dept_org_cd": "6100",
+        "dossier": false
+      },
+      {
+        "name": "CNTY OF FRESNO PUBLIC",
+        "total_usd": 83473346,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4265",
+        "dossier": false
+      },
+      {
+        "name": "COMMUNITY RESOURCE PROJECT INC",
+        "total_usd": 83389441,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4700",
+        "dossier": false
+      },
+      {
+        "name": "CELL-ED INC",
+        "total_usd": 82942550,
+        "area": "Health and Human Services",
+        "agency_cd": "4000",
+        "dept_org_cd": "4140",
+        "dossier": false
+      },
+      {
+        "name": "LOMA LINDA UNIV MEDICAL CTR",
+        "total_usd": 82846060,
+        "area": "Other",
+        "agency_cd": "0010",
+        "dept_org_cd": "0690",
+        "dossier": false
+      }
+    ]
+  }
+}
