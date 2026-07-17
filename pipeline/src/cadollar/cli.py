@@ -30,6 +30,7 @@ from .ingest.k12_apportionment import run_k12_apportionment
 from .ingest.medical_plans import run_medical_plans
 from .ingest.nonprofit_officers import run_nonprofit_officers
 from .ingest.nonprofits import run_nonprofits
+from .ingest.pension_positions import run_pension_positions
 from .ingest.sacs import run_sacs
 from .ingest.search_index import run_search_index
 from .ingest.sources_catalog import run_sources_catalog
@@ -163,6 +164,11 @@ def _run_k12_apportionment(storage: Storage, settings: Settings) -> None:
     run_k12_apportionment(storage, cfg, settings)
 
 
+def _run_pension_positions(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "pension_positions")
+    run_pension_positions(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -184,6 +190,7 @@ RUNNERS = {
     "nonprofit_officers": _run_nonprofit_officers,
     "hospital_finances": _run_hospital_finances,
     "k12_apportionment": _run_k12_apportionment,
+    "pension_positions": _run_pension_positions,
     "entities": _run_entities,
     "search_index": _run_search_index,
     "sources_catalog": _run_sources_catalog,
@@ -210,6 +217,7 @@ RUN_ORDER = [
     "sacs_k12",
     "k12_apportionment",
     "city_checkbooks",
+    "pension_positions",
     "fac_sefa",
     "federal_subawards",
     "compensation",

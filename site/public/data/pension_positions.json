@@ -1,0 +1,3100 @@
+{
+  "source": {
+    "name": "Funding Positions of CalPERS Contracting Agencies",
+    "publisher": "California State Controller (from CalPERS valuations)",
+    "url": "https://data.ca.gov/dataset/funding-positions-of-calpers-contracting-agencies-for-fiscal-years-2002-03-to-2023-24",
+    "license": "Public record (SCO/CalPERS)"
+  },
+  "as_of": "2026-07-17T150148Z",
+  "ingested_at": "2026-07-17T15:01:48.288836+00:00",
+  "cadence": "annual (actuarial valuations, published ~a year after each June 30)",
+  "coverage_flag": "traceable",
+  "caveats": [
+    "Covers CalPERS contracting agencies with their own actuarial plans. Small agencies pooled into CalPERS risk pools are reported only in aggregate elsewhere, and governments with independent retirement systems \u2014 Los Angeles (city and county), San Francisco, and about 20 county systems \u2014 are not in CalPERS data at all.",
+    "Unfunded liability is the gap between what's been promised and what's been set aside, at the actuary's assumptions; it is a debt paid down through future budgets."
+  ],
+  "data": {
+    "fiscal_year": "2024",
+    "agency_count": 307,
+    "total_liabilities_usd": 223346768606,
+    "total_assets_usd": 160597728770,
+    "total_unfunded_usd": 62749039420,
+    "by_kind": {
+      "city": 181,
+      "county": 34,
+      "district": 92
+    },
+    "agencies": {
+      "district:ALAMEDA ALLIANCE FOR HEALTH": {
+        "name": "Alameda Alliance for Health",
+        "kind": "district",
+        "employer_name": "Alameda Alliance for Health",
+        "liabilities_usd": 85750633,
+        "assets_usd": 75048209,
+        "unfunded_usd": 10702423,
+        "plan_count": 1,
+        "funded_pct": 87.5
+      },
+      "city:ALAMEDA": {
+        "name": "Alameda",
+        "kind": "city",
+        "employer_name": "Alameda, City of",
+        "liabilities_usd": 940870520,
+        "assets_usd": 597822296,
+        "unfunded_usd": 343048222,
+        "plan_count": 2,
+        "funded_pct": 63.5
+      },
+      "district:ALAMEDA COUNTY FIRE DEPARTMENT": {
+        "name": "Alameda County Fire Department",
+        "kind": "district",
+        "employer_name": "Alameda County Fire Department",
+        "liabilities_usd": 637315206,
+        "assets_usd": 458311789,
+        "unfunded_usd": 179003416,
+        "plan_count": 1,
+        "funded_pct": 71.9
+      },
+      "district:ALAMEDA COUNTY WATER DISTRICT": {
+        "name": "Alameda County Water District",
+        "kind": "district",
+        "employer_name": "Alameda County Water District",
+        "liabilities_usd": 337214060,
+        "assets_usd": 266439017,
+        "unfunded_usd": 70775042,
+        "plan_count": 1,
+        "funded_pct": 79.0
+      },
+      "city:ALHAMBRA": {
+        "name": "Alhambra",
+        "kind": "city",
+        "employer_name": "Alhambra, City of",
+        "liabilities_usd": 571539237,
+        "assets_usd": 401351322,
+        "unfunded_usd": 170187913,
+        "plan_count": 2,
+        "funded_pct": 70.2
+      },
+      "district:ALTA CALIFORNIA REGIONAL CENTER, INC.": {
+        "name": "Alta California Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "Alta California Regional Center, Inc.",
+        "liabilities_usd": 156256918,
+        "assets_usd": 123364542,
+        "unfunded_usd": 32892375,
+        "plan_count": 1,
+        "funded_pct": 78.9
+      },
+      "county:AMADOR": {
+        "name": "Amador",
+        "kind": "county",
+        "employer_name": "Amador, County of",
+        "liabilities_usd": 188669799,
+        "assets_usd": 124781192,
+        "unfunded_usd": 63888606,
+        "plan_count": 1,
+        "funded_pct": 66.1
+      },
+      "city:ANAHEIM": {
+        "name": "Anaheim",
+        "kind": "city",
+        "employer_name": "Anaheim, City of",
+        "liabilities_usd": 3314402779,
+        "assets_usd": 2306756666,
+        "unfunded_usd": 1007646110,
+        "plan_count": 3,
+        "funded_pct": 69.6
+      },
+      "district:ANTELOPE VALLEY SCHOOLS TRANSPORTATION AGENCY": {
+        "name": "Antelope Valley Schools Transportation Agency",
+        "kind": "district",
+        "employer_name": "Antelope Valley Schools Transportation Agency",
+        "liabilities_usd": 61775152,
+        "assets_usd": 44649000,
+        "unfunded_usd": 17126151,
+        "plan_count": 1,
+        "funded_pct": 72.3
+      },
+      "city:ANTIOCH": {
+        "name": "Antioch",
+        "kind": "city",
+        "employer_name": "Antioch, City of",
+        "liabilities_usd": 233838235,
+        "assets_usd": 151362672,
+        "unfunded_usd": 82475562,
+        "plan_count": 1,
+        "funded_pct": 64.7
+      },
+      "city:ARCADIA": {
+        "name": "Arcadia",
+        "kind": "city",
+        "employer_name": "Arcadia, City of",
+        "liabilities_usd": 519457308,
+        "assets_usd": 419261774,
+        "unfunded_usd": 100195532,
+        "plan_count": 2,
+        "funded_pct": 80.7
+      },
+      "city:AZUSA": {
+        "name": "Azusa",
+        "kind": "city",
+        "employer_name": "Azusa, City of",
+        "liabilities_usd": 194894896,
+        "assets_usd": 177806387,
+        "unfunded_usd": 17088508,
+        "plan_count": 1,
+        "funded_pct": 91.2
+      },
+      "city:BAKERSFIELD": {
+        "name": "Bakersfield",
+        "kind": "city",
+        "employer_name": "Bakersfield, City of",
+        "liabilities_usd": 1783091650,
+        "assets_usd": 1168697967,
+        "unfunded_usd": 614393680,
+        "plan_count": 3,
+        "funded_pct": 65.5
+      },
+      "city:BALDWIN PARK": {
+        "name": "Baldwin Park",
+        "kind": "city",
+        "employer_name": "Baldwin Park, City of",
+        "liabilities_usd": 101854182,
+        "assets_usd": 95169581,
+        "unfunded_usd": 6684600,
+        "plan_count": 1,
+        "funded_pct": 93.4
+      },
+      "city:BANNING": {
+        "name": "Banning",
+        "kind": "city",
+        "employer_name": "Banning, City of",
+        "liabilities_usd": 98772740,
+        "assets_usd": 65298130,
+        "unfunded_usd": 33474609,
+        "plan_count": 1,
+        "funded_pct": 66.1
+      },
+      "district:BAY AREA AIR QUALITY MANAGEMENT DISTRICT": {
+        "name": "Bay Area Air Quality Management District",
+        "kind": "district",
+        "employer_name": "Bay Area Air Quality Management District",
+        "liabilities_usd": 423793096,
+        "assets_usd": 302876626,
+        "unfunded_usd": 120916469,
+        "plan_count": 1,
+        "funded_pct": 71.5
+      },
+      "city:BENICIA": {
+        "name": "Benicia",
+        "kind": "city",
+        "employer_name": "Benicia, City of",
+        "liabilities_usd": 151434327,
+        "assets_usd": 106575773,
+        "unfunded_usd": 44858553,
+        "plan_count": 1,
+        "funded_pct": 70.4
+      },
+      "city:BERKELEY": {
+        "name": "Berkeley",
+        "kind": "city",
+        "employer_name": "Berkeley, City of",
+        "liabilities_usd": 2148580473,
+        "assets_usd": 1441780859,
+        "unfunded_usd": 706799611,
+        "plan_count": 3,
+        "funded_pct": 67.1
+      },
+      "city:BEVERLY HILLS": {
+        "name": "Beverly Hills",
+        "kind": "city",
+        "employer_name": "Beverly Hills, City of",
+        "liabilities_usd": 1140026302,
+        "assets_usd": 820798088,
+        "unfunded_usd": 319228212,
+        "plan_count": 2,
+        "funded_pct": 72.0
+      },
+      "city:BREA": {
+        "name": "Brea",
+        "kind": "city",
+        "employer_name": "Brea, City of",
+        "liabilities_usd": 177117372,
+        "assets_usd": 127419764,
+        "unfunded_usd": 49697607,
+        "plan_count": 1,
+        "funded_pct": 71.9
+      },
+      "city:BRENTWOOD": {
+        "name": "Brentwood",
+        "kind": "city",
+        "employer_name": "Brentwood, City of",
+        "liabilities_usd": 200894159,
+        "assets_usd": 158934937,
+        "unfunded_usd": 41959221,
+        "plan_count": 1,
+        "funded_pct": 79.1
+      },
+      "city:BUENA PARK": {
+        "name": "Buena Park",
+        "kind": "city",
+        "employer_name": "Buena Park, City of",
+        "liabilities_usd": 171597941,
+        "assets_usd": 146118504,
+        "unfunded_usd": 25479436,
+        "plan_count": 1,
+        "funded_pct": 85.2
+      },
+      "city:BURBANK": {
+        "name": "Burbank",
+        "kind": "city",
+        "employer_name": "Burbank, City of",
+        "liabilities_usd": 1782090197,
+        "assets_usd": 1342947423,
+        "unfunded_usd": 439142771,
+        "plan_count": 3,
+        "funded_pct": 75.4
+      },
+      "city:BURLINGAME": {
+        "name": "Burlingame",
+        "kind": "city",
+        "employer_name": "Burlingame, City of",
+        "liabilities_usd": 190196849,
+        "assets_usd": 134712453,
+        "unfunded_usd": 55484395,
+        "plan_count": 1,
+        "funded_pct": 70.8
+      },
+      "county:BUTTE": {
+        "name": "Butte",
+        "kind": "county",
+        "employer_name": "Butte, County of",
+        "liabilities_usd": 1270928166,
+        "assets_usd": 875860822,
+        "unfunded_usd": 395067342,
+        "plan_count": 2,
+        "funded_pct": 68.9
+      },
+      "county:CALAVERAS": {
+        "name": "Calaveras",
+        "kind": "county",
+        "employer_name": "Calaveras, County of",
+        "liabilities_usd": 243858419,
+        "assets_usd": 165586688,
+        "unfunded_usd": 78271730,
+        "plan_count": 1,
+        "funded_pct": 67.9
+      },
+      "district:CAL POLY CORPORATION": {
+        "name": "Cal Poly Corporation",
+        "kind": "district",
+        "employer_name": "Cal Poly Corporation",
+        "liabilities_usd": 105961113,
+        "assets_usd": 76160337,
+        "unfunded_usd": 29800775,
+        "plan_count": 1,
+        "funded_pct": 71.9
+      },
+      "city:CAMARILLO": {
+        "name": "Camarillo",
+        "kind": "city",
+        "employer_name": "Camarillo, City of",
+        "liabilities_usd": 142096982,
+        "assets_usd": 103968741,
+        "unfunded_usd": 38128240,
+        "plan_count": 1,
+        "funded_pct": 73.2
+      },
+      "city:CAMPBELL": {
+        "name": "Campbell",
+        "kind": "city",
+        "employer_name": "Campbell, City of",
+        "liabilities_usd": 144900770,
+        "assets_usd": 100612242,
+        "unfunded_usd": 44288527,
+        "plan_count": 1,
+        "funded_pct": 69.4
+      },
+      "city:CARLSBAD": {
+        "name": "Carlsbad",
+        "kind": "city",
+        "employer_name": "Carlsbad, City of",
+        "liabilities_usd": 919431728,
+        "assets_usd": 677997639,
+        "unfunded_usd": 241434087,
+        "plan_count": 2,
+        "funded_pct": 73.7
+      },
+      "city:CARSON": {
+        "name": "Carson",
+        "kind": "city",
+        "employer_name": "Carson, City of",
+        "liabilities_usd": 368792387,
+        "assets_usd": 336709311,
+        "unfunded_usd": 32083075,
+        "plan_count": 1,
+        "funded_pct": 91.3
+      },
+      "district:CENTRAL CONTRA COSTA TRANSIT AUTHORITY": {
+        "name": "Central Contra Costa Transit Authority",
+        "kind": "district",
+        "employer_name": "Central Contra Costa Transit Authority",
+        "liabilities_usd": 126224614,
+        "assets_usd": 108615751,
+        "unfunded_usd": 17608862,
+        "plan_count": 1,
+        "funded_pct": 86.0
+      },
+      "district:CENTRAL VALLEY REGIONAL CENTER, INC.": {
+        "name": "Central Valley Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "Central Valley Regional Center, Inc.",
+        "liabilities_usd": 189719236,
+        "assets_usd": 154491781,
+        "unfunded_usd": 35227454,
+        "plan_count": 1,
+        "funded_pct": 81.4
+      },
+      "city:CERRITOS": {
+        "name": "Cerritos",
+        "kind": "city",
+        "employer_name": "Cerritos, City of",
+        "liabilities_usd": 305455223,
+        "assets_usd": 211626423,
+        "unfunded_usd": 93828799,
+        "plan_count": 1,
+        "funded_pct": 69.3
+      },
+      "city:CHICO": {
+        "name": "Chico",
+        "kind": "city",
+        "employer_name": "Chico, City of",
+        "liabilities_usd": 518786297,
+        "assets_usd": 341651187,
+        "unfunded_usd": 177135108,
+        "plan_count": 2,
+        "funded_pct": 65.9
+      },
+      "city:CHINO": {
+        "name": "Chino",
+        "kind": "city",
+        "employer_name": "Chino, City of",
+        "liabilities_usd": 242513223,
+        "assets_usd": 206026844,
+        "unfunded_usd": 36486378,
+        "plan_count": 1,
+        "funded_pct": 85.0
+      },
+      "city:CHULA VISTA": {
+        "name": "Chula Vista",
+        "kind": "city",
+        "employer_name": "Chula Vista, City of",
+        "liabilities_usd": 1381001333,
+        "assets_usd": 1266072314,
+        "unfunded_usd": 114929017,
+        "plan_count": 2,
+        "funded_pct": 91.7
+      },
+      "city:CLAREMONT": {
+        "name": "Claremont",
+        "kind": "city",
+        "employer_name": "Claremont, City of",
+        "liabilities_usd": 122229172,
+        "assets_usd": 88390901,
+        "unfunded_usd": 33838270,
+        "plan_count": 1,
+        "funded_pct": 72.3
+      },
+      "city:CLOVIS": {
+        "name": "Clovis",
+        "kind": "city",
+        "employer_name": "Clovis, City of",
+        "liabilities_usd": 584304426,
+        "assets_usd": 386613155,
+        "unfunded_usd": 197691269,
+        "plan_count": 2,
+        "funded_pct": 66.2
+      },
+      "district:COACHELLA VALLEY WATER DISTRICT": {
+        "name": "Coachella Valley Water District",
+        "kind": "district",
+        "employer_name": "Coachella Valley Water District",
+        "liabilities_usd": 541437029,
+        "assets_usd": 385383305,
+        "unfunded_usd": 156053723,
+        "plan_count": 1,
+        "funded_pct": 71.2
+      },
+      "district:COASTAL DEVELOPMENTAL SERVICES FDN DBA WESTSIDE REGIONAL CENTER": {
+        "name": "Coastal Developmental Services Fdn Dba Westside Regional Center",
+        "kind": "district",
+        "employer_name": "Coastal Developmental Services Fdn Dba Westside Regional Center",
+        "liabilities_usd": 96638915,
+        "assets_usd": 78760839,
+        "unfunded_usd": 17878075,
+        "plan_count": 1,
+        "funded_pct": 81.5
+      },
+      "city:COLTON": {
+        "name": "Colton",
+        "kind": "city",
+        "employer_name": "Colton, City of",
+        "liabilities_usd": 185104416,
+        "assets_usd": 128152643,
+        "unfunded_usd": 56951772,
+        "plan_count": 1,
+        "funded_pct": 69.2
+      },
+      "county:COLUSA": {
+        "name": "Colusa",
+        "kind": "county",
+        "employer_name": "Colusa, County of",
+        "liabilities_usd": 211707332,
+        "assets_usd": 126838471,
+        "unfunded_usd": 84868860,
+        "plan_count": 1,
+        "funded_pct": 59.9
+      },
+      "city:COMMERCE": {
+        "name": "Commerce",
+        "kind": "city",
+        "employer_name": "Commerce, City of",
+        "liabilities_usd": 135332739,
+        "assets_usd": 119376030,
+        "unfunded_usd": 15956708,
+        "plan_count": 1,
+        "funded_pct": 88.2
+      },
+      "city:COMPTON": {
+        "name": "Compton",
+        "kind": "city",
+        "employer_name": "Compton, City of",
+        "liabilities_usd": 245545472,
+        "assets_usd": 161247416,
+        "unfunded_usd": 84298055,
+        "plan_count": 1,
+        "funded_pct": 65.7
+      },
+      "city:CONCORD": {
+        "name": "Concord",
+        "kind": "city",
+        "employer_name": "Concord, City of",
+        "liabilities_usd": 662263259,
+        "assets_usd": 401452788,
+        "unfunded_usd": 260810469,
+        "plan_count": 2,
+        "funded_pct": 60.6
+      },
+      "district:CONEJO RECREATION AND PARK DISTRICT": {
+        "name": "Conejo Recreation and Park District",
+        "kind": "district",
+        "employer_name": "Conejo Recreation and Park District",
+        "liabilities_usd": 82275630,
+        "assets_usd": 62652176,
+        "unfunded_usd": 19623453,
+        "plan_count": 1,
+        "funded_pct": 76.1
+      },
+      "district:COOPERATIVE PERSONNEL SERVICES": {
+        "name": "Cooperative Personnel Services",
+        "kind": "district",
+        "employer_name": "Cooperative Personnel Services",
+        "liabilities_usd": 81649688,
+        "assets_usd": 71385844,
+        "unfunded_usd": 10263843,
+        "plan_count": 1,
+        "funded_pct": 87.4
+      },
+      "city:CORONA": {
+        "name": "Corona",
+        "kind": "city",
+        "employer_name": "Corona, City of",
+        "liabilities_usd": 810930711,
+        "assets_usd": 723989297,
+        "unfunded_usd": 86941412,
+        "plan_count": 2,
+        "funded_pct": 89.3
+      },
+      "city:CORONADO": {
+        "name": "Coronado",
+        "kind": "city",
+        "employer_name": "Coronado, City of",
+        "liabilities_usd": 138025948,
+        "assets_usd": 105234977,
+        "unfunded_usd": 32790970,
+        "plan_count": 1,
+        "funded_pct": 76.2
+      },
+      "city:COSTA MESA": {
+        "name": "Costa Mesa",
+        "kind": "city",
+        "employer_name": "Costa Mesa, City of",
+        "liabilities_usd": 719258606,
+        "assets_usd": 448059495,
+        "unfunded_usd": 271199109,
+        "plan_count": 2,
+        "funded_pct": 62.3
+      },
+      "district:COSUMNES COMMUNITY SERVICES DISTRICT": {
+        "name": "Cosumnes Community Services District",
+        "kind": "district",
+        "employer_name": "Cosumnes Community Services District",
+        "liabilities_usd": 379117707,
+        "assets_usd": 244487380,
+        "unfunded_usd": 134630325,
+        "plan_count": 2,
+        "funded_pct": 64.5
+      },
+      "city:COVINA": {
+        "name": "Covina",
+        "kind": "city",
+        "employer_name": "Covina, City of",
+        "liabilities_usd": 114139915,
+        "assets_usd": 98613202,
+        "unfunded_usd": 15526712,
+        "plan_count": 1,
+        "funded_pct": 86.4
+      },
+      "district:CUCAMONGA VALLEY WATER DISTRICT": {
+        "name": "Cucamonga Valley Water District",
+        "kind": "district",
+        "employer_name": "Cucamonga Valley Water District",
+        "liabilities_usd": 128571772,
+        "assets_usd": 90430099,
+        "unfunded_usd": 38141672,
+        "plan_count": 1,
+        "funded_pct": 70.3
+      },
+      "city:CULVER CITY": {
+        "name": "Culver City",
+        "kind": "city",
+        "employer_name": "Culver City, City of",
+        "liabilities_usd": 913258320,
+        "assets_usd": 573005121,
+        "unfunded_usd": 340253197,
+        "plan_count": 2,
+        "funded_pct": 62.7
+      },
+      "city:CUPERTINO": {
+        "name": "Cupertino",
+        "kind": "city",
+        "employer_name": "Cupertino, City of",
+        "liabilities_usd": 187119994,
+        "assets_usd": 124202902,
+        "unfunded_usd": 62917091,
+        "plan_count": 1,
+        "funded_pct": 66.4
+      },
+      "city:DALY CITY": {
+        "name": "Daly City",
+        "kind": "city",
+        "employer_name": "Daly City, City of",
+        "liabilities_usd": 840936269,
+        "assets_usd": 580969346,
+        "unfunded_usd": 259966921,
+        "plan_count": 2,
+        "funded_pct": 69.1
+      },
+      "city:DAVIS": {
+        "name": "Davis",
+        "kind": "city",
+        "employer_name": "Davis, City of",
+        "liabilities_usd": 273926469,
+        "assets_usd": 173150840,
+        "unfunded_usd": 100775628,
+        "plan_count": 1,
+        "funded_pct": 63.2
+      },
+      "county:DEL NORTE": {
+        "name": "Del Norte",
+        "kind": "county",
+        "employer_name": "Del Norte, County of",
+        "liabilities_usd": 169458022,
+        "assets_usd": 114666041,
+        "unfunded_usd": 54791980,
+        "plan_count": 1,
+        "funded_pct": 67.7
+      },
+      "city:DOWNEY": {
+        "name": "Downey",
+        "kind": "city",
+        "employer_name": "Downey, City of",
+        "liabilities_usd": 751787412,
+        "assets_usd": 599758742,
+        "unfunded_usd": 152028668,
+        "plan_count": 2,
+        "funded_pct": 79.8
+      },
+      "district:EAST BAY REGIONAL PARK DISTRICT": {
+        "name": "East Bay Regional Park District",
+        "kind": "district",
+        "employer_name": "East Bay Regional Park District",
+        "liabilities_usd": 476718295,
+        "assets_usd": 333752530,
+        "unfunded_usd": 142965764,
+        "plan_count": 1,
+        "funded_pct": 70.0
+      },
+      "district:EASTERN MUNICIPAL WATER DISTRICT": {
+        "name": "Eastern Municipal Water District",
+        "kind": "district",
+        "employer_name": "Eastern Municipal Water District",
+        "liabilities_usd": 626135829,
+        "assets_usd": 417669338,
+        "unfunded_usd": 208466490,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "city:EL CAJON": {
+        "name": "El Cajon",
+        "kind": "city",
+        "employer_name": "El Cajon, City of",
+        "liabilities_usd": 684780693,
+        "assets_usd": 567616472,
+        "unfunded_usd": 117164219,
+        "plan_count": 2,
+        "funded_pct": 82.9
+      },
+      "city:EL CENTRO": {
+        "name": "El Centro",
+        "kind": "city",
+        "employer_name": "El Centro, City of",
+        "liabilities_usd": 99546262,
+        "assets_usd": 77125442,
+        "unfunded_usd": 22420819,
+        "plan_count": 1,
+        "funded_pct": 77.5
+      },
+      "county:EL DORADO": {
+        "name": "El Dorado",
+        "kind": "county",
+        "employer_name": "El Dorado, County of",
+        "liabilities_usd": 1465120724,
+        "assets_usd": 957290038,
+        "unfunded_usd": 507830684,
+        "plan_count": 2,
+        "funded_pct": 65.3
+      },
+      "district:EL DORADO IRRIGATION DISTRICT": {
+        "name": "El Dorado Irrigation District",
+        "kind": "district",
+        "employer_name": "El Dorado Irrigation District",
+        "liabilities_usd": 219508412,
+        "assets_usd": 202721967,
+        "unfunded_usd": 16786444,
+        "plan_count": 1,
+        "funded_pct": 92.4
+      },
+      "city:EL MONTE": {
+        "name": "El Monte",
+        "kind": "city",
+        "employer_name": "El Monte, City of",
+        "liabilities_usd": 595939501,
+        "assets_usd": 531796486,
+        "unfunded_usd": 64143013,
+        "plan_count": 2,
+        "funded_pct": 89.2
+      },
+      "city:EL SEGUNDO": {
+        "name": "El Segundo",
+        "kind": "city",
+        "employer_name": "El Segundo, City of",
+        "liabilities_usd": 142405276,
+        "assets_usd": 126050824,
+        "unfunded_usd": 16354451,
+        "plan_count": 1,
+        "funded_pct": 88.5
+      },
+      "city:ENCINITAS": {
+        "name": "Encinitas",
+        "kind": "city",
+        "employer_name": "Encinitas, City of",
+        "liabilities_usd": 147338660,
+        "assets_usd": 112467377,
+        "unfunded_usd": 34871282,
+        "plan_count": 1,
+        "funded_pct": 76.3
+      },
+      "city:ESCONDIDO": {
+        "name": "Escondido",
+        "kind": "city",
+        "employer_name": "Escondido, City of",
+        "liabilities_usd": 1057288489,
+        "assets_usd": 720439141,
+        "unfunded_usd": 336849346,
+        "plan_count": 2,
+        "funded_pct": 68.1
+      },
+      "city:EUREKA": {
+        "name": "Eureka",
+        "kind": "city",
+        "employer_name": "Eureka, City of",
+        "liabilities_usd": 123661315,
+        "assets_usd": 77442860,
+        "unfunded_usd": 46218454,
+        "plan_count": 1,
+        "funded_pct": 62.6
+      },
+      "city:FAIRFIELD": {
+        "name": "Fairfield",
+        "kind": "city",
+        "employer_name": "Fairfield, City of",
+        "liabilities_usd": 851211431,
+        "assets_usd": 576415936,
+        "unfunded_usd": 274795493,
+        "plan_count": 2,
+        "funded_pct": 67.7
+      },
+      "district:FAR NORTHERN COORDINATING COUNCIL ON DEVELOPMENTAL DISABILITIES": {
+        "name": "Far Northern Coordinating Council on Developmental Disabilities",
+        "kind": "district",
+        "employer_name": "Far Northern Coordinating Council on Developmental Disabilities",
+        "liabilities_usd": 80973670,
+        "assets_usd": 69101599,
+        "unfunded_usd": 11872070,
+        "plan_count": 1,
+        "funded_pct": 85.3
+      },
+      "city:FOLSOM": {
+        "name": "Folsom",
+        "kind": "city",
+        "employer_name": "Folsom, City of",
+        "liabilities_usd": 577280677,
+        "assets_usd": 360949037,
+        "unfunded_usd": 216331638,
+        "plan_count": 2,
+        "funded_pct": 62.5
+      },
+      "city:FONTANA": {
+        "name": "Fontana",
+        "kind": "city",
+        "employer_name": "Fontana, City of",
+        "liabilities_usd": 662940461,
+        "assets_usd": 433902605,
+        "unfunded_usd": 229037854,
+        "plan_count": 2,
+        "funded_pct": 65.5
+      },
+      "city:FOSTER CITY": {
+        "name": "Foster City",
+        "kind": "city",
+        "employer_name": "Foster City, City of",
+        "liabilities_usd": 153840732,
+        "assets_usd": 107060601,
+        "unfunded_usd": 46780130,
+        "plan_count": 1,
+        "funded_pct": 69.6
+      },
+      "city:FREMONT": {
+        "name": "Fremont",
+        "kind": "city",
+        "employer_name": "Fremont, City of",
+        "liabilities_usd": 1542488124,
+        "assets_usd": 1041287980,
+        "unfunded_usd": 501200142,
+        "plan_count": 2,
+        "funded_pct": 67.5
+      },
+      "district:FRESNO CITY HOUSING AUTHORITY": {
+        "name": "Fresno City Housing Authority",
+        "kind": "district",
+        "employer_name": "Fresno City Housing Authority",
+        "liabilities_usd": 51771481,
+        "assets_usd": 37853422,
+        "unfunded_usd": 13918058,
+        "plan_count": 1,
+        "funded_pct": 73.1
+      },
+      "district:FRESNO COUNTY HOUSING AUTHORITY": {
+        "name": "Fresno County Housing Authority",
+        "kind": "district",
+        "employer_name": "Fresno County Housing Authority",
+        "liabilities_usd": 47077928,
+        "assets_usd": 33923372,
+        "unfunded_usd": 13154555,
+        "plan_count": 1,
+        "funded_pct": 72.1
+      },
+      "city:FULLERTON": {
+        "name": "Fullerton",
+        "kind": "city",
+        "employer_name": "Fullerton, City of",
+        "liabilities_usd": 933928281,
+        "assets_usd": 612696595,
+        "unfunded_usd": 321231684,
+        "plan_count": 2,
+        "funded_pct": 65.6
+      },
+      "city:GALT": {
+        "name": "Galt",
+        "kind": "city",
+        "employer_name": "Galt, City of",
+        "liabilities_usd": 63534425,
+        "assets_usd": 42190388,
+        "unfunded_usd": 21344036,
+        "plan_count": 1,
+        "funded_pct": 66.4
+      },
+      "city:GARDENA": {
+        "name": "Gardena",
+        "kind": "city",
+        "employer_name": "Gardena, City of",
+        "liabilities_usd": 201428573,
+        "assets_usd": 185416286,
+        "unfunded_usd": 16012286,
+        "plan_count": 1,
+        "funded_pct": 92.1
+      },
+      "city:GARDEN GROVE": {
+        "name": "Garden Grove",
+        "kind": "city",
+        "employer_name": "Garden Grove, City of",
+        "liabilities_usd": 1062522638,
+        "assets_usd": 684170216,
+        "unfunded_usd": 378352420,
+        "plan_count": 2,
+        "funded_pct": 64.4
+      },
+      "city:GILROY": {
+        "name": "Gilroy",
+        "kind": "city",
+        "employer_name": "Gilroy, City of",
+        "liabilities_usd": 140961436,
+        "assets_usd": 94620359,
+        "unfunded_usd": 46341076,
+        "plan_count": 1,
+        "funded_pct": 67.1
+      },
+      "city:GLENDALE": {
+        "name": "Glendale",
+        "kind": "city",
+        "employer_name": "Glendale, City of",
+        "liabilities_usd": 2468909707,
+        "assets_usd": 1734515027,
+        "unfunded_usd": 734394678,
+        "plan_count": 2,
+        "funded_pct": 70.3
+      },
+      "city:GLENDORA": {
+        "name": "Glendora",
+        "kind": "city",
+        "employer_name": "Glendora, City of",
+        "liabilities_usd": 130247475,
+        "assets_usd": 120807624,
+        "unfunded_usd": 9439850,
+        "plan_count": 1,
+        "funded_pct": 92.8
+      },
+      "county:GLENN": {
+        "name": "Glenn",
+        "kind": "county",
+        "employer_name": "Glenn, County of",
+        "liabilities_usd": 247482266,
+        "assets_usd": 150625283,
+        "unfunded_usd": 96856982,
+        "plan_count": 1,
+        "funded_pct": 60.9
+      },
+      "district:GOLD COAST TRANSIT": {
+        "name": "Gold Coast Transit",
+        "kind": "district",
+        "employer_name": "Gold Coast Transit",
+        "liabilities_usd": 79426137,
+        "assets_usd": 59056313,
+        "unfunded_usd": 20369823,
+        "plan_count": 1,
+        "funded_pct": 74.4
+      },
+      "district:GOLDEN GATE BRIDGE HIGHWAY AND TRANSPORTATION DISTRICT": {
+        "name": "Golden Gate Bridge Highway and Transportation District",
+        "kind": "district",
+        "employer_name": "Golden Gate Bridge Highway and Transportation District",
+        "liabilities_usd": 525421144,
+        "assets_usd": 378280399,
+        "unfunded_usd": 147140744,
+        "plan_count": 1,
+        "funded_pct": 72.0
+      },
+      "city:HANFORD": {
+        "name": "Hanford",
+        "kind": "city",
+        "employer_name": "Hanford, City of",
+        "liabilities_usd": 134456507,
+        "assets_usd": 114825160,
+        "unfunded_usd": 19631346,
+        "plan_count": 1,
+        "funded_pct": 85.4
+      },
+      "city:HAWTHORNE": {
+        "name": "Hawthorne",
+        "kind": "city",
+        "employer_name": "Hawthorne, City of",
+        "liabilities_usd": 234482068,
+        "assets_usd": 217569037,
+        "unfunded_usd": 16913030,
+        "plan_count": 1,
+        "funded_pct": 92.8
+      },
+      "district:HAYWARD AREA RECREATION AND PARK DISTRICT": {
+        "name": "Hayward Area Recreation and Park District",
+        "kind": "district",
+        "employer_name": "Hayward Area Recreation and Park District",
+        "liabilities_usd": 104635118,
+        "assets_usd": 69634395,
+        "unfunded_usd": 35000722,
+        "plan_count": 1,
+        "funded_pct": 66.5
+      },
+      "city:HAYWARD": {
+        "name": "Hayward",
+        "kind": "city",
+        "employer_name": "Hayward, City of",
+        "liabilities_usd": 1469298008,
+        "assets_usd": 896570062,
+        "unfunded_usd": 572727943,
+        "plan_count": 3,
+        "funded_pct": 61.0
+      },
+      "district:HELIX WATER DISTRICT": {
+        "name": "Helix Water District",
+        "kind": "district",
+        "employer_name": "Helix Water District",
+        "liabilities_usd": 175069762,
+        "assets_usd": 115088056,
+        "unfunded_usd": 59981705,
+        "plan_count": 1,
+        "funded_pct": 65.7
+      },
+      "city:HEMET": {
+        "name": "Hemet",
+        "kind": "city",
+        "employer_name": "Hemet, City of",
+        "liabilities_usd": 387802232,
+        "assets_usd": 254454580,
+        "unfunded_usd": 133347650,
+        "plan_count": 2,
+        "funded_pct": 65.6
+      },
+      "district:HOUSING AUTHORITY OF THE CITY OF LOS ANGELES": {
+        "name": "Housing Authority of the City of Los Angeles",
+        "kind": "district",
+        "employer_name": "Housing Authority of the City of Los Angeles",
+        "liabilities_usd": 647577240,
+        "assets_usd": 451220896,
+        "unfunded_usd": 196356343,
+        "plan_count": 1,
+        "funded_pct": 69.7
+      },
+      "district:HOUSING AUTHORITY OF THE COUNTY OF KERN": {
+        "name": "Housing Authority of the County of Kern",
+        "kind": "district",
+        "employer_name": "Housing Authority of the County of Kern",
+        "liabilities_usd": 51623774,
+        "assets_usd": 37799019,
+        "unfunded_usd": 13824754,
+        "plan_count": 1,
+        "funded_pct": 73.2
+      },
+      "county:HUMBOLDT": {
+        "name": "Humboldt",
+        "kind": "county",
+        "employer_name": "Humboldt, County of",
+        "liabilities_usd": 1282428670,
+        "assets_usd": 870474369,
+        "unfunded_usd": 411954299,
+        "plan_count": 2,
+        "funded_pct": 67.9
+      },
+      "city:HUNTINGTON BEACH": {
+        "name": "Huntington Beach",
+        "kind": "city",
+        "employer_name": "Huntington Beach, City of",
+        "liabilities_usd": 1635821958,
+        "assets_usd": 1411566101,
+        "unfunded_usd": 224255855,
+        "plan_count": 2,
+        "funded_pct": 86.3
+      },
+      "city:INDIO": {
+        "name": "Indio",
+        "kind": "city",
+        "employer_name": "Indio, City of",
+        "liabilities_usd": 127666607,
+        "assets_usd": 88378466,
+        "unfunded_usd": 39288140,
+        "plan_count": 1,
+        "funded_pct": 69.2
+      },
+      "city:INGLEWOOD": {
+        "name": "Inglewood",
+        "kind": "city",
+        "employer_name": "Inglewood, City of",
+        "liabilities_usd": 1060185872,
+        "assets_usd": 794096230,
+        "unfunded_usd": 266089640,
+        "plan_count": 2,
+        "funded_pct": 74.9
+      },
+      "district:INLAND COUNTIES REGIONAL CENTER, INC.": {
+        "name": "Inland Counties Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "Inland Counties Regional Center, Inc.",
+        "liabilities_usd": 299693064,
+        "assets_usd": 250888864,
+        "unfunded_usd": 48804199,
+        "plan_count": 1,
+        "funded_pct": 83.7
+      },
+      "district:INLAND EMPIRE HEALTH PLAN": {
+        "name": "Inland Empire Health Plan",
+        "kind": "district",
+        "employer_name": "Inland Empire Health Plan",
+        "liabilities_usd": 506628105,
+        "assets_usd": 414028044,
+        "unfunded_usd": 92600060,
+        "plan_count": 1,
+        "funded_pct": 81.7
+      },
+      "district:INLAND EMPIRE UTILITIES AGENCY": {
+        "name": "Inland Empire Utilities Agency",
+        "kind": "district",
+        "employer_name": "Inland Empire Utilities Agency",
+        "liabilities_usd": 285799201,
+        "assets_usd": 239355415,
+        "unfunded_usd": 46443785,
+        "plan_count": 1,
+        "funded_pct": 83.7
+      },
+      "county:INYO": {
+        "name": "Inyo",
+        "kind": "county",
+        "employer_name": "Inyo, County of",
+        "liabilities_usd": 243424358,
+        "assets_usd": 166836980,
+        "unfunded_usd": 76587377,
+        "plan_count": 1,
+        "funded_pct": 68.5
+      },
+      "city:IRVINE": {
+        "name": "Irvine",
+        "kind": "city",
+        "employer_name": "Irvine, City of",
+        "liabilities_usd": 980194936,
+        "assets_usd": 769037071,
+        "unfunded_usd": 211157863,
+        "plan_count": 2,
+        "funded_pct": 78.5
+      },
+      "district:IRVINE RANCH WATER DISTRICT": {
+        "name": "Irvine Ranch Water District",
+        "kind": "district",
+        "employer_name": "Irvine Ranch Water District",
+        "liabilities_usd": 376550278,
+        "assets_usd": 275421681,
+        "unfunded_usd": 101128596,
+        "plan_count": 1,
+        "funded_pct": 73.1
+      },
+      "county:KINGS": {
+        "name": "Kings",
+        "kind": "county",
+        "employer_name": "Kings, County of",
+        "liabilities_usd": 860904304,
+        "assets_usd": 627192972,
+        "unfunded_usd": 233711330,
+        "plan_count": 2,
+        "funded_pct": 72.9
+      },
+      "city:LAGUNA BEACH": {
+        "name": "Laguna Beach",
+        "kind": "city",
+        "employer_name": "Laguna Beach, City of",
+        "liabilities_usd": 149648812,
+        "assets_usd": 113854582,
+        "unfunded_usd": 35794229,
+        "plan_count": 1,
+        "funded_pct": 76.1
+      },
+      "city:LA HABRA": {
+        "name": "La Habra",
+        "kind": "city",
+        "employer_name": "La Habra, City of",
+        "liabilities_usd": 149204730,
+        "assets_usd": 130561949,
+        "unfunded_usd": 18642780,
+        "plan_count": 1,
+        "funded_pct": 87.5
+      },
+      "county:LAKE": {
+        "name": "Lake",
+        "kind": "county",
+        "employer_name": "Lake, County of",
+        "liabilities_usd": 469096067,
+        "assets_usd": 323326277,
+        "unfunded_usd": 145769788,
+        "plan_count": 2,
+        "funded_pct": 68.9
+      },
+      "city:LAKEWOOD": {
+        "name": "Lakewood",
+        "kind": "city",
+        "employer_name": "Lakewood, City of",
+        "liabilities_usd": 166964267,
+        "assets_usd": 127418523,
+        "unfunded_usd": 39545743,
+        "plan_count": 1,
+        "funded_pct": 76.3
+      },
+      "city:LA MESA": {
+        "name": "La Mesa",
+        "kind": "city",
+        "employer_name": "La Mesa, City of",
+        "liabilities_usd": 375939202,
+        "assets_usd": 240738660,
+        "unfunded_usd": 135200540,
+        "plan_count": 2,
+        "funded_pct": 64.0
+      },
+      "city:LANCASTER": {
+        "name": "Lancaster",
+        "kind": "city",
+        "employer_name": "Lancaster, City of",
+        "liabilities_usd": 245541864,
+        "assets_usd": 158831324,
+        "unfunded_usd": 86710539,
+        "plan_count": 1,
+        "funded_pct": 64.7
+      },
+      "county:LASSEN": {
+        "name": "Lassen",
+        "kind": "county",
+        "employer_name": "Lassen, County of",
+        "liabilities_usd": 167055639,
+        "assets_usd": 119249435,
+        "unfunded_usd": 47806203,
+        "plan_count": 1,
+        "funded_pct": 71.4
+      },
+      "district:LAS VIRGENES MUNICIPAL WATER DISTRICT": {
+        "name": "Las Virgenes Municipal Water District",
+        "kind": "district",
+        "employer_name": "Las Virgenes Municipal Water District",
+        "liabilities_usd": 129126347,
+        "assets_usd": 97334515,
+        "unfunded_usd": 31791831,
+        "plan_count": 1,
+        "funded_pct": 75.4
+      },
+      "city:LIVERMORE": {
+        "name": "Livermore",
+        "kind": "city",
+        "employer_name": "Livermore, City of",
+        "liabilities_usd": 377647758,
+        "assets_usd": 265850796,
+        "unfunded_usd": 111796961,
+        "plan_count": 1,
+        "funded_pct": 70.4
+      },
+      "city:LODI": {
+        "name": "Lodi",
+        "kind": "city",
+        "employer_name": "Lodi, City of",
+        "liabilities_usd": 502623261,
+        "assets_usd": 317392981,
+        "unfunded_usd": 185230278,
+        "plan_count": 2,
+        "funded_pct": 63.1
+      },
+      "city:LOMPOC": {
+        "name": "Lompoc",
+        "kind": "city",
+        "employer_name": "Lompoc, City of",
+        "liabilities_usd": 246573464,
+        "assets_usd": 169983717,
+        "unfunded_usd": 76589746,
+        "plan_count": 1,
+        "funded_pct": 68.9
+      },
+      "city:LONG BEACH": {
+        "name": "Long Beach",
+        "kind": "city",
+        "employer_name": "Long Beach, City of",
+        "liabilities_usd": 6533195403,
+        "assets_usd": 4850617844,
+        "unfunded_usd": 1682577557,
+        "plan_count": 2,
+        "funded_pct": 74.2
+      },
+      "district:LOS ANGELES COUNTY DEVELOPMENT AUTHORITY": {
+        "name": "Los Angeles County Development Authority",
+        "kind": "district",
+        "employer_name": "Los Angeles County Development Authority",
+        "liabilities_usd": 360201259,
+        "assets_usd": 289737886,
+        "unfunded_usd": 70463372,
+        "plan_count": 1,
+        "funded_pct": 80.4
+      },
+      "district:LOS ANGELES COUNTY OFFICE OF EDUCATION": {
+        "name": "Los Angeles County Office of Education",
+        "kind": "district",
+        "employer_name": "Los Angeles County Office of Education",
+        "liabilities_usd": 1234969578,
+        "assets_usd": 912429715,
+        "unfunded_usd": 322539862,
+        "plan_count": 1,
+        "funded_pct": 73.9
+      },
+      "district:LOS ANGELES COUNTY SANITATION DISTRICT NO. 2": {
+        "name": "Los Angeles County Sanitation District No. 2",
+        "kind": "district",
+        "employer_name": "Los Angeles County Sanitation District No. 2",
+        "liabilities_usd": 2256957401,
+        "assets_usd": 1953805603,
+        "unfunded_usd": 303151797,
+        "plan_count": 1,
+        "funded_pct": 86.6
+      },
+      "district:LOS ANGELES UNIFIED SCHOOL DISTRICT": {
+        "name": "Los Angeles Unified School District",
+        "kind": "district",
+        "employer_name": "Los Angeles Unified School District",
+        "liabilities_usd": 539968767,
+        "assets_usd": 394348320,
+        "unfunded_usd": 145620446,
+        "plan_count": 1,
+        "funded_pct": 73.0
+      },
+      "city:LOS GATOS": {
+        "name": "Los Gatos",
+        "kind": "city",
+        "employer_name": "Los Gatos, Town of",
+        "liabilities_usd": 131694738,
+        "assets_usd": 99158305,
+        "unfunded_usd": 32536432,
+        "plan_count": 1,
+        "funded_pct": 75.3
+      },
+      "city:LYNWOOD": {
+        "name": "Lynwood",
+        "kind": "city",
+        "employer_name": "Lynwood, City of",
+        "liabilities_usd": 129761845,
+        "assets_usd": 90838955,
+        "unfunded_usd": 38922889,
+        "plan_count": 1,
+        "funded_pct": 70.0
+      },
+      "city:MADERA": {
+        "name": "Madera",
+        "kind": "city",
+        "employer_name": "Madera, City of",
+        "liabilities_usd": 108462662,
+        "assets_usd": 73985458,
+        "unfunded_usd": 34477203,
+        "plan_count": 1,
+        "funded_pct": 68.2
+      },
+      "county:MADERA": {
+        "name": "Madera",
+        "kind": "county",
+        "employer_name": "Madera, County of",
+        "liabilities_usd": 826722287,
+        "assets_usd": 545495546,
+        "unfunded_usd": 281226739,
+        "plan_count": 2,
+        "funded_pct": 66.0
+      },
+      "city:MANHATTAN BEACH": {
+        "name": "Manhattan Beach",
+        "kind": "city",
+        "employer_name": "Manhattan Beach, City of",
+        "liabilities_usd": 147472292,
+        "assets_usd": 134433213,
+        "unfunded_usd": 13039078,
+        "plan_count": 1,
+        "funded_pct": 91.2
+      },
+      "city:MANTECA": {
+        "name": "Manteca",
+        "kind": "city",
+        "employer_name": "Manteca, City of",
+        "liabilities_usd": 231516087,
+        "assets_usd": 155032859,
+        "unfunded_usd": 76483227,
+        "plan_count": 1,
+        "funded_pct": 67.0
+      },
+      "district:MARIN MUNICIPAL WATER DISTRICT": {
+        "name": "Marin Municipal Water District",
+        "kind": "district",
+        "employer_name": "Marin Municipal Water District",
+        "liabilities_usd": 319375281,
+        "assets_usd": 196672887,
+        "unfunded_usd": 122702393,
+        "plan_count": 1,
+        "funded_pct": 61.6
+      },
+      "county:MARIPOSA": {
+        "name": "Mariposa",
+        "kind": "county",
+        "employer_name": "Mariposa, County of",
+        "liabilities_usd": 179509657,
+        "assets_usd": 120319701,
+        "unfunded_usd": 59189955,
+        "plan_count": 1,
+        "funded_pct": 67.0
+      },
+      "city:MENLO PARK": {
+        "name": "Menlo Park",
+        "kind": "city",
+        "employer_name": "Menlo Park, City of",
+        "liabilities_usd": 178882076,
+        "assets_usd": 134584608,
+        "unfunded_usd": 44297467,
+        "plan_count": 1,
+        "funded_pct": 75.2
+      },
+      "city:MERCED": {
+        "name": "Merced",
+        "kind": "city",
+        "employer_name": "Merced, City of",
+        "liabilities_usd": 412443492,
+        "assets_usd": 283772530,
+        "unfunded_usd": 128670960,
+        "plan_count": 2,
+        "funded_pct": 68.8
+      },
+      "district:MERCED IRRIGATION DISTRICT": {
+        "name": "Merced Irrigation District",
+        "kind": "district",
+        "employer_name": "Merced Irrigation District",
+        "liabilities_usd": 110851042,
+        "assets_usd": 77025984,
+        "unfunded_usd": 33825057,
+        "plan_count": 1,
+        "funded_pct": 69.5
+      },
+      "district:METROPOLITAN TRANSPORTATION COMMISSION": {
+        "name": "Metropolitan Transportation Commission",
+        "kind": "district",
+        "employer_name": "Metropolitan Transportation Commission",
+        "liabilities_usd": 256588096,
+        "assets_usd": 225975100,
+        "unfunded_usd": 30612995,
+        "plan_count": 1,
+        "funded_pct": 88.1
+      },
+      "district:METROPOLITAN WATER DISTRICT OF SOUTHERN CALIFORNIA": {
+        "name": "Metropolitan Water District of Southern California",
+        "kind": "district",
+        "employer_name": "Metropolitan Water District of Southern California",
+        "liabilities_usd": 2982178389,
+        "assets_usd": 2091335247,
+        "unfunded_usd": 890843141,
+        "plan_count": 1,
+        "funded_pct": 70.1
+      },
+      "city:MILPITAS": {
+        "name": "Milpitas",
+        "kind": "city",
+        "employer_name": "Milpitas, City of",
+        "liabilities_usd": 758196663,
+        "assets_usd": 482013418,
+        "unfunded_usd": 276183243,
+        "plan_count": 2,
+        "funded_pct": 63.6
+      },
+      "city:MISSION VIEJO": {
+        "name": "Mission Viejo",
+        "kind": "city",
+        "employer_name": "Mission Viejo, City of",
+        "liabilities_usd": 122139587,
+        "assets_usd": 91973302,
+        "unfunded_usd": 30166285,
+        "plan_count": 1,
+        "funded_pct": 75.3
+      },
+      "city:MODESTO": {
+        "name": "Modesto",
+        "kind": "city",
+        "employer_name": "Modesto, City of",
+        "liabilities_usd": 1341622370,
+        "assets_usd": 890171186,
+        "unfunded_usd": 451451182,
+        "plan_count": 2,
+        "funded_pct": 66.4
+      },
+      "county:MODOC": {
+        "name": "Modoc",
+        "kind": "county",
+        "employer_name": "Modoc, County of",
+        "liabilities_usd": 98769944,
+        "assets_usd": 71978780,
+        "unfunded_usd": 26791163,
+        "plan_count": 1,
+        "funded_pct": 72.9
+      },
+      "county:MONO": {
+        "name": "Mono",
+        "kind": "county",
+        "employer_name": "Mono, County of",
+        "liabilities_usd": 151838299,
+        "assets_usd": 103520729,
+        "unfunded_usd": 48317569,
+        "plan_count": 1,
+        "funded_pct": 68.2
+      },
+      "city:MONROVIA": {
+        "name": "Monrovia",
+        "kind": "city",
+        "employer_name": "Monrovia, City of",
+        "liabilities_usd": 161976995,
+        "assets_usd": 141597708,
+        "unfunded_usd": 20379286,
+        "plan_count": 1,
+        "funded_pct": 87.4
+      },
+      "city:MONTEBELLO": {
+        "name": "Montebello",
+        "kind": "city",
+        "employer_name": "Montebello, City of",
+        "liabilities_usd": 558390980,
+        "assets_usd": 513166098,
+        "unfunded_usd": 45224880,
+        "plan_count": 2,
+        "funded_pct": 91.9
+      },
+      "city:MONTEREY": {
+        "name": "Monterey",
+        "kind": "city",
+        "employer_name": "Monterey, City of",
+        "liabilities_usd": 324486573,
+        "assets_usd": 215093540,
+        "unfunded_usd": 109393032,
+        "plan_count": 1,
+        "funded_pct": 66.3
+      },
+      "county:MONTEREY": {
+        "name": "Monterey",
+        "kind": "county",
+        "employer_name": "Monterey, County of",
+        "liabilities_usd": 3552115797,
+        "assets_usd": 2541240718,
+        "unfunded_usd": 1010875077,
+        "plan_count": 2,
+        "funded_pct": 71.5
+      },
+      "city:MONTEREY PARK": {
+        "name": "Monterey Park",
+        "kind": "city",
+        "employer_name": "Monterey Park, City of",
+        "liabilities_usd": 443532355,
+        "assets_usd": 409516422,
+        "unfunded_usd": 34015931,
+        "plan_count": 2,
+        "funded_pct": 92.3
+      },
+      "district:MONTEREY REGIONAL WASTE MANAGEMENT DISTRICT": {
+        "name": "Monterey Regional Waste Management District",
+        "kind": "district",
+        "employer_name": "Monterey Regional Waste Management District",
+        "liabilities_usd": 61109881,
+        "assets_usd": 41441130,
+        "unfunded_usd": 19668750,
+        "plan_count": 1,
+        "funded_pct": 67.8
+      },
+      "district:MONTEREY-SALINAS TRANSIT DISTRICT": {
+        "name": "Monterey-Salinas Transit District",
+        "kind": "district",
+        "employer_name": "Monterey-Salinas Transit District",
+        "liabilities_usd": 115636894,
+        "assets_usd": 92441702,
+        "unfunded_usd": 23195191,
+        "plan_count": 1,
+        "funded_pct": 79.9
+      },
+      "city:MORENO VALLEY": {
+        "name": "Moreno Valley",
+        "kind": "city",
+        "employer_name": "Moreno Valley, City of",
+        "liabilities_usd": 275339043,
+        "assets_usd": 183627232,
+        "unfunded_usd": 91711810,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "city:MORGAN HILL": {
+        "name": "Morgan Hill",
+        "kind": "city",
+        "employer_name": "Morgan Hill, City of",
+        "liabilities_usd": 154327641,
+        "assets_usd": 108699449,
+        "unfunded_usd": 45628191,
+        "plan_count": 1,
+        "funded_pct": 70.4
+      },
+      "city:MOUNTAIN VIEW": {
+        "name": "Mountain View",
+        "kind": "city",
+        "employer_name": "Mountain View, City of",
+        "liabilities_usd": 1043165488,
+        "assets_usd": 744290197,
+        "unfunded_usd": 298875289,
+        "plan_count": 2,
+        "funded_pct": 71.3
+      },
+      "city:NAPA": {
+        "name": "Napa",
+        "kind": "city",
+        "employer_name": "Napa, City of",
+        "liabilities_usd": 647674428,
+        "assets_usd": 402103378,
+        "unfunded_usd": 245571049,
+        "plan_count": 2,
+        "funded_pct": 62.1
+      },
+      "county:NAPA": {
+        "name": "Napa",
+        "kind": "county",
+        "employer_name": "Napa, County of",
+        "liabilities_usd": 1084658380,
+        "assets_usd": 773764517,
+        "unfunded_usd": 310893862,
+        "plan_count": 1,
+        "funded_pct": 71.3
+      },
+      "city:NATIONAL CITY": {
+        "name": "National City",
+        "kind": "city",
+        "employer_name": "National City, City of",
+        "liabilities_usd": 425575612,
+        "assets_usd": 363857004,
+        "unfunded_usd": 61718606,
+        "plan_count": 2,
+        "funded_pct": 85.5
+      },
+      "county:NEVADA": {
+        "name": "Nevada",
+        "kind": "county",
+        "employer_name": "Nevada, County of",
+        "liabilities_usd": 624349236,
+        "assets_usd": 392688831,
+        "unfunded_usd": 231660404,
+        "plan_count": 1,
+        "funded_pct": 62.9
+      },
+      "district:NEVADA IRRIGATION DISTRICT": {
+        "name": "Nevada Irrigation District",
+        "kind": "district",
+        "employer_name": "Nevada Irrigation District",
+        "liabilities_usd": 168528724,
+        "assets_usd": 104897849,
+        "unfunded_usd": 63630874,
+        "plan_count": 1,
+        "funded_pct": 62.2
+      },
+      "city:NEWARK": {
+        "name": "Newark",
+        "kind": "city",
+        "employer_name": "Newark, City of",
+        "liabilities_usd": 143298530,
+        "assets_usd": 95532075,
+        "unfunded_usd": 47766454,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "city:NEWPORT BEACH": {
+        "name": "Newport Beach",
+        "kind": "city",
+        "employer_name": "Newport Beach, City of",
+        "liabilities_usd": 1240764986,
+        "assets_usd": 899755599,
+        "unfunded_usd": 341009385,
+        "plan_count": 2,
+        "funded_pct": 72.5
+      },
+      "district:NORTH BAY REGIONAL CENTER": {
+        "name": "North Bay Regional Center",
+        "kind": "district",
+        "employer_name": "North Bay Regional Center",
+        "liabilities_usd": 75948867,
+        "assets_usd": 54971329,
+        "unfunded_usd": 20977537,
+        "plan_count": 1,
+        "funded_pct": 72.4
+      },
+      "district:NORTH COUNTY TRANSIT DISTRICT": {
+        "name": "North County Transit District",
+        "kind": "district",
+        "employer_name": "North County Transit District",
+        "liabilities_usd": 160919748,
+        "assets_usd": 112315427,
+        "unfunded_usd": 48604320,
+        "plan_count": 1,
+        "funded_pct": 69.8
+      },
+      "district:NORTHERN CALIFORNIA POWER AGENCY": {
+        "name": "Northern California Power Agency",
+        "kind": "district",
+        "employer_name": "Northern California Power Agency",
+        "liabilities_usd": 216869484,
+        "assets_usd": 144545608,
+        "unfunded_usd": 72323875,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "district:NORTH KERN-SOUTH TULARE HOSPITAL DISTRICT": {
+        "name": "North Kern-South Tulare Hospital District",
+        "kind": "district",
+        "employer_name": "North Kern-South Tulare Hospital District",
+        "liabilities_usd": 26173034,
+        "assets_usd": 20738603,
+        "unfunded_usd": 5434430,
+        "plan_count": 1,
+        "funded_pct": 79.2
+      },
+      "district:NORTH LOS ANGELES COUNTY REGIONAL CENTER, INC.": {
+        "name": "North Los Angeles County Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "North Los Angeles County Regional Center, Inc.",
+        "liabilities_usd": 168200561,
+        "assets_usd": 145155233,
+        "unfunded_usd": 23045327,
+        "plan_count": 1,
+        "funded_pct": 86.3
+      },
+      "district:NORTH OF THE RIVER RECREATION AND PARK DISTRICT": {
+        "name": "North of the River Recreation and Park District",
+        "kind": "district",
+        "employer_name": "North of the River Recreation and Park District",
+        "liabilities_usd": 18996888,
+        "assets_usd": 15929538,
+        "unfunded_usd": 3067349,
+        "plan_count": 1,
+        "funded_pct": 83.9
+      },
+      "city:NORWALK": {
+        "name": "Norwalk",
+        "kind": "city",
+        "employer_name": "Norwalk, City of",
+        "liabilities_usd": 225235354,
+        "assets_usd": 164021610,
+        "unfunded_usd": 61213743,
+        "plan_count": 1,
+        "funded_pct": 72.8
+      },
+      "city:NOVATO": {
+        "name": "Novato",
+        "kind": "city",
+        "employer_name": "Novato, City of",
+        "liabilities_usd": 122439528,
+        "assets_usd": 90102867,
+        "unfunded_usd": 32336660,
+        "plan_count": 1,
+        "funded_pct": 73.6
+      },
+      "district:OAKLAND CITY HOUSING AUTHORITY": {
+        "name": "Oakland City Housing Authority",
+        "kind": "district",
+        "employer_name": "Oakland City Housing Authority",
+        "liabilities_usd": 183461096,
+        "assets_usd": 165993373,
+        "unfunded_usd": 17467722,
+        "plan_count": 1,
+        "funded_pct": 90.5
+      },
+      "city:OAKLAND": {
+        "name": "Oakland",
+        "kind": "city",
+        "employer_name": "Oakland, City of",
+        "liabilities_usd": 6215078899,
+        "assets_usd": 4079909038,
+        "unfunded_usd": 2135169859,
+        "plan_count": 2,
+        "funded_pct": 65.6
+      },
+      "city:OCEANSIDE": {
+        "name": "Oceanside",
+        "kind": "city",
+        "employer_name": "Oceanside, City of",
+        "liabilities_usd": 1225095011,
+        "assets_usd": 908504295,
+        "unfunded_usd": 316590714,
+        "plan_count": 2,
+        "funded_pct": 74.2
+      },
+      "district:OMNITRANS": {
+        "name": "Omnitrans",
+        "kind": "district",
+        "employer_name": "Omnitrans",
+        "liabilities_usd": 247322064,
+        "assets_usd": 206967321,
+        "unfunded_usd": 40354742,
+        "plan_count": 1,
+        "funded_pct": 83.7
+      },
+      "city:ONTARIO": {
+        "name": "Ontario",
+        "kind": "city",
+        "employer_name": "Ontario, City of",
+        "liabilities_usd": 1443324847,
+        "assets_usd": 1271257871,
+        "unfunded_usd": 172066973,
+        "plan_count": 3,
+        "funded_pct": 88.1
+      },
+      "city:ORANGE": {
+        "name": "Orange",
+        "kind": "city",
+        "employer_name": "Orange, City of",
+        "liabilities_usd": 1108442383,
+        "assets_usd": 1005179362,
+        "unfunded_usd": 103263019,
+        "plan_count": 2,
+        "funded_pct": 90.7
+      },
+      "district:ORANGE COUNTY HEALTH AUTHORITY": {
+        "name": "Orange County Health Authority",
+        "kind": "district",
+        "employer_name": "Orange County Health Authority",
+        "liabilities_usd": 342488740,
+        "assets_usd": 270988598,
+        "unfunded_usd": 71500141,
+        "plan_count": 1,
+        "funded_pct": 79.1
+      },
+      "district:OTAY WATER DISTRICT": {
+        "name": "Otay Water District",
+        "kind": "district",
+        "employer_name": "Otay Water District",
+        "liabilities_usd": 176511932,
+        "assets_usd": 145987861,
+        "unfunded_usd": 30524070,
+        "plan_count": 1,
+        "funded_pct": 82.7
+      },
+      "city:OXNARD": {
+        "name": "Oxnard",
+        "kind": "city",
+        "employer_name": "Oxnard, City of",
+        "liabilities_usd": 1099249349,
+        "assets_usd": 793328529,
+        "unfunded_usd": 305920818,
+        "plan_count": 2,
+        "funded_pct": 72.2
+      },
+      "city:PACIFICA": {
+        "name": "Pacifica",
+        "kind": "city",
+        "employer_name": "Pacifica, City of",
+        "liabilities_usd": 122607809,
+        "assets_usd": 97367995,
+        "unfunded_usd": 25239813,
+        "plan_count": 1,
+        "funded_pct": 79.4
+      },
+      "district:PADRE DAM MUNICIPAL WATER DISTRICT": {
+        "name": "Padre Dam Municipal Water District",
+        "kind": "district",
+        "employer_name": "Padre Dam Municipal Water District",
+        "liabilities_usd": 156080717,
+        "assets_usd": 104101630,
+        "unfunded_usd": 51979086,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "city:PALMDALE": {
+        "name": "Palmdale",
+        "kind": "city",
+        "employer_name": "Palmdale, City of",
+        "liabilities_usd": 232372112,
+        "assets_usd": 158007581,
+        "unfunded_usd": 74364530,
+        "plan_count": 1,
+        "funded_pct": 68.0
+      },
+      "city:PALM DESERT": {
+        "name": "Palm Desert",
+        "kind": "city",
+        "employer_name": "Palm Desert, City of",
+        "liabilities_usd": 166500771,
+        "assets_usd": 119139091,
+        "unfunded_usd": 47361679,
+        "plan_count": 1,
+        "funded_pct": 71.6
+      },
+      "city:PALM SPRINGS": {
+        "name": "Palm Springs",
+        "kind": "city",
+        "employer_name": "Palm Springs, City of",
+        "liabilities_usd": 638933975,
+        "assets_usd": 413784159,
+        "unfunded_usd": 225149814,
+        "plan_count": 2,
+        "funded_pct": 64.8
+      },
+      "city:PALO ALTO": {
+        "name": "Palo Alto",
+        "kind": "city",
+        "employer_name": "Palo Alto, City of",
+        "liabilities_usd": 1592650476,
+        "assets_usd": 1019115239,
+        "unfunded_usd": 573535235,
+        "plan_count": 2,
+        "funded_pct": 64.0
+      },
+      "city:PASADENA": {
+        "name": "Pasadena",
+        "kind": "city",
+        "employer_name": "Pasadena, City of",
+        "liabilities_usd": 2245004278,
+        "assets_usd": 1615785663,
+        "unfunded_usd": 629218613,
+        "plan_count": 2,
+        "funded_pct": 72.0
+      },
+      "city:PASO ROBLES": {
+        "name": "Paso Robles",
+        "kind": "city",
+        "employer_name": "Paso Robles, City of",
+        "liabilities_usd": 103137278,
+        "assets_usd": 67920115,
+        "unfunded_usd": 35217162,
+        "plan_count": 1,
+        "funded_pct": 65.9
+      },
+      "city:PETALUMA": {
+        "name": "Petaluma",
+        "kind": "city",
+        "employer_name": "Petaluma, City of",
+        "liabilities_usd": 421520868,
+        "assets_usd": 277019844,
+        "unfunded_usd": 144501022,
+        "plan_count": 2,
+        "funded_pct": 65.7
+      },
+      "city:PICO RIVERA": {
+        "name": "Pico Rivera",
+        "kind": "city",
+        "employer_name": "Pico Rivera, City of",
+        "liabilities_usd": 139524238,
+        "assets_usd": 90614362,
+        "unfunded_usd": 48909875,
+        "plan_count": 1,
+        "funded_pct": 64.9
+      },
+      "city:PITTSBURG": {
+        "name": "Pittsburg",
+        "kind": "city",
+        "employer_name": "Pittsburg, City of",
+        "liabilities_usd": 136765017,
+        "assets_usd": 97155252,
+        "unfunded_usd": 39609764,
+        "plan_count": 1,
+        "funded_pct": 71.0
+      },
+      "county:PLACER": {
+        "name": "Placer",
+        "kind": "county",
+        "employer_name": "Placer, County of",
+        "liabilities_usd": 2416760857,
+        "assets_usd": 1525758407,
+        "unfunded_usd": 891002448,
+        "plan_count": 2,
+        "funded_pct": 63.1
+      },
+      "district:PLACER COUNTY WATER AGENCY": {
+        "name": "Placer County Water Agency",
+        "kind": "district",
+        "employer_name": "Placer County Water Agency",
+        "liabilities_usd": 185565100,
+        "assets_usd": 148300407,
+        "unfunded_usd": 37264692,
+        "plan_count": 1,
+        "funded_pct": 79.9
+      },
+      "city:PLEASANTON": {
+        "name": "Pleasanton",
+        "kind": "city",
+        "employer_name": "Pleasanton, City of",
+        "liabilities_usd": 649562130,
+        "assets_usd": 413761478,
+        "unfunded_usd": 235800650,
+        "plan_count": 2,
+        "funded_pct": 63.7
+      },
+      "county:PLUMAS": {
+        "name": "Plumas",
+        "kind": "county",
+        "employer_name": "Plumas, County of",
+        "liabilities_usd": 183402597,
+        "assets_usd": 125587317,
+        "unfunded_usd": 57815279,
+        "plan_count": 1,
+        "funded_pct": 68.5
+      },
+      "city:POMONA": {
+        "name": "Pomona",
+        "kind": "city",
+        "employer_name": "Pomona, City of",
+        "liabilities_usd": 822154386,
+        "assets_usd": 753834405,
+        "unfunded_usd": 68319980,
+        "plan_count": 2,
+        "funded_pct": 91.7
+      },
+      "city:PORTERVILLE": {
+        "name": "Porterville",
+        "kind": "city",
+        "employer_name": "Porterville, City of",
+        "liabilities_usd": 129854029,
+        "assets_usd": 84882728,
+        "unfunded_usd": 44971300,
+        "plan_count": 1,
+        "funded_pct": 65.4
+      },
+      "city:POWAY": {
+        "name": "Poway",
+        "kind": "city",
+        "employer_name": "Poway, City of",
+        "liabilities_usd": 145921951,
+        "assets_usd": 122954227,
+        "unfunded_usd": 22967723,
+        "plan_count": 1,
+        "funded_pct": 84.3
+      },
+      "district:PUBLIC TRANSPORTATION SERVICES CORPORATION": {
+        "name": "Public Transportation Services Corporation",
+        "kind": "district",
+        "employer_name": "Public Transportation Services Corporation",
+        "liabilities_usd": 1296885449,
+        "assets_usd": 995988190,
+        "unfunded_usd": 300897258,
+        "plan_count": 1,
+        "funded_pct": 76.8
+      },
+      "district:RANCHO CALIFORNIA WATER DISTRICT": {
+        "name": "Rancho California Water District",
+        "kind": "district",
+        "employer_name": "Rancho California Water District",
+        "liabilities_usd": 168197460,
+        "assets_usd": 127991385,
+        "unfunded_usd": 40206074,
+        "plan_count": 1,
+        "funded_pct": 76.1
+      },
+      "city:RANCHO CUCAMONGA": {
+        "name": "Rancho Cucamonga",
+        "kind": "city",
+        "employer_name": "Rancho Cucamonga, City of",
+        "liabilities_usd": 290692444,
+        "assets_usd": 221213943,
+        "unfunded_usd": 69478500,
+        "plan_count": 1,
+        "funded_pct": 76.1
+      },
+      "district:RANCHO SIMI RECREATION & PARK DISTRICT": {
+        "name": "Rancho Simi Recreation & Park District",
+        "kind": "district",
+        "employer_name": "Rancho Simi Recreation & Park District",
+        "liabilities_usd": 61437145,
+        "assets_usd": 45541877,
+        "unfunded_usd": 15895267,
+        "plan_count": 1,
+        "funded_pct": 74.1
+      },
+      "city:REDDING": {
+        "name": "Redding",
+        "kind": "city",
+        "employer_name": "Redding, City of",
+        "liabilities_usd": 972329405,
+        "assets_usd": 598674452,
+        "unfunded_usd": 373654951,
+        "plan_count": 2,
+        "funded_pct": 61.6
+      },
+      "city:REDLANDS": {
+        "name": "Redlands",
+        "kind": "city",
+        "employer_name": "Redlands, City of",
+        "liabilities_usd": 207060718,
+        "assets_usd": 148418186,
+        "unfunded_usd": 58642531,
+        "plan_count": 1,
+        "funded_pct": 71.7
+      },
+      "city:REDONDO BEACH": {
+        "name": "Redondo Beach",
+        "kind": "city",
+        "employer_name": "Redondo Beach, City of",
+        "liabilities_usd": 697149587,
+        "assets_usd": 639115521,
+        "unfunded_usd": 58034064,
+        "plan_count": 2,
+        "funded_pct": 91.7
+      },
+      "city:REDWOOD CITY": {
+        "name": "Redwood City",
+        "kind": "city",
+        "employer_name": "Redwood City, City of",
+        "liabilities_usd": 955595663,
+        "assets_usd": 627274320,
+        "unfunded_usd": 328321341,
+        "plan_count": 2,
+        "funded_pct": 65.6
+      },
+      "district:REGIONAL CENTER OF ORANGE COUNTY": {
+        "name": "Regional Center of Orange County",
+        "kind": "district",
+        "employer_name": "Regional Center of Orange County",
+        "liabilities_usd": 148553281,
+        "assets_usd": 134840475,
+        "unfunded_usd": 13712805,
+        "plan_count": 1,
+        "funded_pct": 90.8
+      },
+      "district:REGIONAL CENTER OF THE EAST BAY": {
+        "name": "Regional Center of the East Bay",
+        "kind": "district",
+        "employer_name": "Regional Center of the East Bay",
+        "liabilities_usd": 156250684,
+        "assets_usd": 135376729,
+        "unfunded_usd": 20873954,
+        "plan_count": 1,
+        "funded_pct": 86.6
+      },
+      "city:RIALTO": {
+        "name": "Rialto",
+        "kind": "city",
+        "employer_name": "Rialto, City of",
+        "liabilities_usd": 565065213,
+        "assets_usd": 385349841,
+        "unfunded_usd": 179715370,
+        "plan_count": 2,
+        "funded_pct": 68.2
+      },
+      "city:RICHMOND": {
+        "name": "Richmond",
+        "kind": "city",
+        "employer_name": "Richmond, City of",
+        "liabilities_usd": 1322157929,
+        "assets_usd": 925783440,
+        "unfunded_usd": 396374487,
+        "plan_count": 2,
+        "funded_pct": 70.0
+      },
+      "city:RIVERSIDE": {
+        "name": "Riverside",
+        "kind": "city",
+        "employer_name": "Riverside, City of",
+        "liabilities_usd": 3168485006,
+        "assets_usd": 2731882828,
+        "unfunded_usd": 436602176,
+        "plan_count": 2,
+        "funded_pct": 86.2
+      },
+      "district:RIVERSIDE COUNTY FLOOD CONTROL AND WATER CONSERVATION DISTRICT": {
+        "name": "Riverside County Flood Control and Water Conservation District",
+        "kind": "district",
+        "employer_name": "Riverside County Flood Control and Water Conservation District",
+        "liabilities_usd": 253073799,
+        "assets_usd": 200130938,
+        "unfunded_usd": 52942860,
+        "plan_count": 1,
+        "funded_pct": 79.1
+      },
+      "county:RIVERSIDE": {
+        "name": "Riverside",
+        "kind": "county",
+        "employer_name": "Riverside, County of",
+        "liabilities_usd": 15766191349,
+        "assets_usd": 11823162147,
+        "unfunded_usd": 3943029200,
+        "plan_count": 2,
+        "funded_pct": 75.0
+      },
+      "district:RIVERSIDE TRANSIT AGENCY": {
+        "name": "Riverside Transit Agency",
+        "kind": "district",
+        "employer_name": "Riverside Transit Agency",
+        "liabilities_usd": 157321178,
+        "assets_usd": 144652772,
+        "unfunded_usd": 12668405,
+        "plan_count": 1,
+        "funded_pct": 91.9
+      },
+      "city:ROCKLIN": {
+        "name": "Rocklin",
+        "kind": "city",
+        "employer_name": "Rocklin, City of",
+        "liabilities_usd": 115840240,
+        "assets_usd": 85873777,
+        "unfunded_usd": 29966462,
+        "plan_count": 1,
+        "funded_pct": 74.1
+      },
+      "city:ROHNERT PARK": {
+        "name": "Rohnert Park",
+        "kind": "city",
+        "employer_name": "Rohnert Park, City of",
+        "liabilities_usd": 117922983,
+        "assets_usd": 96994937,
+        "unfunded_usd": 20928045,
+        "plan_count": 1,
+        "funded_pct": 82.3
+      },
+      "city:ROSEVILLE": {
+        "name": "Roseville",
+        "kind": "city",
+        "employer_name": "Roseville, City of",
+        "liabilities_usd": 1407549951,
+        "assets_usd": 901256894,
+        "unfunded_usd": 506293055,
+        "plan_count": 2,
+        "funded_pct": 64.0
+      },
+      "district:SACRAMENTO CITY HOUSING AUTHORITY": {
+        "name": "Sacramento City Housing Authority",
+        "kind": "district",
+        "employer_name": "Sacramento City Housing Authority",
+        "liabilities_usd": 198810107,
+        "assets_usd": 136465090,
+        "unfunded_usd": 62345016,
+        "plan_count": 1,
+        "funded_pct": 68.6
+      },
+      "city:SACRAMENTO": {
+        "name": "Sacramento",
+        "kind": "city",
+        "employer_name": "Sacramento, City of",
+        "liabilities_usd": 4452269264,
+        "assets_usd": 2980857321,
+        "unfunded_usd": 1471411941,
+        "plan_count": 2,
+        "funded_pct": 67.0
+      },
+      "district:SACRAMENTO METROPOLITAN FIRE DISTRICT": {
+        "name": "Sacramento Metropolitan Fire District",
+        "kind": "district",
+        "employer_name": "Sacramento Metropolitan Fire District",
+        "liabilities_usd": 1498791336,
+        "assets_usd": 928219611,
+        "unfunded_usd": 570571724,
+        "plan_count": 1,
+        "funded_pct": 61.9
+      },
+      "district:SACRAMENTO MUNICIPAL UTILITY DISTRICT": {
+        "name": "Sacramento Municipal Utility District",
+        "kind": "district",
+        "employer_name": "Sacramento Municipal Utility District",
+        "liabilities_usd": 2832367014,
+        "assets_usd": 2419618029,
+        "unfunded_usd": 412748984,
+        "plan_count": 1,
+        "funded_pct": 85.4
+      },
+      "district:SACRAMENTO PUBLIC LIBRARY AUTHORITY": {
+        "name": "Sacramento Public Library Authority",
+        "kind": "district",
+        "employer_name": "Sacramento Public Library Authority",
+        "liabilities_usd": 119748879,
+        "assets_usd": 90847162,
+        "unfunded_usd": 28901716,
+        "plan_count": 1,
+        "funded_pct": 75.9
+      },
+      "city:SALINAS": {
+        "name": "Salinas",
+        "kind": "city",
+        "employer_name": "Salinas, City of",
+        "liabilities_usd": 542023715,
+        "assets_usd": 360001321,
+        "unfunded_usd": 182022392,
+        "plan_count": 2,
+        "funded_pct": 66.4
+      },
+      "district:SAN ANDREAS REGIONAL CENTER, INC.": {
+        "name": "San Andreas Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "San Andreas Regional Center, Inc.",
+        "liabilities_usd": 157204420,
+        "assets_usd": 119320216,
+        "unfunded_usd": 37884203,
+        "plan_count": 1,
+        "funded_pct": 75.9
+      },
+      "county:SAN BENITO": {
+        "name": "San Benito",
+        "kind": "county",
+        "employer_name": "San Benito, County of",
+        "liabilities_usd": 225109304,
+        "assets_usd": 155193934,
+        "unfunded_usd": 69915369,
+        "plan_count": 1,
+        "funded_pct": 68.9
+      },
+      "city:SAN BERNARDINO": {
+        "name": "San Bernardino",
+        "kind": "city",
+        "employer_name": "San Bernardino, City of",
+        "liabilities_usd": 1654144319,
+        "assets_usd": 1077549431,
+        "unfunded_usd": 576594886,
+        "plan_count": 2,
+        "funded_pct": 65.1
+      },
+      "district:SAN BERNARDINO COUNTY HOUSING AUTHORITY": {
+        "name": "San Bernardino County Housing Authority",
+        "kind": "district",
+        "employer_name": "San Bernardino County Housing Authority",
+        "liabilities_usd": 76792424,
+        "assets_usd": 49349438,
+        "unfunded_usd": 27442986,
+        "plan_count": 1,
+        "funded_pct": 64.3
+      },
+      "city:SAN BRUNO": {
+        "name": "San Bruno",
+        "kind": "city",
+        "employer_name": "San Bruno, City of",
+        "liabilities_usd": 180449432,
+        "assets_usd": 118524329,
+        "unfunded_usd": 61925102,
+        "plan_count": 1,
+        "funded_pct": 65.7
+      },
+      "city:SAN BUENAVENTURA": {
+        "name": "San Buenaventura",
+        "kind": "city",
+        "employer_name": "San Buenaventura, City of",
+        "liabilities_usd": 856807870,
+        "assets_usd": 573300391,
+        "unfunded_usd": 283507477,
+        "plan_count": 2,
+        "funded_pct": 66.9
+      },
+      "city:SAN CLEMENTE": {
+        "name": "San Clemente",
+        "kind": "city",
+        "employer_name": "San Clemente, City of",
+        "liabilities_usd": 88881935,
+        "assets_usd": 69184826,
+        "unfunded_usd": 19697108,
+        "plan_count": 1,
+        "funded_pct": 77.8
+      },
+      "district:SAN DIEGO ASSOCIATION OF GOVERNMENTS": {
+        "name": "San Diego Association of Governments",
+        "kind": "district",
+        "employer_name": "San Diego Association of Governments",
+        "liabilities_usd": 258582508,
+        "assets_usd": 168320794,
+        "unfunded_usd": 90261713,
+        "plan_count": 1,
+        "funded_pct": 65.1
+      },
+      "district:SAN DIEGO COUNTY OFFICE OF EDUCATION": {
+        "name": "San Diego County Office of Education",
+        "kind": "district",
+        "employer_name": "San Diego County Office of Education",
+        "liabilities_usd": 476375906,
+        "assets_usd": 332458494,
+        "unfunded_usd": 143917411,
+        "plan_count": 1,
+        "funded_pct": 69.8
+      },
+      "district:SAN DIEGO COUNTY WATER AUTHORITY": {
+        "name": "San Diego County Water Authority",
+        "kind": "district",
+        "employer_name": "San Diego County Water Authority",
+        "liabilities_usd": 346506398,
+        "assets_usd": 243074657,
+        "unfunded_usd": 103431740,
+        "plan_count": 1,
+        "funded_pct": 70.2
+      },
+      "district:SAN DIEGO TROLLEY, INC.": {
+        "name": "San Diego Trolley, Inc.",
+        "kind": "district",
+        "employer_name": "San Diego Trolley, Inc.",
+        "liabilities_usd": 218669493,
+        "assets_usd": 167273119,
+        "unfunded_usd": 51396373,
+        "plan_count": 1,
+        "funded_pct": 76.5
+      },
+      "district:SAN FRANCISCO BAY AREA RAPID TRANSIT DISTRICT": {
+        "name": "San Francisco Bay Area Rapid Transit District",
+        "kind": "district",
+        "employer_name": "San Francisco Bay Area Rapid Transit District",
+        "liabilities_usd": 3671768672,
+        "assets_usd": 2590540134,
+        "unfunded_usd": 1081228536,
+        "plan_count": 2,
+        "funded_pct": 70.6
+      },
+      "district:SAN FRANCISCO, CITY AND COUNTY OF": {
+        "name": "San Francisco, City and County of",
+        "kind": "district",
+        "employer_name": "San Francisco, City and County of",
+        "liabilities_usd": 1799119830,
+        "assets_usd": 1392446085,
+        "unfunded_usd": 406673744,
+        "plan_count": 1,
+        "funded_pct": 77.4
+      },
+      "city:SAN LEANDRO": {
+        "name": "San Leandro",
+        "kind": "city",
+        "employer_name": "San Leandro, City of",
+        "liabilities_usd": 359545383,
+        "assets_usd": 236217534,
+        "unfunded_usd": 123327848,
+        "plan_count": 1,
+        "funded_pct": 65.7
+      },
+      "city:SAN LUIS OBISPO": {
+        "name": "San Luis Obispo",
+        "kind": "city",
+        "employer_name": "San Luis Obispo, City of",
+        "liabilities_usd": 280827234,
+        "assets_usd": 176888181,
+        "unfunded_usd": 103939052,
+        "plan_count": 1,
+        "funded_pct": 63.0
+      },
+      "city:SAN MARCOS": {
+        "name": "San Marcos",
+        "kind": "city",
+        "employer_name": "San Marcos, City of",
+        "liabilities_usd": 178339548,
+        "assets_usd": 121271475,
+        "unfunded_usd": 57068072,
+        "plan_count": 1,
+        "funded_pct": 68.0
+      },
+      "city:SAN MATEO": {
+        "name": "San Mateo",
+        "kind": "city",
+        "employer_name": "San Mateo, City of",
+        "liabilities_usd": 832004347,
+        "assets_usd": 530785720,
+        "unfunded_usd": 301218625,
+        "plan_count": 2,
+        "funded_pct": 63.8
+      },
+      "district:SAN MATEO COUNTY TRANSIT DISTRICT": {
+        "name": "San Mateo County Transit District",
+        "kind": "district",
+        "employer_name": "San Mateo County Transit District",
+        "liabilities_usd": 467346093,
+        "assets_usd": 361667645,
+        "unfunded_usd": 105678447,
+        "plan_count": 1,
+        "funded_pct": 77.4
+      },
+      "city:SAN RAMON": {
+        "name": "San Ramon",
+        "kind": "city",
+        "employer_name": "San Ramon, City of",
+        "liabilities_usd": 214830769,
+        "assets_usd": 179789693,
+        "unfunded_usd": 35041075,
+        "plan_count": 1,
+        "funded_pct": 83.7
+      },
+      "city:SANTA ANA": {
+        "name": "Santa Ana",
+        "kind": "city",
+        "employer_name": "Santa Ana, City of",
+        "liabilities_usd": 2462582243,
+        "assets_usd": 1999479418,
+        "unfunded_usd": 463102823,
+        "plan_count": 2,
+        "funded_pct": 81.2
+      },
+      "city:SANTA BARBARA": {
+        "name": "Santa Barbara",
+        "kind": "city",
+        "employer_name": "Santa Barbara, City of",
+        "liabilities_usd": 1121086903,
+        "assets_usd": 763852593,
+        "unfunded_usd": 357234308,
+        "plan_count": 2,
+        "funded_pct": 68.1
+      },
+      "city:SANTA CLARA": {
+        "name": "Santa Clara",
+        "kind": "city",
+        "employer_name": "Santa Clara, City of",
+        "liabilities_usd": 1915790380,
+        "assets_usd": 1186361345,
+        "unfunded_usd": 729429033,
+        "plan_count": 2,
+        "funded_pct": 61.9
+      },
+      "district:SANTA CLARA COUNTY CENTRAL FIRE PROTECTION DISTRICT": {
+        "name": "Santa Clara County Central Fire Protection District",
+        "kind": "district",
+        "employer_name": "Santa Clara County Central Fire Protection District",
+        "liabilities_usd": 736653714,
+        "assets_usd": 491329847,
+        "unfunded_usd": 245323866,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "district:SANTA CLARA COUNTY HOUSING AUTHORITY": {
+        "name": "Santa Clara County Housing Authority",
+        "kind": "district",
+        "employer_name": "Santa Clara County Housing Authority",
+        "liabilities_usd": 95167945,
+        "assets_usd": 102022066,
+        "unfunded_usd": -6854121,
+        "plan_count": 1,
+        "funded_pct": 107.2
+      },
+      "county:SANTA CLARA": {
+        "name": "Santa Clara",
+        "kind": "county",
+        "employer_name": "Santa Clara, County of",
+        "liabilities_usd": 19367095585,
+        "assets_usd": 13135823901,
+        "unfunded_usd": 6231271682,
+        "plan_count": 2,
+        "funded_pct": 67.8
+      },
+      "district:SANTA CLARA VALLEY TRANSPORTATION AUTHORITY": {
+        "name": "Santa Clara Valley Transportation Authority",
+        "kind": "district",
+        "employer_name": "Santa Clara Valley Transportation Authority",
+        "liabilities_usd": 611195545,
+        "assets_usd": 434559346,
+        "unfunded_usd": 176636198,
+        "plan_count": 1,
+        "funded_pct": 71.1
+      },
+      "district:SANTA CLARA VALLEY WATER DISTRICT": {
+        "name": "Santa Clara Valley Water District",
+        "kind": "district",
+        "employer_name": "Santa Clara Valley Water District",
+        "liabilities_usd": 1115372406,
+        "assets_usd": 777601193,
+        "unfunded_usd": 337771212,
+        "plan_count": 1,
+        "funded_pct": 69.7
+      },
+      "city:SANTA CLARITA": {
+        "name": "Santa Clarita",
+        "kind": "city",
+        "employer_name": "Santa Clarita, City of",
+        "liabilities_usd": 294769145,
+        "assets_usd": 242733731,
+        "unfunded_usd": 52035413,
+        "plan_count": 1,
+        "funded_pct": 82.3
+      },
+      "city:SANTA CRUZ": {
+        "name": "Santa Cruz",
+        "kind": "city",
+        "employer_name": "Santa Cruz, City of",
+        "liabilities_usd": 530587992,
+        "assets_usd": 390892024,
+        "unfunded_usd": 139695967,
+        "plan_count": 1,
+        "funded_pct": 73.7
+      },
+      "county:SANTA CRUZ": {
+        "name": "Santa Cruz",
+        "kind": "county",
+        "employer_name": "Santa Cruz, County of",
+        "liabilities_usd": 2260206337,
+        "assets_usd": 1603006336,
+        "unfunded_usd": 657199998,
+        "plan_count": 3,
+        "funded_pct": 70.9
+      },
+      "district:SANTA CRUZ METROPOLITAN TRANSIT DISTRICT": {
+        "name": "Santa Cruz Metropolitan Transit District",
+        "kind": "district",
+        "employer_name": "Santa Cruz Metropolitan Transit District",
+        "liabilities_usd": 222630334,
+        "assets_usd": 194889415,
+        "unfunded_usd": 27740918,
+        "plan_count": 1,
+        "funded_pct": 87.5
+      },
+      "city:SANTA FE SPRINGS": {
+        "name": "Santa Fe Springs",
+        "kind": "city",
+        "employer_name": "Santa Fe Springs, City of",
+        "liabilities_usd": 210518983,
+        "assets_usd": 117222266,
+        "unfunded_usd": 93296716,
+        "plan_count": 1,
+        "funded_pct": 55.7
+      },
+      "district:SANTA MARGARITA WATER DISTRICT": {
+        "name": "Santa Margarita Water District",
+        "kind": "district",
+        "employer_name": "Santa Margarita Water District",
+        "liabilities_usd": 136967468,
+        "assets_usd": 97726245,
+        "unfunded_usd": 39241222,
+        "plan_count": 1,
+        "funded_pct": 71.3
+      },
+      "city:SANTA MARIA": {
+        "name": "Santa Maria",
+        "kind": "city",
+        "employer_name": "Santa Maria, City of",
+        "liabilities_usd": 320830277,
+        "assets_usd": 211451459,
+        "unfunded_usd": 109378817,
+        "plan_count": 1,
+        "funded_pct": 65.9
+      },
+      "city:SANTA MONICA": {
+        "name": "Santa Monica",
+        "kind": "city",
+        "employer_name": "Santa Monica, City of",
+        "liabilities_usd": 2378159211,
+        "assets_usd": 1806625580,
+        "unfunded_usd": 571533628,
+        "plan_count": 3,
+        "funded_pct": 76.0
+      },
+      "city:SANTA ROSA": {
+        "name": "Santa Rosa",
+        "kind": "city",
+        "employer_name": "Santa Rosa, City of",
+        "liabilities_usd": 1612701208,
+        "assets_usd": 1107589529,
+        "unfunded_usd": 505111676,
+        "plan_count": 3,
+        "funded_pct": 68.7
+      },
+      "county:SHASTA": {
+        "name": "Shasta",
+        "kind": "county",
+        "employer_name": "Shasta, County of",
+        "liabilities_usd": 1199745642,
+        "assets_usd": 806676756,
+        "unfunded_usd": 393068884,
+        "plan_count": 2,
+        "funded_pct": 67.2
+      },
+      "city:SIMI VALLEY": {
+        "name": "Simi Valley",
+        "kind": "city",
+        "employer_name": "Simi Valley, City of",
+        "liabilities_usd": 589756059,
+        "assets_usd": 410750514,
+        "unfunded_usd": 179005543,
+        "plan_count": 2,
+        "funded_pct": 69.6
+      },
+      "county:SISKIYOU": {
+        "name": "Siskiyou",
+        "kind": "county",
+        "employer_name": "Siskiyou, County of",
+        "liabilities_usd": 293476213,
+        "assets_usd": 194981909,
+        "unfunded_usd": 98494303,
+        "plan_count": 1,
+        "funded_pct": 66.4
+      },
+      "county:SOLANO": {
+        "name": "Solano",
+        "kind": "county",
+        "employer_name": "Solano, County of",
+        "liabilities_usd": 2746291757,
+        "assets_usd": 1947080911,
+        "unfunded_usd": 799210844,
+        "plan_count": 2,
+        "funded_pct": 70.9
+      },
+      "district:SONOMA COUNTY LIBRARY": {
+        "name": "Sonoma County Library",
+        "kind": "district",
+        "employer_name": "Sonoma County Library",
+        "liabilities_usd": 91833789,
+        "assets_usd": 71191475,
+        "unfunded_usd": 20642313,
+        "plan_count": 1,
+        "funded_pct": 77.5
+      },
+      "district:SOUTH CENTRAL LOS ANGELES REGIONAL CENTER FOR DEVELOPMENTALLY DISABLED PERSONS": {
+        "name": "South Central Los Angeles Regional Center for Developmentally Disabled Persons",
+        "kind": "district",
+        "employer_name": "South Central Los Angeles Regional Center for Developmentally Disabled Persons",
+        "liabilities_usd": 119243502,
+        "assets_usd": 99548898,
+        "unfunded_usd": 19694603,
+        "plan_count": 1,
+        "funded_pct": 83.5
+      },
+      "district:SOUTHERN CALIFORNIA ASSOCIATION OF GOVERNMENTS": {
+        "name": "Southern California Association of Governments",
+        "kind": "district",
+        "employer_name": "Southern California Association of Governments",
+        "liabilities_usd": 164562314,
+        "assets_usd": 108384245,
+        "unfunded_usd": 56178068,
+        "plan_count": 1,
+        "funded_pct": 65.9
+      },
+      "district:SOUTHERN CALIFORNIA REGIONAL RAIL AUTHORITY": {
+        "name": "Southern California Regional Rail Authority",
+        "kind": "district",
+        "employer_name": "Southern California Regional Rail Authority",
+        "liabilities_usd": 118589010,
+        "assets_usd": 94381571,
+        "unfunded_usd": 24207438,
+        "plan_count": 1,
+        "funded_pct": 79.6
+      },
+      "city:SOUTH GATE": {
+        "name": "South Gate",
+        "kind": "city",
+        "employer_name": "South Gate, City of",
+        "liabilities_usd": 204512383,
+        "assets_usd": 157524805,
+        "unfunded_usd": 46987577,
+        "plan_count": 1,
+        "funded_pct": 77.0
+      },
+      "city:SOUTH LAKE TAHOE": {
+        "name": "South Lake Tahoe",
+        "kind": "city",
+        "employer_name": "South Lake Tahoe, City of",
+        "liabilities_usd": 116597747,
+        "assets_usd": 72730103,
+        "unfunded_usd": 43867643,
+        "plan_count": 1,
+        "funded_pct": 62.4
+      },
+      "city:SOUTH SAN FRANCISCO": {
+        "name": "South San Francisco",
+        "kind": "city",
+        "employer_name": "South San Francisco, City of",
+        "liabilities_usd": 739871821,
+        "assets_usd": 475349936,
+        "unfunded_usd": 264521883,
+        "plan_count": 2,
+        "funded_pct": 64.2
+      },
+      "district:STATE BAR OF CALIFORNIA": {
+        "name": "State Bar of California",
+        "kind": "district",
+        "employer_name": "State Bar of California",
+        "liabilities_usd": 515229731,
+        "assets_usd": 397819040,
+        "unfunded_usd": 117410690,
+        "plan_count": 1,
+        "funded_pct": 77.2
+      },
+      "city:STOCKTON": {
+        "name": "Stockton",
+        "kind": "city",
+        "employer_name": "Stockton, City of",
+        "liabilities_usd": 2263742763,
+        "assets_usd": 1551891879,
+        "unfunded_usd": 711850882,
+        "plan_count": 2,
+        "funded_pct": 68.6
+      },
+      "city:SUNNYVALE": {
+        "name": "Sunnyvale",
+        "kind": "city",
+        "employer_name": "Sunnyvale, City of",
+        "liabilities_usd": 1522103032,
+        "assets_usd": 1022165027,
+        "unfunded_usd": 499938003,
+        "plan_count": 2,
+        "funded_pct": 67.2
+      },
+      "county:SUTTER": {
+        "name": "Sutter",
+        "kind": "county",
+        "employer_name": "Sutter, County of",
+        "liabilities_usd": 710601748,
+        "assets_usd": 496612080,
+        "unfunded_usd": 213989666,
+        "plan_count": 2,
+        "funded_pct": 69.9
+      },
+      "district:SWEETWATER AUTHORITY": {
+        "name": "Sweetwater Authority",
+        "kind": "district",
+        "employer_name": "Sweetwater Authority",
+        "liabilities_usd": 157219280,
+        "assets_usd": 101455308,
+        "unfunded_usd": 55763971,
+        "plan_count": 1,
+        "funded_pct": 64.5
+      },
+      "county:TEHAMA": {
+        "name": "Tehama",
+        "kind": "county",
+        "employer_name": "Tehama, County of",
+        "liabilities_usd": 438717806,
+        "assets_usd": 300729476,
+        "unfunded_usd": 137988328,
+        "plan_count": 2,
+        "funded_pct": 68.5
+      },
+      "city:TEMECULA": {
+        "name": "Temecula",
+        "kind": "city",
+        "employer_name": "Temecula, City of",
+        "liabilities_usd": 176217501,
+        "assets_usd": 121055754,
+        "unfunded_usd": 55161746,
+        "plan_count": 1,
+        "funded_pct": 68.7
+      },
+      "city:THOUSAND OAKS": {
+        "name": "Thousand Oaks",
+        "kind": "city",
+        "employer_name": "Thousand Oaks, City of",
+        "liabilities_usd": 367699756,
+        "assets_usd": 282939259,
+        "unfunded_usd": 84760496,
+        "plan_count": 1,
+        "funded_pct": 76.9
+      },
+      "city:TORRANCE": {
+        "name": "Torrance",
+        "kind": "city",
+        "employer_name": "Torrance, City of",
+        "liabilities_usd": 1909364342,
+        "assets_usd": 1643051564,
+        "unfunded_usd": 266312775,
+        "plan_count": 3,
+        "funded_pct": 86.1
+      },
+      "city:TRACY": {
+        "name": "Tracy",
+        "kind": "city",
+        "employer_name": "Tracy, City of",
+        "liabilities_usd": 485076413,
+        "assets_usd": 349799832,
+        "unfunded_usd": 135276579,
+        "plan_count": 2,
+        "funded_pct": 72.1
+      },
+      "district:TRI-COUNTIES ASSOCIATION FOR THE DEVELOPMENTALLY DISABLED": {
+        "name": "Tri-Counties Association for the Developmentally Disabled",
+        "kind": "district",
+        "employer_name": "Tri-Counties Association for the Developmentally Disabled",
+        "liabilities_usd": 152133313,
+        "assets_usd": 126716810,
+        "unfunded_usd": 25416502,
+        "plan_count": 1,
+        "funded_pct": 83.3
+      },
+      "county:TRINITY": {
+        "name": "Trinity",
+        "kind": "county",
+        "employer_name": "Trinity, County of",
+        "liabilities_usd": 141216962,
+        "assets_usd": 78963366,
+        "unfunded_usd": 62253595,
+        "plan_count": 1,
+        "funded_pct": 55.9
+      },
+      "city:TULARE": {
+        "name": "Tulare",
+        "kind": "city",
+        "employer_name": "Tulare, City of",
+        "liabilities_usd": 158846074,
+        "assets_usd": 111737982,
+        "unfunded_usd": 47108091,
+        "plan_count": 1,
+        "funded_pct": 70.3
+      },
+      "county:TUOLUMNE": {
+        "name": "Tuolumne",
+        "kind": "county",
+        "employer_name": "Tuolumne, County of",
+        "liabilities_usd": 355078356,
+        "assets_usd": 228224238,
+        "unfunded_usd": 126854117,
+        "plan_count": 1,
+        "funded_pct": 64.3
+      },
+      "city:TURLOCK": {
+        "name": "Turlock",
+        "kind": "city",
+        "employer_name": "Turlock, City of",
+        "liabilities_usd": 187379518,
+        "assets_usd": 127416387,
+        "unfunded_usd": 59963130,
+        "plan_count": 1,
+        "funded_pct": 68.0
+      },
+      "city:TUSTIN": {
+        "name": "Tustin",
+        "kind": "city",
+        "employer_name": "Tustin, City of",
+        "liabilities_usd": 158847521,
+        "assets_usd": 122418547,
+        "unfunded_usd": 36428973,
+        "plan_count": 1,
+        "funded_pct": 77.1
+      },
+      "city:UKIAH": {
+        "name": "Ukiah",
+        "kind": "city",
+        "employer_name": "Ukiah, City of",
+        "liabilities_usd": 117765623,
+        "assets_usd": 103016198,
+        "unfunded_usd": 14749424,
+        "plan_count": 1,
+        "funded_pct": 87.5
+      },
+      "city:UNION CITY": {
+        "name": "Union City",
+        "kind": "city",
+        "employer_name": "Union City, City of",
+        "liabilities_usd": 176728416,
+        "assets_usd": 127410565,
+        "unfunded_usd": 49317850,
+        "plan_count": 1,
+        "funded_pct": 72.1
+      },
+      "district:UNION SANITARY DISTRICT": {
+        "name": "Union Sanitary District",
+        "kind": "district",
+        "employer_name": "Union Sanitary District",
+        "liabilities_usd": 192682229,
+        "assets_usd": 123955837,
+        "unfunded_usd": 68726391,
+        "plan_count": 1,
+        "funded_pct": 64.3
+      },
+      "district:UNIVERSITY ENTERPRISES, INC.": {
+        "name": "University Enterprises, Inc.",
+        "kind": "district",
+        "employer_name": "University Enterprises, Inc.",
+        "liabilities_usd": 93883068,
+        "assets_usd": 65858005,
+        "unfunded_usd": 28025062,
+        "plan_count": 1,
+        "funded_pct": 70.1
+      },
+      "city:UPLAND": {
+        "name": "Upland",
+        "kind": "city",
+        "employer_name": "Upland, City of",
+        "liabilities_usd": 156241105,
+        "assets_usd": 118317906,
+        "unfunded_usd": 37923198,
+        "plan_count": 1,
+        "funded_pct": 75.7
+      },
+      "city:VACAVILLE": {
+        "name": "Vacaville",
+        "kind": "city",
+        "employer_name": "Vacaville, City of",
+        "liabilities_usd": 768432708,
+        "assets_usd": 501177146,
+        "unfunded_usd": 267255560,
+        "plan_count": 2,
+        "funded_pct": 65.2
+      },
+      "city:VALLEJO": {
+        "name": "Vallejo",
+        "kind": "city",
+        "employer_name": "Vallejo, City of",
+        "liabilities_usd": 927057040,
+        "assets_usd": 560604168,
+        "unfunded_usd": 366452870,
+        "plan_count": 2,
+        "funded_pct": 60.5
+      },
+      "district:VALLEY MOUNTAIN REGIONAL CENTER, INC.": {
+        "name": "Valley Mountain Regional Center, Inc.",
+        "kind": "district",
+        "employer_name": "Valley Mountain Regional Center, Inc.",
+        "liabilities_usd": 130746913,
+        "assets_usd": 99475341,
+        "unfunded_usd": 31271571,
+        "plan_count": 1,
+        "funded_pct": 76.1
+      },
+      "city:VERNON": {
+        "name": "Vernon",
+        "kind": "city",
+        "employer_name": "Vernon, City of",
+        "liabilities_usd": 227457044,
+        "assets_usd": 157048368,
+        "unfunded_usd": 70408675,
+        "plan_count": 1,
+        "funded_pct": 69.0
+      },
+      "city:VICTORVILLE": {
+        "name": "Victorville",
+        "kind": "city",
+        "employer_name": "Victorville, City of",
+        "liabilities_usd": 273270463,
+        "assets_usd": 185219179,
+        "unfunded_usd": 88051283,
+        "plan_count": 1,
+        "funded_pct": 67.8
+      },
+      "city:VISALIA": {
+        "name": "Visalia",
+        "kind": "city",
+        "employer_name": "Visalia, City of",
+        "liabilities_usd": 621732986,
+        "assets_usd": 439873924,
+        "unfunded_usd": 181859060,
+        "plan_count": 2,
+        "funded_pct": 70.7
+      },
+      "city:VISTA": {
+        "name": "Vista",
+        "kind": "city",
+        "employer_name": "Vista, City of",
+        "liabilities_usd": 198255650,
+        "assets_usd": 146988516,
+        "unfunded_usd": 51267133,
+        "plan_count": 1,
+        "funded_pct": 74.1
+      },
+      "city:WALNUT CREEK": {
+        "name": "Walnut Creek",
+        "kind": "city",
+        "employer_name": "Walnut Creek, City of",
+        "liabilities_usd": 276331193,
+        "assets_usd": 189318412,
+        "unfunded_usd": 87012780,
+        "plan_count": 1,
+        "funded_pct": 68.5
+      },
+      "district:WATER EMPLOYEE SERVICES AUTHORITY": {
+        "name": "Water Employee Services Authority",
+        "kind": "district",
+        "employer_name": "Water Employee Services Authority",
+        "liabilities_usd": 141594320,
+        "assets_usd": 99832322,
+        "unfunded_usd": 41761997,
+        "plan_count": 1,
+        "funded_pct": 70.5
+      },
+      "city:WATSONVILLE": {
+        "name": "Watsonville",
+        "kind": "city",
+        "employer_name": "Watsonville, City of",
+        "liabilities_usd": 199811341,
+        "assets_usd": 139991051,
+        "unfunded_usd": 59820289,
+        "plan_count": 1,
+        "funded_pct": 70.1
+      },
+      "city:WEST COVINA": {
+        "name": "West Covina",
+        "kind": "city",
+        "employer_name": "West Covina, City of",
+        "liabilities_usd": 651445490,
+        "assets_usd": 583568126,
+        "unfunded_usd": 67877362,
+        "plan_count": 2,
+        "funded_pct": 89.6
+      },
+      "city:WEST HOLLYWOOD": {
+        "name": "West Hollywood",
+        "kind": "city",
+        "employer_name": "West Hollywood, City of",
+        "liabilities_usd": 242578561,
+        "assets_usd": 185235927,
+        "unfunded_usd": 57342633,
+        "plan_count": 1,
+        "funded_pct": 76.4
+      },
+      "city:WESTMINSTER": {
+        "name": "Westminster",
+        "kind": "city",
+        "employer_name": "Westminster, City of",
+        "liabilities_usd": 166570568,
+        "assets_usd": 111146279,
+        "unfunded_usd": 55424288,
+        "plan_count": 1,
+        "funded_pct": 66.7
+      },
+      "city:WEST SACRAMENTO": {
+        "name": "West Sacramento",
+        "kind": "city",
+        "employer_name": "West Sacramento, City of",
+        "liabilities_usd": 180684673,
+        "assets_usd": 123790963,
+        "unfunded_usd": 56893709,
+        "plan_count": 1,
+        "funded_pct": 68.5
+      },
+      "city:WHITTIER": {
+        "name": "Whittier",
+        "kind": "city",
+        "employer_name": "Whittier, City of",
+        "liabilities_usd": 513876859,
+        "assets_usd": 448214560,
+        "unfunded_usd": 65662297,
+        "plan_count": 2,
+        "funded_pct": 87.2
+      },
+      "city:WOODLAND": {
+        "name": "Woodland",
+        "kind": "city",
+        "employer_name": "Woodland, City of",
+        "liabilities_usd": 385396157,
+        "assets_usd": 246169047,
+        "unfunded_usd": 139227108,
+        "plan_count": 2,
+        "funded_pct": 63.9
+      },
+      "county:YOLO": {
+        "name": "Yolo",
+        "kind": "county",
+        "employer_name": "Yolo, County of",
+        "liabilities_usd": 1286146395,
+        "assets_usd": 859034210,
+        "unfunded_usd": 427112183,
+        "plan_count": 2,
+        "funded_pct": 66.8
+      },
+      "city:YORBA LINDA": {
+        "name": "Yorba Linda",
+        "kind": "city",
+        "employer_name": "Yorba Linda, City of",
+        "liabilities_usd": 97616033,
+        "assets_usd": 69842468,
+        "unfunded_usd": 27773564,
+        "plan_count": 1,
+        "funded_pct": 71.5
+      },
+      "city:YUBA CITY": {
+        "name": "Yuba City",
+        "kind": "city",
+        "employer_name": "Yuba City, City of",
+        "liabilities_usd": 164705797,
+        "assets_usd": 114770723,
+        "unfunded_usd": 49935073,
+        "plan_count": 1,
+        "funded_pct": 69.7
+      },
+      "county:YUBA": {
+        "name": "Yuba",
+        "kind": "county",
+        "employer_name": "Yuba, County of",
+        "liabilities_usd": 632410869,
+        "assets_usd": 413779558,
+        "unfunded_usd": 218631309,
+        "plan_count": 2,
+        "funded_pct": 65.4
+      }
+    }
+  }
+}

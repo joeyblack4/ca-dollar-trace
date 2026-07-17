@@ -5,15 +5,15 @@
     "url": "https://github.com/joeyblack4/ca-dollar-trace",
     "license": "Derived work; each underlying source keeps its own license"
   },
-  "as_of": "2026-07-17T145900Z",
-  "ingested_at": "2026-07-17T14:59:00.539483+00:00",
+  "as_of": "2026-07-17T150313Z",
+  "ingested_at": "2026-07-17T15:03:13.997539+00:00",
   "cadence": "regenerated each run from the source configs",
   "coverage_flag": "traceable",
   "caveats": [
     "This is a directory of the machine-readable sources the site ingests; each source's own coverage and caveats are shown with it."
   ],
   "data": {
-    "source_count": 20,
+    "source_count": 21,
     "layer_order": [
       "The state budget",
       "State spending",
@@ -251,6 +251,20 @@
         ],
         "layer": "Local government",
         "feeds": "Transaction-level checkbooks for the cities that publish one (LA & SF)."
+      },
+      {
+        "source": "pension_positions",
+        "name": "Funding Positions of CalPERS Contracting Agencies",
+        "publisher": "California State Controller (from CalPERS valuations)",
+        "url": "https://data.ca.gov/dataset/funding-positions-of-calpers-contracting-agencies-for-fiscal-years-2002-03-to-2023-24",
+        "cadence": "annual (actuarial valuations, published ~a year after each June 30)",
+        "coverage_flag": "traceable",
+        "caveats": [
+          "Covers CalPERS contracting agencies with their own actuarial plans. Small agencies pooled into CalPERS risk pools are reported only in aggregate elsewhere, and governments with independent retirement systems \u2014 Los Angeles (city and county), San Francisco, and about 20 county systems \u2014 are not in CalPERS data at all.",
+          "Unfunded liability is the gap between what's been promised and what's been set aside, at the actuary's assumptions; it is a debt paid down through future budgets."
+        ],
+        "layer": "Local government",
+        "feeds": "Each CalPERS local government's pension debt \u2014 promised vs. set aside."
       },
       {
         "source": "usaspending_ca",

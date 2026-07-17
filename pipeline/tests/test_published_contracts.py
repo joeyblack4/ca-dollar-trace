@@ -469,6 +469,23 @@ def test_search_index_contract():
     assert totals == sorted(totals, reverse=True)
 
 
+def test_pension_positions_contract():
+    d = load("pension_positions.json")["data"]
+    assert d["agency_count"] >= 250
+    assert 30e9 < d["total_unfunded_usd"] < 150e9
+    assert abs(
+        d["total_liabilities_usd"] - d["total_assets_usd"] - d["total_unfunded_usd"]
+    ) < 0.02 * d["total_liabilities_usd"], "liab - assets != unfunded (beyond rounding)"
+    for key, a in list(d["agencies"].items())[:100]:
+        assert key == f"{a['kind']}:{a['name'].upper()}"
+        assert a["kind"] in ("city", "county", "district")
+        if a["funded_pct"] is not None:
+            assert 0 < a["funded_pct"] < 200
+    # independent-system governments must NOT appear (their absence is the caveat)
+    assert "city:LOS ANGELES" not in d["agencies"]
+    assert "county:LOS ANGELES" not in d["agencies"]
+
+
 def test_k12_apportionment_contract():
     d = load("k12_apportionment.json")["data"]
     assert d["lea_count"] >= 1500

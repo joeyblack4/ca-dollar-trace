@@ -96,12 +96,36 @@ interface CompDoc {
   by_employer: Record<string, { wages_usd: number; benefits_usd: number; positions: number }>;
 }
 
+interface PensionDoc {
+  fiscal_year: string;
+  agency_count: number;
+  total_liabilities_usd: number;
+  total_assets_usd: number;
+  total_unfunded_usd: number;
+  by_kind: Record<string, number>;
+  agencies: Record<
+    string,
+    {
+      name: string;
+      kind: string;
+      liabilities_usd: number;
+      assets_usd: number;
+      unfunded_usd: number;
+      funded_pct: number | null;
+    }
+  >;
+}
+
 export default async function LocalPage() {
   const counties = await loadPublished<LocalDoc>("county_finances");
   const cities = await loadPublished<LocalDoc>("city_finances");
   const districts = await loadPublished<LocalDoc>("district_finances");
   const books = await loadPublished<CheckbooksDoc>("city_checkbooks");
   const comp = await loadPublished<CompDoc>("compensation");
+  const pensions = await loadPublished<PensionDoc>("pension_positions");
+  const topUnfunded = Object.values(pensions.data.agencies)
+    .sort((a, b) => b.unfunded_usd - a.unfunded_usd)
+    .slice(0, 12);
 
   const sections = [
     {
@@ -175,6 +199,56 @@ export default async function LocalPage() {
           coverage={comp.coverage_flag}
           caveats={comp.caveats}
           dataHref="/data/compensation.json"
+        />
+      </section>
+
+      <section className="mt-8 rounded-lg border border-rule p-5">
+        <h2 className="text-xl font-semibold">Tomorrow&apos;s spending: pension debt</h2>
+        <p className="mt-1 max-w-2xl text-sm text-fog">
+          {pensions.data.agency_count} local governments in CalPERS with their own plans have
+          promised {fmtUsd(pensions.data.total_liabilities_usd)} in pensions and set aside{" "}
+          {fmtUsd(pensions.data.total_assets_usd)} — an unfunded gap of{" "}
+          <strong className="text-ink">{fmtUsd(pensions.data.total_unfunded_usd)}</strong> (FY
+          {pensions.data.fiscal_year} valuations) that future budgets must pay down.
+        </p>
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full min-w-[560px] text-sm">
+            <thead>
+              <tr className="border-b border-rule text-left text-fog">
+                <th className="py-2 pr-4 font-medium">Government</th>
+                <th className="py-2 pr-4 text-right font-medium">Unfunded</th>
+                <th className="py-2 text-right font-medium">Funded</th>
+              </tr>
+            </thead>
+            <tbody>
+              {topUnfunded.map((a) => (
+                <tr key={`${a.kind}-${a.name}`} className="border-b border-rule/60">
+                  <td className="py-2 pr-4">
+                    {a.name} <span className="text-xs text-fog">({a.kind})</span>
+                  </td>
+                  <td className="py-2 pr-4 text-right font-mono text-xs">
+                    {fmtUsd(a.unfunded_usd)}
+                  </td>
+                  <td className="py-2 text-right font-mono text-xs">
+                    {a.funded_pct != null ? `${a.funded_pct}%` : "—"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-2 max-w-2xl text-xs text-fog">
+          CalPERS only: Los Angeles (city and county), San Francisco, and about 20 county
+          systems run their own retirement funds and aren&apos;t in this data — their absence
+          here is a data boundary, not a clean bill of health.
+        </p>
+        <SourceChip
+          source={pensions.source}
+          asOf={pensions.as_of}
+          cadence={pensions.cadence}
+          coverage={pensions.coverage_flag}
+          caveats={pensions.caveats}
+          dataHref="/data/pension_positions.json"
         />
       </section>
 

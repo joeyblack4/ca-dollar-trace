@@ -43,6 +43,7 @@ _FEEDS = {
     "k12_apportionment": "What the state certified it would pay each school district — the "
     "sending side of K-12 money.",
     "city_checkbooks": "Transaction-level checkbooks for the cities that publish one (LA & SF).",
+    "pension_positions": "Each CalPERS local government's pension debt — promised vs. set aside.",
     "usaspending_ca": "Federal awards flowing into California, with subaward hand-offs "
     "where reported.",
     "fac_sefa": "Independently audited federal spending (single audits) — the one audited source.",
@@ -61,7 +62,7 @@ _LAYER = [
     ]),
     ("Local government", [
         "county_finances", "city_finances", "district_finances", "sacs_k12",
-        "k12_apportionment", "city_checkbooks",
+        "k12_apportionment", "city_checkbooks", "pension_positions",
     ]),
     ("Federal money", ["usaspending_ca", "fac_sefa", "federal_subawards"]),
     ("Recipient registries", ["nonprofits", "nonprofit_officers"]),

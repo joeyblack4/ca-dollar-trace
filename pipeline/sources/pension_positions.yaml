@@ -1,0 +1,20 @@
+# CalPERS funding positions: each contracting local government's pension
+# liabilities, assets, and UNFUNDED liability — tomorrow's spending, visible
+# today. Published by the State Controller from CalPERS actuarial valuations.
+source: pension_positions
+dataset: calpers_agencies
+access: csv_download
+download_url: "https://bythenumbers.sco.ca.gov/api/v3/views/4mw7-e9iu/export.csv?accessType=DOWNLOAD"
+cadence: "annual (actuarial valuations, published ~a year after each June 30)"
+freshness_sla_hours: 8760
+min_rows: 250
+max_row_drop_pct: 30
+coverage_flag: traceable
+caveats:
+  - "Covers CalPERS contracting agencies with their own actuarial plans. Small agencies pooled into CalPERS risk pools are reported only in aggregate elsewhere, and governments with independent retirement systems — Los Angeles (city and county), San Francisco, and about 20 county systems — are not in CalPERS data at all."
+  - "Unfunded liability is the gap between what's been promised and what's been set aside, at the actuary's assumptions; it is a debt paid down through future budgets."
+info:
+  name: "Funding Positions of CalPERS Contracting Agencies"
+  publisher: "California State Controller (from CalPERS valuations)"
+  url: "https://data.ca.gov/dataset/funding-positions-of-calpers-contracting-agencies-for-fiscal-years-2002-03-to-2023-24"
+  license: "Public record (SCO/CalPERS)"
