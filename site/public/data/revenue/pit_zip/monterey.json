@@ -1,0 +1,256 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Monterey",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 659268249,
+    "zips": [
+      {
+        "zip": "93940",
+        "city": "Monterey",
+        "returns": 13617,
+        "agi_usd": 1765672465,
+        "tax_liability_usd": 81981293
+      },
+      {
+        "zip": "93923",
+        "city": "Carmel",
+        "returns": 5305,
+        "agi_usd": 1251068360,
+        "tax_liability_usd": 79964220
+      },
+      {
+        "zip": "93908",
+        "city": "Salinas",
+        "returns": 5904,
+        "agi_usd": 1154426186,
+        "tax_liability_usd": 66424177
+      },
+      {
+        "zip": "93953",
+        "city": "Pebble Beach",
+        "returns": 2036,
+        "agi_usd": 802855119,
+        "tax_liability_usd": 53395464
+      },
+      {
+        "zip": "93950",
+        "city": "Pacific Grove",
+        "returns": 7055,
+        "agi_usd": 868247274,
+        "tax_liability_usd": 43008868
+      },
+      {
+        "zip": "93906",
+        "city": "Salinas",
+        "returns": 26841,
+        "agi_usd": 1608023338,
+        "tax_liability_usd": 40306858
+      },
+      {
+        "zip": "93933",
+        "city": "Marina",
+        "returns": 12410,
+        "agi_usd": 1039677639,
+        "tax_liability_usd": 39383291
+      },
+      {
+        "zip": "93901",
+        "city": "Salinas",
+        "returns": 12226,
+        "agi_usd": 975392620,
+        "tax_liability_usd": 35703929
+      },
+      {
+        "zip": "93924",
+        "city": "Carmel Valley",
+        "returns": 2978,
+        "agi_usd": 542584033,
+        "tax_liability_usd": 35395714
+      },
+      {
+        "zip": "93907",
+        "city": "Salinas",
+        "returns": 10220,
+        "agi_usd": 833179722,
+        "tax_liability_usd": 30125646
+      },
+      {
+        "zip": "93955",
+        "city": "Seaside",
+        "returns": 13770,
+        "agi_usd": 907793220,
+        "tax_liability_usd": 27961405
+      },
+      {
+        "zip": "93921",
+        "city": "Carmel By The Sea",
+        "returns": 1744,
+        "agi_usd": 375861566,
+        "tax_liability_usd": 22850806
+      },
+      {
+        "zip": "93905",
+        "city": "Salinas",
+        "returns": 25715,
+        "agi_usd": 1166233538,
+        "tax_liability_usd": 19708550
+      },
+      {
+        "zip": "93960",
+        "city": "Soledad",
+        "returns": 8375,
+        "agi_usd": 527240308,
+        "tax_liability_usd": 14929016
+      },
+      {
+        "zip": "93930",
+        "city": "King City",
+        "returns": 6690,
+        "agi_usd": 397498275,
+        "tax_liability_usd": 11483081
+      },
+      {
+        "zip": "93927",
+        "city": "Greenfield",
+        "returns": 7825,
+        "agi_usd": 397220206,
+        "tax_liability_usd": 8128256
+      },
+      {
+        "zip": "95004",
+        "city": "Aromas",
+        "returns": 1866,
+        "agi_usd": 180624215,
+        "tax_liability_usd": 7222999
+      },
+      {
+        "zip": "93922",
+        "city": "Carmel",
+        "returns": 807,
+        "agi_usd": 125040514,
+        "tax_liability_usd": 7211626
+      },
+      {
+        "zip": "93926",
+        "city": "Gonzales",
+        "returns": 4001,
+        "agi_usd": 246600400,
+        "tax_liability_usd": 6097381
+      },
+      {
+        "zip": "95012",
+        "city": "Castroville",
+        "returns": 4982,
+        "agi_usd": 261054331,
+        "tax_liability_usd": 5868235
+      },
+      {
+        "zip": "93912",
+        "city": "Salinas",
+        "returns": 1534,
+        "agi_usd": 150479552,
+        "tax_liability_usd": 4922697
+      },
+      {
+        "zip": "93942",
+        "city": "Monterey",
+        "returns": 637,
+        "agi_usd": 71712108,
+        "tax_liability_usd": 3665010
+      },
+      {
+        "zip": "93962",
+        "city": "Spreckels",
+        "returns": 394,
+        "agi_usd": 61409614,
+        "tax_liability_usd": 3213518
+      },
+      {
+        "zip": "93902",
+        "city": "Salinas",
+        "returns": 602,
+        "agi_usd": 55888506,
+        "tax_liability_usd": 1884447
+      },
+      {
+        "zip": "93920",
+        "city": "Big Sur",
+        "returns": 600,
+        "agi_usd": 43121069,
+        "tax_liability_usd": 1609939
+      },
+      {
+        "zip": "95039",
+        "city": "Moss Landing",
+        "returns": 727,
+        "agi_usd": 49948756,
+        "tax_liability_usd": 1504838
+      },
+      {
+        "zip": "93426",
+        "city": "Bradley",
+        "returns": 498,
+        "agi_usd": 42571589,
+        "tax_liability_usd": 1485227
+      },
+      {
+        "zip": "93925",
+        "city": "Chualar",
+        "returns": 737,
+        "agi_usd": 43933768,
+        "tax_liability_usd": 1196292
+      },
+      {
+        "zip": "93450",
+        "city": "San Ardo",
+        "returns": 226,
+        "agi_usd": 19957233,
+        "tax_liability_usd": 938593
+      },
+      {
+        "zip": "93932",
+        "city": "Lockwood",
+        "returns": 268,
+        "agi_usd": 21221586,
+        "tax_liability_usd": 743960
+      },
+      {
+        "zip": "93915",
+        "city": "Salinas",
+        "returns": 1123,
+        "agi_usd": 46090053,
+        "tax_liability_usd": 646156
+      },
+      {
+        "zip": "93954",
+        "city": "San Lucas",
+        "returns": 109,
+        "agi_usd": 5560096,
+        "tax_liability_usd": 157391
+      },
+      {
+        "zip": "93944",
+        "city": "Monterey",
+        "returns": 186,
+        "agi_usd": 6591280,
+        "tax_liability_usd": 149366
+      }
+    ]
+  }
+}

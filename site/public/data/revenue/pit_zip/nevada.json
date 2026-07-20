@@ -1,0 +1,116 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Nevada",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 194753089,
+    "zips": [
+      {
+        "zip": "96161",
+        "city": "Truckee",
+        "returns": 7397,
+        "agi_usd": 1183154963,
+        "tax_liability_usd": 66489924
+      },
+      {
+        "zip": "95959",
+        "city": "Nevada City",
+        "returns": 8450,
+        "agi_usd": 770514179,
+        "tax_liability_usd": 33789335
+      },
+      {
+        "zip": "95949",
+        "city": "Grass Valley",
+        "returns": 9219,
+        "agi_usd": 793825308,
+        "tax_liability_usd": 31257396
+      },
+      {
+        "zip": "95945",
+        "city": "Grass Valley",
+        "returns": 11422,
+        "agi_usd": 819773045,
+        "tax_liability_usd": 30290288
+      },
+      {
+        "zip": "95946",
+        "city": "Penn Valley",
+        "returns": 4678,
+        "agi_usd": 385268380,
+        "tax_liability_usd": 14482738
+      },
+      {
+        "zip": "96160",
+        "city": "Truckee",
+        "returns": 1367,
+        "agi_usd": 181067296,
+        "tax_liability_usd": 7575279
+      },
+      {
+        "zip": "96162",
+        "city": "Truckee",
+        "returns": 949,
+        "agi_usd": 92780390,
+        "tax_liability_usd": 4287634
+      },
+      {
+        "zip": "95728",
+        "city": "Soda Springs",
+        "returns": 262,
+        "agi_usd": 33394393,
+        "tax_liability_usd": 1990592
+      },
+      {
+        "zip": "95975",
+        "city": "Rough And Ready",
+        "returns": 767,
+        "agi_usd": 53494290,
+        "tax_liability_usd": 1719595
+      },
+      {
+        "zip": "95924",
+        "city": "Cedar Ridge",
+        "returns": 461,
+        "agi_usd": 31826772,
+        "tax_liability_usd": 1060237
+      },
+      {
+        "zip": "95712",
+        "city": "Chicago Park",
+        "returns": 227,
+        "agi_usd": 20924907,
+        "tax_liability_usd": 1041280
+      },
+      {
+        "zip": "95960",
+        "city": "North San Juan",
+        "returns": 490,
+        "agi_usd": 20578202,
+        "tax_liability_usd": 582504
+      },
+      {
+        "zip": "95724",
+        "city": "Norden",
+        "returns": 122,
+        "agi_usd": 4565135,
+        "tax_liability_usd": 186287
+      }
+    ]
+  }
+}

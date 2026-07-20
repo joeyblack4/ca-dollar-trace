@@ -1,0 +1,58 @@
+{
+  "source": {
+    "name": "CDTFA Open Data Portal \u2014 Insurance Tax Assessed by Insurer Type",
+    "publisher": "California Department of Tax and Fee Administration",
+    "url": "https://cdtfa.ca.gov/dataportal/",
+    "license": "Public record (CDTFA)"
+  },
+  "as_of": "2026-07-17T164940Z",
+  "ingested_at": "2026-07-17T16:49:40.766736+00:00",
+  "cadence": "annual assessment cycle",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Assessed amounts by insurer type \u2014 the tax on gross premiums written in California (2.35% standard rate). Tax paid by a named insurer is not public; the Department of Insurance publishes premium volumes by company, but not tax.",
+    "The budget waterfall shows the DOF General Fund estimate; CDTFA assessments differ slightly in timing and scope (e.g. surplus lines are administered separately)."
+  ],
+  "data": {
+    "assessment_year": 2025,
+    "business_year": 2024,
+    "budget_reference": {
+      "budget_year": "2025-26",
+      "waterfall_usd": 4359000000,
+      "stats_total_usd": 3470843941,
+      "note": "The budget waterfall shows the Department of Finance's enacted estimate for 2025-26. CDTFA assessed $3.47B on premiums written in 2024 \u2014 close measures, different timing and scope, shown side by side."
+    },
+    "types": [
+      {
+        "type": "Fire and Casualty",
+        "businesses": 1092,
+        "assessed_usd": 2486811263,
+        "share_pct": 71.38
+      },
+      {
+        "type": "Life",
+        "businesses": 485,
+        "assessed_usd": 981362373,
+        "share_pct": 28.17
+      },
+      {
+        "type": "Title",
+        "businesses": 33,
+        "assessed_usd": 12331835,
+        "share_pct": 0.35
+      },
+      {
+        "type": "Ocean Marine",
+        "businesses": 601,
+        "assessed_usd": 3502194,
+        "share_pct": 0.1
+      }
+    ],
+    "net_adjustments_usd": -13163724,
+    "reconciliation": {
+      "leaf_sum_usd": 3484007665,
+      "totals_usd": 3484007665,
+      "grand_totals_usd": 3470843941
+    }
+  }
+}

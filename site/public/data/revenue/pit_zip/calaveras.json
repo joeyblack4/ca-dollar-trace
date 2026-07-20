@@ -1,0 +1,151 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Calaveras",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 55640687,
+    "zips": [
+      {
+        "zip": "95252",
+        "city": "Valley Springs",
+        "returns": 6298,
+        "agi_usd": -1497817640,
+        "tax_liability_usd": 16204829
+      },
+      {
+        "zip": "95228",
+        "city": "Copperopolis",
+        "returns": 2162,
+        "agi_usd": 200542709,
+        "tax_liability_usd": 7922952
+      },
+      {
+        "zip": "95247",
+        "city": "Murphys",
+        "returns": 2060,
+        "agi_usd": 179980754,
+        "tax_liability_usd": 7216957
+      },
+      {
+        "zip": "95222",
+        "city": "Angels Camp",
+        "returns": 1937,
+        "agi_usd": 164129972,
+        "tax_liability_usd": 6672479
+      },
+      {
+        "zip": "95223",
+        "city": "Arnold",
+        "returns": 1594,
+        "agi_usd": 134662953,
+        "tax_liability_usd": 5557319
+      },
+      {
+        "zip": "95249",
+        "city": "San Andreas",
+        "returns": 1582,
+        "agi_usd": 98507884,
+        "tax_liability_usd": 3077434
+      },
+      {
+        "zip": "95245",
+        "city": "Mokelumne Hill",
+        "returns": 822,
+        "agi_usd": 52790651,
+        "tax_liability_usd": 1605879
+      },
+      {
+        "zip": "95255",
+        "city": "West Point",
+        "returns": 689,
+        "agi_usd": 40398525,
+        "tax_liability_usd": 1251979
+      },
+      {
+        "zip": "95246",
+        "city": "Mountain Ranch",
+        "returns": 640,
+        "agi_usd": -960176712,
+        "tax_liability_usd": 1171682
+      },
+      {
+        "zip": "95254",
+        "city": "Wallace",
+        "returns": 317,
+        "agi_usd": 29342821,
+        "tax_liability_usd": 1024461
+      },
+      {
+        "zip": "95221",
+        "city": "Altaville",
+        "returns": 527,
+        "agi_usd": 36062321,
+        "tax_liability_usd": 1022559
+      },
+      {
+        "zip": "95251",
+        "city": "Vallecito",
+        "returns": 309,
+        "agi_usd": 21978116,
+        "tax_liability_usd": 774131
+      },
+      {
+        "zip": "95225",
+        "city": "Burson",
+        "returns": 312,
+        "agi_usd": 21600685,
+        "tax_liability_usd": 693199
+      },
+      {
+        "zip": "95224",
+        "city": "Avery",
+        "returns": 224,
+        "agi_usd": 14530275,
+        "tax_liability_usd": 498650
+      },
+      {
+        "zip": "95233",
+        "city": "Hathaway Pines",
+        "returns": 162,
+        "agi_usd": 10381049,
+        "tax_liability_usd": 311611
+      },
+      {
+        "zip": "95257",
+        "city": "Wilseyville",
+        "returns": 178,
+        "agi_usd": 10685120,
+        "tax_liability_usd": 281274
+      },
+      {
+        "zip": "95248",
+        "city": "Rail Road Flat",
+        "returns": 139,
+        "agi_usd": 7345262,
+        "tax_liability_usd": 184008
+      },
+      {
+        "zip": "95232",
+        "city": "Glencoe",
+        "returns": 108,
+        "agi_usd": 6444537,
+        "tax_liability_usd": 169284
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Santa Barbara",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 978958616,
+    "zips": [
+      {
+        "zip": "93108",
+        "city": "Santa Barbara",
+        "returns": 4499,
+        "agi_usd": 2774616590,
+        "tax_liability_usd": 182417761
+      },
+      {
+        "zip": "93105",
+        "city": "Santa Barbara",
+        "returns": 12398,
+        "agi_usd": 1854354051,
+        "tax_liability_usd": 96143167
+      },
+      {
+        "zip": "93117",
+        "city": "Goleta",
+        "returns": 18199,
+        "agi_usd": 1756048888,
+        "tax_liability_usd": 76405944
+      },
+      {
+        "zip": "93111",
+        "city": "Santa Barbara",
+        "returns": 9019,
+        "agi_usd": 1339171699,
+        "tax_liability_usd": 71776056
+      },
+      {
+        "zip": "93110",
+        "city": "Santa Barbara",
+        "returns": 7693,
+        "agi_usd": 1218029053,
+        "tax_liability_usd": 68637055
+      },
+      {
+        "zip": "93101",
+        "city": "Santa Barbara",
+        "returns": 14469,
+        "agi_usd": 1509344949,
+        "tax_liability_usd": 67992602
+      },
+      {
+        "zip": "93455",
+        "city": "Santa Maria",
+        "returns": 20865,
+        "agi_usd": 1885861616,
+        "tax_liability_usd": 66585096
+      },
+      {
+        "zip": "93109",
+        "city": "Santa Barbara",
+        "returns": 5023,
+        "agi_usd": 965084650,
+        "tax_liability_usd": 55290045
+      },
+      {
+        "zip": "93103",
+        "city": "Santa Barbara",
+        "returns": 9055,
+        "agi_usd": 1047231372,
+        "tax_liability_usd": 52254514
+      },
+      {
+        "zip": "93436",
+        "city": "Lompoc",
+        "returns": 22908,
+        "agi_usd": 1450096492,
+        "tax_liability_usd": 43342398
+      },
+      {
+        "zip": "93013",
+        "city": "Carpinteria",
+        "returns": 7429,
+        "agi_usd": 790272550,
+        "tax_liability_usd": 38490937
+      },
+      {
+        "zip": "93460",
+        "city": "Santa Ynez",
+        "returns": 2696,
+        "agi_usd": 377223229,
+        "tax_liability_usd": 24502215
+      },
+      {
+        "zip": "93463",
+        "city": "Solvang",
+        "returns": 3674,
+        "agi_usd": 469272034,
+        "tax_liability_usd": 23268332
+      },
+      {
+        "zip": "93454",
+        "city": "Santa Maria",
+        "returns": 17663,
+        "agi_usd": 984965342,
+        "tax_liability_usd": 23175107
+      },
+      {
+        "zip": "93458",
+        "city": "Santa Maria",
+        "returns": 23624,
+        "agi_usd": 1080146232,
+        "tax_liability_usd": 17477304
+      },
+      {
+        "zip": "93427",
+        "city": "Buellton",
+        "returns": 3025,
+        "agi_usd": 372003244,
+        "tax_liability_usd": 14714494
+      },
+      {
+        "zip": "93150",
+        "city": "Santa Barbara",
+        "returns": 390,
+        "agi_usd": 349438452,
+        "tax_liability_usd": 13259597
+      },
+      {
+        "zip": "93441",
+        "city": "Los Olivos",
+        "returns": 608,
+        "agi_usd": 100055801,
+        "tax_liability_usd": 5936456
+      },
+      {
+        "zip": "93130",
+        "city": "Santa Barbara",
+        "returns": 522,
+        "agi_usd": 90611915,
+        "tax_liability_usd": 5613103
+      },
+      {
+        "zip": "93067",
+        "city": "Summerland",
+        "returns": 609,
+        "agi_usd": 85374237,
+        "tax_liability_usd": 4394652
+      },
+      {
+        "zip": "93434",
+        "city": "Guadalupe",
+        "returns": 3726,
+        "agi_usd": 196821674,
+        "tax_liability_usd": 4063323
+      },
+      {
+        "zip": "93140",
+        "city": "Santa Barbara",
+        "returns": 416,
+        "agi_usd": 91152899,
+        "tax_liability_usd": 3928171
+      },
+      {
+        "zip": "93456",
+        "city": "Santa Maria",
+        "returns": 1391,
+        "agi_usd": 91717028,
+        "tax_liability_usd": 2567169
+      },
+      {
+        "zip": "93440",
+        "city": "Los Alamos",
+        "returns": 813,
+        "agi_usd": 68428903,
+        "tax_liability_usd": 2344464
+      },
+      {
+        "zip": "93014",
+        "city": "Carpinteria",
+        "returns": 422,
+        "agi_usd": 45436483,
+        "tax_liability_usd": 2342778
+      },
+      {
+        "zip": "93102",
+        "city": "Santa Barbara",
+        "returns": 310,
+        "agi_usd": -36740737,
+        "tax_liability_usd": 2213762
+      },
+      {
+        "zip": "93464",
+        "city": "Solvang",
+        "returns": 362,
+        "agi_usd": 35804783,
+        "tax_liability_usd": 1355944
+      },
+      {
+        "zip": "93160",
+        "city": "Santa Barbara",
+        "returns": 250,
+        "agi_usd": 35785532,
+        "tax_liability_usd": 1353381
+      },
+      {
+        "zip": "93457",
+        "city": "Santa Maria",
+        "returns": 245,
+        "agi_usd": 30283906,
+        "tax_liability_usd": 1193639
+      },
+      {
+        "zip": "93190",
+        "city": "Santa Barbara",
+        "returns": 225,
+        "agi_usd": 23718782,
+        "tax_liability_usd": 1082747
+      },
+      {
+        "zip": "93116",
+        "city": "Goleta",
+        "returns": 333,
+        "agi_usd": 27573451,
+        "tax_liability_usd": 1071500
+      },
+      {
+        "zip": "93121",
+        "city": "Santa Barbara",
+        "returns": 223,
+        "agi_usd": 20141039,
+        "tax_liability_usd": 873447
+      },
+      {
+        "zip": "93438",
+        "city": "Lompoc",
+        "returns": 400,
+        "agi_usd": 26637430,
+        "tax_liability_usd": 839177
+      },
+      {
+        "zip": "93120",
+        "city": "Santa Barbara",
+        "returns": 217,
+        "agi_usd": 18946911,
+        "tax_liability_usd": 800527
+      },
+      {
+        "zip": "93118",
+        "city": "Goleta",
+        "returns": 151,
+        "agi_usd": 11761219,
+        "tax_liability_usd": 462031
+      },
+      {
+        "zip": "93254",
+        "city": "New Cuyama",
+        "returns": 266,
+        "agi_usd": 14355169,
+        "tax_liability_usd": 293191
+      },
+      {
+        "zip": "93106",
+        "city": "Santa Barbara",
+        "returns": 477,
+        "agi_usd": 13653336,
+        "tax_liability_usd": 250250
+      },
+      {
+        "zip": "93437",
+        "city": "Lompoc",
+        "returns": 512,
+        "agi_usd": 24612520,
+        "tax_liability_usd": 246280
+      }
+    ]
+  }
+}

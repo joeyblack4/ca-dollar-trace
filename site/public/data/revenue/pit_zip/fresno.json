@@ -1,0 +1,438 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Fresno",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 933131668,
+    "zips": [
+      {
+        "zip": "93619",
+        "city": "Clovis",
+        "returns": 22918,
+        "agi_usd": 3060137476,
+        "tax_liability_usd": 138122613
+      },
+      {
+        "zip": "93711",
+        "city": "Fresno",
+        "returns": 17848,
+        "agi_usd": 2334911280,
+        "tax_liability_usd": 107836562
+      },
+      {
+        "zip": "93720",
+        "city": "Fresno",
+        "returns": 21791,
+        "agi_usd": 2166114529,
+        "tax_liability_usd": 91058618
+      },
+      {
+        "zip": "93730",
+        "city": "Fresno",
+        "returns": 6614,
+        "agi_usd": 1324106339,
+        "tax_liability_usd": 74202355
+      },
+      {
+        "zip": "93611",
+        "city": "Clovis",
+        "returns": 20993,
+        "agi_usd": 1786316273,
+        "tax_liability_usd": 71611924
+      },
+      {
+        "zip": "93722",
+        "city": "Fresno",
+        "returns": 36643,
+        "agi_usd": 1996178031,
+        "tax_liability_usd": 53970228
+      },
+      {
+        "zip": "93727",
+        "city": "Fresno",
+        "returns": 35055,
+        "agi_usd": 2119334436,
+        "tax_liability_usd": 53010666
+      },
+      {
+        "zip": "93704",
+        "city": "Fresno",
+        "returns": 12208,
+        "agi_usd": 946939546,
+        "tax_liability_usd": 34123140
+      },
+      {
+        "zip": "93657",
+        "city": "Sanger",
+        "returns": 15432,
+        "agi_usd": 974653555,
+        "tax_liability_usd": 27696013
+      },
+      {
+        "zip": "93631",
+        "city": "Kingsburg",
+        "returns": 7354,
+        "agi_usd": 614747064,
+        "tax_liability_usd": 22594382
+      },
+      {
+        "zip": "93710",
+        "city": "Fresno",
+        "returns": 12680,
+        "agi_usd": 719598362,
+        "tax_liability_usd": 19414013
+      },
+      {
+        "zip": "93612",
+        "city": "Clovis",
+        "returns": 14946,
+        "agi_usd": 795906049,
+        "tax_liability_usd": 19293227
+      },
+      {
+        "zip": "93654",
+        "city": "Reedley",
+        "returns": 12692,
+        "agi_usd": 690522443,
+        "tax_liability_usd": 17518366
+      },
+      {
+        "zip": "93729",
+        "city": "Fresno",
+        "returns": 709,
+        "agi_usd": 189912444,
+        "tax_liability_usd": 16815253
+      },
+      {
+        "zip": "93723",
+        "city": "Fresno",
+        "returns": 6360,
+        "agi_usd": 447099862,
+        "tax_liability_usd": 14309592
+      },
+      {
+        "zip": "93662",
+        "city": "Selma",
+        "returns": 12304,
+        "agi_usd": 587743332,
+        "tax_liability_usd": 13225706
+      },
+      {
+        "zip": "93726",
+        "city": "Fresno",
+        "returns": 16885,
+        "agi_usd": 737940445,
+        "tax_liability_usd": 12876315
+      },
+      {
+        "zip": "93737",
+        "city": "Fresno",
+        "returns": 3427,
+        "agi_usd": 326067474,
+        "tax_liability_usd": 11952330
+      },
+      {
+        "zip": "93705",
+        "city": "Fresno",
+        "returns": 14347,
+        "agi_usd": 634354358,
+        "tax_liability_usd": 11570769
+      },
+      {
+        "zip": "93706",
+        "city": "Fresno",
+        "returns": 13405,
+        "agi_usd": 542568674,
+        "tax_liability_usd": 11147379
+      },
+      {
+        "zip": "93630",
+        "city": "Kerman",
+        "returns": 8402,
+        "agi_usd": 446264710,
+        "tax_liability_usd": 10291038
+      },
+      {
+        "zip": "93625",
+        "city": "Fowler",
+        "returns": 3897,
+        "agi_usd": 257961846,
+        "tax_liability_usd": 8091895
+      },
+      {
+        "zip": "93626",
+        "city": "Friant",
+        "returns": 1014,
+        "agi_usd": 161256258,
+        "tax_liability_usd": 8042038
+      },
+      {
+        "zip": "93210",
+        "city": "Coalinga",
+        "returns": 5443,
+        "agi_usd": -686701621,
+        "tax_liability_usd": 7777041
+      },
+      {
+        "zip": "93622",
+        "city": "Firebaugh",
+        "returns": 4163,
+        "agi_usd": 221968709,
+        "tax_liability_usd": 7599275
+      },
+      {
+        "zip": "93725",
+        "city": "Fresno",
+        "returns": 9987,
+        "agi_usd": 435462634,
+        "tax_liability_usd": 7515499
+      },
+      {
+        "zip": "93703",
+        "city": "Fresno",
+        "returns": 12384,
+        "agi_usd": 479791407,
+        "tax_liability_usd": 6179653
+      },
+      {
+        "zip": "93728",
+        "city": "Fresno",
+        "returns": 6341,
+        "agi_usd": 285505991,
+        "tax_liability_usd": 6075091
+      },
+      {
+        "zip": "93702",
+        "city": "Fresno",
+        "returns": 15596,
+        "agi_usd": 547245000,
+        "tax_liability_usd": 6022204
+      },
+      {
+        "zip": "93651",
+        "city": "Prather",
+        "returns": 819,
+        "agi_usd": 88421349,
+        "tax_liability_usd": 4241422
+      },
+      {
+        "zip": "93602",
+        "city": "Auberry",
+        "returns": 1342,
+        "agi_usd": 103459669,
+        "tax_liability_usd": 3482380
+      },
+      {
+        "zip": "93613",
+        "city": "Clovis",
+        "returns": 926,
+        "agi_usd": 83159281,
+        "tax_liability_usd": 3193576
+      },
+      {
+        "zip": "93648",
+        "city": "Parlier",
+        "returns": 5894,
+        "agi_usd": 222971969,
+        "tax_liability_usd": 2653684
+      },
+      {
+        "zip": "93609",
+        "city": "Caruthers",
+        "returns": 2174,
+        "agi_usd": 105755661,
+        "tax_liability_usd": 2542772
+      },
+      {
+        "zip": "93646",
+        "city": "Orange Cove",
+        "returns": 3884,
+        "agi_usd": 150514881,
+        "tax_liability_usd": 2531655
+      },
+      {
+        "zip": "93650",
+        "city": "Fresno",
+        "returns": 1600,
+        "agi_usd": 95471914,
+        "tax_liability_usd": 2494249
+      },
+      {
+        "zip": "93656",
+        "city": "Riverdale",
+        "returns": 2332,
+        "agi_usd": 112473397,
+        "tax_liability_usd": 2480982
+      },
+      {
+        "zip": "93667",
+        "city": "Tollhouse",
+        "returns": 905,
+        "agi_usd": 69576755,
+        "tax_liability_usd": 2364008
+      },
+      {
+        "zip": "93675",
+        "city": "Squaw Valley",
+        "returns": 1327,
+        "agi_usd": 84199966,
+        "tax_liability_usd": 2248140
+      },
+      {
+        "zip": "93721",
+        "city": "Fresno",
+        "returns": 1307,
+        "agi_usd": 65053503,
+        "tax_liability_usd": 1916208
+      },
+      {
+        "zip": "93242",
+        "city": "Laton",
+        "returns": 1191,
+        "agi_usd": 61128993,
+        "tax_liability_usd": 1758456
+      },
+      {
+        "zip": "93640",
+        "city": "Mendota",
+        "returns": 5864,
+        "agi_usd": 174886064,
+        "tax_liability_usd": 1672200
+      },
+      {
+        "zip": "93664",
+        "city": "Shaver Lake",
+        "returns": 256,
+        "agi_usd": 32160567,
+        "tax_liability_usd": 1476251
+      },
+      {
+        "zip": "93747",
+        "city": "Fresno",
+        "returns": 233,
+        "agi_usd": 33029510,
+        "tax_liability_usd": 1228566
+      },
+      {
+        "zip": "93701",
+        "city": "Fresno",
+        "returns": 3471,
+        "agi_usd": 113967992,
+        "tax_liability_usd": 1207561
+      },
+      {
+        "zip": "93616",
+        "city": "Del Rey",
+        "returns": 991,
+        "agi_usd": 45356981,
+        "tax_liability_usd": 934904
+      },
+      {
+        "zip": "93660",
+        "city": "San Joaquin",
+        "returns": 1565,
+        "agi_usd": 60187851,
+        "tax_liability_usd": 673761
+      },
+      {
+        "zip": "93234",
+        "city": "Huron",
+        "returns": 2140,
+        "agi_usd": 74320697,
+        "tax_liability_usd": 664835
+      },
+      {
+        "zip": "93755",
+        "city": "Fresno",
+        "returns": 246,
+        "agi_usd": 17465137,
+        "tax_liability_usd": 630086
+      },
+      {
+        "zip": "93668",
+        "city": "Tranquillity",
+        "returns": 402,
+        "agi_usd": 19055696,
+        "tax_liability_usd": 507742
+      },
+      {
+        "zip": "93606",
+        "city": "Biola",
+        "returns": 617,
+        "agi_usd": 19817829,
+        "tax_liability_usd": 426769
+      },
+      {
+        "zip": "93744",
+        "city": "Fresno",
+        "returns": 159,
+        "agi_usd": 10845848,
+        "tax_liability_usd": 393383
+      },
+      {
+        "zip": "93652",
+        "city": "Raisin",
+        "returns": 254,
+        "agi_usd": 10537326,
+        "tax_liability_usd": 280329
+      },
+      {
+        "zip": "93641",
+        "city": "Miramonte",
+        "returns": 119,
+        "agi_usd": 7729153,
+        "tax_liability_usd": 267542
+      },
+      {
+        "zip": "93745",
+        "city": "Fresno",
+        "returns": 147,
+        "agi_usd": 8115741,
+        "tax_liability_usd": 260769
+      },
+      {
+        "zip": "93621",
+        "city": "Dunlap",
+        "returns": 199,
+        "agi_usd": 10854223,
+        "tax_liability_usd": 252211
+      },
+      {
+        "zip": "93624",
+        "city": "Five Points",
+        "returns": 240,
+        "agi_usd": 11357207,
+        "tax_liability_usd": 200561
+      },
+      {
+        "zip": "93608",
+        "city": "Cantua Creek",
+        "returns": 385,
+        "agi_usd": 14365139,
+        "tax_liability_usd": 121072
+      },
+      {
+        "zip": "93628",
+        "city": "Hume",
+        "returns": 125,
+        "agi_usd": 6391595,
+        "tax_liability_usd": 82409
+      }
+    ]
+  }
+}

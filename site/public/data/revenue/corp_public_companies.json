@@ -1,0 +1,929 @@
+{
+  "source": {
+    "name": "SEC XBRL frames \u2014 Current State and Local Tax Expense",
+    "publisher": "U.S. Securities and Exchange Commission (EDGAR)",
+    "url": "https://www.sec.gov/edgar/sec-api-documentation",
+    "license": "Public domain (SEC EDGAR)"
+  },
+  "as_of": "2026-07-17T163650Z",
+  "ingested_at": "2026-07-17T16:36:50.653320+00:00",
+  "cadence": "annual 10-K cycle; the frame fills in over the months after each calendar year-end",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Self-reported by each company in its 10-K, as tagged in XBRL. All U.S. states and localities combined \u2014 the California share is not disclosed by anyone and cannot be derived.",
+    "Accrual expense, not cash paid, and non-calendar fiscal years are mapped to the nearest calendar year by SEC's frames API.",
+    "Implausible filings (state tax expense wildly exceeding the company's own total income tax expense \u2014 almost always an XBRL tagging error) are excluded and counted, never corrected."
+  ],
+  "data": {
+    "calendar_year": 2025,
+    "companies": [
+      {
+        "company": "MICROSOFT CORPORATION",
+        "cik": 789019,
+        "ticker": "MSFT",
+        "hq_state": "WA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 3342000000,
+        "total_income_tax_expense_usd": 21795000000
+      },
+      {
+        "company": "JPMorgan Chase & Co",
+        "cik": 19617,
+        "ticker": "JPM",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 2559000000,
+        "total_income_tax_expense_usd": 15547000000
+      },
+      {
+        "company": "AMAZON.COM, INC.",
+        "cik": 1018724,
+        "ticker": "AMZN",
+        "hq_state": "WA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 2067000000,
+        "total_income_tax_expense_usd": 19087000000
+      },
+      {
+        "company": "Apple Inc.",
+        "cik": 320193,
+        "ticker": "AAPL",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 1680000000,
+        "total_income_tax_expense_usd": 20719000000
+      },
+      {
+        "company": "NVIDIA CORP",
+        "cik": 1045810,
+        "ticker": "NVDA",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 1218000000,
+        "total_income_tax_expense_usd": 21383000000
+      },
+      {
+        "company": "Meta Platforms, Inc.",
+        "cik": 1326801,
+        "ticker": "META",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 745000000,
+        "total_income_tax_expense_usd": 25474000000
+      },
+      {
+        "company": "HOME DEPOT, INC.",
+        "cik": 354950,
+        "ticker": "HD",
+        "hq_state": "GA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 725000000,
+        "total_income_tax_expense_usd": 4446000000
+      },
+      {
+        "company": "COMCAST CORPORATION",
+        "cik": 1166691,
+        "ticker": "CMCSA",
+        "hq_state": "PA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 720000000,
+        "total_income_tax_expense_usd": 6106000000
+      },
+      {
+        "company": "Walmart Inc.",
+        "cik": 104169,
+        "ticker": "WMT",
+        "hq_state": "AR",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 678000000,
+        "total_income_tax_expense_usd": 7199000000
+      },
+      {
+        "company": "Verizon Communications Inc.",
+        "cik": 732712,
+        "ticker": "VZ",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 666000000,
+        "total_income_tax_expense_usd": 5064000000
+      },
+      {
+        "company": "MORGAN STANLEY",
+        "cik": 895421,
+        "ticker": "MS",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 601000000,
+        "total_income_tax_expense_usd": 4929000000
+      },
+      {
+        "company": "UnitedHealth Group Incorporated",
+        "cik": 731766,
+        "ticker": "UNH",
+        "hq_state": "MN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 598000000,
+        "total_income_tax_expense_usd": 1890000000
+      },
+      {
+        "company": "The Goldman Sachs Group, Inc.",
+        "cik": 886982,
+        "ticker": "GS",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 571000000,
+        "total_income_tax_expense_usd": 4676000000
+      },
+      {
+        "company": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+        "cik": 927628,
+        "ticker": "COF",
+        "hq_state": "VA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 527000000,
+        "total_income_tax_expense_usd": 193000000
+      },
+      {
+        "company": "American Express Co",
+        "cik": 4962,
+        "ticker": "AXP",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 497000000,
+        "total_income_tax_expense_usd": 2962000000
+      },
+      {
+        "company": "COSTCO WHOLESALE CORP /NEW",
+        "cik": 909832,
+        "ticker": "COST",
+        "hq_state": "WA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 449000000,
+        "total_income_tax_expense_usd": 2719000000
+      },
+      {
+        "company": "Bank of America Corporation",
+        "cik": 70858,
+        "ticker": "BAC",
+        "hq_state": "NC",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 442000000,
+        "total_income_tax_expense_usd": 7186000000
+      },
+      {
+        "company": "CISCO SYSTEMS, INC.",
+        "cik": 858877,
+        "ticker": "CSCO",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 431000000,
+        "total_income_tax_expense_usd": 920000000
+      },
+      {
+        "company": "WALT DISNEY CO/",
+        "cik": 1744489,
+        "ticker": "DIS",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 413000000,
+        "total_income_tax_expense_usd": -1428000000
+      },
+      {
+        "company": "ALTRIA GROUP, INC.",
+        "cik": 764180,
+        "ticker": "MO",
+        "hq_state": "VA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 410000000,
+        "total_income_tax_expense_usd": 2442000000
+      },
+      {
+        "company": "CVS HEALTH CORPORATION",
+        "cik": 64803,
+        "ticker": "CVS",
+        "hq_state": "RI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 409000000,
+        "total_income_tax_expense_usd": 408000000
+      },
+      {
+        "company": "PROCTER & GAMBLE CO",
+        "cik": 80424,
+        "ticker": "PG",
+        "hq_state": "OH",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 407000000,
+        "total_income_tax_expense_usd": 4102000000
+      },
+      {
+        "company": "US BANCORP \\DE\\",
+        "cik": 36104,
+        "ticker": "USB",
+        "hq_state": "MN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 394000000,
+        "total_income_tax_expense_usd": 1921000000
+      },
+      {
+        "company": "LOWE\u2019S\u00a0COMPANIES, INC",
+        "cik": 60667,
+        "ticker": "LOW",
+        "hq_state": "NC",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 386000000,
+        "total_income_tax_expense_usd": 2093000000
+      },
+      {
+        "company": "The TJX Companies, Inc.",
+        "cik": 109198,
+        "ticker": "TJX",
+        "hq_state": "MA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 351000000,
+        "total_income_tax_expense_usd": 1805000000
+      },
+      {
+        "company": "SCHWAB CHARLES CORP",
+        "cik": 316709,
+        "ticker": "SCHW",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 348000000,
+        "total_income_tax_expense_usd": 2607000000
+      },
+      {
+        "company": "UNION PACIFIC CORP",
+        "cik": 100885,
+        "ticker": "UNP",
+        "hq_state": "NE",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 321000000,
+        "total_income_tax_expense_usd": 2028000000
+      },
+      {
+        "company": "Charter Communications, Inc.",
+        "cik": 1091667,
+        "ticker": "CHTR",
+        "hq_state": "CT",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 321000000,
+        "total_income_tax_expense_usd": 1692000000
+      },
+      {
+        "company": "Netflix, Inc.",
+        "cik": 1065280,
+        "ticker": "NFLX",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 311863000,
+        "total_income_tax_expense_usd": 1741351000
+      },
+      {
+        "company": "Chevron Corp",
+        "cik": 93410,
+        "ticker": "CVX",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 309000000,
+        "total_income_tax_expense_usd": 7258000000
+      },
+      {
+        "company": "Oracle Corporation",
+        "cik": 1341439,
+        "ticker": "ORCL",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 307000000,
+        "total_income_tax_expense_usd": 2467000000
+      },
+      {
+        "company": "CME GROUP INC.",
+        "cik": 1156375,
+        "ticker": "CME",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 295600000,
+        "total_income_tax_expense_usd": 1258300000
+      },
+      {
+        "company": "T-MOBILE US, INC.",
+        "cik": 1283699,
+        "ticker": "TMUS",
+        "hq_state": "WA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 295000000,
+        "total_income_tax_expense_usd": 3289000000
+      },
+      {
+        "company": "S&P Global Inc.",
+        "cik": 64040,
+        "ticker": "SPGI",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 292000000,
+        "total_income_tax_expense_usd": 1407000000
+      },
+      {
+        "company": "FIRST CITIZENS BANCSHARES INC /DE/",
+        "cik": 798941,
+        "ticker": "FCNCA",
+        "hq_state": "NC",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 286000000,
+        "total_income_tax_expense_usd": 765000000
+      },
+      {
+        "company": "ADOBE INC.",
+        "cik": 796343,
+        "ticker": "ADBE",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 261000000,
+        "total_income_tax_expense_usd": 1604000000
+      },
+      {
+        "company": "VISA INC.",
+        "cik": 1403161,
+        "ticker": "V",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 251000000,
+        "total_income_tax_expense_usd": 4136000000
+      },
+      {
+        "company": "HCA Healthcare, Inc.",
+        "cik": 860730,
+        "ticker": "HCA",
+        "hq_state": "TN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 248000000,
+        "total_income_tax_expense_usd": 2050000000
+      },
+      {
+        "company": "INTUIT INC.",
+        "cik": 896878,
+        "ticker": "INTU",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 237000000,
+        "total_income_tax_expense_usd": 965000000
+      },
+      {
+        "company": "BURLINGTON NORTHERN SANTA FE, LLC",
+        "cik": 934612,
+        "ticker": null,
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 234000000,
+        "total_income_tax_expense_usd": 1699000000
+      },
+      {
+        "company": "WELLS FARGO & COMPANY/MN",
+        "cik": 72971,
+        "ticker": "WFC",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 231000000,
+        "total_income_tax_expense_usd": 3841000000
+      },
+      {
+        "company": "Fiserv, Inc.",
+        "cik": 798354,
+        "ticker": "FISV",
+        "hq_state": "WI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 221000000,
+        "total_income_tax_expense_usd": 811000000
+      },
+      {
+        "company": "McKESSON CORPORATION",
+        "cik": 927653,
+        "ticker": "MCK",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 217000000,
+        "total_income_tax_expense_usd": 1102000000
+      },
+      {
+        "company": "BlackRock, Inc.",
+        "cik": 2012383,
+        "ticker": "BLK",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 214000000,
+        "total_income_tax_expense_usd": 1677000000
+      },
+      {
+        "company": "GENERAL MOTORS COMPANY",
+        "cik": 1467858,
+        "ticker": "GM",
+        "hq_state": "MI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 211000000,
+        "total_income_tax_expense_usd": 338000000
+      },
+      {
+        "company": "TARGET CORPORATION",
+        "cik": 27419,
+        "ticker": "TGT",
+        "hq_state": "MN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 202000000,
+        "total_income_tax_expense_usd": 1062000000
+      },
+      {
+        "company": "McDONALD\u2019S\u00a0CORPORATION",
+        "cik": 63908,
+        "ticker": "MCD",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 198000000,
+        "total_income_tax_expense_usd": 2334000000
+      },
+      {
+        "company": "M&T BANK CORPORATION",
+        "cik": 36270,
+        "ticker": "MTB",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 190000000,
+        "total_income_tax_expense_usd": 841000000
+      },
+      {
+        "company": "FLUOR CORPORATION",
+        "cik": 1124198,
+        "ticker": "FLR",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 190000000,
+        "total_income_tax_expense_usd": -39000000
+      },
+      {
+        "company": "Blackstone Inc.",
+        "cik": 1393818,
+        "ticker": "BX",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 186952000,
+        "total_income_tax_expense_usd": 1125023000
+      },
+      {
+        "company": "Broadcom Inc.",
+        "cik": 1730168,
+        "ticker": "AVGO",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 185000000,
+        "total_income_tax_expense_usd": -397000000
+      },
+      {
+        "company": "COCA COLA CO",
+        "cik": 21344,
+        "ticker": "KO",
+        "hq_state": "GA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 178000000,
+        "total_income_tax_expense_usd": 2861000000
+      },
+      {
+        "company": "ConocoPhillips",
+        "cik": 1163165,
+        "ticker": "COP",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 177000000,
+        "total_income_tax_expense_usd": 4668000000
+      },
+      {
+        "company": "AUTOMATIC DATA PROCESSING, INC.",
+        "cik": 8670,
+        "ticker": "ADP",
+        "hq_state": "NJ",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 176900000,
+        "total_income_tax_expense_usd": 1230400000
+      },
+      {
+        "company": "FOX CORPORATION",
+        "cik": 1754301,
+        "ticker": "FOXA",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 175000000,
+        "total_income_tax_expense_usd": 768000000
+      },
+      {
+        "company": "D.R. Horton, Inc.",
+        "cik": 882184,
+        "ticker": "DHI",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 174400000,
+        "total_income_tax_expense_usd": 1119000000
+      },
+      {
+        "company": "PNC FINANCIAL SERVICES GROUP, INC",
+        "cik": 713676,
+        "ticker": "PNC",
+        "hq_state": "PA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 173000000,
+        "total_income_tax_expense_usd": 1489000000
+      },
+      {
+        "company": "PFIZER INC",
+        "cik": 78003,
+        "ticker": "PFE",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 172000000,
+        "total_income_tax_expense_usd": -266000000
+      },
+      {
+        "company": "The Cigna Group",
+        "cik": 1739940,
+        "ticker": "CI",
+        "hq_state": "CT",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 169000000,
+        "total_income_tax_expense_usd": 1493000000
+      },
+      {
+        "company": "SYNCHRONY FINANCIAL",
+        "cik": 1601712,
+        "ticker": "SYF",
+        "hq_state": "CT",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 167000000,
+        "total_income_tax_expense_usd": 1069000000
+      },
+      {
+        "company": "KKR\u00a0&\u00a0CO.\u00a0INC.",
+        "cik": 1404912,
+        "ticker": "KKR",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 164258000,
+        "total_income_tax_expense_usd": 953748000
+      },
+      {
+        "company": "Dell Technologies Inc.",
+        "cik": 1571996,
+        "ticker": "DELL",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 164000000,
+        "total_income_tax_expense_usd": 1327000000
+      },
+      {
+        "company": "Cboe Global Markets, Inc.",
+        "cik": 1374310,
+        "ticker": "CBOE",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 162900000,
+        "total_income_tax_expense_usd": 466600000
+      },
+      {
+        "company": "LENNAR CORP /NEW/",
+        "cik": 920760,
+        "ticker": "LEN",
+        "hq_state": "FL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 154378000,
+        "total_income_tax_expense_usd": 705563000
+      },
+      {
+        "company": "AMERIPRISE FINANCIAL, INC.",
+        "cik": 820027,
+        "ticker": "AMP",
+        "hq_state": "MN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 154000000,
+        "total_income_tax_expense_usd": 941000000
+      },
+      {
+        "company": "O Reilly Automotive Inc",
+        "cik": 898173,
+        "ticker": "ORLY",
+        "hq_state": "MO",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 153026000,
+        "total_income_tax_expense_usd": 701962000
+      },
+      {
+        "company": "EAST WEST BANCORP,\u00a0INC.",
+        "cik": 1069157,
+        "ticker": "EWBC",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 149291000,
+        "total_income_tax_expense_usd": 400272000
+      },
+      {
+        "company": "STRYKER CORP",
+        "cik": 310764,
+        "ticker": "SYK",
+        "hq_state": "MI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 149000000,
+        "total_income_tax_expense_usd": 1268000000
+      },
+      {
+        "company": "ARISTA NETWORKS,\u00a0INC.",
+        "cik": 1596532,
+        "ticker": "ANET",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 142900000,
+        "total_income_tax_expense_usd": 738300000
+      },
+      {
+        "company": "COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION",
+        "cik": 1058290,
+        "ticker": "CTSH",
+        "hq_state": "NJ",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 139000000,
+        "total_income_tax_expense_usd": 1258000000
+      },
+      {
+        "company": "CONSTELLATION ENERGY CORPORATION",
+        "cik": 1868275,
+        "ticker": "CEG",
+        "hq_state": "MD",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 136000000,
+        "total_income_tax_expense_usd": 1187000000
+      },
+      {
+        "company": "ALLY FINANCIAL INC.",
+        "cik": 40729,
+        "ticker": "ALLY",
+        "hq_state": "MI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 135000000,
+        "total_income_tax_expense_usd": 199000000
+      },
+      {
+        "company": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+        "cik": 51143,
+        "ticker": "IBM",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 135000000,
+        "total_income_tax_expense_usd": -242000000
+      },
+      {
+        "company": "CSX CORPORATION",
+        "cik": 277948,
+        "ticker": "CSX",
+        "hq_state": "FL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 133000000,
+        "total_income_tax_expense_usd": 880000000
+      },
+      {
+        "company": "Marsh\u00a0& McLennan Companies, Inc.",
+        "cik": 62709,
+        "ticker": "MRSH",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 131000000,
+        "total_income_tax_expense_usd": 1305000000
+      },
+      {
+        "company": "Warner Bros. Discovery, Inc.",
+        "cik": 1437107,
+        "ticker": "WBD",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 131000000,
+        "total_income_tax_expense_usd": 890000000
+      },
+      {
+        "company": "Marathon Petroleum Corporation",
+        "cik": 1510295,
+        "ticker": "MPC",
+        "hq_state": "OH",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 129000000,
+        "total_income_tax_expense_usd": 1137000000
+      },
+      {
+        "company": "ELEVANCE HEALTH, INC.",
+        "cik": 1156039,
+        "ticker": "ELV",
+        "hq_state": "IN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 128000000,
+        "total_income_tax_expense_usd": 1049000000
+      },
+      {
+        "company": "THERMO FISHER SCIENTIFIC INC.",
+        "cik": 97745,
+        "ticker": "TMO",
+        "hq_state": "MA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 126000000,
+        "total_income_tax_expense_usd": 547000000
+      },
+      {
+        "company": "RAYMOND JAMES FINANCIAL, INC.",
+        "cik": 720005,
+        "ticker": "RJF",
+        "hq_state": "FL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 126000000,
+        "total_income_tax_expense_usd": 579000000
+      },
+      {
+        "company": "Ferguson Enterprises Inc.",
+        "cik": 2011641,
+        "ticker": "FERG",
+        "hq_state": "VA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 125000000,
+        "total_income_tax_expense_usd": 567000000
+      },
+      {
+        "company": "ALLSTATE CORP",
+        "cik": 899051,
+        "ticker": "ALL",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 122000000,
+        "total_income_tax_expense_usd": 2890000000
+      },
+      {
+        "company": "Waste Management, Inc",
+        "cik": 823768,
+        "ticker": "WM",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 121000000,
+        "total_income_tax_expense_usd": 717000000
+      },
+      {
+        "company": "REGIONS FINANCIAL CORPORATION",
+        "cik": 1281761,
+        "ticker": "RF",
+        "hq_state": "AL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 121000000,
+        "total_income_tax_expense_usd": 587000000
+      },
+      {
+        "company": "PULTEGROUP, INC.",
+        "cik": 822416,
+        "ticker": "PHM",
+        "hq_state": "GA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 120832000,
+        "total_income_tax_expense_usd": 692591000
+      },
+      {
+        "company": "Starbucks Corporation",
+        "cik": 829224,
+        "ticker": "SBUX",
+        "hq_state": "WA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 120400000,
+        "total_income_tax_expense_usd": 650600000
+      },
+      {
+        "company": "TENET HEALTHCARE CORP",
+        "cik": 70318,
+        "ticker": "THC",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 119000000,
+        "total_income_tax_expense_usd": 433000000
+      },
+      {
+        "company": "MOTOROLA SOLUTIONS,\u00a0INC.",
+        "cik": 68505,
+        "ticker": "MSI",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 116000000,
+        "total_income_tax_expense_usd": 652000000
+      },
+      {
+        "company": "UBER TECHNOLOGIES, INC.",
+        "cik": 1543151,
+        "ticker": "UBER",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 116000000,
+        "total_income_tax_expense_usd": -4346000000
+      },
+      {
+        "company": "TRUIST FINANCIAL CORPORATION",
+        "cik": 92230,
+        "ticker": "TFC",
+        "hq_state": "NC",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 115000000,
+        "total_income_tax_expense_usd": 1042000000
+      },
+      {
+        "company": "LINDE PLC",
+        "cik": 1707925,
+        "ticker": "LIN",
+        "hq_state": "X0",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 114000000,
+        "total_income_tax_expense_usd": 1989000000
+      },
+      {
+        "company": "Ross Stores, Inc.",
+        "cik": 745732,
+        "ticker": "ROST",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 113803000,
+        "total_income_tax_expense_usd": 697113000
+      },
+      {
+        "company": "United Parcel Service, Inc.",
+        "cik": 1090727,
+        "ticker": "UPS",
+        "hq_state": "GA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 113000000,
+        "total_income_tax_expense_usd": 1592000000
+      },
+      {
+        "company": "CATERPILLAR INC",
+        "cik": 18230,
+        "ticker": "CAT",
+        "hq_state": "TX",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 109000000,
+        "total_income_tax_expense_usd": 2768000000
+      },
+      {
+        "company": "Palo Alto Networks, Inc",
+        "cik": 1327567,
+        "ticker": "PANW",
+        "hq_state": "CA",
+        "ca_hq": true,
+        "state_local_tax_expense_usd": 108200000,
+        "total_income_tax_expense_usd": 461800000
+      },
+      {
+        "company": "POPULAR, INC.",
+        "cik": 763901,
+        "ticker": "BPOP",
+        "hq_state": "PR",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 107055000,
+        "total_income_tax_expense_usd": 173634000
+      },
+      {
+        "company": "CITIZENS FINANCIAL GROUP INC/RI",
+        "cik": 759944,
+        "ticker": "CFG",
+        "hq_state": "RI",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 107000000,
+        "total_income_tax_expense_usd": 497000000
+      },
+      {
+        "company": "United Rentals, Inc.",
+        "cik": 1067701,
+        "ticker": "URI",
+        "hq_state": "CT",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 106000000,
+        "total_income_tax_expense_usd": 844000000
+      },
+      {
+        "company": "NORFOLK SOUTHERN CORPORATION",
+        "cik": 702165,
+        "ticker": "NSC",
+        "hq_state": "GA",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 105000000,
+        "total_income_tax_expense_usd": 792000000
+      },
+      {
+        "company": "DEERE & CO",
+        "cik": 315189,
+        "ticker": "DE",
+        "hq_state": "IL",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 103000000,
+        "total_income_tax_expense_usd": 1259000000
+      }
+    ],
+    "universe": {
+      "companies_reporting": 3089,
+      "excluded_implausible": 13,
+      "shown": 100,
+      "screen_rule": "excluded where state+local expense > 10x the company's own total income tax expense + $5,000,000 (XBRL tagging errors), or where no total was reported to check against"
+    },
+    "measure_note": "Current state AND local income tax expense across ALL U.S. states, as each company reported it to the SEC \u2014 accrual expense, not cash paid. The California share is confidential by law (R&TC \u00a719542) and cannot be derived."
+  }
+}

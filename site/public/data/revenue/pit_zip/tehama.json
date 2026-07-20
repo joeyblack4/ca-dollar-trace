@@ -1,0 +1,81 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Tehama",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 35892451,
+    "zips": [
+      {
+        "zip": "96080",
+        "city": "Red Bluff",
+        "returns": 11770,
+        "agi_usd": 771762246,
+        "tax_liability_usd": 23882008
+      },
+      {
+        "zip": "96021",
+        "city": "Corning",
+        "returns": 6538,
+        "agi_usd": 335429098,
+        "tax_liability_usd": 7184789
+      },
+      {
+        "zip": "96055",
+        "city": "Los Molinos",
+        "returns": 1511,
+        "agi_usd": 108800869,
+        "tax_liability_usd": 2504522
+      },
+      {
+        "zip": "96035",
+        "city": "Gerber",
+        "returns": 1205,
+        "agi_usd": 62544535,
+        "tax_liability_usd": 1358274
+      },
+      {
+        "zip": "96059",
+        "city": "Manton",
+        "returns": 189,
+        "agi_usd": 11707770,
+        "tax_liability_usd": 395235
+      },
+      {
+        "zip": "96092",
+        "city": "Vina",
+        "returns": 190,
+        "agi_usd": 7666593,
+        "tax_liability_usd": 265877
+      },
+      {
+        "zip": "96090",
+        "city": "Tehama",
+        "returns": 190,
+        "agi_usd": 9905514,
+        "tax_liability_usd": 199042
+      },
+      {
+        "zip": "96078",
+        "city": "Proberta",
+        "returns": 110,
+        "agi_usd": 5076992,
+        "tax_liability_usd": 102704
+      }
+    ]
+  }
+}

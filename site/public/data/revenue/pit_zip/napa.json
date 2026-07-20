@@ -1,0 +1,95 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Napa",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 362770783,
+    "zips": [
+      {
+        "zip": "94558",
+        "city": "Napa",
+        "returns": 30921,
+        "agi_usd": 3679327295,
+        "tax_liability_usd": 175990235
+      },
+      {
+        "zip": "94559",
+        "city": "Napa",
+        "returns": 12894,
+        "agi_usd": 1365159719,
+        "tax_liability_usd": 64150193
+      },
+      {
+        "zip": "94574",
+        "city": "Saint Helena",
+        "returns": 3570,
+        "agi_usd": 919357875,
+        "tax_liability_usd": 49039599
+      },
+      {
+        "zip": "94503",
+        "city": "American Canyon",
+        "returns": 10395,
+        "agi_usd": 902960469,
+        "tax_liability_usd": 32316062
+      },
+      {
+        "zip": "94515",
+        "city": "Calistoga",
+        "returns": 3208,
+        "agi_usd": 353686000,
+        "tax_liability_usd": 16008678
+      },
+      {
+        "zip": "94599",
+        "city": "Yountville",
+        "returns": 1217,
+        "agi_usd": 176142890,
+        "tax_liability_usd": 9727627
+      },
+      {
+        "zip": "94573",
+        "city": "Rutherford",
+        "returns": 196,
+        "agi_usd": 149932738,
+        "tax_liability_usd": 6588406
+      },
+      {
+        "zip": "94508",
+        "city": "Angwin",
+        "returns": 1117,
+        "agi_usd": 120484031,
+        "tax_liability_usd": 4924597
+      },
+      {
+        "zip": "94581",
+        "city": "Napa",
+        "returns": 366,
+        "agi_usd": 48351869,
+        "tax_liability_usd": 2832182
+      },
+      {
+        "zip": "94567",
+        "city": "Pope Valley",
+        "returns": 265,
+        "agi_usd": 40441290,
+        "tax_liability_usd": 1193204
+      }
+    ]
+  }
+}

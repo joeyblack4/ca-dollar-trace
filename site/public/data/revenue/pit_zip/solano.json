@@ -1,0 +1,130 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Solano",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 634536783,
+    "zips": [
+      {
+        "zip": "94534",
+        "city": "Fairfield",
+        "returns": 19539,
+        "agi_usd": 2551812892,
+        "tax_liability_usd": 108414004
+      },
+      {
+        "zip": "95687",
+        "city": "Vacaville",
+        "returns": 29607,
+        "agi_usd": 2528974226,
+        "tax_liability_usd": 88431808
+      },
+      {
+        "zip": "95688",
+        "city": "Vacaville",
+        "returns": 17810,
+        "agi_usd": 2125994496,
+        "tax_liability_usd": 81814024
+      },
+      {
+        "zip": "94510",
+        "city": "Benicia",
+        "returns": 13189,
+        "agi_usd": 1630026013,
+        "tax_liability_usd": 78287589
+      },
+      {
+        "zip": "94591",
+        "city": "Vallejo",
+        "returns": 26340,
+        "agi_usd": 2150001345,
+        "tax_liability_usd": 76265775
+      },
+      {
+        "zip": "94533",
+        "city": "Fairfield",
+        "returns": 34210,
+        "agi_usd": 2475632357,
+        "tax_liability_usd": 72502302
+      },
+      {
+        "zip": "95620",
+        "city": "Dixon",
+        "returns": 10677,
+        "agi_usd": 927446396,
+        "tax_liability_usd": 32363361
+      },
+      {
+        "zip": "94590",
+        "city": "Vallejo",
+        "returns": 15844,
+        "agi_usd": 964323517,
+        "tax_liability_usd": 28324337
+      },
+      {
+        "zip": "94585",
+        "city": "Suisun City",
+        "returns": 13570,
+        "agi_usd": 767370815,
+        "tax_liability_usd": 27628804
+      },
+      {
+        "zip": "94589",
+        "city": "Vallejo",
+        "returns": 13801,
+        "agi_usd": 825814153,
+        "tax_liability_usd": 20184402
+      },
+      {
+        "zip": "94571",
+        "city": "Rio Vista",
+        "returns": 5523,
+        "agi_usd": 419055303,
+        "tax_liability_usd": 14338577
+      },
+      {
+        "zip": "95696",
+        "city": "Vacaville",
+        "returns": 694,
+        "agi_usd": 68216189,
+        "tax_liability_usd": 3015343
+      },
+      {
+        "zip": "94592",
+        "city": "Vallejo",
+        "returns": 415,
+        "agi_usd": 47929335,
+        "tax_liability_usd": 2026770
+      },
+      {
+        "zip": "94535",
+        "city": "Travis Afb",
+        "returns": 815,
+        "agi_usd": 41286982,
+        "tax_liability_usd": 551851
+      },
+      {
+        "zip": "95625",
+        "city": "Elmira",
+        "returns": 150,
+        "agi_usd": 11807252,
+        "tax_liability_usd": 387836
+      }
+    ]
+  }
+}

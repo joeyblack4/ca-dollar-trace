@@ -1,0 +1,102 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Tuolumne",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 54484092,
+    "zips": [
+      {
+        "zip": "95370",
+        "city": "Sonora",
+        "returns": 11700,
+        "agi_usd": 879558264,
+        "tax_liability_usd": 29361899
+      },
+      {
+        "zip": "95383",
+        "city": "Twain Harte",
+        "returns": 1829,
+        "agi_usd": 157324310,
+        "tax_liability_usd": 6259284
+      },
+      {
+        "zip": "95327",
+        "city": "Jamestown",
+        "returns": 2532,
+        "agi_usd": 174093321,
+        "tax_liability_usd": 5437651
+      },
+      {
+        "zip": "95321",
+        "city": "Groveland",
+        "returns": 1533,
+        "agi_usd": 111621430,
+        "tax_liability_usd": 4302512
+      },
+      {
+        "zip": "95379",
+        "city": "Tuolumne",
+        "returns": 1622,
+        "agi_usd": 113879599,
+        "tax_liability_usd": 3090634
+      },
+      {
+        "zip": "95372",
+        "city": "Soulsbyville",
+        "returns": 1088,
+        "agi_usd": 77601497,
+        "tax_liability_usd": 2281868
+      },
+      {
+        "zip": "95310",
+        "city": "Columbia",
+        "returns": 967,
+        "agi_usd": 61156110,
+        "tax_liability_usd": 2025064
+      },
+      {
+        "zip": "95346",
+        "city": "Mi Wuk Village",
+        "returns": 412,
+        "agi_usd": 29841672,
+        "tax_liability_usd": 932891
+      },
+      {
+        "zip": "95309",
+        "city": "Chinese Camp",
+        "returns": 109,
+        "agi_usd": 8944248,
+        "tax_liability_usd": 318764
+      },
+      {
+        "zip": "95335",
+        "city": "Long Barn",
+        "returns": 126,
+        "agi_usd": 7375865,
+        "tax_liability_usd": 258602
+      },
+      {
+        "zip": "95305",
+        "city": "Big Oak Flat",
+        "returns": 129,
+        "agi_usd": 7175255,
+        "tax_liability_usd": 214923
+      }
+    ]
+  }
+}

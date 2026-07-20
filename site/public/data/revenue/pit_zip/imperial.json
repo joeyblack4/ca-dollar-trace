@@ -1,0 +1,130 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Imperial",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 108125923,
+    "zips": [
+      {
+        "zip": "92243",
+        "city": "El Centro",
+        "returns": 20737,
+        "agi_usd": 1155881093,
+        "tax_liability_usd": 30802572
+      },
+      {
+        "zip": "92251",
+        "city": "Imperial",
+        "returns": 10330,
+        "agi_usd": 760561240,
+        "tax_liability_usd": 21442877
+      },
+      {
+        "zip": "92227",
+        "city": "Brawley",
+        "returns": 11151,
+        "agi_usd": 698814607,
+        "tax_liability_usd": 20961868
+      },
+      {
+        "zip": "92231",
+        "city": "Calexico",
+        "returns": 19948,
+        "agi_usd": 839160035,
+        "tax_liability_usd": 15691980
+      },
+      {
+        "zip": "92250",
+        "city": "Holtville",
+        "returns": 3328,
+        "agi_usd": 238224274,
+        "tax_liability_usd": 9663956
+      },
+      {
+        "zip": "92249",
+        "city": "Heber",
+        "returns": 2979,
+        "agi_usd": 160256201,
+        "tax_liability_usd": 3307046
+      },
+      {
+        "zip": "92244",
+        "city": "El Centro",
+        "returns": 804,
+        "agi_usd": 48768808,
+        "tax_liability_usd": 1557340
+      },
+      {
+        "zip": "92233",
+        "city": "Calipatria",
+        "returns": 1443,
+        "agi_usd": 67268224,
+        "tax_liability_usd": 1299609
+      },
+      {
+        "zip": "92232",
+        "city": "Calexico",
+        "returns": 4527,
+        "agi_usd": 123151091,
+        "tax_liability_usd": 1298337
+      },
+      {
+        "zip": "92281",
+        "city": "Westmorland",
+        "returns": 859,
+        "agi_usd": 38477017,
+        "tax_liability_usd": 705190
+      },
+      {
+        "zip": "92257",
+        "city": "Niland",
+        "returns": 421,
+        "agi_usd": 18390433,
+        "tax_liability_usd": 511499
+      },
+      {
+        "zip": "92273",
+        "city": "Seeley",
+        "returns": 653,
+        "agi_usd": 26436397,
+        "tax_liability_usd": 340985
+      },
+      {
+        "zip": "92283",
+        "city": "Winterhaven",
+        "returns": 666,
+        "agi_usd": 21685791,
+        "tax_liability_usd": 206132
+      },
+      {
+        "zip": "92275",
+        "city": "Salton City",
+        "returns": 259,
+        "agi_usd": 11391813,
+        "tax_liability_usd": 195415
+      },
+      {
+        "zip": "92259",
+        "city": "Ocotillo",
+        "returns": 100,
+        "agi_usd": 5193056,
+        "tax_liability_usd": 141117
+      }
+    ]
+  }
+}

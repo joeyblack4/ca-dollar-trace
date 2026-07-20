@@ -1,0 +1,277 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Francisco",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 5968258950,
+    "zips": [
+      {
+        "zip": "94114",
+        "city": "San Francisco",
+        "returns": 18353,
+        "agi_usd": 6566051704,
+        "tax_liability_usd": 535527187
+      },
+      {
+        "zip": "94118",
+        "city": "San Francisco",
+        "returns": 19087,
+        "agi_usd": 6397003752,
+        "tax_liability_usd": 446404410
+      },
+      {
+        "zip": "94110",
+        "city": "San Francisco",
+        "returns": 33829,
+        "agi_usd": 6208232201,
+        "tax_liability_usd": 437587907
+      },
+      {
+        "zip": "94115",
+        "city": "San Francisco",
+        "returns": 17825,
+        "agi_usd": 5555728118,
+        "tax_liability_usd": 419177712
+      },
+      {
+        "zip": "94123",
+        "city": "San Francisco",
+        "returns": 14093,
+        "agi_usd": 5102543669,
+        "tax_liability_usd": 388630417
+      },
+      {
+        "zip": "94105",
+        "city": "San Francisco",
+        "returns": 8460,
+        "agi_usd": 4257221610,
+        "tax_liability_usd": 355189286
+      },
+      {
+        "zip": "94109",
+        "city": "San Francisco",
+        "returns": 28986,
+        "agi_usd": 5166380845,
+        "tax_liability_usd": 347061003
+      },
+      {
+        "zip": "94117",
+        "city": "San Francisco",
+        "returns": 20394,
+        "agi_usd": 4702128028,
+        "tax_liability_usd": 344636274
+      },
+      {
+        "zip": "94107",
+        "city": "San Francisco",
+        "returns": 17742,
+        "agi_usd": 4280326212,
+        "tax_liability_usd": 316729657
+      },
+      {
+        "zip": "94131",
+        "city": "San Francisco",
+        "returns": 14606,
+        "agi_usd": 4113534927,
+        "tax_liability_usd": 311935143
+      },
+      {
+        "zip": "94122",
+        "city": "San Francisco",
+        "returns": 28568,
+        "agi_usd": 4176221139,
+        "tax_liability_usd": 249731604
+      },
+      {
+        "zip": "94121",
+        "city": "San Francisco",
+        "returns": 20970,
+        "agi_usd": 3889357472,
+        "tax_liability_usd": 232687991
+      },
+      {
+        "zip": "94116",
+        "city": "San Francisco",
+        "returns": 21535,
+        "agi_usd": 3351752347,
+        "tax_liability_usd": 202855062
+      },
+      {
+        "zip": "94127",
+        "city": "San Francisco",
+        "returns": 9757,
+        "agi_usd": 2806198465,
+        "tax_liability_usd": 190927831
+      },
+      {
+        "zip": "94103",
+        "city": "San Francisco",
+        "returns": 18079,
+        "agi_usd": 2707769948,
+        "tax_liability_usd": 183861161
+      },
+      {
+        "zip": "94112",
+        "city": "San Francisco",
+        "returns": 39619,
+        "agi_usd": 3600040860,
+        "tax_liability_usd": 164296301
+      },
+      {
+        "zip": "94133",
+        "city": "San Francisco",
+        "returns": 12795,
+        "agi_usd": 2128625514,
+        "tax_liability_usd": 133690962
+      },
+      {
+        "zip": "94102",
+        "city": "San Francisco",
+        "returns": 14659,
+        "agi_usd": 1787454106,
+        "tax_liability_usd": 111192675
+      },
+      {
+        "zip": "94158",
+        "city": "San Francisco",
+        "returns": 5487,
+        "agi_usd": 1255779962,
+        "tax_liability_usd": 90276466
+      },
+      {
+        "zip": "94111",
+        "city": "San Francisco",
+        "returns": 2859,
+        "agi_usd": 1459993664,
+        "tax_liability_usd": 78574746
+      },
+      {
+        "zip": "94129",
+        "city": "San Francisco",
+        "returns": 1717,
+        "agi_usd": 938057069,
+        "tax_liability_usd": 74697391
+      },
+      {
+        "zip": "94132",
+        "city": "San Francisco",
+        "returns": 12174,
+        "agi_usd": 1399000962,
+        "tax_liability_usd": 74053374
+      },
+      {
+        "zip": "94104",
+        "city": "San Francisco",
+        "returns": 710,
+        "agi_usd": 1209896610,
+        "tax_liability_usd": 69041808
+      },
+      {
+        "zip": "94134",
+        "city": "San Francisco",
+        "returns": 20582,
+        "agi_usd": 1609989316,
+        "tax_liability_usd": 64623841
+      },
+      {
+        "zip": "94108",
+        "city": "San Francisco",
+        "returns": 6113,
+        "agi_usd": 869476673,
+        "tax_liability_usd": 52027757
+      },
+      {
+        "zip": "94124",
+        "city": "San Francisco",
+        "returns": 17352,
+        "agi_usd": 1220994760,
+        "tax_liability_usd": 45391669
+      },
+      {
+        "zip": "94119",
+        "city": "San Francisco",
+        "returns": 295,
+        "agi_usd": 489032417,
+        "tax_liability_usd": 18298589
+      },
+      {
+        "zip": "94147",
+        "city": "San Francisco",
+        "returns": 198,
+        "agi_usd": 132833140,
+        "tax_liability_usd": 13446390
+      },
+      {
+        "zip": "94188",
+        "city": "San Francisco",
+        "returns": 284,
+        "agi_usd": 175983516,
+        "tax_liability_usd": 7195035
+      },
+      {
+        "zip": "94126",
+        "city": "San Francisco",
+        "returns": 103,
+        "agi_usd": 50240273,
+        "tax_liability_usd": 2923748
+      },
+      {
+        "zip": "94130",
+        "city": "San Francisco",
+        "returns": 870,
+        "agi_usd": 50296214,
+        "tax_liability_usd": 1810889
+      },
+      {
+        "zip": "94159",
+        "city": "San Francisco",
+        "returns": 146,
+        "agi_usd": 19597028,
+        "tax_liability_usd": 1292681
+      },
+      {
+        "zip": "94164",
+        "city": "San Francisco",
+        "returns": 170,
+        "agi_usd": 14483111,
+        "tax_liability_usd": 772815
+      },
+      {
+        "zip": "94141",
+        "city": "San Francisco",
+        "returns": 229,
+        "agi_usd": 17646473,
+        "tax_liability_usd": 761684
+      },
+      {
+        "zip": "94142",
+        "city": "San Francisco",
+        "returns": 193,
+        "agi_usd": 12557218,
+        "tax_liability_usd": 491126
+      },
+      {
+        "zip": "94140",
+        "city": "San Francisco",
+        "returns": 224,
+        "agi_usd": 15451358,
+        "tax_liability_usd": 456358
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Sutter",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 85618343,
+    "zips": [
+      {
+        "zip": "95993",
+        "city": "Yuba City",
+        "returns": 16242,
+        "agi_usd": 1202786600,
+        "tax_liability_usd": 41720359
+      },
+      {
+        "zip": "95991",
+        "city": "Yuba City",
+        "returns": 16560,
+        "agi_usd": 951590913,
+        "tax_liability_usd": 26259460
+      },
+      {
+        "zip": "95953",
+        "city": "Live Oak",
+        "returns": 4546,
+        "agi_usd": 265054278,
+        "tax_liability_usd": 7085622
+      },
+      {
+        "zip": "95982",
+        "city": "Sutter",
+        "returns": 1461,
+        "agi_usd": 130042668,
+        "tax_liability_usd": 4399357
+      },
+      {
+        "zip": "95992",
+        "city": "Yuba City",
+        "returns": 712,
+        "agi_usd": 48873629,
+        "tax_liability_usd": 1654284
+      },
+      {
+        "zip": "95668",
+        "city": "Pleasant Grove",
+        "returns": 330,
+        "agi_usd": 37474515,
+        "tax_liability_usd": 1346186
+      },
+      {
+        "zip": "95674",
+        "city": "Rio Oso",
+        "returns": 346,
+        "agi_usd": 33834162,
+        "tax_liability_usd": 1301648
+      },
+      {
+        "zip": "95659",
+        "city": "Nicolaus",
+        "returns": 294,
+        "agi_usd": 26675819,
+        "tax_liability_usd": 1063547
+      },
+      {
+        "zip": "95957",
+        "city": "Meridian",
+        "returns": 267,
+        "agi_usd": 17304919,
+        "tax_liability_usd": 567289
+      },
+      {
+        "zip": "95676",
+        "city": "Robbins",
+        "returns": 165,
+        "agi_usd": 9623636,
+        "tax_liability_usd": 220591
+      }
+    ]
+  }
+}

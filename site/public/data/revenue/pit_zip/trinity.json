@@ -1,0 +1,81 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Trinity",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 8022274,
+    "zips": [
+      {
+        "zip": "96093",
+        "city": "Weaverville",
+        "returns": 1841,
+        "agi_usd": 115170310,
+        "tax_liability_usd": 3294458
+      },
+      {
+        "zip": "96041",
+        "city": "Hayfork",
+        "returns": 671,
+        "agi_usd": 35011951,
+        "tax_liability_usd": 1789624
+      },
+      {
+        "zip": "96052",
+        "city": "Lewiston",
+        "returns": 506,
+        "agi_usd": 27784470,
+        "tax_liability_usd": 829775
+      },
+      {
+        "zip": "96024",
+        "city": "Douglas City",
+        "returns": 333,
+        "agi_usd": 21271181,
+        "tax_liability_usd": 745764
+      },
+      {
+        "zip": "96091",
+        "city": "Trinity Center",
+        "returns": 222,
+        "agi_usd": 15592792,
+        "tax_liability_usd": 512610
+      },
+      {
+        "zip": "95563",
+        "city": "Salyer",
+        "returns": 180,
+        "agi_usd": 11527570,
+        "tax_liability_usd": 403877
+      },
+      {
+        "zip": "95552",
+        "city": "Mad River",
+        "returns": 135,
+        "agi_usd": 7590567,
+        "tax_liability_usd": 254400
+      },
+      {
+        "zip": "96048",
+        "city": "Junction City",
+        "returns": 210,
+        "agi_usd": 9227301,
+        "tax_liability_usd": 191766
+      }
+    ]
+  }
+}

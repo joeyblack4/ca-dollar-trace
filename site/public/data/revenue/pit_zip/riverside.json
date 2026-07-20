@@ -1,0 +1,676 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Riverside",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 2481260706,
+    "zips": [
+      {
+        "zip": "92592",
+        "city": "Temecula",
+        "returns": 33865,
+        "agi_usd": 3537944132,
+        "tax_liability_usd": 140656350
+      },
+      {
+        "zip": "92562",
+        "city": "Murrieta",
+        "returns": 28006,
+        "agi_usd": 2831111268,
+        "tax_liability_usd": 116423193
+      },
+      {
+        "zip": "92506",
+        "city": "Riverside",
+        "returns": 20718,
+        "agi_usd": 2287236970,
+        "tax_liability_usd": 102066474
+      },
+      {
+        "zip": "92880",
+        "city": "Corona",
+        "returns": 24713,
+        "agi_usd": 2373089170,
+        "tax_liability_usd": 87312556
+      },
+      {
+        "zip": "92563",
+        "city": "Murrieta",
+        "returns": 30944,
+        "agi_usd": 2604605372,
+        "tax_liability_usd": 84656282
+      },
+      {
+        "zip": "92253",
+        "city": "La Quinta",
+        "returns": 16766,
+        "agi_usd": 1858429090,
+        "tax_liability_usd": 81259495
+      },
+      {
+        "zip": "92882",
+        "city": "Corona",
+        "returns": 29794,
+        "agi_usd": 2392401418,
+        "tax_liability_usd": 80860780
+      },
+      {
+        "zip": "92503",
+        "city": "Riverside",
+        "returns": 39524,
+        "agi_usd": 2682976795,
+        "tax_liability_usd": 78007300
+      },
+      {
+        "zip": "92270",
+        "city": "Rancho Mirage",
+        "returns": 8910,
+        "agi_usd": 1361446647,
+        "tax_liability_usd": 70780649
+      },
+      {
+        "zip": "92584",
+        "city": "Menifee",
+        "returns": 27515,
+        "agi_usd": 2268823073,
+        "tax_liability_usd": 69294987
+      },
+      {
+        "zip": "92883",
+        "city": "Corona",
+        "returns": 16915,
+        "agi_usd": 1762726575,
+        "tax_liability_usd": 68539909
+      },
+      {
+        "zip": "92591",
+        "city": "Temecula",
+        "returns": 18944,
+        "agi_usd": 1796434930,
+        "tax_liability_usd": 67654570
+      },
+      {
+        "zip": "92223",
+        "city": "Beaumont",
+        "returns": 28417,
+        "agi_usd": 2166299625,
+        "tax_liability_usd": 63230745
+      },
+      {
+        "zip": "92881",
+        "city": "Corona",
+        "returns": 13711,
+        "agi_usd": 1480048003,
+        "tax_liability_usd": 60818547
+      },
+      {
+        "zip": "92262",
+        "city": "Palm Springs",
+        "returns": 11930,
+        "agi_usd": 1180857174,
+        "tax_liability_usd": 57515427
+      },
+      {
+        "zip": "92508",
+        "city": "Riverside",
+        "returns": 15436,
+        "agi_usd": 1446457974,
+        "tax_liability_usd": 55855768
+      },
+      {
+        "zip": "92211",
+        "city": "Palm Desert",
+        "returns": 13211,
+        "agi_usd": 1241146368,
+        "tax_liability_usd": 51893580
+      },
+      {
+        "zip": "92504",
+        "city": "Riverside",
+        "returns": 23901,
+        "agi_usd": 1677870255,
+        "tax_liability_usd": 50200040
+      },
+      {
+        "zip": "92260",
+        "city": "Palm Desert",
+        "returns": 14044,
+        "agi_usd": 1195515523,
+        "tax_liability_usd": 50157471
+      },
+      {
+        "zip": "92264",
+        "city": "Palm Springs",
+        "returns": 9293,
+        "agi_usd": 952853495,
+        "tax_liability_usd": 45632022
+      },
+      {
+        "zip": "92509",
+        "city": "Riverside",
+        "returns": 34222,
+        "agi_usd": 1964960706,
+        "tax_liability_usd": 45280836
+      },
+      {
+        "zip": "92507",
+        "city": "Riverside",
+        "returns": 24918,
+        "agi_usd": 1509981020,
+        "tax_liability_usd": 43386342
+      },
+      {
+        "zip": "92596",
+        "city": "Winchester",
+        "returns": 15807,
+        "agi_usd": 1380422579,
+        "tax_liability_usd": 43275878
+      },
+      {
+        "zip": "92203",
+        "city": "Indio",
+        "returns": 14226,
+        "agi_usd": 1183346600,
+        "tax_liability_usd": 40797011
+      },
+      {
+        "zip": "92860",
+        "city": "Norco",
+        "returns": 10533,
+        "agi_usd": 1053516004,
+        "tax_liability_usd": 40771935
+      },
+      {
+        "zip": "92879",
+        "city": "Corona",
+        "returns": 20770,
+        "agi_usd": 1403845684,
+        "tax_liability_usd": 40397193
+      },
+      {
+        "zip": "92234",
+        "city": "Cathedral City",
+        "returns": 22842,
+        "agi_usd": 1319712298,
+        "tax_liability_usd": 36329025
+      },
+      {
+        "zip": "92530",
+        "city": "Lake Elsinore",
+        "returns": 25260,
+        "agi_usd": 1510567049,
+        "tax_liability_usd": 35778171
+      },
+      {
+        "zip": "91752",
+        "city": "Mira Loma",
+        "returns": 16967,
+        "agi_usd": 1159565106,
+        "tax_liability_usd": 34524575
+      },
+      {
+        "zip": "92201",
+        "city": "Indio",
+        "returns": 26082,
+        "agi_usd": 1420954564,
+        "tax_liability_usd": 33881369
+      },
+      {
+        "zip": "92555",
+        "city": "Moreno Valley",
+        "returns": 19320,
+        "agi_usd": 1221232391,
+        "tax_liability_usd": 33245668
+      },
+      {
+        "zip": "92557",
+        "city": "Moreno Valley",
+        "returns": 23639,
+        "agi_usd": 1247371226,
+        "tax_liability_usd": 31986807
+      },
+      {
+        "zip": "92595",
+        "city": "Wildomar",
+        "returns": 15633,
+        "agi_usd": 1103663616,
+        "tax_liability_usd": 31668505
+      },
+      {
+        "zip": "92505",
+        "city": "Riverside",
+        "returns": 21770,
+        "agi_usd": 1263980951,
+        "tax_liability_usd": 30567984
+      },
+      {
+        "zip": "92570",
+        "city": "Perris",
+        "returns": 23783,
+        "agi_usd": 1239194845,
+        "tax_liability_usd": 28399503
+      },
+      {
+        "zip": "92210",
+        "city": "Indian Wells",
+        "returns": 1976,
+        "agi_usd": 471677784,
+        "tax_liability_usd": 27621305
+      },
+      {
+        "zip": "92587",
+        "city": "Sun City",
+        "returns": 7878,
+        "agi_usd": 726808147,
+        "tax_liability_usd": 27349754
+      },
+      {
+        "zip": "92544",
+        "city": "Hemet",
+        "returns": 19741,
+        "agi_usd": 1140863457,
+        "tax_liability_usd": 27097676
+      },
+      {
+        "zip": "92532",
+        "city": "Lake Elsinore",
+        "returns": 11558,
+        "agi_usd": 895481789,
+        "tax_liability_usd": 26142219
+      },
+      {
+        "zip": "92585",
+        "city": "Sun City",
+        "returns": 12517,
+        "agi_usd": 905572920,
+        "tax_liability_usd": 24371682
+      },
+      {
+        "zip": "92553",
+        "city": "Moreno Valley",
+        "returns": 31301,
+        "agi_usd": 1451352907,
+        "tax_liability_usd": 23843234
+      },
+      {
+        "zip": "92571",
+        "city": "Perris",
+        "returns": 24731,
+        "agi_usd": 1315146247,
+        "tax_liability_usd": 23675254
+      },
+      {
+        "zip": "92545",
+        "city": "Hemet",
+        "returns": 18465,
+        "agi_usd": 979662899,
+        "tax_liability_usd": 20502763
+      },
+      {
+        "zip": "92878",
+        "city": "Corona",
+        "returns": 7861,
+        "agi_usd": 599090567,
+        "tax_liability_usd": 18796295
+      },
+      {
+        "zip": "92220",
+        "city": "Banning",
+        "returns": 15527,
+        "agi_usd": 837645114,
+        "tax_liability_usd": 18516115
+      },
+      {
+        "zip": "92586",
+        "city": "Sun City",
+        "returns": 10158,
+        "agi_usd": 571142338,
+        "tax_liability_usd": 15200765
+      },
+      {
+        "zip": "92501",
+        "city": "Riverside",
+        "returns": 9123,
+        "agi_usd": 547950793,
+        "tax_liability_usd": 14677172
+      },
+      {
+        "zip": "92551",
+        "city": "Moreno Valley",
+        "returns": 14417,
+        "agi_usd": 746541967,
+        "tax_liability_usd": 13477609
+      },
+      {
+        "zip": "92240",
+        "city": "Desert Hot Springs",
+        "returns": 16473,
+        "agi_usd": 740588202,
+        "tax_liability_usd": 13158830
+      },
+      {
+        "zip": "92590",
+        "city": "Temecula",
+        "returns": 2090,
+        "agi_usd": 252170826,
+        "tax_liability_usd": 12930790
+      },
+      {
+        "zip": "92320",
+        "city": "Calimesa",
+        "returns": 5258,
+        "agi_usd": 414909490,
+        "tax_liability_usd": 12692005
+      },
+      {
+        "zip": "92582",
+        "city": "San Jacinto",
+        "returns": 9277,
+        "agi_usd": 541254369,
+        "tax_liability_usd": 11626229
+      },
+      {
+        "zip": "92543",
+        "city": "Hemet",
+        "returns": 14949,
+        "agi_usd": 670890321,
+        "tax_liability_usd": 11614693
+      },
+      {
+        "zip": "92583",
+        "city": "San Jacinto",
+        "returns": 13502,
+        "agi_usd": 647102101,
+        "tax_liability_usd": 11523933
+      },
+      {
+        "zip": "92236",
+        "city": "Coachella",
+        "returns": 18712,
+        "agi_usd": 815201116,
+        "tax_liability_usd": 10983457
+      },
+      {
+        "zip": "92567",
+        "city": "Nuevo",
+        "returns": 4406,
+        "agi_usd": 266195939,
+        "tax_liability_usd": 6468807
+      },
+      {
+        "zip": "92225",
+        "city": "Blythe",
+        "returns": 5530,
+        "agi_usd": 293441240,
+        "tax_liability_usd": 6291429
+      },
+      {
+        "zip": "92549",
+        "city": "Idyllwild",
+        "returns": 1782,
+        "agi_usd": 137555258,
+        "tax_liability_usd": 5502305
+      },
+      {
+        "zip": "92263",
+        "city": "Palm Springs",
+        "returns": 939,
+        "agi_usd": 95063892,
+        "tax_liability_usd": 4805818
+      },
+      {
+        "zip": "92589",
+        "city": "Temecula",
+        "returns": 830,
+        "agi_usd": 138798067,
+        "tax_liability_usd": 4597196
+      },
+      {
+        "zip": "92536",
+        "city": "Aguanga",
+        "returns": 1419,
+        "agi_usd": 105587314,
+        "tax_liability_usd": 4051501
+      },
+      {
+        "zip": "92274",
+        "city": "Thermal",
+        "returns": 7212,
+        "agi_usd": 277567354,
+        "tax_liability_usd": 3868729
+      },
+      {
+        "zip": "92276",
+        "city": "Thousand Palms",
+        "returns": 3476,
+        "agi_usd": 159532939,
+        "tax_liability_usd": 3314430
+      },
+      {
+        "zip": "92241",
+        "city": "Desert Hot Springs",
+        "returns": 3132,
+        "agi_usd": 143149135,
+        "tax_liability_usd": 3254364
+      },
+      {
+        "zip": "92548",
+        "city": "Homeland",
+        "returns": 3182,
+        "agi_usd": 159519921,
+        "tax_liability_usd": 3189678
+      },
+      {
+        "zip": "92561",
+        "city": "Mountain Center",
+        "returns": 732,
+        "agi_usd": 64736331,
+        "tax_liability_usd": 2705418
+      },
+      {
+        "zip": "92247",
+        "city": "La Quinta",
+        "returns": 397,
+        "agi_usd": 50051488,
+        "tax_liability_usd": 2675111
+      },
+      {
+        "zip": "92593",
+        "city": "Temecula",
+        "returns": 450,
+        "agi_usd": 60616958,
+        "tax_liability_usd": 2649581
+      },
+      {
+        "zip": "92261",
+        "city": "Palm Desert",
+        "returns": 474,
+        "agi_usd": 51278303,
+        "tax_liability_usd": 2345311
+      },
+      {
+        "zip": "92255",
+        "city": "Palm Desert",
+        "returns": 587,
+        "agi_usd": 54748686,
+        "tax_liability_usd": 2232839
+      },
+      {
+        "zip": "92877",
+        "city": "Corona",
+        "returns": 376,
+        "agi_usd": 44846672,
+        "tax_liability_usd": 2159000
+      },
+      {
+        "zip": "92517",
+        "city": "Riverside",
+        "returns": 565,
+        "agi_usd": 48885791,
+        "tax_liability_usd": 2059941
+      },
+      {
+        "zip": "92539",
+        "city": "Anza",
+        "returns": 1584,
+        "agi_usd": 80815950,
+        "tax_liability_usd": 1808046
+      },
+      {
+        "zip": "92248",
+        "city": "La Quinta",
+        "returns": 537,
+        "agi_usd": 47505797,
+        "tax_liability_usd": 1806705
+      },
+      {
+        "zip": "92518",
+        "city": "March Air Force Base",
+        "returns": 554,
+        "agi_usd": 44022537,
+        "tax_liability_usd": 1616290
+      },
+      {
+        "zip": "92254",
+        "city": "Mecca",
+        "returns": 5788,
+        "agi_usd": 190305976,
+        "tax_liability_usd": 1555520
+      },
+      {
+        "zip": "92513",
+        "city": "Riverside",
+        "returns": 401,
+        "agi_usd": 30841844,
+        "tax_liability_usd": 1542062
+      },
+      {
+        "zip": "92516",
+        "city": "Riverside",
+        "returns": 216,
+        "agi_usd": 25240797,
+        "tax_liability_usd": 1416071
+      },
+      {
+        "zip": "92564",
+        "city": "Murrieta",
+        "returns": 464,
+        "agi_usd": 36106799,
+        "tax_liability_usd": 1408316
+      },
+      {
+        "zip": "92552",
+        "city": "Moreno Valley",
+        "returns": 726,
+        "agi_usd": 41025757,
+        "tax_liability_usd": 1080442
+      },
+      {
+        "zip": "92202",
+        "city": "Indio",
+        "returns": 1353,
+        "agi_usd": 58866087,
+        "tax_liability_usd": 1068316
+      },
+      {
+        "zip": "92581",
+        "city": "San Jacinto",
+        "returns": 753,
+        "agi_usd": 27754496,
+        "tax_liability_usd": 961608
+      },
+      {
+        "zip": "92235",
+        "city": "Cathedral City",
+        "returns": 595,
+        "agi_usd": 32320418,
+        "tax_liability_usd": 859806
+      },
+      {
+        "zip": "92572",
+        "city": "Perris",
+        "returns": 468,
+        "agi_usd": 28417129,
+        "tax_liability_usd": 836409
+      },
+      {
+        "zip": "92502",
+        "city": "Riverside",
+        "returns": 242,
+        "agi_usd": 19068512,
+        "tax_liability_usd": 748317
+      },
+      {
+        "zip": "92226",
+        "city": "Blythe",
+        "returns": 389,
+        "agi_usd": 25800637,
+        "tax_liability_usd": 664916
+      },
+      {
+        "zip": "92230",
+        "city": "Cabazon",
+        "returns": 1012,
+        "agi_usd": 44236364,
+        "tax_liability_usd": 625712
+      },
+      {
+        "zip": "92556",
+        "city": "Moreno Valley",
+        "returns": 219,
+        "agi_usd": 14837812,
+        "tax_liability_usd": 567925
+      },
+      {
+        "zip": "92282",
+        "city": "White Water",
+        "returns": 519,
+        "agi_usd": 24883404,
+        "tax_liability_usd": 448183
+      },
+      {
+        "zip": "92546",
+        "city": "Hemet",
+        "returns": 319,
+        "agi_usd": 15893799,
+        "tax_liability_usd": 357218
+      },
+      {
+        "zip": "92531",
+        "city": "Lake Elsinore",
+        "returns": 277,
+        "agi_usd": 13878143,
+        "tax_liability_usd": 332976
+      },
+      {
+        "zip": "92519",
+        "city": "Riverside",
+        "returns": 174,
+        "agi_usd": 10267408,
+        "tax_liability_usd": 278951
+      },
+      {
+        "zip": "92258",
+        "city": "North Palm Springs",
+        "returns": 282,
+        "agi_usd": 11054260,
+        "tax_liability_usd": 196732
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Luis Obispo",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 523183971,
+    "zips": [
+      {
+        "zip": "93401",
+        "city": "San Luis Obispo",
+        "returns": 14853,
+        "agi_usd": 1836737512,
+        "tax_liability_usd": 88903613
+      },
+      {
+        "zip": "93420",
+        "city": "Arroyo Grande",
+        "returns": 13989,
+        "agi_usd": 1651159146,
+        "tax_liability_usd": 72284016
+      },
+      {
+        "zip": "93446",
+        "city": "Paso Robles",
+        "returns": 19856,
+        "agi_usd": 1707729300,
+        "tax_liability_usd": 61465456
+      },
+      {
+        "zip": "93422",
+        "city": "Atascadero",
+        "returns": 14631,
+        "agi_usd": 1317942664,
+        "tax_liability_usd": 47499612
+      },
+      {
+        "zip": "93444",
+        "city": "Nipomo",
+        "returns": 10809,
+        "agi_usd": 1015830346,
+        "tax_liability_usd": 38871588
+      },
+      {
+        "zip": "93405",
+        "city": "San Luis Obispo",
+        "returns": 7788,
+        "agi_usd": 820121458,
+        "tax_liability_usd": 36583137
+      },
+      {
+        "zip": "93465",
+        "city": "Templeton",
+        "returns": 4971,
+        "agi_usd": 616694718,
+        "tax_liability_usd": 28224690
+      },
+      {
+        "zip": "93449",
+        "city": "Pismo Beach",
+        "returns": 4004,
+        "agi_usd": 539877799,
+        "tax_liability_usd": 26828898
+      },
+      {
+        "zip": "93402",
+        "city": "Los Osos",
+        "returns": 6825,
+        "agi_usd": 589888107,
+        "tax_liability_usd": 21165008
+      },
+      {
+        "zip": "93442",
+        "city": "Morro Bay",
+        "returns": 5432,
+        "agi_usd": 450774529,
+        "tax_liability_usd": 17190947
+      },
+      {
+        "zip": "93433",
+        "city": "Grover Beach",
+        "returns": 5879,
+        "agi_usd": 440114468,
+        "tax_liability_usd": 14249204
+      },
+      {
+        "zip": "93428",
+        "city": "Cambria",
+        "returns": 3175,
+        "agi_usd": 301155836,
+        "tax_liability_usd": 12579052
+      },
+      {
+        "zip": "93430",
+        "city": "Cayucos",
+        "returns": 1479,
+        "agi_usd": 169564910,
+        "tax_liability_usd": 8666253
+      },
+      {
+        "zip": "93424",
+        "city": "Avila Beach",
+        "returns": 741,
+        "agi_usd": 132322487,
+        "tax_liability_usd": 7669647
+      },
+      {
+        "zip": "93447",
+        "city": "Paso Robles",
+        "returns": 1518,
+        "agi_usd": 138765921,
+        "tax_liability_usd": 5028997
+      },
+      {
+        "zip": "93445",
+        "city": "Oceano",
+        "returns": 2849,
+        "agi_usd": 170617610,
+        "tax_liability_usd": 4570685
+      },
+      {
+        "zip": "93406",
+        "city": "San Luis Obispo",
+        "returns": 580,
+        "agi_usd": 89829119,
+        "tax_liability_usd": 4481659
+      },
+      {
+        "zip": "93453",
+        "city": "Santa Margarita",
+        "returns": 1213,
+        "agi_usd": 109230194,
+        "tax_liability_usd": 4123599
+      },
+      {
+        "zip": "93421",
+        "city": "Arroyo Grande",
+        "returns": 552,
+        "agi_usd": 91486342,
+        "tax_liability_usd": 4117815
+      },
+      {
+        "zip": "93451",
+        "city": "San Miguel",
+        "returns": 1962,
+        "agi_usd": 136476521,
+        "tax_liability_usd": 3794109
+      },
+      {
+        "zip": "93423",
+        "city": "Atascadero",
+        "returns": 798,
+        "agi_usd": 73330913,
+        "tax_liability_usd": 3055556
+      },
+      {
+        "zip": "93448",
+        "city": "Pismo Beach",
+        "returns": 651,
+        "agi_usd": 56286621,
+        "tax_liability_usd": 2515824
+      },
+      {
+        "zip": "93432",
+        "city": "Creston",
+        "returns": 658,
+        "agi_usd": 65680228,
+        "tax_liability_usd": 2447684
+      },
+      {
+        "zip": "93403",
+        "city": "San Luis Obispo",
+        "returns": 406,
+        "agi_usd": 47956457,
+        "tax_liability_usd": 2123084
+      },
+      {
+        "zip": "93443",
+        "city": "Morro Bay",
+        "returns": 393,
+        "agi_usd": 34819730,
+        "tax_liability_usd": 1599059
+      },
+      {
+        "zip": "93412",
+        "city": "Los Osos",
+        "returns": 289,
+        "agi_usd": 25715689,
+        "tax_liability_usd": 1071767
+      },
+      {
+        "zip": "93483",
+        "city": "Grover Beach",
+        "returns": 357,
+        "agi_usd": 23601908,
+        "tax_liability_usd": 699105
+      },
+      {
+        "zip": "93461",
+        "city": "Shandon",
+        "returns": 628,
+        "agi_usd": 36625768,
+        "tax_liability_usd": 697091
+      },
+      {
+        "zip": "93452",
+        "city": "San Simeon",
+        "returns": 242,
+        "agi_usd": 14078441,
+        "tax_liability_usd": 363672
+      },
+      {
+        "zip": "93475",
+        "city": "Oceano",
+        "returns": 284,
+        "agi_usd": 14645202,
+        "tax_liability_usd": 313144
+      }
+    ]
+  }
+}

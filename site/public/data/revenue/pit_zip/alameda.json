@@ -1,0 +1,424 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Alameda",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 6787078115,
+    "zips": [
+      {
+        "zip": "94539",
+        "city": "Fremont",
+        "returns": 25191,
+        "agi_usd": 7516624837,
+        "tax_liability_usd": 557169075
+      },
+      {
+        "zip": "94566",
+        "city": "Pleasanton",
+        "returns": 20303,
+        "agi_usd": 6262474414,
+        "tax_liability_usd": 442225937
+      },
+      {
+        "zip": "94611",
+        "city": "Oakland",
+        "returns": 19775,
+        "agi_usd": 5800011652,
+        "tax_liability_usd": 420314277
+      },
+      {
+        "zip": "94568",
+        "city": "Dublin",
+        "returns": 29918,
+        "agi_usd": 6560894043,
+        "tax_liability_usd": 411962022
+      },
+      {
+        "zip": "94582",
+        "city": "Pleasanton",
+        "returns": 19893,
+        "agi_usd": 5049465305,
+        "tax_liability_usd": 338565042
+      },
+      {
+        "zip": "94536",
+        "city": "Fremont",
+        "returns": 31832,
+        "agi_usd": 5482389467,
+        "tax_liability_usd": 333801141
+      },
+      {
+        "zip": "94538",
+        "city": "Fremont",
+        "returns": 31641,
+        "agi_usd": 4560210236,
+        "tax_liability_usd": 257754623
+      },
+      {
+        "zip": "94550",
+        "city": "Livermore",
+        "returns": 22995,
+        "agi_usd": 4080406418,
+        "tax_liability_usd": 235148648
+      },
+      {
+        "zip": "94501",
+        "city": "Alameda",
+        "returns": 30405,
+        "agi_usd": 4184539070,
+        "tax_liability_usd": 233185294
+      },
+      {
+        "zip": "94588",
+        "city": "Pleasanton",
+        "returns": 15732,
+        "agi_usd": 3514000603,
+        "tax_liability_usd": 230198255
+      },
+      {
+        "zip": "94555",
+        "city": "Fremont",
+        "returns": 15650,
+        "agi_usd": 3340992648,
+        "tax_liability_usd": 223016837
+      },
+      {
+        "zip": "94560",
+        "city": "Newark",
+        "returns": 23568,
+        "agi_usd": 3659604966,
+        "tax_liability_usd": 211475880
+      },
+      {
+        "zip": "94587",
+        "city": "Union City",
+        "returns": 33012,
+        "agi_usd": 3979919941,
+        "tax_liability_usd": 204809296
+      },
+      {
+        "zip": "94618",
+        "city": "Oakland",
+        "returns": 8251,
+        "agi_usd": 2489066617,
+        "tax_liability_usd": 182202607
+      },
+      {
+        "zip": "94610",
+        "city": "Oakland",
+        "returns": 15542,
+        "agi_usd": 2702566213,
+        "tax_liability_usd": 163666911
+      },
+      {
+        "zip": "94705",
+        "city": "Berkeley",
+        "returns": 6778,
+        "agi_usd": 2000820763,
+        "tax_liability_usd": 143121651
+      },
+      {
+        "zip": "94551",
+        "city": "Livermore",
+        "returns": 19418,
+        "agi_usd": 2618568788,
+        "tax_liability_usd": 131407898
+      },
+      {
+        "zip": "94546",
+        "city": "Castro Valley",
+        "returns": 21610,
+        "agi_usd": 2539998931,
+        "tax_liability_usd": 120603245
+      },
+      {
+        "zip": "94544",
+        "city": "Hayward",
+        "returns": 35384,
+        "agi_usd": 2897789468,
+        "tax_liability_usd": 109925391
+      },
+      {
+        "zip": "94707",
+        "city": "Berkeley",
+        "returns": 6538,
+        "agi_usd": 1695288347,
+        "tax_liability_usd": 108975734
+      },
+      {
+        "zip": "94602",
+        "city": "Oakland",
+        "returns": 13512,
+        "agi_usd": 1895730969,
+        "tax_liability_usd": 103954324
+      },
+      {
+        "zip": "94552",
+        "city": "Castro Valley",
+        "returns": 6977,
+        "agi_usd": 1492739891,
+        "tax_liability_usd": 102198706
+      },
+      {
+        "zip": "94708",
+        "city": "Berkeley",
+        "returns": 5603,
+        "agi_usd": 1519247314,
+        "tax_liability_usd": 98982998
+      },
+      {
+        "zip": "94608",
+        "city": "Emeryville",
+        "returns": 15466,
+        "agi_usd": 1795681918,
+        "tax_liability_usd": 96587712
+      },
+      {
+        "zip": "94577",
+        "city": "San Leandro",
+        "returns": 23050,
+        "agi_usd": 1939358061,
+        "tax_liability_usd": 88786531
+      },
+      {
+        "zip": "94541",
+        "city": "Hayward",
+        "returns": 29705,
+        "agi_usd": 2378499012,
+        "tax_liability_usd": 87452886
+      },
+      {
+        "zip": "94605",
+        "city": "Oakland",
+        "returns": 18741,
+        "agi_usd": 1831394767,
+        "tax_liability_usd": 82821511
+      },
+      {
+        "zip": "94619",
+        "city": "Oakland",
+        "returns": 11248,
+        "agi_usd": 1521558192,
+        "tax_liability_usd": 78424631
+      },
+      {
+        "zip": "94609",
+        "city": "Oakland",
+        "returns": 11087,
+        "agi_usd": 1389869010,
+        "tax_liability_usd": 78253445
+      },
+      {
+        "zip": "94612",
+        "city": "Oakland",
+        "returns": 9662,
+        "agi_usd": 1210055671,
+        "tax_liability_usd": 75469283
+      },
+      {
+        "zip": "94502",
+        "city": "Alameda",
+        "returns": 6747,
+        "agi_usd": 1239467302,
+        "tax_liability_usd": 73035899
+      },
+      {
+        "zip": "94706",
+        "city": "Albany",
+        "returns": 9043,
+        "agi_usd": 1309858357,
+        "tax_liability_usd": 71951752
+      },
+      {
+        "zip": "94607",
+        "city": "Oakland",
+        "returns": 12462,
+        "agi_usd": 213529448,
+        "tax_liability_usd": 64903373
+      },
+      {
+        "zip": "94702",
+        "city": "Berkeley",
+        "returns": 8174,
+        "agi_usd": 1107919660,
+        "tax_liability_usd": 62960452
+      },
+      {
+        "zip": "94545",
+        "city": "Hayward",
+        "returns": 15979,
+        "agi_usd": 1501797541,
+        "tax_liability_usd": 62568725
+      },
+      {
+        "zip": "94542",
+        "city": "Hayward",
+        "returns": 6733,
+        "agi_usd": 1049136831,
+        "tax_liability_usd": 61758805
+      },
+      {
+        "zip": "94703",
+        "city": "Berkeley",
+        "returns": 9184,
+        "agi_usd": 1123859000,
+        "tax_liability_usd": 61235004
+      },
+      {
+        "zip": "94606",
+        "city": "Oakland",
+        "returns": 16446,
+        "agi_usd": 1129188156,
+        "tax_liability_usd": 45153595
+      },
+      {
+        "zip": "94505",
+        "city": "Discovery Bay",
+        "returns": 6962,
+        "agi_usd": 867379721,
+        "tax_liability_usd": 44925710
+      },
+      {
+        "zip": "94578",
+        "city": "San Leandro",
+        "returns": 18183,
+        "agi_usd": 1286866567,
+        "tax_liability_usd": 43249216
+      },
+      {
+        "zip": "94580",
+        "city": "San Lorenzo",
+        "returns": 14496,
+        "agi_usd": 1136369678,
+        "tax_liability_usd": 39536696
+      },
+      {
+        "zip": "94601",
+        "city": "Oakland",
+        "returns": 20360,
+        "agi_usd": 1225982067,
+        "tax_liability_usd": 37241964
+      },
+      {
+        "zip": "94579",
+        "city": "San Leandro",
+        "returns": 11023,
+        "agi_usd": 882661976,
+        "tax_liability_usd": 32747440
+      },
+      {
+        "zip": "94710",
+        "city": "Berkeley",
+        "returns": 3875,
+        "agi_usd": 529870068,
+        "tax_liability_usd": 32567213
+      },
+      {
+        "zip": "94709",
+        "city": "Berkeley",
+        "returns": 4680,
+        "agi_usd": 558210043,
+        "tax_liability_usd": 30237486
+      },
+      {
+        "zip": "94704",
+        "city": "Berkeley",
+        "returns": 5514,
+        "agi_usd": 444492317,
+        "tax_liability_usd": 22787141
+      },
+      {
+        "zip": "94603",
+        "city": "Oakland",
+        "returns": 14557,
+        "agi_usd": 824621742,
+        "tax_liability_usd": 20111797
+      },
+      {
+        "zip": "94621",
+        "city": "Oakland",
+        "returns": 12854,
+        "agi_usd": 638369797,
+        "tax_liability_usd": 12900270
+      },
+      {
+        "zip": "94586",
+        "city": "Sunol",
+        "returns": 488,
+        "agi_usd": 117188219,
+        "tax_liability_usd": 6337540
+      },
+      {
+        "zip": "94662",
+        "city": "Emeryville",
+        "returns": 247,
+        "agi_usd": 44600873,
+        "tax_liability_usd": 2247845
+      },
+      {
+        "zip": "94537",
+        "city": "Fremont",
+        "returns": 364,
+        "agi_usd": 39902048,
+        "tax_liability_usd": 1772855
+      },
+      {
+        "zip": "94604",
+        "city": "Oakland",
+        "returns": 471,
+        "agi_usd": 33323581,
+        "tax_liability_usd": 1329637
+      },
+      {
+        "zip": "94540",
+        "city": "Hayward",
+        "returns": 292,
+        "agi_usd": 23927035,
+        "tax_liability_usd": 931678
+      },
+      {
+        "zip": "94620",
+        "city": "Piedmont",
+        "returns": 116,
+        "agi_usd": 13180971,
+        "tax_liability_usd": 774415
+      },
+      {
+        "zip": "94623",
+        "city": "Oakland",
+        "returns": 228,
+        "agi_usd": 18124992,
+        "tax_liability_usd": 743543
+      },
+      {
+        "zip": "94701",
+        "city": "Berkeley",
+        "returns": 119,
+        "agi_usd": 9935068,
+        "tax_liability_usd": 421235
+      },
+      {
+        "zip": "94720",
+        "city": "Berkeley",
+        "returns": 181,
+        "agi_usd": 6047498,
+        "tax_liability_usd": 185038
+      }
+    ]
+  }
+}

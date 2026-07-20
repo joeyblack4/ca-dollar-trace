@@ -1,0 +1,95 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Amador",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 47387966,
+    "zips": [
+      {
+        "zip": "95640",
+        "city": "Ione",
+        "returns": 4372,
+        "agi_usd": 352569740,
+        "tax_liability_usd": 11413467
+      },
+      {
+        "zip": "95642",
+        "city": "Jackson",
+        "returns": 3499,
+        "agi_usd": 263546242,
+        "tax_liability_usd": 9409789
+      },
+      {
+        "zip": "95685",
+        "city": "Sutter Creek",
+        "returns": 2144,
+        "agi_usd": 196743771,
+        "tax_liability_usd": 8245584
+      },
+      {
+        "zip": "95665",
+        "city": "Pine Grove",
+        "returns": 2059,
+        "agi_usd": 154534113,
+        "tax_liability_usd": 4918097
+      },
+      {
+        "zip": "95666",
+        "city": "Pioneer",
+        "returns": 2301,
+        "agi_usd": 153557063,
+        "tax_liability_usd": 4827570
+      },
+      {
+        "zip": "95669",
+        "city": "Plymouth",
+        "returns": 1307,
+        "agi_usd": 113154460,
+        "tax_liability_usd": 4157033
+      },
+      {
+        "zip": "95689",
+        "city": "Volcano",
+        "returns": 656,
+        "agi_usd": 62364139,
+        "tax_liability_usd": 2612856
+      },
+      {
+        "zip": "95629",
+        "city": "Fiddletown",
+        "returns": 415,
+        "agi_usd": 33128570,
+        "tax_liability_usd": 1109407
+      },
+      {
+        "zip": "95601",
+        "city": "Amador City",
+        "returns": 143,
+        "agi_usd": 13353238,
+        "tax_liability_usd": 559731
+      },
+      {
+        "zip": "95675",
+        "city": "River Pines",
+        "returns": 134,
+        "agi_usd": 6672961,
+        "tax_liability_usd": 134432
+      }
+    ]
+  }
+}

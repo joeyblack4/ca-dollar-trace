@@ -1,0 +1,95 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Lassen",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 17559000,
+    "zips": [
+      {
+        "zip": "96130",
+        "city": "Susanville",
+        "returns": 5831,
+        "agi_usd": 259340086,
+        "tax_liability_usd": 11149215
+      },
+      {
+        "zip": "96114",
+        "city": "Janesville",
+        "returns": 1195,
+        "agi_usd": 91197829,
+        "tax_liability_usd": 2829153
+      },
+      {
+        "zip": "96056",
+        "city": "Mcarthur",
+        "returns": 582,
+        "agi_usd": 42207069,
+        "tax_liability_usd": 1353946
+      },
+      {
+        "zip": "96113",
+        "city": "Herlong",
+        "returns": 336,
+        "agi_usd": 20176544,
+        "tax_liability_usd": 476756
+      },
+      {
+        "zip": "96127",
+        "city": "Susanville",
+        "returns": 146,
+        "agi_usd": 11627987,
+        "tax_liability_usd": 376967
+      },
+      {
+        "zip": "96128",
+        "city": "Standish",
+        "returns": 220,
+        "agi_usd": 13050268,
+        "tax_liability_usd": 338970
+      },
+      {
+        "zip": "96109",
+        "city": "Doyle",
+        "returns": 275,
+        "agi_usd": 15267531,
+        "tax_liability_usd": 325647
+      },
+      {
+        "zip": "96009",
+        "city": "Bieber",
+        "returns": 175,
+        "agi_usd": 10363960,
+        "tax_liability_usd": 305406
+      },
+      {
+        "zip": "96121",
+        "city": "Milford",
+        "returns": 154,
+        "agi_usd": 10102725,
+        "tax_liability_usd": 230490
+      },
+      {
+        "zip": "96117",
+        "city": "Litchfield",
+        "returns": 113,
+        "agi_usd": 6899708,
+        "tax_liability_usd": 172450
+      }
+    ]
+  }
+}

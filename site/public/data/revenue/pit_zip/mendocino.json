@@ -1,0 +1,179 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Mendocino",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 85386570,
+    "zips": [
+      {
+        "zip": "95482",
+        "city": "Ukiah",
+        "returns": 13146,
+        "agi_usd": 915316740,
+        "tax_liability_usd": 30477112
+      },
+      {
+        "zip": "95437",
+        "city": "Fort Bragg",
+        "returns": 6325,
+        "agi_usd": 372441027,
+        "tax_liability_usd": 10477429
+      },
+      {
+        "zip": "95490",
+        "city": "Willits",
+        "returns": 5527,
+        "agi_usd": -670027152,
+        "tax_liability_usd": 9444355
+      },
+      {
+        "zip": "95460",
+        "city": "Mendocino",
+        "returns": 1405,
+        "agi_usd": 141590947,
+        "tax_liability_usd": 7253713
+      },
+      {
+        "zip": "95470",
+        "city": "Redwood Valley",
+        "returns": 2489,
+        "agi_usd": 184234410,
+        "tax_liability_usd": 6134976
+      },
+      {
+        "zip": "95445",
+        "city": "Gualala",
+        "returns": 1353,
+        "agi_usd": 118588731,
+        "tax_liability_usd": 4875352
+      },
+      {
+        "zip": "95454",
+        "city": "Laytonville",
+        "returns": 807,
+        "agi_usd": 48420848,
+        "tax_liability_usd": 2793962
+      },
+      {
+        "zip": "95466",
+        "city": "Philo",
+        "returns": 604,
+        "agi_usd": 46247860,
+        "tax_liability_usd": 1783773
+      },
+      {
+        "zip": "95449",
+        "city": "Hopland",
+        "returns": 684,
+        "agi_usd": 44927968,
+        "tax_liability_usd": 1746654
+      },
+      {
+        "zip": "95469",
+        "city": "Potter Valley",
+        "returns": 668,
+        "agi_usd": 45823731,
+        "tax_liability_usd": 1676014
+      },
+      {
+        "zip": "95468",
+        "city": "Point Arena",
+        "returns": 693,
+        "agi_usd": 41570044,
+        "tax_liability_usd": 1355518
+      },
+      {
+        "zip": "95415",
+        "city": "Boonville",
+        "returns": 641,
+        "agi_usd": 39041784,
+        "tax_liability_usd": 1270558
+      },
+      {
+        "zip": "95432",
+        "city": "Elk",
+        "returns": 184,
+        "agi_usd": 19085769,
+        "tax_liability_usd": 1204577
+      },
+      {
+        "zip": "95410",
+        "city": "Albion",
+        "returns": 397,
+        "agi_usd": 29006275,
+        "tax_liability_usd": 1183396
+      },
+      {
+        "zip": "95456",
+        "city": "Littleriver",
+        "returns": 316,
+        "agi_usd": 26004098,
+        "tax_liability_usd": 839610
+      },
+      {
+        "zip": "95428",
+        "city": "Covelo",
+        "returns": 659,
+        "agi_usd": 27308516,
+        "tax_liability_usd": 699450
+      },
+      {
+        "zip": "95459",
+        "city": "Manchester",
+        "returns": 220,
+        "agi_usd": 14642809,
+        "tax_liability_usd": 580126
+      },
+      {
+        "zip": "95481",
+        "city": "Talmage",
+        "returns": 392,
+        "agi_usd": 21646134,
+        "tax_liability_usd": 544001
+      },
+      {
+        "zip": "95494",
+        "city": "Yorkville",
+        "returns": 109,
+        "agi_usd": 12278388,
+        "tax_liability_usd": 409604
+      },
+      {
+        "zip": "95427",
+        "city": "Comptche",
+        "returns": 198,
+        "agi_usd": 10979980,
+        "tax_liability_usd": 341182
+      },
+      {
+        "zip": "95418",
+        "city": "Calpella",
+        "returns": 161,
+        "agi_usd": 9142188,
+        "tax_liability_usd": 210285
+      },
+      {
+        "zip": "95585",
+        "city": "Leggett",
+        "returns": 123,
+        "agi_usd": 4995195,
+        "tax_liability_usd": 84923
+      }
+    ]
+  }
+}

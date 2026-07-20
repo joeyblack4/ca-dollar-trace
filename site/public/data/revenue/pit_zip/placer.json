@@ -1,0 +1,221 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Placer",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 1042650376,
+    "zips": [
+      {
+        "zip": "95747",
+        "city": "Roseville",
+        "returns": 41128,
+        "agi_usd": 4715579057,
+        "tax_liability_usd": 201196935
+      },
+      {
+        "zip": "95746",
+        "city": "Granite Bay",
+        "returns": 10314,
+        "agi_usd": 2492233699,
+        "tax_liability_usd": 151120085
+      },
+      {
+        "zip": "95765",
+        "city": "Rocklin",
+        "returns": 18768,
+        "agi_usd": 2525426530,
+        "tax_liability_usd": 119715652
+      },
+      {
+        "zip": "95648",
+        "city": "Lincoln",
+        "returns": 28155,
+        "agi_usd": 3012141324,
+        "tax_liability_usd": 118002379
+      },
+      {
+        "zip": "95661",
+        "city": "Roseville",
+        "returns": 14860,
+        "agi_usd": 1672765166,
+        "tax_liability_usd": 75976226
+      },
+      {
+        "zip": "95678",
+        "city": "Roseville",
+        "returns": 20220,
+        "agi_usd": 1691990326,
+        "tax_liability_usd": 62968574
+      },
+      {
+        "zip": "95677",
+        "city": "Rocklin",
+        "returns": 13556,
+        "agi_usd": 1434215844,
+        "tax_liability_usd": 60189594
+      },
+      {
+        "zip": "95650",
+        "city": "Loomis",
+        "returns": 6257,
+        "agi_usd": 1113600397,
+        "tax_liability_usd": 59490547
+      },
+      {
+        "zip": "95603",
+        "city": "Auburn",
+        "returns": 12769,
+        "agi_usd": 1281368415,
+        "tax_liability_usd": 53479776
+      },
+      {
+        "zip": "95602",
+        "city": "Auburn",
+        "returns": 8314,
+        "agi_usd": 875711109,
+        "tax_liability_usd": 36398200
+      },
+      {
+        "zip": "95658",
+        "city": "Newcastle",
+        "returns": 3227,
+        "agi_usd": 435824326,
+        "tax_liability_usd": 18886072
+      },
+      {
+        "zip": "95722",
+        "city": "Meadow Vista",
+        "returns": 2371,
+        "agi_usd": 319658474,
+        "tax_liability_usd": 15093100
+      },
+      {
+        "zip": "96145",
+        "city": "Tahoe City",
+        "returns": 2052,
+        "agi_usd": 240215806,
+        "tax_liability_usd": 12372681
+      },
+      {
+        "zip": "95663",
+        "city": "Penryn",
+        "returns": 1420,
+        "agi_usd": 234243106,
+        "tax_liability_usd": 11945749
+      },
+      {
+        "zip": "95713",
+        "city": "Colfax",
+        "returns": 3669,
+        "agi_usd": 290933967,
+        "tax_liability_usd": 10928128
+      },
+      {
+        "zip": "95631",
+        "city": "Foresthill",
+        "returns": 2846,
+        "agi_usd": 240029639,
+        "tax_liability_usd": 7973195
+      },
+      {
+        "zip": "96146",
+        "city": "Olympic Valley",
+        "returns": 784,
+        "agi_usd": 102738295,
+        "tax_liability_usd": 5955751
+      },
+      {
+        "zip": "96140",
+        "city": "Carnelian Bay",
+        "returns": 603,
+        "agi_usd": 73526736,
+        "tax_liability_usd": 3707468
+      },
+      {
+        "zip": "95604",
+        "city": "Auburn",
+        "returns": 1113,
+        "agi_usd": 90218416,
+        "tax_liability_usd": 3374807
+      },
+      {
+        "zip": "96143",
+        "city": "Kings Beach",
+        "returns": 1743,
+        "agi_usd": 110299273,
+        "tax_liability_usd": 3309331
+      },
+      {
+        "zip": "95703",
+        "city": "Applegate",
+        "returns": 853,
+        "agi_usd": 73877839,
+        "tax_liability_usd": 2766167
+      },
+      {
+        "zip": "96141",
+        "city": "Homewood",
+        "returns": 320,
+        "agi_usd": 34434306,
+        "tax_liability_usd": 1614748
+      },
+      {
+        "zip": "96148",
+        "city": "Tahoe Vista",
+        "returns": 515,
+        "agi_usd": 38534096,
+        "tax_liability_usd": 1559299
+      },
+      {
+        "zip": "95736",
+        "city": "Weimar",
+        "returns": 548,
+        "agi_usd": 44074480,
+        "tax_liability_usd": 1523254
+      },
+      {
+        "zip": "95681",
+        "city": "Sheridan",
+        "returns": 585,
+        "agi_usd": 40253905,
+        "tax_liability_usd": 1246542
+      },
+      {
+        "zip": "95701",
+        "city": "Alta",
+        "returns": 393,
+        "agi_usd": 32918749,
+        "tax_liability_usd": 1141576
+      },
+      {
+        "zip": "95714",
+        "city": "Dutch Flat",
+        "returns": 154,
+        "agi_usd": 12381451,
+        "tax_liability_usd": 424105
+      },
+      {
+        "zip": "95717",
+        "city": "Gold Run",
+        "returns": 102,
+        "agi_usd": 8345926,
+        "tax_liability_usd": 290435
+      }
+    ]
+  }
+}

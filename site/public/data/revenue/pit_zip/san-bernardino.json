@@ -1,0 +1,718 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Bernardino",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 1937625982,
+    "zips": [
+      {
+        "zip": "91709",
+        "city": "Chino Hills",
+        "returns": 36529,
+        "agi_usd": 3975342058,
+        "tax_liability_usd": 170968319
+      },
+      {
+        "zip": "92373",
+        "city": "Redlands",
+        "returns": 15860,
+        "agi_usd": 2106778473,
+        "tax_liability_usd": 108538530
+      },
+      {
+        "zip": "92336",
+        "city": "Fontana",
+        "returns": 49037,
+        "agi_usd": 3666946039,
+        "tax_liability_usd": 107994471
+      },
+      {
+        "zip": "91739",
+        "city": "Rancho Cucamonga",
+        "returns": 17428,
+        "agi_usd": 2111443482,
+        "tax_liability_usd": 95749225
+      },
+      {
+        "zip": "91784",
+        "city": "Upland",
+        "returns": 13564,
+        "agi_usd": 1774741470,
+        "tax_liability_usd": 85481782
+      },
+      {
+        "zip": "91710",
+        "city": "Chino",
+        "returns": 36548,
+        "agi_usd": 2674022812,
+        "tax_liability_usd": 84386472
+      },
+      {
+        "zip": "91730",
+        "city": "Rancho Cucamonga",
+        "returns": 31683,
+        "agi_usd": 2261630772,
+        "tax_liability_usd": 74028431
+      },
+      {
+        "zip": "92399",
+        "city": "Yucaipa",
+        "returns": 24191,
+        "agi_usd": 2019455096,
+        "tax_liability_usd": 70229564
+      },
+      {
+        "zip": "91701",
+        "city": "Rancho Cucamonga",
+        "returns": 18471,
+        "agi_usd": 1696341828,
+        "tax_liability_usd": 64542160
+      },
+      {
+        "zip": "91737",
+        "city": "Rancho Cucamonga",
+        "returns": 11154,
+        "agi_usd": 1355892473,
+        "tax_liability_usd": 61586433
+      },
+      {
+        "zip": "91761",
+        "city": "Ontario",
+        "returns": 30243,
+        "agi_usd": 2019334143,
+        "tax_liability_usd": 58467532
+      },
+      {
+        "zip": "92346",
+        "city": "Highland",
+        "returns": 25829,
+        "agi_usd": 1841672374,
+        "tax_liability_usd": 57384554
+      },
+      {
+        "zip": "92374",
+        "city": "Redlands",
+        "returns": 19158,
+        "agi_usd": 561026897,
+        "tax_liability_usd": 55191630
+      },
+      {
+        "zip": "91786",
+        "city": "Upland",
+        "returns": 24526,
+        "agi_usd": 993316367,
+        "tax_liability_usd": 50428551
+      },
+      {
+        "zip": "91762",
+        "city": "Ontario",
+        "returns": 29213,
+        "agi_usd": 1845854859,
+        "tax_liability_usd": 49037537
+      },
+      {
+        "zip": "92407",
+        "city": "San Bernardino",
+        "returns": 28012,
+        "agi_usd": 1740200634,
+        "tax_liability_usd": 43196615
+      },
+      {
+        "zip": "92345",
+        "city": "Hesperia",
+        "returns": 35172,
+        "agi_usd": 1840863189,
+        "tax_liability_usd": 38267539
+      },
+      {
+        "zip": "92354",
+        "city": "Loma Linda",
+        "returns": 10214,
+        "agi_usd": 902551730,
+        "tax_liability_usd": 37517018
+      },
+      {
+        "zip": "92307",
+        "city": "Apple Valley",
+        "returns": 17234,
+        "agi_usd": 1151013162,
+        "tax_liability_usd": 33151641
+      },
+      {
+        "zip": "92308",
+        "city": "Apple Valley",
+        "returns": 17388,
+        "agi_usd": 1115578319,
+        "tax_liability_usd": 32154090
+      },
+      {
+        "zip": "92335",
+        "city": "Fontana",
+        "returns": 40546,
+        "agi_usd": 1896666360,
+        "tax_liability_usd": 30494469
+      },
+      {
+        "zip": "92376",
+        "city": "Rialto",
+        "returns": 37123,
+        "agi_usd": 1791022118,
+        "tax_liability_usd": 30190837
+      },
+      {
+        "zip": "92324",
+        "city": "Colton",
+        "returns": 25589,
+        "agi_usd": 1350832147,
+        "tax_liability_usd": 28861243
+      },
+      {
+        "zip": "91764",
+        "city": "Ontario",
+        "returns": 24193,
+        "agi_usd": 1288348336,
+        "tax_liability_usd": 28257415
+      },
+      {
+        "zip": "92392",
+        "city": "Victorville",
+        "returns": 26177,
+        "agi_usd": 1387224366,
+        "tax_liability_usd": 27667653
+      },
+      {
+        "zip": "91708",
+        "city": "Chino",
+        "returns": 7915,
+        "agi_usd": 710237814,
+        "tax_liability_usd": 24993820
+      },
+      {
+        "zip": "92337",
+        "city": "Fontana",
+        "returns": 16646,
+        "agi_usd": 1024477210,
+        "tax_liability_usd": 24956571
+      },
+      {
+        "zip": "92395",
+        "city": "Hesperia",
+        "returns": 17626,
+        "agi_usd": 970186317,
+        "tax_liability_usd": 22467927
+      },
+      {
+        "zip": "92404",
+        "city": "San Bernardino",
+        "returns": 25581,
+        "agi_usd": 891966297,
+        "tax_liability_usd": 21818972
+      },
+      {
+        "zip": "91763",
+        "city": "Montclair",
+        "returns": 16745,
+        "agi_usd": 335353064,
+        "tax_liability_usd": 20674977
+      },
+      {
+        "zip": "92377",
+        "city": "Rialto",
+        "returns": 10296,
+        "agi_usd": 731973812,
+        "tax_liability_usd": 19324096
+      },
+      {
+        "zip": "92344",
+        "city": "Hesperia",
+        "returns": 9712,
+        "agi_usd": 662975350,
+        "tax_liability_usd": 18101722
+      },
+      {
+        "zip": "92284",
+        "city": "Yucca Valley",
+        "returns": 9283,
+        "agi_usd": 557768535,
+        "tax_liability_usd": 16582602
+      },
+      {
+        "zip": "91785",
+        "city": "Upland",
+        "returns": 455,
+        "agi_usd": 184045861,
+        "tax_liability_usd": 14203684
+      },
+      {
+        "zip": "92313",
+        "city": "Grand Terrace",
+        "returns": 5901,
+        "agi_usd": 432757525,
+        "tax_liability_usd": 14011160
+      },
+      {
+        "zip": "92394",
+        "city": "Victorville",
+        "returns": 14735,
+        "agi_usd": 733009683,
+        "tax_liability_usd": 13081522
+      },
+      {
+        "zip": "92316",
+        "city": "Bloomington",
+        "returns": 13764,
+        "agi_usd": 680834993,
+        "tax_liability_usd": 12221972
+      },
+      {
+        "zip": "92311",
+        "city": "Barstow",
+        "returns": 12263,
+        "agi_usd": 588481745,
+        "tax_liability_usd": 11947436
+      },
+      {
+        "zip": "92405",
+        "city": "San Bernardino",
+        "returns": 12630,
+        "agi_usd": 490903143,
+        "tax_liability_usd": 10513013
+      },
+      {
+        "zip": "92410",
+        "city": "San Bernardino",
+        "returns": 19365,
+        "agi_usd": 757017242,
+        "tax_liability_usd": 9492233
+      },
+      {
+        "zip": "91729",
+        "city": "Rancho Cucamonga",
+        "returns": 953,
+        "agi_usd": 125338344,
+        "tax_liability_usd": 9389387
+      },
+      {
+        "zip": "92359",
+        "city": "Mentone",
+        "returns": 3924,
+        "agi_usd": 284077438,
+        "tax_liability_usd": 9100623
+      },
+      {
+        "zip": "92301",
+        "city": "Adelanto",
+        "returns": 13793,
+        "agi_usd": 607985634,
+        "tax_liability_usd": 8692202
+      },
+      {
+        "zip": "92277",
+        "city": "Twentynine Palms",
+        "returns": 7026,
+        "agi_usd": 358724109,
+        "tax_liability_usd": 8322584
+      },
+      {
+        "zip": "92325",
+        "city": "Crestline",
+        "returns": 4115,
+        "agi_usd": 273203248,
+        "tax_liability_usd": 8103235
+      },
+      {
+        "zip": "92352",
+        "city": "Lake Arrowhead",
+        "returns": 1924,
+        "agi_usd": 196751610,
+        "tax_liability_usd": 7934880
+      },
+      {
+        "zip": "92397",
+        "city": "Wrightwood",
+        "returns": 2356,
+        "agi_usd": 214037645,
+        "tax_liability_usd": 7918681
+      },
+      {
+        "zip": "92315",
+        "city": "Big Bear Lake",
+        "returns": 2776,
+        "agi_usd": 191599135,
+        "tax_liability_usd": 6935688
+      },
+      {
+        "zip": "92375",
+        "city": "Redlands",
+        "returns": 589,
+        "agi_usd": 332349980,
+        "tax_liability_usd": 6874874
+      },
+      {
+        "zip": "92314",
+        "city": "Big Bear City",
+        "returns": 3474,
+        "agi_usd": 224030550,
+        "tax_liability_usd": 6740674
+      },
+      {
+        "zip": "92371",
+        "city": "Phelan",
+        "returns": 4710,
+        "agi_usd": 271518314,
+        "tax_liability_usd": 6298010
+      },
+      {
+        "zip": "92342",
+        "city": "Helendale",
+        "returns": 2708,
+        "agi_usd": 193471946,
+        "tax_liability_usd": 5692039
+      },
+      {
+        "zip": "92252",
+        "city": "Joshua Tree",
+        "returns": 2806,
+        "agi_usd": 164909991,
+        "tax_liability_usd": 5661682
+      },
+      {
+        "zip": "92411",
+        "city": "San Bernardino",
+        "returns": 11020,
+        "agi_usd": 441224512,
+        "tax_liability_usd": 5478129
+      },
+      {
+        "zip": "92408",
+        "city": "San Bernardino",
+        "returns": 5515,
+        "agi_usd": 272637423,
+        "tax_liability_usd": 5432108
+      },
+      {
+        "zip": "92382",
+        "city": "Running Springs",
+        "returns": 2259,
+        "agi_usd": 168809698,
+        "tax_liability_usd": 5324538
+      },
+      {
+        "zip": "92317",
+        "city": "Blue Jay",
+        "returns": 1323,
+        "agi_usd": 126190420,
+        "tax_liability_usd": 5209564
+      },
+      {
+        "zip": "92329",
+        "city": "Phelan",
+        "returns": 2004,
+        "agi_usd": 138382705,
+        "tax_liability_usd": 4013418
+      },
+      {
+        "zip": "92372",
+        "city": "Pinon Hills",
+        "returns": 2254,
+        "agi_usd": 144313537,
+        "tax_liability_usd": 3770754
+      },
+      {
+        "zip": "92256",
+        "city": "Morongo Valley",
+        "returns": 1440,
+        "agi_usd": 80814903,
+        "tax_liability_usd": 2429008
+      },
+      {
+        "zip": "92391",
+        "city": "Twin Peaks",
+        "returns": 876,
+        "agi_usd": 60833401,
+        "tax_liability_usd": 1926323
+      },
+      {
+        "zip": "92363",
+        "city": "Needles",
+        "returns": 1580,
+        "agi_usd": 70932683,
+        "tax_liability_usd": 1728017
+      },
+      {
+        "zip": "92340",
+        "city": "Hesperia",
+        "returns": 688,
+        "agi_usd": 53340533,
+        "tax_liability_usd": 1694180
+      },
+      {
+        "zip": "92356",
+        "city": "Lucerne Valley",
+        "returns": 2000,
+        "agi_usd": 89302315,
+        "tax_liability_usd": 1657383
+      },
+      {
+        "zip": "92321",
+        "city": "Cedar Glen",
+        "returns": 542,
+        "agi_usd": 38411083,
+        "tax_liability_usd": 1624539
+      },
+      {
+        "zip": "92393",
+        "city": "Victorville",
+        "returns": 846,
+        "agi_usd": 50147151,
+        "tax_liability_usd": 1423563
+      },
+      {
+        "zip": "92386",
+        "city": "Sugarloaf",
+        "returns": 928,
+        "agi_usd": 48974635,
+        "tax_liability_usd": 1408927
+      },
+      {
+        "zip": "92423",
+        "city": "San Bernardino",
+        "returns": 411,
+        "agi_usd": 32868567,
+        "tax_liability_usd": 1280631
+      },
+      {
+        "zip": "92286",
+        "city": "Yucca Valley",
+        "returns": 491,
+        "agi_usd": 32644491,
+        "tax_liability_usd": 1263664
+      },
+      {
+        "zip": "92339",
+        "city": "Forest Falls",
+        "returns": 485,
+        "agi_usd": 37409643,
+        "tax_liability_usd": 1185811
+      },
+      {
+        "zip": "92310",
+        "city": "Fort Irwin",
+        "returns": 1307,
+        "agi_usd": 69998840,
+        "tax_liability_usd": 1021299
+      },
+      {
+        "zip": "92333",
+        "city": "Fawnskin",
+        "returns": 230,
+        "agi_usd": 22839733,
+        "tax_liability_usd": 1002442
+      },
+      {
+        "zip": "92427",
+        "city": "San Bernardino",
+        "returns": 357,
+        "agi_usd": 25697082,
+        "tax_liability_usd": 952033
+      },
+      {
+        "zip": "92334",
+        "city": "Fontana",
+        "returns": 459,
+        "agi_usd": 30374790,
+        "tax_liability_usd": 901310
+      },
+      {
+        "zip": "92285",
+        "city": "Landers",
+        "returns": 679,
+        "agi_usd": 31221655,
+        "tax_liability_usd": 867201
+      },
+      {
+        "zip": "92398",
+        "city": "Yermo",
+        "returns": 536,
+        "agi_usd": 34324308,
+        "tax_liability_usd": 818648
+      },
+      {
+        "zip": "92312",
+        "city": "Barstow",
+        "returns": 370,
+        "agi_usd": 24756640,
+        "tax_liability_usd": 809336
+      },
+      {
+        "zip": "92368",
+        "city": "Oro Grande",
+        "returns": 310,
+        "agi_usd": 18728695,
+        "tax_liability_usd": 685158
+      },
+      {
+        "zip": "92268",
+        "city": "Pioneertown",
+        "returns": 236,
+        "agi_usd": 17750886,
+        "tax_liability_usd": 684297
+      },
+      {
+        "zip": "92358",
+        "city": "Lytle Creek",
+        "returns": 355,
+        "agi_usd": 24518842,
+        "tax_liability_usd": 680551
+      },
+      {
+        "zip": "92305",
+        "city": "Angelus Oaks",
+        "returns": 263,
+        "agi_usd": 19833744,
+        "tax_liability_usd": 677513
+      },
+      {
+        "zip": "92378",
+        "city": "Rimforest",
+        "returns": 260,
+        "agi_usd": 18080528,
+        "tax_liability_usd": 623118
+      },
+      {
+        "zip": "92385",
+        "city": "Skyforest",
+        "returns": 250,
+        "agi_usd": 17356605,
+        "tax_liability_usd": 606805
+      },
+      {
+        "zip": "92365",
+        "city": "Newberry Springs",
+        "returns": 675,
+        "agi_usd": 29141008,
+        "tax_liability_usd": 561155
+      },
+      {
+        "zip": "92401",
+        "city": "San Bernardino",
+        "returns": 627,
+        "agi_usd": 23042089,
+        "tax_liability_usd": 504758
+      },
+      {
+        "zip": "93562",
+        "city": "Trona",
+        "returns": 445,
+        "agi_usd": 21542929,
+        "tax_liability_usd": 454296
+      },
+      {
+        "zip": "92406",
+        "city": "San Bernardino",
+        "returns": 227,
+        "agi_usd": 12604355,
+        "tax_liability_usd": 378885
+      },
+      {
+        "zip": "92413",
+        "city": "San Bernardino",
+        "returns": 217,
+        "agi_usd": 11872139,
+        "tax_liability_usd": 376500
+      },
+      {
+        "zip": "92322",
+        "city": "Cedarpines Park",
+        "returns": 259,
+        "agi_usd": 14545996,
+        "tax_liability_usd": 362149
+      },
+      {
+        "zip": "92331",
+        "city": "Fontana",
+        "returns": 223,
+        "agi_usd": 14216192,
+        "tax_liability_usd": 330681
+      },
+      {
+        "zip": "92402",
+        "city": "San Bernardino",
+        "returns": 272,
+        "agi_usd": 12755036,
+        "tax_liability_usd": 290750
+      },
+      {
+        "zip": "92341",
+        "city": "Green Valley Lake",
+        "returns": 180,
+        "agi_usd": 10471267,
+        "tax_liability_usd": 284876
+      },
+      {
+        "zip": "92369",
+        "city": "Patton",
+        "returns": 245,
+        "agi_usd": 7567237,
+        "tax_liability_usd": 242918
+      },
+      {
+        "zip": "92347",
+        "city": "Hinkley",
+        "returns": 239,
+        "agi_usd": 10427407,
+        "tax_liability_usd": 213350
+      },
+      {
+        "zip": "92242",
+        "city": "Earp",
+        "returns": 264,
+        "agi_usd": 9714769,
+        "tax_liability_usd": 180902
+      },
+      {
+        "zip": "92327",
+        "city": "Daggett",
+        "returns": 171,
+        "agi_usd": 7804307,
+        "tax_liability_usd": 144164
+      },
+      {
+        "zip": "92309",
+        "city": "Baker",
+        "returns": 221,
+        "agi_usd": 10137331,
+        "tax_liability_usd": 134348
+      },
+      {
+        "zip": "92318",
+        "city": "Bryn Mawr",
+        "returns": 117,
+        "agi_usd": 5150568,
+        "tax_liability_usd": 105275
+      },
+      {
+        "zip": "92278",
+        "city": "Twentynine Palms",
+        "returns": 160,
+        "agi_usd": 4224803,
+        "tax_liability_usd": 50730
+      }
+    ]
+  }
+}

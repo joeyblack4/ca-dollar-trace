@@ -1,0 +1,263 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Mateo",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 5999245846,
+    "zips": [
+      {
+        "zip": "94010",
+        "city": "Burlingame",
+        "returns": 20454,
+        "agi_usd": 10816213795,
+        "tax_liability_usd": 819193035
+      },
+      {
+        "zip": "94025",
+        "city": "Menlo Park",
+        "returns": 19727,
+        "agi_usd": 8732602573,
+        "tax_liability_usd": 712060960
+      },
+      {
+        "zip": "94062",
+        "city": "Redwood City",
+        "returns": 12673,
+        "agi_usd": 7197261749,
+        "tax_liability_usd": 548970697
+      },
+      {
+        "zip": "94027",
+        "city": "Atherton",
+        "returns": 3047,
+        "agi_usd": 5393518690,
+        "tax_liability_usd": 488784876
+      },
+      {
+        "zip": "94070",
+        "city": "San Carlos",
+        "returns": 15246,
+        "agi_usd": 5397202622,
+        "tax_liability_usd": 403143885
+      },
+      {
+        "zip": "94403",
+        "city": "San Mateo",
+        "returns": 21597,
+        "agi_usd": 4492992714,
+        "tax_liability_usd": 307821548
+      },
+      {
+        "zip": "94402",
+        "city": "San Mateo",
+        "returns": 13238,
+        "agi_usd": 4198652460,
+        "tax_liability_usd": 304132737
+      },
+      {
+        "zip": "94028",
+        "city": "Portola Valley",
+        "returns": 3237,
+        "agi_usd": 3123395332,
+        "tax_liability_usd": 283212755
+      },
+      {
+        "zip": "94404",
+        "city": "San Mateo",
+        "returns": 17600,
+        "agi_usd": 4089808027,
+        "tax_liability_usd": 282946767
+      },
+      {
+        "zip": "94002",
+        "city": "Belmont",
+        "returns": 13002,
+        "agi_usd": 3435697957,
+        "tax_liability_usd": 248523393
+      },
+      {
+        "zip": "94061",
+        "city": "Redwood City",
+        "returns": 16809,
+        "agi_usd": 3390729888,
+        "tax_liability_usd": 229655532
+      },
+      {
+        "zip": "94080",
+        "city": "South San Francisco",
+        "returns": 32959,
+        "agi_usd": 3657029892,
+        "tax_liability_usd": 173614552
+      },
+      {
+        "zip": "94044",
+        "city": "Pacifica",
+        "returns": 18546,
+        "agi_usd": 2699448105,
+        "tax_liability_usd": 150792813
+      },
+      {
+        "zip": "94065",
+        "city": "Redwood City",
+        "returns": 6011,
+        "agi_usd": 1898645945,
+        "tax_liability_usd": 141955060
+      },
+      {
+        "zip": "94401",
+        "city": "San Mateo",
+        "returns": 16372,
+        "agi_usd": 2205051902,
+        "tax_liability_usd": 139786296
+      },
+      {
+        "zip": "94066",
+        "city": "San Bruno",
+        "returns": 21602,
+        "agi_usd": 2541361698,
+        "tax_liability_usd": 128042328
+      },
+      {
+        "zip": "94015",
+        "city": "Daly City",
+        "returns": 31139,
+        "agi_usd": 1837668137,
+        "tax_liability_usd": 120666708
+      },
+      {
+        "zip": "94030",
+        "city": "Millbrae",
+        "returns": 11623,
+        "agi_usd": 1993173237,
+        "tax_liability_usd": 119611539
+      },
+      {
+        "zip": "94063",
+        "city": "Redwood City",
+        "returns": 15556,
+        "agi_usd": 1885253729,
+        "tax_liability_usd": 105186028
+      },
+      {
+        "zip": "94019",
+        "city": "Half Moon Bay",
+        "returns": 7686,
+        "agi_usd": 1386876698,
+        "tax_liability_usd": 88273596
+      },
+      {
+        "zip": "94014",
+        "city": "Daly City",
+        "returns": 23105,
+        "agi_usd": 1899043840,
+        "tax_liability_usd": 74216082
+      },
+      {
+        "zip": "94018",
+        "city": "El Granada",
+        "returns": 1743,
+        "agi_usd": 375237014,
+        "tax_liability_usd": 27669636
+      },
+      {
+        "zip": "94026",
+        "city": "Menlo Park",
+        "returns": 436,
+        "agi_usd": 278877779,
+        "tax_liability_usd": 26967497
+      },
+      {
+        "zip": "94005",
+        "city": "Brisbane",
+        "returns": 2422,
+        "agi_usd": 407662020,
+        "tax_liability_usd": 24823654
+      },
+      {
+        "zip": "94037",
+        "city": "Montara",
+        "returns": 1340,
+        "agi_usd": 281151586,
+        "tax_liability_usd": 18872928
+      },
+      {
+        "zip": "94038",
+        "city": "Moss Beach",
+        "returns": 1422,
+        "agi_usd": 208114976,
+        "tax_liability_usd": 11453873
+      },
+      {
+        "zip": "94020",
+        "city": "La Honda",
+        "returns": 675,
+        "agi_usd": 110950209,
+        "tax_liability_usd": 6192537
+      },
+      {
+        "zip": "94011",
+        "city": "Burlingame",
+        "returns": 377,
+        "agi_usd": 85907742,
+        "tax_liability_usd": 5492311
+      },
+      {
+        "zip": "94060",
+        "city": "Pescadero",
+        "returns": 715,
+        "agi_usd": 57153961,
+        "tax_liability_usd": 2261477
+      },
+      {
+        "zip": "94064",
+        "city": "Redwood City",
+        "returns": 290,
+        "agi_usd": 33567514,
+        "tax_liability_usd": 1507577
+      },
+      {
+        "zip": "94083",
+        "city": "South San Francisco",
+        "returns": 223,
+        "agi_usd": 28021728,
+        "tax_liability_usd": 1231527
+      },
+      {
+        "zip": "94074",
+        "city": "San Gregorio",
+        "returns": 113,
+        "agi_usd": 16666805,
+        "tax_liability_usd": 855794
+      },
+      {
+        "zip": "94017",
+        "city": "Daly City",
+        "returns": 243,
+        "agi_usd": 20614847,
+        "tax_liability_usd": 838532
+      },
+      {
+        "zip": "94128",
+        "city": "San Francisco",
+        "returns": 113,
+        "agi_usd": 10635821,
+        "tax_liability_usd": 487316
+      }
+    ]
+  }
+}

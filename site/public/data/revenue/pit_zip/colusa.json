@@ -1,0 +1,74 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Colusa",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 21014829,
+    "zips": [
+      {
+        "zip": "95912",
+        "city": "Arbuckle",
+        "returns": 2293,
+        "agi_usd": 170856524,
+        "tax_liability_usd": 7213183
+      },
+      {
+        "zip": "95932",
+        "city": "Colusa",
+        "returns": 3478,
+        "agi_usd": 239646472,
+        "tax_liability_usd": 7150947
+      },
+      {
+        "zip": "95987",
+        "city": "Williams",
+        "returns": 2991,
+        "agi_usd": 164513590,
+        "tax_liability_usd": 3414321
+      },
+      {
+        "zip": "95955",
+        "city": "Maxwell",
+        "returns": 598,
+        "agi_usd": 56472212,
+        "tax_liability_usd": 2231559
+      },
+      {
+        "zip": "95970",
+        "city": "Princeton",
+        "returns": 226,
+        "agi_usd": 15446549,
+        "tax_liability_usd": 535075
+      },
+      {
+        "zip": "95950",
+        "city": "Grimes",
+        "returns": 192,
+        "agi_usd": 10850587,
+        "tax_liability_usd": 272765
+      },
+      {
+        "zip": "95979",
+        "city": "Stonyford",
+        "returns": 153,
+        "agi_usd": 7179114,
+        "tax_liability_usd": 196979
+      }
+    ]
+  }
+}

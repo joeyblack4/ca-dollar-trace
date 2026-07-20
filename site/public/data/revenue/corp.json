@@ -1,0 +1,460 @@
+{
+  "source": {
+    "name": "FTB Corporation Tax Statistics (C-series)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T165836Z",
+  "ingested_at": "2026-07-17T16:58:36.475907+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate, these tables what corporations reported for the latest published tax year. Shown side by side, never blended or scaled.",
+    "Corporate returns are confidential under R&TC \u00a719542 \u2014 no public dataset names a corporate taxpayer or breaks the tax down geographically. Industry group and income class are the finest public cuts.",
+    "The industry table (C-10) reports tax liability; the income-class table (C-8) reports tax assessed. Different measures \u2014 their totals differ by design and both are shown."
+  ],
+  "data": {
+    "tax_year": 2022,
+    "budget_reference": {
+      "budget_year": "2025-26",
+      "waterfall_usd": 35613000000,
+      "stats_total_usd": 26429707119,
+      "note": "The budget waterfall shows the Department of Finance's enacted revenue estimate for 2025-26. The figures below are what corporations actually reported for tax year 2022, the latest FTB has published \u2014 different years and different measures, shown side by side rather than stretched to fit."
+    },
+    "statewide": {
+      "returns_with_liability": 1109201,
+      "net_income_usd": 225955434960,
+      "tax_liability_usd": 26429707119
+    },
+    "industries": [
+      {
+        "industry": "Finance, investment & insurance",
+        "returns": 55837,
+        "net_income_usd": 22653620831,
+        "tax_liability_usd": 3282448554,
+        "share_of_tax_pct": 12.42,
+        "c_corp_tax_usd": 2746470674,
+        "s_corp_tax_usd": 535977880
+      },
+      {
+        "industry": "Holding companies",
+        "returns": 8466,
+        "net_income_usd": 22978194177,
+        "tax_liability_usd": 2713101431,
+        "share_of_tax_pct": 10.27,
+        "c_corp_tax_usd": 2383950788,
+        "s_corp_tax_usd": 329150643
+      },
+      {
+        "industry": "Retail trade",
+        "returns": 64938,
+        "net_income_usd": 28233213724,
+        "tax_liability_usd": 2642853449,
+        "share_of_tax_pct": 10.0,
+        "c_corp_tax_usd": 1653890461,
+        "s_corp_tax_usd": 988962988
+      },
+      {
+        "industry": "Wholesale trade",
+        "returns": 75781,
+        "net_income_usd": 25700513911,
+        "tax_liability_usd": 2455197289,
+        "share_of_tax_pct": 9.29,
+        "c_corp_tax_usd": 1314516443,
+        "s_corp_tax_usd": 1140680846
+      },
+      {
+        "industry": "Professional, scientific & technical services",
+        "returns": 207775,
+        "net_income_usd": -2426288876,
+        "tax_liability_usd": 2436808615,
+        "share_of_tax_pct": 9.22,
+        "c_corp_tax_usd": 788912709,
+        "s_corp_tax_usd": 1647895906
+      },
+      {
+        "industry": "Nondurable goods manufacturing",
+        "returns": 16390,
+        "net_income_usd": 22513658679,
+        "tax_liability_usd": 2059361220,
+        "share_of_tax_pct": 7.79,
+        "c_corp_tax_usd": 1541311649,
+        "s_corp_tax_usd": 518049572
+      },
+      {
+        "industry": "Durable goods manufacturing",
+        "returns": 29267,
+        "net_income_usd": 21744525507,
+        "tax_liability_usd": 2037027729,
+        "share_of_tax_pct": 7.71,
+        "c_corp_tax_usd": 1351750244,
+        "s_corp_tax_usd": 685277485
+      },
+      {
+        "industry": "Real estate",
+        "returns": 129156,
+        "net_income_usd": 16140310252,
+        "tax_liability_usd": 1605929550,
+        "share_of_tax_pct": 6.08,
+        "c_corp_tax_usd": 798635096,
+        "s_corp_tax_usd": 807294454
+      },
+      {
+        "industry": "Construction",
+        "returns": 98245,
+        "net_income_usd": 17133812340,
+        "tax_liability_usd": 1470730790,
+        "share_of_tax_pct": 5.56,
+        "c_corp_tax_usd": 533110300,
+        "s_corp_tax_usd": 937620490
+      },
+      {
+        "industry": "Health services",
+        "returns": 102737,
+        "net_income_usd": 10526526010,
+        "tax_liability_usd": 1033886952,
+        "share_of_tax_pct": 3.91,
+        "c_corp_tax_usd": 180437620,
+        "s_corp_tax_usd": 853449331
+      },
+      {
+        "industry": "Information & communications",
+        "returns": 19499,
+        "net_income_usd": 6168857875,
+        "tax_liability_usd": 967213905,
+        "share_of_tax_pct": 3.66,
+        "c_corp_tax_usd": 752688708,
+        "s_corp_tax_usd": 214525197
+      },
+      {
+        "industry": "Transportation, warehousing & utilities",
+        "returns": 64200,
+        "net_income_usd": 6081123095,
+        "tax_liability_usd": 704615058,
+        "share_of_tax_pct": 2.67,
+        "c_corp_tax_usd": 438944251,
+        "s_corp_tax_usd": 265670807
+      },
+      {
+        "industry": "Arts, entertainment & recreation",
+        "returns": 46130,
+        "net_income_usd": 6364997484,
+        "tax_liability_usd": 674837266,
+        "share_of_tax_pct": 2.55,
+        "c_corp_tax_usd": 60487407,
+        "s_corp_tax_usd": 614349859
+      },
+      {
+        "industry": "Administrative services",
+        "returns": 35245,
+        "net_income_usd": 6251999292,
+        "tax_liability_usd": 668739784,
+        "share_of_tax_pct": 2.53,
+        "c_corp_tax_usd": 222218848,
+        "s_corp_tax_usd": 446520936
+      },
+      {
+        "industry": "Accommodation & food services",
+        "returns": 46716,
+        "net_income_usd": 5621213070,
+        "tax_liability_usd": 513534722,
+        "share_of_tax_pct": 1.94,
+        "c_corp_tax_usd": 244367261,
+        "s_corp_tax_usd": 269167462
+      },
+      {
+        "industry": "Unknown industry",
+        "returns": 12134,
+        "net_income_usd": 4522479958,
+        "tax_liability_usd": 494383155,
+        "share_of_tax_pct": 1.87,
+        "c_corp_tax_usd": 418909754,
+        "s_corp_tax_usd": 75473401
+      },
+      {
+        "industry": "Other services",
+        "returns": 80576,
+        "net_income_usd": 3605194839,
+        "tax_liability_usd": 367395675,
+        "share_of_tax_pct": 1.39,
+        "c_corp_tax_usd": 84928334,
+        "s_corp_tax_usd": 282467341
+      },
+      {
+        "industry": "Agriculture, forestry & fishing",
+        "returns": 14998,
+        "net_income_usd": 940073178,
+        "tax_liability_usd": 211485330,
+        "share_of_tax_pct": 0.8,
+        "c_corp_tax_usd": 76946450,
+        "s_corp_tax_usd": 134538881
+      },
+      {
+        "industry": "Mining",
+        "returns": 1111,
+        "net_income_usd": 1201409614,
+        "tax_liability_usd": 90156646,
+        "share_of_tax_pct": 0.34,
+        "c_corp_tax_usd": 61625323,
+        "s_corp_tax_usd": 28531323
+      }
+    ],
+    "industry_reconciliation": {
+      "leaf_sum_usd": 26429707120,
+      "file_total_usd": 26429707119
+    },
+    "income_classes": [
+      {
+        "label": "Net Loss",
+        "returns": 353844,
+        "net_income_usd": -129809768000,
+        "tax_assessed_usd": 262094000,
+        "share_of_tax_pct": 1.01
+      },
+      {
+        "label": "No Income or Loss",
+        "returns": 91262,
+        "net_income_usd": 0,
+        "tax_assessed_usd": 58169000,
+        "share_of_tax_pct": 0.22
+      },
+      {
+        "label": "$1 to $4,999",
+        "returns": 78180,
+        "net_income_usd": 163365000,
+        "tax_assessed_usd": 60423000,
+        "share_of_tax_pct": 0.23
+      },
+      {
+        "label": "$5,000 to $9,999",
+        "returns": 43106,
+        "net_income_usd": 315955000,
+        "tax_assessed_usd": 35622000,
+        "share_of_tax_pct": 0.14
+      },
+      {
+        "label": "$10,000 to $14,999",
+        "returns": 35624,
+        "net_income_usd": 445368000,
+        "tax_assessed_usd": 30178000,
+        "share_of_tax_pct": 0.12
+      },
+      {
+        "label": "$15,000 to $19,999",
+        "returns": 29687,
+        "net_income_usd": 522249000,
+        "tax_assessed_usd": 27393000,
+        "share_of_tax_pct": 0.11
+      },
+      {
+        "label": "$20,000 to $24,999",
+        "returns": 26320,
+        "net_income_usd": 584785000,
+        "tax_assessed_usd": 26503000,
+        "share_of_tax_pct": 0.1
+      },
+      {
+        "label": "$25,000 to $29,999",
+        "returns": 25646,
+        "net_income_usd": 707783000,
+        "tax_assessed_usd": 29620000,
+        "share_of_tax_pct": 0.11
+      },
+      {
+        "label": "$30,000 to $39,999",
+        "returns": 47570,
+        "net_income_usd": 1659135000,
+        "tax_assessed_usd": 59285000,
+        "share_of_tax_pct": 0.23
+      },
+      {
+        "label": "$40,000 to $49,999",
+        "returns": 34198,
+        "net_income_usd": 1547979000,
+        "tax_assessed_usd": 49537000,
+        "share_of_tax_pct": 0.19
+      },
+      {
+        "label": "$50,000 to $59,999",
+        "returns": 27159,
+        "net_income_usd": 1493389000,
+        "tax_assessed_usd": 50329000,
+        "share_of_tax_pct": 0.19
+      },
+      {
+        "label": "$60,000 to $69,999",
+        "returns": 22535,
+        "net_income_usd": 1467786000,
+        "tax_assessed_usd": 42114000,
+        "share_of_tax_pct": 0.16
+      },
+      {
+        "label": "$70,000 to $79,999",
+        "returns": 18202,
+        "net_income_usd": 1359951000,
+        "tax_assessed_usd": 38082000,
+        "share_of_tax_pct": 0.15
+      },
+      {
+        "label": "$80,000 to $89,999",
+        "returns": 16699,
+        "net_income_usd": 1413012000,
+        "tax_assessed_usd": 54259000,
+        "share_of_tax_pct": 0.21
+      },
+      {
+        "label": "$90,000 to $99,999",
+        "returns": 16503,
+        "net_income_usd": 1567976000,
+        "tax_assessed_usd": 51850000,
+        "share_of_tax_pct": 0.2
+      },
+      {
+        "label": "$100,000 to $149,999",
+        "returns": 60733,
+        "net_income_usd": 7472087000,
+        "tax_assessed_usd": 273121000,
+        "share_of_tax_pct": 1.05
+      },
+      {
+        "label": "$150,000 to $199,999",
+        "returns": 32700,
+        "net_income_usd": 5709495000,
+        "tax_assessed_usd": 246989000,
+        "share_of_tax_pct": 0.95
+      },
+      {
+        "label": "$200,000 to $249,999",
+        "returns": 22313,
+        "net_income_usd": 4980011000,
+        "tax_assessed_usd": 235356000,
+        "share_of_tax_pct": 0.91
+      },
+      {
+        "label": "$250,000 to $299,999",
+        "returns": 17604,
+        "net_income_usd": 4804000000,
+        "tax_assessed_usd": 264971000,
+        "share_of_tax_pct": 1.02
+      },
+      {
+        "label": "$300,000 to $399,999",
+        "returns": 21824,
+        "net_income_usd": 7549300000,
+        "tax_assessed_usd": 427199000,
+        "share_of_tax_pct": 1.65
+      },
+      {
+        "label": "$400,000 to $499,999",
+        "returns": 13935,
+        "net_income_usd": 6205852000,
+        "tax_assessed_usd": 343255000,
+        "share_of_tax_pct": 1.32
+      },
+      {
+        "label": "$500,000 to $749,999",
+        "returns": 18889,
+        "net_income_usd": 11517691000,
+        "tax_assessed_usd": 715622000,
+        "share_of_tax_pct": 2.76
+      },
+      {
+        "label": "$750,000 to $999,999",
+        "returns": 10649,
+        "net_income_usd": 9144727000,
+        "tax_assessed_usd": 601745000,
+        "share_of_tax_pct": 2.32
+      },
+      {
+        "label": "$1,000,000 to $1,499,999",
+        "returns": 10245,
+        "net_income_usd": 12534694000,
+        "tax_assessed_usd": 926885000,
+        "share_of_tax_pct": 3.57
+      },
+      {
+        "label": "$1,500,000 to $1,999,999",
+        "returns": 5092,
+        "net_income_usd": 8812680000,
+        "tax_assessed_usd": 661254000,
+        "share_of_tax_pct": 2.55
+      },
+      {
+        "label": "$2,000,000 to $2,999,999",
+        "returns": 5452,
+        "net_income_usd": 13296566000,
+        "tax_assessed_usd": 1026773000,
+        "share_of_tax_pct": 3.96
+      },
+      {
+        "label": "$3,000,000 to $3,999,999",
+        "returns": 2772,
+        "net_income_usd": 9563903000,
+        "tax_assessed_usd": 767870000,
+        "share_of_tax_pct": 2.96
+      },
+      {
+        "label": "$4,000,000 to $4,999,999",
+        "returns": 1681,
+        "net_income_usd": 7511687000,
+        "tax_assessed_usd": 558595000,
+        "share_of_tax_pct": 2.15
+      },
+      {
+        "label": "$5,000,000 to $9,999,999",
+        "returns": 3163,
+        "net_income_usd": 21846104000,
+        "tax_assessed_usd": 1782677000,
+        "share_of_tax_pct": 6.87
+      },
+      {
+        "label": "$10,000,000 and over",
+        "returns": 3490,
+        "net_income_usd": 219723027000,
+        "tax_assessed_usd": 16238204000,
+        "share_of_tax_pct": 62.58
+      }
+    ],
+    "display_classes": [
+      {
+        "label": "Reported a loss or no income",
+        "returns": 445106,
+        "tax_assessed_usd": 320263000,
+        "share_of_returns_pct": 40.57,
+        "share_of_tax_pct": 1.23
+      },
+      {
+        "label": "Under $100,000",
+        "returns": 421429,
+        "tax_assessed_usd": 555195000,
+        "share_of_returns_pct": 38.41,
+        "share_of_tax_pct": 2.14
+      },
+      {
+        "label": "$100,000 \u2013 $999,999",
+        "returns": 198647,
+        "tax_assessed_usd": 3108258000,
+        "share_of_returns_pct": 18.11,
+        "share_of_tax_pct": 11.98
+      },
+      {
+        "label": "$1 million \u2013 $10 million",
+        "returns": 28405,
+        "tax_assessed_usd": 5724054000,
+        "share_of_returns_pct": 2.59,
+        "share_of_tax_pct": 22.06
+      },
+      {
+        "label": "$10 million and over",
+        "returns": 3490,
+        "tax_assessed_usd": 16238204000,
+        "share_of_returns_pct": 0.32,
+        "share_of_tax_pct": 62.58
+      }
+    ],
+    "income_class_tax_year": 2022,
+    "income_class_measure_note": "Income classes (C-8) report tax assessed; the industry table (C-10) reports tax liability. Different measures \u2014 their totals differ by design.",
+    "income_class_total_usd": 25945974000
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Yolo",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 372568633,
+    "zips": [
+      {
+        "zip": "95616",
+        "city": "Davis",
+        "returns": 16987,
+        "agi_usd": 1974609364,
+        "tax_liability_usd": 97972794
+      },
+      {
+        "zip": "95618",
+        "city": "El Macero",
+        "returns": 11281,
+        "agi_usd": 1624411339,
+        "tax_liability_usd": 82790597
+      },
+      {
+        "zip": "95691",
+        "city": "West Sacramento",
+        "returns": 17779,
+        "agi_usd": 1615706093,
+        "tax_liability_usd": 62436066
+      },
+      {
+        "zip": "95695",
+        "city": "Woodland",
+        "returns": 16630,
+        "agi_usd": 1311068338,
+        "tax_liability_usd": 45413600
+      },
+      {
+        "zip": "95776",
+        "city": "Woodland",
+        "returns": 13484,
+        "agi_usd": 1086555958,
+        "tax_liability_usd": 36652012
+      },
+      {
+        "zip": "95694",
+        "city": "Winters",
+        "returns": 4777,
+        "agi_usd": 444296358,
+        "tax_liability_usd": 17358372
+      },
+      {
+        "zip": "95605",
+        "city": "West Sacramento",
+        "returns": 6242,
+        "agi_usd": 403233395,
+        "tax_liability_usd": 13401662
+      },
+      {
+        "zip": "95617",
+        "city": "Davis",
+        "returns": 605,
+        "agi_usd": 88592611,
+        "tax_liability_usd": 5579005
+      },
+      {
+        "zip": "95627",
+        "city": "Esparto",
+        "returns": 1790,
+        "agi_usd": 119079369,
+        "tax_liability_usd": 3317893
+      },
+      {
+        "zip": "95612",
+        "city": "Clarksburg",
+        "returns": 590,
+        "agi_usd": 77293617,
+        "tax_liability_usd": 2822867
+      },
+      {
+        "zip": "95645",
+        "city": "Knights Landing",
+        "returns": 649,
+        "agi_usd": 39820408,
+        "tax_liability_usd": 1033154
+      },
+      {
+        "zip": "95937",
+        "city": "Dunnigan",
+        "returns": 665,
+        "agi_usd": 33178322,
+        "tax_liability_usd": 792448
+      },
+      {
+        "zip": "95697",
+        "city": "Yolo",
+        "returns": 307,
+        "agi_usd": 20134751,
+        "tax_liability_usd": 707070
+      },
+      {
+        "zip": "95798",
+        "city": "West Sacramento",
+        "returns": 132,
+        "agi_usd": 12759426,
+        "tax_liability_usd": 682658
+      },
+      {
+        "zip": "95607",
+        "city": "Capay",
+        "returns": 113,
+        "agi_usd": 10571319,
+        "tax_liability_usd": 457120
+      },
+      {
+        "zip": "95698",
+        "city": "Zamora",
+        "returns": 124,
+        "agi_usd": 8646416,
+        "tax_liability_usd": 412254
+      },
+      {
+        "zip": "95653",
+        "city": "Madison",
+        "returns": 263,
+        "agi_usd": 14858374,
+        "tax_liability_usd": 297230
+      },
+      {
+        "zip": "95637",
+        "city": "Guinda",
+        "returns": 118,
+        "agi_usd": 9242684,
+        "tax_liability_usd": 291460
+      },
+      {
+        "zip": "95606",
+        "city": "Brooks",
+        "returns": 116,
+        "agi_usd": 2939499,
+        "tax_liability_usd": 150371
+      }
+    ]
+  }
+}

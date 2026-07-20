@@ -1,0 +1,235 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Humboldt",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 112260402,
+    "zips": [
+      {
+        "zip": "95503",
+        "city": "Eureka",
+        "returns": 10117,
+        "agi_usd": 724647416,
+        "tax_liability_usd": 22517027
+      },
+      {
+        "zip": "95519",
+        "city": "Mckinleyville",
+        "returns": 7737,
+        "agi_usd": 573619780,
+        "tax_liability_usd": 19102291
+      },
+      {
+        "zip": "95501",
+        "city": "Eureka",
+        "returns": 9201,
+        "agi_usd": 521630742,
+        "tax_liability_usd": 14300168
+      },
+      {
+        "zip": "95521",
+        "city": "Arcata",
+        "returns": 8220,
+        "agi_usd": 459903170,
+        "tax_liability_usd": 14005205
+      },
+      {
+        "zip": "95540",
+        "city": "Fortuna",
+        "returns": 5796,
+        "agi_usd": 386840317,
+        "tax_liability_usd": 11281087
+      },
+      {
+        "zip": "95524",
+        "city": "Bayside",
+        "returns": 944,
+        "agi_usd": 109987726,
+        "tax_liability_usd": 4734130
+      },
+      {
+        "zip": "95570",
+        "city": "Trinidad",
+        "returns": 1100,
+        "agi_usd": 93246564,
+        "tax_liability_usd": 4258846
+      },
+      {
+        "zip": "95536",
+        "city": "Ferndale",
+        "returns": 1242,
+        "agi_usd": 95087471,
+        "tax_liability_usd": 3392645
+      },
+      {
+        "zip": "95502",
+        "city": "Eureka",
+        "returns": 949,
+        "agi_usd": 70970190,
+        "tax_liability_usd": 2603364
+      },
+      {
+        "zip": "95573",
+        "city": "Willow Creek",
+        "returns": 667,
+        "agi_usd": 44583441,
+        "tax_liability_usd": 1679651
+      },
+      {
+        "zip": "95525",
+        "city": "Blue Lake",
+        "returns": 806,
+        "agi_usd": 52858329,
+        "tax_liability_usd": 1638081
+      },
+      {
+        "zip": "95562",
+        "city": "Rio Dell",
+        "returns": 1244,
+        "agi_usd": 67093571,
+        "tax_liability_usd": 1558487
+      },
+      {
+        "zip": "95547",
+        "city": "Hydesville",
+        "returns": 552,
+        "agi_usd": 45377085,
+        "tax_liability_usd": 1398772
+      },
+      {
+        "zip": "95551",
+        "city": "Loleta",
+        "returns": 654,
+        "agi_usd": 39691655,
+        "tax_liability_usd": 1310066
+      },
+      {
+        "zip": "95549",
+        "city": "Kneeland",
+        "returns": 324,
+        "agi_usd": 33975738,
+        "tax_liability_usd": 1243680
+      },
+      {
+        "zip": "95518",
+        "city": "Arcata",
+        "returns": 534,
+        "agi_usd": 35452709,
+        "tax_liability_usd": 1075000
+      },
+      {
+        "zip": "95542",
+        "city": "Garberville",
+        "returns": 723,
+        "agi_usd": 28936660,
+        "tax_liability_usd": 868137
+      },
+      {
+        "zip": "95528",
+        "city": "Carlotta",
+        "returns": 380,
+        "agi_usd": 24759240,
+        "tax_liability_usd": 751047
+      },
+      {
+        "zip": "95589",
+        "city": "Whitethorn",
+        "returns": 429,
+        "agi_usd": 24936089,
+        "tax_liability_usd": 732373
+      },
+      {
+        "zip": "95560",
+        "city": "Redway",
+        "returns": 685,
+        "agi_usd": 26642108,
+        "tax_liability_usd": 633227
+      },
+      {
+        "zip": "95534",
+        "city": "Cutten",
+        "returns": 148,
+        "agi_usd": 14543122,
+        "tax_liability_usd": 601155
+      },
+      {
+        "zip": "95546",
+        "city": "Hoopa",
+        "returns": 895,
+        "agi_usd": 31163881,
+        "tax_liability_usd": 567329
+      },
+      {
+        "zip": "95553",
+        "city": "Miranda",
+        "returns": 317,
+        "agi_usd": 15886507,
+        "tax_liability_usd": 566306
+      },
+      {
+        "zip": "95565",
+        "city": "Scotia",
+        "returns": 342,
+        "agi_usd": 18437918,
+        "tax_liability_usd": 390733
+      },
+      {
+        "zip": "95564",
+        "city": "Samoa",
+        "returns": 170,
+        "agi_usd": 9520453,
+        "tax_liability_usd": 354530
+      },
+      {
+        "zip": "95556",
+        "city": "Orleans",
+        "returns": 178,
+        "agi_usd": 8515151,
+        "tax_liability_usd": 202729
+      },
+      {
+        "zip": "95558",
+        "city": "Petrolia",
+        "returns": 143,
+        "agi_usd": 6079058,
+        "tax_liability_usd": 144155
+      },
+      {
+        "zip": "95537",
+        "city": "Fields Landing",
+        "returns": 129,
+        "agi_usd": 5864903,
+        "tax_liability_usd": 136066
+      },
+      {
+        "zip": "95526",
+        "city": "Bridgeville",
+        "returns": 142,
+        "agi_usd": 5858825,
+        "tax_liability_usd": 120731
+      },
+      {
+        "zip": "95554",
+        "city": "Myers Flat",
+        "returns": 110,
+        "agi_usd": 4321120,
+        "tax_liability_usd": 93384
+      }
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Ventura",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 1804864601,
+    "zips": [
+      {
+        "zip": "91361",
+        "city": "Westlake Village",
+        "returns": 10027,
+        "agi_usd": 2958616303,
+        "tax_liability_usd": 210646013
+      },
+      {
+        "zip": "91362",
+        "city": "Thousand Oaks",
+        "returns": 17581,
+        "agi_usd": 2354962804,
+        "tax_liability_usd": 194581938
+      },
+      {
+        "zip": "93065",
+        "city": "Simi Valley",
+        "returns": 35379,
+        "agi_usd": 3712330986,
+        "tax_liability_usd": 155387306
+      },
+      {
+        "zip": "91320",
+        "city": "Newbury Park",
+        "returns": 20796,
+        "agi_usd": 2878306305,
+        "tax_liability_usd": 149875181
+      },
+      {
+        "zip": "91360",
+        "city": "Thousand Oaks",
+        "returns": 19883,
+        "agi_usd": 2266441947,
+        "tax_liability_usd": 105109059
+      },
+      {
+        "zip": "93012",
+        "city": "Camarillo",
+        "returns": 17621,
+        "agi_usd": 2225047356,
+        "tax_liability_usd": 102598079
+      },
+      {
+        "zip": "93010",
+        "city": "Camarillo",
+        "returns": 21397,
+        "agi_usd": 2355096514,
+        "tax_liability_usd": 101830099
+      },
+      {
+        "zip": "93063",
+        "city": "Simi Valley",
+        "returns": 26524,
+        "agi_usd": 2512229771,
+        "tax_liability_usd": 97874006
+      },
+      {
+        "zip": "93021",
+        "city": "Moorpark",
+        "returns": 17231,
+        "agi_usd": 2009342544,
+        "tax_liability_usd": 92214438
+      },
+      {
+        "zip": "93003",
+        "city": "Ventura",
+        "returns": 23894,
+        "agi_usd": 2286555765,
+        "tax_liability_usd": 90466038
+      },
+      {
+        "zip": "93001",
+        "city": "Ventura",
+        "returns": 15510,
+        "agi_usd": 1563787079,
+        "tax_liability_usd": 77853804
+      },
+      {
+        "zip": "91377",
+        "city": "Oak Park",
+        "returns": 6504,
+        "agi_usd": 1076380920,
+        "tax_liability_usd": 56697009
+      },
+      {
+        "zip": "93023",
+        "city": "Ojai",
+        "returns": 9049,
+        "agi_usd": 1087020224,
+        "tax_liability_usd": 55257963
+      },
+      {
+        "zip": "93004",
+        "city": "Ventura",
+        "returns": 14587,
+        "agi_usd": 1292129805,
+        "tax_liability_usd": 46983962
+      },
+      {
+        "zip": "93035",
+        "city": "Oxnard",
+        "returns": 13252,
+        "agi_usd": 1198388106,
+        "tax_liability_usd": 46684634
+      },
+      {
+        "zip": "93036",
+        "city": "Oxnard",
+        "returns": 21058,
+        "agi_usd": 1473557015,
+        "tax_liability_usd": 44900210
+      },
+      {
+        "zip": "93030",
+        "city": "Oxnard",
+        "returns": 24644,
+        "agi_usd": 2013975672,
+        "tax_liability_usd": 41443526
+      },
+      {
+        "zip": "93033",
+        "city": "Oxnard",
+        "returns": 33724,
+        "agi_usd": 1665525833,
+        "tax_liability_usd": 30316377
+      },
+      {
+        "zip": "93060",
+        "city": "Santa Paula",
+        "returns": 15033,
+        "agi_usd": 939969807,
+        "tax_liability_usd": 24845977
+      },
+      {
+        "zip": "93015",
+        "city": "Fillmore",
+        "returns": 8444,
+        "agi_usd": 577144981,
+        "tax_liability_usd": 15778672
+      },
+      {
+        "zip": "93041",
+        "city": "Port Hueneme",
+        "returns": 9323,
+        "agi_usd": 564905291,
+        "tax_liability_usd": 15228857
+      },
+      {
+        "zip": "93022",
+        "city": "Oak View",
+        "returns": 2884,
+        "agi_usd": 283667847,
+        "tax_liability_usd": 11362593
+      },
+      {
+        "zip": "93066",
+        "city": "Somis",
+        "returns": 1559,
+        "agi_usd": 224261569,
+        "tax_liability_usd": 10517131
+      },
+      {
+        "zip": "93002",
+        "city": "Ventura",
+        "returns": 535,
+        "agi_usd": 59231311,
+        "tax_liability_usd": 3767161
+      },
+      {
+        "zip": "91359",
+        "city": "Westlake Village",
+        "returns": 518,
+        "agi_usd": 53996452,
+        "tax_liability_usd": 3535635
+      },
+      {
+        "zip": "93011",
+        "city": "Camarillo",
+        "returns": 749,
+        "agi_usd": 80476405,
+        "tax_liability_usd": 3160143
+      },
+      {
+        "zip": "93006",
+        "city": "Ventura",
+        "returns": 580,
+        "agi_usd": 54251740,
+        "tax_liability_usd": 2045374
+      },
+      {
+        "zip": "93031",
+        "city": "Oxnard",
+        "returns": 959,
+        "agi_usd": 61233047,
+        "tax_liability_usd": 1871351
+      },
+      {
+        "zip": "93024",
+        "city": "Ojai",
+        "returns": 408,
+        "agi_usd": 38366756,
+        "tax_liability_usd": 1719543
+      },
+      {
+        "zip": "93094",
+        "city": "Simi Valley",
+        "returns": 264,
+        "agi_usd": 28063439,
+        "tax_liability_usd": 1462583
+      },
+      {
+        "zip": "91319",
+        "city": "Newbury Park",
+        "returns": 209,
+        "agi_usd": 25089984,
+        "tax_liability_usd": 1337038
+      },
+      {
+        "zip": "93040",
+        "city": "Piru",
+        "returns": 979,
+        "agi_usd": 59290234,
+        "tax_liability_usd": 1303738
+      },
+      {
+        "zip": "93062",
+        "city": "Simi Valley",
+        "returns": 360,
+        "agi_usd": 30023381,
+        "tax_liability_usd": 1158029
+      },
+      {
+        "zip": "93007",
+        "city": "Ventura",
+        "returns": 169,
+        "agi_usd": 24367699,
+        "tax_liability_usd": 1128353
+      },
+      {
+        "zip": "93005",
+        "city": "Ventura",
+        "returns": 176,
+        "agi_usd": 16039189,
+        "tax_liability_usd": 723729
+      },
+      {
+        "zip": "93044",
+        "city": "Port Hueneme",
+        "returns": 345,
+        "agi_usd": 22851721,
+        "tax_liability_usd": 696326
+      },
+      {
+        "zip": "93061",
+        "city": "Santa Paula",
+        "returns": 266,
+        "agi_usd": 17312113,
+        "tax_liability_usd": 498572
+      },
+      {
+        "zip": "93016",
+        "city": "Fillmore",
+        "returns": 424,
+        "agi_usd": 19968617,
+        "tax_liability_usd": 487017
+      },
+      {
+        "zip": "93020",
+        "city": "Moorpark",
+        "returns": 200,
+        "agi_usd": 13960741,
+        "tax_liability_usd": 453388
+      },
+      {
+        "zip": "91358",
+        "city": "Thousand Oaks",
+        "returns": 114,
+        "agi_usd": 8774313,
+        "tax_liability_usd": 385204
+      },
+      {
+        "zip": "93032",
+        "city": "Oxnard",
+        "returns": 365,
+        "agi_usd": 18790403,
+        "tax_liability_usd": 343057
+      },
+      {
+        "zip": "93034",
+        "city": "Oxnard",
+        "returns": 403,
+        "agi_usd": 21009835,
+        "tax_liability_usd": 335488
+      }
+    ]
+  }
+}

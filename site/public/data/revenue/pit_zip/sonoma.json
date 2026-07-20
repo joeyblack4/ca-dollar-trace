@@ -1,0 +1,333 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Sonoma",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 1104800178,
+    "zips": [
+      {
+        "zip": "95476",
+        "city": "Sonoma",
+        "returns": 15377,
+        "agi_usd": 2040770552,
+        "tax_liability_usd": 112232918
+      },
+      {
+        "zip": "95404",
+        "city": "Santa Rosa",
+        "returns": 18614,
+        "agi_usd": 2275548694,
+        "tax_liability_usd": 110071980
+      },
+      {
+        "zip": "94952",
+        "city": "Petaluma",
+        "returns": 15698,
+        "agi_usd": 1959334233,
+        "tax_liability_usd": 96818072
+      },
+      {
+        "zip": "95403",
+        "city": "Santa Rosa",
+        "returns": 21472,
+        "agi_usd": 2123815920,
+        "tax_liability_usd": 92215549
+      },
+      {
+        "zip": "94954",
+        "city": "Petaluma",
+        "returns": 18250,
+        "agi_usd": 1963390264,
+        "tax_liability_usd": 85366202
+      },
+      {
+        "zip": "95492",
+        "city": "Windsor",
+        "returns": 13512,
+        "agi_usd": 1511811390,
+        "tax_liability_usd": 73818176
+      },
+      {
+        "zip": "95472",
+        "city": "Sebastopol",
+        "returns": 13258,
+        "agi_usd": 1513606555,
+        "tax_liability_usd": 70372826
+      },
+      {
+        "zip": "95409",
+        "city": "Santa Rosa",
+        "returns": 13549,
+        "agi_usd": 1508296137,
+        "tax_liability_usd": 69854174
+      },
+      {
+        "zip": "95448",
+        "city": "Healdsburg",
+        "returns": 8428,
+        "agi_usd": 1218809451,
+        "tax_liability_usd": 64991942
+      },
+      {
+        "zip": "94928",
+        "city": "Rohnert Park",
+        "returns": 22128,
+        "agi_usd": 1804567855,
+        "tax_liability_usd": 64600411
+      },
+      {
+        "zip": "95405",
+        "city": "Santa Rosa",
+        "returns": 10894,
+        "agi_usd": 1164673537,
+        "tax_liability_usd": 51319215
+      },
+      {
+        "zip": "95401",
+        "city": "Santa Rosa",
+        "returns": 17132,
+        "agi_usd": 1302251800,
+        "tax_liability_usd": 47018489
+      },
+      {
+        "zip": "95407",
+        "city": "Santa Rosa",
+        "returns": 18822,
+        "agi_usd": 1169606163,
+        "tax_liability_usd": 30463427
+      },
+      {
+        "zip": "94931",
+        "city": "Cotati",
+        "returns": 4675,
+        "agi_usd": 436029368,
+        "tax_liability_usd": 17697284
+      },
+      {
+        "zip": "95425",
+        "city": "Cloverdale",
+        "returns": 5398,
+        "agi_usd": 433331150,
+        "tax_liability_usd": 15625593
+      },
+      {
+        "zip": "95442",
+        "city": "Glen Ellen",
+        "returns": 1377,
+        "agi_usd": 241536559,
+        "tax_liability_usd": 15590060
+      },
+      {
+        "zip": "94951",
+        "city": "Penngrove",
+        "returns": 2085,
+        "agi_usd": 259444379,
+        "tax_liability_usd": 11636199
+      },
+      {
+        "zip": "95436",
+        "city": "Forestville",
+        "returns": 2595,
+        "agi_usd": 241835298,
+        "tax_liability_usd": 10233806
+      },
+      {
+        "zip": "95452",
+        "city": "Kenwood",
+        "returns": 690,
+        "agi_usd": 138577695,
+        "tax_liability_usd": 9275280
+      },
+      {
+        "zip": "95446",
+        "city": "Guerneville",
+        "returns": 2168,
+        "agi_usd": 172247945,
+        "tax_liability_usd": 7918802
+      },
+      {
+        "zip": "94923",
+        "city": "Bodega Bay",
+        "returns": 676,
+        "agi_usd": 104289941,
+        "tax_liability_usd": 6054595
+      },
+      {
+        "zip": "95465",
+        "city": "Occidental",
+        "returns": 999,
+        "agi_usd": 97822219,
+        "tax_liability_usd": 4785065
+      },
+      {
+        "zip": "95441",
+        "city": "Geyserville",
+        "returns": 1019,
+        "agi_usd": 101276708,
+        "tax_liability_usd": 3862368
+      },
+      {
+        "zip": "95402",
+        "city": "Santa Rosa",
+        "returns": 1040,
+        "agi_usd": 92662712,
+        "tax_liability_usd": 3850434
+      },
+      {
+        "zip": "95444",
+        "city": "Graton",
+        "returns": 656,
+        "agi_usd": 68019539,
+        "tax_liability_usd": 3255739
+      },
+      {
+        "zip": "95473",
+        "city": "Sebastopol",
+        "returns": 653,
+        "agi_usd": 77359099,
+        "tax_liability_usd": 3251723
+      },
+      {
+        "zip": "94953",
+        "city": "Petaluma",
+        "returns": 414,
+        "agi_usd": 55565953,
+        "tax_liability_usd": 3074101
+      },
+      {
+        "zip": "95406",
+        "city": "Santa Rosa",
+        "returns": 407,
+        "agi_usd": 54773951,
+        "tax_liability_usd": 2942463
+      },
+      {
+        "zip": "95462",
+        "city": "Monte Rio",
+        "returns": 537,
+        "agi_usd": 51434056,
+        "tax_liability_usd": 2748990
+      },
+      {
+        "zip": "94975",
+        "city": "Petaluma",
+        "returns": 348,
+        "agi_usd": 34813335,
+        "tax_liability_usd": 1732327
+      },
+      {
+        "zip": "95497",
+        "city": "The Sea Ranch",
+        "returns": 227,
+        "agi_usd": 38978474,
+        "tax_liability_usd": 1607207
+      },
+      {
+        "zip": "95421",
+        "city": "Cazadero",
+        "returns": 616,
+        "agi_usd": 42618232,
+        "tax_liability_usd": 1546465
+      },
+      {
+        "zip": "95439",
+        "city": "Fulton",
+        "returns": 410,
+        "agi_usd": 36148805,
+        "tax_liability_usd": 1350238
+      },
+      {
+        "zip": "95487",
+        "city": "Vineburg",
+        "returns": 179,
+        "agi_usd": 35198687,
+        "tax_liability_usd": 1231598
+      },
+      {
+        "zip": "95416",
+        "city": "Boyes Hot Springs",
+        "returns": 758,
+        "agi_usd": 45811756,
+        "tax_liability_usd": 996446
+      },
+      {
+        "zip": "94955",
+        "city": "Petaluma",
+        "returns": 183,
+        "agi_usd": 22921935,
+        "tax_liability_usd": 862294
+      },
+      {
+        "zip": "95433",
+        "city": "El Verano",
+        "returns": 336,
+        "agi_usd": 25390524,
+        "tax_liability_usd": 840271
+      },
+      {
+        "zip": "94922",
+        "city": "Bodega",
+        "returns": 186,
+        "agi_usd": 17200676,
+        "tax_liability_usd": 810159
+      },
+      {
+        "zip": "95450",
+        "city": "Jenner",
+        "returns": 175,
+        "agi_usd": 16604191,
+        "tax_liability_usd": 807234
+      },
+      {
+        "zip": "94927",
+        "city": "Rohnert Park",
+        "returns": 313,
+        "agi_usd": 20595669,
+        "tax_liability_usd": 672312
+      },
+      {
+        "zip": "94972",
+        "city": "Valley Ford",
+        "returns": 169,
+        "agi_usd": 13708602,
+        "tax_liability_usd": 446829
+      },
+      {
+        "zip": "95412",
+        "city": "Annapolis",
+        "returns": 119,
+        "agi_usd": 8127825,
+        "tax_liability_usd": 433199
+      },
+      {
+        "zip": "95419",
+        "city": "Camp Meeker",
+        "returns": 128,
+        "agi_usd": 10169860,
+        "tax_liability_usd": 391494
+      },
+      {
+        "zip": "95471",
+        "city": "Rio Nido",
+        "returns": 101,
+        "agi_usd": 5371681,
+        "tax_liability_usd": 126222
+      }
+    ]
+  }
+}

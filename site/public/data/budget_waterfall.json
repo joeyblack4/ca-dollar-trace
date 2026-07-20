@@ -5,8 +5,8 @@
     "url": "https://ebudget.ca.gov/budget/publication/#/e/2025-26",
     "license": "Public record (California Department of Finance)"
   },
-  "as_of": "2026-07-16T172538Z",
-  "ingested_at": "2026-07-16T17:25:38.432657+00:00",
+  "as_of": "2026-07-17T162708Z",
+  "ingested_at": "2026-07-17T16:27:08.531988+00:00",
   "cadence": "budget cycle (enacted June/July; revised at Governor's Budget & May Revision)",
   "coverage_flag": "traceable",
   "caveats": [
@@ -274,6 +274,92 @@
             "flag": "traceable",
             "note": "Post-award awardee data is published daily on the Grants Portal (AB 132) \u2014 but no subrecipient detail below the awardee.",
             "cite": "https://data.ca.gov/dataset/california-grants-portal"
+          }
+        ]
+      }
+    ],
+    "origin_visibility": [
+      {
+        "node": "Personal Income Tax",
+        "hops": [
+          {
+            "label": "Wage withholding & estimated payments \u2192 Franchise Tax Board",
+            "flag": "traceable",
+            "note": "FTB publishes who pays by income bracket (B-4A), by county (B-7), and by ZIP \u2014 the drill below follows those tables, tax year 2022-23, the latest published.",
+            "cite": "https://data.ca.gov/organization/california-franchise-tax-board"
+          },
+          {
+            "label": "Individual taxpayers",
+            "flag": "masked",
+            "note": "Individual returns are confidential under R&TC \u00a719542 \u2014 disclosure is a misdemeanor. Income bracket \u00d7 county is the finest public cut anyone can publish.",
+            "cite": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19542"
+          }
+        ]
+      },
+      {
+        "node": "Corporation Tax",
+        "hops": [
+          {
+            "label": "Corporate estimated payments \u2192 Franchise Tax Board",
+            "flag": "traceable",
+            "note": "FTB publishes tax liability by industry group (C-10) and by size of company income (C-8), statewide only \u2014 no geography exists for corporate tax.",
+            "cite": "https://data.ca.gov/organization/california-franchise-tax-board"
+          },
+          {
+            "label": "Named companies",
+            "flag": "masked",
+            "note": "Corporate returns are confidential under R&TC \u00a719542; the state cannot name a taxpayer. Public companies self-report state income tax expense in SEC filings \u2014 all states combined, shown in the drill with that label.",
+            "cite": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19542"
+          }
+        ]
+      },
+      {
+        "node": "Sales and Use Tax",
+        "hops": [
+          {
+            "label": "Retail sales \u2192 sellers collect \u2192 CDTFA",
+            "flag": "traceable",
+            "note": "CDTFA publishes taxable sales (the tax base, not the tax) by business type quarterly and by city/county \u2014 current within a few months.",
+            "cite": "https://cdtfa.ca.gov/dataportal/"
+          },
+          {
+            "label": "Individual sellers",
+            "flag": "masked",
+            "note": "Seller-permit records are confidential under R&TC \u00a77056; small-jurisdiction cells are suppressed at the source.",
+            "cite": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=7056"
+          }
+        ]
+      },
+      {
+        "node": "Insurance Tax",
+        "hops": [
+          {
+            "label": "Insurers' gross premiums \u2192 CDTFA/CDI assessment",
+            "flag": "category_only",
+            "note": "A 2.35% tax on gross premiums written in California. CDTFA publishes assessments by insurer type; the Department of Insurance publishes premium volumes by named insurer, but tax paid by a named insurer is not public.",
+            "cite": "https://cdtfa.ca.gov/dataportal/"
+          }
+        ]
+      },
+      {
+        "node": "Other",
+        "hops": [
+          {
+            "label": "Dozens of smaller sources \u2192 General Fund",
+            "flag": "category_only",
+            "note": "Alcohol and tobacco excises, unclaimed property, interest earnings, fees and penalties \u2014 enumerated in the Governor's Budget revenue schedule (Schedule 8), mostly without payer-level breakdowns.",
+            "cite": "https://ebudget.ca.gov/"
+          }
+        ]
+      },
+      {
+        "node": "Transfer from the Budget Stabilization Account/Rainy Day Fund",
+        "hops": [
+          {
+            "label": "Budget Stabilization Account \u2192 General Fund",
+            "flag": "category_only",
+            "note": "Not a tax: a withdrawal from the state's Prop 2 (2014) rainy-day reserve, itself built from prior-year capital-gains-driven deposits. It has no payers \u2014 see the striped reserves band on the chart.",
+            "cite": "https://lao.ca.gov/Publications/Report/3800"
           }
         ]
       }

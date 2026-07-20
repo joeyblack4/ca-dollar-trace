@@ -1,0 +1,6144 @@
+{
+  "source": {
+    "name": "IRS SOI county statistics & migration data (California)",
+    "publisher": "Internal Revenue Service, Statistics of Income",
+    "url": "https://www.irs.gov/statistics/soi-tax-stats-county-data",
+    "license": "Public domain (IRS SOI)"
+  },
+  "as_of": "2026-07-18T003155Z",
+  "ingested_at": "2026-07-18T00:31:55.151569+00:00",
+  "cadence": "annual; SOI publishes county data ~2 years after the tax year",
+  "coverage_flag": "category_only",
+  "caveats": [
+    "Federal (IRS) returns, not California tax data. Shown only as a demographic lens on the same taxpayer population \u2014 never combined with any California dollar figure.",
+    "Age is a single flag: primary taxpayer 60 or older. No finer age detail exists in any public tax data.",
+    "IRS counts slightly more filers than FTB (federal filers below California's filing threshold); the per-county correspondence ratio is published so the overlap is visible, not assumed.",
+    "Migration flows cover returns filed in consecutive years and matched by the IRS; small cells are suppressed at the source. The IRS enhanced its matching process starting with the 2022-23 edition, so that year is not perfectly comparable to earlier ones.",
+    "Migration is shown as a multi-year trend on purpose: any single year is a snapshot, and the pandemic-era peak would overstate the current pace."
+  ],
+  "data": {
+    "framing": "Federal (IRS) return statistics for the same Californians \u2014 shown as a demographic lens only, never combined with California tax figures.",
+    "tax_year": 2022,
+    "statewide_by_class": [
+      {
+        "label": "Under $1 (net losses)",
+        "returns": 338580,
+        "elderly_returns": 136130,
+        "elderly_pct": 40.2,
+        "single": 235890,
+        "joint": 75930,
+        "head_of_household": 16460,
+        "other_status": 10300,
+        "agi_usd": -24101328000
+      },
+      {
+        "label": "$1 \u2013 $9,999",
+        "returns": 1686090,
+        "elderly_returns": 424080,
+        "elderly_pct": 25.2,
+        "single": 1344840,
+        "joint": 185600,
+        "head_of_household": 130670,
+        "other_status": 24980,
+        "agi_usd": 8617633000
+      },
+      {
+        "label": "$10,000 \u2013 $24,999",
+        "returns": 2875290,
+        "elderly_returns": 545870,
+        "elderly_pct": 19.0,
+        "single": 1995460,
+        "joint": 366780,
+        "head_of_household": 472810,
+        "other_status": 40240,
+        "agi_usd": 49589687000
+      },
+      {
+        "label": "$25,000 \u2013 $49,999",
+        "returns": 4111270,
+        "elderly_returns": 726020,
+        "elderly_pct": 17.7,
+        "single": 2468690,
+        "joint": 737880,
+        "head_of_household": 825460,
+        "other_status": 79240,
+        "agi_usd": 151700132000
+      },
+      {
+        "label": "$50,000 \u2013 $74,999",
+        "returns": 2688080,
+        "elderly_returns": 612910,
+        "elderly_pct": 22.8,
+        "single": 1419290,
+        "joint": 728270,
+        "head_of_household": 476870,
+        "other_status": 63650,
+        "agi_usd": 165585554000
+      },
+      {
+        "label": "$75,000 \u2013 $99,999",
+        "returns": 1753100,
+        "elderly_returns": 490720,
+        "elderly_pct": 28.0,
+        "single": 775720,
+        "joint": 701500,
+        "head_of_household": 236200,
+        "other_status": 39680,
+        "agi_usd": 151954189000
+      },
+      {
+        "label": "$100,000 \u2013 $199,999",
+        "returns": 3100370,
+        "elderly_returns": 955570,
+        "elderly_pct": 30.8,
+        "single": 958910,
+        "joint": 1844820,
+        "head_of_household": 241470,
+        "other_status": 55170,
+        "agi_usd": 431589524000
+      },
+      {
+        "label": "$200,000 and over",
+        "returns": 1934240,
+        "elderly_returns": 563190,
+        "elderly_pct": 29.1,
+        "single": 340530,
+        "joint": 1501110,
+        "head_of_household": 66640,
+        "other_status": 25960,
+        "agi_usd": 1054446044000
+      }
+    ],
+    "statewide_totals": {
+      "irs_returns": 18487020,
+      "ftb_returns": 17762281,
+      "ratio": 1.041,
+      "note": "IRS counts slightly more filers than FTB \u2014 federal filers under California's filing threshold. Near-1 ratio is the evidence these tables describe the same people."
+    },
+    "counties": [
+      {
+        "county": "Alameda",
+        "returns": 775600,
+        "elderly_returns": 183300,
+        "elderly_pct": 23.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 12070,
+            "elderly_returns": 4980,
+            "elderly_pct": 41.3,
+            "single": 8420,
+            "joint": 2660,
+            "head_of_household": 590,
+            "other_status": 400,
+            "agi_usd": -483453000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 60950,
+            "elderly_returns": 15220,
+            "elderly_pct": 25.0,
+            "single": 49600,
+            "joint": 6400,
+            "head_of_household": 3900,
+            "other_status": 1050,
+            "agi_usd": 302885000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 90290,
+            "elderly_returns": 19410,
+            "elderly_pct": 21.5,
+            "single": 64500,
+            "joint": 12220,
+            "head_of_household": 12110,
+            "other_status": 1460,
+            "agi_usd": 1551456000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 129140,
+            "elderly_returns": 26000,
+            "elderly_pct": 20.1,
+            "single": 85180,
+            "joint": 21390,
+            "head_of_household": 19750,
+            "other_status": 2820,
+            "agi_usd": 4825075000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 108350,
+            "elderly_returns": 24180,
+            "elderly_pct": 22.3,
+            "single": 67170,
+            "joint": 22290,
+            "head_of_household": 16040,
+            "other_status": 2850,
+            "agi_usd": 6712069000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 76770,
+            "elderly_returns": 20330,
+            "elderly_pct": 26.5,
+            "single": 42930,
+            "joint": 22700,
+            "head_of_household": 9070,
+            "other_status": 2070,
+            "agi_usd": 6657267000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 153500,
+            "elderly_returns": 43660,
+            "elderly_pct": 28.4,
+            "single": 61780,
+            "joint": 76750,
+            "head_of_household": 11490,
+            "other_status": 3480,
+            "agi_usd": 21720613000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 144530,
+            "elderly_returns": 29520,
+            "elderly_pct": 20.4,
+            "single": 22010,
+            "joint": 116200,
+            "head_of_household": 4530,
+            "other_status": 1790,
+            "agi_usd": 67375153000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 775600,
+          "ftb_returns": 784286,
+          "ratio": 0.989
+        }
+      },
+      {
+        "county": "Alpine",
+        "returns": 470,
+        "elderly_returns": 200,
+        "elderly_pct": 42.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 0,
+            "elderly_returns": 0,
+            "elderly_pct": 0,
+            "single": 0,
+            "joint": 0,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 0
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 50,
+            "elderly_returns": 0,
+            "elderly_pct": 0.0,
+            "single": 50,
+            "joint": 0,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 178000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 80,
+            "elderly_returns": 40,
+            "elderly_pct": 50.0,
+            "single": 50,
+            "joint": 40,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 1354000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 100,
+            "elderly_returns": 30,
+            "elderly_pct": 30.0,
+            "single": 60,
+            "joint": 0,
+            "head_of_household": 40,
+            "other_status": 0,
+            "agi_usd": 3487000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 70,
+            "elderly_returns": 50,
+            "elderly_pct": 71.4,
+            "single": 60,
+            "joint": 30,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 4055000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 40,
+            "elderly_returns": 0,
+            "elderly_pct": 0.0,
+            "single": 0,
+            "joint": 0,
+            "head_of_household": 0,
+            "other_status": 40,
+            "agi_usd": 3440000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 90,
+            "elderly_returns": 50,
+            "elderly_pct": 55.6,
+            "single": 30,
+            "joint": 70,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 12455000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 40,
+            "elderly_returns": 30,
+            "elderly_pct": 75.0,
+            "single": 0,
+            "joint": 40,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 14771000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 470,
+          "ftb_returns": 453,
+          "ratio": 1.038
+        }
+      },
+      {
+        "county": "Amador",
+        "returns": 18390,
+        "elderly_returns": 7800,
+        "elderly_pct": 42.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 850,
+            "elderly_returns": 320,
+            "elderly_pct": 37.6,
+            "single": 680,
+            "joint": 140,
+            "head_of_household": 0,
+            "other_status": 30,
+            "agi_usd": -14775000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 1650,
+            "elderly_returns": 740,
+            "elderly_pct": 44.8,
+            "single": 1240,
+            "joint": 260,
+            "head_of_household": 140,
+            "other_status": 10,
+            "agi_usd": 8046000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 2460,
+            "elderly_returns": 950,
+            "elderly_pct": 38.6,
+            "single": 1670,
+            "joint": 460,
+            "head_of_household": 300,
+            "other_status": 30,
+            "agi_usd": 42756000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 3690,
+            "elderly_returns": 1330,
+            "elderly_pct": 36.0,
+            "single": 2200,
+            "joint": 900,
+            "head_of_household": 500,
+            "other_status": 90,
+            "agi_usd": 136397000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 2720,
+            "elderly_returns": 1200,
+            "elderly_pct": 44.1,
+            "single": 1320,
+            "joint": 1020,
+            "head_of_household": 320,
+            "other_status": 60,
+            "agi_usd": 168825000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 2050,
+            "elderly_returns": 960,
+            "elderly_pct": 46.8,
+            "single": 700,
+            "joint": 1160,
+            "head_of_household": 160,
+            "other_status": 30,
+            "agi_usd": 178325000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 3820,
+            "elderly_returns": 1740,
+            "elderly_pct": 45.5,
+            "single": 680,
+            "joint": 2920,
+            "head_of_household": 170,
+            "other_status": 50,
+            "agi_usd": 524390000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1150,
+            "elderly_returns": 560,
+            "elderly_pct": 48.7,
+            "single": 160,
+            "joint": 970,
+            "head_of_household": 20,
+            "other_status": 0,
+            "agi_usd": 422457000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 18390,
+          "ftb_returns": 16990,
+          "ratio": 1.082
+        }
+      },
+      {
+        "county": "Butte",
+        "returns": 89320,
+        "elderly_returns": 26240,
+        "elderly_pct": 29.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1830,
+            "elderly_returns": 920,
+            "elderly_pct": 50.3,
+            "single": 1170,
+            "joint": 530,
+            "head_of_household": 80,
+            "other_status": 50,
+            "agi_usd": -72278000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 8570,
+            "elderly_returns": 2240,
+            "elderly_pct": 26.1,
+            "single": 6710,
+            "joint": 920,
+            "head_of_household": 830,
+            "other_status": 110,
+            "agi_usd": 44831000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 15540,
+            "elderly_returns": 3640,
+            "elderly_pct": 23.4,
+            "single": 11310,
+            "joint": 1870,
+            "head_of_household": 2150,
+            "other_status": 210,
+            "agi_usd": 269713000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 22170,
+            "elderly_returns": 4660,
+            "elderly_pct": 21.0,
+            "single": 13930,
+            "joint": 3880,
+            "head_of_household": 4000,
+            "other_status": 360,
+            "agi_usd": 815812000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 13120,
+            "elderly_returns": 3950,
+            "elderly_pct": 30.1,
+            "single": 6600,
+            "joint": 4230,
+            "head_of_household": 2020,
+            "other_status": 270,
+            "agi_usd": 807034000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 8600,
+            "elderly_returns": 3160,
+            "elderly_pct": 36.7,
+            "single": 3140,
+            "joint": 4420,
+            "head_of_household": 920,
+            "other_status": 120,
+            "agi_usd": 745730000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 14450,
+            "elderly_returns": 5530,
+            "elderly_pct": 38.3,
+            "single": 2880,
+            "joint": 10660,
+            "head_of_household": 770,
+            "other_status": 140,
+            "agi_usd": 1989620000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 5040,
+            "elderly_returns": 2140,
+            "elderly_pct": 42.5,
+            "single": 680,
+            "joint": 4210,
+            "head_of_household": 110,
+            "other_status": 40,
+            "agi_usd": 2004752000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 89320,
+          "ftb_returns": 85249,
+          "ratio": 1.048
+        }
+      },
+      {
+        "county": "Calaveras",
+        "returns": 21400,
+        "elderly_returns": 8950,
+        "elderly_pct": 41.8,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 590,
+            "elderly_returns": 380,
+            "elderly_pct": 64.4,
+            "single": 330,
+            "joint": 220,
+            "head_of_household": 30,
+            "other_status": 10,
+            "agi_usd": -24850000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2040,
+            "elderly_returns": 840,
+            "elderly_pct": 41.2,
+            "single": 1480,
+            "joint": 340,
+            "head_of_household": 180,
+            "other_status": 40,
+            "agi_usd": 10406000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 3030,
+            "elderly_returns": 1120,
+            "elderly_pct": 37.0,
+            "single": 2010,
+            "joint": 560,
+            "head_of_household": 400,
+            "other_status": 60,
+            "agi_usd": 51914000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 4400,
+            "elderly_returns": 1500,
+            "elderly_pct": 34.1,
+            "single": 2570,
+            "joint": 1110,
+            "head_of_household": 620,
+            "other_status": 100,
+            "agi_usd": 161848000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 3030,
+            "elderly_returns": 1280,
+            "elderly_pct": 42.2,
+            "single": 1430,
+            "joint": 1140,
+            "head_of_household": 380,
+            "other_status": 80,
+            "agi_usd": 187212000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 2400,
+            "elderly_returns": 1150,
+            "elderly_pct": 47.9,
+            "single": 790,
+            "joint": 1380,
+            "head_of_household": 200,
+            "other_status": 30,
+            "agi_usd": 209408000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 4450,
+            "elderly_returns": 1990,
+            "elderly_pct": 44.7,
+            "single": 840,
+            "joint": 3360,
+            "head_of_household": 220,
+            "other_status": 30,
+            "agi_usd": 611228000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1460,
+            "elderly_returns": 690,
+            "elderly_pct": 47.3,
+            "single": 190,
+            "joint": 1230,
+            "head_of_household": 30,
+            "other_status": 10,
+            "agi_usd": 498671000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 21400,
+          "ftb_returns": 20245,
+          "ratio": 1.057
+        }
+      },
+      {
+        "county": "Colusa",
+        "returns": 10310,
+        "elderly_returns": 2370,
+        "elderly_pct": 23.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 170,
+            "elderly_returns": 100,
+            "elderly_pct": 58.8,
+            "single": 90,
+            "joint": 70,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": -12414000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 820,
+            "elderly_returns": 210,
+            "elderly_pct": 25.6,
+            "single": 640,
+            "joint": 100,
+            "head_of_household": 80,
+            "other_status": 0,
+            "agi_usd": 4611000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1740,
+            "elderly_returns": 310,
+            "elderly_pct": 17.8,
+            "single": 1160,
+            "joint": 260,
+            "head_of_household": 310,
+            "other_status": 10,
+            "agi_usd": 30507000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 2870,
+            "elderly_returns": 470,
+            "elderly_pct": 16.4,
+            "single": 1470,
+            "joint": 680,
+            "head_of_household": 670,
+            "other_status": 50,
+            "agi_usd": 106630000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 2020,
+            "elderly_returns": 390,
+            "elderly_pct": 19.3,
+            "single": 730,
+            "joint": 860,
+            "head_of_household": 400,
+            "other_status": 30,
+            "agi_usd": 123344000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 1030,
+            "elderly_returns": 290,
+            "elderly_pct": 28.2,
+            "single": 240,
+            "joint": 660,
+            "head_of_household": 120,
+            "other_status": 10,
+            "agi_usd": 88296000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1230,
+            "elderly_returns": 390,
+            "elderly_pct": 31.7,
+            "single": 190,
+            "joint": 990,
+            "head_of_household": 70,
+            "other_status": 0,
+            "agi_usd": 164366000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 430,
+            "elderly_returns": 210,
+            "elderly_pct": 48.8,
+            "single": 80,
+            "joint": 330,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 189034000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 10310,
+          "ftb_returns": 9969,
+          "ratio": 1.034
+        }
+      },
+      {
+        "county": "Contra Costa",
+        "returns": 554210,
+        "elderly_returns": 156260,
+        "elderly_pct": 28.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 8470,
+            "elderly_returns": 3750,
+            "elderly_pct": 44.3,
+            "single": 5690,
+            "joint": 2080,
+            "head_of_household": 430,
+            "other_status": 270,
+            "agi_usd": -585979000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 45750,
+            "elderly_returns": 11120,
+            "elderly_pct": 24.3,
+            "single": 37380,
+            "joint": 4510,
+            "head_of_household": 3180,
+            "other_status": 680,
+            "agi_usd": 226122000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 66110,
+            "elderly_returns": 14470,
+            "elderly_pct": 21.9,
+            "single": 46690,
+            "joint": 8430,
+            "head_of_household": 9870,
+            "other_status": 1120,
+            "agi_usd": 1132660000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 92310,
+            "elderly_returns": 20390,
+            "elderly_pct": 22.1,
+            "single": 58450,
+            "joint": 16360,
+            "head_of_household": 15390,
+            "other_status": 2110,
+            "agi_usd": 3427620000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 74540,
+            "elderly_returns": 20130,
+            "elderly_pct": 27.0,
+            "single": 42740,
+            "joint": 17610,
+            "head_of_household": 12050,
+            "other_status": 2140,
+            "agi_usd": 4617004000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 54480,
+            "elderly_returns": 17900,
+            "elderly_pct": 32.9,
+            "single": 26620,
+            "joint": 19270,
+            "head_of_household": 7130,
+            "other_status": 1460,
+            "agi_usd": 4730934000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 114290,
+            "elderly_returns": 40380,
+            "elderly_pct": 35.3,
+            "single": 35940,
+            "joint": 66250,
+            "head_of_household": 9820,
+            "other_status": 2280,
+            "agi_usd": 16184415000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 98260,
+            "elderly_returns": 28120,
+            "elderly_pct": 28.6,
+            "single": 11310,
+            "joint": 82400,
+            "head_of_household": 3460,
+            "other_status": 1090,
+            "agi_usd": 49912857000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 554210,
+          "ftb_returns": 502781,
+          "ratio": 1.102
+        }
+      },
+      {
+        "county": "Del Norte",
+        "returns": 10510,
+        "elderly_returns": 3350,
+        "elderly_pct": 31.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 560,
+            "elderly_returns": 140,
+            "elderly_pct": 25.0,
+            "single": 480,
+            "joint": 60,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": -5189000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 1090,
+            "elderly_returns": 330,
+            "elderly_pct": 30.3,
+            "single": 780,
+            "joint": 150,
+            "head_of_household": 150,
+            "other_status": 10,
+            "agi_usd": 5525000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1910,
+            "elderly_returns": 530,
+            "elderly_pct": 27.7,
+            "single": 1190,
+            "joint": 300,
+            "head_of_household": 390,
+            "other_status": 30,
+            "agi_usd": 32862000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 2700,
+            "elderly_returns": 670,
+            "elderly_pct": 24.8,
+            "single": 1460,
+            "joint": 550,
+            "head_of_household": 640,
+            "other_status": 50,
+            "agi_usd": 99629000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1580,
+            "elderly_returns": 570,
+            "elderly_pct": 36.1,
+            "single": 650,
+            "joint": 640,
+            "head_of_household": 260,
+            "other_status": 30,
+            "agi_usd": 97347000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 990,
+            "elderly_returns": 420,
+            "elderly_pct": 42.4,
+            "single": 280,
+            "joint": 610,
+            "head_of_household": 90,
+            "other_status": 10,
+            "agi_usd": 85449000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1370,
+            "elderly_returns": 530,
+            "elderly_pct": 38.7,
+            "single": 230,
+            "joint": 1070,
+            "head_of_household": 60,
+            "other_status": 10,
+            "agi_usd": 182322000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 310,
+            "elderly_returns": 160,
+            "elderly_pct": 51.6,
+            "single": 40,
+            "joint": 260,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 105418000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 10510,
+          "ftb_returns": 9512,
+          "ratio": 1.105
+        }
+      },
+      {
+        "county": "El Dorado",
+        "returns": 93340,
+        "elderly_returns": 34480,
+        "elderly_pct": 36.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1890,
+            "elderly_returns": 1030,
+            "elderly_pct": 54.5,
+            "single": 1150,
+            "joint": 590,
+            "head_of_household": 90,
+            "other_status": 60,
+            "agi_usd": -142031000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 8620,
+            "elderly_returns": 2810,
+            "elderly_pct": 32.6,
+            "single": 6960,
+            "joint": 1050,
+            "head_of_household": 510,
+            "other_status": 100,
+            "agi_usd": 42665000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 11830,
+            "elderly_returns": 3550,
+            "elderly_pct": 30.0,
+            "single": 8900,
+            "joint": 1580,
+            "head_of_household": 1160,
+            "other_status": 190,
+            "agi_usd": 202914000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 16160,
+            "elderly_returns": 4810,
+            "elderly_pct": 29.8,
+            "single": 10630,
+            "joint": 3160,
+            "head_of_household": 1990,
+            "other_status": 380,
+            "agi_usd": 597181000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 11690,
+            "elderly_returns": 4530,
+            "elderly_pct": 38.8,
+            "single": 6280,
+            "joint": 3750,
+            "head_of_household": 1400,
+            "other_status": 260,
+            "agi_usd": 723742000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 9040,
+            "elderly_returns": 4110,
+            "elderly_pct": 45.5,
+            "single": 3540,
+            "joint": 4580,
+            "head_of_household": 770,
+            "other_status": 150,
+            "agi_usd": 786601000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 20840,
+            "elderly_returns": 9170,
+            "elderly_pct": 44.0,
+            "single": 4230,
+            "joint": 15310,
+            "head_of_household": 1040,
+            "other_status": 260,
+            "agi_usd": 2947081000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 13270,
+            "elderly_returns": 4470,
+            "elderly_pct": 33.7,
+            "single": 1330,
+            "joint": 11420,
+            "head_of_household": 410,
+            "other_status": 110,
+            "agi_usd": 5822984000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 93340,
+          "ftb_returns": 89464,
+          "ratio": 1.043
+        }
+      },
+      {
+        "county": "Fresno",
+        "returns": 430420,
+        "elderly_returns": 87900,
+        "elderly_pct": 20.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 7140,
+            "elderly_returns": 2700,
+            "elderly_pct": 37.8,
+            "single": 4820,
+            "joint": 1670,
+            "head_of_household": 460,
+            "other_status": 190,
+            "agi_usd": -391313000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 41340,
+            "elderly_returns": 8380,
+            "elderly_pct": 20.3,
+            "single": 30870,
+            "joint": 4210,
+            "head_of_household": 5820,
+            "other_status": 440,
+            "agi_usd": 224111000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 88110,
+            "elderly_returns": 12830,
+            "elderly_pct": 14.6,
+            "single": 55970,
+            "joint": 10140,
+            "head_of_household": 21170,
+            "other_status": 830,
+            "agi_usd": 1528538000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 120800,
+            "elderly_returns": 17200,
+            "elderly_pct": 14.2,
+            "single": 63400,
+            "joint": 22860,
+            "head_of_household": 32580,
+            "other_status": 1960,
+            "agi_usd": 4412361000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 62890,
+            "elderly_returns": 13320,
+            "elderly_pct": 21.2,
+            "single": 26500,
+            "joint": 20850,
+            "head_of_household": 14360,
+            "other_status": 1180,
+            "agi_usd": 3852182000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 36340,
+            "elderly_returns": 9880,
+            "elderly_pct": 27.2,
+            "single": 11590,
+            "joint": 18230,
+            "head_of_household": 5900,
+            "other_status": 620,
+            "agi_usd": 3146008000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 54280,
+            "elderly_returns": 16540,
+            "elderly_pct": 30.5,
+            "single": 10200,
+            "joint": 38980,
+            "head_of_household": 4410,
+            "other_status": 690,
+            "agi_usd": 7405771000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 19520,
+            "elderly_returns": 7050,
+            "elderly_pct": 36.1,
+            "single": 2410,
+            "joint": 16270,
+            "head_of_household": 650,
+            "other_status": 190,
+            "agi_usd": 8997913000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 430420,
+          "ftb_returns": 414789,
+          "ratio": 1.038
+        }
+      },
+      {
+        "county": "Glenn",
+        "returns": 12760,
+        "elderly_returns": 3330,
+        "elderly_pct": 26.1,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 320,
+            "elderly_returns": 170,
+            "elderly_pct": 53.1,
+            "single": 180,
+            "joint": 120,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": -16649000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 1140,
+            "elderly_returns": 320,
+            "elderly_pct": 28.1,
+            "single": 850,
+            "joint": 180,
+            "head_of_household": 110,
+            "other_status": 0,
+            "agi_usd": 5865000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 2220,
+            "elderly_returns": 490,
+            "elderly_pct": 22.1,
+            "single": 1470,
+            "joint": 330,
+            "head_of_household": 390,
+            "other_status": 30,
+            "agi_usd": 38601000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 3750,
+            "elderly_returns": 680,
+            "elderly_pct": 18.1,
+            "single": 1980,
+            "joint": 850,
+            "head_of_household": 870,
+            "other_status": 50,
+            "agi_usd": 139159000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 2050,
+            "elderly_returns": 530,
+            "elderly_pct": 25.9,
+            "single": 810,
+            "joint": 850,
+            "head_of_household": 350,
+            "other_status": 40,
+            "agi_usd": 126131000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 1290,
+            "elderly_returns": 400,
+            "elderly_pct": 31.0,
+            "single": 290,
+            "joint": 850,
+            "head_of_household": 130,
+            "other_status": 20,
+            "agi_usd": 111372000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1580,
+            "elderly_returns": 540,
+            "elderly_pct": 34.2,
+            "single": 240,
+            "joint": 1270,
+            "head_of_household": 70,
+            "other_status": 0,
+            "agi_usd": 210773000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 410,
+            "elderly_returns": 200,
+            "elderly_pct": 48.8,
+            "single": 70,
+            "joint": 340,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 151252000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 12760,
+          "ftb_returns": 12453,
+          "ratio": 1.025
+        }
+      },
+      {
+        "county": "Humboldt",
+        "returns": 58940,
+        "elderly_returns": 17630,
+        "elderly_pct": 29.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1490,
+            "elderly_returns": 640,
+            "elderly_pct": 43.0,
+            "single": 980,
+            "joint": 340,
+            "head_of_household": 130,
+            "other_status": 40,
+            "agi_usd": -41340000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 6430,
+            "elderly_returns": 1700,
+            "elderly_pct": 26.4,
+            "single": 5080,
+            "joint": 600,
+            "head_of_household": 660,
+            "other_status": 90,
+            "agi_usd": 33034000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 10990,
+            "elderly_returns": 2590,
+            "elderly_pct": 23.6,
+            "single": 7870,
+            "joint": 1300,
+            "head_of_household": 1660,
+            "other_status": 160,
+            "agi_usd": 190750000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 15270,
+            "elderly_returns": 3380,
+            "elderly_pct": 22.1,
+            "single": 9910,
+            "joint": 2520,
+            "head_of_household": 2590,
+            "other_status": 250,
+            "agi_usd": 559849000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 8770,
+            "elderly_returns": 2720,
+            "elderly_pct": 31.0,
+            "single": 4610,
+            "joint": 2770,
+            "head_of_household": 1240,
+            "other_status": 150,
+            "agi_usd": 538909000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 5350,
+            "elderly_returns": 2060,
+            "elderly_pct": 38.5,
+            "single": 1980,
+            "joint": 2780,
+            "head_of_household": 500,
+            "other_status": 90,
+            "agi_usd": 462199000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 8200,
+            "elderly_returns": 3370,
+            "elderly_pct": 41.1,
+            "single": 1700,
+            "joint": 5990,
+            "head_of_household": 450,
+            "other_status": 60,
+            "agi_usd": 1106518000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 2440,
+            "elderly_returns": 1170,
+            "elderly_pct": 48.0,
+            "single": 400,
+            "joint": 1950,
+            "head_of_household": 80,
+            "other_status": 10,
+            "agi_usd": 936465000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 58940,
+          "ftb_returns": 55797,
+          "ratio": 1.056
+        }
+      },
+      {
+        "county": "Imperial",
+        "returns": 88790,
+        "elderly_returns": 16550,
+        "elderly_pct": 18.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 2410,
+            "elderly_returns": 530,
+            "elderly_pct": 22.0,
+            "single": 1980,
+            "joint": 290,
+            "head_of_household": 90,
+            "other_status": 50,
+            "agi_usd": -19410000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 9950,
+            "elderly_returns": 2390,
+            "elderly_pct": 24.0,
+            "single": 7110,
+            "joint": 1350,
+            "head_of_household": 1410,
+            "other_status": 80,
+            "agi_usd": 55609000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 22350,
+            "elderly_returns": 3850,
+            "elderly_pct": 17.2,
+            "single": 12880,
+            "joint": 3710,
+            "head_of_household": 5550,
+            "other_status": 210,
+            "agi_usd": 384337000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 25350,
+            "elderly_returns": 3730,
+            "elderly_pct": 14.7,
+            "single": 10970,
+            "joint": 7060,
+            "head_of_household": 6980,
+            "other_status": 340,
+            "agi_usd": 908669000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 11820,
+            "elderly_returns": 2170,
+            "elderly_pct": 18.4,
+            "single": 3550,
+            "joint": 5400,
+            "head_of_household": 2660,
+            "other_status": 210,
+            "agi_usd": 724581000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 6670,
+            "elderly_returns": 1340,
+            "elderly_pct": 20.1,
+            "single": 1640,
+            "joint": 3560,
+            "head_of_household": 1340,
+            "other_status": 130,
+            "agi_usd": 576603000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 8550,
+            "elderly_returns": 1910,
+            "elderly_pct": 22.3,
+            "single": 1310,
+            "joint": 5960,
+            "head_of_household": 1190,
+            "other_status": 90,
+            "agi_usd": 1141912000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1690,
+            "elderly_returns": 630,
+            "elderly_pct": 37.3,
+            "single": 180,
+            "joint": 1440,
+            "head_of_household": 50,
+            "other_status": 20,
+            "agi_usd": 673935000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 88790,
+          "ftb_returns": 79240,
+          "ratio": 1.121
+        }
+      },
+      {
+        "county": "Inyo",
+        "returns": 8510,
+        "elderly_returns": 3040,
+        "elderly_pct": 35.7,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 140,
+            "elderly_returns": 70,
+            "elderly_pct": 50.0,
+            "single": 100,
+            "joint": 30,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": -2484000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 800,
+            "elderly_returns": 310,
+            "elderly_pct": 38.8,
+            "single": 620,
+            "joint": 90,
+            "head_of_household": 80,
+            "other_status": 10,
+            "agi_usd": 4077000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1250,
+            "elderly_returns": 380,
+            "elderly_pct": 30.4,
+            "single": 900,
+            "joint": 140,
+            "head_of_household": 190,
+            "other_status": 20,
+            "agi_usd": 21868000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 2060,
+            "elderly_returns": 560,
+            "elderly_pct": 27.2,
+            "single": 1270,
+            "joint": 320,
+            "head_of_household": 420,
+            "other_status": 50,
+            "agi_usd": 75969000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1320,
+            "elderly_returns": 470,
+            "elderly_pct": 35.6,
+            "single": 690,
+            "joint": 400,
+            "head_of_household": 210,
+            "other_status": 20,
+            "agi_usd": 81214000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 920,
+            "elderly_returns": 390,
+            "elderly_pct": 42.4,
+            "single": 390,
+            "joint": 440,
+            "head_of_household": 80,
+            "other_status": 10,
+            "agi_usd": 79836000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1530,
+            "elderly_returns": 640,
+            "elderly_pct": 41.8,
+            "single": 350,
+            "joint": 1110,
+            "head_of_household": 70,
+            "other_status": 0,
+            "agi_usd": 209890000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 490,
+            "elderly_returns": 220,
+            "elderly_pct": 44.9,
+            "single": 80,
+            "joint": 390,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 169981000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 8510,
+          "ftb_returns": 8536,
+          "ratio": 0.997
+        }
+      },
+      {
+        "county": "Kern",
+        "returns": 375620,
+        "elderly_returns": 72190,
+        "elderly_pct": 19.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 7470,
+            "elderly_returns": 2180,
+            "elderly_pct": 29.2,
+            "single": 5600,
+            "joint": 1330,
+            "head_of_household": 370,
+            "other_status": 170,
+            "agi_usd": -298312000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 37310,
+            "elderly_returns": 7580,
+            "elderly_pct": 20.3,
+            "single": 28090,
+            "joint": 4100,
+            "head_of_household": 4740,
+            "other_status": 380,
+            "agi_usd": 202741000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 80600,
+            "elderly_returns": 11420,
+            "elderly_pct": 14.2,
+            "single": 50500,
+            "joint": 10100,
+            "head_of_household": 19140,
+            "other_status": 860,
+            "agi_usd": 1392231000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 100700,
+            "elderly_returns": 14040,
+            "elderly_pct": 13.9,
+            "single": 50230,
+            "joint": 21750,
+            "head_of_household": 27180,
+            "other_status": 1540,
+            "agi_usd": 3652048000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 53050,
+            "elderly_returns": 10610,
+            "elderly_pct": 20.0,
+            "single": 20940,
+            "joint": 19360,
+            "head_of_household": 11830,
+            "other_status": 920,
+            "agi_usd": 3250249000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 32850,
+            "elderly_returns": 7860,
+            "elderly_pct": 23.9,
+            "single": 9730,
+            "joint": 17210,
+            "head_of_household": 5360,
+            "other_status": 550,
+            "agi_usd": 2846401000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 49350,
+            "elderly_returns": 13500,
+            "elderly_pct": 27.4,
+            "single": 8300,
+            "joint": 36320,
+            "head_of_household": 4130,
+            "other_status": 600,
+            "agi_usd": 6692826000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 14290,
+            "elderly_returns": 5000,
+            "elderly_pct": 35.0,
+            "single": 1470,
+            "joint": 12280,
+            "head_of_household": 410,
+            "other_status": 130,
+            "agi_usd": 5549680000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 375620,
+          "ftb_returns": 355867,
+          "ratio": 1.056
+        }
+      },
+      {
+        "county": "Kings",
+        "returns": 59620,
+        "elderly_returns": 10660,
+        "elderly_pct": 17.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 2290,
+            "elderly_returns": 450,
+            "elderly_pct": 19.7,
+            "single": 1930,
+            "joint": 240,
+            "head_of_household": 50,
+            "other_status": 70,
+            "agi_usd": -72811000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 5180,
+            "elderly_returns": 1000,
+            "elderly_pct": 19.3,
+            "single": 3860,
+            "joint": 500,
+            "head_of_household": 750,
+            "other_status": 70,
+            "agi_usd": 27775000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 11060,
+            "elderly_returns": 1600,
+            "elderly_pct": 14.5,
+            "single": 7310,
+            "joint": 1240,
+            "head_of_household": 2360,
+            "other_status": 150,
+            "agi_usd": 193803000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 16830,
+            "elderly_returns": 2110,
+            "elderly_pct": 12.5,
+            "single": 8400,
+            "joint": 3480,
+            "head_of_household": 4540,
+            "other_status": 410,
+            "agi_usd": 617950000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 9620,
+            "elderly_returns": 1760,
+            "elderly_pct": 18.3,
+            "single": 3500,
+            "joint": 3840,
+            "head_of_household": 2090,
+            "other_status": 190,
+            "agi_usd": 589539000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 5570,
+            "elderly_returns": 1320,
+            "elderly_pct": 23.7,
+            "single": 1450,
+            "joint": 3150,
+            "head_of_household": 880,
+            "other_status": 90,
+            "agi_usd": 481296000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 7450,
+            "elderly_returns": 1840,
+            "elderly_pct": 24.7,
+            "single": 1110,
+            "joint": 5630,
+            "head_of_household": 620,
+            "other_status": 90,
+            "agi_usd": 991511000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1620,
+            "elderly_returns": 580,
+            "elderly_pct": 35.8,
+            "single": 180,
+            "joint": 1390,
+            "head_of_household": 50,
+            "other_status": 0,
+            "agi_usd": 630326000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 59620,
+          "ftb_returns": 52716,
+          "ratio": 1.131
+        }
+      },
+      {
+        "county": "Lake",
+        "returns": 26270,
+        "elderly_returns": 8710,
+        "elderly_pct": 33.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 790,
+            "elderly_returns": 450,
+            "elderly_pct": 57.0,
+            "single": 520,
+            "joint": 220,
+            "head_of_household": 40,
+            "other_status": 10,
+            "agi_usd": -39543000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2880,
+            "elderly_returns": 1070,
+            "elderly_pct": 37.2,
+            "single": 1980,
+            "joint": 450,
+            "head_of_household": 390,
+            "other_status": 60,
+            "agi_usd": 14681000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 4990,
+            "elderly_returns": 1450,
+            "elderly_pct": 29.1,
+            "single": 3030,
+            "joint": 770,
+            "head_of_household": 1110,
+            "other_status": 80,
+            "agi_usd": 86414000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 6840,
+            "elderly_returns": 1800,
+            "elderly_pct": 26.3,
+            "single": 3550,
+            "joint": 1570,
+            "head_of_household": 1600,
+            "other_status": 120,
+            "agi_usd": 251521000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 3940,
+            "elderly_returns": 1290,
+            "elderly_pct": 32.7,
+            "single": 1780,
+            "joint": 1380,
+            "head_of_household": 710,
+            "other_status": 70,
+            "agi_usd": 242197000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 2390,
+            "elderly_returns": 910,
+            "elderly_pct": 38.1,
+            "single": 820,
+            "joint": 1270,
+            "head_of_household": 270,
+            "other_status": 30,
+            "agi_usd": 206040000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 3580,
+            "elderly_returns": 1360,
+            "elderly_pct": 38.0,
+            "single": 720,
+            "joint": 2570,
+            "head_of_household": 250,
+            "other_status": 40,
+            "agi_usd": 485654000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 860,
+            "elderly_returns": 380,
+            "elderly_pct": 44.2,
+            "single": 150,
+            "joint": 680,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": 315815000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 26270,
+          "ftb_returns": 24583,
+          "ratio": 1.069
+        }
+      },
+      {
+        "county": "Lassen",
+        "returns": 10600,
+        "elderly_returns": 3100,
+        "elderly_pct": 29.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 830,
+            "elderly_returns": 130,
+            "elderly_pct": 15.7,
+            "single": 720,
+            "joint": 60,
+            "head_of_household": 0,
+            "other_status": 50,
+            "agi_usd": -7345000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 920,
+            "elderly_returns": 260,
+            "elderly_pct": 28.3,
+            "single": 620,
+            "joint": 130,
+            "head_of_household": 170,
+            "other_status": 0,
+            "agi_usd": 4543000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1470,
+            "elderly_returns": 420,
+            "elderly_pct": 28.6,
+            "single": 980,
+            "joint": 240,
+            "head_of_household": 230,
+            "other_status": 20,
+            "agi_usd": 25277000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 2250,
+            "elderly_returns": 570,
+            "elderly_pct": 25.3,
+            "single": 1250,
+            "joint": 500,
+            "head_of_household": 440,
+            "other_status": 60,
+            "agi_usd": 84177000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1740,
+            "elderly_returns": 570,
+            "elderly_pct": 32.8,
+            "single": 780,
+            "joint": 650,
+            "head_of_household": 280,
+            "other_status": 30,
+            "agi_usd": 107266000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 1200,
+            "elderly_returns": 450,
+            "elderly_pct": 37.5,
+            "single": 370,
+            "joint": 680,
+            "head_of_household": 140,
+            "other_status": 10,
+            "agi_usd": 104671000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1870,
+            "elderly_returns": 590,
+            "elderly_pct": 31.6,
+            "single": 290,
+            "joint": 1470,
+            "head_of_household": 110,
+            "other_status": 0,
+            "agi_usd": 252175000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 320,
+            "elderly_returns": 110,
+            "elderly_pct": 34.4,
+            "single": 30,
+            "joint": 270,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 85969000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 10600,
+          "ftb_returns": 9397,
+          "ratio": 1.128
+        }
+      },
+      {
+        "county": "Los Angeles",
+        "returns": 4691250,
+        "elderly_returns": 1023130,
+        "elderly_pct": 21.8,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 89460,
+            "elderly_returns": 32580,
+            "elderly_pct": 36.4,
+            "single": 63800,
+            "joint": 18280,
+            "head_of_household": 4510,
+            "other_status": 2870,
+            "agi_usd": -7820813000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 478270,
+            "elderly_returns": 117520,
+            "elderly_pct": 24.6,
+            "single": 385720,
+            "joint": 52170,
+            "head_of_household": 32950,
+            "other_status": 7430,
+            "agi_usd": 2424320000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 802720,
+            "elderly_returns": 139960,
+            "elderly_pct": 17.4,
+            "single": 555230,
+            "joint": 101300,
+            "head_of_household": 135690,
+            "other_status": 10500,
+            "agi_usd": 13794463000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 1122140,
+            "elderly_returns": 180900,
+            "elderly_pct": 16.1,
+            "single": 678840,
+            "joint": 188530,
+            "head_of_household": 236140,
+            "other_status": 18630,
+            "agi_usd": 41328773000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 692550,
+            "elderly_returns": 138570,
+            "elderly_pct": 20.0,
+            "single": 379130,
+            "joint": 164650,
+            "head_of_household": 133490,
+            "other_status": 15280,
+            "agi_usd": 42576876000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 426470,
+            "elderly_returns": 103680,
+            "elderly_pct": 24.3,
+            "single": 205360,
+            "joint": 146000,
+            "head_of_household": 65180,
+            "other_status": 9930,
+            "agi_usd": 36920269000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 687310,
+            "elderly_returns": 189690,
+            "elderly_pct": 27.6,
+            "single": 249270,
+            "joint": 358560,
+            "head_of_household": 65630,
+            "other_status": 13850,
+            "agi_usd": 95057390000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 392330,
+            "elderly_returns": 120230,
+            "elderly_pct": 30.6,
+            "single": 84570,
+            "joint": 284920,
+            "head_of_household": 16530,
+            "other_status": 6310,
+            "agi_usd": 233247105000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 4691250,
+          "ftb_returns": 4517811,
+          "ratio": 1.038
+        }
+      },
+      {
+        "county": "Madera",
+        "returns": 67840,
+        "elderly_returns": 15020,
+        "elderly_pct": 22.1,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3180,
+            "elderly_returns": 570,
+            "elderly_pct": 17.9,
+            "single": 2710,
+            "joint": 320,
+            "head_of_household": 60,
+            "other_status": 90,
+            "agi_usd": -79942000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 6340,
+            "elderly_returns": 1470,
+            "elderly_pct": 23.2,
+            "single": 4610,
+            "joint": 830,
+            "head_of_household": 830,
+            "other_status": 70,
+            "agi_usd": 34645000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 13600,
+            "elderly_returns": 2250,
+            "elderly_pct": 16.5,
+            "single": 8510,
+            "joint": 2010,
+            "head_of_household": 2950,
+            "other_status": 130,
+            "agi_usd": 235161000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 17920,
+            "elderly_returns": 2970,
+            "elderly_pct": 16.6,
+            "single": 8750,
+            "joint": 4400,
+            "head_of_household": 4520,
+            "other_status": 250,
+            "agi_usd": 656167000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 9750,
+            "elderly_returns": 2260,
+            "elderly_pct": 23.2,
+            "single": 3660,
+            "joint": 3820,
+            "head_of_household": 2120,
+            "other_status": 150,
+            "agi_usd": 598629000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 5960,
+            "elderly_returns": 1750,
+            "elderly_pct": 29.4,
+            "single": 1620,
+            "joint": 3410,
+            "head_of_household": 850,
+            "other_status": 80,
+            "agi_usd": 514744000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 8690,
+            "elderly_returns": 2830,
+            "elderly_pct": 32.6,
+            "single": 1330,
+            "joint": 6680,
+            "head_of_household": 600,
+            "other_status": 80,
+            "agi_usd": 1179710000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 2400,
+            "elderly_returns": 920,
+            "elderly_pct": 38.3,
+            "single": 270,
+            "joint": 2040,
+            "head_of_household": 70,
+            "other_status": 20,
+            "agi_usd": 874650000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 67840,
+          "ftb_returns": 62799,
+          "ratio": 1.08
+        }
+      },
+      {
+        "county": "Marin",
+        "returns": 128760,
+        "elderly_returns": 49650,
+        "elderly_pct": 38.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3560,
+            "elderly_returns": 1750,
+            "elderly_pct": 49.2,
+            "single": 2610,
+            "joint": 710,
+            "head_of_household": 140,
+            "other_status": 100,
+            "agi_usd": -469830000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 11220,
+            "elderly_returns": 3140,
+            "elderly_pct": 28.0,
+            "single": 9860,
+            "joint": 680,
+            "head_of_household": 510,
+            "other_status": 170,
+            "agi_usd": 53332000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 13010,
+            "elderly_returns": 3910,
+            "elderly_pct": 30.1,
+            "single": 9950,
+            "joint": 1380,
+            "head_of_household": 1440,
+            "other_status": 240,
+            "agi_usd": 220963000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 16840,
+            "elderly_returns": 5220,
+            "elderly_pct": 31.0,
+            "single": 11420,
+            "joint": 2860,
+            "head_of_household": 2190,
+            "other_status": 370,
+            "agi_usd": 625652000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 13890,
+            "elderly_returns": 5320,
+            "elderly_pct": 38.3,
+            "single": 9050,
+            "joint": 2990,
+            "head_of_household": 1500,
+            "other_status": 350,
+            "agi_usd": 862480000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 10560,
+            "elderly_returns": 4840,
+            "elderly_pct": 45.8,
+            "single": 6220,
+            "joint": 3160,
+            "head_of_household": 930,
+            "other_status": 250,
+            "agi_usd": 916504000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 24870,
+            "elderly_returns": 12490,
+            "elderly_pct": 50.2,
+            "single": 10580,
+            "joint": 11940,
+            "head_of_household": 1870,
+            "other_status": 480,
+            "agi_usd": 3562258000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 34810,
+            "elderly_returns": 12980,
+            "elderly_pct": 37.3,
+            "single": 6160,
+            "joint": 26480,
+            "head_of_household": 1670,
+            "other_status": 500,
+            "agi_usd": 26089204000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 128760,
+          "ftb_returns": 122117,
+          "ratio": 1.054
+        }
+      },
+      {
+        "county": "Mariposa",
+        "returns": 7490,
+        "elderly_returns": 3050,
+        "elderly_pct": 40.7,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 210,
+            "elderly_returns": 130,
+            "elderly_pct": 61.9,
+            "single": 130,
+            "joint": 70,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": -12956000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 770,
+            "elderly_returns": 320,
+            "elderly_pct": 41.6,
+            "single": 550,
+            "joint": 140,
+            "head_of_household": 80,
+            "other_status": 0,
+            "agi_usd": 3928000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1240,
+            "elderly_returns": 430,
+            "elderly_pct": 34.7,
+            "single": 830,
+            "joint": 250,
+            "head_of_household": 150,
+            "other_status": 10,
+            "agi_usd": 21732000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 1770,
+            "elderly_returns": 590,
+            "elderly_pct": 33.3,
+            "single": 1050,
+            "joint": 440,
+            "head_of_household": 240,
+            "other_status": 40,
+            "agi_usd": 64923000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1220,
+            "elderly_returns": 500,
+            "elderly_pct": 41.0,
+            "single": 600,
+            "joint": 460,
+            "head_of_household": 130,
+            "other_status": 30,
+            "agi_usd": 75317000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 770,
+            "elderly_returns": 360,
+            "elderly_pct": 46.8,
+            "single": 240,
+            "joint": 460,
+            "head_of_household": 70,
+            "other_status": 0,
+            "agi_usd": 66565000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1170,
+            "elderly_returns": 550,
+            "elderly_pct": 47.0,
+            "single": 200,
+            "joint": 910,
+            "head_of_household": 50,
+            "other_status": 10,
+            "agi_usd": 157392000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 340,
+            "elderly_returns": 170,
+            "elderly_pct": 50.0,
+            "single": 40,
+            "joint": 290,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 118055000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 7490,
+          "ftb_returns": 6569,
+          "ratio": 1.14
+        }
+      },
+      {
+        "county": "Mendocino",
+        "returns": 39800,
+        "elderly_returns": 13630,
+        "elderly_pct": 34.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1140,
+            "elderly_returns": 590,
+            "elderly_pct": 51.8,
+            "single": 760,
+            "joint": 280,
+            "head_of_household": 70,
+            "other_status": 30,
+            "agi_usd": -36019000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 4540,
+            "elderly_returns": 1580,
+            "elderly_pct": 34.8,
+            "single": 3420,
+            "joint": 620,
+            "head_of_household": 440,
+            "other_status": 60,
+            "agi_usd": 22767000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 7020,
+            "elderly_returns": 2080,
+            "elderly_pct": 29.6,
+            "single": 4510,
+            "joint": 1120,
+            "head_of_household": 1290,
+            "other_status": 100,
+            "agi_usd": 121655000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 10020,
+            "elderly_returns": 2480,
+            "elderly_pct": 24.8,
+            "single": 5630,
+            "joint": 2070,
+            "head_of_household": 2150,
+            "other_status": 170,
+            "agi_usd": 367702000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 6100,
+            "elderly_returns": 1980,
+            "elderly_pct": 32.5,
+            "single": 2790,
+            "joint": 2110,
+            "head_of_household": 1060,
+            "other_status": 140,
+            "agi_usd": 374267000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 3680,
+            "elderly_returns": 1500,
+            "elderly_pct": 40.8,
+            "single": 1320,
+            "joint": 1900,
+            "head_of_household": 390,
+            "other_status": 70,
+            "agi_usd": 318867000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 5400,
+            "elderly_returns": 2400,
+            "elderly_pct": 44.4,
+            "single": 1160,
+            "joint": 3860,
+            "head_of_household": 320,
+            "other_status": 60,
+            "agi_usd": 739858000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1900,
+            "elderly_returns": 1020,
+            "elderly_pct": 53.7,
+            "single": 360,
+            "joint": 1460,
+            "head_of_household": 60,
+            "other_status": 20,
+            "agi_usd": 762977000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 39800,
+          "ftb_returns": 37770,
+          "ratio": 1.054
+        }
+      },
+      {
+        "county": "Merced",
+        "returns": 118450,
+        "elderly_returns": 21830,
+        "elderly_pct": 18.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1930,
+            "elderly_returns": 780,
+            "elderly_pct": 40.4,
+            "single": 1180,
+            "joint": 580,
+            "head_of_household": 130,
+            "other_status": 40,
+            "agi_usd": -169239000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 11360,
+            "elderly_returns": 2280,
+            "elderly_pct": 20.1,
+            "single": 8320,
+            "joint": 1400,
+            "head_of_household": 1510,
+            "other_status": 130,
+            "agi_usd": 62472000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 23930,
+            "elderly_returns": 3520,
+            "elderly_pct": 14.7,
+            "single": 15160,
+            "joint": 3170,
+            "head_of_household": 5370,
+            "other_status": 230,
+            "agi_usd": 415077000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 33420,
+            "elderly_returns": 4600,
+            "elderly_pct": 13.8,
+            "single": 16620,
+            "joint": 7320,
+            "head_of_household": 9020,
+            "other_status": 460,
+            "agi_usd": 1225310000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 19570,
+            "elderly_returns": 3510,
+            "elderly_pct": 17.9,
+            "single": 7240,
+            "joint": 7620,
+            "head_of_household": 4410,
+            "other_status": 300,
+            "agi_usd": 1198549000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 11350,
+            "elderly_returns": 2520,
+            "elderly_pct": 22.2,
+            "single": 2810,
+            "joint": 6470,
+            "head_of_household": 1910,
+            "other_status": 160,
+            "agi_usd": 982065000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 13820,
+            "elderly_returns": 3460,
+            "elderly_pct": 25.0,
+            "single": 2030,
+            "joint": 10560,
+            "head_of_household": 1100,
+            "other_status": 130,
+            "agi_usd": 1842275000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 3070,
+            "elderly_returns": 1160,
+            "elderly_pct": 37.8,
+            "single": 360,
+            "joint": 2580,
+            "head_of_household": 90,
+            "other_status": 40,
+            "agi_usd": 1228433000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 118450,
+          "ftb_returns": 113791,
+          "ratio": 1.041
+        }
+      },
+      {
+        "county": "Modoc",
+        "returns": 3410,
+        "elderly_returns": 1360,
+        "elderly_pct": 39.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 140,
+            "elderly_returns": 100,
+            "elderly_pct": 71.4,
+            "single": 90,
+            "joint": 50,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": -11746000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 390,
+            "elderly_returns": 160,
+            "elderly_pct": 41.0,
+            "single": 280,
+            "joint": 70,
+            "head_of_household": 40,
+            "other_status": 0,
+            "agi_usd": 1928000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 630,
+            "elderly_returns": 210,
+            "elderly_pct": 33.3,
+            "single": 400,
+            "joint": 130,
+            "head_of_household": 100,
+            "other_status": 0,
+            "agi_usd": 11078000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 810,
+            "elderly_returns": 250,
+            "elderly_pct": 30.9,
+            "single": 410,
+            "joint": 250,
+            "head_of_household": 150,
+            "other_status": 0,
+            "agi_usd": 29422000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 520,
+            "elderly_returns": 230,
+            "elderly_pct": 44.2,
+            "single": 200,
+            "joint": 230,
+            "head_of_household": 70,
+            "other_status": 20,
+            "agi_usd": 31462000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 360,
+            "elderly_returns": 160,
+            "elderly_pct": 44.4,
+            "single": 100,
+            "joint": 230,
+            "head_of_household": 40,
+            "other_status": 0,
+            "agi_usd": 31434000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 490,
+            "elderly_returns": 200,
+            "elderly_pct": 40.8,
+            "single": 90,
+            "joint": 390,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 64410000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 70,
+            "elderly_returns": 50,
+            "elderly_pct": 71.4,
+            "single": 0,
+            "joint": 60,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 22089000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 3410,
+          "ftb_returns": 2874,
+          "ratio": 1.186
+        }
+      },
+      {
+        "county": "Mono",
+        "returns": 6430,
+        "elderly_returns": 1730,
+        "elderly_pct": 26.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 140,
+            "elderly_returns": 70,
+            "elderly_pct": 50.0,
+            "single": 100,
+            "joint": 40,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": -7367000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 560,
+            "elderly_returns": 120,
+            "elderly_pct": 21.4,
+            "single": 490,
+            "joint": 40,
+            "head_of_household": 40,
+            "other_status": 0,
+            "agi_usd": 3066000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 890,
+            "elderly_returns": 210,
+            "elderly_pct": 23.6,
+            "single": 690,
+            "joint": 110,
+            "head_of_household": 90,
+            "other_status": 0,
+            "agi_usd": 15702000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 1540,
+            "elderly_returns": 270,
+            "elderly_pct": 17.5,
+            "single": 1070,
+            "joint": 230,
+            "head_of_household": 220,
+            "other_status": 20,
+            "agi_usd": 57759000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1060,
+            "elderly_returns": 260,
+            "elderly_pct": 24.5,
+            "single": 580,
+            "joint": 310,
+            "head_of_household": 140,
+            "other_status": 30,
+            "agi_usd": 64673000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 630,
+            "elderly_returns": 180,
+            "elderly_pct": 28.6,
+            "single": 260,
+            "joint": 320,
+            "head_of_household": 50,
+            "other_status": 0,
+            "agi_usd": 54425000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1110,
+            "elderly_returns": 390,
+            "elderly_pct": 35.1,
+            "single": 260,
+            "joint": 810,
+            "head_of_household": 50,
+            "other_status": 0,
+            "agi_usd": 152664000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 500,
+            "elderly_returns": 230,
+            "elderly_pct": 46.0,
+            "single": 100,
+            "joint": 380,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 208644000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 6430,
+          "ftb_returns": 5663,
+          "ratio": 1.135
+        }
+      },
+      {
+        "county": "Monterey",
+        "returns": 199960,
+        "elderly_returns": 47900,
+        "elderly_pct": 24.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3820,
+            "elderly_returns": 1370,
+            "elderly_pct": 35.9,
+            "single": 2890,
+            "joint": 690,
+            "head_of_household": 150,
+            "other_status": 90,
+            "agi_usd": -168465000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 15690,
+            "elderly_returns": 3890,
+            "elderly_pct": 24.8,
+            "single": 12560,
+            "joint": 1550,
+            "head_of_household": 1430,
+            "other_status": 150,
+            "agi_usd": 84258000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 35200,
+            "elderly_returns": 5680,
+            "elderly_pct": 16.1,
+            "single": 23900,
+            "joint": 3940,
+            "head_of_household": 7000,
+            "other_status": 360,
+            "agi_usd": 620105000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 50790,
+            "elderly_returns": 7650,
+            "elderly_pct": 15.1,
+            "single": 27540,
+            "joint": 9690,
+            "head_of_household": 12800,
+            "other_status": 760,
+            "agi_usd": 1863491000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 31900,
+            "elderly_returns": 6550,
+            "elderly_pct": 20.5,
+            "single": 14960,
+            "joint": 9780,
+            "head_of_household": 6560,
+            "other_status": 600,
+            "agi_usd": 1961248000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 19250,
+            "elderly_returns": 5450,
+            "elderly_pct": 28.3,
+            "single": 7140,
+            "joint": 8990,
+            "head_of_household": 2760,
+            "other_status": 360,
+            "agi_usd": 1666276000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 29750,
+            "elderly_returns": 10630,
+            "elderly_pct": 35.7,
+            "single": 7330,
+            "joint": 19780,
+            "head_of_household": 2200,
+            "other_status": 440,
+            "agi_usd": 4096308000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 13560,
+            "elderly_returns": 6680,
+            "elderly_pct": 49.3,
+            "single": 2160,
+            "joint": 10930,
+            "head_of_household": 330,
+            "other_status": 140,
+            "agi_usd": 7099865000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 199960,
+          "ftb_returns": 184280,
+          "ratio": 1.085
+        }
+      },
+      {
+        "county": "Napa",
+        "returns": 67180,
+        "elderly_returns": 21110,
+        "elderly_pct": 31.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1340,
+            "elderly_returns": 730,
+            "elderly_pct": 54.5,
+            "single": 860,
+            "joint": 370,
+            "head_of_household": 50,
+            "other_status": 60,
+            "agi_usd": -123959000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 4860,
+            "elderly_returns": 1440,
+            "elderly_pct": 29.6,
+            "single": 4030,
+            "joint": 460,
+            "head_of_household": 290,
+            "other_status": 80,
+            "agi_usd": 25057000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 8090,
+            "elderly_returns": 2090,
+            "elderly_pct": 25.8,
+            "single": 6040,
+            "joint": 1010,
+            "head_of_household": 920,
+            "other_status": 120,
+            "agi_usd": 140920000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 13200,
+            "elderly_returns": 2940,
+            "elderly_pct": 22.3,
+            "single": 8490,
+            "joint": 2170,
+            "head_of_household": 2300,
+            "other_status": 240,
+            "agi_usd": 497073000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 10800,
+            "elderly_returns": 2840,
+            "elderly_pct": 26.3,
+            "single": 5920,
+            "joint": 2800,
+            "head_of_household": 1840,
+            "other_status": 240,
+            "agi_usd": 665583000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 7230,
+            "elderly_returns": 2450,
+            "elderly_pct": 33.9,
+            "single": 3280,
+            "joint": 2970,
+            "head_of_household": 820,
+            "other_status": 160,
+            "agi_usd": 626494000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 13440,
+            "elderly_returns": 5160,
+            "elderly_pct": 38.4,
+            "single": 3720,
+            "joint": 8660,
+            "head_of_household": 830,
+            "other_status": 230,
+            "agi_usd": 1879085000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 8220,
+            "elderly_returns": 3460,
+            "elderly_pct": 42.1,
+            "single": 1340,
+            "joint": 6550,
+            "head_of_household": 240,
+            "other_status": 90,
+            "agi_usd": 4893809000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 67180,
+          "ftb_returns": 64751,
+          "ratio": 1.038
+        }
+      },
+      {
+        "county": "Nevada",
+        "returns": 50720,
+        "elderly_returns": 20670,
+        "elderly_pct": 40.8,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1460,
+            "elderly_returns": 840,
+            "elderly_pct": 57.5,
+            "single": 960,
+            "joint": 410,
+            "head_of_household": 60,
+            "other_status": 30,
+            "agi_usd": -80505000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 5280,
+            "elderly_returns": 1980,
+            "elderly_pct": 37.5,
+            "single": 4130,
+            "joint": 720,
+            "head_of_household": 360,
+            "other_status": 70,
+            "agi_usd": 26094000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 7400,
+            "elderly_returns": 2450,
+            "elderly_pct": 33.1,
+            "single": 5300,
+            "joint": 1110,
+            "head_of_household": 880,
+            "other_status": 110,
+            "agi_usd": 126513000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 9680,
+            "elderly_returns": 3160,
+            "elderly_pct": 32.6,
+            "single": 6030,
+            "joint": 2150,
+            "head_of_household": 1300,
+            "other_status": 200,
+            "agi_usd": 356126000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 6960,
+            "elderly_returns": 2860,
+            "elderly_pct": 41.1,
+            "single": 3710,
+            "joint": 2340,
+            "head_of_household": 760,
+            "other_status": 150,
+            "agi_usd": 429559000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 5110,
+            "elderly_returns": 2510,
+            "elderly_pct": 49.1,
+            "single": 2010,
+            "joint": 2600,
+            "head_of_household": 400,
+            "other_status": 100,
+            "agi_usd": 445173000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 9810,
+            "elderly_returns": 4770,
+            "elderly_pct": 48.6,
+            "single": 2240,
+            "joint": 7010,
+            "head_of_household": 440,
+            "other_status": 120,
+            "agi_usd": 1368406000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 5020,
+            "elderly_returns": 2100,
+            "elderly_pct": 41.8,
+            "single": 800,
+            "joint": 4040,
+            "head_of_household": 140,
+            "other_status": 40,
+            "agi_usd": 2204901000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 50720,
+          "ftb_returns": 45767,
+          "ratio": 1.108
+        }
+      },
+      {
+        "county": "Orange",
+        "returns": 1551230,
+        "elderly_returns": 403100,
+        "elderly_pct": 26.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 32240,
+            "elderly_returns": 13020,
+            "elderly_pct": 40.4,
+            "single": 21440,
+            "joint": 8350,
+            "head_of_household": 1400,
+            "other_status": 1050,
+            "agi_usd": -2889318000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 145900,
+            "elderly_returns": 38990,
+            "elderly_pct": 26.7,
+            "single": 118660,
+            "joint": 17170,
+            "head_of_household": 7630,
+            "other_status": 2440,
+            "agi_usd": 724924000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 224180,
+            "elderly_returns": 45260,
+            "elderly_pct": 20.2,
+            "single": 164200,
+            "joint": 30690,
+            "head_of_household": 26030,
+            "other_status": 3260,
+            "agi_usd": 3858677000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 324330,
+            "elderly_returns": 59580,
+            "elderly_pct": 18.4,
+            "single": 204200,
+            "joint": 60180,
+            "head_of_household": 53750,
+            "other_status": 6200,
+            "agi_usd": 11982363000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 212630,
+            "elderly_returns": 50160,
+            "elderly_pct": 23.6,
+            "single": 117940,
+            "joint": 58130,
+            "head_of_household": 31230,
+            "other_status": 5330,
+            "agi_usd": 13109333000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 142470,
+            "elderly_returns": 41410,
+            "elderly_pct": 29.1,
+            "single": 66680,
+            "joint": 56570,
+            "head_of_household": 15830,
+            "other_status": 3390,
+            "agi_usd": 12359570000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 277210,
+            "elderly_returns": 91970,
+            "elderly_pct": 33.2,
+            "single": 83480,
+            "joint": 168150,
+            "head_of_household": 20160,
+            "other_status": 5420,
+            "agi_usd": 38938021000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 192270,
+            "elderly_returns": 62710,
+            "elderly_pct": 32.6,
+            "single": 26680,
+            "joint": 156980,
+            "head_of_household": 6490,
+            "other_status": 2120,
+            "agi_usd": 102651051000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 1551230,
+          "ftb_returns": 1502892,
+          "ratio": 1.032
+        }
+      },
+      {
+        "county": "Placer",
+        "returns": 201610,
+        "elderly_returns": 67430,
+        "elderly_pct": 33.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3380,
+            "elderly_returns": 1760,
+            "elderly_pct": 52.1,
+            "single": 2040,
+            "joint": 1060,
+            "head_of_household": 180,
+            "other_status": 100,
+            "agi_usd": -409260000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 16660,
+            "elderly_returns": 4780,
+            "elderly_pct": 28.7,
+            "single": 13820,
+            "joint": 1770,
+            "head_of_household": 880,
+            "other_status": 190,
+            "agi_usd": 83481000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 24010,
+            "elderly_returns": 6600,
+            "elderly_pct": 27.5,
+            "single": 18400,
+            "joint": 3040,
+            "head_of_household": 2200,
+            "other_status": 370,
+            "agi_usd": 411071000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 32960,
+            "elderly_returns": 9330,
+            "elderly_pct": 28.3,
+            "single": 21750,
+            "joint": 6410,
+            "head_of_household": 4050,
+            "other_status": 750,
+            "agi_usd": 1221709000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 25970,
+            "elderly_returns": 9230,
+            "elderly_pct": 35.5,
+            "single": 14350,
+            "joint": 7650,
+            "head_of_household": 3280,
+            "other_status": 690,
+            "agi_usd": 1610749000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 20480,
+            "elderly_returns": 8430,
+            "elderly_pct": 41.2,
+            "single": 8550,
+            "joint": 9290,
+            "head_of_household": 2170,
+            "other_status": 470,
+            "agi_usd": 1782816000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 48900,
+            "elderly_returns": 18390,
+            "elderly_pct": 37.6,
+            "single": 10240,
+            "joint": 34840,
+            "head_of_household": 3140,
+            "other_status": 680,
+            "agi_usd": 6967206000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 29250,
+            "elderly_returns": 8910,
+            "elderly_pct": 30.5,
+            "single": 2810,
+            "joint": 25330,
+            "head_of_household": 900,
+            "other_status": 210,
+            "agi_usd": 12461251000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 201610,
+          "ftb_returns": 194750,
+          "ratio": 1.035
+        }
+      },
+      {
+        "county": "Plumas",
+        "returns": 8620,
+        "elderly_returns": 3800,
+        "elderly_pct": 44.1,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 210,
+            "elderly_returns": 130,
+            "elderly_pct": 61.9,
+            "single": 140,
+            "joint": 60,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": -8733000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 970,
+            "elderly_returns": 360,
+            "elderly_pct": 37.1,
+            "single": 720,
+            "joint": 150,
+            "head_of_household": 100,
+            "other_status": 0,
+            "agi_usd": 5047000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 1310,
+            "elderly_returns": 490,
+            "elderly_pct": 37.4,
+            "single": 900,
+            "joint": 220,
+            "head_of_household": 180,
+            "other_status": 10,
+            "agi_usd": 22426000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 1810,
+            "elderly_returns": 690,
+            "elderly_pct": 38.1,
+            "single": 1020,
+            "joint": 480,
+            "head_of_household": 270,
+            "other_status": 40,
+            "agi_usd": 66972000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 1430,
+            "elderly_returns": 640,
+            "elderly_pct": 44.8,
+            "single": 660,
+            "joint": 560,
+            "head_of_household": 180,
+            "other_status": 30,
+            "agi_usd": 88190000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 920,
+            "elderly_returns": 450,
+            "elderly_pct": 48.9,
+            "single": 290,
+            "joint": 550,
+            "head_of_household": 70,
+            "other_status": 10,
+            "agi_usd": 79476000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 1540,
+            "elderly_returns": 790,
+            "elderly_pct": 51.3,
+            "single": 270,
+            "joint": 1220,
+            "head_of_household": 50,
+            "other_status": 0,
+            "agi_usd": 211480000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 430,
+            "elderly_returns": 250,
+            "elderly_pct": 58.1,
+            "single": 70,
+            "joint": 360,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 175271000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 8620,
+          "ftb_returns": 8246,
+          "ratio": 1.045
+        }
+      },
+      {
+        "county": "Riverside",
+        "returns": 1116770,
+        "elderly_returns": 257570,
+        "elderly_pct": 23.1,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 19840,
+            "elderly_returns": 8680,
+            "elderly_pct": 43.8,
+            "single": 13470,
+            "joint": 4730,
+            "head_of_household": 1040,
+            "other_status": 600,
+            "agi_usd": -920406000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 102060,
+            "elderly_returns": 26720,
+            "elderly_pct": 26.2,
+            "single": 78920,
+            "joint": 12850,
+            "head_of_household": 8850,
+            "other_status": 1440,
+            "agi_usd": 539434000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 198470,
+            "elderly_returns": 35130,
+            "elderly_pct": 17.7,
+            "single": 135370,
+            "joint": 24950,
+            "head_of_household": 35560,
+            "other_status": 2590,
+            "agi_usd": 3418475000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 281810,
+            "elderly_returns": 46950,
+            "elderly_pct": 16.7,
+            "single": 162210,
+            "joint": 52340,
+            "head_of_household": 61950,
+            "other_status": 5310,
+            "agi_usd": 10357594000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 166290,
+            "elderly_returns": 37490,
+            "elderly_pct": 22.5,
+            "single": 74250,
+            "joint": 54080,
+            "head_of_household": 34010,
+            "other_status": 3950,
+            "agi_usd": 10227820000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 107350,
+            "elderly_returns": 29280,
+            "elderly_pct": 27.3,
+            "single": 34630,
+            "joint": 53480,
+            "head_of_household": 16980,
+            "other_status": 2260,
+            "agi_usd": 9308024000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 180040,
+            "elderly_returns": 52100,
+            "elderly_pct": 28.9,
+            "single": 34430,
+            "joint": 126820,
+            "head_of_household": 16190,
+            "other_status": 2600,
+            "agi_usd": 24668464000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 60910,
+            "elderly_returns": 21220,
+            "elderly_pct": 34.8,
+            "single": 8310,
+            "joint": 49730,
+            "head_of_household": 2240,
+            "other_status": 630,
+            "agi_usd": 23905331000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 1116770,
+          "ftb_returns": 1064621,
+          "ratio": 1.049
+        }
+      },
+      {
+        "county": "Sacramento",
+        "returns": 732480,
+        "elderly_returns": 177870,
+        "elderly_pct": 24.3,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 10860,
+            "elderly_returns": 4100,
+            "elderly_pct": 37.8,
+            "single": 7720,
+            "joint": 2170,
+            "head_of_household": 640,
+            "other_status": 330,
+            "agi_usd": -472564000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 63270,
+            "elderly_returns": 14900,
+            "elderly_pct": 23.5,
+            "single": 49170,
+            "joint": 7170,
+            "head_of_household": 6010,
+            "other_status": 920,
+            "agi_usd": 325323000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 111900,
+            "elderly_returns": 20820,
+            "elderly_pct": 18.6,
+            "single": 75970,
+            "joint": 14820,
+            "head_of_household": 19480,
+            "other_status": 1630,
+            "agi_usd": 1936167000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 166300,
+            "elderly_returns": 29930,
+            "elderly_pct": 18.0,
+            "single": 102250,
+            "joint": 27860,
+            "head_of_household": 32660,
+            "other_status": 3530,
+            "agi_usd": 6169305000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 118010,
+            "elderly_returns": 27920,
+            "elderly_pct": 23.7,
+            "single": 63530,
+            "joint": 29520,
+            "head_of_household": 21650,
+            "other_status": 3310,
+            "agi_usd": 7288711000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 78390,
+            "elderly_returns": 23140,
+            "elderly_pct": 29.5,
+            "single": 33750,
+            "joint": 31520,
+            "head_of_household": 11140,
+            "other_status": 1980,
+            "agi_usd": 6790649000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 131780,
+            "elderly_returns": 41120,
+            "elderly_pct": 31.2,
+            "single": 33120,
+            "joint": 87050,
+            "head_of_household": 9400,
+            "other_status": 2210,
+            "agi_usd": 18220873000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 51970,
+            "elderly_returns": 15940,
+            "elderly_pct": 30.7,
+            "single": 6620,
+            "joint": 43160,
+            "head_of_household": 1710,
+            "other_status": 480,
+            "agi_usd": 21228095000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 732480,
+          "ftb_returns": 704931,
+          "ratio": 1.039
+        }
+      },
+      {
+        "county": "San Benito",
+        "returns": 31960,
+        "elderly_returns": 7130,
+        "elderly_pct": 22.3,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 420,
+            "elderly_returns": 200,
+            "elderly_pct": 47.6,
+            "single": 280,
+            "joint": 120,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": -21118000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2340,
+            "elderly_returns": 530,
+            "elderly_pct": 22.6,
+            "single": 1820,
+            "joint": 260,
+            "head_of_household": 240,
+            "other_status": 20,
+            "agi_usd": 12293000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 4410,
+            "elderly_returns": 820,
+            "elderly_pct": 18.6,
+            "single": 3130,
+            "joint": 500,
+            "head_of_household": 730,
+            "other_status": 50,
+            "agi_usd": 76972000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 6770,
+            "elderly_returns": 1120,
+            "elderly_pct": 16.5,
+            "single": 4010,
+            "joint": 1150,
+            "head_of_household": 1510,
+            "other_status": 100,
+            "agi_usd": 250121000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 5020,
+            "elderly_returns": 1050,
+            "elderly_pct": 20.9,
+            "single": 2440,
+            "joint": 1340,
+            "head_of_household": 1130,
+            "other_status": 110,
+            "agi_usd": 310111000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 3380,
+            "elderly_returns": 880,
+            "elderly_pct": 26.0,
+            "single": 1190,
+            "joint": 1460,
+            "head_of_household": 650,
+            "other_status": 80,
+            "agi_usd": 293667000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 6930,
+            "elderly_returns": 1790,
+            "elderly_pct": 25.8,
+            "single": 1390,
+            "joint": 4790,
+            "head_of_household": 670,
+            "other_status": 80,
+            "agi_usd": 973997000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 2690,
+            "elderly_returns": 740,
+            "elderly_pct": 27.5,
+            "single": 280,
+            "joint": 2310,
+            "head_of_household": 80,
+            "other_status": 20,
+            "agi_usd": 940401000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 31960,
+          "ftb_returns": 30461,
+          "ratio": 1.049
+        }
+      },
+      {
+        "county": "San Bernardino Count",
+        "returns": 986660,
+        "elderly_returns": 194150,
+        "elderly_pct": 19.7,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 15100,
+            "elderly_returns": 5690,
+            "elderly_pct": 37.7,
+            "single": 10550,
+            "joint": 3300,
+            "head_of_household": 860,
+            "other_status": 390,
+            "agi_usd": -480998000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 93770,
+            "elderly_returns": 20920,
+            "elderly_pct": 22.3,
+            "single": 72240,
+            "joint": 10960,
+            "head_of_household": 9340,
+            "other_status": 1230,
+            "agi_usd": 500005000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 186260,
+            "elderly_returns": 27880,
+            "elderly_pct": 15.0,
+            "single": 124220,
+            "joint": 21660,
+            "head_of_household": 38030,
+            "other_status": 2350,
+            "agi_usd": 3216025000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 261930,
+            "elderly_returns": 38120,
+            "elderly_pct": 14.6,
+            "single": 148000,
+            "joint": 46770,
+            "head_of_household": 62520,
+            "other_status": 4640,
+            "agi_usd": 9626887000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 152540,
+            "elderly_returns": 29900,
+            "elderly_pct": 19.6,
+            "single": 67750,
+            "joint": 46880,
+            "head_of_household": 34420,
+            "other_status": 3490,
+            "agi_usd": 9375385000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 94700,
+            "elderly_returns": 22510,
+            "elderly_pct": 23.8,
+            "single": 31060,
+            "joint": 44990,
+            "head_of_household": 16700,
+            "other_status": 1950,
+            "agi_usd": 8197178000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 141570,
+            "elderly_returns": 36770,
+            "elderly_pct": 26.0,
+            "single": 28310,
+            "joint": 96810,
+            "head_of_household": 14320,
+            "other_status": 2130,
+            "agi_usd": 19211853000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 40790,
+            "elderly_returns": 12360,
+            "elderly_pct": 30.3,
+            "single": 4780,
+            "joint": 34000,
+            "head_of_household": 1650,
+            "other_status": 360,
+            "agi_usd": 16605973000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 986660,
+          "ftb_returns": null,
+          "ratio": null
+        }
+      },
+      {
+        "county": "San Diego",
+        "returns": 1638340,
+        "elderly_returns": 400150,
+        "elderly_pct": 24.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 29240,
+            "elderly_returns": 11820,
+            "elderly_pct": 40.4,
+            "single": 20460,
+            "joint": 6510,
+            "head_of_household": 1350,
+            "other_status": 920,
+            "agi_usd": -2248837000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 138750,
+            "elderly_returns": 34830,
+            "elderly_pct": 25.1,
+            "single": 112870,
+            "joint": 14010,
+            "head_of_household": 9550,
+            "other_status": 2320,
+            "agi_usd": 709561000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 230330,
+            "elderly_returns": 45250,
+            "elderly_pct": 19.6,
+            "single": 164210,
+            "joint": 29240,
+            "head_of_household": 32570,
+            "other_status": 4310,
+            "agi_usd": 3980870000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 363350,
+            "elderly_returns": 62990,
+            "elderly_pct": 17.3,
+            "single": 226530,
+            "joint": 64800,
+            "head_of_household": 61600,
+            "other_status": 10420,
+            "agi_usd": 13443237000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 243140,
+            "elderly_returns": 55000,
+            "elderly_pct": 22.6,
+            "single": 134510,
+            "joint": 66950,
+            "head_of_household": 34930,
+            "other_status": 6750,
+            "agi_usd": 14970282000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 160920,
+            "elderly_returns": 44680,
+            "elderly_pct": 27.8,
+            "single": 74790,
+            "joint": 64980,
+            "head_of_household": 17190,
+            "other_status": 3960,
+            "agi_usd": 13958020000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 295440,
+            "elderly_returns": 91630,
+            "elderly_pct": 31.0,
+            "single": 90020,
+            "joint": 181540,
+            "head_of_household": 18530,
+            "other_status": 5350,
+            "agi_usd": 41230787000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 177170,
+            "elderly_returns": 53950,
+            "elderly_pct": 30.5,
+            "single": 26060,
+            "joint": 143790,
+            "head_of_household": 5400,
+            "other_status": 1920,
+            "agi_usd": 84921778000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 1638340,
+          "ftb_returns": 1554562,
+          "ratio": 1.054
+        }
+      },
+      {
+        "county": "San Francisco",
+        "returns": 438440,
+        "elderly_returns": 100080,
+        "elderly_pct": 22.8,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 7950,
+            "elderly_returns": 3280,
+            "elderly_pct": 41.3,
+            "single": 5790,
+            "joint": 1520,
+            "head_of_household": 370,
+            "other_status": 270,
+            "agi_usd": -983550000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 34500,
+            "elderly_returns": 11020,
+            "elderly_pct": 31.9,
+            "single": 27730,
+            "joint": 4360,
+            "head_of_household": 1760,
+            "other_status": 650,
+            "agi_usd": 159898000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 44420,
+            "elderly_returns": 12140,
+            "elderly_pct": 27.3,
+            "single": 31920,
+            "joint": 6880,
+            "head_of_household": 4830,
+            "other_status": 790,
+            "agi_usd": 760839000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 63350,
+            "elderly_returns": 14390,
+            "elderly_pct": 22.7,
+            "single": 44770,
+            "joint": 10390,
+            "head_of_household": 6850,
+            "other_status": 1340,
+            "agi_usd": 2371693000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 57400,
+            "elderly_returns": 12990,
+            "elderly_pct": 22.6,
+            "single": 40810,
+            "joint": 10000,
+            "head_of_household": 5220,
+            "other_status": 1370,
+            "agi_usd": 3566896000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 43650,
+            "elderly_returns": 10300,
+            "elderly_pct": 23.6,
+            "single": 30740,
+            "joint": 9050,
+            "head_of_household": 2830,
+            "other_status": 1030,
+            "agi_usd": 3787282000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 93460,
+            "elderly_returns": 20280,
+            "elderly_pct": 21.7,
+            "single": 61430,
+            "joint": 26260,
+            "head_of_household": 3820,
+            "other_status": 1950,
+            "agi_usd": 13331245000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 93710,
+            "elderly_returns": 15680,
+            "elderly_pct": 16.7,
+            "single": 39220,
+            "joint": 50110,
+            "head_of_household": 2690,
+            "other_status": 1690,
+            "agi_usd": 64394172000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 438440,
+          "ftb_returns": 429520,
+          "ratio": 1.021
+        }
+      },
+      {
+        "county": "San Joaquin",
+        "returns": 351000,
+        "elderly_returns": 73790,
+        "elderly_pct": 21.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 5470,
+            "elderly_returns": 2250,
+            "elderly_pct": 41.1,
+            "single": 3710,
+            "joint": 1350,
+            "head_of_household": 280,
+            "other_status": 130,
+            "agi_usd": -204625000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 30490,
+            "elderly_returns": 6690,
+            "elderly_pct": 21.9,
+            "single": 23330,
+            "joint": 3400,
+            "head_of_household": 3330,
+            "other_status": 430,
+            "agi_usd": 162616000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 58730,
+            "elderly_returns": 9980,
+            "elderly_pct": 17.0,
+            "single": 39720,
+            "joint": 7450,
+            "head_of_household": 10800,
+            "other_status": 760,
+            "agi_usd": 1018184000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 86510,
+            "elderly_returns": 13450,
+            "elderly_pct": 15.5,
+            "single": 48660,
+            "joint": 16520,
+            "head_of_household": 19620,
+            "other_status": 1710,
+            "agi_usd": 3200583000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 55360,
+            "elderly_returns": 11470,
+            "elderly_pct": 20.7,
+            "single": 25100,
+            "joint": 17140,
+            "head_of_household": 11780,
+            "other_status": 1340,
+            "agi_usd": 3405054000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 34540,
+            "elderly_returns": 8850,
+            "elderly_pct": 25.6,
+            "single": 11490,
+            "joint": 16590,
+            "head_of_household": 5750,
+            "other_status": 710,
+            "agi_usd": 2992939000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 57640,
+            "elderly_returns": 15420,
+            "elderly_pct": 26.8,
+            "single": 10800,
+            "joint": 41040,
+            "head_of_household": 4960,
+            "other_status": 840,
+            "agi_usd": 7951389000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 22260,
+            "elderly_returns": 5680,
+            "elderly_pct": 25.5,
+            "single": 2130,
+            "joint": 19270,
+            "head_of_household": 700,
+            "other_status": 160,
+            "agi_usd": 8262434000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 351000,
+          "ftb_returns": 336591,
+          "ratio": 1.043
+        }
+      },
+      {
+        "county": "San Luis Obispo Coun",
+        "returns": 133940,
+        "elderly_returns": 49040,
+        "elderly_pct": 36.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3530,
+            "elderly_returns": 1700,
+            "elderly_pct": 48.2,
+            "single": 2480,
+            "joint": 830,
+            "head_of_household": 140,
+            "other_status": 80,
+            "agi_usd": -284623000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 11640,
+            "elderly_returns": 3720,
+            "elderly_pct": 32.0,
+            "single": 9600,
+            "joint": 1170,
+            "head_of_household": 750,
+            "other_status": 120,
+            "agi_usd": 58738000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 18260,
+            "elderly_returns": 5060,
+            "elderly_pct": 27.7,
+            "single": 13800,
+            "joint": 2220,
+            "head_of_household": 2000,
+            "other_status": 240,
+            "agi_usd": 315738000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 26330,
+            "elderly_returns": 6830,
+            "elderly_pct": 25.9,
+            "single": 17330,
+            "joint": 4720,
+            "head_of_household": 3760,
+            "other_status": 520,
+            "agi_usd": 976370000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 19280,
+            "elderly_returns": 6710,
+            "elderly_pct": 34.8,
+            "single": 10750,
+            "joint": 5910,
+            "head_of_household": 2200,
+            "other_status": 420,
+            "agi_usd": 1193640000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 14140,
+            "elderly_returns": 6020,
+            "elderly_pct": 42.6,
+            "single": 5990,
+            "joint": 6730,
+            "head_of_household": 1160,
+            "other_status": 260,
+            "agi_usd": 1228284000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 27050,
+            "elderly_returns": 12520,
+            "elderly_pct": 46.3,
+            "single": 6230,
+            "joint": 19310,
+            "head_of_household": 1210,
+            "other_status": 300,
+            "agi_usd": 3780585000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 13710,
+            "elderly_returns": 6480,
+            "elderly_pct": 47.3,
+            "single": 1950,
+            "joint": 11370,
+            "head_of_household": 290,
+            "other_status": 100,
+            "agi_usd": 5859958000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 133940,
+          "ftb_returns": null,
+          "ratio": null
+        }
+      },
+      {
+        "county": "San Mateo",
+        "returns": 372720,
+        "elderly_returns": 104950,
+        "elderly_pct": 28.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 5810,
+            "elderly_returns": 2660,
+            "elderly_pct": 45.8,
+            "single": 3890,
+            "joint": 1430,
+            "head_of_household": 260,
+            "other_status": 230,
+            "agi_usd": -476798000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 28630,
+            "elderly_returns": 7400,
+            "elderly_pct": 25.8,
+            "single": 24190,
+            "joint": 2630,
+            "head_of_household": 1220,
+            "other_status": 590,
+            "agi_usd": 138640000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 37350,
+            "elderly_returns": 9540,
+            "elderly_pct": 25.5,
+            "single": 28040,
+            "joint": 4840,
+            "head_of_household": 3670,
+            "other_status": 800,
+            "agi_usd": 641189000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 53980,
+            "elderly_returns": 12830,
+            "elderly_pct": 23.8,
+            "single": 36510,
+            "joint": 8880,
+            "head_of_household": 7290,
+            "other_status": 1300,
+            "agi_usd": 2019786000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 48010,
+            "elderly_returns": 12840,
+            "elderly_pct": 26.7,
+            "single": 30300,
+            "joint": 9890,
+            "head_of_household": 6320,
+            "other_status": 1500,
+            "agi_usd": 2980359000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 35500,
+            "elderly_returns": 11360,
+            "elderly_pct": 32.0,
+            "single": 20130,
+            "joint": 10570,
+            "head_of_household": 3820,
+            "other_status": 980,
+            "agi_usd": 3081449000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 74810,
+            "elderly_returns": 25990,
+            "elderly_pct": 34.7,
+            "single": 32330,
+            "joint": 35790,
+            "head_of_household": 4910,
+            "other_status": 1780,
+            "agi_usd": 10642155000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 88630,
+            "elderly_returns": 22330,
+            "elderly_pct": 25.2,
+            "single": 16420,
+            "joint": 67100,
+            "head_of_household": 3230,
+            "other_status": 1880,
+            "agi_usd": 67740168000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 372720,
+          "ftb_returns": 371026,
+          "ratio": 1.005
+        }
+      },
+      {
+        "county": "Santa Barbara",
+        "returns": 205340,
+        "elderly_returns": 57350,
+        "elderly_pct": 27.9,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3650,
+            "elderly_returns": 1810,
+            "elderly_pct": 49.6,
+            "single": 2560,
+            "joint": 840,
+            "head_of_household": 140,
+            "other_status": 110,
+            "agi_usd": -576128000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 17440,
+            "elderly_returns": 4490,
+            "elderly_pct": 25.7,
+            "single": 14350,
+            "joint": 1540,
+            "head_of_household": 1370,
+            "other_status": 180,
+            "agi_usd": 90864000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 32190,
+            "elderly_returns": 6190,
+            "elderly_pct": 19.2,
+            "single": 23020,
+            "joint": 3580,
+            "head_of_household": 5180,
+            "other_status": 410,
+            "agi_usd": 564096000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 49780,
+            "elderly_returns": 8700,
+            "elderly_pct": 17.5,
+            "single": 28970,
+            "joint": 8890,
+            "head_of_household": 11130,
+            "other_status": 790,
+            "agi_usd": 1830627000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 30920,
+            "elderly_returns": 7900,
+            "elderly_pct": 25.5,
+            "single": 16060,
+            "joint": 9460,
+            "head_of_household": 4810,
+            "other_status": 590,
+            "agi_usd": 1902320000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 19420,
+            "elderly_returns": 6330,
+            "elderly_pct": 32.6,
+            "single": 8300,
+            "joint": 8690,
+            "head_of_household": 2060,
+            "other_status": 370,
+            "agi_usd": 1681660000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 32690,
+            "elderly_returns": 12960,
+            "elderly_pct": 39.6,
+            "single": 9240,
+            "joint": 21330,
+            "head_of_household": 1680,
+            "other_status": 440,
+            "agi_usd": 4528901000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 19250,
+            "elderly_returns": 8970,
+            "elderly_pct": 46.6,
+            "single": 3350,
+            "joint": 15130,
+            "head_of_household": 530,
+            "other_status": 240,
+            "agi_usd": 12312014000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 205340,
+          "ftb_returns": 197174,
+          "ratio": 1.041
+        }
+      },
+      {
+        "county": "Santa Clara",
+        "returns": 925920,
+        "elderly_returns": 212610,
+        "elderly_pct": 23.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 13970,
+            "elderly_returns": 5880,
+            "elderly_pct": 42.1,
+            "single": 9510,
+            "joint": 3340,
+            "head_of_household": 620,
+            "other_status": 500,
+            "agi_usd": -891019000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 69800,
+            "elderly_returns": 16840,
+            "elderly_pct": 24.1,
+            "single": 57880,
+            "joint": 7110,
+            "head_of_household": 3630,
+            "other_status": 1180,
+            "agi_usd": 337722000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 93890,
+            "elderly_returns": 20210,
+            "elderly_pct": 21.5,
+            "single": 69270,
+            "joint": 11900,
+            "head_of_household": 11160,
+            "other_status": 1560,
+            "agi_usd": 1610062000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 137340,
+            "elderly_returns": 27110,
+            "elderly_pct": 19.7,
+            "single": 89880,
+            "joint": 22060,
+            "head_of_household": 22470,
+            "other_status": 2930,
+            "agi_usd": 5133690000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 115540,
+            "elderly_returns": 25210,
+            "elderly_pct": 21.8,
+            "single": 69770,
+            "joint": 23860,
+            "head_of_household": 19010,
+            "other_status": 2900,
+            "agi_usd": 7145949000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 81720,
+            "elderly_returns": 21570,
+            "elderly_pct": 26.4,
+            "single": 43830,
+            "joint": 25140,
+            "head_of_household": 10680,
+            "other_status": 2070,
+            "agi_usd": 7093686000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 178880,
+            "elderly_returns": 50220,
+            "elderly_pct": 28.1,
+            "single": 77330,
+            "joint": 84450,
+            "head_of_household": 13060,
+            "other_status": 4040,
+            "agi_usd": 25578932000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 234780,
+            "elderly_returns": 45570,
+            "elderly_pct": 19.4,
+            "single": 46350,
+            "joint": 176770,
+            "head_of_household": 7380,
+            "other_status": 4280,
+            "agi_usd": 151342826000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 925920,
+          "ftb_returns": 899991,
+          "ratio": 1.029
+        }
+      },
+      {
+        "county": "Santa Cruz",
+        "returns": 126700,
+        "elderly_returns": 39860,
+        "elderly_pct": 31.5,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 2360,
+            "elderly_returns": 1270,
+            "elderly_pct": 53.8,
+            "single": 1670,
+            "joint": 520,
+            "head_of_household": 110,
+            "other_status": 60,
+            "agi_usd": -172306000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 11000,
+            "elderly_returns": 3080,
+            "elderly_pct": 28.0,
+            "single": 9220,
+            "joint": 940,
+            "head_of_household": 730,
+            "other_status": 110,
+            "agi_usd": 56559000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 18210,
+            "elderly_returns": 4340,
+            "elderly_pct": 23.8,
+            "single": 13410,
+            "joint": 1950,
+            "head_of_household": 2640,
+            "other_status": 210,
+            "agi_usd": 316040000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 25560,
+            "elderly_returns": 5690,
+            "elderly_pct": 22.3,
+            "single": 16430,
+            "joint": 4340,
+            "head_of_household": 4410,
+            "other_status": 380,
+            "agi_usd": 943424000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 17890,
+            "elderly_returns": 5290,
+            "elderly_pct": 29.6,
+            "single": 10390,
+            "joint": 4580,
+            "head_of_household": 2570,
+            "other_status": 350,
+            "agi_usd": 1104022000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 11910,
+            "elderly_returns": 4490,
+            "elderly_pct": 37.7,
+            "single": 5780,
+            "joint": 4580,
+            "head_of_household": 1300,
+            "other_status": 250,
+            "agi_usd": 1031444000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 22990,
+            "elderly_returns": 9480,
+            "elderly_pct": 41.2,
+            "single": 7310,
+            "joint": 13690,
+            "head_of_household": 1650,
+            "other_status": 340,
+            "agi_usd": 3237493000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 16780,
+            "elderly_returns": 6220,
+            "elderly_pct": 37.1,
+            "single": 2860,
+            "joint": 13120,
+            "head_of_household": 630,
+            "other_status": 170,
+            "agi_usd": 8172589000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 126700,
+          "ftb_returns": 127806,
+          "ratio": 0.991
+        }
+      },
+      {
+        "county": "Shasta",
+        "returns": 79910,
+        "elderly_returns": 25800,
+        "elderly_pct": 32.3,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1750,
+            "elderly_returns": 930,
+            "elderly_pct": 53.1,
+            "single": 1100,
+            "joint": 520,
+            "head_of_household": 100,
+            "other_status": 30,
+            "agi_usd": -75860000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 8150,
+            "elderly_returns": 2610,
+            "elderly_pct": 32.0,
+            "single": 6070,
+            "joint": 1110,
+            "head_of_household": 870,
+            "other_status": 100,
+            "agi_usd": 41580000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 13530,
+            "elderly_returns": 3650,
+            "elderly_pct": 27.0,
+            "single": 9310,
+            "joint": 1960,
+            "head_of_household": 2050,
+            "other_status": 210,
+            "agi_usd": 234842000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 19430,
+            "elderly_returns": 4940,
+            "elderly_pct": 25.4,
+            "single": 11430,
+            "joint": 4110,
+            "head_of_household": 3490,
+            "other_status": 400,
+            "agi_usd": 712470000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 12240,
+            "elderly_returns": 4110,
+            "elderly_pct": 33.6,
+            "single": 5580,
+            "joint": 4610,
+            "head_of_household": 1780,
+            "other_status": 270,
+            "agi_usd": 753285000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 8190,
+            "elderly_returns": 3230,
+            "elderly_pct": 39.4,
+            "single": 2530,
+            "joint": 4770,
+            "head_of_household": 770,
+            "other_status": 120,
+            "agi_usd": 709540000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 12660,
+            "elderly_returns": 4720,
+            "elderly_pct": 37.3,
+            "single": 2180,
+            "joint": 9800,
+            "head_of_household": 590,
+            "other_status": 90,
+            "agi_usd": 1721457000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 3960,
+            "elderly_returns": 1610,
+            "elderly_pct": 40.7,
+            "single": 490,
+            "joint": 3350,
+            "head_of_household": 100,
+            "other_status": 20,
+            "agi_usd": 1531620000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 79910,
+          "ftb_returns": 79088,
+          "ratio": 1.01
+        }
+      },
+      {
+        "county": "Sierra",
+        "returns": 1290,
+        "elderly_returns": 570,
+        "elderly_pct": 44.2,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 50,
+            "elderly_returns": 30,
+            "elderly_pct": 60.0,
+            "single": 30,
+            "joint": 30,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": -1408000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 120,
+            "elderly_returns": 50,
+            "elderly_pct": 41.7,
+            "single": 90,
+            "joint": 0,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": 575000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 180,
+            "elderly_returns": 80,
+            "elderly_pct": 44.4,
+            "single": 130,
+            "joint": 40,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 3144000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 250,
+            "elderly_returns": 100,
+            "elderly_pct": 40.0,
+            "single": 150,
+            "joint": 50,
+            "head_of_household": 30,
+            "other_status": 20,
+            "agi_usd": 9203000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 210,
+            "elderly_returns": 90,
+            "elderly_pct": 42.9,
+            "single": 90,
+            "joint": 70,
+            "head_of_household": 30,
+            "other_status": 20,
+            "agi_usd": 12611000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 170,
+            "elderly_returns": 80,
+            "elderly_pct": 47.1,
+            "single": 60,
+            "joint": 100,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": 14874000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 250,
+            "elderly_returns": 110,
+            "elderly_pct": 44.0,
+            "single": 60,
+            "joint": 190,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 33860000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 60,
+            "elderly_returns": 30,
+            "elderly_pct": 50.0,
+            "single": 0,
+            "joint": 40,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 23353000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 1290,
+          "ftb_returns": 1146,
+          "ratio": 1.126
+        }
+      },
+      {
+        "county": "Siskiyou",
+        "returns": 19090,
+        "elderly_returns": 7360,
+        "elderly_pct": 38.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 520,
+            "elderly_returns": 350,
+            "elderly_pct": 67.3,
+            "single": 320,
+            "joint": 170,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": -31117000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2350,
+            "elderly_returns": 890,
+            "elderly_pct": 37.9,
+            "single": 1730,
+            "joint": 340,
+            "head_of_household": 260,
+            "other_status": 20,
+            "agi_usd": 12024000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 3460,
+            "elderly_returns": 1120,
+            "elderly_pct": 32.4,
+            "single": 2270,
+            "joint": 600,
+            "head_of_household": 550,
+            "other_status": 40,
+            "agi_usd": 60037000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 4760,
+            "elderly_returns": 1480,
+            "elderly_pct": 31.1,
+            "single": 2560,
+            "joint": 1240,
+            "head_of_household": 890,
+            "other_status": 70,
+            "agi_usd": 174504000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 2950,
+            "elderly_returns": 1190,
+            "elderly_pct": 40.3,
+            "single": 1240,
+            "joint": 1270,
+            "head_of_household": 390,
+            "other_status": 50,
+            "agi_usd": 182029000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 1840,
+            "elderly_returns": 860,
+            "elderly_pct": 46.7,
+            "single": 520,
+            "joint": 1160,
+            "head_of_household": 120,
+            "other_status": 40,
+            "agi_usd": 159092000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 2530,
+            "elderly_returns": 1120,
+            "elderly_pct": 44.3,
+            "single": 430,
+            "joint": 2000,
+            "head_of_household": 90,
+            "other_status": 10,
+            "agi_usd": 340285000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 680,
+            "elderly_returns": 350,
+            "elderly_pct": 51.5,
+            "single": 120,
+            "joint": 550,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": 253767000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 19090,
+          "ftb_returns": 18385,
+          "ratio": 1.038
+        }
+      },
+      {
+        "county": "Solano",
+        "returns": 214690,
+        "elderly_returns": 59120,
+        "elderly_pct": 27.5,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 3280,
+            "elderly_returns": 1340,
+            "elderly_pct": 40.9,
+            "single": 2430,
+            "joint": 580,
+            "head_of_household": 190,
+            "other_status": 80,
+            "agi_usd": -83346000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 16350,
+            "elderly_returns": 4260,
+            "elderly_pct": 26.1,
+            "single": 12990,
+            "joint": 1560,
+            "head_of_household": 1550,
+            "other_status": 250,
+            "agi_usd": 84420000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 29610,
+            "elderly_returns": 6520,
+            "elderly_pct": 22.0,
+            "single": 21030,
+            "joint": 3230,
+            "head_of_household": 4810,
+            "other_status": 540,
+            "agi_usd": 513654000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 44830,
+            "elderly_returns": 9640,
+            "elderly_pct": 21.5,
+            "single": 28140,
+            "joint": 7130,
+            "head_of_household": 8340,
+            "other_status": 1220,
+            "agi_usd": 1667731000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 35080,
+            "elderly_returns": 9240,
+            "elderly_pct": 26.3,
+            "single": 18460,
+            "joint": 8950,
+            "head_of_household": 6640,
+            "other_status": 1030,
+            "agi_usd": 2168334000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 24140,
+            "elderly_returns": 7850,
+            "elderly_pct": 32.5,
+            "single": 9970,
+            "joint": 9800,
+            "head_of_household": 3710,
+            "other_status": 660,
+            "agi_usd": 2093816000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 44830,
+            "elderly_returns": 14880,
+            "elderly_pct": 33.2,
+            "single": 10790,
+            "joint": 29330,
+            "head_of_household": 3870,
+            "other_status": 840,
+            "agi_usd": 6238643000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 16570,
+            "elderly_returns": 5390,
+            "elderly_pct": 32.5,
+            "single": 1880,
+            "joint": 13960,
+            "head_of_household": 580,
+            "other_status": 150,
+            "agi_usd": 5631143000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 214690,
+          "ftb_returns": 201835,
+          "ratio": 1.064
+        }
+      },
+      {
+        "county": "Sonoma",
+        "returns": 247770,
+        "elderly_returns": 83030,
+        "elderly_pct": 33.5,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 4810,
+            "elderly_returns": 2640,
+            "elderly_pct": 54.9,
+            "single": 3280,
+            "joint": 1200,
+            "head_of_household": 220,
+            "other_status": 110,
+            "agi_usd": -412292000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 19690,
+            "elderly_returns": 6680,
+            "elderly_pct": 33.9,
+            "single": 16230,
+            "joint": 1860,
+            "head_of_household": 1310,
+            "other_status": 290,
+            "agi_usd": 97967000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 31570,
+            "elderly_returns": 8910,
+            "elderly_pct": 28.2,
+            "single": 23760,
+            "joint": 3760,
+            "head_of_household": 3560,
+            "other_status": 490,
+            "agi_usd": 548035000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 49700,
+            "elderly_returns": 11970,
+            "elderly_pct": 24.1,
+            "single": 32600,
+            "joint": 8090,
+            "head_of_household": 8020,
+            "other_status": 990,
+            "agi_usd": 1860958000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 39610,
+            "elderly_returns": 11760,
+            "elderly_pct": 29.7,
+            "single": 23260,
+            "joint": 9420,
+            "head_of_household": 6000,
+            "other_status": 930,
+            "agi_usd": 2445472000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 26700,
+            "elderly_returns": 10160,
+            "elderly_pct": 38.1,
+            "single": 12260,
+            "joint": 10890,
+            "head_of_household": 2960,
+            "other_status": 590,
+            "agi_usd": 2315230000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 49470,
+            "elderly_returns": 19970,
+            "elderly_pct": 40.4,
+            "single": 13480,
+            "joint": 32390,
+            "head_of_household": 2950,
+            "other_status": 650,
+            "agi_usd": 6923900000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 26220,
+            "elderly_returns": 10940,
+            "elderly_pct": 41.7,
+            "single": 4310,
+            "joint": 20830,
+            "head_of_household": 820,
+            "other_status": 260,
+            "agi_usd": 12123112000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 247770,
+          "ftb_returns": 237416,
+          "ratio": 1.044
+        }
+      },
+      {
+        "county": "Stanislaus",
+        "returns": 242390,
+        "elderly_returns": 52320,
+        "elderly_pct": 21.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 4030,
+            "elderly_returns": 1740,
+            "elderly_pct": 43.2,
+            "single": 2580,
+            "joint": 1110,
+            "head_of_household": 260,
+            "other_status": 80,
+            "agi_usd": -242528000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 22500,
+            "elderly_returns": 5180,
+            "elderly_pct": 23.0,
+            "single": 16620,
+            "joint": 2820,
+            "head_of_household": 2770,
+            "other_status": 290,
+            "agi_usd": 120729000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 43540,
+            "elderly_returns": 7900,
+            "elderly_pct": 18.1,
+            "single": 28560,
+            "joint": 6070,
+            "head_of_household": 8400,
+            "other_status": 510,
+            "agi_usd": 756481000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 62320,
+            "elderly_returns": 10120,
+            "elderly_pct": 16.2,
+            "single": 34150,
+            "joint": 12360,
+            "head_of_household": 14740,
+            "other_status": 1070,
+            "agi_usd": 2298430000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 39270,
+            "elderly_returns": 7960,
+            "elderly_pct": 20.3,
+            "single": 16620,
+            "joint": 13610,
+            "head_of_household": 8270,
+            "other_status": 770,
+            "agi_usd": 2411717000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 24390,
+            "elderly_returns": 6160,
+            "elderly_pct": 25.3,
+            "single": 7250,
+            "joint": 13050,
+            "head_of_household": 3680,
+            "other_status": 410,
+            "agi_usd": 2111077000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 36100,
+            "elderly_returns": 9700,
+            "elderly_pct": 26.9,
+            "single": 6280,
+            "joint": 26720,
+            "head_of_household": 2700,
+            "other_status": 400,
+            "agi_usd": 4887085000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 10240,
+            "elderly_returns": 3560,
+            "elderly_pct": 34.8,
+            "single": 1200,
+            "joint": 8630,
+            "head_of_household": 330,
+            "other_status": 80,
+            "agi_usd": 4400399000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 242390,
+          "ftb_returns": 235283,
+          "ratio": 1.03
+        }
+      },
+      {
+        "county": "Sutter",
+        "returns": 42790,
+        "elderly_returns": 10680,
+        "elderly_pct": 25.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 700,
+            "elderly_returns": 320,
+            "elderly_pct": 45.7,
+            "single": 400,
+            "joint": 240,
+            "head_of_household": 40,
+            "other_status": 20,
+            "agi_usd": -60875000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 3910,
+            "elderly_returns": 940,
+            "elderly_pct": 24.0,
+            "single": 2850,
+            "joint": 570,
+            "head_of_household": 440,
+            "other_status": 50,
+            "agi_usd": 20821000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 7690,
+            "elderly_returns": 1660,
+            "elderly_pct": 21.6,
+            "single": 4950,
+            "joint": 1330,
+            "head_of_household": 1310,
+            "other_status": 100,
+            "agi_usd": 133440000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 11160,
+            "elderly_returns": 2100,
+            "elderly_pct": 18.8,
+            "single": 5890,
+            "joint": 2870,
+            "head_of_household": 2200,
+            "other_status": 200,
+            "agi_usd": 409796000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 6840,
+            "elderly_returns": 1730,
+            "elderly_pct": 25.3,
+            "single": 2800,
+            "joint": 2770,
+            "head_of_household": 1110,
+            "other_status": 160,
+            "agi_usd": 420484000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 4110,
+            "elderly_returns": 1210,
+            "elderly_pct": 29.4,
+            "single": 1210,
+            "joint": 2310,
+            "head_of_household": 530,
+            "other_status": 60,
+            "agi_usd": 356167000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 6480,
+            "elderly_returns": 1990,
+            "elderly_pct": 30.7,
+            "single": 1120,
+            "joint": 4900,
+            "head_of_household": 380,
+            "other_status": 80,
+            "agi_usd": 884572000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1900,
+            "elderly_returns": 730,
+            "elderly_pct": 38.4,
+            "single": 230,
+            "joint": 1610,
+            "head_of_household": 50,
+            "other_status": 10,
+            "agi_usd": 723148000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 42790,
+          "ftb_returns": 41383,
+          "ratio": 1.034
+        }
+      },
+      {
+        "county": "Tehama",
+        "returns": 26850,
+        "elderly_returns": 7950,
+        "elderly_pct": 29.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 630,
+            "elderly_returns": 350,
+            "elderly_pct": 55.6,
+            "single": 370,
+            "joint": 230,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": -27125000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2750,
+            "elderly_returns": 930,
+            "elderly_pct": 33.8,
+            "single": 1880,
+            "joint": 490,
+            "head_of_household": 360,
+            "other_status": 20,
+            "agi_usd": 14090000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 4800,
+            "elderly_returns": 1200,
+            "elderly_pct": 25.0,
+            "single": 2990,
+            "joint": 780,
+            "head_of_household": 960,
+            "other_status": 70,
+            "agi_usd": 83482000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 7080,
+            "elderly_returns": 1590,
+            "elderly_pct": 22.5,
+            "single": 3680,
+            "joint": 1610,
+            "head_of_household": 1690,
+            "other_status": 100,
+            "agi_usd": 261066000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 4380,
+            "elderly_returns": 1320,
+            "elderly_pct": 30.1,
+            "single": 1780,
+            "joint": 1760,
+            "head_of_household": 760,
+            "other_status": 80,
+            "agi_usd": 267885000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 2620,
+            "elderly_returns": 900,
+            "elderly_pct": 34.4,
+            "single": 700,
+            "joint": 1620,
+            "head_of_household": 270,
+            "other_status": 30,
+            "agi_usd": 226800000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 3720,
+            "elderly_returns": 1320,
+            "elderly_pct": 35.5,
+            "single": 560,
+            "joint": 2940,
+            "head_of_household": 220,
+            "other_status": 0,
+            "agi_usd": 497600000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 870,
+            "elderly_returns": 340,
+            "elderly_pct": 39.1,
+            "single": 110,
+            "joint": 740,
+            "head_of_household": 0,
+            "other_status": 20,
+            "agi_usd": 321731000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 26850,
+          "ftb_returns": 22104,
+          "ratio": 1.215
+        }
+      },
+      {
+        "county": "Trinity",
+        "returns": 4600,
+        "elderly_returns": 1860,
+        "elderly_pct": 40.4,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 220,
+            "elderly_returns": 100,
+            "elderly_pct": 45.5,
+            "single": 150,
+            "joint": 60,
+            "head_of_household": 0,
+            "other_status": 10,
+            "agi_usd": -6625000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 640,
+            "elderly_returns": 260,
+            "elderly_pct": 40.6,
+            "single": 440,
+            "joint": 110,
+            "head_of_household": 90,
+            "other_status": 0,
+            "agi_usd": 2956000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 890,
+            "elderly_returns": 330,
+            "elderly_pct": 37.1,
+            "single": 560,
+            "joint": 180,
+            "head_of_household": 150,
+            "other_status": 0,
+            "agi_usd": 15032000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 1030,
+            "elderly_returns": 360,
+            "elderly_pct": 35.0,
+            "single": 600,
+            "joint": 260,
+            "head_of_household": 160,
+            "other_status": 10,
+            "agi_usd": 37281000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 700,
+            "elderly_returns": 310,
+            "elderly_pct": 44.3,
+            "single": 330,
+            "joint": 280,
+            "head_of_household": 80,
+            "other_status": 10,
+            "agi_usd": 43143000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 410,
+            "elderly_returns": 180,
+            "elderly_pct": 43.9,
+            "single": 120,
+            "joint": 240,
+            "head_of_household": 40,
+            "other_status": 10,
+            "agi_usd": 35366000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 560,
+            "elderly_returns": 240,
+            "elderly_pct": 42.9,
+            "single": 110,
+            "joint": 420,
+            "head_of_household": 30,
+            "other_status": 0,
+            "agi_usd": 76751000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 150,
+            "elderly_returns": 80,
+            "elderly_pct": 53.3,
+            "single": 40,
+            "joint": 120,
+            "head_of_household": 0,
+            "other_status": 0,
+            "agi_usd": 53961000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 4600,
+          "ftb_returns": 4235,
+          "ratio": 1.086
+        }
+      },
+      {
+        "county": "Tulare",
+        "returns": 196220,
+        "elderly_returns": 36300,
+        "elderly_pct": 18.5,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 2940,
+            "elderly_returns": 1240,
+            "elderly_pct": 42.2,
+            "single": 1820,
+            "joint": 890,
+            "head_of_household": 180,
+            "other_status": 50,
+            "agi_usd": -260773000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 19030,
+            "elderly_returns": 3650,
+            "elderly_pct": 19.2,
+            "single": 14110,
+            "joint": 2200,
+            "head_of_household": 2560,
+            "other_status": 160,
+            "agi_usd": 107610000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 44370,
+            "elderly_returns": 6330,
+            "elderly_pct": 14.3,
+            "single": 27750,
+            "joint": 5860,
+            "head_of_household": 10360,
+            "other_status": 400,
+            "agi_usd": 768338000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 57340,
+            "elderly_returns": 7650,
+            "elderly_pct": 13.3,
+            "single": 27300,
+            "joint": 13140,
+            "head_of_household": 16140,
+            "other_status": 760,
+            "agi_usd": 2084711000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 28970,
+            "elderly_returns": 5510,
+            "elderly_pct": 19.0,
+            "single": 10340,
+            "joint": 11320,
+            "head_of_household": 6860,
+            "other_status": 450,
+            "agi_usd": 1771848000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 16130,
+            "elderly_returns": 3860,
+            "elderly_pct": 23.9,
+            "single": 4090,
+            "joint": 9130,
+            "head_of_household": 2660,
+            "other_status": 250,
+            "agi_usd": 1394669000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 21460,
+            "elderly_returns": 5800,
+            "elderly_pct": 27.0,
+            "single": 3310,
+            "joint": 16120,
+            "head_of_household": 1810,
+            "other_status": 220,
+            "agi_usd": 2894619000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 5980,
+            "elderly_returns": 2260,
+            "elderly_pct": 37.8,
+            "single": 590,
+            "joint": 5170,
+            "head_of_household": 180,
+            "other_status": 40,
+            "agi_usd": 2777382000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 196220,
+          "ftb_returns": 187319,
+          "ratio": 1.048
+        }
+      },
+      {
+        "county": "Tuolumne",
+        "returns": 24330,
+        "elderly_returns": 9910,
+        "elderly_pct": 40.7,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1070,
+            "elderly_returns": 390,
+            "elderly_pct": 36.4,
+            "single": 850,
+            "joint": 180,
+            "head_of_household": 20,
+            "other_status": 20,
+            "agi_usd": -16171000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 2370,
+            "elderly_returns": 1040,
+            "elderly_pct": 43.9,
+            "single": 1770,
+            "joint": 370,
+            "head_of_household": 210,
+            "other_status": 20,
+            "agi_usd": 11999000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 3700,
+            "elderly_returns": 1320,
+            "elderly_pct": 35.7,
+            "single": 2560,
+            "joint": 600,
+            "head_of_household": 500,
+            "other_status": 40,
+            "agi_usd": 63394000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 5210,
+            "elderly_returns": 1770,
+            "elderly_pct": 34.0,
+            "single": 3100,
+            "joint": 1200,
+            "head_of_household": 800,
+            "other_status": 110,
+            "agi_usd": 192615000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 3620,
+            "elderly_returns": 1520,
+            "elderly_pct": 42.0,
+            "single": 1790,
+            "joint": 1360,
+            "head_of_household": 400,
+            "other_status": 70,
+            "agi_usd": 223512000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 2540,
+            "elderly_returns": 1220,
+            "elderly_pct": 48.0,
+            "single": 900,
+            "joint": 1430,
+            "head_of_household": 180,
+            "other_status": 30,
+            "agi_usd": 221440000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 4440,
+            "elderly_returns": 2020,
+            "elderly_pct": 45.5,
+            "single": 880,
+            "joint": 3320,
+            "head_of_household": 190,
+            "other_status": 50,
+            "agi_usd": 607107000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1380,
+            "elderly_returns": 630,
+            "elderly_pct": 45.7,
+            "single": 180,
+            "joint": 1160,
+            "head_of_household": 30,
+            "other_status": 10,
+            "agi_usd": 503155000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 24330,
+          "ftb_returns": 22419,
+          "ratio": 1.085
+        }
+      },
+      {
+        "county": "Ventura",
+        "returns": 409980,
+        "elderly_returns": 115030,
+        "elderly_pct": 28.1,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 7000,
+            "elderly_returns": 3280,
+            "elderly_pct": 46.9,
+            "single": 4710,
+            "joint": 1720,
+            "head_of_household": 380,
+            "other_status": 190,
+            "agi_usd": -529594000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 34970,
+            "elderly_returns": 9560,
+            "elderly_pct": 27.3,
+            "single": 28750,
+            "joint": 3580,
+            "head_of_household": 2180,
+            "other_status": 460,
+            "agi_usd": 179485000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 59070,
+            "elderly_returns": 12020,
+            "elderly_pct": 20.3,
+            "single": 43530,
+            "joint": 6990,
+            "head_of_household": 7770,
+            "other_status": 780,
+            "agi_usd": 1027765000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 90570,
+            "elderly_returns": 16840,
+            "elderly_pct": 18.6,
+            "single": 55450,
+            "joint": 15870,
+            "head_of_household": 17530,
+            "other_status": 1720,
+            "agi_usd": 3338895000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 58200,
+            "elderly_returns": 15320,
+            "elderly_pct": 26.3,
+            "single": 30640,
+            "joint": 16680,
+            "head_of_household": 9510,
+            "other_status": 1370,
+            "agi_usd": 3586338000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 40000,
+            "elderly_returns": 13270,
+            "elderly_pct": 33.2,
+            "single": 17060,
+            "joint": 17180,
+            "head_of_household": 4850,
+            "other_status": 910,
+            "agi_usd": 3473492000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 77630,
+            "elderly_returns": 28760,
+            "elderly_pct": 37.0,
+            "single": 19510,
+            "joint": 51520,
+            "head_of_household": 5450,
+            "other_status": 1150,
+            "agi_usd": 10864162000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 42540,
+            "elderly_returns": 15980,
+            "elderly_pct": 37.6,
+            "single": 5310,
+            "joint": 35500,
+            "head_of_household": 1390,
+            "other_status": 340,
+            "agi_usd": 20153632000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 409980,
+          "ftb_returns": 396359,
+          "ratio": 1.034
+        }
+      },
+      {
+        "county": "Yolo",
+        "returns": 94740,
+        "elderly_returns": 23710,
+        "elderly_pct": 25.0,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 1280,
+            "elderly_returns": 530,
+            "elderly_pct": 41.4,
+            "single": 840,
+            "joint": 320,
+            "head_of_household": 80,
+            "other_status": 40,
+            "agi_usd": -80059000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 8200,
+            "elderly_returns": 1650,
+            "elderly_pct": 20.1,
+            "single": 6750,
+            "joint": 700,
+            "head_of_household": 620,
+            "other_status": 130,
+            "agi_usd": 42201000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 13310,
+            "elderly_returns": 2250,
+            "elderly_pct": 16.9,
+            "single": 9880,
+            "joint": 1450,
+            "head_of_household": 1780,
+            "other_status": 200,
+            "agi_usd": 230811000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 20810,
+            "elderly_returns": 3350,
+            "elderly_pct": 16.1,
+            "single": 13560,
+            "joint": 3210,
+            "head_of_household": 3620,
+            "other_status": 420,
+            "agi_usd": 771758000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 14280,
+            "elderly_returns": 3290,
+            "elderly_pct": 23.0,
+            "single": 7590,
+            "joint": 3900,
+            "head_of_household": 2400,
+            "other_status": 390,
+            "agi_usd": 879469000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 9430,
+            "elderly_returns": 2910,
+            "elderly_pct": 30.9,
+            "single": 3990,
+            "joint": 4120,
+            "head_of_household": 1140,
+            "other_status": 180,
+            "agi_usd": 818312000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 17670,
+            "elderly_returns": 6000,
+            "elderly_pct": 34.0,
+            "single": 4320,
+            "joint": 12030,
+            "head_of_household": 1100,
+            "other_status": 220,
+            "agi_usd": 2482066000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 9760,
+            "elderly_returns": 3730,
+            "elderly_pct": 38.2,
+            "single": 1170,
+            "joint": 8270,
+            "head_of_household": 260,
+            "other_status": 60,
+            "agi_usd": 4034573000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 94740,
+          "ftb_returns": 92985,
+          "ratio": 1.019
+        }
+      },
+      {
+        "county": "Yuba",
+        "returns": 34470,
+        "elderly_returns": 7110,
+        "elderly_pct": 20.6,
+        "classes": [
+          {
+            "label": "Under $1 (net losses)",
+            "returns": 570,
+            "elderly_returns": 230,
+            "elderly_pct": 40.4,
+            "single": 380,
+            "joint": 140,
+            "head_of_household": 40,
+            "other_status": 10,
+            "agi_usd": -22255000
+          },
+          {
+            "label": "$1 \u2013 $9,999",
+            "returns": 3100,
+            "elderly_returns": 730,
+            "elderly_pct": 23.5,
+            "single": 2190,
+            "joint": 420,
+            "head_of_household": 450,
+            "other_status": 40,
+            "agi_usd": 16499000
+          },
+          {
+            "label": "$10,000 \u2013 $24,999",
+            "returns": 5890,
+            "elderly_returns": 1080,
+            "elderly_pct": 18.3,
+            "single": 3710,
+            "joint": 830,
+            "head_of_household": 1250,
+            "other_status": 100,
+            "agi_usd": 103077000
+          },
+          {
+            "label": "$25,000 \u2013 $49,999",
+            "returns": 9200,
+            "elderly_returns": 1450,
+            "elderly_pct": 15.8,
+            "single": 4870,
+            "joint": 1960,
+            "head_of_household": 2150,
+            "other_status": 220,
+            "agi_usd": 338573000
+          },
+          {
+            "label": "$50,000 \u2013 $74,999",
+            "returns": 5680,
+            "elderly_returns": 1180,
+            "elderly_pct": 20.8,
+            "single": 2210,
+            "joint": 2130,
+            "head_of_household": 1210,
+            "other_status": 130,
+            "agi_usd": 349063000
+          },
+          {
+            "label": "$75,000 \u2013 $99,999",
+            "returns": 3630,
+            "elderly_returns": 860,
+            "elderly_pct": 23.7,
+            "single": 990,
+            "joint": 2080,
+            "head_of_household": 510,
+            "other_status": 50,
+            "agi_usd": 315478000
+          },
+          {
+            "label": "$100,000 \u2013 $199,999",
+            "returns": 5400,
+            "elderly_returns": 1260,
+            "elderly_pct": 23.3,
+            "single": 750,
+            "joint": 4220,
+            "head_of_household": 370,
+            "other_status": 60,
+            "agi_usd": 730760000
+          },
+          {
+            "label": "$200,000 and over",
+            "returns": 1000,
+            "elderly_returns": 320,
+            "elderly_pct": 32.0,
+            "single": 110,
+            "joint": 860,
+            "head_of_household": 20,
+            "other_status": 10,
+            "agi_usd": 334591000
+          }
+        ],
+        "correspondence": {
+          "irs_returns": 34470,
+          "ftb_returns": 32284,
+          "ratio": 1.068
+        }
+      }
+    ],
+    "migration": {
+      "years": "2022\u219223",
+      "inflow_returns": 258235,
+      "outflow_returns": 362059,
+      "net_returns": -103824,
+      "inflow_agi_usd": 25220674000,
+      "outflow_agi_usd": 38240123000,
+      "net_agi_usd": -13019449000,
+      "by_income": [
+        {
+          "label": "Under $10,000",
+          "inflow_returns": 21727,
+          "outflow_returns": 30509,
+          "net_returns": -8782,
+          "inflow_agi_usd": 115474000,
+          "outflow_agi_usd": 160919000
+        },
+        {
+          "label": "$10,000 \u2013 $24,999",
+          "inflow_returns": 44336,
+          "outflow_returns": 60921,
+          "net_returns": -16585,
+          "inflow_agi_usd": 775728000,
+          "outflow_agi_usd": 1064914000
+        },
+        {
+          "label": "$25,000 \u2013 $49,999",
+          "inflow_returns": 63075,
+          "outflow_returns": 84536,
+          "net_returns": -21461,
+          "inflow_agi_usd": 2290413000,
+          "outflow_agi_usd": 3076322000
+        },
+        {
+          "label": "$50,000 \u2013 $74,999",
+          "inflow_returns": 37736,
+          "outflow_returns": 50745,
+          "net_returns": -13009,
+          "inflow_agi_usd": 2323568000,
+          "outflow_agi_usd": 3129816000
+        },
+        {
+          "label": "$75,000 \u2013 $99,999",
+          "inflow_returns": 24866,
+          "outflow_returns": 33855,
+          "net_returns": -8989,
+          "inflow_agi_usd": 2150797000,
+          "outflow_agi_usd": 2935006000
+        },
+        {
+          "label": "$100,000 \u2013 $199,999",
+          "inflow_returns": 42003,
+          "outflow_returns": 61296,
+          "net_returns": -19293,
+          "inflow_agi_usd": 5841018000,
+          "outflow_agi_usd": 8570998000
+        },
+        {
+          "label": "$200,000 and over",
+          "inflow_returns": 24492,
+          "outflow_returns": 40197,
+          "net_returns": -15705,
+          "inflow_agi_usd": 11723675000,
+          "outflow_agi_usd": 19302145000
+        }
+      ],
+      "by_age": [
+        {
+          "label": "Under 26",
+          "inflow_returns": 67998,
+          "outflow_returns": 78671,
+          "net_returns": -10673,
+          "inflow_agi_usd": 3076657000,
+          "outflow_agi_usd": 2999069000
+        },
+        {
+          "label": "26 \u2013 34",
+          "inflow_returns": 93894,
+          "outflow_returns": 115325,
+          "net_returns": -21431,
+          "inflow_agi_usd": 8307644000,
+          "outflow_agi_usd": 9967044000
+        },
+        {
+          "label": "35 \u2013 44",
+          "inflow_returns": 39568,
+          "outflow_returns": 62275,
+          "net_returns": -22707,
+          "inflow_agi_usd": 5413521000,
+          "outflow_agi_usd": 8326359000
+        },
+        {
+          "label": "45 \u2013 54",
+          "inflow_returns": 19156,
+          "outflow_returns": 34132,
+          "net_returns": -14976,
+          "inflow_agi_usd": 3153053000,
+          "outflow_agi_usd": 5957749000
+        },
+        {
+          "label": "55 \u2013 64",
+          "inflow_returns": 15465,
+          "outflow_returns": 33966,
+          "net_returns": -18501,
+          "inflow_agi_usd": 2521843000,
+          "outflow_agi_usd": 5976327000
+        },
+        {
+          "label": "65 and over",
+          "inflow_returns": 22154,
+          "outflow_returns": 37690,
+          "net_returns": -15536,
+          "inflow_agi_usd": 2747953000,
+          "outflow_agi_usd": 5013572000
+        }
+      ],
+      "trend": [
+        {
+          "years": "2018\u219219",
+          "inflow_returns": 250157,
+          "outflow_returns": 319266,
+          "net_returns": -69109,
+          "inflow_agi_usd": 21466833000,
+          "outflow_agi_usd": 30307669000,
+          "net_agi_usd": -8840836000
+        },
+        {
+          "years": "2019\u219220",
+          "inflow_returns": 250060,
+          "outflow_returns": 364712,
+          "net_returns": -114652,
+          "inflow_agi_usd": 21189582000,
+          "outflow_agi_usd": 39357010000,
+          "net_agi_usd": -18167428000
+        },
+        {
+          "years": "2020\u219221",
+          "inflow_returns": 238975,
+          "outflow_returns": 393387,
+          "net_returns": -154412,
+          "inflow_agi_usd": 21547264000,
+          "outflow_agi_usd": 51201715000,
+          "net_agi_usd": -29654451000
+        },
+        {
+          "years": "2021\u219222",
+          "inflow_returns": 254427,
+          "outflow_returns": 396052,
+          "net_returns": -141625,
+          "inflow_agi_usd": 28875124000,
+          "outflow_agi_usd": 52893048000,
+          "net_agi_usd": -24017924000
+        },
+        {
+          "years": "2022\u219223",
+          "inflow_returns": 258235,
+          "outflow_returns": 362059,
+          "net_returns": -103824,
+          "inflow_agi_usd": 25220674000,
+          "outflow_agi_usd": 38240123000,
+          "net_agi_usd": -13019449000
+        }
+      ],
+      "trend_note": "One year of migration is a snapshot, not a verdict \u2014 read the trend. The IRS enhanced its return-matching process starting with the 2022\u219223 edition, so the newest figure is not perfectly comparable to earlier years."
+    }
+  }
+}

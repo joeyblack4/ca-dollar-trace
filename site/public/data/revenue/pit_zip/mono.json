@@ -1,0 +1,60 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Mono",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 18754102,
+    "zips": [
+      {
+        "zip": "93546",
+        "city": "Mammoth Lakes",
+        "returns": 4149,
+        "agi_usd": 394782108,
+        "tax_liability_usd": 16373598
+      },
+      {
+        "zip": "93529",
+        "city": "June Lake",
+        "returns": 305,
+        "agi_usd": 22510955,
+        "tax_liability_usd": 857262
+      },
+      {
+        "zip": "93517",
+        "city": "Bridgeport",
+        "returns": 290,
+        "agi_usd": 19009646,
+        "tax_liability_usd": 578083
+      },
+      {
+        "zip": "93541",
+        "city": "Lee Vining",
+        "returns": 231,
+        "agi_usd": 14482513,
+        "tax_liability_usd": 505249
+      },
+      {
+        "zip": "96107",
+        "city": "Coleville",
+        "returns": 327,
+        "agi_usd": 18308028,
+        "tax_liability_usd": 439910
+      }
+    ]
+  }
+}

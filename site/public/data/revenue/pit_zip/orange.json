@@ -1,0 +1,935 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Orange",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 8771409846,
+    "zips": [
+      {
+        "zip": "92660",
+        "city": "Newport Beach",
+        "returns": 17747,
+        "agi_usd": 6109113810,
+        "tax_liability_usd": 409668706
+      },
+      {
+        "zip": "92618",
+        "city": "Irvine",
+        "returns": 30106,
+        "agi_usd": 5026573970,
+        "tax_liability_usd": 294333714
+      },
+      {
+        "zip": "92651",
+        "city": "Laguna Beach",
+        "returns": 11797,
+        "agi_usd": 4295539131,
+        "tax_liability_usd": 278904538
+      },
+      {
+        "zip": "92677",
+        "city": "Laguna Niguel",
+        "returns": 31704,
+        "agi_usd": 4954088590,
+        "tax_liability_usd": 269825026
+      },
+      {
+        "zip": "92603",
+        "city": "Irvine",
+        "returns": 9169,
+        "agi_usd": 3089283035,
+        "tax_liability_usd": 230445186
+      },
+      {
+        "zip": "92886",
+        "city": "Yorba Linda",
+        "returns": 23557,
+        "agi_usd": 4131064891,
+        "tax_liability_usd": 223701707
+      },
+      {
+        "zip": "92620",
+        "city": "Irvine",
+        "returns": 27093,
+        "agi_usd": 4151346643,
+        "tax_liability_usd": 223612799
+      },
+      {
+        "zip": "92625",
+        "city": "Corona Del Mar",
+        "returns": 6104,
+        "agi_usd": 3299567153,
+        "tax_liability_usd": 223573103
+      },
+      {
+        "zip": "92657",
+        "city": "Newport Coast",
+        "returns": 4917,
+        "agi_usd": 3081016860,
+        "tax_liability_usd": 212366140
+      },
+      {
+        "zip": "92679",
+        "city": "Trabuco Canyon",
+        "returns": 14494,
+        "agi_usd": 3286713519,
+        "tax_liability_usd": 191924627
+      },
+      {
+        "zip": "92694",
+        "city": "Ladera Ranch",
+        "returns": 15858,
+        "agi_usd": 3333152588,
+        "tax_liability_usd": 191437588
+      },
+      {
+        "zip": "92648",
+        "city": "Huntington Beach",
+        "returns": 22854,
+        "agi_usd": 2530597887,
+        "tax_liability_usd": 190403216
+      },
+      {
+        "zip": "92656",
+        "city": "Aliso Viejo",
+        "returns": 25060,
+        "agi_usd": 3418476606,
+        "tax_liability_usd": 181156833
+      },
+      {
+        "zip": "92705",
+        "city": "Santa Ana",
+        "returns": 22563,
+        "agi_usd": 3367343949,
+        "tax_liability_usd": 177984117
+      },
+      {
+        "zip": "92663",
+        "city": "Newport Beach",
+        "returns": 9953,
+        "agi_usd": 2742262861,
+        "tax_liability_usd": 172356424
+      },
+      {
+        "zip": "92675",
+        "city": "San Juan Capistrano",
+        "returns": 16602,
+        "agi_usd": 2765844681,
+        "tax_liability_usd": 159197157
+      },
+      {
+        "zip": "92673",
+        "city": "San Clemente",
+        "returns": 13252,
+        "agi_usd": 2739471019,
+        "tax_liability_usd": 158858825
+      },
+      {
+        "zip": "92630",
+        "city": "Lake Forest",
+        "returns": 32690,
+        "agi_usd": 3493917653,
+        "tax_liability_usd": 158765729
+      },
+      {
+        "zip": "92646",
+        "city": "Huntington Beach",
+        "returns": 27775,
+        "agi_usd": 2303126034,
+        "tax_liability_usd": 155390863
+      },
+      {
+        "zip": "92649",
+        "city": "Huntington Beach",
+        "returns": 17303,
+        "agi_usd": 2758823865,
+        "tax_liability_usd": 150203492
+      },
+      {
+        "zip": "92629",
+        "city": "Dana Point",
+        "returns": 13501,
+        "agi_usd": 2419309409,
+        "tax_liability_usd": 146702642
+      },
+      {
+        "zip": "92672",
+        "city": "San Clemente",
+        "returns": 17053,
+        "agi_usd": 2663857678,
+        "tax_liability_usd": 144304435
+      },
+      {
+        "zip": "92692",
+        "city": "Mission Viejo",
+        "returns": 22827,
+        "agi_usd": 2981257845,
+        "tax_liability_usd": 143662128
+      },
+      {
+        "zip": "92602",
+        "city": "Irvine",
+        "returns": 14318,
+        "agi_usd": 2784519495,
+        "tax_liability_usd": 141546800
+      },
+      {
+        "zip": "92626",
+        "city": "Costa Mesa",
+        "returns": 24705,
+        "agi_usd": 2902612536,
+        "tax_liability_usd": 130938734
+      },
+      {
+        "zip": "92627",
+        "city": "Costa Mesa",
+        "returns": 28005,
+        "agi_usd": 2782129789,
+        "tax_liability_usd": 128619989
+      },
+      {
+        "zip": "92782",
+        "city": "Tustin",
+        "returns": 14035,
+        "agi_usd": 2341221450,
+        "tax_liability_usd": 126456642
+      },
+      {
+        "zip": "92807",
+        "city": "Anaheim",
+        "returns": 17602,
+        "agi_usd": 2534568352,
+        "tax_liability_usd": 123436649
+      },
+      {
+        "zip": "92708",
+        "city": "Fountain Valley",
+        "returns": 27716,
+        "agi_usd": 2819339733,
+        "tax_liability_usd": 118541554
+      },
+      {
+        "zip": "92688",
+        "city": "Rancho Santa Margarita",
+        "returns": 20538,
+        "agi_usd": 2499319908,
+        "tax_liability_usd": 115487297
+      },
+      {
+        "zip": "92653",
+        "city": "Laguna Hills",
+        "returns": 14311,
+        "agi_usd": 2106787085,
+        "tax_liability_usd": 114101867
+      },
+      {
+        "zip": "92691",
+        "city": "Mission Viejo",
+        "returns": 23028,
+        "agi_usd": 2558647215,
+        "tax_liability_usd": 113372928
+      },
+      {
+        "zip": "92647",
+        "city": "Huntington Beach",
+        "returns": 27899,
+        "agi_usd": 2619013161,
+        "tax_liability_usd": 108344545
+      },
+      {
+        "zip": "90631",
+        "city": "La Habra",
+        "returns": 31934,
+        "agi_usd": 2799605799,
+        "tax_liability_usd": 107532529
+      },
+      {
+        "zip": "92869",
+        "city": "Orange",
+        "returns": 17064,
+        "agi_usd": 2139998882,
+        "tax_liability_usd": 101343794
+      },
+      {
+        "zip": "92867",
+        "city": "Orange",
+        "returns": 19089,
+        "agi_usd": 2303461607,
+        "tax_liability_usd": 101154444
+      },
+      {
+        "zip": "92612",
+        "city": "Irvine",
+        "returns": 14244,
+        "agi_usd": 1838498572,
+        "tax_liability_usd": 98074064
+      },
+      {
+        "zip": "90630",
+        "city": "Cypress",
+        "returns": 23682,
+        "agi_usd": 2334983144,
+        "tax_liability_usd": 94160621
+      },
+      {
+        "zip": "92870",
+        "city": "Placentia",
+        "returns": 24726,
+        "agi_usd": 2354418325,
+        "tax_liability_usd": 93417192
+      },
+      {
+        "zip": "92887",
+        "city": "Yorba Linda",
+        "returns": 9694,
+        "agi_usd": 1695388527,
+        "tax_liability_usd": 91715603
+      },
+      {
+        "zip": "92821",
+        "city": "Brea",
+        "returns": 19622,
+        "agi_usd": 2118604238,
+        "tax_liability_usd": 89766675
+      },
+      {
+        "zip": "92683",
+        "city": "Westminster",
+        "returns": 43565,
+        "agi_usd": 2722364359,
+        "tax_liability_usd": 88814997
+      },
+      {
+        "zip": "92658",
+        "city": "Newport Beach",
+        "returns": 977,
+        "agi_usd": 1270938006,
+        "tax_liability_usd": 88733710
+      },
+      {
+        "zip": "92835",
+        "city": "Fullerton",
+        "returns": 11873,
+        "agi_usd": 1719412445,
+        "tax_liability_usd": 85725381
+      },
+      {
+        "zip": "92833",
+        "city": "Fullerton",
+        "returns": 23699,
+        "agi_usd": 2103323185,
+        "tax_liability_usd": 84433985
+      },
+      {
+        "zip": "92614",
+        "city": "Irvine",
+        "returns": 14046,
+        "agi_usd": 1709267530,
+        "tax_liability_usd": 83565633
+      },
+      {
+        "zip": "90740",
+        "city": "Seal Beach",
+        "returns": 13280,
+        "agi_usd": 1640463365,
+        "tax_liability_usd": 81943037
+      },
+      {
+        "zip": "90720",
+        "city": "Los Alamitos",
+        "returns": 10962,
+        "agi_usd": 1660871078,
+        "tax_liability_usd": 80784138
+      },
+      {
+        "zip": "92604",
+        "city": "Irvine",
+        "returns": 12820,
+        "agi_usd": 1537744909,
+        "tax_liability_usd": 76562779
+      },
+      {
+        "zip": "92780",
+        "city": "Tustin",
+        "returns": 25941,
+        "agi_usd": 2047008499,
+        "tax_liability_usd": 72635494
+      },
+      {
+        "zip": "92606",
+        "city": "Irvine",
+        "returns": 10547,
+        "agi_usd": 1342940174,
+        "tax_liability_usd": 69489469
+      },
+      {
+        "zip": "92808",
+        "city": "Anaheim",
+        "returns": 9577,
+        "agi_usd": 1369626322,
+        "tax_liability_usd": 67300028
+      },
+      {
+        "zip": "92831",
+        "city": "Fullerton",
+        "returns": 15926,
+        "agi_usd": 1459303429,
+        "tax_liability_usd": 65012904
+      },
+      {
+        "zip": "92805",
+        "city": "Anaheim",
+        "returns": 33993,
+        "agi_usd": 2104846890,
+        "tax_liability_usd": 57762768
+      },
+      {
+        "zip": "90620",
+        "city": "Buena Park",
+        "returns": 22213,
+        "agi_usd": 1714968260,
+        "tax_liability_usd": 56019902
+      },
+      {
+        "zip": "92804",
+        "city": "Anaheim",
+        "returns": 37672,
+        "agi_usd": 2163589239,
+        "tax_liability_usd": 55766410
+      },
+      {
+        "zip": "92704",
+        "city": "Santa Ana",
+        "returns": 37519,
+        "agi_usd": 2179752629,
+        "tax_liability_usd": 49970422
+      },
+      {
+        "zip": "92610",
+        "city": "Foothill Ranch",
+        "returns": 6371,
+        "agi_usd": 948685132,
+        "tax_liability_usd": 48842729
+      },
+      {
+        "zip": "92861",
+        "city": "Villa Park",
+        "returns": 2782,
+        "agi_usd": 806677555,
+        "tax_liability_usd": 46021456
+      },
+      {
+        "zip": "92840",
+        "city": "Garden Grove",
+        "returns": 25757,
+        "agi_usd": 1498250446,
+        "tax_liability_usd": 40238037
+      },
+      {
+        "zip": "92662",
+        "city": "Newport Beach",
+        "returns": 1287,
+        "agi_usd": 496394310,
+        "tax_liability_usd": 39615671
+      },
+      {
+        "zip": "92806",
+        "city": "Anaheim",
+        "returns": 18241,
+        "agi_usd": 233234568,
+        "tax_liability_usd": 37793256
+      },
+      {
+        "zip": "92706",
+        "city": "Santa Ana",
+        "returns": 15491,
+        "agi_usd": 1120585594,
+        "tax_liability_usd": 37361924
+      },
+      {
+        "zip": "90621",
+        "city": "Buena Park",
+        "returns": 16662,
+        "agi_usd": 1116136208,
+        "tax_liability_usd": 36788872
+      },
+      {
+        "zip": "92801",
+        "city": "Anaheim",
+        "returns": 27679,
+        "agi_usd": 1525514194,
+        "tax_liability_usd": 36404953
+      },
+      {
+        "zip": "92661",
+        "city": "Newport Beach",
+        "returns": 1482,
+        "agi_usd": 507728611,
+        "tax_liability_usd": 33727617
+      },
+      {
+        "zip": "92865",
+        "city": "Orange",
+        "returns": 9710,
+        "agi_usd": 882354498,
+        "tax_liability_usd": 32949626
+      },
+      {
+        "zip": "92868",
+        "city": "Orange",
+        "returns": 11569,
+        "agi_usd": 918967114,
+        "tax_liability_usd": 32742741
+      },
+      {
+        "zip": "92845",
+        "city": "Garden Grove",
+        "returns": 8029,
+        "agi_usd": 829671471,
+        "tax_liability_usd": 32739445
+      },
+      {
+        "zip": "92707",
+        "city": "Santa Ana",
+        "returns": 25733,
+        "agi_usd": 1409761122,
+        "tax_liability_usd": 32243570
+      },
+      {
+        "zip": "90623",
+        "city": "La Palma",
+        "returns": 7513,
+        "agi_usd": 745783270,
+        "tax_liability_usd": 30749717
+      },
+      {
+        "zip": "92617",
+        "city": "Irvine",
+        "returns": 4594,
+        "agi_usd": 535021417,
+        "tax_liability_usd": 28627961
+      },
+      {
+        "zip": "92841",
+        "city": "Garden Grove",
+        "returns": 16135,
+        "agi_usd": 937815315,
+        "tax_liability_usd": 27383417
+      },
+      {
+        "zip": "92832",
+        "city": "Fullerton",
+        "returns": 11524,
+        "agi_usd": 816440990,
+        "tax_liability_usd": 26764821
+      },
+      {
+        "zip": "92802",
+        "city": "Anaheim",
+        "returns": 18386,
+        "agi_usd": 1039625328,
+        "tax_liability_usd": 26593822
+      },
+      {
+        "zip": "92637",
+        "city": "Laguna Hills",
+        "returns": 10136,
+        "agi_usd": 674529965,
+        "tax_liability_usd": 24577869
+      },
+      {
+        "zip": "92843",
+        "city": "Garden Grove",
+        "returns": 20675,
+        "agi_usd": 1054688587,
+        "tax_liability_usd": 24073230
+      },
+      {
+        "zip": "92624",
+        "city": "Capistrano Beach",
+        "returns": 3423,
+        "agi_usd": 457170748,
+        "tax_liability_usd": 23305551
+      },
+      {
+        "zip": "92703",
+        "city": "Santa Ana",
+        "returns": 26940,
+        "agi_usd": 1252122214,
+        "tax_liability_usd": 22754372
+      },
+      {
+        "zip": "92866",
+        "city": "Orange",
+        "returns": 6605,
+        "agi_usd": 560434464,
+        "tax_liability_usd": 22041253
+      },
+      {
+        "zip": "92701",
+        "city": "Santa Ana",
+        "returns": 19235,
+        "agi_usd": 995568436,
+        "tax_liability_usd": 21473601
+      },
+      {
+        "zip": "90680",
+        "city": "Stanton",
+        "returns": 13982,
+        "agi_usd": 785898297,
+        "tax_liability_usd": 19694265
+      },
+      {
+        "zip": "92823",
+        "city": "Brea",
+        "returns": 2642,
+        "agi_usd": 246680655,
+        "tax_liability_usd": 19177558
+      },
+      {
+        "zip": "92844",
+        "city": "Garden Grove",
+        "returns": 11150,
+        "agi_usd": 577559439,
+        "tax_liability_usd": 14683374
+      },
+      {
+        "zip": "92652",
+        "city": "Laguna Beach",
+        "returns": 424,
+        "agi_usd": 124661821,
+        "tax_liability_usd": 9889634
+      },
+      {
+        "zip": "92623",
+        "city": "Irvine",
+        "returns": 505,
+        "agi_usd": 149350838,
+        "tax_liability_usd": 9221676
+      },
+      {
+        "zip": "92676",
+        "city": "Silverado",
+        "returns": 965,
+        "agi_usd": 155544509,
+        "tax_liability_usd": 8231632
+      },
+      {
+        "zip": "92619",
+        "city": "Irvine",
+        "returns": 594,
+        "agi_usd": 110444152,
+        "tax_liability_usd": 7179308
+      },
+      {
+        "zip": "90742",
+        "city": "Sunset Beach",
+        "returns": 587,
+        "agi_usd": 117894206,
+        "tax_liability_usd": 6223292
+      },
+      {
+        "zip": "92659",
+        "city": "Newport Beach",
+        "returns": 475,
+        "agi_usd": 104408047,
+        "tax_liability_usd": 6156332
+      },
+      {
+        "zip": "92655",
+        "city": "Midway City",
+        "returns": 3856,
+        "agi_usd": 179727277,
+        "tax_liability_usd": 3928573
+      },
+      {
+        "zip": "92711",
+        "city": "Santa Ana",
+        "returns": 338,
+        "agi_usd": 42622100,
+        "tax_liability_usd": 3145687
+      },
+      {
+        "zip": "90743",
+        "city": "Surfside",
+        "returns": 214,
+        "agi_usd": 49624820,
+        "tax_liability_usd": 3067035
+      },
+      {
+        "zip": "92781",
+        "city": "Tustin",
+        "returns": 577,
+        "agi_usd": 61389432,
+        "tax_liability_usd": 2965326
+      },
+      {
+        "zip": "92607",
+        "city": "Laguna Niguel",
+        "returns": 385,
+        "agi_usd": 56094105,
+        "tax_liability_usd": 2867300
+      },
+      {
+        "zip": "92615",
+        "city": "Huntington Beach",
+        "returns": 396,
+        "agi_usd": 47881249,
+        "tax_liability_usd": 2584723
+      },
+      {
+        "zip": "92863",
+        "city": "Orange",
+        "returns": 587,
+        "agi_usd": 50619589,
+        "tax_liability_usd": 2383680
+      },
+      {
+        "zip": "92693",
+        "city": "San Juan Capistrano",
+        "returns": 219,
+        "agi_usd": 45064574,
+        "tax_liability_usd": 2235551
+      },
+      {
+        "zip": "92822",
+        "city": "Brea",
+        "returns": 456,
+        "agi_usd": 48271667,
+        "tax_liability_usd": 2138871
+      },
+      {
+        "zip": "92690",
+        "city": "Mission Viejo",
+        "returns": 382,
+        "agi_usd": 42862586,
+        "tax_liability_usd": 2130960
+      },
+      {
+        "zip": "92817",
+        "city": "Anaheim",
+        "returns": 270,
+        "agi_usd": 39528591,
+        "tax_liability_usd": 2055009
+      },
+      {
+        "zip": "92616",
+        "city": "Irvine",
+        "returns": 193,
+        "agi_usd": 25503594,
+        "tax_liability_usd": 1669677
+      },
+      {
+        "zip": "92674",
+        "city": "San Clemente",
+        "returns": 384,
+        "agi_usd": 36700098,
+        "tax_liability_usd": 1565274
+      },
+      {
+        "zip": "92885",
+        "city": "Yorba Linda",
+        "returns": 237,
+        "agi_usd": 30434267,
+        "tax_liability_usd": 1465248
+      },
+      {
+        "zip": "92809",
+        "city": "Anaheim",
+        "returns": 187,
+        "agi_usd": 25833668,
+        "tax_liability_usd": 1359395
+      },
+      {
+        "zip": "92815",
+        "city": "Anaheim",
+        "returns": 283,
+        "agi_usd": 57966942,
+        "tax_liability_usd": 1326081
+      },
+      {
+        "zip": "92654",
+        "city": "Laguna Hills",
+        "returns": 315,
+        "agi_usd": 29370191,
+        "tax_liability_usd": 1214084
+      },
+      {
+        "zip": "90632",
+        "city": "La Habra",
+        "returns": 214,
+        "agi_usd": 31590448,
+        "tax_liability_usd": 1192061
+      },
+      {
+        "zip": "92628",
+        "city": "Costa Mesa",
+        "returns": 337,
+        "agi_usd": 27539723,
+        "tax_liability_usd": 1103285
+      },
+      {
+        "zip": "92871",
+        "city": "Placentia",
+        "returns": 295,
+        "agi_usd": 27135930,
+        "tax_liability_usd": 1066244
+      },
+      {
+        "zip": "92799",
+        "city": "Santa Ana",
+        "returns": 373,
+        "agi_usd": 27062810,
+        "tax_liability_usd": 1049085
+      },
+      {
+        "zip": "92728",
+        "city": "Fountain Valley",
+        "returns": 341,
+        "agi_usd": 28194726,
+        "tax_liability_usd": 1030402
+      },
+      {
+        "zip": "92834",
+        "city": "Fullerton",
+        "returns": 304,
+        "agi_usd": 25052327,
+        "tax_liability_usd": 908003
+      },
+      {
+        "zip": "92678",
+        "city": "Trabuco Canyon",
+        "returns": 205,
+        "agi_usd": 17773024,
+        "tax_liability_usd": 896251
+      },
+      {
+        "zip": "92702",
+        "city": "Santa Ana",
+        "returns": 234,
+        "agi_usd": 22416793,
+        "tax_liability_usd": 823501
+      },
+      {
+        "zip": "92838",
+        "city": "Fullerton",
+        "returns": 110,
+        "agi_usd": 15903050,
+        "tax_liability_usd": 797905
+      },
+      {
+        "zip": "90633",
+        "city": "La Habra",
+        "returns": 191,
+        "agi_usd": 17408046,
+        "tax_liability_usd": 753120
+      },
+      {
+        "zip": "92605",
+        "city": "Huntington Beach",
+        "returns": 187,
+        "agi_usd": 16181093,
+        "tax_liability_usd": 734974
+      },
+      {
+        "zip": "92609",
+        "city": "El Toro",
+        "returns": 300,
+        "agi_usd": 19609762,
+        "tax_liability_usd": 698290
+      },
+      {
+        "zip": "92842",
+        "city": "Garden Grove",
+        "returns": 563,
+        "agi_usd": 28199899,
+        "tax_liability_usd": 682264
+      },
+      {
+        "zip": "92685",
+        "city": "Westminster",
+        "returns": 335,
+        "agi_usd": 19208578,
+        "tax_liability_usd": 615381
+      },
+      {
+        "zip": "92856",
+        "city": "Orange",
+        "returns": 175,
+        "agi_usd": 15164158,
+        "tax_liability_usd": 600627
+      },
+      {
+        "zip": "92803",
+        "city": "Anaheim",
+        "returns": 377,
+        "agi_usd": 22291059,
+        "tax_liability_usd": 565318
+      },
+      {
+        "zip": "92859",
+        "city": "Orange",
+        "returns": 127,
+        "agi_usd": 12401546,
+        "tax_liability_usd": 561382
+      },
+      {
+        "zip": "92684",
+        "city": "Westminster",
+        "returns": 258,
+        "agi_usd": 11869159,
+        "tax_liability_usd": 400691
+      },
+      {
+        "zip": "90622",
+        "city": "Buena Park",
+        "returns": 202,
+        "agi_usd": 11947075,
+        "tax_liability_usd": 328259
+      },
+      {
+        "zip": "92812",
+        "city": "Anaheim",
+        "returns": 226,
+        "agi_usd": 12236244,
+        "tax_liability_usd": 302211
+      },
+      {
+        "zip": "92814",
+        "city": "Anaheim",
+        "returns": 172,
+        "agi_usd": 10471238,
+        "tax_liability_usd": 225701
+      },
+      {
+        "zip": "92837",
+        "city": "Fullerton",
+        "returns": 136,
+        "agi_usd": 7789398,
+        "tax_liability_usd": 204184
+      },
+      {
+        "zip": "92836",
+        "city": "Fullerton",
+        "returns": 121,
+        "agi_usd": 6708693,
+        "tax_liability_usd": 183672
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Glenn",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 18945522,
+    "zips": [
+      {
+        "zip": "95963",
+        "city": "Orland",
+        "returns": 6812,
+        "agi_usd": 399709196,
+        "tax_liability_usd": 10421402
+      },
+      {
+        "zip": "95988",
+        "city": "Willows",
+        "returns": 3770,
+        "agi_usd": 220297903,
+        "tax_liability_usd": 6228209
+      },
+      {
+        "zip": "95951",
+        "city": "Hamilton City",
+        "returns": 1079,
+        "agi_usd": 52520063,
+        "tax_liability_usd": 877382
+      },
+      {
+        "zip": "95943",
+        "city": "Glenn",
+        "returns": 347,
+        "agi_usd": 21018939,
+        "tax_liability_usd": 840323
+      },
+      {
+        "zip": "95913",
+        "city": "Artois",
+        "returns": 179,
+        "agi_usd": 10916409,
+        "tax_liability_usd": 370304
+      },
+      {
+        "zip": "95939",
+        "city": "Elk Creek",
+        "returns": 127,
+        "agi_usd": 7471397,
+        "tax_liability_usd": 207902
+      }
+    ]
+  }
+}

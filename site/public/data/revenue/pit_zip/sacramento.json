@@ -1,0 +1,466 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Sacramento",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 2261698095,
+    "zips": [
+      {
+        "zip": "95630",
+        "city": "Folsom",
+        "returns": 37100,
+        "agi_usd": 5555241966,
+        "tax_liability_usd": 283331440
+      },
+      {
+        "zip": "95864",
+        "city": "Sacramento",
+        "returns": 11477,
+        "agi_usd": 2439683655,
+        "tax_liability_usd": 142499920
+      },
+      {
+        "zip": "95608",
+        "city": "Carmichael",
+        "returns": 28373,
+        "agi_usd": 2753822613,
+        "tax_liability_usd": 117637045
+      },
+      {
+        "zip": "95757",
+        "city": "Elk Grove",
+        "returns": 24655,
+        "agi_usd": 2585424212,
+        "tax_liability_usd": 106420339
+      },
+      {
+        "zip": "95624",
+        "city": "Elk Grove",
+        "returns": 30245,
+        "agi_usd": 2734295688,
+        "tax_liability_usd": 104939809
+      },
+      {
+        "zip": "95628",
+        "city": "Fair Oaks",
+        "returns": 20862,
+        "agi_usd": 2208783730,
+        "tax_liability_usd": 94963087
+      },
+      {
+        "zip": "95831",
+        "city": "Sacramento",
+        "returns": 20988,
+        "agi_usd": 2147631800,
+        "tax_liability_usd": 92211362
+      },
+      {
+        "zip": "95758",
+        "city": "Elk Grove",
+        "returns": 29937,
+        "agi_usd": 2505849657,
+        "tax_liability_usd": 90333431
+      },
+      {
+        "zip": "95819",
+        "city": "Sacramento",
+        "returns": 9039,
+        "agi_usd": 1434209338,
+        "tax_liability_usd": 76121367
+      },
+      {
+        "zip": "95835",
+        "city": "Sacramento",
+        "returns": 19939,
+        "agi_usd": 1874260856,
+        "tax_liability_usd": 73781571
+      },
+      {
+        "zip": "95818",
+        "city": "Sacramento",
+        "returns": 11413,
+        "agi_usd": 1441750866,
+        "tax_liability_usd": 72621386
+      },
+      {
+        "zip": "95670",
+        "city": "Rancho Cordova",
+        "returns": 25639,
+        "agi_usd": 1955344231,
+        "tax_liability_usd": 69797749
+      },
+      {
+        "zip": "95816",
+        "city": "Sacramento",
+        "returns": 10067,
+        "agi_usd": 1143798825,
+        "tax_liability_usd": 56651785
+      },
+      {
+        "zip": "95834",
+        "city": "Sacramento",
+        "returns": 17254,
+        "agi_usd": 1516220659,
+        "tax_liability_usd": 50511132
+      },
+      {
+        "zip": "95662",
+        "city": "Orangevale",
+        "returns": 15253,
+        "agi_usd": 1329281338,
+        "tax_liability_usd": 48172224
+      },
+      {
+        "zip": "95822",
+        "city": "Sacramento",
+        "returns": 20110,
+        "agi_usd": 1426345866,
+        "tax_liability_usd": 48042087
+      },
+      {
+        "zip": "95829",
+        "city": "Sacramento",
+        "returns": 15684,
+        "agi_usd": 1264971775,
+        "tax_liability_usd": 46583973
+      },
+      {
+        "zip": "95742",
+        "city": "Rancho Cordova",
+        "returns": 9094,
+        "agi_usd": 1058046877,
+        "tax_liability_usd": 42581357
+      },
+      {
+        "zip": "95843",
+        "city": "Antelope",
+        "returns": 21553,
+        "agi_usd": 1468183099,
+        "tax_liability_usd": 40259179
+      },
+      {
+        "zip": "95826",
+        "city": "Sacramento",
+        "returns": 17890,
+        "agi_usd": 1245638355,
+        "tax_liability_usd": 40139374
+      },
+      {
+        "zip": "95833",
+        "city": "Sacramento",
+        "returns": 18724,
+        "agi_usd": 1264651329,
+        "tax_liability_usd": 39308153
+      },
+      {
+        "zip": "95610",
+        "city": "Citrus Heights",
+        "returns": 20874,
+        "agi_usd": 1361411239,
+        "tax_liability_usd": 38908079
+      },
+      {
+        "zip": "95821",
+        "city": "Sacramento",
+        "returns": 15922,
+        "agi_usd": 1118662497,
+        "tax_liability_usd": 38647977
+      },
+      {
+        "zip": "95825",
+        "city": "Sacramento",
+        "returns": 15213,
+        "agi_usd": 980367458,
+        "tax_liability_usd": 38494899
+      },
+      {
+        "zip": "95632",
+        "city": "Galt",
+        "returns": 14271,
+        "agi_usd": 1089322348,
+        "tax_liability_usd": 33498621
+      },
+      {
+        "zip": "95621",
+        "city": "Citrus Heights",
+        "returns": 19799,
+        "agi_usd": 1229575843,
+        "tax_liability_usd": 32641316
+      },
+      {
+        "zip": "95820",
+        "city": "Sacramento",
+        "returns": 15345,
+        "agi_usd": 974148571,
+        "tax_liability_usd": 31005235
+      },
+      {
+        "zip": "95823",
+        "city": "Sacramento",
+        "returns": 32259,
+        "agi_usd": 1590667641,
+        "tax_liability_usd": 30764338
+      },
+      {
+        "zip": "95828",
+        "city": "Sacramento",
+        "returns": 27330,
+        "agi_usd": 1426181377,
+        "tax_liability_usd": 30192578
+      },
+      {
+        "zip": "95693",
+        "city": "Wilton",
+        "returns": 3324,
+        "agi_usd": 467987859,
+        "tax_liability_usd": 22080513
+      },
+      {
+        "zip": "95811",
+        "city": "Sacramento",
+        "returns": 4458,
+        "agi_usd": 428589405,
+        "tax_liability_usd": 21362048
+      },
+      {
+        "zip": "95683",
+        "city": "Sloughhouse",
+        "returns": 3352,
+        "agi_usd": 436532274,
+        "tax_liability_usd": 20871647
+      },
+      {
+        "zip": "95814",
+        "city": "Sacramento",
+        "returns": 4659,
+        "agi_usd": 393443488,
+        "tax_liability_usd": 18654988
+      },
+      {
+        "zip": "95817",
+        "city": "Sacramento",
+        "returns": 6132,
+        "agi_usd": 467700546,
+        "tax_liability_usd": 18170006
+      },
+      {
+        "zip": "95827",
+        "city": "Sacramento",
+        "returns": 9728,
+        "agi_usd": 619772070,
+        "tax_liability_usd": 17477703
+      },
+      {
+        "zip": "95842",
+        "city": "Sacramento",
+        "returns": 14239,
+        "agi_usd": 734427517,
+        "tax_liability_usd": 15865089
+      },
+      {
+        "zip": "95838",
+        "city": "Sacramento",
+        "returns": 16602,
+        "agi_usd": 812631266,
+        "tax_liability_usd": 14543644
+      },
+      {
+        "zip": "95841",
+        "city": "Sacramento",
+        "returns": 9069,
+        "agi_usd": 466707761,
+        "tax_liability_usd": 13974287
+      },
+      {
+        "zip": "95660",
+        "city": "North Highlands",
+        "returns": 14136,
+        "agi_usd": 680502099,
+        "tax_liability_usd": 13222585
+      },
+      {
+        "zip": "95815",
+        "city": "Sacramento",
+        "returns": 10272,
+        "agi_usd": 509930839,
+        "tax_liability_usd": 11981664
+      },
+      {
+        "zip": "95673",
+        "city": "Rio Linda",
+        "returns": 6978,
+        "agi_usd": 434431035,
+        "tax_liability_usd": 11246410
+      },
+      {
+        "zip": "95824",
+        "city": "Sacramento",
+        "returns": 12077,
+        "agi_usd": 529092185,
+        "tax_liability_usd": 8436820
+      },
+      {
+        "zip": "95655",
+        "city": "Mather",
+        "returns": 1885,
+        "agi_usd": 175766228,
+        "tax_liability_usd": 6671475
+      },
+      {
+        "zip": "95626",
+        "city": "Elverta",
+        "returns": 2546,
+        "agi_usd": 188272051,
+        "tax_liability_usd": 5607854
+      },
+      {
+        "zip": "95832",
+        "city": "Sacramento",
+        "returns": 4822,
+        "agi_usd": 235673660,
+        "tax_liability_usd": 4479318
+      },
+      {
+        "zip": "95690",
+        "city": "Walnut Grove",
+        "returns": 1054,
+        "agi_usd": 81196166,
+        "tax_liability_usd": 3381070
+      },
+      {
+        "zip": "95638",
+        "city": "Herald",
+        "returns": 1033,
+        "agi_usd": 90705518,
+        "tax_liability_usd": 3236196
+      },
+      {
+        "zip": "95830",
+        "city": "Sacramento",
+        "returns": 376,
+        "agi_usd": 62127471,
+        "tax_liability_usd": 2700365
+      },
+      {
+        "zip": "95763",
+        "city": "Folsom",
+        "returns": 528,
+        "agi_usd": 59098935,
+        "tax_liability_usd": 2527141
+      },
+      {
+        "zip": "95609",
+        "city": "Carmichael",
+        "returns": 510,
+        "agi_usd": 37107832,
+        "tax_liability_usd": 1737067
+      },
+      {
+        "zip": "95759",
+        "city": "Elk Grove",
+        "returns": 477,
+        "agi_usd": 46930920,
+        "tax_liability_usd": 1583743
+      },
+      {
+        "zip": "95641",
+        "city": "Isleton",
+        "returns": 798,
+        "agi_usd": 53774222,
+        "tax_liability_usd": 1580270
+      },
+      {
+        "zip": "95837",
+        "city": "Sacramento",
+        "returns": 124,
+        "agi_usd": 26588844,
+        "tax_liability_usd": 1559068
+      },
+      {
+        "zip": "95812",
+        "city": "Sacramento",
+        "returns": 581,
+        "agi_usd": 38909062,
+        "tax_liability_usd": 1482906
+      },
+      {
+        "zip": "95741",
+        "city": "Rancho Cordova",
+        "returns": 465,
+        "agi_usd": 37845807,
+        "tax_liability_usd": 1469637
+      },
+      {
+        "zip": "95865",
+        "city": "Sacramento",
+        "returns": 183,
+        "agi_usd": 23338393,
+        "tax_liability_usd": 1085019
+      },
+      {
+        "zip": "95866",
+        "city": "Sacramento",
+        "returns": 200,
+        "agi_usd": 19475502,
+        "tax_liability_usd": 874356
+      },
+      {
+        "zip": "95615",
+        "city": "Courtland",
+        "returns": 402,
+        "agi_usd": 26800003,
+        "tax_liability_usd": 770850
+      },
+      {
+        "zip": "95611",
+        "city": "Citrus Heights",
+        "returns": 374,
+        "agi_usd": 23814873,
+        "tax_liability_usd": 689696
+      },
+      {
+        "zip": "95860",
+        "city": "Sacramento",
+        "returns": 179,
+        "agi_usd": 14711212,
+        "tax_liability_usd": 602213
+      },
+      {
+        "zip": "95652",
+        "city": "Mcclellan",
+        "returns": 219,
+        "agi_usd": 12413244,
+        "tax_liability_usd": 257061
+      },
+      {
+        "zip": "95639",
+        "city": "Hood",
+        "returns": 128,
+        "agi_usd": 8794858,
+        "tax_liability_usd": 236904
+      },
+      {
+        "zip": "94203",
+        "city": "Sacramento",
+        "returns": 118,
+        "agi_usd": 6871588,
+        "tax_liability_usd": 217669
+      }
+    ]
+  }
+}

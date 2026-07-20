@@ -1,0 +1,116 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Lake",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 43911293,
+    "zips": [
+      {
+        "zip": "95453",
+        "city": "Lakeport",
+        "returns": 4610,
+        "agi_usd": 314786757,
+        "tax_liability_usd": 10320790
+      },
+      {
+        "zip": "95451",
+        "city": "Kelseyville",
+        "returns": 4689,
+        "agi_usd": 298341440,
+        "tax_liability_usd": 9968099
+      },
+      {
+        "zip": "95467",
+        "city": "Hidden Valley L",
+        "returns": 2555,
+        "agi_usd": 205023217,
+        "tax_liability_usd": 7370287
+      },
+      {
+        "zip": "95422",
+        "city": "Clearlake",
+        "returns": 4900,
+        "agi_usd": 206774846,
+        "tax_liability_usd": 3816179
+      },
+      {
+        "zip": "95461",
+        "city": "Middletown",
+        "returns": 1360,
+        "agi_usd": 86797974,
+        "tax_liability_usd": 2626210
+      },
+      {
+        "zip": "95457",
+        "city": "Lower Lake",
+        "returns": 1279,
+        "agi_usd": 75306030,
+        "tax_liability_usd": 2266907
+      },
+      {
+        "zip": "95458",
+        "city": "Lucerne",
+        "returns": 962,
+        "agi_usd": 52523527,
+        "tax_liability_usd": 2019718
+      },
+      {
+        "zip": "95426",
+        "city": "Cobb",
+        "returns": 754,
+        "agi_usd": 53137234,
+        "tax_liability_usd": 1711790
+      },
+      {
+        "zip": "95423",
+        "city": "Clearlake Oaks",
+        "returns": 1328,
+        "agi_usd": 61942405,
+        "tax_liability_usd": 1444782
+      },
+      {
+        "zip": "95485",
+        "city": "Upper Lake",
+        "returns": 989,
+        "agi_usd": 51276028,
+        "tax_liability_usd": 1365473
+      },
+      {
+        "zip": "95464",
+        "city": "Nice",
+        "returns": 835,
+        "agi_usd": 36742327,
+        "tax_liability_usd": 713630
+      },
+      {
+        "zip": "95435",
+        "city": "Finley",
+        "returns": 166,
+        "agi_usd": 8436030,
+        "tax_liability_usd": 176297
+      },
+      {
+        "zip": "95424",
+        "city": "Clearlake Park",
+        "returns": 109,
+        "agi_usd": 5261225,
+        "tax_liability_usd": 111131
+      }
+    ]
+  }
+}

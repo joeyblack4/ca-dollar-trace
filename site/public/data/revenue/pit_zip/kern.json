@@ -1,0 +1,417 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Kern",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 841519923,
+    "zips": [
+      {
+        "zip": "93308",
+        "city": "Bakersfield",
+        "returns": 20536,
+        "agi_usd": 2272179983,
+        "tax_liability_usd": 206364202
+      },
+      {
+        "zip": "93311",
+        "city": "Bakersfield",
+        "returns": 23226,
+        "agi_usd": 2520746159,
+        "tax_liability_usd": 108058555
+      },
+      {
+        "zip": "93312",
+        "city": "Bakersfield",
+        "returns": 24399,
+        "agi_usd": 2259928787,
+        "tax_liability_usd": 81834139
+      },
+      {
+        "zip": "93314",
+        "city": "Bakersfield",
+        "returns": 14897,
+        "agi_usd": 1752640485,
+        "tax_liability_usd": 74145108
+      },
+      {
+        "zip": "93306",
+        "city": "Bakersfield",
+        "returns": 29978,
+        "agi_usd": 1786907107,
+        "tax_liability_usd": 47153997
+      },
+      {
+        "zip": "93309",
+        "city": "Bakersfield",
+        "returns": 24635,
+        "agi_usd": 1591602700,
+        "tax_liability_usd": 43716191
+      },
+      {
+        "zip": "93555",
+        "city": "Ridgecrest",
+        "returns": 13721,
+        "agi_usd": 1072774397,
+        "tax_liability_usd": 36561255
+      },
+      {
+        "zip": "93313",
+        "city": "Bakersfield",
+        "returns": 25034,
+        "agi_usd": 1475528114,
+        "tax_liability_usd": 34822237
+      },
+      {
+        "zip": "93561",
+        "city": "Tehachapi",
+        "returns": 12819,
+        "agi_usd": 1034276390,
+        "tax_liability_usd": 34524833
+      },
+      {
+        "zip": "93307",
+        "city": "Bakersfield",
+        "returns": 32466,
+        "agi_usd": 1628346318,
+        "tax_liability_usd": 34421715
+      },
+      {
+        "zip": "93560",
+        "city": "Rosamond",
+        "returns": 8892,
+        "agi_usd": 585795294,
+        "tax_liability_usd": 15916834
+      },
+      {
+        "zip": "93215",
+        "city": "Delano",
+        "returns": 18241,
+        "agi_usd": 766231285,
+        "tax_liability_usd": 13675033
+      },
+      {
+        "zip": "93263",
+        "city": "Shafter",
+        "returns": 9825,
+        "agi_usd": 573409051,
+        "tax_liability_usd": 12740217
+      },
+      {
+        "zip": "93304",
+        "city": "Bakersfield",
+        "returns": 18703,
+        "agi_usd": 750194278,
+        "tax_liability_usd": 11089882
+      },
+      {
+        "zip": "93301",
+        "city": "Bakersfield",
+        "returns": 5036,
+        "agi_usd": 322054003,
+        "tax_liability_usd": 10975826
+      },
+      {
+        "zip": "93305",
+        "city": "Bakersfield",
+        "returns": 12432,
+        "agi_usd": 495524900,
+        "tax_liability_usd": 8269262
+      },
+      {
+        "zip": "93268",
+        "city": "Taft",
+        "returns": 5677,
+        "agi_usd": 303620878,
+        "tax_liability_usd": 7287727
+      },
+      {
+        "zip": "93280",
+        "city": "Wasco",
+        "returns": 9356,
+        "agi_usd": 414286545,
+        "tax_liability_usd": 6361869
+      },
+      {
+        "zip": "93505",
+        "city": "California City",
+        "returns": 4606,
+        "agi_usd": 237388931,
+        "tax_liability_usd": 5237972
+      },
+      {
+        "zip": "93380",
+        "city": "Bakersfield",
+        "returns": 322,
+        "agi_usd": 103504552,
+        "tax_liability_usd": 4480253
+      },
+      {
+        "zip": "93390",
+        "city": "Bakersfield",
+        "returns": 532,
+        "agi_usd": 76267828,
+        "tax_liability_usd": 3905554
+      },
+      {
+        "zip": "93225",
+        "city": "Frazier Park",
+        "returns": 1891,
+        "agi_usd": 122181278,
+        "tax_liability_usd": 3742411
+      },
+      {
+        "zip": "93203",
+        "city": "Arvin",
+        "returns": 8067,
+        "agi_usd": 276066648,
+        "tax_liability_usd": 2968381
+      },
+      {
+        "zip": "93250",
+        "city": "Mc Farland",
+        "returns": 5723,
+        "agi_usd": 208827578,
+        "tax_liability_usd": 2788623
+      },
+      {
+        "zip": "93240",
+        "city": "Lake Isabella",
+        "returns": 1975,
+        "agi_usd": 100394931,
+        "tax_liability_usd": 2483434
+      },
+      {
+        "zip": "93389",
+        "city": "Bakersfield",
+        "returns": 641,
+        "agi_usd": 68107300,
+        "tax_liability_usd": 2252140
+      },
+      {
+        "zip": "93527",
+        "city": "Inyokern",
+        "returns": 848,
+        "agi_usd": 60001039,
+        "tax_liability_usd": 1831372
+      },
+      {
+        "zip": "93581",
+        "city": "Tehachapi",
+        "returns": 611,
+        "agi_usd": 49813098,
+        "tax_liability_usd": 1780967
+      },
+      {
+        "zip": "93501",
+        "city": "Mojave",
+        "returns": 1842,
+        "agi_usd": 83301839,
+        "tax_liability_usd": 1776261
+      },
+      {
+        "zip": "93241",
+        "city": "Lamont",
+        "returns": 5612,
+        "agi_usd": 185236143,
+        "tax_liability_usd": 1714143
+      },
+      {
+        "zip": "93222",
+        "city": "Frazier Park",
+        "returns": 796,
+        "agi_usd": 52589896,
+        "tax_liability_usd": 1675897
+      },
+      {
+        "zip": "93238",
+        "city": "Kernville",
+        "returns": 623,
+        "agi_usd": 43974758,
+        "tax_liability_usd": 1438131
+      },
+      {
+        "zip": "93384",
+        "city": "Bakersfield",
+        "returns": 455,
+        "agi_usd": 40837176,
+        "tax_liability_usd": 1286587
+      },
+      {
+        "zip": "93531",
+        "city": "Keene",
+        "returns": 243,
+        "agi_usd": 30150325,
+        "tax_liability_usd": 1252881
+      },
+      {
+        "zip": "93556",
+        "city": "Ridgecrest",
+        "returns": 362,
+        "agi_usd": 29061268,
+        "tax_liability_usd": 1115435
+      },
+      {
+        "zip": "93523",
+        "city": "Edwards",
+        "returns": 720,
+        "agi_usd": 46608701,
+        "tax_liability_usd": 1106905
+      },
+      {
+        "zip": "93243",
+        "city": "Lebec",
+        "returns": 547,
+        "agi_usd": 32946867,
+        "tax_liability_usd": 1040555
+      },
+      {
+        "zip": "93285",
+        "city": "Wofford Heights",
+        "returns": 785,
+        "agi_usd": 36052942,
+        "tax_liability_usd": 921578
+      },
+      {
+        "zip": "93206",
+        "city": "Buttonwillow",
+        "returns": 775,
+        "agi_usd": 28010175,
+        "tax_liability_usd": 827715
+      },
+      {
+        "zip": "93516",
+        "city": "Boron",
+        "returns": 711,
+        "agi_usd": 35513875,
+        "tax_liability_usd": 784927
+      },
+      {
+        "zip": "93386",
+        "city": "Bakersfield",
+        "returns": 244,
+        "agi_usd": 22268942,
+        "tax_liability_usd": 767456
+      },
+      {
+        "zip": "93303",
+        "city": "Bakersfield",
+        "returns": 124,
+        "agi_usd": -8159977,
+        "tax_liability_usd": 651384
+      },
+      {
+        "zip": "93216",
+        "city": "Delano",
+        "returns": 1098,
+        "agi_usd": 36197055,
+        "tax_liability_usd": 631030
+      },
+      {
+        "zip": "93283",
+        "city": "Weldon",
+        "returns": 538,
+        "agi_usd": 25219497,
+        "tax_liability_usd": 629108
+      },
+      {
+        "zip": "93302",
+        "city": "Bakersfield",
+        "returns": 228,
+        "agi_usd": 16728845,
+        "tax_liability_usd": 625628
+      },
+      {
+        "zip": "93220",
+        "city": "Edison",
+        "returns": 101,
+        "agi_usd": 8755796,
+        "tax_liability_usd": 598576
+      },
+      {
+        "zip": "93518",
+        "city": "Caliente",
+        "returns": 371,
+        "agi_usd": 21027516,
+        "tax_liability_usd": 529660
+      },
+      {
+        "zip": "93252",
+        "city": "Maricopa",
+        "returns": 442,
+        "agi_usd": 21021926,
+        "tax_liability_usd": 494247
+      },
+      {
+        "zip": "93205",
+        "city": "Bodfish",
+        "returns": 636,
+        "agi_usd": 24924166,
+        "tax_liability_usd": 468866
+      },
+      {
+        "zip": "93249",
+        "city": "Lost Hills",
+        "returns": 870,
+        "agi_usd": 36526139,
+        "tax_liability_usd": 358048
+      },
+      {
+        "zip": "93504",
+        "city": "California City",
+        "returns": 167,
+        "agi_usd": 10475008,
+        "tax_liability_usd": 337187
+      },
+      {
+        "zip": "93387",
+        "city": "Bakersfield",
+        "returns": 387,
+        "agi_usd": 16120495,
+        "tax_liability_usd": 298535
+      },
+      {
+        "zip": "93226",
+        "city": "Glennville",
+        "returns": 103,
+        "agi_usd": 7133647,
+        "tax_liability_usd": 239890
+      },
+      {
+        "zip": "93255",
+        "city": "Onyx",
+        "returns": 164,
+        "agi_usd": 8288917,
+        "tax_liability_usd": 205825
+      },
+      {
+        "zip": "93224",
+        "city": "Fellows",
+        "returns": 129,
+        "agi_usd": 7383078,
+        "tax_liability_usd": 198041
+      },
+      {
+        "zip": "93385",
+        "city": "Bakersfield",
+        "returns": 181,
+        "agi_usd": 7184516,
+        "tax_liability_usd": 155438
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Madera",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 146628278,
+    "zips": [
+      {
+        "zip": "93636",
+        "city": "Madera",
+        "returns": 8501,
+        "agi_usd": 865368542,
+        "tax_liability_usd": 34439684
+      },
+      {
+        "zip": "93636",
+        "city": "Madera",
+        "returns": 8501,
+        "agi_usd": 865368542,
+        "tax_liability_usd": 34439684
+      },
+      {
+        "zip": "93637",
+        "city": "Madera",
+        "returns": 16867,
+        "agi_usd": 977209118,
+        "tax_liability_usd": 27122729
+      },
+      {
+        "zip": "93614",
+        "city": "Coarsegold",
+        "returns": 4851,
+        "agi_usd": 394545740,
+        "tax_liability_usd": 13582021
+      },
+      {
+        "zip": "93638",
+        "city": "Madera",
+        "returns": 18675,
+        "agi_usd": 791226658,
+        "tax_liability_usd": 12231703
+      },
+      {
+        "zip": "93610",
+        "city": "Chowchilla",
+        "returns": 6890,
+        "agi_usd": 400225967,
+        "tax_liability_usd": 10238372
+      },
+      {
+        "zip": "93644",
+        "city": "Oakhurst",
+        "returns": 3618,
+        "agi_usd": 225811312,
+        "tax_liability_usd": 7030894
+      },
+      {
+        "zip": "93643",
+        "city": "North Fork",
+        "returns": 1285,
+        "agi_usd": 82409655,
+        "tax_liability_usd": 2456781
+      },
+      {
+        "zip": "93601",
+        "city": "Ahwahnee",
+        "returns": 795,
+        "agi_usd": 58800337,
+        "tax_liability_usd": 2079757
+      },
+      {
+        "zip": "93653",
+        "city": "Raymond",
+        "returns": 411,
+        "agi_usd": 29880826,
+        "tax_liability_usd": 994363
+      },
+      {
+        "zip": "93604",
+        "city": "Bass Lake",
+        "returns": 286,
+        "agi_usd": 16989366,
+        "tax_liability_usd": 761934
+      },
+      {
+        "zip": "93645",
+        "city": "O Neals",
+        "returns": 138,
+        "agi_usd": 14743093,
+        "tax_liability_usd": 655768
+      },
+      {
+        "zip": "93639",
+        "city": "Madera",
+        "returns": 352,
+        "agi_usd": 16298575,
+        "tax_liability_usd": 594588
+      }
+    ]
+  }
+}

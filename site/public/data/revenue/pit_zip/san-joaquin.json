@@ -1,0 +1,298 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Joaquin",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 894015579,
+    "zips": [
+      {
+        "zip": "95377",
+        "city": "Tracy",
+        "returns": 17713,
+        "agi_usd": 1979245199,
+        "tax_liability_usd": 87178389
+      },
+      {
+        "zip": "95391",
+        "city": "Tracy",
+        "returns": 9745,
+        "agi_usd": 1655964721,
+        "tax_liability_usd": 85621129
+      },
+      {
+        "zip": "95219",
+        "city": "Stockton",
+        "returns": 13717,
+        "agi_usd": 1566289850,
+        "tax_liability_usd": 66642901
+      },
+      {
+        "zip": "95337",
+        "city": "Manteca",
+        "returns": 22127,
+        "agi_usd": 1820853532,
+        "tax_liability_usd": 62149385
+      },
+      {
+        "zip": "95330",
+        "city": "Lathrop",
+        "returns": 15478,
+        "agi_usd": 1468234294,
+        "tax_liability_usd": 56910680
+      },
+      {
+        "zip": "95376",
+        "city": "Tracy",
+        "returns": 23813,
+        "agi_usd": 1711929491,
+        "tax_liability_usd": 54526636
+      },
+      {
+        "zip": "95242",
+        "city": "Lodi",
+        "returns": 13413,
+        "agi_usd": 1275531150,
+        "tax_liability_usd": 50903409
+      },
+      {
+        "zip": "95336",
+        "city": "Manteca",
+        "returns": 21964,
+        "agi_usd": 1628380444,
+        "tax_liability_usd": 48715486
+      },
+      {
+        "zip": "95209",
+        "city": "Stockton",
+        "returns": 19545,
+        "agi_usd": 1384246737,
+        "tax_liability_usd": 42161844
+      },
+      {
+        "zip": "95366",
+        "city": "Ripon",
+        "returns": 8114,
+        "agi_usd": 606827660,
+        "tax_liability_usd": 39128344
+      },
+      {
+        "zip": "95240",
+        "city": "Lodi",
+        "returns": 19308,
+        "agi_usd": 1282535926,
+        "tax_liability_usd": 39045865
+      },
+      {
+        "zip": "95207",
+        "city": "Stockton",
+        "returns": 20374,
+        "agi_usd": 1233166364,
+        "tax_liability_usd": 34652327
+      },
+      {
+        "zip": "95212",
+        "city": "Stockton",
+        "returns": 13296,
+        "agi_usd": 1012071401,
+        "tax_liability_usd": 32449759
+      },
+      {
+        "zip": "95304",
+        "city": "Tracy",
+        "returns": 6177,
+        "agi_usd": 673892480,
+        "tax_liability_usd": 29971562
+      },
+      {
+        "zip": "95206",
+        "city": "Stockton",
+        "returns": 28541,
+        "agi_usd": 1428536279,
+        "tax_liability_usd": 26460734
+      },
+      {
+        "zip": "95204",
+        "city": "Stockton",
+        "returns": 12888,
+        "agi_usd": 690870915,
+        "tax_liability_usd": 23239707
+      },
+      {
+        "zip": "95320",
+        "city": "Escalon",
+        "returns": 5459,
+        "agi_usd": 456619638,
+        "tax_liability_usd": 16717569
+      },
+      {
+        "zip": "95210",
+        "city": "Stockton",
+        "returns": 16187,
+        "agi_usd": 589955247,
+        "tax_liability_usd": 13662592
+      },
+      {
+        "zip": "95258",
+        "city": "Woodbridge",
+        "returns": 2333,
+        "agi_usd": 294316660,
+        "tax_liability_usd": 13275263
+      },
+      {
+        "zip": "95215",
+        "city": "Stockton",
+        "returns": 9351,
+        "agi_usd": 514296586,
+        "tax_liability_usd": 12470489
+      },
+      {
+        "zip": "95220",
+        "city": "Acampo",
+        "returns": 3062,
+        "agi_usd": 288117612,
+        "tax_liability_usd": 11231331
+      },
+      {
+        "zip": "95205",
+        "city": "Stockton",
+        "returns": 15308,
+        "agi_usd": 653142475,
+        "tax_liability_usd": 9475646
+      },
+      {
+        "zip": "95236",
+        "city": "Linden",
+        "returns": 2404,
+        "agi_usd": 229157949,
+        "tax_liability_usd": 8719012
+      },
+      {
+        "zip": "95203",
+        "city": "Stockton",
+        "returns": 6235,
+        "agi_usd": 310461908,
+        "tax_liability_usd": 7036771
+      },
+      {
+        "zip": "95237",
+        "city": "Lockeford",
+        "returns": 1735,
+        "agi_usd": 129505551,
+        "tax_liability_usd": 4432515
+      },
+      {
+        "zip": "95241",
+        "city": "Lodi",
+        "returns": 921,
+        "agi_usd": 76756420,
+        "tax_liability_usd": 3200197
+      },
+      {
+        "zip": "95227",
+        "city": "Clements",
+        "returns": 462,
+        "agi_usd": 49408000,
+        "tax_liability_usd": 2454621
+      },
+      {
+        "zip": "95231",
+        "city": "French Camp",
+        "returns": 1594,
+        "agi_usd": 83730936,
+        "tax_liability_usd": 2020789
+      },
+      {
+        "zip": "95202",
+        "city": "Stockton",
+        "returns": 1922,
+        "agi_usd": 82877030,
+        "tax_liability_usd": 1864113
+      },
+      {
+        "zip": "95269",
+        "city": "Stockton",
+        "returns": 601,
+        "agi_usd": 40799749,
+        "tax_liability_usd": 1201926
+      },
+      {
+        "zip": "95267",
+        "city": "Stockton",
+        "returns": 356,
+        "agi_usd": 33057406,
+        "tax_liability_usd": 1182283
+      },
+      {
+        "zip": "95208",
+        "city": "Stockton",
+        "returns": 298,
+        "agi_usd": 29645931,
+        "tax_liability_usd": 972592
+      },
+      {
+        "zip": "95378",
+        "city": "Tracy",
+        "returns": 402,
+        "agi_usd": 28248630,
+        "tax_liability_usd": 954943
+      },
+      {
+        "zip": "95253",
+        "city": "Victor",
+        "returns": 307,
+        "agi_usd": 27522105,
+        "tax_liability_usd": 846036
+      },
+      {
+        "zip": "95201",
+        "city": "Stockton",
+        "returns": 317,
+        "agi_usd": 24115145,
+        "tax_liability_usd": 771315
+      },
+      {
+        "zip": "95230",
+        "city": "Farmington",
+        "returns": 308,
+        "agi_usd": 21857510,
+        "tax_liability_usd": 650470
+      },
+      {
+        "zip": "95686",
+        "city": "Thornton",
+        "returns": 476,
+        "agi_usd": 20732962,
+        "tax_liability_usd": 547206
+      },
+      {
+        "zip": "95213",
+        "city": "Stockton",
+        "returns": 217,
+        "agi_usd": 14132421,
+        "tax_liability_usd": 388354
+      },
+      {
+        "zip": "95385",
+        "city": "Vernalis",
+        "returns": 119,
+        "agi_usd": 6684120,
+        "tax_liability_usd": 181389
+      }
+    ]
+  }
+}

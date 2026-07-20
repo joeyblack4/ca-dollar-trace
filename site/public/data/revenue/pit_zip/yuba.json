@@ -1,0 +1,102 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Yuba",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 56132065,
+    "zips": [
+      {
+        "zip": "95961",
+        "city": "Olivehurst",
+        "returns": 13022,
+        "agi_usd": 866544256,
+        "tax_liability_usd": 22057279
+      },
+      {
+        "zip": "95901",
+        "city": "Marysville",
+        "returns": 13784,
+        "agi_usd": 808303617,
+        "tax_liability_usd": 20742435
+      },
+      {
+        "zip": "95692",
+        "city": "Wheatland",
+        "returns": 2245,
+        "agi_usd": 170818312,
+        "tax_liability_usd": 5401006
+      },
+      {
+        "zip": "95918",
+        "city": "Browns Valley",
+        "returns": 1028,
+        "agi_usd": 100102152,
+        "tax_liability_usd": 3650438
+      },
+      {
+        "zip": "95977",
+        "city": "Smartville",
+        "returns": 693,
+        "agi_usd": 48751017,
+        "tax_liability_usd": 1643349
+      },
+      {
+        "zip": "95962",
+        "city": "Oregon House",
+        "returns": 665,
+        "agi_usd": 39011308,
+        "tax_liability_usd": 1284946
+      },
+      {
+        "zip": "95919",
+        "city": "Brownsville",
+        "returns": 433,
+        "agi_usd": 22528836,
+        "tax_liability_usd": 515947
+      },
+      {
+        "zip": "95935",
+        "city": "Dobbins",
+        "returns": 296,
+        "agi_usd": 13133313,
+        "tax_liability_usd": 307507
+      },
+      {
+        "zip": "95925",
+        "city": "Challenge",
+        "returns": 103,
+        "agi_usd": 6827009,
+        "tax_liability_usd": 224895
+      },
+      {
+        "zip": "95922",
+        "city": "Camptonville",
+        "returns": 202,
+        "agi_usd": 8843564,
+        "tax_liability_usd": 219533
+      },
+      {
+        "zip": "95903",
+        "city": "Beale Afb",
+        "returns": 286,
+        "agi_usd": 10914034,
+        "tax_liability_usd": 84730
+      }
+    ]
+  }
+}

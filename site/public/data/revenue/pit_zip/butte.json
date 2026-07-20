@@ -1,0 +1,151 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Butte",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 202657848,
+    "zips": [
+      {
+        "zip": "95973",
+        "city": "Chico",
+        "returns": 16868,
+        "agi_usd": 1443801078,
+        "tax_liability_usd": 52064768
+      },
+      {
+        "zip": "95928",
+        "city": "Chico",
+        "returns": 15380,
+        "agi_usd": 1200747899,
+        "tax_liability_usd": 45394557
+      },
+      {
+        "zip": "95926",
+        "city": "Chico",
+        "returns": 15368,
+        "agi_usd": 1041471749,
+        "tax_liability_usd": 34464497
+      },
+      {
+        "zip": "95966",
+        "city": "Oroville",
+        "returns": 11394,
+        "agi_usd": 663070744,
+        "tax_liability_usd": 18128560
+      },
+      {
+        "zip": "95965",
+        "city": "Oroville",
+        "returns": 7731,
+        "agi_usd": 407145068,
+        "tax_liability_usd": 11091459
+      },
+      {
+        "zip": "95948",
+        "city": "Gridley",
+        "returns": 4730,
+        "agi_usd": 299397669,
+        "tax_liability_usd": 9218638
+      },
+      {
+        "zip": "95969",
+        "city": "Paradise",
+        "returns": 4382,
+        "agi_usd": 273275847,
+        "tax_liability_usd": 8440912
+      },
+      {
+        "zip": "95938",
+        "city": "Durham",
+        "returns": 1857,
+        "agi_usd": 206543640,
+        "tax_liability_usd": 8140050
+      },
+      {
+        "zip": "95927",
+        "city": "Chico",
+        "returns": 1036,
+        "agi_usd": 87926505,
+        "tax_liability_usd": 3631079
+      },
+      {
+        "zip": "95954",
+        "city": "Magalia",
+        "returns": 3015,
+        "agi_usd": 148143395,
+        "tax_liability_usd": 3419551
+      },
+      {
+        "zip": "95917",
+        "city": "Biggs",
+        "returns": 1309,
+        "agi_usd": 103536589,
+        "tax_liability_usd": 3308818
+      },
+      {
+        "zip": "95942",
+        "city": "Forest Ranch",
+        "returns": 636,
+        "agi_usd": 52264876,
+        "tax_liability_usd": 1864002
+      },
+      {
+        "zip": "95967",
+        "city": "Paradise",
+        "returns": 482,
+        "agi_usd": 27096865,
+        "tax_liability_usd": 972938
+      },
+      {
+        "zip": "95974",
+        "city": "Richvale",
+        "returns": 137,
+        "agi_usd": 22033277,
+        "tax_liability_usd": 958139
+      },
+      {
+        "zip": "95968",
+        "city": "Palermo",
+        "returns": 750,
+        "agi_usd": 35558810,
+        "tax_liability_usd": 664510
+      },
+      {
+        "zip": "95914",
+        "city": "Bangor",
+        "returns": 307,
+        "agi_usd": 19062354,
+        "tax_liability_usd": 504710
+      },
+      {
+        "zip": "95916",
+        "city": "Berry Creek",
+        "returns": 221,
+        "agi_usd": 8294148,
+        "tax_liability_usd": 216297
+      },
+      {
+        "zip": "95941",
+        "city": "Forbestown",
+        "returns": 147,
+        "agi_usd": 7760037,
+        "tax_liability_usd": 174363
+      }
+    ]
+  }
+}

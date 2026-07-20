@@ -1,0 +1,144 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Siskiyou",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 32202771,
+    "zips": [
+      {
+        "zip": "96067",
+        "city": "Mount Shasta",
+        "returns": 3470,
+        "agi_usd": 260194623,
+        "tax_liability_usd": 9415266
+      },
+      {
+        "zip": "96097",
+        "city": "Yreka",
+        "returns": 4132,
+        "agi_usd": 237489794,
+        "tax_liability_usd": 6391425
+      },
+      {
+        "zip": "96094",
+        "city": "Weed",
+        "returns": 2733,
+        "agi_usd": 167428832,
+        "tax_liability_usd": 4910010
+      },
+      {
+        "zip": "96064",
+        "city": "Montague",
+        "returns": 1639,
+        "agi_usd": 93596117,
+        "tax_liability_usd": 2510310
+      },
+      {
+        "zip": "96027",
+        "city": "Etna",
+        "returns": 835,
+        "agi_usd": 54049945,
+        "tax_liability_usd": 2073234
+      },
+      {
+        "zip": "96032",
+        "city": "Fort Jones",
+        "returns": 952,
+        "agi_usd": 60934968,
+        "tax_liability_usd": 1846854
+      },
+      {
+        "zip": "96134",
+        "city": "Tulelake",
+        "returns": 825,
+        "agi_usd": 43473264,
+        "tax_liability_usd": 1026823
+      },
+      {
+        "zip": "96057",
+        "city": "Mccloud",
+        "returns": 566,
+        "agi_usd": 28744371,
+        "tax_liability_usd": 915172
+      },
+      {
+        "zip": "96025",
+        "city": "Dunsmuir",
+        "returns": 854,
+        "agi_usd": 35758911,
+        "tax_liability_usd": 867632
+      },
+      {
+        "zip": "96044",
+        "city": "Hornbrook",
+        "returns": 368,
+        "agi_usd": 18361262,
+        "tax_liability_usd": 446640
+      },
+      {
+        "zip": "96023",
+        "city": "Dorris",
+        "returns": 402,
+        "agi_usd": 20089941,
+        "tax_liability_usd": 445700
+      },
+      {
+        "zip": "96038",
+        "city": "Grenada",
+        "returns": 260,
+        "agi_usd": 14687774,
+        "tax_liability_usd": 368876
+      },
+      {
+        "zip": "96039",
+        "city": "Happy Camp",
+        "returns": 341,
+        "agi_usd": 11753226,
+        "tax_liability_usd": 313819
+      },
+      {
+        "zip": "96037",
+        "city": "Greenview",
+        "returns": 139,
+        "agi_usd": 8815428,
+        "tax_liability_usd": 200285
+      },
+      {
+        "zip": "96034",
+        "city": "Gazelle",
+        "returns": 117,
+        "agi_usd": 6832131,
+        "tax_liability_usd": 181591
+      },
+      {
+        "zip": "96058",
+        "city": "Macdoel",
+        "returns": 341,
+        "agi_usd": 13456855,
+        "tax_liability_usd": 171962
+      },
+      {
+        "zip": "96050",
+        "city": "Klamath River",
+        "returns": 104,
+        "agi_usd": 3172999,
+        "tax_liability_usd": 117172
+      }
+    ]
+  }
+}

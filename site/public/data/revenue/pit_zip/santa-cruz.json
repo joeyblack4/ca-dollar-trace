@@ -1,0 +1,179 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Santa Cruz",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 770831640,
+    "zips": [
+      {
+        "zip": "95060",
+        "city": "Santa Cruz",
+        "returns": 19406,
+        "agi_usd": 2685207757,
+        "tax_liability_usd": 157827241
+      },
+      {
+        "zip": "95062",
+        "city": "Santa Cruz",
+        "returns": 17008,
+        "agi_usd": 1929561115,
+        "tax_liability_usd": 97789591
+      },
+      {
+        "zip": "95003",
+        "city": "Aptos",
+        "returns": 11428,
+        "agi_usd": 1754827851,
+        "tax_liability_usd": 97730209
+      },
+      {
+        "zip": "95076",
+        "city": "Watsonville",
+        "returns": 35046,
+        "agi_usd": 2508682944,
+        "tax_liability_usd": 81270311
+      },
+      {
+        "zip": "95033",
+        "city": "Los Gatos",
+        "returns": 4027,
+        "agi_usd": 1104870939,
+        "tax_liability_usd": 81070049
+      },
+      {
+        "zip": "95066",
+        "city": "Scotts Valley",
+        "returns": 7097,
+        "agi_usd": 1191282934,
+        "tax_liability_usd": 68540906
+      },
+      {
+        "zip": "95073",
+        "city": "Soquel",
+        "returns": 5394,
+        "agi_usd": 736635329,
+        "tax_liability_usd": 38398805
+      },
+      {
+        "zip": "95065",
+        "city": "Santa Cruz",
+        "returns": 3880,
+        "agi_usd": 564134099,
+        "tax_liability_usd": 33077047
+      },
+      {
+        "zip": "95010",
+        "city": "Capitola",
+        "returns": 4867,
+        "agi_usd": 539441984,
+        "tax_liability_usd": 28009307
+      },
+      {
+        "zip": "95006",
+        "city": "Boulder Creek",
+        "returns": 3936,
+        "agi_usd": 490251550,
+        "tax_liability_usd": 23992293
+      },
+      {
+        "zip": "95018",
+        "city": "Felton",
+        "returns": 3736,
+        "agi_usd": 412586489,
+        "tax_liability_usd": 19502580
+      },
+      {
+        "zip": "95005",
+        "city": "Ben Lomond",
+        "returns": 2925,
+        "agi_usd": 350885324,
+        "tax_liability_usd": 17400547
+      },
+      {
+        "zip": "95001",
+        "city": "Aptos",
+        "returns": 795,
+        "agi_usd": 107176723,
+        "tax_liability_usd": 5586704
+      },
+      {
+        "zip": "95019",
+        "city": "Freedom",
+        "returns": 3488,
+        "agi_usd": 190174952,
+        "tax_liability_usd": 4314892
+      },
+      {
+        "zip": "95077",
+        "city": "Watsonville",
+        "returns": 1617,
+        "agi_usd": 89584726,
+        "tax_liability_usd": 2771656
+      },
+      {
+        "zip": "95064",
+        "city": "Santa Cruz",
+        "returns": 545,
+        "agi_usd": 51697345,
+        "tax_liability_usd": 2578996
+      },
+      {
+        "zip": "95063",
+        "city": "Santa Cruz",
+        "returns": 623,
+        "agi_usd": 55188551,
+        "tax_liability_usd": 2498570
+      },
+      {
+        "zip": "95061",
+        "city": "Santa Cruz",
+        "returns": 519,
+        "agi_usd": 45722995,
+        "tax_liability_usd": 2249955
+      },
+      {
+        "zip": "95067",
+        "city": "Scotts Valley",
+        "returns": 393,
+        "agi_usd": 42946698,
+        "tax_liability_usd": 1911660
+      },
+      {
+        "zip": "95007",
+        "city": "Brookdale",
+        "returns": 296,
+        "agi_usd": 32226267,
+        "tax_liability_usd": 1694883
+      },
+      {
+        "zip": "95017",
+        "city": "Davenport",
+        "returns": 316,
+        "agi_usd": 32307783,
+        "tax_liability_usd": 1609161
+      },
+      {
+        "zip": "95041",
+        "city": "Mount Hermon",
+        "returns": 292,
+        "agi_usd": 27037329,
+        "tax_liability_usd": 1006277
+      }
+    ]
+  }
+}

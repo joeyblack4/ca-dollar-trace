@@ -1,0 +1,648 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Santa Clara",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 13749975626,
+    "zips": [
+      {
+        "zip": "94022",
+        "city": "Los Altos",
+        "returns": 9736,
+        "agi_usd": 8385840557,
+        "tax_liability_usd": 772157687
+      },
+      {
+        "zip": "94301",
+        "city": "Palo Alto",
+        "returns": 8066,
+        "agi_usd": 8399971592,
+        "tax_liability_usd": 721296773
+      },
+      {
+        "zip": "95014",
+        "city": "Cupertino",
+        "returns": 27359,
+        "agi_usd": 8996436239,
+        "tax_liability_usd": 711064383
+      },
+      {
+        "zip": "95070",
+        "city": "Saratoga",
+        "returns": 15842,
+        "agi_usd": 7983015324,
+        "tax_liability_usd": 689109306
+      },
+      {
+        "zip": "94024",
+        "city": "Los Altos",
+        "returns": 10907,
+        "agi_usd": 6899516848,
+        "tax_liability_usd": 625679651
+      },
+      {
+        "zip": "94087",
+        "city": "Sunnyvale",
+        "returns": 25949,
+        "agi_usd": 7378533331,
+        "tax_liability_usd": 557912991
+      },
+      {
+        "zip": "95051",
+        "city": "Santa Clara",
+        "returns": 30618,
+        "agi_usd": 6425230337,
+        "tax_liability_usd": 435937888
+      },
+      {
+        "zip": "95120",
+        "city": "San Jose",
+        "returns": 17422,
+        "agi_usd": 5518698589,
+        "tax_liability_usd": 410976731
+      },
+      {
+        "zip": "95125",
+        "city": "San Jose",
+        "returns": 24929,
+        "agi_usd": 5797683090,
+        "tax_liability_usd": 402261664
+      },
+      {
+        "zip": "94306",
+        "city": "Palo Alto",
+        "returns": 13350,
+        "agi_usd": 4819445280,
+        "tax_liability_usd": 393126072
+      },
+      {
+        "zip": "95035",
+        "city": "Milpitas",
+        "returns": 38822,
+        "agi_usd": 6442749830,
+        "tax_liability_usd": 392100472
+      },
+      {
+        "zip": "95032",
+        "city": "Los Gatos",
+        "returns": 13176,
+        "agi_usd": 5104196867,
+        "tax_liability_usd": 390572884
+      },
+      {
+        "zip": "94040",
+        "city": "Mountain View",
+        "returns": 18524,
+        "agi_usd": 4966922105,
+        "tax_liability_usd": 378049109
+      },
+      {
+        "zip": "94086",
+        "city": "Sunnyvale",
+        "returns": 25006,
+        "agi_usd": 5407250065,
+        "tax_liability_usd": 377517829
+      },
+      {
+        "zip": "94303",
+        "city": "Palo Alto",
+        "returns": 20193,
+        "agi_usd": 4921723143,
+        "tax_liability_usd": 372840523
+      },
+      {
+        "zip": "95124",
+        "city": "San Jose",
+        "returns": 22182,
+        "agi_usd": 5151275415,
+        "tax_liability_usd": 351248822
+      },
+      {
+        "zip": "95129",
+        "city": "San Jose",
+        "returns": 18135,
+        "agi_usd": 4462713423,
+        "tax_liability_usd": 322591608
+      },
+      {
+        "zip": "95030",
+        "city": "Los Gatos",
+        "returns": 6297,
+        "agi_usd": 3649264887,
+        "tax_liability_usd": 315581189
+      },
+      {
+        "zip": "95008",
+        "city": "Campbell",
+        "returns": 22790,
+        "agi_usd": 4488771730,
+        "tax_liability_usd": 292667218
+      },
+      {
+        "zip": "94043",
+        "city": "Mountain View",
+        "returns": 16087,
+        "agi_usd": 3936919389,
+        "tax_liability_usd": 287686900
+      },
+      {
+        "zip": "94304",
+        "city": "Palo Alto",
+        "returns": 2087,
+        "agi_usd": 2658222245,
+        "tax_liability_usd": 271407968
+      },
+      {
+        "zip": "95037",
+        "city": "Morgan Hill",
+        "returns": 24111,
+        "agi_usd": 4197279276,
+        "tax_liability_usd": 252365131
+      },
+      {
+        "zip": "95123",
+        "city": "San Jose",
+        "returns": 31890,
+        "agi_usd": 4329251611,
+        "tax_liability_usd": 234546053
+      },
+      {
+        "zip": "95134",
+        "city": "San Jose",
+        "returns": 15849,
+        "agi_usd": 3282872446,
+        "tax_liability_usd": 223703210
+      },
+      {
+        "zip": "95054",
+        "city": "Santa Clara",
+        "returns": 13405,
+        "agi_usd": 3053420080,
+        "tax_liability_usd": 215147755
+      },
+      {
+        "zip": "94085",
+        "city": "Sunnyvale",
+        "returns": 13376,
+        "agi_usd": 2673259583,
+        "tax_liability_usd": 182156175
+      },
+      {
+        "zip": "95050",
+        "city": "Santa Clara",
+        "returns": 18115,
+        "agi_usd": 2893712509,
+        "tax_liability_usd": 179459100
+      },
+      {
+        "zip": "95138",
+        "city": "San Jose",
+        "returns": 8919,
+        "agi_usd": 2419001689,
+        "tax_liability_usd": 175492861
+      },
+      {
+        "zip": "95126",
+        "city": "San Jose",
+        "returns": 18184,
+        "agi_usd": 2807209769,
+        "tax_liability_usd": 173089188
+      },
+      {
+        "zip": "95136",
+        "city": "San Jose",
+        "returns": 21679,
+        "agi_usd": 2947123683,
+        "tax_liability_usd": 161549432
+      },
+      {
+        "zip": "95128",
+        "city": "San Jose",
+        "returns": 16505,
+        "agi_usd": 2542207689,
+        "tax_liability_usd": 160972843
+      },
+      {
+        "zip": "94041",
+        "city": "Mountain View",
+        "returns": 8389,
+        "agi_usd": 2350411047,
+        "tax_liability_usd": 160914515
+      },
+      {
+        "zip": "95135",
+        "city": "San Jose",
+        "returns": 9843,
+        "agi_usd": 2309027568,
+        "tax_liability_usd": 159619589
+      },
+      {
+        "zip": "95132",
+        "city": "San Jose",
+        "returns": 19690,
+        "agi_usd": 2783524889,
+        "tax_liability_usd": 158531195
+      },
+      {
+        "zip": "95148",
+        "city": "San Jose",
+        "returns": 22203,
+        "agi_usd": 2806417505,
+        "tax_liability_usd": 150888598
+      },
+      {
+        "zip": "95020",
+        "city": "Gilroy",
+        "returns": 29221,
+        "agi_usd": 3292126205,
+        "tax_liability_usd": 150792503
+      },
+      {
+        "zip": "95118",
+        "city": "San Jose",
+        "returns": 14612,
+        "agi_usd": 2483195200,
+        "tax_liability_usd": 150362923
+      },
+      {
+        "zip": "95131",
+        "city": "San Jose",
+        "returns": 15373,
+        "agi_usd": 2317669284,
+        "tax_liability_usd": 134936893
+      },
+      {
+        "zip": "95112",
+        "city": "San Jose",
+        "returns": 24738,
+        "agi_usd": 2451327257,
+        "tax_liability_usd": 123942925
+      },
+      {
+        "zip": "94089",
+        "city": "Sunnyvale",
+        "returns": 12286,
+        "agi_usd": 1939031846,
+        "tax_liability_usd": 121725743
+      },
+      {
+        "zip": "95127",
+        "city": "San Jose",
+        "returns": 28692,
+        "agi_usd": 2614052439,
+        "tax_liability_usd": 109283077
+      },
+      {
+        "zip": "95117",
+        "city": "San Jose",
+        "returns": 13172,
+        "agi_usd": 1790396813,
+        "tax_liability_usd": 105632154
+      },
+      {
+        "zip": "95133",
+        "city": "San Jose",
+        "returns": 13978,
+        "agi_usd": 1714795064,
+        "tax_liability_usd": 92207465
+      },
+      {
+        "zip": "95130",
+        "city": "San Jose",
+        "returns": 6169,
+        "agi_usd": 1282498725,
+        "tax_liability_usd": 89182769
+      },
+      {
+        "zip": "95121",
+        "city": "San Jose",
+        "returns": 18377,
+        "agi_usd": 1818701202,
+        "tax_liability_usd": 86967172
+      },
+      {
+        "zip": "95111",
+        "city": "San Jose",
+        "returns": 27405,
+        "agi_usd": 2049026127,
+        "tax_liability_usd": 73211004
+      },
+      {
+        "zip": "95110",
+        "city": "San Jose",
+        "returns": 9359,
+        "agi_usd": 1148140910,
+        "tax_liability_usd": 57669196
+      },
+      {
+        "zip": "94305",
+        "city": "Stanford",
+        "returns": 4492,
+        "agi_usd": 783409552,
+        "tax_liability_usd": 51203386
+      },
+      {
+        "zip": "95122",
+        "city": "San Jose",
+        "returns": 24844,
+        "agi_usd": 1631597054,
+        "tax_liability_usd": 50335839
+      },
+      {
+        "zip": "95119",
+        "city": "San Jose",
+        "returns": 5262,
+        "agi_usd": 831390315,
+        "tax_liability_usd": 46618782
+      },
+      {
+        "zip": "95116",
+        "city": "San Jose",
+        "returns": 21584,
+        "agi_usd": 1414393692,
+        "tax_liability_usd": 45363443
+      },
+      {
+        "zip": "94023",
+        "city": "Los Altos",
+        "returns": 371,
+        "agi_usd": 599122731,
+        "tax_liability_usd": 38949637
+      },
+      {
+        "zip": "95139",
+        "city": "San Jose",
+        "returns": 3064,
+        "agi_usd": 474398093,
+        "tax_liability_usd": 25903954
+      },
+      {
+        "zip": "95046",
+        "city": "San Martin",
+        "returns": 3170,
+        "agi_usd": 396558469,
+        "tax_liability_usd": 20373793
+      },
+      {
+        "zip": "95113",
+        "city": "San Jose",
+        "returns": 1549,
+        "agi_usd": 246070908,
+        "tax_liability_usd": 15828739
+      },
+      {
+        "zip": "94302",
+        "city": "Palo Alto",
+        "returns": 253,
+        "agi_usd": 220892042,
+        "tax_liability_usd": 15317069
+      },
+      {
+        "zip": "95015",
+        "city": "Cupertino",
+        "returns": 445,
+        "agi_usd": 116395198,
+        "tax_liability_usd": 9220127
+      },
+      {
+        "zip": "95031",
+        "city": "Los Gatos",
+        "returns": 575,
+        "agi_usd": 123695580,
+        "tax_liability_usd": 7371361
+      },
+      {
+        "zip": "95002",
+        "city": "Alviso",
+        "returns": 972,
+        "agi_usd": 101833706,
+        "tax_liability_usd": 4888823
+      },
+      {
+        "zip": "94042",
+        "city": "Mountain View",
+        "returns": 315,
+        "agi_usd": 59680070,
+        "tax_liability_usd": 4096611
+      },
+      {
+        "zip": "95161",
+        "city": "San Jose",
+        "returns": 653,
+        "agi_usd": 76789786,
+        "tax_liability_usd": 3983782
+      },
+      {
+        "zip": "95021",
+        "city": "Gilroy",
+        "returns": 1064,
+        "agi_usd": 88783090,
+        "tax_liability_usd": 3902754
+      },
+      {
+        "zip": "95056",
+        "city": "Santa Clara",
+        "returns": 223,
+        "agi_usd": 52434113,
+        "tax_liability_usd": 3861950
+      },
+      {
+        "zip": "95038",
+        "city": "Morgan Hill",
+        "returns": 714,
+        "agi_usd": 78335874,
+        "tax_liability_usd": 3798421
+      },
+      {
+        "zip": "95011",
+        "city": "Campbell",
+        "returns": 429,
+        "agi_usd": 54603701,
+        "tax_liability_usd": 3236050
+      },
+      {
+        "zip": "95157",
+        "city": "San Jose",
+        "returns": 234,
+        "agi_usd": 50338936,
+        "tax_liability_usd": 3212950
+      },
+      {
+        "zip": "95150",
+        "city": "San Jose",
+        "returns": 435,
+        "agi_usd": 62281573,
+        "tax_liability_usd": 2971354
+      },
+      {
+        "zip": "94088",
+        "city": "Sunnyvale",
+        "returns": 313,
+        "agi_usd": 46569114,
+        "tax_liability_usd": 2915345
+      },
+      {
+        "zip": "95160",
+        "city": "San Jose",
+        "returns": 215,
+        "agi_usd": 47407880,
+        "tax_liability_usd": 2635964
+      },
+      {
+        "zip": "94039",
+        "city": "Mountain View",
+        "returns": 274,
+        "agi_usd": 43648141,
+        "tax_liability_usd": 2632087
+      },
+      {
+        "zip": "94309",
+        "city": "Palo Alto",
+        "returns": 162,
+        "agi_usd": 35326987,
+        "tax_liability_usd": 2595299
+      },
+      {
+        "zip": "95055",
+        "city": "Santa Clara",
+        "returns": 381,
+        "agi_usd": 40698429,
+        "tax_liability_usd": 2114672
+      },
+      {
+        "zip": "95036",
+        "city": "Milpitas",
+        "returns": 397,
+        "agi_usd": 43729127,
+        "tax_liability_usd": 2045099
+      },
+      {
+        "zip": "95140",
+        "city": "Mount Hamilton",
+        "returns": 181,
+        "agi_usd": 29108968,
+        "tax_liability_usd": 1914547
+      },
+      {
+        "zip": "95164",
+        "city": "San Jose",
+        "returns": 140,
+        "agi_usd": 28276260,
+        "tax_liability_usd": 1879176
+      },
+      {
+        "zip": "95159",
+        "city": "San Jose",
+        "returns": 357,
+        "agi_usd": 33910093,
+        "tax_liability_usd": 1656879
+      },
+      {
+        "zip": "95153",
+        "city": "San Jose",
+        "returns": 354,
+        "agi_usd": 32368631,
+        "tax_liability_usd": 1454638
+      },
+      {
+        "zip": "95154",
+        "city": "San Jose",
+        "returns": 270,
+        "agi_usd": 28207366,
+        "tax_liability_usd": 1412253
+      },
+      {
+        "zip": "95009",
+        "city": "Campbell",
+        "returns": 198,
+        "agi_usd": 35443649,
+        "tax_liability_usd": 1272055
+      },
+      {
+        "zip": "95158",
+        "city": "San Jose",
+        "returns": 238,
+        "agi_usd": 24196117,
+        "tax_liability_usd": 1170844
+      },
+      {
+        "zip": "95151",
+        "city": "San Jose",
+        "returns": 582,
+        "agi_usd": 36765752,
+        "tax_liability_usd": 1097891
+      },
+      {
+        "zip": "95052",
+        "city": "Santa Clara",
+        "returns": 194,
+        "agi_usd": 20638490,
+        "tax_liability_usd": 1038777
+      },
+      {
+        "zip": "95152",
+        "city": "San Jose",
+        "returns": 258,
+        "agi_usd": 23734645,
+        "tax_liability_usd": 1038331
+      },
+      {
+        "zip": "95109",
+        "city": "San Jose",
+        "returns": 222,
+        "agi_usd": 21046265,
+        "tax_liability_usd": 1009507
+      },
+      {
+        "zip": "95044",
+        "city": "Redwood Estates",
+        "returns": 116,
+        "agi_usd": 16289456,
+        "tax_liability_usd": 920270
+      },
+      {
+        "zip": "95173",
+        "city": "San Jose",
+        "returns": 254,
+        "agi_usd": 20028565,
+        "tax_liability_usd": 770053
+      },
+      {
+        "zip": "95155",
+        "city": "San Jose",
+        "returns": 150,
+        "agi_usd": 15234748,
+        "tax_liability_usd": 738324
+      },
+      {
+        "zip": "95156",
+        "city": "San Jose",
+        "returns": 306,
+        "agi_usd": 20498433,
+        "tax_liability_usd": 671828
+      },
+      {
+        "zip": "95106",
+        "city": "San Jose",
+        "returns": 114,
+        "agi_usd": 9228089,
+        "tax_liability_usd": 415825
+      }
+    ]
+  }
+}

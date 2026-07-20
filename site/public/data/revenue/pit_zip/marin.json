@@ -1,0 +1,277 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Marin",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 1872875762,
+    "zips": [
+      {
+        "zip": "94941",
+        "city": "Mill Valley",
+        "returns": 14476,
+        "agi_usd": 5199337543,
+        "tax_liability_usd": 367379410
+      },
+      {
+        "zip": "94920",
+        "city": "Belvedere Tiburon",
+        "returns": 5915,
+        "agi_usd": 3644492963,
+        "tax_liability_usd": 274809623
+      },
+      {
+        "zip": "94901",
+        "city": "San Rafael",
+        "returns": 18690,
+        "agi_usd": 3329522713,
+        "tax_liability_usd": 192013645
+      },
+      {
+        "zip": "94904",
+        "city": "Greenbrae",
+        "returns": 5869,
+        "agi_usd": 2463518746,
+        "tax_liability_usd": 172573663
+      },
+      {
+        "zip": "94903",
+        "city": "San Rafael",
+        "returns": 14124,
+        "agi_usd": 2292884768,
+        "tax_liability_usd": 126498141
+      },
+      {
+        "zip": "94960",
+        "city": "San Anselmo",
+        "returns": 7018,
+        "agi_usd": 1728015730,
+        "tax_liability_usd": 109960213
+      },
+      {
+        "zip": "94965",
+        "city": "Sausalito",
+        "returns": 5703,
+        "agi_usd": 1331825598,
+        "tax_liability_usd": 89204157
+      },
+      {
+        "zip": "94925",
+        "city": "Corte Madera",
+        "returns": 4594,
+        "agi_usd": 1275089237,
+        "tax_liability_usd": 83313701
+      },
+      {
+        "zip": "94939",
+        "city": "Larkspur",
+        "returns": 3545,
+        "agi_usd": 1122253409,
+        "tax_liability_usd": 83246217
+      },
+      {
+        "zip": "94947",
+        "city": "Novato",
+        "returns": 11740,
+        "agi_usd": 1574828180,
+        "tax_liability_usd": 77144770
+      },
+      {
+        "zip": "94957",
+        "city": "Ross",
+        "returns": 1008,
+        "agi_usd": 1089280415,
+        "tax_liability_usd": 74191463
+      },
+      {
+        "zip": "94949",
+        "city": "Novato",
+        "returns": 8535,
+        "agi_usd": 1286048248,
+        "tax_liability_usd": 69779034
+      },
+      {
+        "zip": "94945",
+        "city": "Novato",
+        "returns": 8570,
+        "agi_usd": 1236557334,
+        "tax_liability_usd": 63881243
+      },
+      {
+        "zip": "94930",
+        "city": "Fairfax",
+        "returns": 4091,
+        "agi_usd": 641916052,
+        "tax_liability_usd": 35272058
+      },
+      {
+        "zip": "94942",
+        "city": "Mill Valley",
+        "returns": 449,
+        "agi_usd": 70784767,
+        "tax_liability_usd": 5159860
+      },
+      {
+        "zip": "94973",
+        "city": "Woodacre",
+        "returns": 722,
+        "agi_usd": 107526575,
+        "tax_liability_usd": 5112474
+      },
+      {
+        "zip": "94970",
+        "city": "Stinson Beach",
+        "returns": 269,
+        "agi_usd": 83100477,
+        "tax_liability_usd": 5051937
+      },
+      {
+        "zip": "94937",
+        "city": "Inverness",
+        "returns": 513,
+        "agi_usd": 75590416,
+        "tax_liability_usd": 4434119
+      },
+      {
+        "zip": "94956",
+        "city": "Point Reyes Station",
+        "returns": 683,
+        "agi_usd": 75340911,
+        "tax_liability_usd": 3609646
+      },
+      {
+        "zip": "94946",
+        "city": "Nicasio",
+        "returns": 292,
+        "agi_usd": 59201590,
+        "tax_liability_usd": 3575779
+      },
+      {
+        "zip": "94924",
+        "city": "Bolinas",
+        "returns": 533,
+        "agi_usd": 53563678,
+        "tax_liability_usd": 2872131
+      },
+      {
+        "zip": "94963",
+        "city": "San Geronimo",
+        "returns": 295,
+        "agi_usd": 53839534,
+        "tax_liability_usd": 2790801
+      },
+      {
+        "zip": "94966",
+        "city": "Sausalito",
+        "returns": 331,
+        "agi_usd": 44952481,
+        "tax_liability_usd": 2470068
+      },
+      {
+        "zip": "94933",
+        "city": "Forest Knolls",
+        "returns": 430,
+        "agi_usd": 41573117,
+        "tax_liability_usd": 2084427
+      },
+      {
+        "zip": "94914",
+        "city": "Kentfield",
+        "returns": 126,
+        "agi_usd": 27951592,
+        "tax_liability_usd": 1944522
+      },
+      {
+        "zip": "94948",
+        "city": "Novato",
+        "returns": 509,
+        "agi_usd": 48355775,
+        "tax_liability_usd": 1912727
+      },
+      {
+        "zip": "94912",
+        "city": "San Rafael",
+        "returns": 430,
+        "agi_usd": 42985271,
+        "tax_liability_usd": 1866647
+      },
+      {
+        "zip": "94977",
+        "city": "Larkspur",
+        "returns": 151,
+        "agi_usd": 27769589,
+        "tax_liability_usd": 1662177
+      },
+      {
+        "zip": "94938",
+        "city": "Lagunitas",
+        "returns": 325,
+        "agi_usd": 32773988,
+        "tax_liability_usd": 1446402
+      },
+      {
+        "zip": "94915",
+        "city": "San Rafael",
+        "returns": 329,
+        "agi_usd": 31842709,
+        "tax_liability_usd": 1434102
+      },
+      {
+        "zip": "94971",
+        "city": "Tomales",
+        "returns": 196,
+        "agi_usd": 22040134,
+        "tax_liability_usd": 1428430
+      },
+      {
+        "zip": "94979",
+        "city": "San Anselmo",
+        "returns": 185,
+        "agi_usd": 26444202,
+        "tax_liability_usd": 1383578
+      },
+      {
+        "zip": "94978",
+        "city": "Fairfax",
+        "returns": 203,
+        "agi_usd": 20947175,
+        "tax_liability_usd": 1132278
+      },
+      {
+        "zip": "94976",
+        "city": "Corte Madera",
+        "returns": 122,
+        "agi_usd": 17863094,
+        "tax_liability_usd": 955415
+      },
+      {
+        "zip": "94964",
+        "city": "San Quentin",
+        "returns": 157,
+        "agi_usd": 20563558,
+        "tax_liability_usd": 877996
+      },
+      {
+        "zip": "94913",
+        "city": "San Rafael",
+        "returns": 100,
+        "agi_usd": 9534769,
+        "tax_liability_usd": 402908
+      }
+    ]
+  }
+}

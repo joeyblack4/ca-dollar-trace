@@ -1,0 +1,1145 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "San Diego",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 7756855680,
+    "zips": [
+      {
+        "zip": "92130",
+        "city": "San Diego",
+        "returns": 27820,
+        "agi_usd": 7269120480,
+        "tax_liability_usd": 467349349
+      },
+      {
+        "zip": "92037",
+        "city": "La Jolla",
+        "returns": 19286,
+        "agi_usd": 6048351945,
+        "tax_liability_usd": 378268585
+      },
+      {
+        "zip": "92127",
+        "city": "San Diego",
+        "returns": 21054,
+        "agi_usd": 5369234774,
+        "tax_liability_usd": 370242554
+      },
+      {
+        "zip": "92067",
+        "city": "Rancho Santa Fe",
+        "returns": 5530,
+        "agi_usd": 4478094066,
+        "tax_liability_usd": 325397308
+      },
+      {
+        "zip": "92024",
+        "city": "Encinitas",
+        "returns": 24266,
+        "agi_usd": 4993206407,
+        "tax_liability_usd": 295378705
+      },
+      {
+        "zip": "92009",
+        "city": "Carlsbad",
+        "returns": 20845,
+        "agi_usd": 4077583077,
+        "tax_liability_usd": 237821731
+      },
+      {
+        "zip": "92129",
+        "city": "San Diego",
+        "returns": 24709,
+        "agi_usd": 3753396519,
+        "tax_liability_usd": 202614526
+      },
+      {
+        "zip": "92131",
+        "city": "San Diego",
+        "returns": 17088,
+        "agi_usd": 3390519595,
+        "tax_liability_usd": 192735381
+      },
+      {
+        "zip": "92064",
+        "city": "Poway",
+        "returns": 22083,
+        "agi_usd": 3398440424,
+        "tax_liability_usd": 178383261
+      },
+      {
+        "zip": "92014",
+        "city": "Del Mar",
+        "returns": 7159,
+        "agi_usd": 3380778745,
+        "tax_liability_usd": 175465944
+      },
+      {
+        "zip": "92109",
+        "city": "San Diego",
+        "returns": 24016,
+        "agi_usd": 2995951392,
+        "tax_liability_usd": 162613700
+      },
+      {
+        "zip": "92128",
+        "city": "San Diego",
+        "returns": 24032,
+        "agi_usd": 3244140444,
+        "tax_liability_usd": 162486407
+      },
+      {
+        "zip": "92126",
+        "city": "San Diego",
+        "returns": 37601,
+        "agi_usd": 3612315389,
+        "tax_liability_usd": 155621165
+      },
+      {
+        "zip": "92101",
+        "city": "San Diego",
+        "returns": 23508,
+        "agi_usd": 2867878744,
+        "tax_liability_usd": 151589906
+      },
+      {
+        "zip": "92103",
+        "city": "San Diego",
+        "returns": 19628,
+        "agi_usd": 2779241837,
+        "tax_liability_usd": 148300173
+      },
+      {
+        "zip": "92122",
+        "city": "San Diego",
+        "returns": 21229,
+        "agi_usd": 2654766477,
+        "tax_liability_usd": 137206415
+      },
+      {
+        "zip": "92078",
+        "city": "San Marcos",
+        "returns": 22556,
+        "agi_usd": 2762867835,
+        "tax_liability_usd": 133225060
+      },
+      {
+        "zip": "92117",
+        "city": "San Diego",
+        "returns": 26021,
+        "agi_usd": 2646534765,
+        "tax_liability_usd": 116044167
+      },
+      {
+        "zip": "92107",
+        "city": "San Diego",
+        "returns": 14172,
+        "agi_usd": 1980465201,
+        "tax_liability_usd": 116032298
+      },
+      {
+        "zip": "92011",
+        "city": "Carlsbad",
+        "returns": 11639,
+        "agi_usd": 2024528195,
+        "tax_liability_usd": 115485969
+      },
+      {
+        "zip": "92008",
+        "city": "Carlsbad",
+        "returns": 13752,
+        "agi_usd": 2014383172,
+        "tax_liability_usd": 100990693
+      },
+      {
+        "zip": "92104",
+        "city": "San Diego",
+        "returns": 24004,
+        "agi_usd": 2242588739,
+        "tax_liability_usd": 100934642
+      },
+      {
+        "zip": "92075",
+        "city": "Solana Beach",
+        "returns": 6389,
+        "agi_usd": 1585396516,
+        "tax_liability_usd": 97171014
+      },
+      {
+        "zip": "92106",
+        "city": "San Diego",
+        "returns": 8903,
+        "agi_usd": 1788420848,
+        "tax_liability_usd": 94264616
+      },
+      {
+        "zip": "92056",
+        "city": "Oceanside",
+        "returns": 26424,
+        "agi_usd": 2313089465,
+        "tax_liability_usd": 88878782
+      },
+      {
+        "zip": "92071",
+        "city": "Santee",
+        "returns": 26516,
+        "agi_usd": 2413635501,
+        "tax_liability_usd": 88077613
+      },
+      {
+        "zip": "91913",
+        "city": "Chula Vista",
+        "returns": 25613,
+        "agi_usd": 2450211153,
+        "tax_liability_usd": 87017043
+      },
+      {
+        "zip": "92028",
+        "city": "Fallbrook",
+        "returns": 23909,
+        "agi_usd": 2205466712,
+        "tax_liability_usd": 83553642
+      },
+      {
+        "zip": "92116",
+        "city": "San Diego",
+        "returns": 17672,
+        "agi_usd": 1786328556,
+        "tax_liability_usd": 83040711
+      },
+      {
+        "zip": "92120",
+        "city": "San Diego",
+        "returns": 15120,
+        "agi_usd": 1747747577,
+        "tax_liability_usd": 81860338
+      },
+      {
+        "zip": "91910",
+        "city": "Chula Vista",
+        "returns": 38020,
+        "agi_usd": 2625309785,
+        "tax_liability_usd": 79523763
+      },
+      {
+        "zip": "92026",
+        "city": "Escondido",
+        "returns": 24554,
+        "agi_usd": 2168888995,
+        "tax_liability_usd": 78839551
+      },
+      {
+        "zip": "91941",
+        "city": "La Mesa",
+        "returns": 15410,
+        "agi_usd": 1750277347,
+        "tax_liability_usd": 76898131
+      },
+      {
+        "zip": "92069",
+        "city": "San Marcos",
+        "returns": 22412,
+        "agi_usd": 1965521400,
+        "tax_liability_usd": 75712229
+      },
+      {
+        "zip": "92057",
+        "city": "Oceanside",
+        "returns": 26967,
+        "agi_usd": 2138891315,
+        "tax_liability_usd": 73723762
+      },
+      {
+        "zip": "92118",
+        "city": "Coronado",
+        "returns": 7028,
+        "agi_usd": 1289636412,
+        "tax_liability_usd": 73427959
+      },
+      {
+        "zip": "92111",
+        "city": "San Diego",
+        "returns": 21683,
+        "agi_usd": 1782036801,
+        "tax_liability_usd": 70662305
+      },
+      {
+        "zip": "92019",
+        "city": "El Cajon",
+        "returns": 19972,
+        "agi_usd": 1870356181,
+        "tax_liability_usd": 69654095
+      },
+      {
+        "zip": "92108",
+        "city": "San Diego",
+        "returns": 14345,
+        "agi_usd": 1512407839,
+        "tax_liability_usd": 69228688
+      },
+      {
+        "zip": "92020",
+        "city": "El Cajon",
+        "returns": 25415,
+        "agi_usd": 1949251955,
+        "tax_liability_usd": 67542771
+      },
+      {
+        "zip": "92029",
+        "city": "Escondido",
+        "returns": 10178,
+        "agi_usd": 1377815275,
+        "tax_liability_usd": 66351875
+      },
+      {
+        "zip": "92025",
+        "city": "Escondido",
+        "returns": 21427,
+        "agi_usd": 1709604485,
+        "tax_liability_usd": 65767515
+      },
+      {
+        "zip": "92084",
+        "city": "Vista",
+        "returns": 22737,
+        "agi_usd": 1786279520,
+        "tax_liability_usd": 64288760
+      },
+      {
+        "zip": "92115",
+        "city": "San Diego",
+        "returns": 25271,
+        "agi_usd": 1786654096,
+        "tax_liability_usd": 64052974
+      },
+      {
+        "zip": "92110",
+        "city": "San Diego",
+        "returns": 12747,
+        "agi_usd": 1362826305,
+        "tax_liability_usd": 63738938
+      },
+      {
+        "zip": "92065",
+        "city": "Ramona",
+        "returns": 17086,
+        "agi_usd": 1622075609,
+        "tax_liability_usd": 61648257
+      },
+      {
+        "zip": "92007",
+        "city": "Cardiff By The Sea",
+        "returns": 5535,
+        "agi_usd": 1093619217,
+        "tax_liability_usd": 61325899
+      },
+      {
+        "zip": "92010",
+        "city": "Carlsbad",
+        "returns": 8830,
+        "agi_usd": 1194591193,
+        "tax_liability_usd": 60720354
+      },
+      {
+        "zip": "91942",
+        "city": "La Mesa",
+        "returns": 19871,
+        "agi_usd": 1628603073,
+        "tax_liability_usd": 60380965
+      },
+      {
+        "zip": "92154",
+        "city": "San Diego",
+        "returns": 44778,
+        "agi_usd": 2597419040,
+        "tax_liability_usd": 60378982
+      },
+      {
+        "zip": "92123",
+        "city": "San Diego",
+        "returns": 14680,
+        "agi_usd": 1414185347,
+        "tax_liability_usd": 59927125
+      },
+      {
+        "zip": "92021",
+        "city": "El Cajon",
+        "returns": 30486,
+        "agi_usd": 2040235605,
+        "tax_liability_usd": 59094381
+      },
+      {
+        "zip": "92124",
+        "city": "San Diego",
+        "returns": 11794,
+        "agi_usd": 1311621430,
+        "tax_liability_usd": 58435958
+      },
+      {
+        "zip": "92054",
+        "city": "Oceanside",
+        "returns": 18148,
+        "agi_usd": 1494313190,
+        "tax_liability_usd": 58414031
+      },
+      {
+        "zip": "92027",
+        "city": "Escondido",
+        "returns": 25255,
+        "agi_usd": 1807700810,
+        "tax_liability_usd": 57182503
+      },
+      {
+        "zip": "91911",
+        "city": "Chula Vista",
+        "returns": 41628,
+        "agi_usd": 2374288704,
+        "tax_liability_usd": 55167958
+      },
+      {
+        "zip": "92081",
+        "city": "Vista",
+        "returns": 13976,
+        "agi_usd": 1333483131,
+        "tax_liability_usd": 53869789
+      },
+      {
+        "zip": "91915",
+        "city": "Chula Vista",
+        "returns": 15267,
+        "agi_usd": 1465021199,
+        "tax_liability_usd": 52987462
+      },
+      {
+        "zip": "92119",
+        "city": "San Diego",
+        "returns": 11650,
+        "agi_usd": 1251859740,
+        "tax_liability_usd": 52175119
+      },
+      {
+        "zip": "92040",
+        "city": "Lakeside",
+        "returns": 19930,
+        "agi_usd": 1588968576,
+        "tax_liability_usd": 51651345
+      },
+      {
+        "zip": "91977",
+        "city": "Spring Valley",
+        "returns": 27819,
+        "agi_usd": 1823068052,
+        "tax_liability_usd": 49870560
+      },
+      {
+        "zip": "91914",
+        "city": "Chula Vista",
+        "returns": 7716,
+        "agi_usd": 1021220489,
+        "tax_liability_usd": 46251359
+      },
+      {
+        "zip": "92114",
+        "city": "San Diego",
+        "returns": 30964,
+        "agi_usd": 1782376981,
+        "tax_liability_usd": 40648898
+      },
+      {
+        "zip": "92082",
+        "city": "Valley Center",
+        "returns": 10258,
+        "agi_usd": 974727219,
+        "tax_liability_usd": 39109968
+      },
+      {
+        "zip": "91902",
+        "city": "Bonita",
+        "returns": 8619,
+        "agi_usd": 907748143,
+        "tax_liability_usd": 38030261
+      },
+      {
+        "zip": "92102",
+        "city": "San Diego",
+        "returns": 18909,
+        "agi_usd": 1018087643,
+        "tax_liability_usd": 36606378
+      },
+      {
+        "zip": "91901",
+        "city": "Alpine",
+        "returns": 7798,
+        "agi_usd": 904126974,
+        "tax_liability_usd": 36430451
+      },
+      {
+        "zip": "92105",
+        "city": "San Diego",
+        "returns": 29063,
+        "agi_usd": 1438606429,
+        "tax_liability_usd": 33248855
+      },
+      {
+        "zip": "92083",
+        "city": "Vista",
+        "returns": 17334,
+        "agi_usd": 1076978561,
+        "tax_liability_usd": 29471053
+      },
+      {
+        "zip": "91950",
+        "city": "National City",
+        "returns": 26698,
+        "agi_usd": 1351624489,
+        "tax_liability_usd": 25655128
+      },
+      {
+        "zip": "92121",
+        "city": "San Diego",
+        "returns": 2387,
+        "agi_usd": 461171466,
+        "tax_liability_usd": 24590098
+      },
+      {
+        "zip": "92139",
+        "city": "San Diego",
+        "returns": 16482,
+        "agi_usd": 1011297706,
+        "tax_liability_usd": 23925739
+      },
+      {
+        "zip": "92058",
+        "city": "Oceanside",
+        "returns": 13922,
+        "agi_usd": 844714455,
+        "tax_liability_usd": 22434557
+      },
+      {
+        "zip": "91935",
+        "city": "Jamul",
+        "returns": 4247,
+        "agi_usd": 510547356,
+        "tax_liability_usd": 22368291
+      },
+      {
+        "zip": "91945",
+        "city": "Lemon Grove",
+        "returns": 12774,
+        "agi_usd": 642473287,
+        "tax_liability_usd": 20532082
+      },
+      {
+        "zip": "92091",
+        "city": "Rancho Santa Fe",
+        "returns": 820,
+        "agi_usd": 289413061,
+        "tax_liability_usd": 19896975
+      },
+      {
+        "zip": "91932",
+        "city": "Imperial Beach",
+        "returns": 11457,
+        "agi_usd": 713992026,
+        "tax_liability_usd": 19212733
+      },
+      {
+        "zip": "92173",
+        "city": "San Ysidro",
+        "returns": 25145,
+        "agi_usd": 1090056704,
+        "tax_liability_usd": 16259330
+      },
+      {
+        "zip": "92003",
+        "city": "Bonsall",
+        "returns": 2831,
+        "agi_usd": 343467639,
+        "tax_liability_usd": 15439912
+      },
+      {
+        "zip": "92113",
+        "city": "San Diego",
+        "returns": 20890,
+        "agi_usd": 922591668,
+        "tax_liability_usd": 14748752
+      },
+      {
+        "zip": "91978",
+        "city": "Spring Valley",
+        "returns": 4695,
+        "agi_usd": 348518172,
+        "tax_liability_usd": 10465707
+      },
+      {
+        "zip": "92038",
+        "city": "La Jolla",
+        "returns": 601,
+        "agi_usd": 147004561,
+        "tax_liability_usd": 7916880
+      },
+      {
+        "zip": "92023",
+        "city": "Encinitas",
+        "returns": 743,
+        "agi_usd": 105403424,
+        "tax_liability_usd": 6033373
+      },
+      {
+        "zip": "92061",
+        "city": "Pauma Valley",
+        "returns": 1379,
+        "agi_usd": 118060696,
+        "tax_liability_usd": 5284791
+      },
+      {
+        "zip": "92018",
+        "city": "Carlsbad",
+        "returns": 625,
+        "agi_usd": 102967396,
+        "tax_liability_usd": 4382277
+      },
+      {
+        "zip": "92178",
+        "city": "Coronado",
+        "returns": 405,
+        "agi_usd": 35026834,
+        "tax_liability_usd": 4263918
+      },
+      {
+        "zip": "92036",
+        "city": "Julian",
+        "returns": 1652,
+        "agi_usd": 121790627,
+        "tax_liability_usd": 4208307
+      },
+      {
+        "zip": "91916",
+        "city": "Descanso",
+        "returns": 892,
+        "agi_usd": 93018119,
+        "tax_liability_usd": 3815419
+      },
+      {
+        "zip": "92085",
+        "city": "Vista",
+        "returns": 774,
+        "agi_usd": 66265411,
+        "tax_liability_usd": 3275306
+      },
+      {
+        "zip": "92192",
+        "city": "San Diego",
+        "returns": 380,
+        "agi_usd": 58048120,
+        "tax_liability_usd": 3227664
+      },
+      {
+        "zip": "92150",
+        "city": "San Diego",
+        "returns": 587,
+        "agi_usd": 69585042,
+        "tax_liability_usd": 3194598
+      },
+      {
+        "zip": "92013",
+        "city": "Carlsbad",
+        "returns": 331,
+        "agi_usd": 49218514,
+        "tax_liability_usd": 3125121
+      },
+      {
+        "zip": "91962",
+        "city": "Pine Valley",
+        "returns": 881,
+        "agi_usd": 83427002,
+        "tax_liability_usd": 2933555
+      },
+      {
+        "zip": "92169",
+        "city": "San Diego",
+        "returns": 467,
+        "agi_usd": 53249293,
+        "tax_liability_usd": 2725282
+      },
+      {
+        "zip": "91906",
+        "city": "Campo",
+        "returns": 1624,
+        "agi_usd": 113820461,
+        "tax_liability_usd": 2658300
+      },
+      {
+        "zip": "92138",
+        "city": "San Diego",
+        "returns": 544,
+        "agi_usd": 60924798,
+        "tax_liability_usd": 2640994
+      },
+      {
+        "zip": "92198",
+        "city": "San Diego",
+        "returns": 404,
+        "agi_usd": 52177710,
+        "tax_liability_usd": 2486247
+      },
+      {
+        "zip": "92004",
+        "city": "Borrego Springs",
+        "returns": 1345,
+        "agi_usd": 77660768,
+        "tax_liability_usd": 2469537
+      },
+      {
+        "zip": "91903",
+        "city": "Alpine",
+        "returns": 517,
+        "agi_usd": 48383309,
+        "tax_liability_usd": 2266212
+      },
+      {
+        "zip": "92088",
+        "city": "Fallbrook",
+        "returns": 609,
+        "agi_usd": 46892409,
+        "tax_liability_usd": 1893560
+      },
+      {
+        "zip": "92163",
+        "city": "San Diego",
+        "returns": 446,
+        "agi_usd": 40692905,
+        "tax_liability_usd": 1892697
+      },
+      {
+        "zip": "92172",
+        "city": "San Diego",
+        "returns": 269,
+        "agi_usd": 35727203,
+        "tax_liability_usd": 1786612
+      },
+      {
+        "zip": "92074",
+        "city": "Poway",
+        "returns": 306,
+        "agi_usd": 32882571,
+        "tax_liability_usd": 1655864
+      },
+      {
+        "zip": "92166",
+        "city": "San Diego",
+        "returns": 230,
+        "agi_usd": 32254780,
+        "tax_liability_usd": 1628142
+      },
+      {
+        "zip": "91912",
+        "city": "Chula Vista",
+        "returns": 1045,
+        "agi_usd": 59998155,
+        "tax_liability_usd": 1558322
+      },
+      {
+        "zip": "92079",
+        "city": "San Marcos",
+        "returns": 531,
+        "agi_usd": 41507022,
+        "tax_liability_usd": 1539316
+      },
+      {
+        "zip": "92059",
+        "city": "Pala",
+        "returns": 830,
+        "agi_usd": 43458417,
+        "tax_liability_usd": 1498959
+      },
+      {
+        "zip": "92046",
+        "city": "Escondido",
+        "returns": 446,
+        "agi_usd": 38585649,
+        "tax_liability_usd": 1435408
+      },
+      {
+        "zip": "92070",
+        "city": "Santa Ysabel",
+        "returns": 538,
+        "agi_usd": 41845000,
+        "tax_liability_usd": 1391492
+      },
+      {
+        "zip": "92112",
+        "city": "San Diego",
+        "returns": 322,
+        "agi_usd": 32646652,
+        "tax_liability_usd": 1387719
+      },
+      {
+        "zip": "91908",
+        "city": "Bonita",
+        "returns": 288,
+        "agi_usd": 29936170,
+        "tax_liability_usd": 1322142
+      },
+      {
+        "zip": "92195",
+        "city": "San Diego",
+        "returns": 256,
+        "agi_usd": 23117466,
+        "tax_liability_usd": 1312569
+      },
+      {
+        "zip": "92196",
+        "city": "San Diego",
+        "returns": 331,
+        "agi_usd": 29008363,
+        "tax_liability_usd": 1291239
+      },
+      {
+        "zip": "91944",
+        "city": "La Mesa",
+        "returns": 339,
+        "agi_usd": 32980766,
+        "tax_liability_usd": 1251677
+      },
+      {
+        "zip": "92072",
+        "city": "Santee",
+        "returns": 438,
+        "agi_usd": 33300344,
+        "tax_liability_usd": 1242479
+      },
+      {
+        "zip": "92052",
+        "city": "Oceanside",
+        "returns": 491,
+        "agi_usd": 34638498,
+        "tax_liability_usd": 1164764
+      },
+      {
+        "zip": "92143",
+        "city": "San Ysidro",
+        "returns": 1012,
+        "agi_usd": 56799923,
+        "tax_liability_usd": 1139394
+      },
+      {
+        "zip": "91921",
+        "city": "Chula Vista",
+        "returns": 396,
+        "agi_usd": 31465931,
+        "tax_liability_usd": 1134396
+      },
+      {
+        "zip": "92092",
+        "city": "La Jolla",
+        "returns": 1280,
+        "agi_usd": 47372735,
+        "tax_liability_usd": 1095916
+      },
+      {
+        "zip": "91905",
+        "city": "Boulevard",
+        "returns": 721,
+        "agi_usd": 41464511,
+        "tax_liability_usd": 1089292
+      },
+      {
+        "zip": "92168",
+        "city": "San Diego",
+        "returns": 244,
+        "agi_usd": 25542813,
+        "tax_liability_usd": 1065350
+      },
+      {
+        "zip": "92086",
+        "city": "Warner Springs",
+        "returns": 588,
+        "agi_usd": 33699846,
+        "tax_liability_usd": 1021233
+      },
+      {
+        "zip": "92176",
+        "city": "San Diego",
+        "returns": 322,
+        "agi_usd": 25640274,
+        "tax_liability_usd": 997566
+      },
+      {
+        "zip": "92039",
+        "city": "La Jolla",
+        "returns": 177,
+        "agi_usd": 21537665,
+        "tax_liability_usd": 992131
+      },
+      {
+        "zip": "92060",
+        "city": "Palomar Mountain",
+        "returns": 161,
+        "agi_usd": 16980318,
+        "tax_liability_usd": 950905
+      },
+      {
+        "zip": "92022",
+        "city": "El Cajon",
+        "returns": 305,
+        "agi_usd": 24674412,
+        "tax_liability_usd": 930328
+      },
+      {
+        "zip": "92171",
+        "city": "San Diego",
+        "returns": 228,
+        "agi_usd": 19491743,
+        "tax_liability_usd": 920000
+      },
+      {
+        "zip": "92160",
+        "city": "San Diego",
+        "returns": 205,
+        "agi_usd": 18832910,
+        "tax_liability_usd": 909190
+      },
+      {
+        "zip": "92167",
+        "city": "San Diego",
+        "returns": 238,
+        "agi_usd": 20016183,
+        "tax_liability_usd": 897155
+      },
+      {
+        "zip": "91979",
+        "city": "Spring Valley",
+        "returns": 325,
+        "agi_usd": 25334943,
+        "tax_liability_usd": 888096
+      },
+      {
+        "zip": "92177",
+        "city": "San Diego",
+        "returns": 250,
+        "agi_usd": 21441101,
+        "tax_liability_usd": 856222
+      },
+      {
+        "zip": "92030",
+        "city": "Escondido",
+        "returns": 389,
+        "agi_usd": 24568756,
+        "tax_liability_usd": 758355
+      },
+      {
+        "zip": "92033",
+        "city": "Escondido",
+        "returns": 428,
+        "agi_usd": 27740139,
+        "tax_liability_usd": 737587
+      },
+      {
+        "zip": "92137",
+        "city": "San Diego",
+        "returns": 145,
+        "agi_usd": 18857077,
+        "tax_liability_usd": 731741
+      },
+      {
+        "zip": "92193",
+        "city": "San Diego",
+        "returns": 210,
+        "agi_usd": 17019569,
+        "tax_liability_usd": 728093
+      },
+      {
+        "zip": "92153",
+        "city": "San Diego",
+        "returns": 528,
+        "agi_usd": 33046772,
+        "tax_liability_usd": 709895
+      },
+      {
+        "zip": "91980",
+        "city": "Tecate",
+        "returns": 1121,
+        "agi_usd": 45339453,
+        "tax_liability_usd": 693815
+      },
+      {
+        "zip": "91963",
+        "city": "Potrero",
+        "returns": 681,
+        "agi_usd": 34349272,
+        "tax_liability_usd": 668872
+      },
+      {
+        "zip": "92159",
+        "city": "San Diego",
+        "returns": 175,
+        "agi_usd": 15989511,
+        "tax_liability_usd": 654107
+      },
+      {
+        "zip": "92175",
+        "city": "San Diego",
+        "returns": 169,
+        "agi_usd": 13988524,
+        "tax_liability_usd": 646978
+      },
+      {
+        "zip": "91909",
+        "city": "Chula Vista",
+        "returns": 241,
+        "agi_usd": 26971880,
+        "tax_liability_usd": 640322
+      },
+      {
+        "zip": "91946",
+        "city": "Lemon Grove",
+        "returns": 192,
+        "agi_usd": 14162553,
+        "tax_liability_usd": 603875
+      },
+      {
+        "zip": "91943",
+        "city": "La Mesa",
+        "returns": 146,
+        "agi_usd": 14645863,
+        "tax_liability_usd": 600739
+      },
+      {
+        "zip": "91917",
+        "city": "Dulzura",
+        "returns": 571,
+        "agi_usd": 29662495,
+        "tax_liability_usd": 548627
+      },
+      {
+        "zip": "91951",
+        "city": "National City",
+        "returns": 444,
+        "agi_usd": 23035623,
+        "tax_liability_usd": 540697
+      },
+      {
+        "zip": "92170",
+        "city": "San Diego",
+        "returns": 207,
+        "agi_usd": 14140930,
+        "tax_liability_usd": 538075
+      },
+      {
+        "zip": "91933",
+        "city": "Imperial Beach",
+        "returns": 269,
+        "agi_usd": 15409924,
+        "tax_liability_usd": 522860
+      },
+      {
+        "zip": "92142",
+        "city": "San Diego",
+        "returns": 144,
+        "agi_usd": 12029821,
+        "tax_liability_usd": 499091
+      },
+      {
+        "zip": "92051",
+        "city": "Oceanside",
+        "returns": 370,
+        "agi_usd": 20262915,
+        "tax_liability_usd": 494557
+      },
+      {
+        "zip": "92049",
+        "city": "Oceanside",
+        "returns": 161,
+        "agi_usd": 11541071,
+        "tax_liability_usd": 418761
+      },
+      {
+        "zip": "92174",
+        "city": "San Diego",
+        "returns": 251,
+        "agi_usd": 13841477,
+        "tax_liability_usd": 347493
+      },
+      {
+        "zip": "91931",
+        "city": "Guatay",
+        "returns": 180,
+        "agi_usd": 10983352,
+        "tax_liability_usd": 278893
+      },
+      {
+        "zip": "92068",
+        "city": "San Luis Rey",
+        "returns": 142,
+        "agi_usd": 8511913,
+        "tax_liability_usd": 255787
+      },
+      {
+        "zip": "92165",
+        "city": "San Diego",
+        "returns": 193,
+        "agi_usd": 9508777,
+        "tax_liability_usd": 236278
+      },
+      {
+        "zip": "91934",
+        "city": "Jacumba",
+        "returns": 261,
+        "agi_usd": 11457108,
+        "tax_liability_usd": 219014
+      },
+      {
+        "zip": "91976",
+        "city": "Spring Valley",
+        "returns": 120,
+        "agi_usd": 7954491,
+        "tax_liability_usd": 217247
+      },
+      {
+        "zip": "92066",
+        "city": "Ranchita",
+        "returns": 129,
+        "agi_usd": 7282147,
+        "tax_liability_usd": 181984
+      },
+      {
+        "zip": "92145",
+        "city": "San Diego",
+        "returns": 222,
+        "agi_usd": 7870475,
+        "tax_liability_usd": 165959
+      },
+      {
+        "zip": "92055",
+        "city": "Camp Pendleton",
+        "returns": 475,
+        "agi_usd": 11733385,
+        "tax_liability_usd": 90150
+      },
+      {
+        "zip": "92136",
+        "city": "San Diego",
+        "returns": 215,
+        "agi_usd": 6303904,
+        "tax_liability_usd": 55683
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Merced",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 221607691,
+    "zips": [
+      {
+        "zip": "95388",
+        "city": "Winton",
+        "returns": 5343,
+        "agi_usd": 618363499,
+        "tax_liability_usd": 53073248
+      },
+      {
+        "zip": "95340",
+        "city": "Merced",
+        "returns": 14449,
+        "agi_usd": 67170546,
+        "tax_liability_usd": 35450036
+      },
+      {
+        "zip": "93635",
+        "city": "Los Banos",
+        "returns": 20718,
+        "agi_usd": 1267638145,
+        "tax_liability_usd": 34696024
+      },
+      {
+        "zip": "95301",
+        "city": "Atwater",
+        "returns": 16259,
+        "agi_usd": 1041583282,
+        "tax_liability_usd": 28749572
+      },
+      {
+        "zip": "95348",
+        "city": "Merced",
+        "returns": 14654,
+        "agi_usd": 759073037,
+        "tax_liability_usd": 19897727
+      },
+      {
+        "zip": "95341",
+        "city": "Merced",
+        "returns": 12900,
+        "agi_usd": 585559535,
+        "tax_liability_usd": 11720392
+      },
+      {
+        "zip": "95334",
+        "city": "Livingston",
+        "returns": 7000,
+        "agi_usd": 359780129,
+        "tax_liability_usd": 7106362
+      },
+      {
+        "zip": "95324",
+        "city": "Hilmar",
+        "returns": 3195,
+        "agi_usd": 247231836,
+        "tax_liability_usd": 6968202
+      },
+      {
+        "zip": "95322",
+        "city": "Gustine",
+        "returns": 4289,
+        "agi_usd": 233363694,
+        "tax_liability_usd": 5532072
+      },
+      {
+        "zip": "93620",
+        "city": "Dos Palos",
+        "returns": 3865,
+        "agi_usd": 212411196,
+        "tax_liability_usd": 5475094
+      },
+      {
+        "zip": "95315",
+        "city": "Delhi",
+        "returns": 5222,
+        "agi_usd": 261418619,
+        "tax_liability_usd": 5074434
+      },
+      {
+        "zip": "95333",
+        "city": "Le Grand",
+        "returns": 1150,
+        "agi_usd": 55661033,
+        "tax_liability_usd": 1604389
+      },
+      {
+        "zip": "95317",
+        "city": "El Nido",
+        "returns": 316,
+        "agi_usd": 23393072,
+        "tax_liability_usd": 1141088
+      },
+      {
+        "zip": "95303",
+        "city": "Ballico",
+        "returns": 357,
+        "agi_usd": 24287922,
+        "tax_liability_usd": 1090258
+      },
+      {
+        "zip": "95365",
+        "city": "Planada",
+        "returns": 1800,
+        "agi_usd": 74534215,
+        "tax_liability_usd": 1000025
+      },
+      {
+        "zip": "95344",
+        "city": "Merced",
+        "returns": 382,
+        "agi_usd": 22203969,
+        "tax_liability_usd": 906772
+      },
+      {
+        "zip": "95374",
+        "city": "Stevinson",
+        "returns": 686,
+        "agi_usd": 33357564,
+        "tax_liability_usd": 894446
+      },
+      {
+        "zip": "95369",
+        "city": "Snelling",
+        "returns": 325,
+        "agi_usd": 21713274,
+        "tax_liability_usd": 860169
+      },
+      {
+        "zip": "93665",
+        "city": "South Dos Palos",
+        "returns": 187,
+        "agi_usd": 8949407,
+        "tax_liability_usd": 199247
+      },
+      {
+        "zip": "95312",
+        "city": "Cressey",
+        "returns": 135,
+        "agi_usd": 7331771,
+        "tax_liability_usd": 168134
+      }
+    ]
+  }
+}

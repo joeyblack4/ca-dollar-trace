@@ -1,0 +1,186 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "El Dorado",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 497177161,
+    "zips": [
+      {
+        "zip": "95762",
+        "city": "El Dorado Hills",
+        "returns": 22708,
+        "agi_usd": 4724678523,
+        "tax_liability_usd": 260965329
+      },
+      {
+        "zip": "95682",
+        "city": "Shingle Springs",
+        "returns": 14269,
+        "agi_usd": 1592953804,
+        "tax_liability_usd": 69373167
+      },
+      {
+        "zip": "95667",
+        "city": "Placerville",
+        "returns": 16457,
+        "agi_usd": 1427263581,
+        "tax_liability_usd": 53561478
+      },
+      {
+        "zip": "96150",
+        "city": "South Lake Tahoe",
+        "returns": 9923,
+        "agi_usd": 839993460,
+        "tax_liability_usd": 35887776
+      },
+      {
+        "zip": "95672",
+        "city": "Rescue",
+        "returns": 2239,
+        "agi_usd": 294585461,
+        "tax_liability_usd": 13176058
+      },
+      {
+        "zip": "95726",
+        "city": "Pollock Pines",
+        "returns": 3796,
+        "agi_usd": -718751815,
+        "tax_liability_usd": 8923383
+      },
+      {
+        "zip": "95709",
+        "city": "Camino",
+        "returns": 2204,
+        "agi_usd": 193609982,
+        "tax_liability_usd": 7155083
+      },
+      {
+        "zip": "95623",
+        "city": "El Dorado",
+        "returns": 2153,
+        "agi_usd": 189735876,
+        "tax_liability_usd": 6790631
+      },
+      {
+        "zip": "95614",
+        "city": "Cool",
+        "returns": 1930,
+        "agi_usd": 179853290,
+        "tax_liability_usd": 6611623
+      },
+      {
+        "zip": "95619",
+        "city": "Diamond Springs",
+        "returns": 2488,
+        "agi_usd": 167544797,
+        "tax_liability_usd": 5042873
+      },
+      {
+        "zip": "96151",
+        "city": "South Lake Tahoe",
+        "returns": 2970,
+        "agi_usd": 174493086,
+        "tax_liability_usd": 4632769
+      },
+      {
+        "zip": "96158",
+        "city": "South Lake Tahoe",
+        "returns": 1337,
+        "agi_usd": 103979632,
+        "tax_liability_usd": 3878951
+      },
+      {
+        "zip": "95684",
+        "city": "Somerset",
+        "returns": 1238,
+        "agi_usd": 99735037,
+        "tax_liability_usd": 3375817
+      },
+      {
+        "zip": "95633",
+        "city": "Garden Valley",
+        "returns": 1388,
+        "agi_usd": 104334081,
+        "tax_liability_usd": 3287836
+      },
+      {
+        "zip": "95664",
+        "city": "Pilot Hill",
+        "returns": 643,
+        "agi_usd": 72218816,
+        "tax_liability_usd": 3260552
+      },
+      {
+        "zip": "95634",
+        "city": "Georgetown",
+        "returns": 1345,
+        "agi_usd": 95475334,
+        "tax_liability_usd": 3033513
+      },
+      {
+        "zip": "95651",
+        "city": "Lotus",
+        "returns": 413,
+        "agi_usd": 38929459,
+        "tax_liability_usd": 1830047
+      },
+      {
+        "zip": "96142",
+        "city": "Tahoma",
+        "returns": 371,
+        "agi_usd": 36983125,
+        "tax_liability_usd": 1643308
+      },
+      {
+        "zip": "95635",
+        "city": "Greenwood",
+        "returns": 496,
+        "agi_usd": -104558363,
+        "tax_liability_usd": 1517348
+      },
+      {
+        "zip": "96155",
+        "city": "South Lake Tahoe",
+        "returns": 354,
+        "agi_usd": 31110967,
+        "tax_liability_usd": 1192808
+      },
+      {
+        "zip": "95656",
+        "city": "Mount Aukum",
+        "returns": 261,
+        "agi_usd": 22299195,
+        "tax_liability_usd": 846773
+      },
+      {
+        "zip": "95613",
+        "city": "Coloma",
+        "returns": 180,
+        "agi_usd": 16234966,
+        "tax_liability_usd": 842476
+      },
+      {
+        "zip": "95636",
+        "city": "Grizzly Flats",
+        "returns": 231,
+        "agi_usd": 13753072,
+        "tax_liability_usd": 347562
+      }
+    ]
+  }
+}

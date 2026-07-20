@@ -1,0 +1,200 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Shasta",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 179092212,
+    "zips": [
+      {
+        "zip": "96003",
+        "city": "Redding",
+        "returns": 18933,
+        "agi_usd": 1271985797,
+        "tax_liability_usd": 42368565
+      },
+      {
+        "zip": "96001",
+        "city": "Redding",
+        "returns": 14193,
+        "agi_usd": 1134904486,
+        "tax_liability_usd": 40144731
+      },
+      {
+        "zip": "96002",
+        "city": "Redding",
+        "returns": 14241,
+        "agi_usd": 948696189,
+        "tax_liability_usd": 28774587
+      },
+      {
+        "zip": "96022",
+        "city": "Cottonwood",
+        "returns": 6701,
+        "agi_usd": 487823236,
+        "tax_liability_usd": 15315789
+      },
+      {
+        "zip": "96007",
+        "city": "Anderson",
+        "returns": 9418,
+        "agi_usd": 502173272,
+        "tax_liability_usd": 14095243
+      },
+      {
+        "zip": "96073",
+        "city": "Palo Cedro",
+        "returns": 2129,
+        "agi_usd": 241413909,
+        "tax_liability_usd": 9556184
+      },
+      {
+        "zip": "96019",
+        "city": "Shasta Lake",
+        "returns": 4073,
+        "agi_usd": 223761857,
+        "tax_liability_usd": 5332942
+      },
+      {
+        "zip": "96049",
+        "city": "Redding",
+        "returns": 793,
+        "agi_usd": 77566313,
+        "tax_liability_usd": 4155423
+      },
+      {
+        "zip": "96062",
+        "city": "Millville",
+        "returns": 450,
+        "agi_usd": 60636910,
+        "tax_liability_usd": 3843709
+      },
+      {
+        "zip": "96088",
+        "city": "Shingletown",
+        "returns": 1892,
+        "agi_usd": 114448130,
+        "tax_liability_usd": 3292607
+      },
+      {
+        "zip": "96008",
+        "city": "Bella Vista",
+        "returns": 686,
+        "agi_usd": 56495694,
+        "tax_liability_usd": 2226241
+      },
+      {
+        "zip": "96013",
+        "city": "Burney",
+        "returns": 1504,
+        "agi_usd": 87696642,
+        "tax_liability_usd": 2138818
+      },
+      {
+        "zip": "96099",
+        "city": "Redding",
+        "returns": 451,
+        "agi_usd": 26403352,
+        "tax_liability_usd": 1798626
+      },
+      {
+        "zip": "96028",
+        "city": "Fall River Mills",
+        "returns": 582,
+        "agi_usd": 40805855,
+        "tax_liability_usd": 1465933
+      },
+      {
+        "zip": "96051",
+        "city": "Lakehead",
+        "returns": 421,
+        "agi_usd": 26642231,
+        "tax_liability_usd": 935187
+      },
+      {
+        "zip": "96087",
+        "city": "Shasta",
+        "returns": 327,
+        "agi_usd": 22540789,
+        "tax_liability_usd": 740645
+      },
+      {
+        "zip": "96069",
+        "city": "Oak Run",
+        "returns": 316,
+        "agi_usd": 20766097,
+        "tax_liability_usd": 712214
+      },
+      {
+        "zip": "96047",
+        "city": "Igo",
+        "returns": 274,
+        "agi_usd": 17385748,
+        "tax_liability_usd": 502710
+      },
+      {
+        "zip": "96096",
+        "city": "Whitmore",
+        "returns": 283,
+        "agi_usd": 16536041,
+        "tax_liability_usd": 481687
+      },
+      {
+        "zip": "96016",
+        "city": "Cassel",
+        "returns": 141,
+        "agi_usd": 9704738,
+        "tax_liability_usd": 294105
+      },
+      {
+        "zip": "96084",
+        "city": "Round Mountain",
+        "returns": 180,
+        "agi_usd": 9313201,
+        "tax_liability_usd": 280206
+      },
+      {
+        "zip": "96089",
+        "city": "Shasta Lake",
+        "returns": 192,
+        "agi_usd": 9499540,
+        "tax_liability_usd": 171222
+      },
+      {
+        "zip": "96065",
+        "city": "Montgomery Creek",
+        "returns": 135,
+        "agi_usd": 6777673,
+        "tax_liability_usd": 168452
+      },
+      {
+        "zip": "96040",
+        "city": "Hat Creek",
+        "returns": 100,
+        "agi_usd": 6097732,
+        "tax_liability_usd": 157299
+      },
+      {
+        "zip": "96033",
+        "city": "French Gulch",
+        "returns": 134,
+        "agi_usd": 6557795,
+        "tax_liability_usd": 139087
+      }
+    ]
+  }
+}

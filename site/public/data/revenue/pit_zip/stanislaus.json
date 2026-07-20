@@ -1,0 +1,214 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Stanislaus",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 519543198,
+    "zips": [
+      {
+        "zip": "95356",
+        "city": "Modesto",
+        "returns": 15017,
+        "agi_usd": 1863463374,
+        "tax_liability_usd": 75734376
+      },
+      {
+        "zip": "95355",
+        "city": "Modesto",
+        "returns": 26931,
+        "agi_usd": 1900763085,
+        "tax_liability_usd": 73605353
+      },
+      {
+        "zip": "95361",
+        "city": "Oakdale",
+        "returns": 14917,
+        "agi_usd": 1319584056,
+        "tax_liability_usd": 49087043
+      },
+      {
+        "zip": "95382",
+        "city": "Turlock",
+        "returns": 16398,
+        "agi_usd": 1363639066,
+        "tax_liability_usd": 48301517
+      },
+      {
+        "zip": "95350",
+        "city": "Modesto",
+        "returns": 22723,
+        "agi_usd": 1443367580,
+        "tax_liability_usd": 41167939
+      },
+      {
+        "zip": "95380",
+        "city": "Turlock",
+        "returns": 16607,
+        "agi_usd": 947324612,
+        "tax_liability_usd": 24247967
+      },
+      {
+        "zip": "95307",
+        "city": "Ceres",
+        "returns": 19179,
+        "agi_usd": 1043193775,
+        "tax_liability_usd": 23531724
+      },
+      {
+        "zip": "95363",
+        "city": "Patterson",
+        "returns": 12846,
+        "agi_usd": 849423552,
+        "tax_liability_usd": 23210574
+      },
+      {
+        "zip": "95367",
+        "city": "Riverbank",
+        "returns": 11071,
+        "agi_usd": 751643449,
+        "tax_liability_usd": 21486082
+      },
+      {
+        "zip": "95357",
+        "city": "Modesto",
+        "returns": 6002,
+        "agi_usd": 499745153,
+        "tax_liability_usd": 21283810
+      },
+      {
+        "zip": "95358",
+        "city": "Modesto",
+        "returns": 12797,
+        "agi_usd": 731281492,
+        "tax_liability_usd": 18767698
+      },
+      {
+        "zip": "95354",
+        "city": "Modesto",
+        "returns": 10504,
+        "agi_usd": 634118123,
+        "tax_liability_usd": 18094322
+      },
+      {
+        "zip": "95351",
+        "city": "Modesto",
+        "returns": 17961,
+        "agi_usd": 821356482,
+        "tax_liability_usd": 14417293
+      },
+      {
+        "zip": "95326",
+        "city": "Hughson",
+        "returns": 4775,
+        "agi_usd": 407411816,
+        "tax_liability_usd": 13999754
+      },
+      {
+        "zip": "95368",
+        "city": "Salida",
+        "returns": 6361,
+        "agi_usd": 456876846,
+        "tax_liability_usd": 13519153
+      },
+      {
+        "zip": "95316",
+        "city": "Denair",
+        "returns": 3030,
+        "agi_usd": 315876650,
+        "tax_liability_usd": 11941311
+      },
+      {
+        "zip": "95360",
+        "city": "Newman",
+        "returns": 5615,
+        "agi_usd": 327080649,
+        "tax_liability_usd": 7073184
+      },
+      {
+        "zip": "95386",
+        "city": "Waterford",
+        "returns": 4389,
+        "agi_usd": 284385363,
+        "tax_liability_usd": 7064568
+      },
+      {
+        "zip": "95353",
+        "city": "Modesto",
+        "returns": 321,
+        "agi_usd": 38151595,
+        "tax_liability_usd": 2617487
+      },
+      {
+        "zip": "95329",
+        "city": "La Grange",
+        "returns": 1111,
+        "agi_usd": 69195554,
+        "tax_liability_usd": 2072134
+      },
+      {
+        "zip": "95381",
+        "city": "Turlock",
+        "returns": 790,
+        "agi_usd": 57151690,
+        "tax_liability_usd": 1892472
+      },
+      {
+        "zip": "95328",
+        "city": "Keyes",
+        "returns": 1892,
+        "agi_usd": 95617674,
+        "tax_liability_usd": 1865705
+      },
+      {
+        "zip": "95323",
+        "city": "Hickman",
+        "returns": 497,
+        "agi_usd": 39258504,
+        "tax_liability_usd": 1738737
+      },
+      {
+        "zip": "95313",
+        "city": "Crows Landing",
+        "returns": 534,
+        "agi_usd": 31638612,
+        "tax_liability_usd": 864674
+      },
+      {
+        "zip": "95319",
+        "city": "Empire",
+        "returns": 878,
+        "agi_usd": 38934625,
+        "tax_liability_usd": 785619
+      },
+      {
+        "zip": "95352",
+        "city": "Modesto",
+        "returns": 262,
+        "agi_usd": 676714,
+        "tax_liability_usd": 780441
+      },
+      {
+        "zip": "95387",
+        "city": "Westley",
+        "returns": 523,
+        "agi_usd": 16902382,
+        "tax_liability_usd": 392261
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Plumas",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 24774301,
+    "zips": [
+      {
+        "zip": "95971",
+        "city": "Quincy",
+        "returns": 2642,
+        "agi_usd": 211054416,
+        "tax_liability_usd": 9036437
+      },
+      {
+        "zip": "96122",
+        "city": "Portola",
+        "returns": 1661,
+        "agi_usd": 107806835,
+        "tax_liability_usd": 3479174
+      },
+      {
+        "zip": "95947",
+        "city": "Greenville",
+        "returns": 447,
+        "agi_usd": 41738819,
+        "tax_liability_usd": 2529342
+      },
+      {
+        "zip": "96137",
+        "city": "Westwood",
+        "returns": 1120,
+        "agi_usd": 81477475,
+        "tax_liability_usd": 2511699
+      },
+      {
+        "zip": "96020",
+        "city": "Chester",
+        "returns": 1087,
+        "agi_usd": 74958769,
+        "tax_liability_usd": 2503243
+      },
+      {
+        "zip": "96103",
+        "city": "Blairsden-graeagle",
+        "returns": 716,
+        "agi_usd": 55952175,
+        "tax_liability_usd": 1992424
+      },
+      {
+        "zip": "96106",
+        "city": "Clio",
+        "returns": 230,
+        "agi_usd": 27142561,
+        "tax_liability_usd": 1258017
+      },
+      {
+        "zip": "95983",
+        "city": "Taylorsville",
+        "returns": 206,
+        "agi_usd": 17407157,
+        "tax_liability_usd": 858634
+      },
+      {
+        "zip": "96105",
+        "city": "Chilcoot",
+        "returns": 173,
+        "agi_usd": 11903387,
+        "tax_liability_usd": 335566
+      },
+      {
+        "zip": "95956",
+        "city": "Meadow Valley",
+        "returns": 154,
+        "agi_usd": 10256623,
+        "tax_liability_usd": 269765
+      }
+    ]
+  }
+}

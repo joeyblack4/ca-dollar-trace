@@ -1,0 +1,3494 @@
+{
+  "source": {
+    "name": "CDTFA Open Data Portal \u2014 Taxable Sales & Summary of Revenues",
+    "publisher": "California Department of Tax and Fee Administration",
+    "url": "https://cdtfa.ca.gov/dataportal/",
+    "license": "Public record (CDTFA)"
+  },
+  "as_of": "2026-07-17T164437Z",
+  "ingested_at": "2026-07-17T16:44:37.190119+00:00",
+  "cadence": "quarterly, ~5-month lag on taxable sales; Summary of Revenues annual",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Taxable sales are the tax base, not tax revenue: multiply by the applicable rate to approximate tax, but only the fund split from CDTFA's Summary of Revenues shows actual dollars received, and its latest complete fiscal year trails the budget bar.",
+    "Individual seller-permit data is confidential under R&TC \u00a77056; city cells below CDTFA's disclosure threshold arrive suppressed and are counted here, never estimated.",
+    "Business-type and city tables cannot be crossed \u2014 CDTFA publishes type-by-state and city-by-total only, so 'which business types in which city' is not answerable from public data."
+  ],
+  "data": {
+    "latest_quarter": "2026-Q1",
+    "trailing_quarters": [
+      "2025-Q2",
+      "2025-Q3",
+      "2025-Q4",
+      "2026-Q1"
+    ],
+    "budget_reference": {
+      "budget_year": "2025-26",
+      "waterfall_usd": 34862000000,
+      "stats_total_usd": 35009890000,
+      "note": "The budget waterfall shows the Department of Finance's enacted General Fund estimate for 2025-26. CDTFA's Summary of Revenues shows the General Fund actually received $35.0B in 2024-25, the latest complete fiscal year \u2014 close measures, different years, shown side by side."
+    },
+    "fund_split_fiscal_year": "2024-25",
+    "fund_split": [
+      {
+        "fund": "State General Fund",
+        "revenue_usd": 35009890000
+      },
+      {
+        "fund": "Special tax districts (local add-on rates)",
+        "revenue_usd": 14994883000
+      },
+      {
+        "fund": "Local Revenue Fund 2011 (realignment)",
+        "revenue_usd": 9411035000
+      },
+      {
+        "fund": "Cities & counties (Bradley-Burns 1%)",
+        "revenue_usd": 8944316000
+      },
+      {
+        "fund": "Local Revenue Fund (1991 realignment)",
+        "revenue_usd": 4748247000
+      },
+      {
+        "fund": "Public Safety Fund (Prop 172)",
+        "revenue_usd": 4748246000
+      }
+    ],
+    "business_types": [
+      {
+        "label": "Food Services and Drinking Places",
+        "naics": "722",
+        "taxable_sales_usd": 115077838738,
+        "permits": 139377,
+        "share_pct": 12.15
+      },
+      {
+        "label": "Wholesale Trade",
+        "naics": "42",
+        "taxable_sales_usd": 108670304298,
+        "permits": 135973,
+        "share_pct": 11.47
+      },
+      {
+        "label": "Motor Vehicle and Parts Dealers",
+        "naics": "441",
+        "taxable_sales_usd": 106437910748,
+        "permits": 37653,
+        "share_pct": 11.23
+      },
+      {
+        "label": "Miscellaneous Store Retailers",
+        "naics": "453",
+        "taxable_sales_usd": 84792273737,
+        "permits": 218617,
+        "share_pct": 8.95
+      },
+      {
+        "label": "General Merchandise Stores",
+        "naics": "452",
+        "taxable_sales_usd": 68323019200,
+        "permits": 42060,
+        "share_pct": 7.21
+      },
+      {
+        "label": "Manufacturing",
+        "naics": "31 - 33",
+        "taxable_sales_usd": 67715529924,
+        "permits": 132368,
+        "share_pct": 7.15
+      },
+      {
+        "label": "Gasoline Stations",
+        "naics": "447",
+        "taxable_sales_usd": 55493130140,
+        "permits": 11470,
+        "share_pct": 5.86
+      },
+      {
+        "label": "Clothing and Clothing Accessories Stores",
+        "naics": "448",
+        "taxable_sales_usd": 50851595611,
+        "permits": 115237,
+        "share_pct": 5.37
+      },
+      {
+        "label": "Building Material and Garden Equipment and Supplies",
+        "naics": "444",
+        "taxable_sales_usd": 47959118242,
+        "permits": 15605,
+        "share_pct": 5.06
+      },
+      {
+        "label": "Food and Beverage Stores",
+        "naics": "445",
+        "taxable_sales_usd": 36721259117,
+        "permits": 49277,
+        "share_pct": 3.88
+      },
+      {
+        "label": "Real Estate and Rental and Leasing",
+        "naics": "53",
+        "taxable_sales_usd": 29678219045,
+        "permits": 19359,
+        "share_pct": 3.13
+      },
+      {
+        "label": "Nonstore Retailers",
+        "naics": "454",
+        "taxable_sales_usd": 18473439169,
+        "permits": 179,
+        "share_pct": 1.95
+      },
+      {
+        "label": "Electronics and Appliance Stores",
+        "naics": "443",
+        "taxable_sales_usd": 16882848354,
+        "permits": 17467,
+        "share_pct": 1.78
+      },
+      {
+        "label": "Health and Personal Care Stores",
+        "naics": "446",
+        "taxable_sales_usd": 16088328029,
+        "permits": 45619,
+        "share_pct": 1.7
+      },
+      {
+        "label": "Information",
+        "naics": "51",
+        "taxable_sales_usd": 15521028833,
+        "permits": 14782,
+        "share_pct": 1.64
+      },
+      {
+        "label": "Other Services (except Public Administration)",
+        "naics": "81",
+        "taxable_sales_usd": 15378536603,
+        "permits": 125893,
+        "share_pct": 1.62
+      },
+      {
+        "label": "Furniture and Home Furnishings Stores",
+        "naics": "442",
+        "taxable_sales_usd": 14106576028,
+        "permits": 16041,
+        "share_pct": 1.49
+      },
+      {
+        "label": "Construction",
+        "naics": "23",
+        "taxable_sales_usd": 13418750004,
+        "permits": 21282,
+        "share_pct": 1.42
+      },
+      {
+        "label": "Professional, Scientific, and Technical Services",
+        "naics": "54",
+        "taxable_sales_usd": 12145986358,
+        "permits": 55345,
+        "share_pct": 1.28
+      },
+      {
+        "label": "Sporting Goods, Hobby, Musical Instruments, Book Stores",
+        "naics": "451",
+        "taxable_sales_usd": 10919662685,
+        "permits": 35140,
+        "share_pct": 1.15
+      },
+      {
+        "label": "Public Administration",
+        "naics": "92",
+        "taxable_sales_usd": 10850980974,
+        "permits": 2123,
+        "share_pct": 1.15
+      },
+      {
+        "label": "Arts, Entertainment, and Recreation",
+        "naics": "71",
+        "taxable_sales_usd": 6178716676,
+        "permits": 29765,
+        "share_pct": 0.65
+      },
+      {
+        "label": "Accommodation",
+        "naics": "721",
+        "taxable_sales_usd": 5656210404,
+        "permits": 3734,
+        "share_pct": 0.6
+      },
+      {
+        "label": "Administrative and Support and Waste Management and Remediation Services",
+        "naics": "56",
+        "taxable_sales_usd": 3894654420,
+        "permits": 15516,
+        "share_pct": 0.41
+      },
+      {
+        "label": "Transportation and Warehousing",
+        "naics": "48 - 49",
+        "taxable_sales_usd": 3518721633,
+        "permits": 6970,
+        "share_pct": 0.37
+      },
+      {
+        "label": "Utilities",
+        "naics": "22",
+        "taxable_sales_usd": 3204844399,
+        "permits": 1730,
+        "share_pct": 0.34
+      },
+      {
+        "label": "Others",
+        "naics": "Others",
+        "taxable_sales_usd": 2492229886,
+        "permits": 9687,
+        "share_pct": 0.26
+      },
+      {
+        "label": "Health Care and Social Assistance",
+        "naics": "62",
+        "taxable_sales_usd": 2055328471,
+        "permits": 13120,
+        "share_pct": 0.22
+      },
+      {
+        "label": "Finance and Insurance",
+        "naics": "52",
+        "taxable_sales_usd": 1638192648,
+        "permits": 2804,
+        "share_pct": 0.17
+      },
+      {
+        "label": "Agriculture, Forestry, Fishing and Hunting",
+        "naics": "11",
+        "taxable_sales_usd": 1403610257,
+        "permits": 8999,
+        "share_pct": 0.15
+      },
+      {
+        "label": "Educational Services",
+        "naics": "61",
+        "taxable_sales_usd": 984864898,
+        "permits": 10947,
+        "share_pct": 0.1
+      },
+      {
+        "label": "Mining, Quarrying, and Oil and Gas Extraction",
+        "naics": "21",
+        "taxable_sales_usd": 885828265,
+        "permits": 691,
+        "share_pct": 0.09
+      },
+      {
+        "label": "Management of Companies and Enterprises",
+        "naics": "55",
+        "taxable_sales_usd": 70155939,
+        "permits": 223,
+        "share_pct": 0.01
+      }
+    ],
+    "business_type_reconciliation": {
+      "partition_sum_usd": 947489693733,
+      "total_all_outlets_usd": 947489693733
+    },
+    "counties": [
+      {
+        "county": "Los Angeles",
+        "taxable_sales_usd": 206383082481,
+        "suppressed": false
+      },
+      {
+        "county": "Orange",
+        "taxable_sales_usd": 87804783385,
+        "suppressed": false
+      },
+      {
+        "county": "San Diego",
+        "taxable_sales_usd": 82514253980,
+        "suppressed": false
+      },
+      {
+        "county": "San Bernardino",
+        "taxable_sales_usd": 62807502438,
+        "suppressed": false
+      },
+      {
+        "county": "Riverside",
+        "taxable_sales_usd": 61417320485,
+        "suppressed": false
+      },
+      {
+        "county": "Santa Clara",
+        "taxable_sales_usd": 57458465915,
+        "suppressed": false
+      },
+      {
+        "county": "Alameda",
+        "taxable_sales_usd": 40417490838,
+        "suppressed": false
+      },
+      {
+        "county": "Sacramento",
+        "taxable_sales_usd": 37063200898,
+        "suppressed": false
+      },
+      {
+        "county": "San Joaquin",
+        "taxable_sales_usd": 25833731968,
+        "suppressed": false
+      },
+      {
+        "county": "Fresno",
+        "taxable_sales_usd": 23967155185,
+        "suppressed": false
+      },
+      {
+        "county": "San Mateo",
+        "taxable_sales_usd": 23739958236,
+        "suppressed": false
+      },
+      {
+        "county": "Kern",
+        "taxable_sales_usd": 23057861258,
+        "suppressed": false
+      },
+      {
+        "county": "Contra Costa",
+        "taxable_sales_usd": 22070738952,
+        "suppressed": false
+      },
+      {
+        "county": "Ventura",
+        "taxable_sales_usd": 20316874184,
+        "suppressed": false
+      },
+      {
+        "county": "Placer",
+        "taxable_sales_usd": 13877665328,
+        "suppressed": false
+      },
+      {
+        "county": "Stanislaus",
+        "taxable_sales_usd": 12786472878,
+        "suppressed": false
+      },
+      {
+        "county": "Sonoma",
+        "taxable_sales_usd": 11729399103,
+        "suppressed": false
+      },
+      {
+        "county": "Solano",
+        "taxable_sales_usd": 10474955658,
+        "suppressed": false
+      },
+      {
+        "county": "Tulare",
+        "taxable_sales_usd": 10473845572,
+        "suppressed": false
+      },
+      {
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 9962468585,
+        "suppressed": false
+      },
+      {
+        "county": "Monterey",
+        "taxable_sales_usd": 9676895561,
+        "suppressed": false
+      },
+      {
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 7190795134,
+        "suppressed": false
+      },
+      {
+        "county": "Marin",
+        "taxable_sales_usd": 6735423265,
+        "suppressed": false
+      },
+      {
+        "county": "Yolo",
+        "taxable_sales_usd": 5717772442,
+        "suppressed": false
+      },
+      {
+        "county": "Santa Cruz",
+        "taxable_sales_usd": 5067095889,
+        "suppressed": false
+      },
+      {
+        "county": "San Francisco",
+        "taxable_sales_usd": 4940693481,
+        "suppressed": false
+      },
+      {
+        "county": "Merced",
+        "taxable_sales_usd": 4569533097,
+        "suppressed": false
+      },
+      {
+        "county": "Napa",
+        "taxable_sales_usd": 4493371830,
+        "suppressed": false
+      },
+      {
+        "county": "Butte",
+        "taxable_sales_usd": 4183801998,
+        "suppressed": false
+      },
+      {
+        "county": "Shasta",
+        "taxable_sales_usd": 4080092645,
+        "suppressed": false
+      },
+      {
+        "county": "Imperial",
+        "taxable_sales_usd": 3638493760,
+        "suppressed": false
+      },
+      {
+        "county": "El Dorado",
+        "taxable_sales_usd": 3341356013,
+        "suppressed": false
+      },
+      {
+        "county": "Madera",
+        "taxable_sales_usd": 2534186180,
+        "suppressed": false
+      },
+      {
+        "county": "Kings",
+        "taxable_sales_usd": 2531559460,
+        "suppressed": false
+      },
+      {
+        "county": "Humboldt",
+        "taxable_sales_usd": 2273173530,
+        "suppressed": false
+      },
+      {
+        "county": "Sutter",
+        "taxable_sales_usd": 2240340317,
+        "suppressed": false
+      },
+      {
+        "county": "Nevada",
+        "taxable_sales_usd": 1916589213,
+        "suppressed": false
+      },
+      {
+        "county": "Mendocino",
+        "taxable_sales_usd": 1697489938,
+        "suppressed": false
+      },
+      {
+        "county": "Tehama",
+        "taxable_sales_usd": 1168456742,
+        "suppressed": false
+      },
+      {
+        "county": "Tuolumne",
+        "taxable_sales_usd": 1059281549,
+        "suppressed": false
+      },
+      {
+        "county": "San Benito",
+        "taxable_sales_usd": 1053424839,
+        "suppressed": false
+      },
+      {
+        "county": "Yuba",
+        "taxable_sales_usd": 1051262465,
+        "suppressed": false
+      },
+      {
+        "county": "Siskiyou",
+        "taxable_sales_usd": 806263534,
+        "suppressed": false
+      },
+      {
+        "county": "Lake",
+        "taxable_sales_usd": 772936468,
+        "suppressed": false
+      },
+      {
+        "county": "Amador",
+        "taxable_sales_usd": 596336612,
+        "suppressed": false
+      },
+      {
+        "county": "Glenn",
+        "taxable_sales_usd": 592616752,
+        "suppressed": false
+      },
+      {
+        "county": "Colusa",
+        "taxable_sales_usd": 579831582,
+        "suppressed": false
+      },
+      {
+        "county": "Calaveras",
+        "taxable_sales_usd": 570333736,
+        "suppressed": false
+      },
+      {
+        "county": "Inyo",
+        "taxable_sales_usd": 496714886,
+        "suppressed": false
+      },
+      {
+        "county": "Mono",
+        "taxable_sales_usd": 465075064,
+        "suppressed": false
+      },
+      {
+        "county": "Del Norte",
+        "taxable_sales_usd": 378108899,
+        "suppressed": false
+      },
+      {
+        "county": "Lassen",
+        "taxable_sales_usd": 368539537,
+        "suppressed": false
+      },
+      {
+        "county": "Plumas",
+        "taxable_sales_usd": 341068412,
+        "suppressed": false
+      },
+      {
+        "county": "Mariposa",
+        "taxable_sales_usd": 280843970,
+        "suppressed": false
+      },
+      {
+        "county": "Trinity",
+        "taxable_sales_usd": 117907646,
+        "suppressed": false
+      },
+      {
+        "county": "Modoc",
+        "taxable_sales_usd": 117717539,
+        "suppressed": false
+      },
+      {
+        "county": "Sierra",
+        "taxable_sales_usd": 35538200,
+        "suppressed": false
+      },
+      {
+        "county": "Alpine",
+        "taxable_sales_usd": 32724698,
+        "suppressed": false
+      }
+    ],
+    "county_reconciliation": {
+      "counties_sum_usd": 931870874210,
+      "statewide_total_usd": 947489693733
+    },
+    "cities": [
+      {
+        "city": "Los Angeles",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 53314455644,
+        "suppressed": false
+      },
+      {
+        "city": "San Diego",
+        "county": "San Diego",
+        "taxable_sales_usd": 30418933506,
+        "suppressed": false
+      },
+      {
+        "city": "San Jose",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 21592758680,
+        "suppressed": false
+      },
+      {
+        "city": "SAN FRANCISCO",
+        "county": "San Francisco",
+        "taxable_sales_usd": 15348766403,
+        "suppressed": false
+      },
+      {
+        "city": "Fresno",
+        "county": "Fresno",
+        "taxable_sales_usd": 13019860470,
+        "suppressed": false
+      },
+      {
+        "city": "Ontario",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 12852717485,
+        "suppressed": false
+      },
+      {
+        "city": "Anaheim",
+        "county": "Orange",
+        "taxable_sales_usd": 9518415002,
+        "suppressed": false
+      },
+      {
+        "city": "Sacramento",
+        "county": "Sacramento",
+        "taxable_sales_usd": 8681653537,
+        "suppressed": false
+      },
+      {
+        "city": "Tracy",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 8555584384,
+        "suppressed": false
+      },
+      {
+        "city": "Bakersfield",
+        "county": "Kern",
+        "taxable_sales_usd": 7976749436,
+        "suppressed": false
+      },
+      {
+        "city": "Irvine",
+        "county": "Orange",
+        "taxable_sales_usd": 7955974380,
+        "suppressed": false
+      },
+      {
+        "city": "Riverside",
+        "county": "Riverside",
+        "taxable_sales_usd": 7839947539,
+        "suppressed": false
+      },
+      {
+        "city": "Long Beach",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 6943152770,
+        "suppressed": false
+      },
+      {
+        "city": "Costa Mesa",
+        "county": "Orange",
+        "taxable_sales_usd": 6668416342,
+        "suppressed": false
+      },
+      {
+        "city": "Stockton",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 6597054580,
+        "suppressed": false
+      },
+      {
+        "city": "Rialto",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 6505784180,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Clara",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 6218356148,
+        "suppressed": false
+      },
+      {
+        "city": "Fremont",
+        "county": "Alameda",
+        "taxable_sales_usd": 6141100905,
+        "suppressed": false
+      },
+      {
+        "city": "Roseville",
+        "county": "Placer",
+        "taxable_sales_usd": 5968335190,
+        "suppressed": false
+      },
+      {
+        "city": "Oxnard",
+        "county": "Ventura",
+        "taxable_sales_usd": 5418296607,
+        "suppressed": false
+      },
+      {
+        "city": "Corona",
+        "county": "Riverside",
+        "taxable_sales_usd": 4949801925,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Ana",
+        "county": "Orange",
+        "taxable_sales_usd": 4863118827,
+        "suppressed": false
+      },
+      {
+        "city": "Torrance",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 4817836486,
+        "suppressed": false
+      },
+      {
+        "city": "Orange",
+        "county": "Orange",
+        "taxable_sales_usd": 4792347008,
+        "suppressed": false
+      },
+      {
+        "city": "Oakland",
+        "county": "Alameda",
+        "taxable_sales_usd": 4558184866,
+        "suppressed": false
+      },
+      {
+        "city": "San Bernardino",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 4403569637,
+        "suppressed": false
+      },
+      {
+        "city": "Visalia",
+        "county": "Tulare",
+        "taxable_sales_usd": 4394135984,
+        "suppressed": false
+      },
+      {
+        "city": "Fontana",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 4373051130,
+        "suppressed": false
+      },
+      {
+        "city": "Eastvale",
+        "county": "Riverside",
+        "taxable_sales_usd": 4345214416,
+        "suppressed": false
+      },
+      {
+        "city": "Carlsbad",
+        "county": "San Diego",
+        "taxable_sales_usd": 4194551500,
+        "suppressed": false
+      },
+      {
+        "city": "Hayward",
+        "county": "Alameda",
+        "taxable_sales_usd": 4163822454,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Clarita",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 4114911406,
+        "suppressed": false
+      },
+      {
+        "city": "Temecula",
+        "county": "Riverside",
+        "taxable_sales_usd": 4099834392,
+        "suppressed": false
+      },
+      {
+        "city": "Chula Vista",
+        "county": "San Diego",
+        "taxable_sales_usd": 4030205117,
+        "suppressed": false
+      },
+      {
+        "city": "Newport Beach",
+        "county": "Orange",
+        "taxable_sales_usd": 3984765496,
+        "suppressed": false
+      },
+      {
+        "city": "Huntington Beach",
+        "county": "Orange",
+        "taxable_sales_usd": 3955882916,
+        "suppressed": false
+      },
+      {
+        "city": "Pasadena",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3831498957,
+        "suppressed": false
+      },
+      {
+        "city": "Beverly Hills",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3797856529,
+        "suppressed": false
+      },
+      {
+        "city": "Glendale",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3789219992,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Rosa",
+        "county": "Sonoma",
+        "taxable_sales_usd": 3767357974,
+        "suppressed": false
+      },
+      {
+        "city": "Escondido",
+        "county": "San Diego",
+        "taxable_sales_usd": 3534012726,
+        "suppressed": false
+      },
+      {
+        "city": "Cerritos",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3434595560,
+        "suppressed": false
+      },
+      {
+        "city": "Sunnyvale",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 3419029002,
+        "suppressed": false
+      },
+      {
+        "city": "Burbank",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3345059802,
+        "suppressed": false
+      },
+      {
+        "city": "Carson",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3344730977,
+        "suppressed": false
+      },
+      {
+        "city": "Thousand Oaks",
+        "county": "Ventura",
+        "taxable_sales_usd": 3317192218,
+        "suppressed": false
+      },
+      {
+        "city": "Salinas",
+        "county": "Monterey",
+        "taxable_sales_usd": 3316754457,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Fe Springs",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 3300855897,
+        "suppressed": false
+      },
+      {
+        "city": "Elk Grove",
+        "county": "Sacramento",
+        "taxable_sales_usd": 3264050549,
+        "suppressed": false
+      },
+      {
+        "city": "Modesto",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 3246307164,
+        "suppressed": false
+      },
+      {
+        "city": "Rancho Cucamonga",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 3234402791,
+        "suppressed": false
+      },
+      {
+        "city": "Concord",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 3225732972,
+        "suppressed": false
+      },
+      {
+        "city": "Tustin",
+        "county": "Orange",
+        "taxable_sales_usd": 3191072058,
+        "suppressed": false
+      },
+      {
+        "city": "Chino",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 3136042880,
+        "suppressed": false
+      },
+      {
+        "city": "Livermore",
+        "county": "Alameda",
+        "taxable_sales_usd": 3078873088,
+        "suppressed": false
+      },
+      {
+        "city": "San Leandro",
+        "county": "Alameda",
+        "taxable_sales_usd": 2989067947,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Monica",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2956531479,
+        "suppressed": false
+      },
+      {
+        "city": "Industry",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2954620591,
+        "suppressed": false
+      },
+      {
+        "city": "Buena Park",
+        "county": "Orange",
+        "taxable_sales_usd": 2814395591,
+        "suppressed": false
+      },
+      {
+        "city": "Moreno Valley",
+        "county": "Riverside",
+        "taxable_sales_usd": 2770216823,
+        "suppressed": false
+      },
+      {
+        "city": "San Bruno",
+        "county": "San Mateo",
+        "taxable_sales_usd": 2761831519,
+        "suppressed": false
+      },
+      {
+        "city": "Victorville",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 2704353602,
+        "suppressed": false
+      },
+      {
+        "city": "Fairfield",
+        "county": "Solano",
+        "taxable_sales_usd": 2682623309,
+        "suppressed": false
+      },
+      {
+        "city": "Palo Alto",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 2643764534,
+        "suppressed": false
+      },
+      {
+        "city": "Milpitas",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 2629063386,
+        "suppressed": false
+      },
+      {
+        "city": "El Cajon",
+        "county": "San Diego",
+        "taxable_sales_usd": 2620381490,
+        "suppressed": false
+      },
+      {
+        "city": "Beaumont",
+        "county": "Riverside",
+        "taxable_sales_usd": 2572274729,
+        "suppressed": false
+      },
+      {
+        "city": "Clovis",
+        "county": "Fresno",
+        "taxable_sales_usd": 2557833870,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Maria",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 2521760416,
+        "suppressed": false
+      },
+      {
+        "city": "Ventura",
+        "county": "Ventura",
+        "taxable_sales_usd": 2501656804,
+        "suppressed": false
+      },
+      {
+        "city": "Fullerton",
+        "county": "Orange",
+        "taxable_sales_usd": 2486933343,
+        "suppressed": false
+      },
+      {
+        "city": "Redding",
+        "county": "Shasta",
+        "taxable_sales_usd": 2478809130,
+        "suppressed": false
+      },
+      {
+        "city": "Garden Grove",
+        "county": "Orange",
+        "taxable_sales_usd": 2441766910,
+        "suppressed": false
+      },
+      {
+        "city": "Walnut Creek",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 2431626031,
+        "suppressed": false
+      },
+      {
+        "city": "Chico",
+        "county": "Butte",
+        "taxable_sales_usd": 2363041844,
+        "suppressed": false
+      },
+      {
+        "city": "Vacaville",
+        "county": "Solano",
+        "taxable_sales_usd": 2340336227,
+        "suppressed": false
+      },
+      {
+        "city": "Oceanside",
+        "county": "San Diego",
+        "taxable_sales_usd": 2318072825,
+        "suppressed": false
+      },
+      {
+        "city": "Dublin",
+        "county": "Alameda",
+        "taxable_sales_usd": 2298179345,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Barbara",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 2274377924,
+        "suppressed": false
+      },
+      {
+        "city": "Murrieta",
+        "county": "Riverside",
+        "taxable_sales_usd": 2266547335,
+        "suppressed": false
+      },
+      {
+        "city": "Lancaster",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2242139246,
+        "suppressed": false
+      },
+      {
+        "city": "Folsom",
+        "county": "Sacramento",
+        "taxable_sales_usd": 2235774917,
+        "suppressed": false
+      },
+      {
+        "city": "Downey",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2198054795,
+        "suppressed": false
+      },
+      {
+        "city": "Pleasanton",
+        "county": "Alameda",
+        "taxable_sales_usd": 2194557262,
+        "suppressed": false
+      },
+      {
+        "city": "Palmdale",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2192285216,
+        "suppressed": false
+      },
+      {
+        "city": "Simi Valley",
+        "county": "Ventura",
+        "taxable_sales_usd": 2162031259,
+        "suppressed": false
+      },
+      {
+        "city": "Perris",
+        "county": "Riverside",
+        "taxable_sales_usd": 2134512381,
+        "suppressed": false
+      },
+      {
+        "city": "Palm Desert",
+        "county": "Riverside",
+        "taxable_sales_usd": 2116810615,
+        "suppressed": false
+      },
+      {
+        "city": "San Rafael",
+        "county": "Marin",
+        "taxable_sales_usd": 2114055428,
+        "suppressed": false
+      },
+      {
+        "city": "West Covina",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2104942876,
+        "suppressed": false
+      },
+      {
+        "city": "Brea",
+        "county": "Orange",
+        "taxable_sales_usd": 2081877662,
+        "suppressed": false
+      },
+      {
+        "city": "West Sacramento",
+        "county": "Yolo",
+        "taxable_sales_usd": 2045790571,
+        "suppressed": false
+      },
+      {
+        "city": "Richmond",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 2045113332,
+        "suppressed": false
+      },
+      {
+        "city": "Culver City",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 2010315169,
+        "suppressed": false
+      },
+      {
+        "city": "Shafter",
+        "county": "Kern",
+        "taxable_sales_usd": 1999913574,
+        "suppressed": false
+      },
+      {
+        "city": "Inglewood",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1974521076,
+        "suppressed": false
+      },
+      {
+        "city": "Turlock",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 1971059395,
+        "suppressed": false
+      },
+      {
+        "city": "Rancho Cordova",
+        "county": "Sacramento",
+        "taxable_sales_usd": 1955858338,
+        "suppressed": false
+      },
+      {
+        "city": "National City",
+        "county": "San Diego",
+        "taxable_sales_usd": 1940127087,
+        "suppressed": false
+      },
+      {
+        "city": "San Luis Obispo",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 1935658741,
+        "suppressed": false
+      },
+      {
+        "city": "El Monte",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1930837744,
+        "suppressed": false
+      },
+      {
+        "city": "Jurupa Valley",
+        "county": "Riverside",
+        "taxable_sales_usd": 1921602703,
+        "suppressed": false
+      },
+      {
+        "city": "Redwood City",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1921232481,
+        "suppressed": false
+      },
+      {
+        "city": "Upland",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 1894691329,
+        "suppressed": false
+      },
+      {
+        "city": "Signal Hill",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1862819526,
+        "suppressed": false
+      },
+      {
+        "city": "Hawthorne",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1812580257,
+        "suppressed": false
+      },
+      {
+        "city": "South San Francisco",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1808852163,
+        "suppressed": false
+      },
+      {
+        "city": "Cupertino",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 1806935290,
+        "suppressed": false
+      },
+      {
+        "city": "Commerce",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1805479961,
+        "suppressed": false
+      },
+      {
+        "city": "Pomona",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1788446378,
+        "suppressed": false
+      },
+      {
+        "city": "Mountain View",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 1782884969,
+        "suppressed": false
+      },
+      {
+        "city": "Vista",
+        "county": "San Diego",
+        "taxable_sales_usd": 1782364370,
+        "suppressed": false
+      },
+      {
+        "city": "Napa",
+        "county": "Napa",
+        "taxable_sales_usd": 1760018265,
+        "suppressed": false
+      },
+      {
+        "city": "Rocklin",
+        "county": "Placer",
+        "taxable_sales_usd": 1731053112,
+        "suppressed": false
+      },
+      {
+        "city": "Poway",
+        "county": "San Diego",
+        "taxable_sales_usd": 1722854078,
+        "suppressed": false
+      },
+      {
+        "city": "Santee",
+        "county": "San Diego",
+        "taxable_sales_usd": 1720779156,
+        "suppressed": false
+      },
+      {
+        "city": "San Mateo",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1714881099,
+        "suppressed": false
+      },
+      {
+        "city": "San Marcos",
+        "county": "San Diego",
+        "taxable_sales_usd": 1693712049,
+        "suppressed": false
+      },
+      {
+        "city": "Gilroy",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 1678418926,
+        "suppressed": false
+      },
+      {
+        "city": "West Hollywood",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1646380008,
+        "suppressed": false
+      },
+      {
+        "city": "Palm Springs",
+        "county": "Riverside",
+        "taxable_sales_usd": 1629242596,
+        "suppressed": false
+      },
+      {
+        "city": "Manteca",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 1602834285,
+        "suppressed": false
+      },
+      {
+        "city": "Berkeley",
+        "county": "Alameda",
+        "taxable_sales_usd": 1584922545,
+        "suppressed": false
+      },
+      {
+        "city": "Daly City",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1565999168,
+        "suppressed": false
+      },
+      {
+        "city": "Vallejo",
+        "county": "Solano",
+        "taxable_sales_usd": 1531049077,
+        "suppressed": false
+      },
+      {
+        "city": "Redlands",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 1529146974,
+        "suppressed": false
+      },
+      {
+        "city": "Indio",
+        "county": "Riverside",
+        "taxable_sales_usd": 1528995790,
+        "suppressed": false
+      },
+      {
+        "city": "Merced",
+        "county": "Merced",
+        "taxable_sales_usd": 1524780671,
+        "suppressed": false
+      },
+      {
+        "city": "Westminster",
+        "county": "Orange",
+        "taxable_sales_usd": 1499173570,
+        "suppressed": false
+      },
+      {
+        "city": "Mission Viejo",
+        "county": "Orange",
+        "taxable_sales_usd": 1491145640,
+        "suppressed": false
+      },
+      {
+        "city": "Newark",
+        "county": "Alameda",
+        "taxable_sales_usd": 1470518591,
+        "suppressed": false
+      },
+      {
+        "city": "Lake Forest",
+        "county": "Orange",
+        "taxable_sales_usd": 1463731972,
+        "suppressed": false
+      },
+      {
+        "city": "Camarillo",
+        "county": "Ventura",
+        "taxable_sales_usd": 1437269967,
+        "suppressed": false
+      },
+      {
+        "city": "Colma",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1435126921,
+        "suppressed": false
+      },
+      {
+        "city": "El Centro",
+        "county": "Imperial",
+        "taxable_sales_usd": 1416592749,
+        "suppressed": false
+      },
+      {
+        "city": "Yuba City",
+        "county": "Sutter",
+        "taxable_sales_usd": 1416263694,
+        "suppressed": false
+      },
+      {
+        "city": "Alhambra",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1413179792,
+        "suppressed": false
+      },
+      {
+        "city": "Encinitas",
+        "county": "San Diego",
+        "taxable_sales_usd": 1399185304,
+        "suppressed": false
+      },
+      {
+        "city": "La Mesa",
+        "county": "San Diego",
+        "taxable_sales_usd": 1386710003,
+        "suppressed": false
+      },
+      {
+        "city": "Whittier",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1383166646,
+        "suppressed": false
+      },
+      {
+        "city": "Tulare",
+        "county": "Tulare",
+        "taxable_sales_usd": 1380247564,
+        "suppressed": false
+      },
+      {
+        "city": "Hemet",
+        "county": "Riverside",
+        "taxable_sales_usd": 1379534741,
+        "suppressed": false
+      },
+      {
+        "city": "Montebello",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1377592942,
+        "suppressed": false
+      },
+      {
+        "city": "Lodi",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 1375153399,
+        "suppressed": false
+      },
+      {
+        "city": "Hesperia",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 1349082906,
+        "suppressed": false
+      },
+      {
+        "city": "Fountain Valley",
+        "county": "Orange",
+        "taxable_sales_usd": 1323785859,
+        "suppressed": false
+      },
+      {
+        "city": "Petaluma",
+        "county": "Sonoma",
+        "taxable_sales_usd": 1323532403,
+        "suppressed": false
+      },
+      {
+        "city": "Antioch",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 1312706091,
+        "suppressed": false
+      },
+      {
+        "city": "Lakewood",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1307578353,
+        "suppressed": false
+      },
+      {
+        "city": "Woodland",
+        "county": "Yolo",
+        "taxable_sales_usd": 1300378746,
+        "suppressed": false
+      },
+      {
+        "city": "Hanford",
+        "county": "Kings",
+        "taxable_sales_usd": 1289854778,
+        "suppressed": false
+      },
+      {
+        "city": "Lake Elsinore",
+        "county": "Riverside",
+        "taxable_sales_usd": 1266699904,
+        "suppressed": false
+      },
+      {
+        "city": "Gardena",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1254204251,
+        "suppressed": false
+      },
+      {
+        "city": "Montclair",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 1217538839,
+        "suppressed": false
+      },
+      {
+        "city": "Norwalk",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1209510814,
+        "suppressed": false
+      },
+      {
+        "city": "La Mirada",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1201330155,
+        "suppressed": false
+      },
+      {
+        "city": "Laguna Niguel",
+        "county": "Orange",
+        "taxable_sales_usd": 1188537931,
+        "suppressed": false
+      },
+      {
+        "city": "Cypress",
+        "county": "Orange",
+        "taxable_sales_usd": 1174384742,
+        "suppressed": false
+      },
+      {
+        "city": "Burlingame",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1156372716,
+        "suppressed": false
+      },
+      {
+        "city": "Citrus Heights",
+        "county": "Sacramento",
+        "taxable_sales_usd": 1154219567,
+        "suppressed": false
+      },
+      {
+        "city": "El Segundo",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1150428940,
+        "suppressed": false
+      },
+      {
+        "city": "La Habra",
+        "county": "Orange",
+        "taxable_sales_usd": 1136141917,
+        "suppressed": false
+      },
+      {
+        "city": "Watsonville",
+        "county": "Santa Cruz",
+        "taxable_sales_usd": 1135204927,
+        "suppressed": false
+      },
+      {
+        "city": "Pico Rivera",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1132618460,
+        "suppressed": false
+      },
+      {
+        "city": "Menifee",
+        "county": "Riverside",
+        "taxable_sales_usd": 1130318358,
+        "suppressed": false
+      },
+      {
+        "city": "Patterson",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 1108478948,
+        "suppressed": false
+      },
+      {
+        "city": "Paso Robles",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 1101132679,
+        "suppressed": false
+      },
+      {
+        "city": "Arcadia",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1082509290,
+        "suppressed": false
+      },
+      {
+        "city": "San Juan Capistrano",
+        "county": "Orange",
+        "taxable_sales_usd": 1073393688,
+        "suppressed": false
+      },
+      {
+        "city": "La Quinta",
+        "county": "Riverside",
+        "taxable_sales_usd": 1073000705,
+        "suppressed": false
+      },
+      {
+        "city": "San Ramon",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 1069482852,
+        "suppressed": false
+      },
+      {
+        "city": "Cathedral City",
+        "county": "Riverside",
+        "taxable_sales_usd": 1069008187,
+        "suppressed": false
+      },
+      {
+        "city": "South Gate",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1062517547,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Cruz",
+        "county": "Santa Cruz",
+        "taxable_sales_usd": 1060281343,
+        "suppressed": false
+      },
+      {
+        "city": "Goleta",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 1047849760,
+        "suppressed": false
+      },
+      {
+        "city": "Brentwood",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 1032378059,
+        "suppressed": false
+      },
+      {
+        "city": "San Clemente",
+        "county": "Orange",
+        "taxable_sales_usd": 1032114434,
+        "suppressed": false
+      },
+      {
+        "city": "Pittsburg",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 1013474060,
+        "suppressed": false
+      },
+      {
+        "city": "Morgan Hill",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 1006970748,
+        "suppressed": false
+      },
+      {
+        "city": "Colton",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 1003145197,
+        "suppressed": false
+      },
+      {
+        "city": "San Carlos",
+        "county": "San Mateo",
+        "taxable_sales_usd": 1001679555,
+        "suppressed": false
+      },
+      {
+        "city": "Campbell",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 998597272,
+        "suppressed": false
+      },
+      {
+        "city": "Madera",
+        "county": "Madera",
+        "taxable_sales_usd": 989201391,
+        "suppressed": false
+      },
+      {
+        "city": "Novato",
+        "county": "Marin",
+        "taxable_sales_usd": 980104385,
+        "suppressed": false
+      },
+      {
+        "city": "Union City",
+        "county": "Alameda",
+        "taxable_sales_usd": 954247669,
+        "suppressed": false
+      },
+      {
+        "city": "Dixon",
+        "county": "Solano",
+        "taxable_sales_usd": 953464728,
+        "suppressed": false
+      },
+      {
+        "city": "Monrovia",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 948085062,
+        "suppressed": false
+      },
+      {
+        "city": "Aliso Viejo",
+        "county": "Orange",
+        "taxable_sales_usd": 944507108,
+        "suppressed": false
+      },
+      {
+        "city": "Brisbane",
+        "county": "San Mateo",
+        "taxable_sales_usd": 938809736,
+        "suppressed": false
+      },
+      {
+        "city": "Manhattan Beach",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 937560199,
+        "suppressed": false
+      },
+      {
+        "city": "Norco",
+        "county": "Riverside",
+        "taxable_sales_usd": 913566039,
+        "suppressed": false
+      },
+      {
+        "city": "Redondo Beach",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 910119562,
+        "suppressed": false
+      },
+      {
+        "city": "Eureka",
+        "county": "Humboldt",
+        "taxable_sales_usd": 906662172,
+        "suppressed": false
+      },
+      {
+        "city": "Chino Hills",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 906465476,
+        "suppressed": false
+      },
+      {
+        "city": "Compton",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 898688652,
+        "suppressed": false
+      },
+      {
+        "city": "Monterey Park",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 896778285,
+        "suppressed": false
+      },
+      {
+        "city": "Loma Linda",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 894735461,
+        "suppressed": false
+      },
+      {
+        "city": "Covina",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 885450691,
+        "suppressed": false
+      },
+      {
+        "city": "Glendora",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 877022513,
+        "suppressed": false
+      },
+      {
+        "city": "Pleasant Hill",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 873520930,
+        "suppressed": false
+      },
+      {
+        "city": "Alameda",
+        "county": "Alameda",
+        "taxable_sales_usd": 861509003,
+        "suppressed": false
+      },
+      {
+        "city": "Claremont",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 859190607,
+        "suppressed": false
+      },
+      {
+        "city": "Seaside",
+        "county": "Monterey",
+        "taxable_sales_usd": 856543525,
+        "suppressed": false
+      },
+      {
+        "city": "Rohnert Park",
+        "county": "Sonoma",
+        "taxable_sales_usd": 836622834,
+        "suppressed": false
+      },
+      {
+        "city": "Monterey",
+        "county": "Monterey",
+        "taxable_sales_usd": 820864246,
+        "suppressed": false
+      },
+      {
+        "city": "Vernon",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 820671198,
+        "suppressed": false
+      },
+      {
+        "city": "Paramount",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 815861463,
+        "suppressed": false
+      },
+      {
+        "city": "Porterville",
+        "county": "Tulare",
+        "taxable_sales_usd": 783675946,
+        "suppressed": false
+      },
+      {
+        "city": "Selma",
+        "county": "Fresno",
+        "taxable_sales_usd": 771263258,
+        "suppressed": false
+      },
+      {
+        "city": "Lathrop",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 758205033,
+        "suppressed": false
+      },
+      {
+        "city": "Apple Valley",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 750362835,
+        "suppressed": false
+      },
+      {
+        "city": "Auburn",
+        "county": "Placer",
+        "taxable_sales_usd": 721033842,
+        "suppressed": false
+      },
+      {
+        "city": "Bellflower",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 720803350,
+        "suppressed": false
+      },
+      {
+        "city": "San Dimas",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 714528350,
+        "suppressed": false
+      },
+      {
+        "city": "Ceres",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 710422420,
+        "suppressed": false
+      },
+      {
+        "city": "Rancho Santa Margarita",
+        "county": "Orange",
+        "taxable_sales_usd": 705624143,
+        "suppressed": false
+      },
+      {
+        "city": "Emeryville",
+        "county": "Alameda",
+        "taxable_sales_usd": 704134818,
+        "suppressed": false
+      },
+      {
+        "city": "Barstow",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 700599664,
+        "suppressed": false
+      },
+      {
+        "city": "Davis",
+        "county": "Yolo",
+        "taxable_sales_usd": 698944841,
+        "suppressed": false
+      },
+      {
+        "city": "Huntington Park",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 694986574,
+        "suppressed": false
+      },
+      {
+        "city": "Yorba Linda",
+        "county": "Orange",
+        "taxable_sales_usd": 681301831,
+        "suppressed": false
+      },
+      {
+        "city": "Calabasas",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 670272964,
+        "suppressed": false
+      },
+      {
+        "city": "Baldwin Park",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 663622981,
+        "suppressed": false
+      },
+      {
+        "city": "Placentia",
+        "county": "Orange",
+        "taxable_sales_usd": 663338330,
+        "suppressed": false
+      },
+      {
+        "city": "Lemon Grove",
+        "county": "San Diego",
+        "taxable_sales_usd": 647990097,
+        "suppressed": false
+      },
+      {
+        "city": "Dinuba",
+        "county": "Tulare",
+        "taxable_sales_usd": 631204763,
+        "suppressed": false
+      },
+      {
+        "city": "Corte Madera",
+        "county": "Marin",
+        "taxable_sales_usd": 623136385,
+        "suppressed": false
+      },
+      {
+        "city": "Menlo Park",
+        "county": "San Mateo",
+        "taxable_sales_usd": 617543206,
+        "suppressed": false
+      },
+      {
+        "city": "Rancho Mirage",
+        "county": "Riverside",
+        "taxable_sales_usd": 602923820,
+        "suppressed": false
+      },
+      {
+        "city": "Azusa",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 595144131,
+        "suppressed": false
+      },
+      {
+        "city": "Delano",
+        "county": "Kern",
+        "taxable_sales_usd": 593546449,
+        "suppressed": false
+      },
+      {
+        "city": "Rosemead",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 578056537,
+        "suppressed": false
+      },
+      {
+        "city": "Dana Point",
+        "county": "Orange",
+        "taxable_sales_usd": 572087309,
+        "suppressed": false
+      },
+      {
+        "city": "Benicia",
+        "county": "Solano",
+        "taxable_sales_usd": 564147075,
+        "suppressed": false
+      },
+      {
+        "city": "Grass Valley",
+        "county": "Nevada",
+        "taxable_sales_usd": 563142386,
+        "suppressed": false
+      },
+      {
+        "city": "South Lake Tahoe",
+        "county": "El Dorado",
+        "taxable_sales_usd": 556596772,
+        "suppressed": false
+      },
+      {
+        "city": "Danville",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 555005563,
+        "suppressed": false
+      },
+      {
+        "city": "Riverbank",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 549057142,
+        "suppressed": false
+      },
+      {
+        "city": "South El Monte",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 544460424,
+        "suppressed": false
+      },
+      {
+        "city": "Laguna Beach",
+        "county": "Orange",
+        "taxable_sales_usd": 543420883,
+        "suppressed": false
+      },
+      {
+        "city": "Hollister",
+        "county": "San Benito",
+        "taxable_sales_usd": 539112844,
+        "suppressed": false
+      },
+      {
+        "city": "San Fernando",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 531352863,
+        "suppressed": false
+      },
+      {
+        "city": "Los Gatos",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 525316384,
+        "suppressed": false
+      },
+      {
+        "city": "Los Banos",
+        "county": "Merced",
+        "taxable_sales_usd": 522148263,
+        "suppressed": false
+      },
+      {
+        "city": "Ukiah",
+        "county": "Mendocino",
+        "taxable_sales_usd": 514715153,
+        "suppressed": false
+      },
+      {
+        "city": "Lompoc",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 514680858,
+        "suppressed": false
+      },
+      {
+        "city": "Capitola",
+        "county": "Santa Cruz",
+        "taxable_sales_usd": 506544224,
+        "suppressed": false
+      },
+      {
+        "city": "Laguna Hills",
+        "county": "Orange",
+        "taxable_sales_usd": 502884059,
+        "suppressed": false
+      },
+      {
+        "city": "Westlake Village",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 494248098,
+        "suppressed": false
+      },
+      {
+        "city": "Healdsburg",
+        "county": "Sonoma",
+        "taxable_sales_usd": 485047977,
+        "suppressed": false
+      },
+      {
+        "city": "Diamond Bar",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 484025854,
+        "suppressed": false
+      },
+      {
+        "city": "Yucaipa",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 481266200,
+        "suppressed": false
+      },
+      {
+        "city": "Duarte",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 475272813,
+        "suppressed": false
+      },
+      {
+        "city": "Truckee",
+        "county": "Nevada",
+        "taxable_sales_usd": 473498206,
+        "suppressed": false
+      },
+      {
+        "city": "Highland",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 473305278,
+        "suppressed": false
+      },
+      {
+        "city": "Coronado",
+        "county": "San Diego",
+        "taxable_sales_usd": 470632882,
+        "suppressed": false
+      },
+      {
+        "city": "Lincoln",
+        "county": "Placer",
+        "taxable_sales_usd": 465874485,
+        "suppressed": false
+      },
+      {
+        "city": "Lynwood",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 461622356,
+        "suppressed": false
+      },
+      {
+        "city": "Martinez",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 457136457,
+        "suppressed": false
+      },
+      {
+        "city": "Placerville",
+        "county": "El Dorado",
+        "taxable_sales_usd": 444511688,
+        "suppressed": false
+      },
+      {
+        "city": "Oroville",
+        "county": "Butte",
+        "taxable_sales_usd": 443982811,
+        "suppressed": false
+      },
+      {
+        "city": "Stanton",
+        "county": "Orange",
+        "taxable_sales_usd": 434782705,
+        "suppressed": false
+      },
+      {
+        "city": "Calexico",
+        "county": "Imperial",
+        "taxable_sales_usd": 424707820,
+        "suppressed": false
+      },
+      {
+        "city": "La Verne",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 421091684,
+        "suppressed": false
+      },
+      {
+        "city": "Windsor",
+        "county": "Sonoma",
+        "taxable_sales_usd": 414473102,
+        "suppressed": false
+      },
+      {
+        "city": "Moorpark",
+        "county": "Ventura",
+        "taxable_sales_usd": 412106069,
+        "suppressed": false
+      },
+      {
+        "city": "San Jacinto",
+        "county": "Riverside",
+        "taxable_sales_usd": 410853374,
+        "suppressed": false
+      },
+      {
+        "city": "Coachella",
+        "county": "Riverside",
+        "taxable_sales_usd": 410411209,
+        "suppressed": false
+      },
+      {
+        "city": "Atascadero",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 403686177,
+        "suppressed": false
+      },
+      {
+        "city": "Red Bluff",
+        "county": "Tehama",
+        "taxable_sales_usd": 399684569,
+        "suppressed": false
+      },
+      {
+        "city": "Seal Beach",
+        "county": "Orange",
+        "taxable_sales_usd": 398862700,
+        "suppressed": false
+      },
+      {
+        "city": "Arroyo Grande",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 398693462,
+        "suppressed": false
+      },
+      {
+        "city": "San Gabriel",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 394711222,
+        "suppressed": false
+      },
+      {
+        "city": "Yucca Valley",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 394029144,
+        "suppressed": false
+      },
+      {
+        "city": "Irwindale",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 387520836,
+        "suppressed": false
+      },
+      {
+        "city": "Oakdale",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 384335397,
+        "suppressed": false
+      },
+      {
+        "city": "Atwater",
+        "county": "Merced",
+        "taxable_sales_usd": 375398622,
+        "suppressed": false
+      },
+      {
+        "city": "Pinole",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 374951773,
+        "suppressed": false
+      },
+      {
+        "city": "Anderson",
+        "county": "Shasta",
+        "taxable_sales_usd": 361755833,
+        "suppressed": false
+      },
+      {
+        "city": "Fillmore",
+        "county": "Ventura",
+        "taxable_sales_usd": 360256698,
+        "suppressed": false
+      },
+      {
+        "city": "Ripon",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 359675370,
+        "suppressed": false
+      },
+      {
+        "city": "Solana Beach",
+        "county": "San Diego",
+        "taxable_sales_usd": 357723844,
+        "suppressed": false
+      },
+      {
+        "city": "Malibu",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 356413147,
+        "suppressed": false
+      },
+      {
+        "city": "Belmont",
+        "county": "San Mateo",
+        "taxable_sales_usd": 356368098,
+        "suppressed": false
+      },
+      {
+        "city": "Carmel",
+        "county": "Monterey",
+        "taxable_sales_usd": 352924148,
+        "suppressed": false
+      },
+      {
+        "city": "Sanger",
+        "county": "Fresno",
+        "taxable_sales_usd": 348541395,
+        "suppressed": false
+      },
+      {
+        "city": "Artesia",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 345536669,
+        "suppressed": false
+      },
+      {
+        "city": "Ridgecrest",
+        "county": "Kern",
+        "taxable_sales_usd": 343622982,
+        "suppressed": false
+      },
+      {
+        "city": "Agoura Hills",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 343099949,
+        "suppressed": false
+      },
+      {
+        "city": "Mill Valley",
+        "county": "Marin",
+        "taxable_sales_usd": 332320986,
+        "suppressed": false
+      },
+      {
+        "city": "Bell Gardens",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 331354978,
+        "suppressed": false
+      },
+      {
+        "city": "La Puente",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 328656116,
+        "suppressed": false
+      },
+      {
+        "city": "Banning",
+        "county": "Riverside",
+        "taxable_sales_usd": 327794242,
+        "suppressed": false
+      },
+      {
+        "city": "Tehachapi",
+        "county": "Kern",
+        "taxable_sales_usd": 321147175,
+        "suppressed": false
+      },
+      {
+        "city": "Foster City",
+        "county": "San Mateo",
+        "taxable_sales_usd": 320863339,
+        "suppressed": false
+      },
+      {
+        "city": "Sand City",
+        "county": "Monterey",
+        "taxable_sales_usd": 318783506,
+        "suppressed": false
+      },
+      {
+        "city": "Hermosa Beach",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 318779240,
+        "suppressed": false
+      },
+      {
+        "city": "Lawndale",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 318662547,
+        "suppressed": false
+      },
+      {
+        "city": "Pismo Beach",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 316585000,
+        "suppressed": false
+      },
+      {
+        "city": "Corning",
+        "county": "Tehama",
+        "taxable_sales_usd": 315505363,
+        "suppressed": false
+      },
+      {
+        "city": "Sonoma",
+        "county": "Sonoma",
+        "taxable_sales_usd": 312229899,
+        "suppressed": false
+      },
+      {
+        "city": "El Cerrito",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 310568845,
+        "suppressed": false
+      },
+      {
+        "city": "Los Alamitos",
+        "county": "Orange",
+        "taxable_sales_usd": 309926252,
+        "suppressed": false
+      },
+      {
+        "city": "Millbrae",
+        "county": "San Mateo",
+        "taxable_sales_usd": 305709008,
+        "suppressed": false
+      },
+      {
+        "city": "Sonora",
+        "county": "Tuolumne",
+        "taxable_sales_usd": 304436867,
+        "suppressed": false
+      },
+      {
+        "city": "East Palo Alto",
+        "county": "San Mateo",
+        "taxable_sales_usd": 300057952,
+        "suppressed": false
+      },
+      {
+        "city": "Hercules",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 297146786,
+        "suppressed": false
+      },
+      {
+        "city": "La Canada-Flintridge",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 292431588,
+        "suppressed": false
+      },
+      {
+        "city": "St. Helena",
+        "county": "Napa",
+        "taxable_sales_usd": 290277411,
+        "suppressed": false
+      },
+      {
+        "city": "Bell",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 287685838,
+        "suppressed": false
+      },
+      {
+        "city": "American Canyon",
+        "county": "Napa",
+        "taxable_sales_usd": 286719497,
+        "suppressed": false
+      },
+      {
+        "city": "Lafayette",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 284861031,
+        "suppressed": false
+      },
+      {
+        "city": "Buellton",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 282191946,
+        "suppressed": false
+      },
+      {
+        "city": "Santa Paula",
+        "county": "Ventura",
+        "taxable_sales_usd": 281638152,
+        "suppressed": false
+      },
+      {
+        "city": "Big Bear Lake",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 281402627,
+        "suppressed": false
+      },
+      {
+        "city": "Galt",
+        "county": "Sacramento",
+        "taxable_sales_usd": 279561853,
+        "suppressed": false
+      },
+      {
+        "city": "Marina",
+        "county": "Monterey",
+        "taxable_sales_usd": 270938339,
+        "suppressed": false
+      },
+      {
+        "city": "Mammoth Lakes",
+        "county": "Mono",
+        "taxable_sales_usd": 270002539,
+        "suppressed": false
+      },
+      {
+        "city": "Half Moon Bay",
+        "county": "San Mateo",
+        "taxable_sales_usd": 268498374,
+        "suppressed": false
+      },
+      {
+        "city": "Imperial",
+        "county": "Imperial",
+        "taxable_sales_usd": 267905630,
+        "suppressed": false
+      },
+      {
+        "city": "Wildomar",
+        "county": "Riverside",
+        "taxable_sales_usd": 261337285,
+        "suppressed": false
+      },
+      {
+        "city": "Brawley",
+        "county": "Imperial",
+        "taxable_sales_usd": 256042158,
+        "suppressed": false
+      },
+      {
+        "city": "Lemoore",
+        "county": "Kings",
+        "taxable_sales_usd": 250057903,
+        "suppressed": false
+      },
+      {
+        "city": "Los Altos",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 245764500,
+        "suppressed": false
+      },
+      {
+        "city": "Rancho Palos Verdes",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 237463805,
+        "suppressed": false
+      },
+      {
+        "city": "Larkspur",
+        "county": "Marin",
+        "taxable_sales_usd": 235952675,
+        "suppressed": false
+      },
+      {
+        "city": "Scotts Valley",
+        "county": "Santa Cruz",
+        "taxable_sales_usd": 234184989,
+        "suppressed": false
+      },
+      {
+        "city": "Cotati",
+        "county": "Sonoma",
+        "taxable_sales_usd": 233743417,
+        "suppressed": false
+      },
+      {
+        "city": "South Pasadena",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 233101640,
+        "suppressed": false
+      },
+      {
+        "city": "Arcata",
+        "county": "Humboldt",
+        "taxable_sales_usd": 232915584,
+        "suppressed": false
+      },
+      {
+        "city": "Albany",
+        "county": "Alameda",
+        "taxable_sales_usd": 231094207,
+        "suppressed": false
+      },
+      {
+        "city": "Pacifica",
+        "county": "San Mateo",
+        "taxable_sales_usd": 230701319,
+        "suppressed": false
+      },
+      {
+        "city": "Kerman",
+        "county": "Fresno",
+        "taxable_sales_usd": 226540639,
+        "suppressed": false
+      },
+      {
+        "city": "San Pablo",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 226407727,
+        "suppressed": false
+      },
+      {
+        "city": "Oakley",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 224545276,
+        "suppressed": false
+      },
+      {
+        "city": "La Palma",
+        "county": "Orange",
+        "taxable_sales_usd": 222148079,
+        "suppressed": false
+      },
+      {
+        "city": "Adelanto",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 221766721,
+        "suppressed": false
+      },
+      {
+        "city": "Loomis",
+        "county": "Placer",
+        "taxable_sales_usd": 216992503,
+        "suppressed": false
+      },
+      {
+        "city": "Sausalito",
+        "county": "Marin",
+        "taxable_sales_usd": 212592685,
+        "suppressed": false
+      },
+      {
+        "city": "Temple City",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 209233182,
+        "suppressed": false
+      },
+      {
+        "city": "Morro Bay",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 207979504,
+        "suppressed": false
+      },
+      {
+        "city": "Bishop",
+        "county": "Inyo",
+        "taxable_sales_usd": 207412497,
+        "suppressed": false
+      },
+      {
+        "city": "Ojai",
+        "county": "Ventura",
+        "taxable_sales_usd": 204298062,
+        "suppressed": false
+      },
+      {
+        "city": "Desert Hot Springs",
+        "county": "Riverside",
+        "taxable_sales_usd": 202465079,
+        "suppressed": false
+      },
+      {
+        "city": "Lomita",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 198604095,
+        "suppressed": false
+      },
+      {
+        "city": "Del Mar",
+        "county": "San Diego",
+        "taxable_sales_usd": 196208694,
+        "suppressed": false
+      },
+      {
+        "city": "Reedley",
+        "county": "Fresno",
+        "taxable_sales_usd": 193698450,
+        "suppressed": false
+      },
+      {
+        "city": "Suisun",
+        "county": "Solano",
+        "taxable_sales_usd": 193134621,
+        "suppressed": false
+      },
+      {
+        "city": "Wasco",
+        "county": "Kern",
+        "taxable_sales_usd": 188144515,
+        "suppressed": false
+      },
+      {
+        "city": "Chowchilla",
+        "county": "Madera",
+        "taxable_sales_usd": 187648835,
+        "suppressed": false
+      },
+      {
+        "city": "Indian Wells",
+        "county": "Riverside",
+        "taxable_sales_usd": 187297854,
+        "suppressed": false
+      },
+      {
+        "city": "Yreka",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 186771364,
+        "suppressed": false
+      },
+      {
+        "city": "Marysville",
+        "county": "Yuba",
+        "taxable_sales_usd": 184606727,
+        "suppressed": false
+      },
+      {
+        "city": "Orland",
+        "county": "Glenn",
+        "taxable_sales_usd": 179007885,
+        "suppressed": false
+      },
+      {
+        "city": "Sebastopol",
+        "county": "Sonoma",
+        "taxable_sales_usd": 177166970,
+        "suppressed": false
+      },
+      {
+        "city": "Walnut",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 174880029,
+        "suppressed": false
+      },
+      {
+        "city": "Colfax",
+        "county": "Placer",
+        "taxable_sales_usd": 172184061,
+        "suppressed": false
+      },
+      {
+        "city": "Fowler",
+        "county": "Fresno",
+        "taxable_sales_usd": 169941408,
+        "suppressed": false
+      },
+      {
+        "city": "Fort Bragg",
+        "county": "Mendocino",
+        "taxable_sales_usd": 166446758,
+        "suppressed": false
+      },
+      {
+        "city": "Fortuna",
+        "county": "Humboldt",
+        "taxable_sales_usd": 165187853,
+        "suppressed": false
+      },
+      {
+        "city": "Carpinteria",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 164711763,
+        "suppressed": false
+      },
+      {
+        "city": "Maywood",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 163977977,
+        "suppressed": false
+      },
+      {
+        "city": "Grover Beach",
+        "county": "San Luis Obispo",
+        "taxable_sales_usd": 161547164,
+        "suppressed": false
+      },
+      {
+        "city": "Pacific Grove",
+        "county": "Monterey",
+        "taxable_sales_usd": 161442142,
+        "suppressed": false
+      },
+      {
+        "city": "Gonzales",
+        "county": "Monterey",
+        "taxable_sales_usd": 160159569,
+        "suppressed": false
+      },
+      {
+        "city": "Solvang",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 159618557,
+        "suppressed": false
+      },
+      {
+        "city": "Clearlake",
+        "county": "Lake",
+        "taxable_sales_usd": 157580299,
+        "suppressed": false
+      },
+      {
+        "city": "Greenfield",
+        "county": "Monterey",
+        "taxable_sales_usd": 151755828,
+        "suppressed": false
+      },
+      {
+        "city": "Crescent City",
+        "county": "Del Norte",
+        "taxable_sales_usd": 151567964,
+        "suppressed": false
+      },
+      {
+        "city": "King City",
+        "county": "Monterey",
+        "taxable_sales_usd": 151466622,
+        "suppressed": false
+      },
+      {
+        "city": "Susanville",
+        "county": "Lassen",
+        "taxable_sales_usd": 147581191,
+        "suppressed": false
+      },
+      {
+        "city": "Yountville",
+        "county": "Napa",
+        "taxable_sales_usd": 147344099,
+        "suppressed": false
+      },
+      {
+        "city": "Kingsburg",
+        "county": "Fresno",
+        "taxable_sales_usd": 145349446,
+        "suppressed": false
+      },
+      {
+        "city": "Imperial Beach",
+        "county": "San Diego",
+        "taxable_sales_usd": 142562826,
+        "suppressed": false
+      },
+      {
+        "city": "Blythe",
+        "county": "Riverside",
+        "taxable_sales_usd": 139087819,
+        "suppressed": false
+      },
+      {
+        "city": "Livingston",
+        "county": "Merced",
+        "taxable_sales_usd": 136336715,
+        "suppressed": false
+      },
+      {
+        "city": "Calimesa",
+        "county": "Riverside",
+        "taxable_sales_usd": 136145579,
+        "suppressed": false
+      },
+      {
+        "city": "Twentynine Palms",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 136067021,
+        "suppressed": false
+      },
+      {
+        "city": "Rolling Hills Estates",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 134465585,
+        "suppressed": false
+      },
+      {
+        "city": "Port Hueneme",
+        "county": "Ventura",
+        "taxable_sales_usd": 132825522,
+        "suppressed": false
+      },
+      {
+        "city": "Taft",
+        "county": "Kern",
+        "taxable_sales_usd": 126804058,
+        "suppressed": false
+      },
+      {
+        "city": "Avalon",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 126547968,
+        "suppressed": false
+      },
+      {
+        "city": "Farmersville",
+        "county": "Tulare",
+        "taxable_sales_usd": 124622503,
+        "suppressed": false
+      },
+      {
+        "city": "Williams",
+        "county": "Colusa",
+        "taxable_sales_usd": 123899537,
+        "suppressed": false
+      },
+      {
+        "city": "Calistoga",
+        "county": "Napa",
+        "taxable_sales_usd": 123213358,
+        "suppressed": false
+      },
+      {
+        "city": "Colusa",
+        "county": "Colusa",
+        "taxable_sales_usd": 118770243,
+        "suppressed": false
+      },
+      {
+        "city": "San Anselmo",
+        "county": "Marin",
+        "taxable_sales_usd": 117130651,
+        "suppressed": false
+      },
+      {
+        "city": "Willows",
+        "county": "Glenn",
+        "taxable_sales_usd": 116893209,
+        "suppressed": false
+      },
+      {
+        "city": "Grand Terrace",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 116824526,
+        "suppressed": false
+      },
+      {
+        "city": "Gridley",
+        "county": "Butte",
+        "taxable_sales_usd": 116440207,
+        "suppressed": false
+      },
+      {
+        "city": "Lindsay",
+        "county": "Tulare",
+        "taxable_sales_usd": 113055161,
+        "suppressed": false
+      },
+      {
+        "city": "Lakeport",
+        "county": "Lake",
+        "taxable_sales_usd": 112995913,
+        "suppressed": false
+      },
+      {
+        "city": "Rio Vista",
+        "county": "Solano",
+        "taxable_sales_usd": 110953540,
+        "suppressed": false
+      },
+      {
+        "city": "Nevada City",
+        "county": "Nevada",
+        "taxable_sales_usd": 108837005,
+        "suppressed": false
+      },
+      {
+        "city": "Orinda",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 108182462,
+        "suppressed": false
+      },
+      {
+        "city": "Laguna Woods",
+        "county": "Orange",
+        "taxable_sales_usd": 108077003,
+        "suppressed": false
+      },
+      {
+        "city": "Corcoran",
+        "county": "Kings",
+        "taxable_sales_usd": 107127967,
+        "suppressed": false
+      },
+      {
+        "city": "Willits",
+        "county": "Mendocino",
+        "taxable_sales_usd": 106448772,
+        "suppressed": false
+      },
+      {
+        "city": "Moraga",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 105281828,
+        "suppressed": false
+      },
+      {
+        "city": "Paradise",
+        "county": "Butte",
+        "taxable_sales_usd": 105010248,
+        "suppressed": false
+      },
+      {
+        "city": "Cudahy",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 104615888,
+        "suppressed": false
+      },
+      {
+        "city": "Coalinga",
+        "county": "Fresno",
+        "taxable_sales_usd": 103953252,
+        "suppressed": false
+      },
+      {
+        "city": "Saratoga",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 102597434,
+        "suppressed": false
+      },
+      {
+        "city": "Soledad",
+        "county": "Monterey",
+        "taxable_sales_usd": 100257391,
+        "suppressed": false
+      },
+      {
+        "city": "Arvin",
+        "county": "Kern",
+        "taxable_sales_usd": 97647895,
+        "suppressed": false
+      },
+      {
+        "city": "Hughson",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 97153943,
+        "suppressed": false
+      },
+      {
+        "city": "Hawaiian Gardens",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 96840753,
+        "suppressed": false
+      },
+      {
+        "city": "Weed",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 96384821,
+        "suppressed": false
+      },
+      {
+        "city": "Mount Shasta",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 95789804,
+        "suppressed": false
+      },
+      {
+        "city": "Exeter",
+        "county": "Tulare",
+        "taxable_sales_usd": 93035932,
+        "suppressed": false
+      },
+      {
+        "city": "Cloverdale",
+        "county": "Sonoma",
+        "taxable_sales_usd": 92844705,
+        "suppressed": false
+      },
+      {
+        "city": "Escalon",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 84871848,
+        "suppressed": false
+      },
+      {
+        "city": "Angels Camp",
+        "county": "Calaveras",
+        "taxable_sales_usd": 84361277,
+        "suppressed": false
+      },
+      {
+        "city": "Jackson",
+        "county": "Amador",
+        "taxable_sales_usd": 82686764,
+        "suppressed": false
+      },
+      {
+        "city": "Firebaugh",
+        "county": "Fresno",
+        "taxable_sales_usd": 77516391,
+        "suppressed": false
+      },
+      {
+        "city": "Tiburon",
+        "county": "Marin",
+        "taxable_sales_usd": 75525151,
+        "suppressed": false
+      },
+      {
+        "city": "Winters",
+        "county": "Yolo",
+        "taxable_sales_usd": 69637868,
+        "suppressed": false
+      },
+      {
+        "city": "Fairfax",
+        "county": "Marin",
+        "taxable_sales_usd": 67581190,
+        "suppressed": false
+      },
+      {
+        "city": "Woodside",
+        "county": "San Mateo",
+        "taxable_sales_usd": 67443196,
+        "suppressed": false
+      },
+      {
+        "city": "Waterford",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 66818330,
+        "suppressed": false
+      },
+      {
+        "city": "Mendota",
+        "county": "Fresno",
+        "taxable_sales_usd": 66102820,
+        "suppressed": false
+      },
+      {
+        "city": "Parlier",
+        "county": "Fresno",
+        "taxable_sales_usd": 64218320,
+        "suppressed": false
+      },
+      {
+        "city": "Shasta Lake",
+        "county": "Shasta",
+        "taxable_sales_usd": 58001411,
+        "suppressed": false
+      },
+      {
+        "city": "Newman",
+        "county": "Stanislaus",
+        "taxable_sales_usd": 55722996,
+        "suppressed": false
+      },
+      {
+        "city": "San Marino",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 55329720,
+        "suppressed": false
+      },
+      {
+        "city": "McFarland",
+        "county": "Kern",
+        "taxable_sales_usd": 51046276,
+        "suppressed": false
+      },
+      {
+        "city": "Needles",
+        "county": "San Bernardino",
+        "taxable_sales_usd": 49267159,
+        "suppressed": false
+      },
+      {
+        "city": "Woodlake",
+        "county": "Tulare",
+        "taxable_sales_usd": 48938631,
+        "suppressed": false
+      },
+      {
+        "city": "Guadalupe",
+        "county": "Santa Barbara",
+        "taxable_sales_usd": 48135452,
+        "suppressed": false
+      },
+      {
+        "city": "California City",
+        "county": "Kern",
+        "taxable_sales_usd": 47462675,
+        "suppressed": false
+      },
+      {
+        "city": "Clayton",
+        "county": "Contra Costa",
+        "taxable_sales_usd": 46481705,
+        "suppressed": false
+      },
+      {
+        "city": "Live Oak",
+        "county": "Sutter",
+        "taxable_sales_usd": 42007682,
+        "suppressed": false
+      },
+      {
+        "city": "Alturas",
+        "county": "Modoc",
+        "taxable_sales_usd": 41554491,
+        "suppressed": false
+      },
+      {
+        "city": "Sierra Madre",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 38562368,
+        "suppressed": false
+      },
+      {
+        "city": "Dos Palos",
+        "county": "Merced",
+        "taxable_sales_usd": 37709705,
+        "suppressed": false
+      },
+      {
+        "city": "Sutter Creek",
+        "county": "Amador",
+        "taxable_sales_usd": 36554716,
+        "suppressed": false
+      },
+      {
+        "city": "Gustine",
+        "county": "Merced",
+        "taxable_sales_usd": 34723480,
+        "suppressed": false
+      },
+      {
+        "city": "Canyon Lake",
+        "county": "Riverside",
+        "taxable_sales_usd": 33914951,
+        "suppressed": false
+      },
+      {
+        "city": "Del Rey Oaks",
+        "county": "Monterey",
+        "taxable_sales_usd": 33277867,
+        "suppressed": false
+      },
+      {
+        "city": "Portola Valley",
+        "county": "San Mateo",
+        "taxable_sales_usd": 31216667,
+        "suppressed": false
+      },
+      {
+        "city": "Palos Verdes Estates",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 30820207,
+        "suppressed": false
+      },
+      {
+        "city": "Avenal",
+        "county": "Kings",
+        "taxable_sales_usd": 29918034,
+        "suppressed": false
+      },
+      {
+        "city": "Holtville",
+        "county": "Imperial",
+        "taxable_sales_usd": 28187684,
+        "suppressed": false
+      },
+      {
+        "city": "Wheatland",
+        "county": "Yuba",
+        "taxable_sales_usd": 27859120,
+        "suppressed": false
+      },
+      {
+        "city": "Calipatria",
+        "county": "Imperial",
+        "taxable_sales_usd": 25553299,
+        "suppressed": false
+      },
+      {
+        "city": "San Joaquin",
+        "county": "Fresno",
+        "taxable_sales_usd": 25370037,
+        "suppressed": false
+      },
+      {
+        "city": "Ross",
+        "county": "Marin",
+        "taxable_sales_usd": 24528616,
+        "suppressed": false
+      },
+      {
+        "city": "Mountain House",
+        "county": "San Joaquin",
+        "taxable_sales_usd": 24353703,
+        "suppressed": false
+      },
+      {
+        "city": "Orange Cove",
+        "county": "Fresno",
+        "taxable_sales_usd": 22666467,
+        "suppressed": false
+      },
+      {
+        "city": "Fort Jones",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 22504267,
+        "suppressed": false
+      },
+      {
+        "city": "Villa Park",
+        "county": "Orange",
+        "taxable_sales_usd": 22397547,
+        "suppressed": false
+      },
+      {
+        "city": "Portola",
+        "county": "Plumas",
+        "taxable_sales_usd": 22025740,
+        "suppressed": false
+      },
+      {
+        "city": "San Juan Bautista",
+        "county": "San Benito",
+        "taxable_sales_usd": 18731878,
+        "suppressed": false
+      },
+      {
+        "city": "Ione",
+        "county": "Amador",
+        "taxable_sales_usd": 18614482,
+        "suppressed": false
+      },
+      {
+        "city": "Huron",
+        "county": "Fresno",
+        "taxable_sales_usd": 17525875,
+        "suppressed": false
+      },
+      {
+        "city": "Atherton",
+        "county": "San Mateo",
+        "taxable_sales_usd": 17336840,
+        "suppressed": false
+      },
+      {
+        "city": "Piedmont",
+        "county": "Alameda",
+        "taxable_sales_usd": 15835634,
+        "suppressed": false
+      },
+      {
+        "city": "Plymouth",
+        "county": "Amador",
+        "taxable_sales_usd": 15791303,
+        "suppressed": false
+      },
+      {
+        "city": "Trinidad",
+        "county": "Humboldt",
+        "taxable_sales_usd": 15502159,
+        "suppressed": false
+      },
+      {
+        "city": "Hillsborough",
+        "county": "San Mateo",
+        "taxable_sales_usd": 15311114,
+        "suppressed": false
+      },
+      {
+        "city": "Ferndale",
+        "county": "Humboldt",
+        "taxable_sales_usd": 15080928,
+        "suppressed": false
+      },
+      {
+        "city": "Rio Dell",
+        "county": "Humboldt",
+        "taxable_sales_usd": 13409036,
+        "suppressed": false
+      },
+      {
+        "city": "Dunsmuir",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 11056157,
+        "suppressed": false
+      },
+      {
+        "city": "Etna",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 8867901,
+        "suppressed": false
+      },
+      {
+        "city": "Belvedere",
+        "county": "Marin",
+        "taxable_sales_usd": 8022022,
+        "suppressed": false
+      },
+      {
+        "city": "Point Arena",
+        "county": "Mendocino",
+        "taxable_sales_usd": 6760410,
+        "suppressed": false
+      },
+      {
+        "city": "Los Altos Hills",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 5921113,
+        "suppressed": false
+      },
+      {
+        "city": "La Habra Heights",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 5859750,
+        "suppressed": false
+      },
+      {
+        "city": "Montague",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 5615389,
+        "suppressed": false
+      },
+      {
+        "city": "Isleton",
+        "county": "Sacramento",
+        "taxable_sales_usd": 3503465,
+        "suppressed": false
+      },
+      {
+        "city": "Blue Lake",
+        "county": "Humboldt",
+        "taxable_sales_usd": 2662622,
+        "suppressed": false
+      },
+      {
+        "city": "Dorris",
+        "county": "Siskiyou",
+        "taxable_sales_usd": 2145364,
+        "suppressed": true
+      },
+      {
+        "city": "Rolling Hills",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 1151835,
+        "suppressed": false
+      },
+      {
+        "city": "Biggs",
+        "county": "Butte",
+        "taxable_sales_usd": 649880,
+        "suppressed": true
+      },
+      {
+        "city": "Amador",
+        "county": "Amador",
+        "taxable_sales_usd": 638666,
+        "suppressed": true
+      },
+      {
+        "city": "Monte Sereno",
+        "county": "Santa Clara",
+        "taxable_sales_usd": 355074,
+        "suppressed": false
+      },
+      {
+        "city": "Hidden Hills",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 219996,
+        "suppressed": true
+      },
+      {
+        "city": "Bradbury",
+        "county": "Los Angeles",
+        "taxable_sales_usd": 58937,
+        "suppressed": true
+      },
+      {
+        "city": "Westmorland",
+        "county": "Imperial",
+        "taxable_sales_usd": null,
+        "suppressed": true
+      },
+      {
+        "city": "Maricopa",
+        "county": "Kern",
+        "taxable_sales_usd": null,
+        "suppressed": true
+      },
+      {
+        "city": "Loyalton",
+        "county": "Sierra",
+        "taxable_sales_usd": null,
+        "suppressed": true
+      },
+      {
+        "city": "Tulelake",
+        "county": "Siskiyou",
+        "taxable_sales_usd": null,
+        "suppressed": true
+      },
+      {
+        "city": "Tehama",
+        "county": "Tehama",
+        "taxable_sales_usd": null,
+        "suppressed": true
+      }
+    ],
+    "suppressed_city_count": 10,
+    "base_note": "Business-type and city figures are TAXABLE SALES \u2014 the base the tax is applied to, not tax collected. The General Fund receives its slice of the statewide rate; the fund split above shows who actually gets the money."
+  }
+}

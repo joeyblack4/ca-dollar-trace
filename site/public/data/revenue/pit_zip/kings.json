@@ -1,0 +1,88 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Kings",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 81157739,
+    "zips": [
+      {
+        "zip": "93230",
+        "city": "Hanford",
+        "returns": 27165,
+        "agi_usd": 1777582781,
+        "tax_liability_usd": 49733636
+      },
+      {
+        "zip": "93245",
+        "city": "Lemoore",
+        "returns": 13592,
+        "agi_usd": 857166546,
+        "tax_liability_usd": 22353175
+      },
+      {
+        "zip": "93212",
+        "city": "Corcoran",
+        "returns": 5369,
+        "agi_usd": 245425182,
+        "tax_liability_usd": 4081573
+      },
+      {
+        "zip": "93232",
+        "city": "Hanford",
+        "returns": 501,
+        "agi_usd": 43873379,
+        "tax_liability_usd": 1595580
+      },
+      {
+        "zip": "93204",
+        "city": "Avenal",
+        "returns": 3381,
+        "agi_usd": 132740265,
+        "tax_liability_usd": 1522135
+      },
+      {
+        "zip": "93202",
+        "city": "Armona",
+        "returns": 1720,
+        "agi_usd": 75371423,
+        "tax_liability_usd": 1083768
+      },
+      {
+        "zip": "93266",
+        "city": "Stratford",
+        "returns": 589,
+        "agi_usd": 29729174,
+        "tax_liability_usd": 574550
+      },
+      {
+        "zip": "93239",
+        "city": "Kettleman City",
+        "returns": 495,
+        "agi_usd": 18999789,
+        "tax_liability_usd": 186008
+      },
+      {
+        "zip": "93246",
+        "city": "Lemoore",
+        "returns": 125,
+        "agi_usd": 3522393,
+        "tax_liability_usd": 27314
+      }
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Tulare",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 290303880,
+    "zips": [
+      {
+        "zip": "93291",
+        "city": "Visalia",
+        "returns": 25055,
+        "agi_usd": 1963267637,
+        "tax_liability_usd": 69417359
+      },
+      {
+        "zip": "93274",
+        "city": "Tulare",
+        "returns": 30466,
+        "agi_usd": 1776831228,
+        "tax_liability_usd": 45103889
+      },
+      {
+        "zip": "93277",
+        "city": "Visalia",
+        "returns": 21783,
+        "agi_usd": 1430899117,
+        "tax_liability_usd": 41044662
+      },
+      {
+        "zip": "93292",
+        "city": "Visalia",
+        "returns": 18108,
+        "agi_usd": 1166338464,
+        "tax_liability_usd": 34470722
+      },
+      {
+        "zip": "93257",
+        "city": "Porterville",
+        "returns": 28815,
+        "agi_usd": 1424659069,
+        "tax_liability_usd": 32619076
+      },
+      {
+        "zip": "93221",
+        "city": "Exeter",
+        "returns": 6085,
+        "agi_usd": 442334903,
+        "tax_liability_usd": 13922037
+      },
+      {
+        "zip": "93618",
+        "city": "Dinuba",
+        "returns": 12522,
+        "agi_usd": 600487680,
+        "tax_liability_usd": 12207421
+      },
+      {
+        "zip": "93265",
+        "city": "Springville",
+        "returns": 1733,
+        "agi_usd": 152822810,
+        "tax_liability_usd": 6095050
+      },
+      {
+        "zip": "93247",
+        "city": "Lindsay",
+        "returns": 6647,
+        "agi_usd": 283539787,
+        "tax_liability_usd": 5155816
+      },
+      {
+        "zip": "93286",
+        "city": "Woodlake",
+        "returns": 3810,
+        "agi_usd": 191445514,
+        "tax_liability_usd": 4472050
+      },
+      {
+        "zip": "93271",
+        "city": "Three Rivers",
+        "returns": 923,
+        "agi_usd": 74463117,
+        "tax_liability_usd": 2731469
+      },
+      {
+        "zip": "93272",
+        "city": "Tipton",
+        "returns": 1247,
+        "agi_usd": 39659324,
+        "tax_liability_usd": 2695035
+      },
+      {
+        "zip": "93290",
+        "city": "Visalia",
+        "returns": 467,
+        "agi_usd": 41392265,
+        "tax_liability_usd": 2180552
+      },
+      {
+        "zip": "93270",
+        "city": "Terra Bella",
+        "returns": 2415,
+        "agi_usd": 99339445,
+        "tax_liability_usd": 2140074
+      },
+      {
+        "zip": "93267",
+        "city": "Strathmore",
+        "returns": 2233,
+        "agi_usd": 93928069,
+        "tax_liability_usd": 2042911
+      },
+      {
+        "zip": "93223",
+        "city": "Farmersville",
+        "returns": 4080,
+        "agi_usd": 159156178,
+        "tax_liability_usd": 2011002
+      },
+      {
+        "zip": "93647",
+        "city": "Orosi",
+        "returns": 4128,
+        "agi_usd": 146564985,
+        "tax_liability_usd": 1758122
+      },
+      {
+        "zip": "93275",
+        "city": "Tulare",
+        "returns": 594,
+        "agi_usd": 34211011,
+        "tax_liability_usd": 1434884
+      },
+      {
+        "zip": "93279",
+        "city": "Visalia",
+        "returns": 361,
+        "agi_usd": 31589923,
+        "tax_liability_usd": 1355160
+      },
+      {
+        "zip": "93258",
+        "city": "Porterville",
+        "returns": 1650,
+        "agi_usd": 63425159,
+        "tax_liability_usd": 1244845
+      },
+      {
+        "zip": "93219",
+        "city": "Earlimart",
+        "returns": 3713,
+        "agi_usd": 114051372,
+        "tax_liability_usd": 1048489
+      },
+      {
+        "zip": "93235",
+        "city": "Ivanhoe",
+        "returns": 1676,
+        "agi_usd": 66841715,
+        "tax_liability_usd": 984942
+      },
+      {
+        "zip": "93256",
+        "city": "Pixley",
+        "returns": 1948,
+        "agi_usd": 69012944,
+        "tax_liability_usd": 833098
+      },
+      {
+        "zip": "93278",
+        "city": "Visalia",
+        "returns": 304,
+        "agi_usd": 21482975,
+        "tax_liability_usd": 778096
+      },
+      {
+        "zip": "93615",
+        "city": "Cutler",
+        "returns": 2044,
+        "agi_usd": 71602758,
+        "tax_liability_usd": 752321
+      },
+      {
+        "zip": "93244",
+        "city": "Lemon Cove",
+        "returns": 196,
+        "agi_usd": 12326448,
+        "tax_liability_usd": 471145
+      },
+      {
+        "zip": "93218",
+        "city": "Ducor",
+        "returns": 354,
+        "agi_usd": 15024540,
+        "tax_liability_usd": 350089
+      },
+      {
+        "zip": "93261",
+        "city": "Richgrove",
+        "returns": 1078,
+        "agi_usd": 30084664,
+        "tax_liability_usd": 276106
+      },
+      {
+        "zip": "93227",
+        "city": "Goshen",
+        "returns": 276,
+        "agi_usd": 12885067,
+        "tax_liability_usd": 248771
+      },
+      {
+        "zip": "93673",
+        "city": "Traver",
+        "returns": 407,
+        "agi_usd": 14845134,
+        "tax_liability_usd": 191509
+      },
+      {
+        "zip": "93666",
+        "city": "Sultana",
+        "returns": 308,
+        "agi_usd": 11678568,
+        "tax_liability_usd": 156325
+      },
+      {
+        "zip": "93201",
+        "city": "Alpaugh",
+        "returns": 347,
+        "agi_usd": 11898131,
+        "tax_liability_usd": 110853
+      }
+    ]
+  }
+}

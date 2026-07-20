@@ -1,0 +1,2678 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Los Angeles",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 20903613434,
+    "zips": [
+      {
+        "zip": "90049",
+        "city": "Los Angeles",
+        "returns": 17996,
+        "agi_usd": 8201054068,
+        "tax_liability_usd": 555525261
+      },
+      {
+        "zip": "90266",
+        "city": "Manhattan Beach",
+        "returns": 16244,
+        "agi_usd": 6982423351,
+        "tax_liability_usd": 481806219
+      },
+      {
+        "zip": "90272",
+        "city": "Pacific Palisades",
+        "returns": 10351,
+        "agi_usd": 6684220985,
+        "tax_liability_usd": 463851426
+      },
+      {
+        "zip": "90401",
+        "city": "Santa Monica",
+        "returns": 4503,
+        "agi_usd": 3167460495,
+        "tax_liability_usd": 406980392
+      },
+      {
+        "zip": "91436",
+        "city": "Encino",
+        "returns": 8907,
+        "agi_usd": 5632005531,
+        "tax_liability_usd": 374603193
+      },
+      {
+        "zip": "90210",
+        "city": "Beverly Hills",
+        "returns": 9069,
+        "agi_usd": 6567094755,
+        "tax_liability_usd": 367965535
+      },
+      {
+        "zip": "90025",
+        "city": "Los Angeles",
+        "returns": 25421,
+        "agi_usd": 6020901454,
+        "tax_liability_usd": 360048954
+      },
+      {
+        "zip": "90024",
+        "city": "Los Angeles",
+        "returns": 15477,
+        "agi_usd": 5824277943,
+        "tax_liability_usd": 339591910
+      },
+      {
+        "zip": "90067",
+        "city": "Los Angeles",
+        "returns": 3821,
+        "agi_usd": 4872611641,
+        "tax_liability_usd": 326122308
+      },
+      {
+        "zip": "90274",
+        "city": "Palos Verdes Peninsula",
+        "returns": 12656,
+        "agi_usd": 5128729217,
+        "tax_liability_usd": 322774223
+      },
+      {
+        "zip": "90064",
+        "city": "Los Angeles",
+        "returns": 14881,
+        "agi_usd": 5002499381,
+        "tax_liability_usd": 257995703
+      },
+      {
+        "zip": "91302",
+        "city": "Calabasas",
+        "returns": 11748,
+        "agi_usd": 4215802207,
+        "tax_liability_usd": 256218790
+      },
+      {
+        "zip": "90402",
+        "city": "Santa Monica",
+        "returns": 5119,
+        "agi_usd": 3420821889,
+        "tax_liability_usd": 254839483
+      },
+      {
+        "zip": "90212",
+        "city": "Beverly Hills",
+        "returns": 6857,
+        "agi_usd": 3666243053,
+        "tax_liability_usd": 241736377
+      },
+      {
+        "zip": "90066",
+        "city": "Los Angeles",
+        "returns": 27397,
+        "agi_usd": 4133114743,
+        "tax_liability_usd": 234097245
+      },
+      {
+        "zip": "90275",
+        "city": "Rancho Palos Verdes",
+        "returns": 19558,
+        "agi_usd": 4088406102,
+        "tax_liability_usd": 232141074
+      },
+      {
+        "zip": "90405",
+        "city": "Santa Monica",
+        "returns": 14613,
+        "agi_usd": 3149544025,
+        "tax_liability_usd": 223022410
+      },
+      {
+        "zip": "91011",
+        "city": "La Canada Flintridge",
+        "returns": 9334,
+        "agi_usd": 3495072491,
+        "tax_liability_usd": 218649414
+      },
+      {
+        "zip": "90046",
+        "city": "Los Angeles",
+        "returns": 25950,
+        "agi_usd": 3539430847,
+        "tax_liability_usd": 209954960
+      },
+      {
+        "zip": "90069",
+        "city": "West Hollywood",
+        "returns": 12507,
+        "agi_usd": 3106421816,
+        "tax_liability_usd": 202734304
+      },
+      {
+        "zip": "91604",
+        "city": "Studio City",
+        "returns": 15402,
+        "agi_usd": 3092337289,
+        "tax_liability_usd": 187190977
+      },
+      {
+        "zip": "90292",
+        "city": "Marina Del Rey",
+        "returns": 14159,
+        "agi_usd": 2732021280,
+        "tax_liability_usd": 179615138
+      },
+      {
+        "zip": "90254",
+        "city": "Hermosa Beach",
+        "returns": 9874,
+        "agi_usd": 2648811787,
+        "tax_liability_usd": 178182462
+      },
+      {
+        "zip": "90211",
+        "city": "Beverly Hills",
+        "returns": 4976,
+        "agi_usd": 2411503801,
+        "tax_liability_usd": 174370675
+      },
+      {
+        "zip": "90277",
+        "city": "Redondo Beach",
+        "returns": 18213,
+        "agi_usd": 3161530698,
+        "tax_liability_usd": 173425661
+      },
+      {
+        "zip": "90403",
+        "city": "Santa Monica",
+        "returns": 13543,
+        "agi_usd": 2652180899,
+        "tax_liability_usd": 172511118
+      },
+      {
+        "zip": "90278",
+        "city": "Redondo Beach",
+        "returns": 19433,
+        "agi_usd": 3012830146,
+        "tax_liability_usd": 168181075
+      },
+      {
+        "zip": "90291",
+        "city": "Venice",
+        "returns": 13521,
+        "agi_usd": 2464655182,
+        "tax_liability_usd": 166342288
+      },
+      {
+        "zip": "91367",
+        "city": "Woodland Hills",
+        "returns": 22014,
+        "agi_usd": 3158676263,
+        "tax_liability_usd": 165545160
+      },
+      {
+        "zip": "90045",
+        "city": "Los Angeles",
+        "returns": 17878,
+        "agi_usd": 2784674282,
+        "tax_liability_usd": 155350733
+      },
+      {
+        "zip": "90034",
+        "city": "Los Angeles",
+        "returns": 29620,
+        "agi_usd": 3131605956,
+        "tax_liability_usd": 153581402
+      },
+      {
+        "zip": "91403",
+        "city": "Sherman Oaks",
+        "returns": 13248,
+        "agi_usd": 3024314533,
+        "tax_liability_usd": 153381955
+      },
+      {
+        "zip": "90077",
+        "city": "Los Angeles",
+        "returns": 3867,
+        "agi_usd": 2777785570,
+        "tax_liability_usd": 152656139
+      },
+      {
+        "zip": "91108",
+        "city": "San Marino",
+        "returns": 6384,
+        "agi_usd": 2297474148,
+        "tax_liability_usd": 152566606
+      },
+      {
+        "zip": "91423",
+        "city": "Sherman Oaks",
+        "returns": 16668,
+        "agi_usd": 2611151459,
+        "tax_liability_usd": 148534736
+      },
+      {
+        "zip": "90036",
+        "city": "Los Angeles",
+        "returns": 19377,
+        "agi_usd": 2649660214,
+        "tax_liability_usd": 148493934
+      },
+      {
+        "zip": "90803",
+        "city": "Long Beach",
+        "returns": 16478,
+        "agi_usd": 2590035376,
+        "tax_liability_usd": 143760354
+      },
+      {
+        "zip": "90265",
+        "city": "Malibu",
+        "returns": 5985,
+        "agi_usd": 1980814570,
+        "tax_liability_usd": 140006737
+      },
+      {
+        "zip": "91364",
+        "city": "Woodland Hills",
+        "returns": 12997,
+        "agi_usd": 2541086305,
+        "tax_liability_usd": 133520196
+      },
+      {
+        "zip": "90027",
+        "city": "Los Angeles",
+        "returns": 22690,
+        "agi_usd": 1950751847,
+        "tax_liability_usd": 132828237
+      },
+      {
+        "zip": "91326",
+        "city": "Northridge",
+        "returns": 18185,
+        "agi_usd": 2574682412,
+        "tax_liability_usd": 128849174
+      },
+      {
+        "zip": "90004",
+        "city": "Los Angeles",
+        "returns": 26762,
+        "agi_usd": 2651599524,
+        "tax_liability_usd": 126556918
+      },
+      {
+        "zip": "91107",
+        "city": "Pasadena",
+        "returns": 16369,
+        "agi_usd": 2394457197,
+        "tax_liability_usd": 126424051
+      },
+      {
+        "zip": "91316",
+        "city": "Encino",
+        "returns": 13438,
+        "agi_usd": 2269080843,
+        "tax_liability_usd": 126268123
+      },
+      {
+        "zip": "90703",
+        "city": "Cerritos",
+        "returns": 24225,
+        "agi_usd": 2681676465,
+        "tax_liability_usd": 124085855
+      },
+      {
+        "zip": "91030",
+        "city": "South Pasadena",
+        "returns": 12291,
+        "agi_usd": 2226474035,
+        "tax_liability_usd": 121968779
+      },
+      {
+        "zip": "90503",
+        "city": "Torrance",
+        "returns": 20812,
+        "agi_usd": 2538045615,
+        "tax_liability_usd": 121275728
+      },
+      {
+        "zip": "91105",
+        "city": "Pasadena",
+        "returns": 6746,
+        "agi_usd": 1986697657,
+        "tax_liability_usd": 120790323
+      },
+      {
+        "zip": "90068",
+        "city": "Los Angeles",
+        "returns": 11525,
+        "agi_usd": 1979933771,
+        "tax_liability_usd": 117842930
+      },
+      {
+        "zip": "90048",
+        "city": "Los Angeles",
+        "returns": 11835,
+        "agi_usd": 2036142087,
+        "tax_liability_usd": 117172061
+      },
+      {
+        "zip": "91106",
+        "city": "Pasadena",
+        "returns": 12216,
+        "agi_usd": 1954802506,
+        "tax_liability_usd": 116197462
+      },
+      {
+        "zip": "91001",
+        "city": "Altadena",
+        "returns": 16696,
+        "agi_usd": 2305359966,
+        "tax_liability_usd": 114760574
+      },
+      {
+        "zip": "91789",
+        "city": "Walnut",
+        "returns": 20585,
+        "agi_usd": 2564456119,
+        "tax_liability_usd": 113005377
+      },
+      {
+        "zip": "91006",
+        "city": "Arcadia",
+        "returns": 15681,
+        "agi_usd": 2217771123,
+        "tax_liability_usd": 112731501
+      },
+      {
+        "zip": "91765",
+        "city": "Diamond Bar",
+        "returns": 22800,
+        "agi_usd": 2503855961,
+        "tax_liability_usd": 112335726
+      },
+      {
+        "zip": "91301",
+        "city": "Agoura Hills",
+        "returns": 11902,
+        "agi_usd": 2060890793,
+        "tax_liability_usd": 110752005
+      },
+      {
+        "zip": "90230",
+        "city": "Culver City",
+        "returns": 15121,
+        "agi_usd": 2069063789,
+        "tax_liability_usd": 109745723
+      },
+      {
+        "zip": "91711",
+        "city": "Claremont",
+        "returns": 15842,
+        "agi_usd": 2244563392,
+        "tax_liability_usd": 107209517
+      },
+      {
+        "zip": "90505",
+        "city": "Torrance",
+        "returns": 17337,
+        "agi_usd": 2177166229,
+        "tax_liability_usd": 106059257
+      },
+      {
+        "zip": "91356",
+        "city": "Tarzana",
+        "returns": 13624,
+        "agi_usd": 2199405137,
+        "tax_liability_usd": 105112077
+      },
+      {
+        "zip": "90808",
+        "city": "Long Beach",
+        "returns": 19108,
+        "agi_usd": 2338607232,
+        "tax_liability_usd": 105027530
+      },
+      {
+        "zip": "90026",
+        "city": "Los Angeles",
+        "returns": 29822,
+        "agi_usd": 2354676305,
+        "tax_liability_usd": 104102875
+      },
+      {
+        "zip": "90035",
+        "city": "Los Angeles",
+        "returns": 13332,
+        "agi_usd": 1969922626,
+        "tax_liability_usd": 102506522
+      },
+      {
+        "zip": "90815",
+        "city": "Long Beach",
+        "returns": 18886,
+        "agi_usd": 2260119474,
+        "tax_liability_usd": 101333397
+      },
+      {
+        "zip": "91311",
+        "city": "Chatsworth",
+        "returns": 19119,
+        "agi_usd": 2178238165,
+        "tax_liability_usd": 99582277
+      },
+      {
+        "zip": "91350",
+        "city": "Santa Clarita",
+        "returns": 19905,
+        "agi_usd": 2281707193,
+        "tax_liability_usd": 95548876
+      },
+      {
+        "zip": "90019",
+        "city": "Los Angeles",
+        "returns": 27500,
+        "agi_usd": 1976938687,
+        "tax_liability_usd": 93893383
+      },
+      {
+        "zip": "91344",
+        "city": "Granada Hills",
+        "returns": 24787,
+        "agi_usd": 2292786440,
+        "tax_liability_usd": 91823616
+      },
+      {
+        "zip": "90245",
+        "city": "El Segundo",
+        "returns": 9070,
+        "agi_usd": 1631479687,
+        "tax_liability_usd": 89637047
+      },
+      {
+        "zip": "91214",
+        "city": "La Crescenta",
+        "returns": 14332,
+        "agi_usd": 1837354545,
+        "tax_liability_usd": 88890561
+      },
+      {
+        "zip": "91007",
+        "city": "Arcadia",
+        "returns": 15453,
+        "agi_usd": 1808992519,
+        "tax_liability_usd": 87378604
+      },
+      {
+        "zip": "91741",
+        "city": "Glendora",
+        "returns": 12542,
+        "agi_usd": 1707645920,
+        "tax_liability_usd": 85238317
+      },
+      {
+        "zip": "90039",
+        "city": "Los Angeles",
+        "returns": 14246,
+        "agi_usd": 1675068162,
+        "tax_liability_usd": 84796277
+      },
+      {
+        "zip": "91381",
+        "city": "Stevenson Ranch",
+        "returns": 10117,
+        "agi_usd": 1624955877,
+        "tax_liability_usd": 84610567
+      },
+      {
+        "zip": "91355",
+        "city": "Valencia",
+        "returns": 15028,
+        "agi_usd": 1906590368,
+        "tax_liability_usd": 84135159
+      },
+      {
+        "zip": "91354",
+        "city": "Valencia",
+        "returns": 14938,
+        "agi_usd": 1887379225,
+        "tax_liability_usd": 84134395
+      },
+      {
+        "zip": "90042",
+        "city": "Los Angeles",
+        "returns": 25885,
+        "agi_usd": 2096213387,
+        "tax_liability_usd": 84098650
+      },
+      {
+        "zip": "90250",
+        "city": "Hawthorne",
+        "returns": 41709,
+        "agi_usd": 2668862245,
+        "tax_liability_usd": 84021038
+      },
+      {
+        "zip": "91505",
+        "city": "Burbank",
+        "returns": 16361,
+        "agi_usd": 1808561286,
+        "tax_liability_usd": 83824981
+      },
+      {
+        "zip": "93536",
+        "city": "Lancaster",
+        "returns": 30263,
+        "agi_usd": 2416032334,
+        "tax_liability_usd": 81557600
+      },
+      {
+        "zip": "91745",
+        "city": "Hacienda Heights",
+        "returns": 26187,
+        "agi_usd": 2113656682,
+        "tax_liability_usd": 80814278
+      },
+      {
+        "zip": "90020",
+        "city": "Los Angeles",
+        "returns": 17989,
+        "agi_usd": 1521708892,
+        "tax_liability_usd": 79936999
+      },
+      {
+        "zip": "91387",
+        "city": "Canyon Country",
+        "returns": 20578,
+        "agi_usd": 1990872239,
+        "tax_liability_usd": 78161336
+      },
+      {
+        "zip": "91016",
+        "city": "Monrovia",
+        "returns": 19238,
+        "agi_usd": 1865857702,
+        "tax_liability_usd": 78072326
+      },
+      {
+        "zip": "91208",
+        "city": "Glendale",
+        "returns": 7675,
+        "agi_usd": 1304160495,
+        "tax_liability_usd": 77674914
+      },
+      {
+        "zip": "91307",
+        "city": "West Hills",
+        "returns": 11816,
+        "agi_usd": 1541969458,
+        "tax_liability_usd": 77636086
+      },
+      {
+        "zip": "91104",
+        "city": "Pasadena",
+        "returns": 15831,
+        "agi_usd": 1664140305,
+        "tax_liability_usd": 76956782
+      },
+      {
+        "zip": "91607",
+        "city": "Valley Village",
+        "returns": 14718,
+        "agi_usd": 1638099145,
+        "tax_liability_usd": 75902127
+      },
+      {
+        "zip": "90065",
+        "city": "Los Angeles",
+        "returns": 20378,
+        "agi_usd": 1764772952,
+        "tax_liability_usd": 75494156
+      },
+      {
+        "zip": "90807",
+        "city": "Long Beach",
+        "returns": 15465,
+        "agi_usd": 1643129949,
+        "tax_liability_usd": 73318862
+      },
+      {
+        "zip": "91750",
+        "city": "La Verne",
+        "returns": 16061,
+        "agi_usd": 1681361026,
+        "tax_liability_usd": 70348505
+      },
+      {
+        "zip": "90094",
+        "city": "Los Angeles",
+        "returns": 4794,
+        "agi_usd": 1104614729,
+        "tax_liability_usd": 69356033
+      },
+      {
+        "zip": "91342",
+        "city": "Sylmar",
+        "returns": 42274,
+        "agi_usd": 1886516272,
+        "tax_liability_usd": 69246123
+      },
+      {
+        "zip": "90404",
+        "city": "Santa Monica",
+        "returns": 10863,
+        "agi_usd": 1280932440,
+        "tax_liability_usd": 68389178
+      },
+      {
+        "zip": "90802",
+        "city": "Long Beach",
+        "returns": 19582,
+        "agi_usd": 1536810389,
+        "tax_liability_usd": 68190541
+      },
+      {
+        "zip": "90638",
+        "city": "La Mirada",
+        "returns": 21907,
+        "agi_usd": 1882837776,
+        "tax_liability_usd": 68101159
+      },
+      {
+        "zip": "93551",
+        "city": "Palmdale",
+        "returns": 24153,
+        "agi_usd": 1987576177,
+        "tax_liability_usd": 67878529
+      },
+      {
+        "zip": "91748",
+        "city": "Rowland Heights",
+        "returns": 22404,
+        "agi_usd": 1707313425,
+        "tax_liability_usd": 67657195
+      },
+      {
+        "zip": "91103",
+        "city": "Pasadena",
+        "returns": 11561,
+        "agi_usd": 1347188752,
+        "tax_liability_usd": 67253891
+      },
+      {
+        "zip": "90232",
+        "city": "Culver City",
+        "returns": 8658,
+        "agi_usd": 1222973857,
+        "tax_liability_usd": 67007865
+      },
+      {
+        "zip": "91304",
+        "city": "Canoga Park",
+        "returns": 23021,
+        "agi_usd": 1802733485,
+        "tax_liability_usd": 66416110
+      },
+      {
+        "zip": "91602",
+        "city": "North Hollywood",
+        "returns": 10564,
+        "agi_usd": 1287909769,
+        "tax_liability_usd": 66219529
+      },
+      {
+        "zip": "90650",
+        "city": "Norwalk",
+        "returns": 46484,
+        "agi_usd": 2191638721,
+        "tax_liability_usd": 65954887
+      },
+      {
+        "zip": "91801",
+        "city": "Alhambra",
+        "returns": 25714,
+        "agi_usd": 1815671342,
+        "tax_liability_usd": 64803299
+      },
+      {
+        "zip": "90731",
+        "city": "San Pedro",
+        "returns": 25437,
+        "agi_usd": 1836911429,
+        "tax_liability_usd": 64595791
+      },
+      {
+        "zip": "90501",
+        "city": "Torrance",
+        "returns": 20081,
+        "agi_usd": 1651010460,
+        "tax_liability_usd": 64009571
+      },
+      {
+        "zip": "91101",
+        "city": "Pasadena",
+        "returns": 10513,
+        "agi_usd": 1224030289,
+        "tax_liability_usd": 63316914
+      },
+      {
+        "zip": "90732",
+        "city": "San Pedro",
+        "returns": 10415,
+        "agi_usd": 1279538905,
+        "tax_liability_usd": 62566345
+      },
+      {
+        "zip": "90504",
+        "city": "Torrance",
+        "returns": 15807,
+        "agi_usd": 1527000981,
+        "tax_liability_usd": 61827918
+      },
+      {
+        "zip": "91773",
+        "city": "San Dimas",
+        "returns": 16010,
+        "agi_usd": 1551340689,
+        "tax_liability_usd": 61414447
+      },
+      {
+        "zip": "91206",
+        "city": "Glendale",
+        "returns": 14830,
+        "agi_usd": 1429054821,
+        "tax_liability_usd": 60791558
+      },
+      {
+        "zip": "90293",
+        "city": "Playa Del Rey",
+        "returns": 6636,
+        "agi_usd": 1042167396,
+        "tax_liability_usd": 60635205
+      },
+      {
+        "zip": "91202",
+        "city": "Glendale",
+        "returns": 10261,
+        "agi_usd": 1175115878,
+        "tax_liability_usd": 60149449
+      },
+      {
+        "zip": "90016",
+        "city": "Los Angeles",
+        "returns": 21941,
+        "agi_usd": 1536339487,
+        "tax_liability_usd": 60105159
+      },
+      {
+        "zip": "91401",
+        "city": "Van Nuys",
+        "returns": 17665,
+        "agi_usd": 1427298258,
+        "tax_liability_usd": 58014389
+      },
+      {
+        "zip": "91791",
+        "city": "West Covina",
+        "returns": 16092,
+        "agi_usd": 1448234780,
+        "tax_liability_usd": 57538651
+      },
+      {
+        "zip": "90043",
+        "city": "Los Angeles",
+        "returns": 19344,
+        "agi_usd": 1423724485,
+        "tax_liability_usd": 57278272
+      },
+      {
+        "zip": "90041",
+        "city": "Los Angeles",
+        "returns": 12291,
+        "agi_usd": 1280109450,
+        "tax_liability_usd": 56851354
+      },
+      {
+        "zip": "91335",
+        "city": "Reseda",
+        "returns": 33797,
+        "agi_usd": 1982697819,
+        "tax_liability_usd": 56446374
+      },
+      {
+        "zip": "90005",
+        "city": "Los Angeles",
+        "returns": 17647,
+        "agi_usd": 1277386415,
+        "tax_liability_usd": 56176374
+      },
+      {
+        "zip": "91601",
+        "city": "North Hollywood",
+        "returns": 20285,
+        "agi_usd": 1394884544,
+        "tax_liability_usd": 56096881
+      },
+      {
+        "zip": "91775",
+        "city": "San Gabriel",
+        "returns": 11284,
+        "agi_usd": 1221487919,
+        "tax_liability_usd": 55924943
+      },
+      {
+        "zip": "90712",
+        "city": "Lakewood",
+        "returns": 15592,
+        "agi_usd": 1441965552,
+        "tax_liability_usd": 55555434
+      },
+      {
+        "zip": "91406",
+        "city": "Van Nuys",
+        "returns": 23477,
+        "agi_usd": 1615075267,
+        "tax_liability_usd": 54835219
+      },
+      {
+        "zip": "91325",
+        "city": "Northridge",
+        "returns": 16224,
+        "agi_usd": 1343145139,
+        "tax_liability_usd": 53556040
+      },
+      {
+        "zip": "91754",
+        "city": "Monterey Park",
+        "returns": 17354,
+        "agi_usd": 1328591862,
+        "tax_liability_usd": 52533003
+      },
+      {
+        "zip": "91504",
+        "city": "Burbank",
+        "returns": 12110,
+        "agi_usd": 1221191301,
+        "tax_liability_usd": 51841509
+      },
+      {
+        "zip": "91780",
+        "city": "Temple City",
+        "returns": 17258,
+        "agi_usd": 1388543183,
+        "tax_liability_usd": 51841254
+      },
+      {
+        "zip": "90706",
+        "city": "Bellflower",
+        "returns": 34100,
+        "agi_usd": 2022947519,
+        "tax_liability_usd": 51521600
+      },
+      {
+        "zip": "90814",
+        "city": "Long Beach",
+        "returns": 9560,
+        "agi_usd": 1069939262,
+        "tax_liability_usd": 51135345
+      },
+      {
+        "zip": "90713",
+        "city": "Lakewood",
+        "returns": 13813,
+        "agi_usd": 1346763702,
+        "tax_liability_usd": 50650424
+      },
+      {
+        "zip": "90640",
+        "city": "Montebello",
+        "returns": 28157,
+        "agi_usd": 1690397304,
+        "tax_liability_usd": 49976275
+      },
+      {
+        "zip": "90745",
+        "city": "Carson",
+        "returns": 27657,
+        "agi_usd": 1799527644,
+        "tax_liability_usd": 49899770
+      },
+      {
+        "zip": "91343",
+        "city": "North Hills",
+        "returns": 25944,
+        "agi_usd": 1625490352,
+        "tax_liability_usd": 48657853
+      },
+      {
+        "zip": "91702",
+        "city": "Azusa",
+        "returns": 26807,
+        "agi_usd": 1688506127,
+        "tax_liability_usd": 48423862
+      },
+      {
+        "zip": "90012",
+        "city": "Los Angeles",
+        "returns": 12493,
+        "agi_usd": 986280593,
+        "tax_liability_usd": 47797268
+      },
+      {
+        "zip": "91024",
+        "city": "Sierra Madre",
+        "returns": 5444,
+        "agi_usd": 866529430,
+        "tax_liability_usd": 46413551
+      },
+      {
+        "zip": "91506",
+        "city": "Burbank",
+        "returns": 9730,
+        "agi_usd": 1015155605,
+        "tax_liability_usd": 46200701
+      },
+      {
+        "zip": "91324",
+        "city": "Northridge",
+        "returns": 14209,
+        "agi_usd": 1043895846,
+        "tax_liability_usd": 45587246
+      },
+      {
+        "zip": "90241",
+        "city": "Downey",
+        "returns": 20131,
+        "agi_usd": 1419406941,
+        "tax_liability_usd": 44911796
+      },
+      {
+        "zip": "90028",
+        "city": "Los Angeles",
+        "returns": 16252,
+        "agi_usd": 1050088925,
+        "tax_liability_usd": 44684845
+      },
+      {
+        "zip": "90601",
+        "city": "Whittier",
+        "returns": 14988,
+        "agi_usd": 1255468425,
+        "tax_liability_usd": 44397553
+      },
+      {
+        "zip": "91321",
+        "city": "Newhall",
+        "returns": 15048,
+        "agi_usd": 1199921325,
+        "tax_liability_usd": 44046688
+      },
+      {
+        "zip": "90605",
+        "city": "Whittier",
+        "returns": 18386,
+        "agi_usd": 1347938113,
+        "tax_liability_usd": 43721619
+      },
+      {
+        "zip": "90015",
+        "city": "Los Angeles",
+        "returns": 10647,
+        "agi_usd": 921476874,
+        "tax_liability_usd": 43329185
+      },
+      {
+        "zip": "91770",
+        "city": "Rosemead",
+        "returns": 28770,
+        "agi_usd": 1552867636,
+        "tax_liability_usd": 43181656
+      },
+      {
+        "zip": "91724",
+        "city": "Covina",
+        "returns": 12809,
+        "agi_usd": 1214083382,
+        "tax_liability_usd": 43153451
+      },
+      {
+        "zip": "90805",
+        "city": "Long Beach",
+        "returns": 38820,
+        "agi_usd": 2009850411,
+        "tax_liability_usd": 43000472
+      },
+      {
+        "zip": "91390",
+        "city": "Santa Clarita",
+        "returns": 8761,
+        "agi_usd": 995782451,
+        "tax_liability_usd": 42331150
+      },
+      {
+        "zip": "90008",
+        "city": "Los Angeles",
+        "returns": 13190,
+        "agi_usd": 1011173582,
+        "tax_liability_usd": 41483790
+      },
+      {
+        "zip": "91790",
+        "city": "West Covina",
+        "returns": 21392,
+        "agi_usd": 1402021205,
+        "tax_liability_usd": 41322067
+      },
+      {
+        "zip": "91207",
+        "city": "Glendale",
+        "returns": 4759,
+        "agi_usd": 791236414,
+        "tax_liability_usd": 41203221
+      },
+      {
+        "zip": "91306",
+        "city": "Winnetka",
+        "returns": 21275,
+        "agi_usd": 1340289022,
+        "tax_liability_usd": 40870114
+      },
+      {
+        "zip": "91501",
+        "city": "Burbank",
+        "returns": 9712,
+        "agi_usd": 950307814,
+        "tax_liability_usd": 40476177
+      },
+      {
+        "zip": "90603",
+        "city": "Whittier",
+        "returns": 9918,
+        "agi_usd": 1022674262,
+        "tax_liability_usd": 40244611
+      },
+      {
+        "zip": "91766",
+        "city": "Pomona",
+        "returns": 30081,
+        "agi_usd": 1656636863,
+        "tax_liability_usd": 39721961
+      },
+      {
+        "zip": "91331",
+        "city": "Pacoima",
+        "returns": 42001,
+        "agi_usd": 2048219196,
+        "tax_liability_usd": 39456106
+      },
+      {
+        "zip": "91384",
+        "city": "Castaic",
+        "returns": 10891,
+        "agi_usd": 1036359284,
+        "tax_liability_usd": 38739251
+      },
+      {
+        "zip": "90660",
+        "city": "Pico Rivera",
+        "returns": 28448,
+        "agi_usd": 1655392323,
+        "tax_liability_usd": 38576290
+      },
+      {
+        "zip": "91744",
+        "city": "La Puente",
+        "returns": 36754,
+        "agi_usd": 1866327495,
+        "tax_liability_usd": 37501269
+      },
+      {
+        "zip": "91722",
+        "city": "Covina",
+        "returns": 17240,
+        "agi_usd": 1163175943,
+        "tax_liability_usd": 37462104
+      },
+      {
+        "zip": "90240",
+        "city": "Downey",
+        "returns": 12107,
+        "agi_usd": 1020729028,
+        "tax_liability_usd": 37455955
+      },
+      {
+        "zip": "90604",
+        "city": "Whittier",
+        "returns": 18254,
+        "agi_usd": 1298953686,
+        "tax_liability_usd": 37279804
+      },
+      {
+        "zip": "90247",
+        "city": "Gardena",
+        "returns": 22127,
+        "agi_usd": 1318589443,
+        "tax_liability_usd": 37052077
+      },
+      {
+        "zip": "90018",
+        "city": "Los Angeles",
+        "returns": 20387,
+        "agi_usd": 1189006743,
+        "tax_liability_usd": 37000403
+      },
+      {
+        "zip": "91803",
+        "city": "Alhambra",
+        "returns": 14473,
+        "agi_usd": 1029951714,
+        "tax_liability_usd": 36345325
+      },
+      {
+        "zip": "90280",
+        "city": "South Gate",
+        "returns": 39095,
+        "agi_usd": 1955514847,
+        "tax_liability_usd": 36026739
+      },
+      {
+        "zip": "91351",
+        "city": "Canyon Country",
+        "returns": 16013,
+        "agi_usd": 1155096357,
+        "tax_liability_usd": 35151806
+      },
+      {
+        "zip": "91706",
+        "city": "Baldwin Park",
+        "returns": 33530,
+        "agi_usd": 1685308227,
+        "tax_liability_usd": 34878244
+      },
+      {
+        "zip": "90017",
+        "city": "Los Angeles",
+        "returns": 10835,
+        "agi_usd": 812882847,
+        "tax_liability_usd": 34759427
+      },
+      {
+        "zip": "90032",
+        "city": "Los Angeles",
+        "returns": 18617,
+        "agi_usd": 1156420757,
+        "tax_liability_usd": 34687864
+      },
+      {
+        "zip": "90038",
+        "city": "Los Angeles",
+        "returns": 13240,
+        "agi_usd": 862831104,
+        "tax_liability_usd": 34060131
+      },
+      {
+        "zip": "91411",
+        "city": "Van Nuys",
+        "returns": 10613,
+        "agi_usd": 809187456,
+        "tax_liability_usd": 33846300
+      },
+      {
+        "zip": "91042",
+        "city": "Tujunga",
+        "returns": 12054,
+        "agi_usd": -53480472,
+        "tax_liability_usd": 33762940
+      },
+      {
+        "zip": "91740",
+        "city": "Glendora",
+        "returns": 12400,
+        "agi_usd": 974108992,
+        "tax_liability_usd": 33755747
+      },
+      {
+        "zip": "91776",
+        "city": "San Gabriel",
+        "returns": 18740,
+        "agi_usd": 1017991658,
+        "tax_liability_usd": 33591179
+      },
+      {
+        "zip": "91606",
+        "city": "North Hollywood",
+        "returns": 19607,
+        "agi_usd": 1126025802,
+        "tax_liability_usd": 33518129
+      },
+      {
+        "zip": "90013",
+        "city": "Los Angeles",
+        "returns": 4862,
+        "agi_usd": 1097866026,
+        "tax_liability_usd": 33435772
+      },
+      {
+        "zip": "90804",
+        "city": "Long Beach",
+        "returns": 16660,
+        "agi_usd": 814592848,
+        "tax_liability_usd": 32833301
+      },
+      {
+        "zip": "90717",
+        "city": "Lomita",
+        "returns": 10244,
+        "agi_usd": 837469389,
+        "tax_liability_usd": 32780035
+      },
+      {
+        "zip": "90010",
+        "city": "Los Angeles",
+        "returns": 3116,
+        "agi_usd": 699197593,
+        "tax_liability_usd": 32616854
+      },
+      {
+        "zip": "90242",
+        "city": "Downey",
+        "returns": 18743,
+        "agi_usd": 1190654500,
+        "tax_liability_usd": 32363921
+      },
+      {
+        "zip": "90746",
+        "city": "Carson",
+        "returns": 12951,
+        "agi_usd": 955027508,
+        "tax_liability_usd": 30992852
+      },
+      {
+        "zip": "91746",
+        "city": "La Puente",
+        "returns": 13402,
+        "agi_usd": 956956959,
+        "tax_liability_usd": 30933658
+      },
+      {
+        "zip": "91767",
+        "city": "Pomona",
+        "returns": 21689,
+        "agi_usd": 1240789088,
+        "tax_liability_usd": 30845170
+      },
+      {
+        "zip": "91040",
+        "city": "Sunland",
+        "returns": 9534,
+        "agi_usd": 806747293,
+        "tax_liability_usd": 30495154
+      },
+      {
+        "zip": "91201",
+        "city": "Glendale",
+        "returns": 9694,
+        "agi_usd": 786224103,
+        "tax_liability_usd": 30146620
+      },
+      {
+        "zip": "90047",
+        "city": "Los Angeles",
+        "returns": 22046,
+        "agi_usd": 1179344766,
+        "tax_liability_usd": 30056578
+      },
+      {
+        "zip": "91405",
+        "city": "Van Nuys",
+        "returns": 22241,
+        "agi_usd": 1146093675,
+        "tax_liability_usd": 29961312
+      },
+      {
+        "zip": "90029",
+        "city": "Los Angeles",
+        "returns": 15941,
+        "agi_usd": 880482290,
+        "tax_liability_usd": 29902291
+      },
+      {
+        "zip": "91755",
+        "city": "Monterey Park",
+        "returns": 14725,
+        "agi_usd": 883105165,
+        "tax_liability_usd": 29881863
+      },
+      {
+        "zip": "91352",
+        "city": "Sun Valley",
+        "returns": 20102,
+        "agi_usd": 1121060942,
+        "tax_liability_usd": 29203951
+      },
+      {
+        "zip": "90290",
+        "city": "Topanga",
+        "returns": 2806,
+        "agi_usd": 536441193,
+        "tax_liability_usd": 28917176
+      },
+      {
+        "zip": "91605",
+        "city": "North Hollywood",
+        "returns": 23399,
+        "agi_usd": 299396874,
+        "tax_liability_usd": 28846005
+      },
+      {
+        "zip": "91402",
+        "city": "Panorama City",
+        "returns": 28120,
+        "agi_usd": 1357980140,
+        "tax_liability_usd": 28775067
+      },
+      {
+        "zip": "91205",
+        "city": "Glendale",
+        "returns": 14942,
+        "agi_usd": 885954768,
+        "tax_liability_usd": 28637531
+      },
+      {
+        "zip": "91010",
+        "city": "Duarte",
+        "returns": 12180,
+        "agi_usd": 871161607,
+        "tax_liability_usd": 28474162
+      },
+      {
+        "zip": "90249",
+        "city": "Gardena",
+        "returns": 12782,
+        "agi_usd": 871293737,
+        "tax_liability_usd": 28306137
+      },
+      {
+        "zip": "90260",
+        "city": "Lawndale",
+        "returns": 14920,
+        "agi_usd": 918136439,
+        "tax_liability_usd": 28235634
+      },
+      {
+        "zip": "90602",
+        "city": "Whittier",
+        "returns": 11425,
+        "agi_usd": 849432375,
+        "tax_liability_usd": 28063868
+      },
+      {
+        "zip": "91723",
+        "city": "Covina",
+        "returns": 9475,
+        "agi_usd": 728127149,
+        "tax_liability_usd": 27736643
+      },
+      {
+        "zip": "90056",
+        "city": "Los Angeles",
+        "returns": 4073,
+        "agi_usd": 542571204,
+        "tax_liability_usd": 27731534
+      },
+      {
+        "zip": "91732",
+        "city": "El Monte",
+        "returns": 25531,
+        "agi_usd": 1241032683,
+        "tax_liability_usd": 27137316
+      },
+      {
+        "zip": "90201",
+        "city": "Bell",
+        "returns": 37666,
+        "agi_usd": 1670689926,
+        "tax_liability_usd": 27060804
+      },
+      {
+        "zip": "90710",
+        "city": "Harbor City",
+        "returns": 11917,
+        "agi_usd": 828237850,
+        "tax_liability_usd": 26286338
+      },
+      {
+        "zip": "93535",
+        "city": "Lancaster",
+        "returns": 31305,
+        "agi_usd": 1453398769,
+        "tax_liability_usd": 26053904
+      },
+      {
+        "zip": "93550",
+        "city": "Palmdale",
+        "returns": 31287,
+        "agi_usd": 1459596797,
+        "tax_liability_usd": 25893204
+      },
+      {
+        "zip": "90806",
+        "city": "Long Beach",
+        "returns": 16908,
+        "agi_usd": 955444652,
+        "tax_liability_usd": 25794941
+      },
+      {
+        "zip": "90022",
+        "city": "Los Angeles",
+        "returns": 26049,
+        "agi_usd": 1278238311,
+        "tax_liability_usd": 25446176
+      },
+      {
+        "zip": "91792",
+        "city": "West Covina",
+        "returns": 14049,
+        "agi_usd": 893833518,
+        "tax_liability_usd": 25441503
+      },
+      {
+        "zip": "90031",
+        "city": "Los Angeles",
+        "returns": 15433,
+        "agi_usd": 882992292,
+        "tax_liability_usd": 25183429
+      },
+      {
+        "zip": "90744",
+        "city": "Wilmington",
+        "returns": 21384,
+        "agi_usd": 1099706117,
+        "tax_liability_usd": 23972769
+      },
+      {
+        "zip": "90502",
+        "city": "Torrance",
+        "returns": 8847,
+        "agi_usd": 686900251,
+        "tax_liability_usd": 23695173
+      },
+      {
+        "zip": "90006",
+        "city": "Los Angeles",
+        "returns": 22319,
+        "agi_usd": 976497344,
+        "tax_liability_usd": 22611650
+      },
+      {
+        "zip": "90723",
+        "city": "Paramount",
+        "returns": 22738,
+        "agi_usd": 1133705261,
+        "tax_liability_usd": 22042669
+      },
+      {
+        "zip": "91203",
+        "city": "Glendale",
+        "returns": 7551,
+        "agi_usd": 553613890,
+        "tax_liability_usd": 22041379
+      },
+      {
+        "zip": "90044",
+        "city": "Los Angeles",
+        "returns": 34863,
+        "agi_usd": 1406188874,
+        "tax_liability_usd": 21675539
+      },
+      {
+        "zip": "90411",
+        "city": "Santa Monica",
+        "returns": 157,
+        "agi_usd": 290034942,
+        "tax_liability_usd": 21671404
+      },
+      {
+        "zip": "90606",
+        "city": "Whittier",
+        "returns": 14486,
+        "agi_usd": 884601132,
+        "tax_liability_usd": 21625358
+      },
+      {
+        "zip": "90755",
+        "city": "Signal Hill",
+        "returns": 5635,
+        "agi_usd": 528697316,
+        "tax_liability_usd": 21242312
+      },
+      {
+        "zip": "91303",
+        "city": "Canoga Park",
+        "returns": 12846,
+        "agi_usd": 723727059,
+        "tax_liability_usd": 20881682
+      },
+      {
+        "zip": "90302",
+        "city": "Inglewood",
+        "returns": 12634,
+        "agi_usd": 713302586,
+        "tax_liability_usd": 20564503
+      },
+      {
+        "zip": "90021",
+        "city": "Los Angeles",
+        "returns": 1486,
+        "agi_usd": 391683281,
+        "tax_liability_usd": 20264360
+      },
+      {
+        "zip": "90262",
+        "city": "Lynwood",
+        "returns": 26786,
+        "agi_usd": 1247694643,
+        "tax_liability_usd": 20129685
+      },
+      {
+        "zip": "90810",
+        "city": "Long Beach",
+        "returns": 16171,
+        "agi_usd": 898748143,
+        "tax_liability_usd": 19892720
+      },
+      {
+        "zip": "90255",
+        "city": "Huntington Park",
+        "returns": 28042,
+        "agi_usd": 1246710594,
+        "tax_liability_usd": 19798100
+      },
+      {
+        "zip": "93534",
+        "city": "Lancaster",
+        "returns": 15720,
+        "agi_usd": 832921467,
+        "tax_liability_usd": 19598790
+      },
+      {
+        "zip": "90301",
+        "city": "Inglewood",
+        "returns": 15455,
+        "agi_usd": 796013006,
+        "tax_liability_usd": 19333975
+      },
+      {
+        "zip": "90220",
+        "city": "Compton",
+        "returns": 20969,
+        "agi_usd": 1025854804,
+        "tax_liability_usd": 19210323
+      },
+      {
+        "zip": "90670",
+        "city": "Santa Fe Springs",
+        "returns": 7898,
+        "agi_usd": 636354946,
+        "tax_liability_usd": 19106884
+      },
+      {
+        "zip": "90248",
+        "city": "Gardena",
+        "returns": 5456,
+        "agi_usd": 464289665,
+        "tax_liability_usd": 19038204
+      },
+      {
+        "zip": "90221",
+        "city": "Compton",
+        "returns": 21212,
+        "agi_usd": 426733325,
+        "tax_liability_usd": 18665694
+      },
+      {
+        "zip": "90063",
+        "city": "Los Angeles",
+        "returns": 20129,
+        "agi_usd": 947373486,
+        "tax_liability_usd": 18638549
+      },
+      {
+        "zip": "90071",
+        "city": "Los Angeles",
+        "returns": 243,
+        "agi_usd": 343253853,
+        "tax_liability_usd": 18516539
+      },
+      {
+        "zip": "90715",
+        "city": "Lakewood",
+        "returns": 9622,
+        "agi_usd": 634004444,
+        "tax_liability_usd": 18392097
+      },
+      {
+        "zip": "93552",
+        "city": "Palmdale",
+        "returns": 17643,
+        "agi_usd": 925784928,
+        "tax_liability_usd": 18090661
+      },
+      {
+        "zip": "90011",
+        "city": "Los Angeles",
+        "returns": 37049,
+        "agi_usd": 1417378143,
+        "tax_liability_usd": 17965993
+      },
+      {
+        "zip": "90305",
+        "city": "Inglewood",
+        "returns": 6947,
+        "agi_usd": 507746566,
+        "tax_liability_usd": 17558964
+      },
+      {
+        "zip": "91733",
+        "city": "South El Monte",
+        "returns": 17729,
+        "agi_usd": 834110417,
+        "tax_liability_usd": 17288949
+      },
+      {
+        "zip": "91731",
+        "city": "El Monte",
+        "returns": 11855,
+        "agi_usd": 673269959,
+        "tax_liability_usd": 16969482
+      },
+      {
+        "zip": "90813",
+        "city": "Long Beach",
+        "returns": 19812,
+        "agi_usd": 863260245,
+        "tax_liability_usd": 16612806
+      },
+      {
+        "zip": "91012",
+        "city": "La Canada Flintridge",
+        "returns": 285,
+        "agi_usd": 194522254,
+        "tax_liability_usd": 16222655
+      },
+      {
+        "zip": "91768",
+        "city": "Pomona",
+        "returns": 13267,
+        "agi_usd": 706948350,
+        "tax_liability_usd": 15688993
+      },
+      {
+        "zip": "91340",
+        "city": "San Fernando",
+        "returns": 14636,
+        "agi_usd": 758838107,
+        "tax_liability_usd": 15686107
+      },
+      {
+        "zip": "91204",
+        "city": "Glendale",
+        "returns": 7207,
+        "agi_usd": 457864430,
+        "tax_liability_usd": 15679105
+      },
+      {
+        "zip": "91376",
+        "city": "Agoura Hills",
+        "returns": 301,
+        "agi_usd": 159894693,
+        "tax_liability_usd": 15576916
+      },
+      {
+        "zip": "90014",
+        "city": "Los Angeles",
+        "returns": 3236,
+        "agi_usd": 289145997,
+        "tax_liability_usd": 15376737
+      },
+      {
+        "zip": "91345",
+        "city": "Mission Hills",
+        "returns": 8981,
+        "agi_usd": 560682807,
+        "tax_liability_usd": 15017515
+      },
+      {
+        "zip": "90033",
+        "city": "Los Angeles",
+        "returns": 16867,
+        "agi_usd": 740442472,
+        "tax_liability_usd": 14850930
+      },
+      {
+        "zip": "90701",
+        "city": "Artesia",
+        "returns": 7421,
+        "agi_usd": 484673350,
+        "tax_liability_usd": 14421801
+      },
+      {
+        "zip": "91008",
+        "city": "Duarte",
+        "returns": 506,
+        "agi_usd": 187862671,
+        "tax_liability_usd": 14018407
+      },
+      {
+        "zip": "90062",
+        "city": "Los Angeles",
+        "returns": 13486,
+        "agi_usd": 641451314,
+        "tax_liability_usd": 13955037
+      },
+      {
+        "zip": "90057",
+        "city": "Los Angeles",
+        "returns": 15437,
+        "agi_usd": 639071541,
+        "tax_liability_usd": 13765617
+      },
+      {
+        "zip": "91502",
+        "city": "Burbank",
+        "returns": 5231,
+        "agi_usd": 381601634,
+        "tax_liability_usd": 13530667
+      },
+      {
+        "zip": "90037",
+        "city": "Los Angeles",
+        "returns": 23192,
+        "agi_usd": 903721002,
+        "tax_liability_usd": 13353194
+      },
+      {
+        "zip": "91020",
+        "city": "Montrose",
+        "returns": 3758,
+        "agi_usd": 328533618,
+        "tax_liability_usd": 13029194
+      },
+      {
+        "zip": "93510",
+        "city": "Acton",
+        "returns": 3389,
+        "agi_usd": 323261848,
+        "tax_liability_usd": 12680786
+      },
+      {
+        "zip": "90003",
+        "city": "Los Angeles",
+        "returns": 26830,
+        "agi_usd": 1002568602,
+        "tax_liability_usd": 12106871
+      },
+      {
+        "zip": "90023",
+        "city": "Los Angeles",
+        "returns": 16888,
+        "agi_usd": 740353384,
+        "tax_liability_usd": 12004542
+      },
+      {
+        "zip": "90001",
+        "city": "Los Angeles",
+        "returns": 21094,
+        "agi_usd": 855090432,
+        "tax_liability_usd": 11702350
+      },
+      {
+        "zip": "90303",
+        "city": "Inglewood",
+        "returns": 10528,
+        "agi_usd": 528803550,
+        "tax_liability_usd": 11637039
+      },
+      {
+        "zip": "90058",
+        "city": "Los Angeles",
+        "returns": 1296,
+        "agi_usd": 281133881,
+        "tax_liability_usd": 11325170
+      },
+      {
+        "zip": "90304",
+        "city": "Inglewood",
+        "returns": 10756,
+        "agi_usd": 523577548,
+        "tax_liability_usd": 11143105
+      },
+      {
+        "zip": "90007",
+        "city": "Los Angeles",
+        "returns": 12875,
+        "agi_usd": 514394347,
+        "tax_liability_usd": 10959429
+      },
+      {
+        "zip": "90059",
+        "city": "Los Angeles",
+        "returns": 16712,
+        "agi_usd": 688457568,
+        "tax_liability_usd": 10005978
+      },
+      {
+        "zip": "90002",
+        "city": "Los Angeles",
+        "returns": 19827,
+        "agi_usd": 788000144,
+        "tax_liability_usd": 9988840
+      },
+      {
+        "zip": "90040",
+        "city": "Los Angeles",
+        "returns": 5512,
+        "agi_usd": 340559686,
+        "tax_liability_usd": 8701454
+      },
+      {
+        "zip": "90222",
+        "city": "Compton",
+        "returns": 12784,
+        "agi_usd": 570225414,
+        "tax_liability_usd": 8610014
+      },
+      {
+        "zip": "90061",
+        "city": "Los Angeles",
+        "returns": 11237,
+        "agi_usd": 478994524,
+        "tax_liability_usd": 7642854
+      },
+      {
+        "zip": "90409",
+        "city": "Santa Monica",
+        "returns": 652,
+        "agi_usd": 117173662,
+        "tax_liability_usd": 7524112
+      },
+      {
+        "zip": "91413",
+        "city": "Sherman Oaks",
+        "returns": 594,
+        "agi_usd": 111974161,
+        "tax_liability_usd": 7327601
+      },
+      {
+        "zip": "90270",
+        "city": "Maywood",
+        "returns": 9913,
+        "agi_usd": 451871492,
+        "tax_liability_usd": 7287178
+      },
+      {
+        "zip": "90209",
+        "city": "Beverly Hills",
+        "returns": 365,
+        "agi_usd": 81693773,
+        "tax_liability_usd": 5731525
+      },
+      {
+        "zip": "93543",
+        "city": "Littlerock",
+        "returns": 5597,
+        "agi_usd": 280402396,
+        "tax_liability_usd": 5622850
+      },
+      {
+        "zip": "90267",
+        "city": "Manhattan Beach",
+        "returns": 334,
+        "agi_usd": 74019324,
+        "tax_liability_usd": 5150190
+      },
+      {
+        "zip": "90716",
+        "city": "Hawaiian Gardens",
+        "returns": 5784,
+        "agi_usd": 268707757,
+        "tax_liability_usd": 4867382
+      },
+      {
+        "zip": "90213",
+        "city": "Beverly Hills",
+        "returns": 308,
+        "agi_usd": 72871498,
+        "tax_liability_usd": 4786201
+      },
+      {
+        "zip": "90264",
+        "city": "Malibu",
+        "returns": 191,
+        "agi_usd": 51661478,
+        "tax_liability_usd": 4360021
+      },
+      {
+        "zip": "91210",
+        "city": "Glendale",
+        "returns": 180,
+        "agi_usd": 53703119,
+        "tax_liability_usd": 4098324
+      },
+      {
+        "zip": "93539",
+        "city": "Lancaster",
+        "returns": 755,
+        "agi_usd": 76894701,
+        "tax_liability_usd": 3956005
+      },
+      {
+        "zip": "90704",
+        "city": "Avalon",
+        "returns": 1667,
+        "agi_usd": 119162487,
+        "tax_liability_usd": 3932476
+      },
+      {
+        "zip": "91031",
+        "city": "South Pasadena",
+        "returns": 435,
+        "agi_usd": 70472086,
+        "tax_liability_usd": 3757224
+      },
+      {
+        "zip": "90294",
+        "city": "Venice",
+        "returns": 206,
+        "agi_usd": 54396478,
+        "tax_liability_usd": 3323018
+      },
+      {
+        "zip": "90406",
+        "city": "Santa Monica",
+        "returns": 316,
+        "agi_usd": 47154339,
+        "tax_liability_usd": 3145775
+      },
+      {
+        "zip": "91017",
+        "city": "Monrovia",
+        "returns": 383,
+        "agi_usd": 49999132,
+        "tax_liability_usd": 3088217
+      },
+      {
+        "zip": "93532",
+        "city": "Lake Hughes",
+        "returns": 1051,
+        "agi_usd": 83663495,
+        "tax_liability_usd": 2848304
+      },
+      {
+        "zip": "90081",
+        "city": "Los Angeles",
+        "returns": 203,
+        "agi_usd": 41595990,
+        "tax_liability_usd": 2425842
+      },
+      {
+        "zip": "91109",
+        "city": "Pasadena",
+        "returns": 521,
+        "agi_usd": 49710189,
+        "tax_liability_usd": 2389744
+      },
+      {
+        "zip": "91778",
+        "city": "San Gabriel",
+        "returns": 298,
+        "agi_usd": 33792514,
+        "tax_liability_usd": 2315649
+      },
+      {
+        "zip": "90009",
+        "city": "Los Angeles",
+        "returns": 602,
+        "agi_usd": 51359123,
+        "tax_liability_usd": 2291448
+      },
+      {
+        "zip": "91380",
+        "city": "Santa Clarita",
+        "returns": 566,
+        "agi_usd": 51306254,
+        "tax_liability_usd": 2130067
+      },
+      {
+        "zip": "91357",
+        "city": "Tarzana",
+        "returns": 377,
+        "agi_usd": 42596876,
+        "tax_liability_usd": 2124656
+      },
+      {
+        "zip": "91365",
+        "city": "Woodland Hills",
+        "returns": 374,
+        "agi_usd": 38815959,
+        "tax_liability_usd": 2105013
+      },
+      {
+        "zip": "91510",
+        "city": "Burbank",
+        "returns": 488,
+        "agi_usd": 41300736,
+        "tax_liability_usd": 2081697
+      },
+      {
+        "zip": "93591",
+        "city": "Palmdale",
+        "returns": 2665,
+        "agi_usd": 120191272,
+        "tax_liability_usd": 2041591
+      },
+      {
+        "zip": "91802",
+        "city": "Alhambra",
+        "returns": 538,
+        "agi_usd": 48074506,
+        "tax_liability_usd": 1994850
+      },
+      {
+        "zip": "91118",
+        "city": "San Marino",
+        "returns": 182,
+        "agi_usd": 34877606,
+        "tax_liability_usd": 1774731
+      },
+      {
+        "zip": "90295",
+        "city": "Marina Del Rey",
+        "returns": 331,
+        "agi_usd": 33097368,
+        "tax_liability_usd": 1742957
+      },
+      {
+        "zip": "91372",
+        "city": "Calabasas",
+        "returns": 215,
+        "agi_usd": 38555966,
+        "tax_liability_usd": 1731041
+      },
+      {
+        "zip": "91788",
+        "city": "Walnut",
+        "returns": 315,
+        "agi_usd": 34529618,
+        "tax_liability_usd": 1705409
+      },
+      {
+        "zip": "91066",
+        "city": "Arcadia",
+        "returns": 314,
+        "agi_usd": 32483455,
+        "tax_liability_usd": 1665933
+      },
+      {
+        "zip": "91426",
+        "city": "Encino",
+        "returns": 207,
+        "agi_usd": 31610868,
+        "tax_liability_usd": 1588585
+      },
+      {
+        "zip": "91025",
+        "city": "Sierra Madre",
+        "returns": 230,
+        "agi_usd": 28387306,
+        "tax_liability_usd": 1555147
+      },
+      {
+        "zip": "90078",
+        "city": "Los Angeles",
+        "returns": 297,
+        "agi_usd": 28332564,
+        "tax_liability_usd": 1510503
+      },
+      {
+        "zip": "91313",
+        "city": "Chatsworth",
+        "returns": 266,
+        "agi_usd": 25797290,
+        "tax_liability_usd": 1494133
+      },
+      {
+        "zip": "93553",
+        "city": "Pearblossom",
+        "returns": 726,
+        "agi_usd": 45479720,
+        "tax_liability_usd": 1458496
+      },
+      {
+        "zip": "91416",
+        "city": "Encino",
+        "returns": 301,
+        "agi_usd": 36262580,
+        "tax_liability_usd": 1426325
+      },
+      {
+        "zip": "91734",
+        "city": "El Monte",
+        "returns": 297,
+        "agi_usd": 23434321,
+        "tax_liability_usd": 1397633
+      },
+      {
+        "zip": "90702",
+        "city": "Artesia",
+        "returns": 187,
+        "agi_usd": 30272929,
+        "tax_liability_usd": 1396672
+      },
+      {
+        "zip": "90251",
+        "city": "Hawthorne",
+        "returns": 382,
+        "agi_usd": 33362399,
+        "tax_liability_usd": 1322880
+      },
+      {
+        "zip": "91209",
+        "city": "Glendale",
+        "returns": 303,
+        "agi_usd": 32087917,
+        "tax_liability_usd": 1306449
+      },
+      {
+        "zip": "90510",
+        "city": "Torrance",
+        "returns": 350,
+        "agi_usd": 29216527,
+        "tax_liability_usd": 1258397
+      },
+      {
+        "zip": "90408",
+        "city": "Santa Monica",
+        "returns": 111,
+        "agi_usd": 19404439,
+        "tax_liability_usd": 1240619
+      },
+      {
+        "zip": "91308",
+        "city": "West Hills",
+        "returns": 229,
+        "agi_usd": 25649875,
+        "tax_liability_usd": 1115597
+      },
+      {
+        "zip": "91614",
+        "city": "Studio City",
+        "returns": 234,
+        "agi_usd": 22495617,
+        "tax_liability_usd": 1098278
+      },
+      {
+        "zip": "91610",
+        "city": "Toluca Lake",
+        "returns": 178,
+        "agi_usd": 19543455,
+        "tax_liability_usd": 1097196
+      },
+      {
+        "zip": "91715",
+        "city": "City Of Industry",
+        "returns": 281,
+        "agi_usd": 25185819,
+        "tax_liability_usd": 1081919
+      },
+      {
+        "zip": "90637",
+        "city": "La Mirada",
+        "returns": 212,
+        "agi_usd": 25722024,
+        "tax_liability_usd": 1067952
+      },
+      {
+        "zip": "91409",
+        "city": "Van Nuys",
+        "returns": 326,
+        "agi_usd": 27486616,
+        "tax_liability_usd": 1058303
+      },
+      {
+        "zip": "90733",
+        "city": "San Pedro",
+        "returns": 236,
+        "agi_usd": 21808931,
+        "tax_liability_usd": 1057680
+      },
+      {
+        "zip": "93584",
+        "city": "Lancaster",
+        "returns": 158,
+        "agi_usd": 15283875,
+        "tax_liability_usd": 1050972
+      },
+      {
+        "zip": "90809",
+        "city": "Long Beach",
+        "returns": 311,
+        "agi_usd": 25554387,
+        "tax_liability_usd": 1014572
+      },
+      {
+        "zip": "90801",
+        "city": "Long Beach",
+        "returns": 439,
+        "agi_usd": 28012656,
+        "tax_liability_usd": 951484
+      },
+      {
+        "zip": "90853",
+        "city": "Long Beach",
+        "returns": 174,
+        "agi_usd": 18086300,
+        "tax_liability_usd": 918046
+      },
+      {
+        "zip": "91503",
+        "city": "Burbank",
+        "returns": 193,
+        "agi_usd": 20381691,
+        "tax_liability_usd": 917424
+      },
+      {
+        "zip": "91046",
+        "city": "Verdugo City",
+        "returns": 116,
+        "agi_usd": 18350645,
+        "tax_liability_usd": 910340
+      },
+      {
+        "zip": "90239",
+        "city": "Downey",
+        "returns": 205,
+        "agi_usd": 25569979,
+        "tax_liability_usd": 894631
+      },
+      {
+        "zip": "90714",
+        "city": "Lakewood",
+        "returns": 297,
+        "agi_usd": 23106847,
+        "tax_liability_usd": 888505
+      },
+      {
+        "zip": "91102",
+        "city": "Pasadena",
+        "returns": 194,
+        "agi_usd": 17940024,
+        "tax_liability_usd": 884665
+      },
+      {
+        "zip": "91386",
+        "city": "Canyon Country",
+        "returns": 261,
+        "agi_usd": 22249180,
+        "tax_liability_usd": 825149
+      },
+      {
+        "zip": "90086",
+        "city": "Los Angeles",
+        "returns": 126,
+        "agi_usd": 10940169,
+        "tax_liability_usd": 824369
+      },
+      {
+        "zip": "91759",
+        "city": "Mt Baldy",
+        "returns": 210,
+        "agi_usd": 18929099,
+        "tax_liability_usd": 823796
+      },
+      {
+        "zip": "91021",
+        "city": "Montrose",
+        "returns": 138,
+        "agi_usd": 14641195,
+        "tax_liability_usd": 803293
+      },
+      {
+        "zip": "90231",
+        "city": "Culver City",
+        "returns": 237,
+        "agi_usd": 19437822,
+        "tax_liability_usd": 792708
+      },
+      {
+        "zip": "91327",
+        "city": "Northridge",
+        "returns": 168,
+        "agi_usd": 16577309,
+        "tax_liability_usd": 787773
+      },
+      {
+        "zip": "91322",
+        "city": "Newhall",
+        "returns": 189,
+        "agi_usd": 18248082,
+        "tax_liability_usd": 755147
+      },
+      {
+        "zip": "91221",
+        "city": "Glendale",
+        "returns": 179,
+        "agi_usd": 20030693,
+        "tax_liability_usd": 750789
+      },
+      {
+        "zip": "90202",
+        "city": "Bell Gardens",
+        "returns": 113,
+        "agi_usd": 16401053,
+        "tax_liability_usd": 743377
+      },
+      {
+        "zip": "90749",
+        "city": "Carson",
+        "returns": 200,
+        "agi_usd": 19072426,
+        "tax_liability_usd": 731348
+      },
+      {
+        "zip": "91793",
+        "city": "West Covina",
+        "returns": 272,
+        "agi_usd": 19200112,
+        "tax_liability_usd": 726422
+      },
+      {
+        "zip": "93544",
+        "city": "Llano",
+        "returns": 442,
+        "agi_usd": 25639721,
+        "tax_liability_usd": 699597
+      },
+      {
+        "zip": "91224",
+        "city": "La Crescenta",
+        "returns": 106,
+        "agi_usd": 15397425,
+        "tax_liability_usd": 696100
+      },
+      {
+        "zip": "90607",
+        "city": "Whittier",
+        "returns": 163,
+        "agi_usd": 15089368,
+        "tax_liability_usd": 685784
+      },
+      {
+        "zip": "90734",
+        "city": "San Pedro",
+        "returns": 149,
+        "agi_usd": 13623160,
+        "tax_liability_usd": 674358
+      },
+      {
+        "zip": "91394",
+        "city": "Granada Hills",
+        "returns": 186,
+        "agi_usd": 15624817,
+        "tax_liability_usd": 656430
+      },
+      {
+        "zip": "91117",
+        "city": "Pasadena",
+        "returns": 173,
+        "agi_usd": 16935727,
+        "tax_liability_usd": 628826
+      },
+      {
+        "zip": "91769",
+        "city": "Pomona",
+        "returns": 424,
+        "agi_usd": 20674530,
+        "tax_liability_usd": 578033
+      },
+      {
+        "zip": "90707",
+        "city": "Bellflower",
+        "returns": 374,
+        "agi_usd": 21818767,
+        "tax_liability_usd": 567830
+      },
+      {
+        "zip": "91392",
+        "city": "Sylmar",
+        "returns": 328,
+        "agi_usd": 22431773,
+        "tax_liability_usd": 565615
+      },
+      {
+        "zip": "90089",
+        "city": "Los Angeles",
+        "returns": 131,
+        "agi_usd": 10026736,
+        "tax_liability_usd": 550162
+      },
+      {
+        "zip": "90609",
+        "city": "Whittier",
+        "returns": 122,
+        "agi_usd": 11690432,
+        "tax_liability_usd": 547529
+      },
+      {
+        "zip": "91077",
+        "city": "Arcadia",
+        "returns": 105,
+        "agi_usd": 10640854,
+        "tax_liability_usd": 508948
+      },
+      {
+        "zip": "90748",
+        "city": "Wilmington",
+        "returns": 314,
+        "agi_usd": 16371722,
+        "tax_liability_usd": 503399
+      },
+      {
+        "zip": "93590",
+        "city": "Palmdale",
+        "returns": 334,
+        "agi_usd": 18736480,
+        "tax_liability_usd": 498579
+      },
+      {
+        "zip": "91009",
+        "city": "Duarte",
+        "returns": 164,
+        "agi_usd": 12487777,
+        "tax_liability_usd": 482876
+      },
+      {
+        "zip": "90608",
+        "city": "Whittier",
+        "returns": 187,
+        "agi_usd": 12610861,
+        "tax_liability_usd": 469649
+      },
+      {
+        "zip": "90093",
+        "city": "Los Angeles",
+        "returns": 124,
+        "agi_usd": 10455282,
+        "tax_liability_usd": 459120
+      },
+      {
+        "zip": "91226",
+        "city": "Glendale",
+        "returns": 172,
+        "agi_usd": 12108917,
+        "tax_liability_usd": 450669
+      },
+      {
+        "zip": "91337",
+        "city": "Reseda",
+        "returns": 181,
+        "agi_usd": 12360729,
+        "tax_liability_usd": 417393
+      },
+      {
+        "zip": "91603",
+        "city": "North Hollywood",
+        "returns": 189,
+        "agi_usd": 10688529,
+        "tax_liability_usd": 407809
+      },
+      {
+        "zip": "90083",
+        "city": "Los Angeles",
+        "returns": 101,
+        "agi_usd": 8866498,
+        "tax_liability_usd": 401528
+      },
+      {
+        "zip": "90050",
+        "city": "Los Angeles",
+        "returns": 114,
+        "agi_usd": 8791847,
+        "tax_liability_usd": 381820
+      },
+      {
+        "zip": "91225",
+        "city": "Glendale",
+        "returns": 132,
+        "agi_usd": 9778213,
+        "tax_liability_usd": 380577
+      },
+      {
+        "zip": "91309",
+        "city": "Canoga Park",
+        "returns": 173,
+        "agi_usd": 8296746,
+        "tax_liability_usd": 370906
+      },
+      {
+        "zip": "91341",
+        "city": "San Fernando",
+        "returns": 122,
+        "agi_usd": 9658117,
+        "tax_liability_usd": 365877
+      },
+      {
+        "zip": "91003",
+        "city": "Altadena",
+        "returns": 105,
+        "agi_usd": 8546652,
+        "tax_liability_usd": 347475
+      },
+      {
+        "zip": "91615",
+        "city": "North Hollywood",
+        "returns": 128,
+        "agi_usd": 10768154,
+        "tax_liability_usd": 337343
+      },
+      {
+        "zip": "91747",
+        "city": "La Puente",
+        "returns": 312,
+        "agi_usd": 15785883,
+        "tax_liability_usd": 331376
+      },
+      {
+        "zip": "90651",
+        "city": "Norwalk",
+        "returns": 240,
+        "agi_usd": 13267300,
+        "tax_liability_usd": 318950
+      },
+      {
+        "zip": "91396",
+        "city": "Winnetka",
+        "returns": 151,
+        "agi_usd": 9408544,
+        "tax_liability_usd": 294698
+      },
+      {
+        "zip": "91328",
+        "city": "Northridge",
+        "returns": 110,
+        "agi_usd": 7337301,
+        "tax_liability_usd": 284791
+      },
+      {
+        "zip": "90051",
+        "city": "Los Angeles",
+        "returns": 126,
+        "agi_usd": 7229319,
+        "tax_liability_usd": 280586
+      },
+      {
+        "zip": "91346",
+        "city": "Mission Hills",
+        "returns": 115,
+        "agi_usd": 7513068,
+        "tax_liability_usd": 275196
+      },
+      {
+        "zip": "91353",
+        "city": "Sun Valley",
+        "returns": 134,
+        "agi_usd": 7600112,
+        "tax_liability_usd": 272978
+      },
+      {
+        "zip": "91125",
+        "city": "Pasadena",
+        "returns": 126,
+        "agi_usd": 5808234,
+        "tax_liability_usd": 211524
+      },
+      {
+        "zip": "90224",
+        "city": "Compton",
+        "returns": 207,
+        "agi_usd": 10424081,
+        "tax_liability_usd": 189276
+      },
+      {
+        "zip": "91041",
+        "city": "Sunland",
+        "returns": 112,
+        "agi_usd": 4988748,
+        "tax_liability_usd": 183890
+      },
+      {
+        "zip": "91333",
+        "city": "Pacoima",
+        "returns": 184,
+        "agi_usd": 8355810,
+        "tax_liability_usd": 160912
+      },
+      {
+        "zip": "91412",
+        "city": "Panorama City",
+        "returns": 143,
+        "agi_usd": 6105906,
+        "tax_liability_usd": 137494
+      }
+    ]
+  }
+}

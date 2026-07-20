@@ -1,0 +1,340 @@
+{
+  "source": {
+    "name": "FTB Personal Income Tax Statistics (B-series, ZIP)",
+    "publisher": "California Franchise Tax Board via data.ca.gov",
+    "url": "https://data.ca.gov/organization/california-franchise-tax-board",
+    "license": "Public record (California Franchise Tax Board)"
+  },
+  "as_of": "2026-07-17T200450Z",
+  "ingested_at": "2026-07-17T20:04:50.286059+00:00",
+  "cadence": "annual; FTB publishes tax-year statistics roughly two years after the tax year",
+  "coverage_flag": "masked",
+  "caveats": [
+    "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled.",
+    "Individual returns are confidential under R&TC \u00a719542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed.",
+    "The county table (B-7) reports tax assessed \u2014 a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately.",
+    "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+  ],
+  "data": {
+    "county": "Contra Costa",
+    "tax_year": 2023,
+    "total_tax_liability_usd": 3589106587,
+    "zips": [
+      {
+        "zip": "94549",
+        "city": "Lafayette",
+        "returns": 13156,
+        "agi_usd": 4809766821,
+        "tax_liability_usd": 334436759
+      },
+      {
+        "zip": "94526",
+        "city": "Danville",
+        "returns": 15729,
+        "agi_usd": 4344676489,
+        "tax_liability_usd": 282350616
+      },
+      {
+        "zip": "94563",
+        "city": "Orinda",
+        "returns": 8838,
+        "agi_usd": 3714552495,
+        "tax_liability_usd": 266851173
+      },
+      {
+        "zip": "94506",
+        "city": "Danville",
+        "returns": 11160,
+        "agi_usd": 3715318540,
+        "tax_liability_usd": 261039902
+      },
+      {
+        "zip": "94507",
+        "city": "Alamo",
+        "returns": 7274,
+        "agi_usd": 3302919284,
+        "tax_liability_usd": 237825462
+      },
+      {
+        "zip": "94583",
+        "city": "San Ramon",
+        "returns": 18407,
+        "agi_usd": 4046533026,
+        "tax_liability_usd": 229364291
+      },
+      {
+        "zip": "94598",
+        "city": "Walnut Creek",
+        "returns": 13042,
+        "agi_usd": 2799124235,
+        "tax_liability_usd": 172081304
+      },
+      {
+        "zip": "94513",
+        "city": "Brentwood",
+        "returns": 30619,
+        "agi_usd": 3558072384,
+        "tax_liability_usd": 156704356
+      },
+      {
+        "zip": "94556",
+        "city": "Moraga",
+        "returns": 7107,
+        "agi_usd": 1935749714,
+        "tax_liability_usd": 125565256
+      },
+      {
+        "zip": "94553",
+        "city": "Martinez",
+        "returns": 23575,
+        "agi_usd": 2611649104,
+        "tax_liability_usd": 121826345
+      },
+      {
+        "zip": "94523",
+        "city": "Pleasant Hill",
+        "returns": 16732,
+        "agi_usd": 2296851657,
+        "tax_liability_usd": 116631297
+      },
+      {
+        "zip": "94596",
+        "city": "Walnut Creek",
+        "returns": 11617,
+        "agi_usd": 2008015122,
+        "tax_liability_usd": 113122283
+      },
+      {
+        "zip": "94521",
+        "city": "Concord",
+        "returns": 19971,
+        "agi_usd": 2215567027,
+        "tax_liability_usd": 99610437
+      },
+      {
+        "zip": "94530",
+        "city": "El Cerrito",
+        "returns": 12998,
+        "agi_usd": 1789788899,
+        "tax_liability_usd": 94889377
+      },
+      {
+        "zip": "94597",
+        "city": "Walnut Creek",
+        "returns": 11624,
+        "agi_usd": 1679589877,
+        "tax_liability_usd": 93703418
+      },
+      {
+        "zip": "94565",
+        "city": "Pittsburg",
+        "returns": 43365,
+        "agi_usd": 2915615730,
+        "tax_liability_usd": 85071587
+      },
+      {
+        "zip": "94595",
+        "city": "Walnut Creek",
+        "returns": 9926,
+        "agi_usd": 1508221933,
+        "tax_liability_usd": 85031242
+      },
+      {
+        "zip": "94531",
+        "city": "Antioch",
+        "returns": 22497,
+        "agi_usd": 1910493457,
+        "tax_liability_usd": 68898085
+      },
+      {
+        "zip": "94561",
+        "city": "Oakley",
+        "returns": 20815,
+        "agi_usd": 1919839348,
+        "tax_liability_usd": 68577000
+      },
+      {
+        "zip": "94518",
+        "city": "Concord",
+        "returns": 12779,
+        "agi_usd": 1372139711,
+        "tax_liability_usd": 62724683
+      },
+      {
+        "zip": "94547",
+        "city": "Hercules",
+        "returns": 12750,
+        "agi_usd": 1371492996,
+        "tax_liability_usd": 62345938
+      },
+      {
+        "zip": "94804",
+        "city": "Richmond",
+        "returns": 19542,
+        "agi_usd": 1460227953,
+        "tax_liability_usd": 52686322
+      },
+      {
+        "zip": "94517",
+        "city": "Clayton",
+        "returns": 6079,
+        "agi_usd": 1024364834,
+        "tax_liability_usd": 50537425
+      },
+      {
+        "zip": "94509",
+        "city": "Antioch",
+        "returns": 29216,
+        "agi_usd": 1840279417,
+        "tax_liability_usd": 49786045
+      },
+      {
+        "zip": "94806",
+        "city": "San Pablo",
+        "returns": 27557,
+        "agi_usd": 1752848548,
+        "tax_liability_usd": 48919109
+      },
+      {
+        "zip": "94803",
+        "city": "El Sobrante",
+        "returns": 12242,
+        "agi_usd": 1100532789,
+        "tax_liability_usd": 42543938
+      },
+      {
+        "zip": "94520",
+        "city": "Concord",
+        "returns": 15949,
+        "agi_usd": 1283551700,
+        "tax_liability_usd": 35853741
+      },
+      {
+        "zip": "94519",
+        "city": "Concord",
+        "returns": 8798,
+        "agi_usd": 822870957,
+        "tax_liability_usd": 33033647
+      },
+      {
+        "zip": "94564",
+        "city": "Pinole",
+        "returns": 9404,
+        "agi_usd": 840930070,
+        "tax_liability_usd": 32355564
+      },
+      {
+        "zip": "94801",
+        "city": "Richmond",
+        "returns": 13139,
+        "agi_usd": 830956330,
+        "tax_liability_usd": 24825668
+      },
+      {
+        "zip": "94805",
+        "city": "Richmond",
+        "returns": 7032,
+        "agi_usd": 623213456,
+        "tax_liability_usd": 24821869
+      },
+      {
+        "zip": "94528",
+        "city": "Diablo",
+        "returns": 492,
+        "agi_usd": 332593899,
+        "tax_liability_usd": 24632893
+      },
+      {
+        "zip": "94572",
+        "city": "Rodeo",
+        "returns": 4228,
+        "agi_usd": 324083359,
+        "tax_liability_usd": 10951617
+      },
+      {
+        "zip": "94525",
+        "city": "Crockett",
+        "returns": 1561,
+        "agi_usd": 141426462,
+        "tax_liability_usd": 5744693
+      },
+      {
+        "zip": "94511",
+        "city": "Bethel Island",
+        "returns": 979,
+        "agi_usd": 96426728,
+        "tax_liability_usd": 4480629
+      },
+      {
+        "zip": "94514",
+        "city": "Byron",
+        "returns": 510,
+        "agi_usd": 56204511,
+        "tax_liability_usd": 2299646
+      },
+      {
+        "zip": "94570",
+        "city": "Moraga",
+        "returns": 113,
+        "agi_usd": 20736244,
+        "tax_liability_usd": 1504926
+      },
+      {
+        "zip": "94548",
+        "city": "Knightsen",
+        "returns": 306,
+        "agi_usd": 26471392,
+        "tax_liability_usd": 1089082
+      },
+      {
+        "zip": "94807",
+        "city": "Richmond",
+        "returns": 118,
+        "agi_usd": 28090224,
+        "tax_liability_usd": 1036887
+      },
+      {
+        "zip": "94524",
+        "city": "Concord",
+        "returns": 297,
+        "agi_usd": 22761780,
+        "tax_liability_usd": 906979
+      },
+      {
+        "zip": "94820",
+        "city": "El Sobrante",
+        "returns": 243,
+        "agi_usd": 20651567,
+        "tax_liability_usd": 860428
+      },
+      {
+        "zip": "94522",
+        "city": "Concord",
+        "returns": 210,
+        "agi_usd": 15170089,
+        "tax_liability_usd": 545140
+      },
+      {
+        "zip": "94569",
+        "city": "Port Costa",
+        "returns": 111,
+        "agi_usd": 11360416,
+        "tax_liability_usd": 523244
+      },
+      {
+        "zip": "94802",
+        "city": "Richmond",
+        "returns": 160,
+        "agi_usd": 9884563,
+        "tax_liability_usd": 296075
+      },
+      {
+        "zip": "94516",
+        "city": "Canyon",
+        "returns": 106,
+        "agi_usd": 7359366,
+        "tax_liability_usd": 220209
+      }
+    ]
+  }
+}
