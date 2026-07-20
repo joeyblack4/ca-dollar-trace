@@ -5,8 +5,8 @@
     "url": "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025",
     "license": "Public Domain (other-pd)"
   },
-  "as_of": "2026-07-18T070913Z",
-  "ingested_at": "2026-07-18T07:09:13.793415+00:00",
+  "as_of": "2026-07-20T082003Z",
+  "ingested_at": "2026-07-20T08:20:03.843538+00:00",
   "cadence": "daily, published ~8:45pm PT",
   "coverage_flag": "traceable",
   "caveats": [
@@ -36,8 +36,8 @@
       },
       {
         "fiscal_year": "2024-2025",
-        "award_count": 7301,
-        "awarded_known_usd": 17757937718.0,
+        "award_count": 7568,
+        "awarded_known_usd": 17817482578.0,
         "amount_unknown_count": 3,
         "with_subrecipients_usd": 2160834753.0,
         "with_subrecipients_count": 943,
@@ -599,18 +599,18 @@
         "any_subrecipients": false
       },
       {
-        "recipient_name": "Union Sanitary District",
-        "recipient_type": "Public Agency",
-        "award_count": 1,
-        "awarded_usd": 100000000.0,
-        "any_subrecipients": false
-      },
-      {
         "recipient_name": "North County Transit District (NCTD) and San Diego Association of Governments (SANDAG)",
         "recipient_type": "Public Agency",
         "award_count": 1,
         "awarded_usd": 100000000.0,
         "any_subrecipients": true
+      },
+      {
+        "recipient_name": "Union Sanitary District",
+        "recipient_type": "Public Agency",
+        "award_count": 1,
+        "awarded_usd": 100000000.0,
+        "any_subrecipients": false
       },
       {
         "recipient_name": "County of Ventura",
@@ -664,8 +664,8 @@
       {
         "recipient_name": "City of Lancaster",
         "recipient_type": "Public Agency",
-        "award_count": 4,
-        "awarded_usd": 89292856.0,
+        "award_count": 6,
+        "awarded_usd": 89854439.0,
         "any_subrecipients": false
       },
       {
@@ -900,8 +900,8 @@
       },
       {
         "agency_dept": "Department of Parks and Recreation",
-        "award_count": 813,
-        "awarded_usd": 246237999.0,
+        "award_count": 932,
+        "awarded_usd": 269841241.0,
         "with_subrecipients_usd": null
       },
       {
@@ -959,6 +959,12 @@
         "with_subrecipients_usd": 22173040.0
       },
       {
+        "agency_dept": "California Highway Patrol",
+        "award_count": 321,
+        "awarded_usd": 81150352.0,
+        "with_subrecipients_usd": null
+      },
+      {
         "agency_dept": "CA Natural Resources Agency",
         "award_count": 197,
         "awarded_usd": 72568798.0,
@@ -981,16 +987,10 @@
         "award_count": 729,
         "awarded_usd": 60273702.0,
         "with_subrecipients_usd": 799826.0
-      },
-      {
-        "agency_dept": "CA Department of Veterans Affairs",
-        "award_count": 18,
-        "awarded_usd": 58149918.0,
-        "with_subrecipients_usd": 26430178.0
       }
     ],
     "by_agency_limit": 40,
     "agency_count_total": 63,
-    "agencies_not_shown_usd": 460852245.0
+    "agencies_not_shown_usd": 473793429.0
   }
 }
