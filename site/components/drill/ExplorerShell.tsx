@@ -8,6 +8,7 @@ import { BudgetSankey } from "@/components/viz/BudgetSankey";
 import { AGENCY_PAGE_FOR_NODE } from "@/lib/agency";
 import type { BudgetWaterfall } from "@/lib/published";
 import { DrillExplorer } from "./DrillExplorer";
+import { RevenueDrill } from "./RevenueDrill";
 import { VendorSearch } from "./VendorSearch";
 import type { PathSeg } from "./types";
 
@@ -20,12 +21,16 @@ export function ExplorerShell({
 }) {
   const [path, setPath] = useState<PathSeg[]>([]);
 
-  const onDrill = (areaName: string) => {
-    const cd = AGENCY_PAGE_FOR_NODE[areaName];
+  const onDrill = (side: "revenue" | "spending", name: string) => {
+    if (side === "revenue") {
+      setPath([{ kind: "revenue", name }]);
+      return;
+    }
+    const cd = AGENCY_PAGE_FOR_NODE[name];
     setPath(
       cd
-        ? [{ kind: "area", name: areaName }, { kind: "agency", cd }]
-        : [{ kind: "area", name: areaName }]
+        ? [{ kind: "area", name }, { kind: "agency", cd }]
+        : [{ kind: "area", name }]
     );
   };
 
@@ -39,7 +44,13 @@ export function ExplorerShell({
         </p>
       </div>
       <BudgetSankey data={waterfall} asOfLabel={asOfLabel} onDrill={onDrill} />
-      <DrillExplorer waterfall={waterfall} path={path} setPath={setPath} />
+      {/* two trees, one path: the first segment decides which explorer renders
+          (separate components so each keeps a stable hook order) */}
+      {path[0]?.kind === "revenue" ? (
+        <RevenueDrill waterfall={waterfall} path={path} setPath={setPath} />
+      ) : (
+        <DrillExplorer waterfall={waterfall} path={path} setPath={setPath} />
+      )}
     </div>
   );
 }

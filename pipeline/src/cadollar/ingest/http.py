@@ -22,13 +22,13 @@ class TransientHTTPError(Exception):
 
 
 @stamina.retry(on=TransientHTTPError, attempts=4, timeout=300)
-def fetch_bytes(url: str, timeout_seconds: float = 120.0) -> bytes:
+def fetch_bytes(url: str, timeout_seconds: float = 120.0, user_agent: str | None = None) -> bytes:
     try:
         resp = httpx.get(
             url,
             timeout=timeout_seconds,
             follow_redirects=True,
-            headers={"User-Agent": USER_AGENT},
+            headers={"User-Agent": user_agent or USER_AGENT},
         )
     except (httpx.ConnectError, httpx.TimeoutException) as e:
         raise TransientHTTPError(str(e)) from e

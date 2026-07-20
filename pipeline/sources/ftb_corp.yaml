@@ -1,0 +1,26 @@
+# FTB Corporation Tax statistics — which industries and income classes pay it.
+# Statewide only: no geographic dimension exists for corporate tax, and
+# R&TC §19542 makes naming a corporate taxpayer's return a misdemeanor, so
+# industry group × income class is the statutory wall. Canonical host is
+# data.ca.gov (CKAN); each CSV is a full multi-year series and the ingester
+# publishes the latest taxable year.
+source: ftb_corp
+dataset: corp_statistics
+access: csv_download
+endpoints:
+  c10: "https://data.ca.gov/dataset/1367d156-57df-437d-ac1c-1570f66da135/resource/6ef066e3-bd81-4f43-a8e5-1875cb2f2e32/download/2023_c-10-tax-liability-by-industry-all-corporations.csv"
+  c10ab: "https://data.ca.gov/dataset/36e453b7-2937-4a67-aa89-96f74427ebe2/resource/e1639735-a0db-4387-b3e3-94443031df04/download/2023_c-10a-and-c-10b-tax-liability-by-industry-c-and-s-corporations.csv"
+  c8: "https://data.ca.gov/dataset/f8521c5a-18a8-4f1d-b4c7-64e661774a73/resource/2c4500ee-474b-4d97-978c-324d053593c5/download/2023_c-8__tax_liability_by_state_net_income_class_all_corporations.csv"
+cadence: "annual; FTB publishes tax-year statistics roughly two years after the tax year"
+freshness_sla_hours: 17520
+min_rows: 15
+coverage_flag: masked
+caveats:
+  - "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate, these tables what corporations reported for the latest published tax year. Shown side by side, never blended or scaled."
+  - "Corporate returns are confidential under R&TC §19542 — no public dataset names a corporate taxpayer or breaks the tax down geographically. Industry group and income class are the finest public cuts."
+  - "The industry table (C-10) reports tax liability; the income-class table (C-8) reports tax assessed. Different measures — their totals differ by design and both are shown."
+info:
+  name: "FTB Corporation Tax Statistics (C-series)"
+  publisher: "California Franchise Tax Board via data.ca.gov"
+  url: "https://data.ca.gov/organization/california-franchise-tax-board"
+  license: "Public record (California Franchise Tax Board)"

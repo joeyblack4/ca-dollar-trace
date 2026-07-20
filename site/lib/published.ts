@@ -80,6 +80,8 @@ export interface BudgetWaterfall {
   agencies: AgencyRow[];
   state_grand_total_usd: number;
   downstream_visibility: DownstreamNode[];
+  // optional until the enacted source re-publishes with the origin narrative
+  origin_visibility?: DownstreamNode[];
 }
 
 export function fmtUsd(n: number | null): string {

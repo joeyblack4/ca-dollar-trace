@@ -1,0 +1,29 @@
+# SEC EDGAR XBRL frames — what public companies self-report as current STATE
+# AND LOCAL income tax expense in their 10-K filings. This is the deepest
+# truthful named-company layer that exists anywhere: California cannot publish
+# per-company tax (R&TC §19542), but SEC registrants disclose their own
+# state+local expense — ALL U.S. states combined, self-reported, accrual
+# expense rather than cash paid. Never present these numbers as "California
+# tax paid"; the UI must carry that label everywhere.
+source: sec_state_tax
+dataset: state_tax_expense
+access: json_api
+endpoints:
+  frame: "https://data.sec.gov/api/xbrl/frames/us-gaap/CurrentStateAndLocalTaxExpenseBenefit/USD/CY{year}.json"
+  total_frame: "https://data.sec.gov/api/xbrl/frames/us-gaap/IncomeTaxExpenseBenefit/USD/CY{year}.json"
+  submissions: "https://data.sec.gov/submissions/CIK{cik:010d}.json"
+cadence: "annual 10-K cycle; the frame fills in over the months after each calendar year-end"
+freshness_sla_hours: 8760
+min_rows: 1500
+coverage_flag: category_only
+caveats:
+  - "Self-reported by each company in its 10-K, as tagged in XBRL. All U.S. states and localities combined — the California share is not disclosed by anyone and cannot be derived."
+  - "Accrual expense, not cash paid, and non-calendar fiscal years are mapped to the nearest calendar year by SEC's frames API."
+  - "Implausible filings (state tax expense wildly exceeding the company's own total income tax expense — almost always an XBRL tagging error) are excluded and counted, never corrected."
+info:
+  name: "SEC XBRL frames — Current State and Local Tax Expense"
+  publisher: "U.S. Securities and Exchange Commission (EDGAR)"
+  url: "https://www.sec.gov/edgar/sec-api-documentation"
+  license: "Public domain (SEC EDGAR)"
+extra:
+  top_n: 100

@@ -14,6 +14,8 @@ import sys
 
 from .config import REPO_ROOT, Settings, get_settings
 from .ingest.bhcip import run_bhcip
+from .ingest.cdtfa_insurance import run_cdtfa_insurance
+from .ingest.cdtfa_sales import run_cdtfa_sales
 from .ingest.city_checkbooks import run_city_checkbooks
 from .ingest.compensation import run_compensation
 from .ingest.county_finances import run_county_finances
@@ -24,8 +26,11 @@ from .ingest.entities import run_entities
 from .ingest.fac_sefa import run_fac_sefa
 from .ingest.federal_subawards import run_federal_subawards
 from .ingest.fiscal_vendor import run_fiscal_vendor
+from .ingest.ftb_corp import run_ftb_corp
+from .ingest.ftb_pit import run_ftb_pit
 from .ingest.grants_awards import run_grants_awards
 from .ingest.hospital_finances import run_hospital_finances
+from .ingest.irs_soi import run_irs_soi
 from .ingest.k12_apportionment import run_k12_apportionment
 from .ingest.medical_plans import run_medical_plans
 from .ingest.nonprofit_officers import run_nonprofit_officers
@@ -33,6 +38,7 @@ from .ingest.nonprofits import run_nonprofits
 from .ingest.pension_positions import run_pension_positions
 from .ingest.sacs import run_sacs
 from .ingest.search_index import run_search_index
+from .ingest.sec_state_tax import run_sec_state_tax
 from .ingest.sources_catalog import run_sources_catalog
 from .ingest.usaspending import run_usaspending
 from .publish.grants import publish_grants_summary
@@ -169,6 +175,36 @@ def _run_pension_positions(storage: Storage, settings: Settings) -> None:
     run_pension_positions(storage, cfg, settings)
 
 
+def _run_ftb_pit(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "ftb_pit")
+    run_ftb_pit(storage, cfg, settings)
+
+
+def _run_ftb_corp(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "ftb_corp")
+    run_ftb_corp(storage, cfg, settings)
+
+
+def _run_sec_state_tax(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "sec_state_tax")
+    run_sec_state_tax(storage, cfg, settings)
+
+
+def _run_cdtfa_sales(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "cdtfa_sales")
+    run_cdtfa_sales(storage, cfg, settings)
+
+
+def _run_cdtfa_insurance(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "cdtfa_insurance")
+    run_cdtfa_insurance(storage, cfg, settings)
+
+
+def _run_irs_soi(storage: Storage, settings: Settings) -> None:
+    cfg = load_source(settings, "irs_soi")
+    run_irs_soi(storage, cfg, settings)
+
+
 RUNNERS = {
     "grants_portal": _run_grants,
     "ebudget_enacted": _run_ebudget,
@@ -191,6 +227,12 @@ RUNNERS = {
     "hospital_finances": _run_hospital_finances,
     "k12_apportionment": _run_k12_apportionment,
     "pension_positions": _run_pension_positions,
+    "ftb_pit": _run_ftb_pit,
+    "ftb_corp": _run_ftb_corp,
+    "sec_state_tax": _run_sec_state_tax,
+    "cdtfa_sales": _run_cdtfa_sales,
+    "cdtfa_insurance": _run_cdtfa_insurance,
+    "irs_soi": _run_irs_soi,
     "entities": _run_entities,
     "search_index": _run_search_index,
     "sources_catalog": _run_sources_catalog,
@@ -205,6 +247,12 @@ HEAVY = {"fiscal_vendor"}
 RUN_ORDER = [
     "ebudget_enacted",
     "ebudget_detail",
+    "ftb_pit",  # ftb_* read the published waterfall for budget_reference
+    "ftb_corp",
+    "sec_state_tax",
+    "cdtfa_sales",
+    "cdtfa_insurance",
+    "irs_soi",  # reads published pit.json for the correspondence check
     "grants_portal",
     "grants_awards",
     "usaspending_ca",

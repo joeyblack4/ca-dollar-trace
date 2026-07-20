@@ -1,0 +1,61 @@
+# Curated origin-visibility annotations for the money waterfall's LEFT side.
+# For each General Fund revenue source: where the dollar comes FROM and where
+# public visibility of the payer ends. Mirrors downstream_visibility.yaml —
+# same {node, hops:[{label, flag, note, cite}]} shape, rendered by the same
+# components. Every claim carries its citation. This file is product content
+# (researched, hand-maintained), not ingested data — treat edits like
+# editorial changes and keep citations current.
+
+- node: "Personal Income Tax"
+  hops:
+    - label: "Wage withholding & estimated payments → Franchise Tax Board"
+      flag: traceable
+      note: "FTB publishes who pays by income bracket (B-4A), by county (B-7), and by ZIP — the drill below follows those tables, tax year 2022-23, the latest published."
+      cite: "https://data.ca.gov/organization/california-franchise-tax-board"
+    - label: "Individual taxpayers"
+      flag: masked
+      note: "Individual returns are confidential under R&TC §19542 — disclosure is a misdemeanor. Income bracket × county is the finest public cut anyone can publish."
+      cite: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19542"
+
+- node: "Corporation Tax"
+  hops:
+    - label: "Corporate estimated payments → Franchise Tax Board"
+      flag: traceable
+      note: "FTB publishes tax liability by industry group (C-10) and by size of company income (C-8), statewide only — no geography exists for corporate tax."
+      cite: "https://data.ca.gov/organization/california-franchise-tax-board"
+    - label: "Named companies"
+      flag: masked
+      note: "Corporate returns are confidential under R&TC §19542; the state cannot name a taxpayer. Public companies self-report state income tax expense in SEC filings — all states combined, shown in the drill with that label."
+      cite: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=19542"
+
+- node: "Sales and Use Tax"
+  hops:
+    - label: "Retail sales → sellers collect → CDTFA"
+      flag: traceable
+      note: "CDTFA publishes taxable sales (the tax base, not the tax) by business type quarterly and by city/county — current within a few months."
+      cite: "https://cdtfa.ca.gov/dataportal/"
+    - label: "Individual sellers"
+      flag: masked
+      note: "Seller-permit records are confidential under R&TC §7056; small-jurisdiction cells are suppressed at the source."
+      cite: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=7056"
+
+- node: "Insurance Tax"
+  hops:
+    - label: "Insurers' gross premiums → CDTFA/CDI assessment"
+      flag: category_only
+      note: "A 2.35% tax on gross premiums written in California. CDTFA publishes assessments by insurer type; the Department of Insurance publishes premium volumes by named insurer, but tax paid by a named insurer is not public."
+      cite: "https://cdtfa.ca.gov/dataportal/"
+
+- node: "Other"
+  hops:
+    - label: "Dozens of smaller sources → General Fund"
+      flag: category_only
+      note: "Alcohol and tobacco excises, unclaimed property, interest earnings, fees and penalties — enumerated in the Governor's Budget revenue schedule (Schedule 8), mostly without payer-level breakdowns."
+      cite: "https://ebudget.ca.gov/"
+
+- node: "Transfer from the Budget Stabilization Account/Rainy Day Fund"
+  hops:
+    - label: "Budget Stabilization Account → General Fund"
+      flag: category_only
+      note: "Not a tax: a withdrawal from the state's Prop 2 (2014) rainy-day reserve, itself built from prior-year capital-gains-driven deposits. It has no payers — see the striped reserves band on the chart."
+      cite: "https://lao.ca.gov/Publications/Report/3800"

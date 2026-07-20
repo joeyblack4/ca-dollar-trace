@@ -1,0 +1,28 @@
+# CDTFA Sales & Use Tax — who collects it (business types) and where the
+# sales happen (cities), plus the fund split showing what share of the tax
+# actually reaches the General Fund. Live OData API, quarterly, current
+# within a few months — the one revenue source whose vintage nearly matches
+# the budget bar. CRITICAL FRAMING: the by-type/by-city figures are TAXABLE
+# SALES (the tax base), not tax collected; only Summary_of_Revenues carries
+# actual revenue. Individual seller-permit data is confidential (R&TC §7056);
+# small-jurisdiction cells arrive suppressed with a disclosure flag.
+source: cdtfa_sales
+dataset: sales_statistics
+access: json_api
+endpoints:
+  biz: "https://cdtfa.ca.gov/dataportal/api/odata/Taxable_Sales_by_Type_of_Business?$filter=CalendarYear%20ge%20{year_min}&$top=50000"
+  city: "https://cdtfa.ca.gov/dataportal/api/odata/Taxable_Sales_by_City?$filter=CalendarYear%20ge%20{year_min}&$top=100000"
+  sumrev: "https://cdtfa.ca.gov/dataportal/api/odata/Summary_of_Revenues?$top=10000"
+cadence: "quarterly, ~5-month lag on taxable sales; Summary of Revenues annual"
+freshness_sla_hours: 4380
+min_rows: 30
+coverage_flag: masked
+caveats:
+  - "Taxable sales are the tax base, not tax revenue: multiply by the applicable rate to approximate tax, but only the fund split from CDTFA's Summary of Revenues shows actual dollars received, and its latest complete fiscal year trails the budget bar."
+  - "Individual seller-permit data is confidential under R&TC §7056; city cells below CDTFA's disclosure threshold arrive suppressed and are counted here, never estimated."
+  - "Business-type and city tables cannot be crossed — CDTFA publishes type-by-state and city-by-total only, so 'which business types in which city' is not answerable from public data."
+info:
+  name: "CDTFA Open Data Portal — Taxable Sales & Summary of Revenues"
+  publisher: "California Department of Tax and Fee Administration"
+  url: "https://cdtfa.ca.gov/dataportal/"
+  license: "Public record (CDTFA)"

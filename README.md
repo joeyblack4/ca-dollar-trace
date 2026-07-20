@@ -63,5 +63,10 @@ cd site && npm run build && npx wrangler deploy
 | Open FI$Cal vendor transactions (state checkbook) | monthly (60-day lag) | ✅ live (FY20+; heavy — run explicitly, excluded from cron) |
 | SCO ByTheNumbers | annual | planned (Phase 1) |
 | SACS / Ed-Data | annual | planned (Phase 1) |
+| [FTB Personal Income Tax statistics](https://data.ca.gov/organization/california-franchise-tax-board) (B-4A brackets, B-7 counties, per-ZIP) | annual (~2-yr lag) | ✅ live (revenue drill) |
+| [FTB Corporation Tax statistics](https://data.ca.gov/organization/california-franchise-tax-board) (C-10 industries, C-8 income classes) | annual (~2-yr lag) | ✅ live (revenue drill) |
+| SEC EDGAR XBRL frames (public-company state+local tax expense, all states) | annual 10-K cycle | ✅ live (revenue drill) |
+| [CDTFA taxable sales + Summary of Revenues](https://cdtfa.ca.gov/dataportal/) (business types, cities/counties, fund split) | quarterly | ✅ live (revenue drill) |
+| [CDTFA insurance tax by insurer type](https://cdtfa.ca.gov/dataportal/) | annual | ✅ live (revenue drill) |
 
 Per-source caveats live in `pipeline/sources/*.yaml` and render on every figure.

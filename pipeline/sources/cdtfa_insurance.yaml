@@ -1,0 +1,22 @@
+# CDTFA Insurance Tax — the gross-premiums tax by insurer TYPE. Insurer type
+# is the finest public cut for tax paid: the Department of Insurance publishes
+# premium volumes by named insurer, but tax paid by a named insurer is not
+# public anywhere. Assessment-year data lands within months, so this source
+# is nearly current with the budget bar.
+source: cdtfa_insurance
+dataset: insurance_assessments
+access: json_api
+endpoints:
+  assessed: "https://cdtfa.ca.gov/dataportal/api/odata/Insurance_Tax_Assessed_by_Insurer_Type?$top=5000"
+cadence: "annual assessment cycle"
+freshness_sla_hours: 8760
+min_rows: 4
+coverage_flag: category_only
+caveats:
+  - "Assessed amounts by insurer type — the tax on gross premiums written in California (2.35% standard rate). Tax paid by a named insurer is not public; the Department of Insurance publishes premium volumes by company, but not tax."
+  - "The budget waterfall shows the DOF General Fund estimate; CDTFA assessments differ slightly in timing and scope (e.g. surplus lines are administered separately)."
+info:
+  name: "CDTFA Open Data Portal — Insurance Tax Assessed by Insurer Type"
+  publisher: "California Department of Tax and Fee Administration"
+  url: "https://cdtfa.ca.gov/dataportal/"
+  license: "Public record (CDTFA)"

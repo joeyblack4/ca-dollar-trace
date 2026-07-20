@@ -12,7 +12,282 @@ export type PathSeg =
   | { kind: "plans" }
   | { kind: "hospitals" }
   | { kind: "counties" }
-  | { kind: "districts" };
+  | { kind: "districts" }
+  // revenue tree (left side of the Sankey): rooted at a revenue source bar
+  | { kind: "revenue"; name: string }
+  | { kind: "rev_migration" }
+  | { kind: "rev_brackets" }
+  | { kind: "rev_counties" }
+  | { kind: "rev_county"; county: string }
+  | { kind: "rev_zips"; county: string }
+  | { kind: "rev_high_income" }
+  | { kind: "rev_industries" }
+  | { kind: "rev_income_classes" }
+  | { kind: "rev_companies" }
+  | { kind: "rev_biztypes" }
+  | { kind: "rev_cities" };
+
+/* ---------- revenue drill docs (published/revenue/*) ---------- */
+
+export interface BudgetReference {
+  budget_year: string;
+  waterfall_usd: number;
+  stats_total_usd: number;
+  note: string;
+}
+
+export interface PitBracket {
+  label: string;
+  floor_usd: number | null; // null = negative or zero AGI
+  ceiling_usd: number | null; // null = open-ended top band
+  returns: number;
+  agi_usd: number;
+  tax_liability_usd: number;
+  avg_tax_usd: number;
+  share_of_tax_pct: number;
+  cum_share_of_tax_pct: number; // this band and above
+  share_of_returns_pct: number;
+}
+
+export interface PitHighIncomeTier {
+  label: string;
+  floor_usd: number;
+  returns: number;
+  tax_liability_usd: number;
+  share_of_tax_pct: number;
+}
+
+export interface PitCountyBracket {
+  label: string;
+  returns: number | null; // null = suppressed at source, never zero
+  agi_usd: number | null;
+  tax_assessed_usd: number | null;
+}
+
+export interface PitCounty {
+  county: string;
+  returns: number;
+  agi_usd: number;
+  tax_assessed_usd: number;
+  per_return_tax_usd: number;
+  brackets: PitCountyBracket[];
+  suppressed_cells: number;
+}
+
+export interface DisplayBand {
+  label: string;
+  returns: number;
+  share_of_returns_pct: number;
+  share_of_tax_pct: number;
+}
+
+export interface BandComposition {
+  source: string;
+  usd: number;
+  returns: number;
+  share_of_income_pct: number;
+}
+
+export interface BandOverlays {
+  seniors: number;
+  renters_credit: number;
+  dependents_credit: number;
+  self_employed: number;
+  amt: number;
+  mental_health_tax: number;
+  mental_health_tax_usd: number;
+}
+
+export interface PitRevenueDoc {
+  tax_year: number;
+  budget_reference: BudgetReference;
+  statewide: { returns: number; agi_usd: number; tax_liability_usd: number };
+  brackets: PitBracket[];
+  display_bands: (DisplayBand & {
+    tax_liability_usd: number;
+    avg_tax_usd: number;
+    composition: BandComposition[];
+    itemized_income_usd: number;
+    total_income_usd: number;
+    overlays: BandOverlays;
+  })[];
+  high_income: PitHighIncomeTier[];
+  counties: PitCounty[];
+  non_geographic: { label: string; returns: number; tax_assessed_usd: number }[];
+  county_tax_year: number;
+  county_measure_note: string;
+  county_cross_check: {
+    state_totals_usd: number;
+    counties_sum_usd: number;
+    suppression_residual_usd: number;
+  };
+  zip_tax_year: number;
+  zip_coverage: { counties: number; zips: number; listed_total_tax_usd: number; note: string };
+}
+
+export interface PitZipDoc {
+  county: string;
+  tax_year: number;
+  total_tax_liability_usd: number;
+  zips: {
+    zip: string;
+    city: string;
+    returns: number | null;
+    agi_usd: number | null;
+    tax_liability_usd: number;
+  }[];
+}
+
+export interface CorpIndustry {
+  industry: string;
+  returns: number | null;
+  net_income_usd: number | null;
+  tax_liability_usd: number;
+  share_of_tax_pct: number;
+  c_corp_tax_usd: number | null;
+  s_corp_tax_usd: number | null;
+}
+
+export interface CorpIncomeClass {
+  label: string;
+  returns: number | null;
+  net_income_usd: number | null;
+  tax_assessed_usd: number;
+  share_of_tax_pct: number;
+}
+
+export interface CorpRevenueDoc {
+  tax_year: number;
+  budget_reference: BudgetReference;
+  statewide: {
+    returns_with_liability: number;
+    net_income_usd: number;
+    tax_liability_usd: number;
+  };
+  industries: CorpIndustry[];
+  industry_reconciliation: { leaf_sum_usd: number; file_total_usd: number };
+  income_classes: CorpIncomeClass[];
+  display_classes: (DisplayBand & { tax_assessed_usd: number })[];
+  income_class_tax_year: number;
+  income_class_measure_note: string;
+  income_class_total_usd: number;
+}
+
+export interface CorpPublicCompany {
+  company: string;
+  cik: number;
+  ticker: string | null;
+  hq_state: string | null;
+  ca_hq: boolean;
+  state_local_tax_expense_usd: number;
+  total_income_tax_expense_usd: number | null;
+}
+
+export interface CorpPublicCompaniesDoc {
+  calendar_year: number;
+  companies: CorpPublicCompany[];
+  universe: {
+    companies_reporting: number;
+    excluded_implausible: number;
+    shown: number;
+    screen_rule: string;
+  };
+  measure_note: string;
+}
+
+export interface SalesRevenueDoc {
+  latest_quarter: string;
+  trailing_quarters: string[];
+  budget_reference: BudgetReference;
+  fund_split_fiscal_year: string;
+  fund_split: { fund: string; revenue_usd: number }[];
+  business_types: {
+    label: string;
+    naics: string;
+    taxable_sales_usd: number;
+    permits: number | null;
+    share_pct: number;
+  }[];
+  business_type_reconciliation: { partition_sum_usd: number; total_all_outlets_usd: number };
+  counties: { county: string; taxable_sales_usd: number; suppressed: boolean }[];
+  county_reconciliation: { counties_sum_usd: number; statewide_total_usd: number };
+  cities: {
+    city: string;
+    county: string;
+    taxable_sales_usd: number | null;
+    suppressed: boolean;
+  }[];
+  suppressed_city_count: number;
+  base_note: string;
+}
+
+export interface InsuranceRevenueDoc {
+  assessment_year: number;
+  business_year: number | null;
+  budget_reference: BudgetReference;
+  types: { type: string; businesses: number | null; assessed_usd: number; share_pct: number }[];
+  net_adjustments_usd: number;
+  reconciliation: { leaf_sum_usd: number; totals_usd: number; grand_totals_usd: number };
+}
+
+/* Federal lens: IRS statistics on the same Californians — age (60+ flag),
+   filing status, migration. Rendered ONLY in badged federal-lens panels. */
+export interface FederalLensClass {
+  label: string;
+  returns: number;
+  elderly_returns: number;
+  elderly_pct: number;
+  single: number;
+  joint: number;
+  head_of_household: number;
+  other_status: number;
+  agi_usd: number;
+}
+
+export interface FederalMigrationFlow {
+  label: string;
+  inflow_returns: number;
+  outflow_returns: number;
+  net_returns: number;
+  inflow_agi_usd: number;
+  outflow_agi_usd: number;
+}
+
+export interface FederalLensDoc {
+  framing: string;
+  tax_year: number;
+  statewide_by_class: FederalLensClass[];
+  statewide_totals: { irs_returns: number; ftb_returns: number; ratio: number; note: string };
+  counties: {
+    county: string;
+    returns: number;
+    elderly_returns: number;
+    elderly_pct: number;
+    classes: FederalLensClass[];
+    correspondence: { irs_returns: number; ftb_returns: number | null; ratio: number | null };
+  }[];
+  migration: {
+    years: string;
+    inflow_returns: number;
+    outflow_returns: number;
+    net_returns: number;
+    inflow_agi_usd: number;
+    outflow_agi_usd: number;
+    net_agi_usd: number;
+    by_income: FederalMigrationFlow[];
+    by_age: FederalMigrationFlow[];
+    trend: {
+      years: string;
+      inflow_returns: number;
+      outflow_returns: number;
+      net_returns: number;
+      inflow_agi_usd: number;
+      outflow_agi_usd: number;
+      net_agi_usd: number;
+    }[];
+    trend_note: string;
+  };
+}
 
 export interface SearchIndexDoc {
   vendor_count: number;

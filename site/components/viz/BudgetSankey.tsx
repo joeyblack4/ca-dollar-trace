@@ -56,7 +56,7 @@ export function BudgetSankey({
 }: {
   data: BudgetWaterfall;
   asOfLabel: string;
-  onDrill?: (areaName: string) => void;
+  onDrill?: (side: "revenue" | "spending", name: string) => void;
 }) {
   const [selected, setSelected] = useState<string>(`gf:${GF}`);
   const [hovered, setHovered] = useState<string | null>(null);
@@ -171,13 +171,15 @@ export function BudgetSankey({
                 aria-label={`${n.name}: ${fmtUsd(usd)}`}
                 onClick={() => {
                   setSelected(n.id);
-                  if (onDrill && n.side === "spending") onDrill(n.name);
+                  if (onDrill && (n.side === "spending" || n.side === "revenue"))
+                    onDrill(n.side, n.name);
                 }}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" || e.key === " ") {
                     e.preventDefault();
                     setSelected(n.id);
-                    if (onDrill && n.side === "spending") onDrill(n.name);
+                    if (onDrill && (n.side === "spending" || n.side === "revenue"))
+                      onDrill(n.side, n.name);
                   }
                 }}
                 onMouseEnter={() => setHovered(n.id)}
@@ -259,6 +261,7 @@ interface Detail {
   lines: string[];
   centsPerDollar?: number;
   downstream?: DownstreamNode;
+  hopsHeading?: string;
   linkToGrants?: boolean;
   drillHref?: string;
   drillLabel?: string;
@@ -295,6 +298,10 @@ function buildDetail(id: string, data: BudgetWaterfall): Detail | null {
         `${((rev.usd / gf.revenue_total_usd) * 100).toFixed(1)}% of General Fund revenues.`,
       ],
       centsPerDollar: (rev.usd / gf.revenue_total_usd) * 100,
+      downstream: data.origin_visibility?.find((d) => d.node === rev.name),
+      hopsHeading: "Where this dollar comes from — and where the public record stops",
+      drillHref: "#drill",
+      drillLabel: "Follow where this money comes from →",
     };
   }
   const exp = gf.expenditure.find((e) => `exp:${e.name}` === id);
@@ -348,7 +355,9 @@ function DetailPanel({ detail, inPageDrill }: { detail: Detail; inPageDrill?: bo
 
       {detail.downstream && (
         <div className="mt-4">
-          <h4 className="text-sm font-medium">Where this dollar goes next — and where we lose sight of it</h4>
+          <h4 className="text-sm font-medium">
+            {detail.hopsHeading ?? "Where this dollar goes next — and where we lose sight of it"}
+          </h4>
           <ol className="mt-2 space-y-3">
             {detail.downstream.hops.map((hop, i) => (
               <li

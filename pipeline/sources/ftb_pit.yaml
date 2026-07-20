@@ -1,0 +1,31 @@
+# FTB Personal Income Tax statistics — who pays the state's largest revenue
+# source, at the finest granularity the law allows. Individual returns are
+# confidential under R&TC §19542 (disclosure is a misdemeanor), so the public
+# record bottoms out at AGI bracket × county (B-7) and per-ZIP totals.
+#
+# Canonical host is data.ca.gov (CKAN). FTB's own Socrata portal
+# (data.ftb.ca.gov) was decommissioned — do not point endpoints there.
+# Each CSV is a full multi-year time series; the ingester publishes the
+# latest taxable year and records the vintage.
+source: ftb_pit
+dataset: pit_statistics
+access: csv_download
+endpoints:
+  b4a: "https://data.ca.gov/dataset/e080edad-fdc4-4edb-9671-33e99698c389/resource/0d9f935e-b288-465e-a778-6e5f06091873/download/2023-b-4a__adjusted_gross_income_class_comparison__all_filing_statuses.csv"
+  b3: "https://data.ca.gov/dataset/70c22c88-4b35-43c9-b1ee-6552f54baea9/resource/bb547421-f1eb-454d-a1f2-69915073ff78/download/2023-b-3__adjusted_gross_income_with_accumulated_percentages.csv"
+  b7: "https://data.ca.gov/dataset/2a273ac1-39c6-4e3b-a1e6-e0fb1bf495b5/resource/ef37e456-32f5-40b2-a70b-777032f1592b/download/2023-b-7__adjusted_gross_income_by_county.csv"
+  zip: "https://data.ca.gov/dataset/71b7f174-eee9-45fa-ac87-5dd533640878/resource/7091fcca-e695-49ab-aa44-6e0c6f49c9c1/download/2024_personal_income_tax_statistics_by_zip_code.csv"
+cadence: "annual; FTB publishes tax-year statistics roughly two years after the tax year"
+freshness_sla_hours: 17520
+min_rows: 40
+coverage_flag: masked
+caveats:
+  - "Tax-year statistics, not budget-year receipts: the budget waterfall shows the Department of Finance's enacted revenue estimate for the budget year, while these tables measure liability actually reported on returns for the latest published tax year. The two will not match and are shown side by side, never blended or scaled."
+  - "Individual returns are confidential under R&TC §19542; cells below FTB's disclosure threshold are suppressed at the source and are counted here, never imputed."
+  - "The county table (B-7) reports tax assessed — a different measure from the tax liability in the statewide bracket table (B-4A). County figures also include nonresident and unallocated returns, listed separately."
+  - "ZIP-code totals are published for a more recent tax year than the bracket and county tables, and ZIPs below the disclosure threshold are omitted by FTB."
+info:
+  name: "FTB Personal Income Tax Statistics (B-series, ZIP)"
+  publisher: "California Franchise Tax Board via data.ca.gov"
+  url: "https://data.ca.gov/organization/california-franchise-tax-board"
+  license: "Public record (California Franchise Tax Board)"

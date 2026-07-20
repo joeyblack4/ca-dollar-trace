@@ -32,6 +32,17 @@ export function CoverageBadge({ flag }: { flag: CoverageFlag }) {
   );
 }
 
+/* Vintage chip: marks a figure whose year differs from the budget bar it sits
+   under (e.g. tax-year 2022 statistics beneath a FY2025-26 estimate). Amber so
+   it reads as "context differs", not as an error. */
+export function VintageChip({ label }: { label: string }) {
+  return (
+    <span className="inline-block rounded-full border border-amber-600/40 bg-amber-500/10 px-2 py-0.5 text-xs font-medium text-amber-700">
+      {label}
+    </span>
+  );
+}
+
 export function SourceChip({
   source,
   asOf,

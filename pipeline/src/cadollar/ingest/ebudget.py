@@ -141,6 +141,10 @@ def build_waterfall(
     with open(downstream_path) as f:
         downstream = yaml.safe_load(f)
 
+    origin_path = settings.sources_dir / "curated" / "origin_visibility.yaml"
+    with open(origin_path) as f:
+        origin = yaml.safe_load(f)
+
     return {
         "budget_year": "2025-26",
         "basis": "enacted",
@@ -161,4 +165,5 @@ def build_waterfall(
         },
         "state_grand_total_usd": state_grand_total,
         "downstream_visibility": downstream,
+        "origin_visibility": origin,
     }

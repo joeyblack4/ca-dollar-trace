@@ -1,0 +1,32 @@
+# IRS SOI statistics for California — the FEDERAL LENS on the same taxpayers.
+# California tax data carries no age and no filing-status detail; IRS county
+# statistics do (60+ flag, single/joint/head-of-household), and the migration
+# files show the tax base moving by age × income. These are FEDERAL returns:
+# never blended into any California figure — the site shows them only inside
+# badged "federal lens" panels, with a published correspondence check proving
+# the populations line up (a 540 filer is a 1040 filer).
+source: irs_soi
+dataset: ca_federal_lens
+access: csv_download
+endpoints:
+  county: "https://www.irs.gov/pub/irs-soi/22incyallagi.csv"
+  # {edition} = consecutive filing years, e.g. "2223"; the ingester probes
+  # newest-first so a fresh IRS release is picked up automatically
+  migration: "https://www.irs.gov/pub/irs-soi/{edition}inmigall.csv"
+cadence: "annual; SOI publishes county data ~2 years after the tax year"
+freshness_sla_hours: 17520
+min_rows: 8
+coverage_flag: category_only
+caveats:
+  - "Federal (IRS) returns, not California tax data. Shown only as a demographic lens on the same taxpayer population — never combined with any California dollar figure."
+  - "Age is a single flag: primary taxpayer 60 or older. No finer age detail exists in any public tax data."
+  - "IRS counts slightly more filers than FTB (federal filers below California's filing threshold); the per-county correspondence ratio is published so the overlap is visible, not assumed."
+  - "Migration flows cover returns filed in consecutive years and matched by the IRS; small cells are suppressed at the source. The IRS enhanced its matching process starting with the 2022-23 edition, so that year is not perfectly comparable to earlier ones."
+  - "Migration is shown as a multi-year trend on purpose: any single year is a snapshot, and the pandemic-era peak would overstate the current pace."
+info:
+  name: "IRS SOI county statistics & migration data (California)"
+  publisher: "Internal Revenue Service, Statistics of Income"
+  url: "https://www.irs.gov/statistics/soi-tax-stats-county-data"
+  license: "Public domain (IRS SOI)"
+extra:
+  trend_editions: 5
