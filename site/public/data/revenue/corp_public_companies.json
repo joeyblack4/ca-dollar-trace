@@ -5,8 +5,8 @@
     "url": "https://www.sec.gov/edgar/sec-api-documentation",
     "license": "Public domain (SEC EDGAR)"
   },
-  "as_of": "2026-07-17T163650Z",
-  "ingested_at": "2026-07-17T16:36:50.653320+00:00",
+  "as_of": "2026-07-21T074518Z",
+  "ingested_at": "2026-07-21T07:45:18.871192+00:00",
   "cadence": "annual 10-K cycle; the frame fills in over the months after each calendar year-end",
   "coverage_flag": "category_only",
   "caveats": [
@@ -468,6 +468,15 @@
         "total_income_tax_expense_usd": 1125023000
       },
       {
+        "company": "FedEx Corporation",
+        "cik": 1048911,
+        "ticker": "FDX",
+        "hq_state": "TN",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 186000000,
+        "total_income_tax_expense_usd": 1360000000
+      },
+      {
         "company": "Broadcom Inc.",
         "cik": 1730168,
         "ticker": "AVGO",
@@ -747,6 +756,15 @@
         "total_income_tax_expense_usd": 567000000
       },
       {
+        "company": "Paychex, Inc.",
+        "cik": 723531,
+        "ticker": "PAYX",
+        "hq_state": "NY",
+        "ca_hq": false,
+        "state_local_tax_expense_usd": 122900000,
+        "total_income_tax_expense_usd": 550800000
+      },
+      {
         "company": "ALLSTATE CORP",
         "cik": 899051,
         "ticker": "ALL",
@@ -898,28 +916,10 @@
         "ca_hq": false,
         "state_local_tax_expense_usd": 106000000,
         "total_income_tax_expense_usd": 844000000
-      },
-      {
-        "company": "NORFOLK SOUTHERN CORPORATION",
-        "cik": 702165,
-        "ticker": "NSC",
-        "hq_state": "GA",
-        "ca_hq": false,
-        "state_local_tax_expense_usd": 105000000,
-        "total_income_tax_expense_usd": 792000000
-      },
-      {
-        "company": "DEERE & CO",
-        "cik": 315189,
-        "ticker": "DE",
-        "hq_state": "IL",
-        "ca_hq": false,
-        "state_local_tax_expense_usd": 103000000,
-        "total_income_tax_expense_usd": 1259000000
       }
     ],
     "universe": {
-      "companies_reporting": 3089,
+      "companies_reporting": 3092,
       "excluded_implausible": 13,
       "shown": 100,
       "screen_rule": "excluded where state+local expense > 10x the company's own total income tax expense + $5,000,000 (XBRL tagging errors), or where no total was reported to check against"
