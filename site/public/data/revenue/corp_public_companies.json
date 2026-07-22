@@ -5,8 +5,8 @@
     "url": "https://www.sec.gov/edgar/sec-api-documentation",
     "license": "Public domain (SEC EDGAR)"
   },
-  "as_of": "2026-07-21T074518Z",
-  "ingested_at": "2026-07-21T07:45:18.871192+00:00",
+  "as_of": "2026-07-22T074416Z",
+  "ingested_at": "2026-07-22T07:44:16.207912+00:00",
   "cadence": "annual 10-K cycle; the frame fills in over the months after each calendar year-end",
   "coverage_flag": "category_only",
   "caveats": [
@@ -919,7 +919,7 @@
       }
     ],
     "universe": {
-      "companies_reporting": 3092,
+      "companies_reporting": 3093,
       "excluded_implausible": 13,
       "shown": 100,
       "screen_rule": "excluded where state+local expense > 10x the company's own total income tax expense + $5,000,000 (XBRL tagging errors), or where no total was reported to check against"
