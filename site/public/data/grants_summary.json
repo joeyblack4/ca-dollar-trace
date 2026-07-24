@@ -5,8 +5,8 @@
     "url": "https://data.ca.gov/dataset/california-grants-portal",
     "license": "Public Domain (other-pd)"
   },
-  "as_of": "2026-07-23T074553Z",
-  "ingested_at": "2026-07-23T07:45:53.960630+00:00",
+  "as_of": "2026-07-24T074357Z",
+  "ingested_at": "2026-07-24T07:43:57.723259+00:00",
   "cadence": "daily, published ~8:45pm PT",
   "coverage_flag": "traceable",
   "caveats": [
@@ -23,8 +23,8 @@
       },
       {
         "status": "closed",
-        "grant_count": 1790,
-        "est_avail_funds_known_usd": 83003281600.0,
+        "grant_count": 1795,
+        "est_avail_funds_known_usd": 83053281600.0,
         "funds_unknown_count": 196
       },
       {
@@ -192,12 +192,6 @@
         "funds_unknown_count": 0
       },
       {
-        "category": "Agriculture",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": 10000000.0,
-        "funds_unknown_count": 0
-      },
-      {
         "category": "Environment & Water; Transportation",
         "grant_count": 1,
         "est_avail_funds_known_usd": 10000000.0,
@@ -205,6 +199,12 @@
       },
       {
         "category": "Agriculture; Disadvantaged Communities; Disaster Prevention & Relief; Employment, Labor & Training; Environment & Water; Food & Nutrition; Parks & Recreation",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": 10000000.0,
+        "funds_unknown_count": 0
+      },
+      {
+        "category": "Agriculture",
         "grant_count": 1,
         "est_avail_funds_known_usd": 10000000.0,
         "funds_unknown_count": 0
@@ -306,43 +306,7 @@
         "funds_unknown_count": 0
       },
       {
-        "category": "Disadvantaged Communities; Employment, Labor & Training; Energy; Environment & Water; Food & Nutrition; Health & Human Services; Housing, Community and Economic Development; Parks & Recreation; Transportation",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
-        "category": "Disadvantaged Communities; Employment, Labor & Training; Energy; Environment & Water; Health & Human Services; Housing, Community and Economic Development; Parks & Recreation; Transportation",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
-        "category": "Agriculture; Science, Technology, and Research & Development",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
         "category": "Education; Energy",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
-        "category": "Agriculture; Disadvantaged Communities; Disaster Prevention & Relief; Environment & Water; Housing, Community and Economic Development; Parks & Recreation",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
-        "category": "Employment, Labor & Training; Energy; Environment & Water; Housing, Community and Economic Development; Science, Technology, and Research & Development; Transportation",
-        "grant_count": 1,
-        "est_avail_funds_known_usd": null,
-        "funds_unknown_count": 1
-      },
-      {
-        "category": "Agriculture; Environment & Water",
         "grant_count": 1,
         "est_avail_funds_known_usd": null,
         "funds_unknown_count": 1
@@ -354,7 +318,43 @@
         "funds_unknown_count": 1
       },
       {
+        "category": "Agriculture; Environment & Water",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
+        "category": "Disadvantaged Communities; Employment, Labor & Training; Energy; Environment & Water; Food & Nutrition; Health & Human Services; Housing, Community and Economic Development; Parks & Recreation; Transportation",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
+        "category": "Agriculture; Disadvantaged Communities; Disaster Prevention & Relief; Environment & Water; Housing, Community and Economic Development; Parks & Recreation",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
+        "category": "Agriculture; Science, Technology, and Research & Development",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
+        "category": "Disadvantaged Communities; Employment, Labor & Training; Energy; Environment & Water; Health & Human Services; Housing, Community and Economic Development; Parks & Recreation; Transportation",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
         "category": "Agriculture; Disadvantaged Communities; Environment & Water",
+        "grant_count": 1,
+        "est_avail_funds_known_usd": null,
+        "funds_unknown_count": 1
+      },
+      {
+        "category": "Employment, Labor & Training; Energy; Environment & Water; Housing, Community and Economic Development; Science, Technology, and Research & Development; Transportation",
         "grant_count": 1,
         "est_avail_funds_known_usd": null,
         "funds_unknown_count": 1

@@ -5,8 +5,8 @@
     "url": "https://data.ca.gov/dataset/california-grants-portal-grant-awards-2024-2025",
     "license": "Public Domain (other-pd)"
   },
-  "as_of": "2026-07-23T074555Z",
-  "ingested_at": "2026-07-23T07:45:55.994760+00:00",
+  "as_of": "2026-07-24T074359Z",
+  "ingested_at": "2026-07-24T07:43:59.674073+00:00",
   "cadence": "daily, published ~8:45pm PT",
   "coverage_flag": "traceable",
   "caveats": [
@@ -36,11 +36,11 @@
       },
       {
         "fiscal_year": "2024-2025",
-        "award_count": 7567,
-        "awarded_known_usd": 17816882578.0,
+        "award_count": 7613,
+        "awarded_known_usd": 17933953430.0,
         "amount_unknown_count": 3,
-        "with_subrecipients_usd": 2160834753.0,
-        "with_subrecipients_count": 943,
+        "with_subrecipients_usd": 2161254753.0,
+        "with_subrecipients_count": 944,
         "subrecipient_flag_unknown_count": 0
       }
     ],
@@ -480,14 +480,14 @@
         "any_subrecipients": false
       },
       {
-        "recipient_name": "Element Lancaster 1 LLC",
+        "recipient_name": "PSGM3, LLC (Pacific Steel Group)",
         "recipient_type": "Business",
         "award_count": 1,
         "awarded_usd": 118483412.0,
         "any_subrecipients": false
       },
       {
-        "recipient_name": "PSGM3, LLC (Pacific Steel Group)",
+        "recipient_name": "Element Lancaster 1 LLC",
         "recipient_type": "Business",
         "award_count": 1,
         "awarded_usd": 118483412.0,
@@ -899,6 +899,12 @@
         "with_subrecipients_usd": 138678658.0
       },
       {
+        "agency_dept": "Department of Conservation",
+        "award_count": 160,
+        "awarded_usd": 278308395.0,
+        "with_subrecipients_usd": 973848.0
+      },
+      {
         "agency_dept": "Department of Parks and Recreation",
         "award_count": 932,
         "awarded_usd": 269841241.0,
@@ -915,12 +921,6 @@
         "award_count": 9,
         "awarded_usd": 165289000.0,
         "with_subrecipients_usd": null
-      },
-      {
-        "agency_dept": "Department of Conservation",
-        "award_count": 114,
-        "awarded_usd": 161237543.0,
-        "with_subrecipients_usd": 553848.0
       },
       {
         "agency_dept": "Department of Industrial Relations",
